@@ -16,31 +16,49 @@ jobs:
       - name: Preserve source responses for editorial review
         run: |
           python - <<'PY'
-          import hashlib, json, pathlib, time, urllib.parse, urllib.request
+          import hashlib, html, json, pathlib, re, time, urllib.parse, urllib.request
           from datetime import datetime, timezone
           out = pathlib.Path('build/eccp-import'); out.mkdir(parents=True, exist_ok=True)
           titles = {'eccp': 'Tsêng Chi-tsê', 'eccp-guo-songtao': 'Kuo Sung-tao', 'eccp-dong-xun': 'Tung Hsün', 'eccp-chonghou': "Ch'ung-hou"}
-          manifest = []
-          for key, name in titles.items():
-              title = "Eminent Chinese of the Ch'ing Period/" + name
+          manifest, referenced = [], set()
+          def fetch(title):
               params = urllib.parse.urlencode({'action':'parse', 'page':title, 'prop':'text|wikitext|revid', 'format':'json', 'maxlag':5})
               url = 'https://en.wikisource.org/w/api.php?' + params
+              request = urllib.request.Request(url, headers={'User-Agent':'Ren-Wen/0.2 (source-preservation pilot; https://github.com/liuyao12/ren-wen)'})
+              with urllib.request.urlopen(request, timeout=45) as response: raw = response.read(5000000)
+              parsed = json.loads(raw)
+              if 'error' in parsed: raise ValueError(parsed['error'])
+              return parsed['parse'], raw, url
+          for key, name in titles.items():
+              title = "Eminent Chinese of the Ch'ing Period/" + name
               try:
-                  request = urllib.request.Request(url, headers={'User-Agent':'Ren-Wen/0.2 (source-preservation pilot; https://github.com/liuyao12/ren-wen)'})
-                  with urllib.request.urlopen(request, timeout=45) as response:
-                      raw = response.read(5000000)
-                  parsed = json.loads(raw)
-                  if 'error' in parsed: raise ValueError(parsed['error'])
-                  content = parsed['parse']['text']['*']
+                  parsed, raw, url = fetch(title)
+                  content = parsed['text']['*']
                   (out / (key + '.response.json')).write_bytes(raw)
                   (out / (key + '.html')).write_text(content, encoding='utf-8')
-                  (out / (key + '.wiki')).write_text(parsed['parse']['wikitext']['*'], encoding='utf-8')
-                  manifest.append({'id':key, 'title':title, 'apiURL':url, 'revision':parsed['parse']['revid'], 'sha256':hashlib.sha256(raw).hexdigest(), 'retrieved':datetime.now(timezone.utc).isoformat(), 'status':'downloaded-not-reviewed'})
+                  (out / (key + '.wiki')).write_text(parsed['wikitext']['*'], encoding='utf-8')
+                  body = content.split('class="prp-pages-output"',1)[1]
+                  for path in re.findall(r'href="(/wiki/Eminent_Chinese_of_the_Ch[^"#]+)"',body):
+                      referenced.add(urllib.parse.unquote(html.unescape(path[len('/wiki/'):])).replace('_',' '))
+                  manifest.append({'id':key, 'title':title, 'apiURL':url, 'revision':parsed['revid'], 'sha256':hashlib.sha256(raw).hexdigest(), 'retrieved':datetime.now(timezone.utc).isoformat(), 'status':'downloaded-not-reviewed'})
               except Exception as error:
-                  manifest.append({'id':key, 'title':title, 'apiURL':url, 'status':'failed', 'error':str(error)})
+                  manifest.append({'id':key, 'title':title, 'status':'failed', 'error':str(error)})
               time.sleep(1)
           (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          references=[]
+          for title in sorted(referenced):
+              try:
+                  parsed, raw, url = fetch(title)
+                  body=parsed['text']['*'].split('class="prp-pages-output"',1)[1]
+                  first=re.search(r'<p>(.*?)</p>',body,re.S).group(1)
+                  first=re.sub(r'<style\b.*?</style>','',first,flags=re.S)
+                  text=html.unescape(re.sub(r'<[^>]+>','',first)).replace('\u200b','').strip()
+                  references.append({'title':title, 'url':'https://en.wikisource.org/wiki/'+urllib.parse.quote(title.replace(' ','_'),safe='/'), 'revision':parsed['revid'], 'opening':text, 'status':'source-extracted-not-reviewed'})
+              except Exception as error: references.append({'title':title,'status':'failed','error':str(error)})
+              time.sleep(1)
+          (out/'reference-openings.json').write_text(json.dumps(references,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps(manifest,ensure_ascii=False,indent=2))
+          print('Reference openings:',len(references))
           PY
       - name: Include the exact code revision used for reproducible review
         run: git archive --format=tar.gz -o build/eccp-import/repository.tar.gz HEAD
