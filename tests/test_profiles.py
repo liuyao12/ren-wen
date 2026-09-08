@@ -26,7 +26,6 @@ class ProfilesTest(unittest.TestCase):
             self.assertIsNone(sui_age(birth, event))
 
     def test_lunar_year_boundary_not_gregorian_year(self):
-        # Synthetic January death before New Year: 1900 date belongs to Chinese year 1899.
         self.assertEqual(sui_age(1890, 1899), 10)
         p = self.profile
         p['life']['birth']['chineseYear'] = 1890
@@ -94,8 +93,8 @@ class ProfilesTest(unittest.TestCase):
             index_db(path, ROOT)
             index_db(path, ROOT)
             db = sqlite3.connect(path)
-            self.assertEqual(db.execute('SELECT canonical_name,sui_at_death FROM person_profile_summary').fetchone(), ('[湖南湘鄉] 曾紀澤（劼剛）',52))
-            self.assertEqual(db.execute("SELECT external_id,typeof(external_id) FROM person_external_ids WHERE provider='geni'").fetchone(), ('6000000012827521360','text'))
+            self.assertEqual(db.execute("SELECT canonical_name,sui_at_death FROM person_profile_summary WHERE id='person-zeng-jize'").fetchone(), ('[湖南湘鄉] 曾紀澤（劼剛）',52))
+            self.assertEqual(db.execute("SELECT external_id,typeof(external_id) FROM person_external_ids WHERE provider='geni' AND person_id='person-zeng-jize'").fetchone(), ('6000000012827521360','text'))
             db.close()
 
     def test_index_refuses_missing_database(self):

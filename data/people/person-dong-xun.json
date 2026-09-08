@@ -1,0 +1,14 @@
+{
+  "schemaVersion":1,"id":"person-dong-xun","collection":"ECCP","reviewStatus":"agent-proposed",
+  "coverage":"Basic reference profile for a person named in the current pilot. The complete biography and external ID matches have not yet been processed.",
+  "name":{"surname":"董","given":"恂","source":"eccp","jiguan":{"label":"江蘇甘泉","source":"eccp"},"zi":[{"value":"忱甫","source":"eccp"}],"hao":[{"value":"醞卿","source":"eccp"}],"parenthetical":{"kind":"zi","value":"忱甫"},"romanizations":[{"value":"Tung Hsün","system":"source spelling","source":"eccp"}],"note":"Canonical name uses the later attested ming 恂. ECCP also records earlier given names 椿 and 醇, and earlier zi 壽卿; these are not substituted for the canonical display."},
+  "life":{
+    "birth":{"chineseYear":1807,"era":"嘉慶","eraYear":12,"precision":"year","original":"Sept. 5, 1807","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
+    "death":{"chineseYear":1892,"era":"光緒","eraYear":18,"precision":"year","original":"1892, Aug. 10","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
+    "westernDates":[{"event":"birth","calendar":"gregorian","value":"1807-09-05","source":"eccp","status":"source-reported"},{"event":"death","calendar":"gregorian","value":"1892-08-10","source":"eccp","status":"source-reported"}],"westernYears":[],"reportedAges":[]
+  },
+  "externalIds":{"cbdb":{"id":null,"status":"not-searched"},"geni":{"id":null,"status":"not-searched"}},
+  "accounts":[{"source":"eccp","relation":"principal-biography","passage":"Opening paragraph","url":"https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Tung_Hs%C3%BCn"}],
+  "sources":{"eccp":{"title":"ECCP · Tung Hsün","url":"https://en.wikisource.org/w/index.php?oldid=11370106","locator":"Opening paragraph","access":"full-text","attribution":"Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"}},
+  "notes":["Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."]
+}

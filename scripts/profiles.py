@@ -88,6 +88,10 @@ def validate_profile(p: dict) -> None:
         _require(isinstance(claim.get('value'), str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}', claim['value']) is not None, 'Use a complete ISO Gregorian date')
         date.fromisoformat(claim['value'])
         ref(claim['source'])
+    for claim in life.get('westernYears', []):
+        _require(claim.get('event') in {'birth', 'death'} and claim.get('calendar') == 'gregorian', 'Unsupported Western year claim')
+        _require(type(claim.get('value')) is int and 1 <= claim['value'] <= 9999, 'Invalid Western year')
+        ref(claim.get('source'))
     for claim in life.get('reportedAges', []):
         _require(type(claim.get('value')) is int and claim['value'] >= 1 and claim.get('system') == 'sui', 'Invalid reported sui age')
         ref(claim['source'])
@@ -106,6 +110,9 @@ def validate_profile(p: dict) -> None:
         _require(value is not None or x['status'] != 'matched', 'An absent ID cannot be matched')
     for account in p.get('accounts', []):
         ref(account['source'])
+        if account.get('url'):
+            u = urlparse(account['url'])
+            _require(u.scheme in {'https', 'http'} and bool(u.netloc), 'Unsafe account URL')
 
 
 def load_profiles(root: Path = ROOT) -> list[dict]:
@@ -139,7 +146,17 @@ def index_db(path: Path, root: Path = ROOT) -> dict:
         db.execute('PRAGMA foreign_keys=ON')
         with db:
             for p in profiles:
-                _require(db.execute('SELECT type FROM entities WHERE id=?', (p['id'],)).fetchone() == ('person',), f"Profile has no person entity: {p['id']}")
+                existing = db.execute('SELECT type FROM entities WHERE id=?', (p['id'],)).fetchone()
+                if existing is None:
+                    # A profile may precede its first annotated occurrence (e.g. a q.v. link).
+                    # This is a derived entity projection, not a second editable authority.
+                    columns = {r[1] for r in db.execute('PRAGMA table_info(entities)')}
+                    values = {'id': p['id'], 'type': 'person', 'label': (p['name'].get('surname') or '') + p['name']['given'],
+                              'metadata': json.dumps({'origin':'person-profile', 'profile':p['id']}, ensure_ascii=False)}
+                    fields = [key for key in values if key in columns]
+                    db.execute(f"INSERT INTO entities ({','.join(fields)}) VALUES ({','.join('?' for _ in fields)})", tuple(values[key] for key in fields))
+                else:
+                    _require(existing == ('person',), f"Profile ID belongs to a non-person entity: {p['id']}")
             db.execute('CREATE TABLE IF NOT EXISTS person_profiles(id TEXT PRIMARY KEY REFERENCES entities(id), canonical_name TEXT NOT NULL, birth_chinese_year INTEGER, death_chinese_year INTEGER, metadata TEXT NOT NULL)')
             db.execute('CREATE TABLE IF NOT EXISTS person_external_ids(person_id TEXT REFERENCES person_profiles(id), provider TEXT NOT NULL, external_id TEXT, status TEXT NOT NULL, metadata TEXT NOT NULL, PRIMARY KEY(person_id,provider), UNIQUE(provider,external_id))')
             db.execute('CREATE TABLE IF NOT EXISTS person_names(person_id TEXT REFERENCES person_profiles(id), kind TEXT NOT NULL, value TEXT NOT NULL, metadata TEXT NOT NULL)')

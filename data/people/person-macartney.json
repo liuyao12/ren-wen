@@ -1,0 +1,10 @@
+{
+  "schemaVersion":1,"id":"person-macartney","collection":"ECCP","reviewStatus":"agent-proposed",
+  "coverage":"Basic reference profile for a person named in the current pilot. The complete biography and external ID matches have not yet been processed.",
+  "name":{"surname":null,"given":"馬格理","source":"eccp","jiguan":null,"zi":[{"value":"清臣","source":"eccp"}],"hao":[],"parenthetical":{"kind":"zi","value":"清臣"},"romanizations":[{"value":"Samuel Halliday Macartney","system":"source spelling","source":"eccp"}],"note":"Chinese adopted name retained unsplit; no Chinese surname is inferred. ECCP calls him a Scotsman, which is not a precise birthplace or 籍貫. His see-under reference to Kuo Sung-tao does not identify him as Kuo."},
+  "life":{"birth":null,"death":null,"westernDates":[],"westernYears":[{"event":"birth","calendar":"gregorian","value":1833,"source":"eccp","status":"source-reported"},{"event":"death","calendar":"gregorian","value":1906,"source":"eccp","status":"source-reported"}],"reportedAges":[]},
+  "externalIds":{"cbdb":{"id":null,"status":"not-searched"},"geni":{"id":null,"status":"not-searched"}},
+  "accounts":[{"source":"eccp","relation":"mentioned-in-biography","passage":"Paragraph identifying Samuel Halliday Macartney","url":"https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"}],
+  "sources":{"eccp":{"title":"ECCP · Samuel Halliday Macartney (under Kuo Sung-tao)","url":"https://en.wikisource.org/w/index.php?oldid=11290556","locator":"Paragraph identifying Samuel Halliday Macartney","access":"full-text","attribution":"Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"}},
+  "notes":["Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented.","Western years alone do not resolve a Chinese civil year. Chinese endpoints and sui age remain unset."]
+}
