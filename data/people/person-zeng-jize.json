@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "person-zeng-jize",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Basic profile drafted; the reader still contains selected excerpts, not a fully checked biography.",
+  "name": {
+    "surname": "曾",
+    "given": "紀澤",
+    "source": "eccp",
+    "jiguan": {"label": "湖南湘鄉", "entity": "place-xiangxiang", "source": "eccp"},
+    "zi": [{"value": "劼剛", "source": "eccp"}],
+    "hao": [],
+    "parenthetical": {"kind": "zi", "value": "劼剛"},
+    "romanizations": [{"value": "Tsêng Chi-tsê", "system": "Wade–Giles", "source": "eccp"}],
+    "note": "Use the sourced zi in the canonical name. An empty hao list means not yet entered, not that he had no hao. Native place is not a birthplace assertion."
+  },
+  "life": {
+    "birth": {
+      "chineseYear": 1839,
+      "era": "道光",
+      "eraYear": 19,
+      "precision": "year",
+      "original": "道光十九年己亥十一月初二日寅時",
+      "source": "geni",
+      "basis": "source-lunar-date",
+      "note": "The lunar date was visible in the indexed public Geni profile. Its underlying family-register evidence has not been independently inspected. Only the year is normalized here."
+    },
+    "death": {
+      "chineseYear": 1890,
+      "era": "光緒",
+      "eraYear": 16,
+      "precision": "year",
+      "original": "十六年，卒",
+      "source": "qsg",
+      "basis": "source-regnal-year",
+      "note": "The reign is supplied by the preceding Guangxu chronology in this account. This year-level assertion does not resolve the exact death date."
+    },
+    "westernDates": [
+      {"event": "birth", "calendar": "gregorian", "value": "1839-12-07", "source": "eccp", "status": "source-reported"},
+      {"event": "death", "calendar": "gregorian", "value": "1890-03-12", "source": "eccp", "status": "unadjudicated", "note": "Preserve ECCP's printed March 12 reading; do not silently correct it or treat it as an adjudicated exact date."}
+    ],
+    "reportedAges": [
+      {"event": "death", "system": "sui", "value": 52, "source": "eccp", "quote": "His death at the age of fifty-two sui"}
+    ]
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": "34348",
+      "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=0034348",
+      "status": "matched",
+      "source": "cbdb",
+      "checked": "2026-09-08",
+      "method": "indexed-public-record",
+      "evidence": "The indexed record identifies 34348 as 曾紀澤 / Zeng Jize, with 湘鄉 and 劼剛. No bulk CBDB record is imported."
+    },
+    "geni": {
+      "id": "6000000012827521360",
+      "url": "https://www.geni.com/people/Marquis-Tseng-Chi-tse-%E6%9B%BE%E7%B4%80%E6%BE%A4/6000000012827521360",
+      "status": "matched",
+      "source": "geni",
+      "checked": "2026-09-08",
+      "method": "indexed-public-record",
+      "evidence": "The indexed profile identifies 曾紀澤, 1839–1890, as a son of 曾國藩 and includes the ECCP identification. This checks the profile mapping, not every genealogical edge."
+    }
+  },
+  "accounts": [
+    {"source": "eccp", "relation": "principal-biography", "readerWitness": "eccp", "passage": "eccp-01"},
+    {"source": "qsg", "relation": "biographical-account", "readerWitness": "qsg", "passage": "qsg-01"}
+  ],
+  "sources": {
+    "eccp": {
+      "title": "ECCP · Tsêng Chi-tsê (Tu Lien-chê)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "Opening paragraph for name, native place and Western dates; closing biographical paragraph for 52 sui.",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg": {
+      "title": "清史稿 · 卷446 · 曾紀澤",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "Account begins 曾紀澤，字劼剛; concluding paragraph states 十六年，卒 in the Guangxu chronology.",
+      "access": "full-text",
+      "attribution": "趙爾巽等; Chinese Wikisource contributors"
+    },
+    "cbdb": {
+      "title": "CBDB · person 34348",
+      "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=0034348",
+      "locator": "Public indexed person record; mapping only, not a copied CBDB biography.",
+      "access": "search-index",
+      "attribution": "China Biographical Database Project"
+    },
+    "geni": {
+      "title": "Geni · 曾紀澤 · 6000000012827521360",
+      "url": "https://www.geni.com/people/Marquis-Tseng-Chi-tse-%E6%9B%BE%E7%B4%80%E6%BE%A4/6000000012827521360",
+      "locator": "Public indexed identity, immediate-family summary and birth event.",
+      "access": "search-index",
+      "attribution": "Geni profile contributors; the underlying genealogy has not been independently verified."
+    }
+  },
+  "notes": [
+    "Birth and death year numbers label Chinese civil years by the Gregorian year in which each Chinese year begins; they are not whole Gregorian-year intervals.",
+    "Computed age at death is 1890 - 1839 + 1 = 52 sui. It agrees with ECCP's reported age, but this agreement is not an independent source.",
+    "Use Geni to locate further family connections, then record each imported relationship with its own provenance and review status. A matched Geni ID is not blanket approval of its genealogy."
+  ]
+}
