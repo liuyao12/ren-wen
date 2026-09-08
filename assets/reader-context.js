@@ -1,0 +1,206 @@
+/** Progressive context panels. Text, source snapshots, and annotation IDs remain untouched. */
+import {escapeHTML as h, safeURL, contextFor} from './core.js';
+import {loadProfiles, canonicalName} from './profiles.js';
+import {profilesWithStubs, westernYearText, profileURL} from './person-display.js';
+import {orderedPeople, familyEdges, jurisdictionChain, inYears, project, arcPath,
+  routeSegments, validateBoundaries, boundaryPath, clampView} from './context-model.js';
+
+const $=id=>document.getElementById(id), NS='http://www.w3.org/2000/svg';
+const add=(tag,attrs,parent,text)=>{const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;parent.append(n);return n;};
+const ext=(url,label)=>safeURL(url)?`<a href="${h(safeURL(url))}" target="_blank" rel="noopener">${h(label)} ↗</a>`:h(label);
+const shortName=p=>(p.name.surname||'')+p.name.given;
+const lifeYear=(p,key)=>{const s=westernYearText(p,key);return /^\d+$/.test(s)?Number(s):null;};
+const labelYear=(p,key)=>westernYearText(p,key);
+
+async function install(){
+  if(!$('reader'))return;
+  const [cr,gr,profiles]=await Promise.all([fetch('data/catalog.json'),fetch('data/geography.json'),loadProfiles()]);
+  if(!cr.ok||!gr.ok)throw Error('Context data could not be loaded.');
+  const catalog=await cr.json(), geo=await gr.json();
+  if(geo.schemaVersion!==1)throw Error('Unsupported geography data.');
+  const people=new Map(profilesWithStubs(catalog,profiles).map(p=>[p.id,p]));
+  const entities=new Map(catalog.entities.map(e=>[e.id,e]));
+  let current=null, previousOrder=[], grouped=true, selectedPerson=null, pendingJump=null;
+  let view=[0,0,170,80], boundaries=validateBoundaries(geo.boundaries,geo.jurisdictions);
+  let chosenJurisdiction=null, lastPassage=null, frame=0, animation=0;
+  const rows=new Map(), positions=new Map();
+  const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const report=text=>{$('context-map-status').textContent=text;};
+  const dialog=document.createElement('dialog');dialog.id='context-evidence';document.body.append(dialog);
+  function evidence(title,body){dialog.innerHTML=`<button class="close" aria-label="Close evidence">×</button><h2>${h(title)}</h2>${body}`;dialog.querySelector('.close').onclick=()=>dialog.close();if(!dialog.open)dialog.showModal();}
+  function focusPassage(witness,passage){
+    dialog.close();const target=$(passage);
+    if($('source-select').value===witness&&target){target.click();target.scrollIntoView({block:'start',behavior:reduced()?'instant':'smooth'});return;}
+    pendingJump={witness,passage};$('source-select').value=witness;$('source-select').dispatchEvent(new Event('change',{bubbles:true}));
+  }
+  dialog.addEventListener('click',e=>{const b=e.target.closest('[data-evidence-passage]');if(b)focusPassage(b.dataset.witness,b.dataset.evidencePassage);});
+  const passageButton=(w,p)=>`<button data-witness="${h(w)}" data-evidence-passage="${h(p)}">Read ${h(p)}</button>`;
+
+  // Keep legacy nodes as a fallback/API compatibility surface; expose only the new panels.
+  const time=document.createElement('div');time.className='context-timeline';
+  time.innerHTML=`<div class="context-options"><label><input id="group-people" type="checkbox" checked> Group people in this passage</label><span id="context-people-count"></span></div><svg id="context-timeline" role="img" aria-label="Lifespans and source-linked parent–child relationships"></svg><div id="context-families" class="context-family-list"></div><p class="context-caption">Names open profiles. Bars select a person’s journeys. Dashed family lines are proposed relationships.</p>`;
+  $('timeline').before(time);$('timeline').style.display='none';
+  $('group-people').onchange=e=>{grouped=e.target.checked;updateTimeline();};
+  const timeline=$('context-timeline');
+  const grid=add('g',{},timeline), kin=add('g',{'class':'kin-links'},timeline), personLayer=add('g',{},timeline), cursor=add('line',{'class':'cursor'},timeline);
+
+  const panel=document.querySelector('.map-panel');
+  const mapBody=document.createElement('div');mapBody.className='context-map-body';
+  mapBody.innerHTML=`<div class="context-map-toolbar"><label>Trajectory <select id="trajectory-person" aria-label="Whose life trajectory"></select></label><label>Show <select id="trajectory-scope"><option value="all">All recorded journeys</option><option value="passage">This passage</option><option value="year">Through viewing year</option></select></label></div>
+  <div class="interactive-map"><svg id="historic-map" viewBox="0 0 170 80" role="group" tabindex="0" aria-label="Interactive map. Drag or pinch; use plus, minus, arrow keys, or Home."><defs><marker id="trajectory-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z"/></marker></defs><rect class="sea" x="0" y="0" width="170" height="80"/><image href="assets/land.svg" width="170" height="80"/><g id="historical-boundaries"></g><g id="life-trajectories"></g><g id="context-places"></g></svg>
+  <div class="map-zoom"><button id="context-zoom-in" aria-label="Zoom in">+</button><button id="context-zoom-out" aria-label="Zoom out">−</button><button id="context-map-home" aria-label="Reset map">⌂</button></div></div>
+  <div class="context-map-actions"><button id="context-fit-passage">Fit passage</button><button id="context-fit-journey">Fit journeys</button><span id="context-map-year"></span></div>
+  <p class="context-caption">Drag · scroll / pinch to zoom · arrows show stop order, not actual travel paths. Modern reference coastline and city points.</p>
+  <div id="context-map-status" class="context-caption" role="status"></div>
+  <div class="context-jurisdictions"><h3>Historical jurisdictions · 政區</h3><div class="jurisdiction-selectors">${[['province','省'],['prefecture','府'],['county','縣']].map(([id,zh])=>`<label>${zh}<select id="jurisdiction-${id}" aria-label="Historical ${id}"></select></label>`).join('')}</div>
+  <div id="jurisdiction-evidence"></div><details><summary>Boundary layer</summary><p>Hierarchy and boundaries are separate evidence. No boundary polygons are bundled. Local GeoJSON stays in this browser session.</p><label>Level <select id="boundary-level"><option value="all">All levels</option><option value="province">Provinces</option><option value="prefecture">Prefectures</option><option value="county">Counties</option></select></label><div class="context-map-actions"><button id="load-boundaries">Open GeoJSON</button><button id="clear-boundaries">Clear local layer</button></div><input id="boundary-file" type="file" accept=".json,.geojson,application/geo+json,application/json" hidden><p id="boundary-credit"></p></details></div>
+  <div id="context-journeys"></div><div id="context-place-list"></div>`;
+  for(const old of panel.querySelectorAll(':scope > .map-tools,:scope > .map-wrap,:scope > .map-note,:scope > .place-body'))old.hidden=true;
+  $('map-reset').hidden=true;panel.querySelector('.panel-footer').before(mapBody);
+  const map=$('historic-map');
+  $('trajectory-scope').onchange=()=>paintMap();
+  $('trajectory-person').onchange=e=>{selectedPerson=e.target.value;paintMap();};
+  $('boundary-level').onchange=()=>paintMap();
+  $('context-map-home').onclick=()=>setView([0,0,170,80]);
+  $('context-zoom-in').onclick=()=>zoom(.7);$('context-zoom-out').onclick=()=>zoom(1/.7);
+  $('context-fit-passage').onclick=()=>fit(current?.context.entityIds||[]);
+  $('context-fit-journey').onclick=()=>fit(visibleSegments().flatMap(s=>[s.from.place,s.to.place]));
+  function fit(ids){
+    const pts=[...new Set(ids)].map(id=>entities.get(id)?.point?.coordinates).filter(Boolean).map(project);
+    if(!pts.length){report('No mapped coordinates for this selection; no location inferred.');return;}
+    const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);
+    const w=Math.max(10,Math.max(...xs)-Math.min(...xs)+12),hh=Math.max(8,Math.max(...ys)-Math.min(...ys)+10);
+    setView([(Math.min(...xs)+Math.max(...xs)-w)/2,(Math.min(...ys)+Math.max(...ys)-hh)/2,w,hh]);
+  }
+  function setView(next){view=clampView(next);map.setAttribute('viewBox',view.join(' '));paintMap(false);}
+  function zoom(factor,center=[view[0]+view[2]/2,view[1]+view[3]/2]){
+    factor=Math.max(2/view[2],Math.min(170/view[2],factor));
+    setView([center[0]-(center[0]-view[0])*factor,center[1]-(center[1]-view[1])*factor,view[2]*factor,view[3]*factor]);
+  }
+  function coord(x,y){const p=new DOMPoint(x,y).matrixTransform(map.getScreenCTM().inverse());return[p.x,p.y];}
+  map.addEventListener('wheel',e=>{e.preventDefault();const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?300:1);zoom(Math.exp(Math.max(-.5,Math.min(.5,delta*.002))),coord(e.clientX,e.clientY));},{passive:false});
+  const pointers=new Map();let moved=false;
+  map.addEventListener('pointerdown',e=>{if(e.button!==0)return;pointers.set(e.pointerId,[e.clientX,e.clientY]);moved=false;});
+  map.addEventListener('pointermove',e=>{
+    if(!pointers.has(e.pointerId))return;
+    const before=[...pointers.values()],old=pointers.get(e.pointerId),next=[e.clientX,e.clientY];
+    if(Math.hypot(next[0]-old[0],next[1]-old[1])>3){moved=true;map.setPointerCapture(e.pointerId);}
+    if(!moved&&pointers.size===1)return;
+    if(pointers.size===1){const a=coord(...old),b=coord(...next);setView([view[0]+a[0]-b[0],view[1]+a[1]-b[1],view[2],view[3]]);}
+    pointers.set(e.pointerId,next);
+    if(pointers.size===2){const after=[...pointers.values()],dist=a=>Math.hypot(a[0][0]-a[1][0],a[0][1]-a[1][1]);const oldD=dist(before),newD=dist(after);if(oldD>0&&newD>0)zoom(oldD/newD,coord((after[0][0]+after[1][0])/2,(after[0][1]+after[1][1])/2));moved=true;}
+  });
+  for(const event of ['pointerup','pointercancel','lostpointercapture'])map.addEventListener(event,e=>pointers.delete(e.pointerId));
+  map.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopImmediatePropagation();moved=false;}},true);
+  map.addEventListener('keydown',e=>{if(e.target!==map)return;const d={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];if(d){e.preventDefault();setView([view[0]+d[0]*view[2]*.1,view[1]+d[1]*view[3]*.1,view[2],view[3]]);}else if(['+','=','-','Home'].includes(e.key)){e.preventDefault();e.key==='Home'?setView([0,0,170,80]):zoom(e.key==='-'?1/.7:.7);}});
+  $('load-boundaries').onclick=()=>$('boundary-file').click();
+  $('clear-boundaries').onclick=()=>{boundaries=geo.boundaries.features;paintMap();report('Local boundary layer removed.');};
+  $('boundary-file').onchange=async e=>{const file=e.target.files[0];e.target.value='';if(!file)return;try{if(file.size>5_000_000)throw Error('GeoJSON is limited to 5 MB.');const checked=validateBoundaries(JSON.parse(await file.text()),geo.jurisdictions);boundaries=checked;paintMap();report(`Loaded ${checked.length} local boundary features. Source claims have not been independently reviewed.`);}catch(error){report(error.message);}};
+  for(const level of ['province','prefecture','county'])$(`jurisdiction-${level}`).onchange=e=>{
+    chosenJurisdiction=e.target.value||null;updateHierarchy();focusJurisdiction();paintMap(false);
+  };
+  function focusJurisdiction(){
+    const j=geo.jurisdictions.find(j=>j.id===chosenJurisdiction);if(!j)return;
+    const polygon=boundaries.find(f=>f.properties.jurisdictionId===j.id&&inYears({start:f.properties.startYear,end:f.properties.endYear},current.year));
+    if(polygon){const rings=polygon.geometry.type==='Polygon'?polygon.geometry.coordinates:polygon.geometry.coordinates.flat();const pts=rings.flat().map(project),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);setView([Math.min(...xs)-1,Math.min(...ys)-1,Math.max(2,Math.max(...xs)-Math.min(...xs)+2),Math.max(2,Math.max(...ys)-Math.min(...ys)+2)]);}
+    else{fit(j.relatedPlaces);report(`${j.label}: hierarchy only; no historical boundary available. Located points, where present, are modern references.`);}
+  }
+  function updateHierarchy(){
+    if(!current)return;
+    let chain=jurisdictionChain(geo.jurisdictions,chosenJurisdiction,current.year);
+    const available=geo.jurisdictions.filter(j=>inYears(j.coverage,current.year));
+    for(const level of ['province','prefecture','county']){
+      const selector=$(`jurisdiction-${level}`),selected=chain.find(j=>j.level===level);
+      const parent=level==='prefecture'?chain.find(j=>j.level==='province')?.id:level==='county'?chain.find(j=>j.level==='prefecture')?.id:null;
+      const options=available.filter(j=>j.level===level&&j.parent===(parent||null));
+      selector.innerHTML=`<option value="">${level==='province'?'Choose province':'Choose / unspecified'}</option>`+options.map(j=>`<option value="${h(j.id)}">${h(j.label)}</option>`).join('');selector.value=selected?.id||'';selector.disabled=!options.length;
+    }
+    const j=chain.at(-1),s=j&&geo.sources[j.source];
+    const context=geo.placeContexts.find(c=>c.jurisdiction===chosenJurisdiction);
+    $('jurisdiction-evidence').innerHTML=j?`<p class="jurisdiction-breadcrumb" lang="zh-Hant">${chain.map(j=>h(j.label)).join(' › ')}</p><p>${ext(s.url,s.title)} · ${h(j.locator)}</p><p class="context-caption">${h(context?.note||'Administrative hierarchy, not an assertion of anyone’s whereabouts.')} Coverage: ${j.coverage.start}–${j.coverage.end}; proposed continuity, not founding dates. Intermediate circuits and other jurisdictions are not yet entered.</p>`:`<p class="context-caption">${available.length?'Choose a jurisdiction or a mentioned place.':'No hierarchy record covers this viewing year.'} This pilot contains only selected late-Qing units; it is not a complete province or county list.</p>`;
+  }
+  function visibleSegments(){return current?routeSegments(geo.journeys,{person:selectedPerson||current.source.subject,witness:current.source.id,passage:current.passage,year:current.year,scope:$('trajectory-scope').value}):[];}
+  function journeyEvidence(j){const s=catalog.sources.find(s=>s.id===j.witness);evidence(j.label,`<p>${h(j.basis)}</p><p>Status: ${h(j.status)} · ${ext(s.revisionUrl,s.shortTitle)}</p>${j.stops.map(stop=>`<p><strong>${h(stop.date)}</strong> · ${h(entities.get(stop.place)?.display||stop.place)} · ${h(stop.kind)}<br><small>${h(stop.original)}</small></p>`).join('')}${passageButton(j.witness,j.passage)}`);}
+  function paintMap(details=true){
+    if(!current)return;
+    const segments=visibleSegments(),ids=new Set(current.context.entityIds),k=Math.max(view[2]/(map.clientWidth||400),view[3]/(map.clientHeight||240));
+    const shapes=$('historical-boundaries');shapes.replaceChildren();const shown=boundaries.filter(f=>inYears({start:f.properties.startYear,end:f.properties.endYear},current.year)&&($('boundary-level').value==='all'||f.properties.level===$('boundary-level').value));
+    for(const f of shown){const p=f.properties,j=geo.jurisdictions.find(j=>j.id===p.jurisdictionId);const path=add('path',{d:boundaryPath(f.geometry),class:`historical-boundary ${p.level}`,'fill-rule':'evenodd',tabindex:0,role:'button','aria-label':j.label},shapes);add('title',{},path,`${j.label} · ${p.startYear}–${p.endYear} · locally supplied boundary`);const open=()=>{chosenJurisdiction=j.id;updateHierarchy();evidence(j.label,`<p>${ext(p.source,'Boundary source')}</p><p>${h(p.attribution)} · ${h(p.license)}</p><p>Valid ${p.startYear}–${p.endYear}. Locally supplied; not independently reviewed by Ren-Wen.</p>`);};path.onclick=open;path.onkeydown=e=>{if(e.key==='Enter')open();};}
+    const routes=$('life-trajectories');routes.replaceChildren();
+    for(const s of segments){const a=entities.get(s.from.place)?.point?.coordinates,b=entities.get(s.to.place)?.point?.coordinates;if(!a||!b)continue;const group=add('g',{'data-route':s.id},routes);const d=arcPath(a,b);add('path',{d,class:`trajectory ${s.active?'active':''} ${s.future?'future':''}`,'marker-end':'url(#trajectory-arrow)'},group);const hit=add('path',{d,class:'trajectory-hit',tabindex:0,role:'button','aria-label':`${s.journey.label}: ${s.from.date} → ${s.to.date}`},group);add('title',{},hit,`${s.from.date} ${entities.get(s.from.place).display} → ${s.to.date} ${entities.get(s.to.place).display}\nSchematic connection. Click for evidence.`);hit.onclick=()=>journeyEvidence(s.journey);hit.onkeydown=e=>{if(e.key==='Enter')journeyEvidence(s.journey);};}
+    const points=$('context-places');points.replaceChildren();const routePlaces=new Set(segments.flatMap(s=>[s.from.place,s.to.place]));
+    for(const p of catalog.entities.filter(e=>e.type==='place'&&e.point)){
+      const[x,y]=project(p.point.coordinates),g=add('g',{class:`context-place ${ids.has(p.id)?'active':''}`,tabindex:0,role:'button','aria-label':p.display,'data-place-id':p.id},points);
+      add('circle',{cx:x,cy:y,r:(ids.has(p.id)?4.7:3.5)*k},g);
+      if(ids.has(p.id)||routePlaces.has(p.id)||view[2]<70){const right=x>135;add('text',{x:x+(right?-7:7)*k,y:y+(p.id==='place-paris'?14:-6)*k,'text-anchor':right?'end':'start','font-size':11*k,'stroke-width':2.5*k},g,p.display);}
+      add('title',{},g,`${p.display} · modern reference point, not a historical jurisdiction seat`);
+      const open=()=>{const placeContext=geo.placeContexts.find(c=>c.place===p.id);chosenJurisdiction=placeContext?.jurisdiction||null;updateHierarchy();report(placeContext?placeContext.note:`${p.display}: no historical jurisdiction record imported.`);};g.onclick=open;g.onkeydown=e=>{if(e.key==='Enter')open();};
+    }
+    if(!details)return;
+    $('context-map-year').textContent=`Viewing ${current.year}`;
+    $('boundary-credit').textContent=boundaries.length?`${shown.length}/${boundaries.length} features visible at ${current.year}. `+[...new Set(shown.map(f=>`${f.properties.attribution} (${f.properties.license})`))].join('; '):'No historical polygons loaded. Modern borders are never substituted.';
+    const journeys=[...new Map(segments.map(s=>[s.journey.id,s.journey])).values()];
+    $('context-journeys').innerHTML=`<h3>Documented journeys · 行跡</h3>${journeys.length?journeys.map(j=>`<button class="journey-card ${j.passage===current.passage?'active':''}" data-journey="${h(j.id)}"><strong>${h(j.label)}</strong><small>${j.stops.filter(s=>$('trajectory-scope').value!=='year'||Number(s.date.slice(0,4))<=current.year).map(s=>`${h(s.date)} ${h(entities.get(s.place)?.label||s.place)}`).join(' → ')}</small></button>`).join(''):'<p class="context-caption">No documented journey for this person in this source and scope. Appointments and native-place references are not converted into journeys.</p>'}`;
+    $('context-journeys').querySelectorAll('[data-journey]').forEach(b=>b.onclick=()=>journeyEvidence(geo.journeys.find(j=>j.id===b.dataset.journey)));
+    $('context-place-list').innerHTML=`<h3>Places in this passage</h3>`+catalog.entities.filter(p=>p.type==='place'&&ids.has(p.id)).map(p=>`<button class="journey-card" data-context-place="${h(p.id)}">${h(p.display)} · ${h(p.label)}<small>${p.point?'Modern reference point':'Not located; no point invented'}</small></button>`).join('');
+    $('context-place-list').querySelectorAll('[data-context-place]').forEach(b=>b.onclick=()=>{const c=geo.placeContexts.find(c=>c.place===b.dataset.contextPlace);chosenJurisdiction=c?.jurisdiction||null;updateHierarchy();fit([b.dataset.contextPlace]);});
+  }
+  function updateTimeline(){
+    if(!current)return;
+    const active=new Set([...current.context.entityIds,...current.activePeople,current.source.subject]);
+    const ids=current.people;
+    const order=grouped?orderedPeople(ids,active,current.source.subject,previousOrder):ids;
+    previousOrder=order;
+    $('context-people-count').textContent=`${order.filter(id=>active.has(id)).length} in focus`;
+    const dates=ids.flatMap(id=>['birth','death'].map(key=>lifeYear(people.get(id),key))).filter(Number.isFinite);
+    const sourceEvents=catalog.events.filter(e=>e.witness===current.source.id).map(e=>e.time.start);
+    const lo=Math.floor(Math.min(...dates,...sourceEvents,1800)/10)*10,hi=Math.ceil(Math.max(...dates,...sourceEvents,1900)/10)*10;
+    $('year').min=lo;$('year').max=hi;
+    const x=year=>105+(year-lo)/(hi-lo)*275,rowHeight=59;
+    const target=new Map(order.map((id,i)=>[id,44+i*rowHeight+(i>0&&!active.has(id)?10:0)]));
+    timeline.setAttribute('viewBox',`0 0 400 ${order.length*rowHeight+60}`);
+    grid.replaceChildren();for(let y=lo;y<=hi;y+=20){add('line',{x1:x(y),x2:x(y),y1:23,y2:order.length*rowHeight+36,class:'ruler'},grid);add('text',{x:x(y),y:14,'text-anchor':'middle'},grid,String(y));}
+    for(const[id,node]of rows)if(!target.has(id)){node.remove();rows.delete(id);positions.delete(id);}
+    for(const id of order){
+      const p=people.get(id);let g=rows.get(id);if(!g){g=add('g',{'data-person-row':id},personLayer);rows.set(id,g);}g.replaceChildren();g.setAttribute('class',`person-row ${active.has(id)?'active':'dim'}`);
+      const a=add('a',{href:profileURL(id)},g);add('text',{x:3,y:1,class:'name'},a,shortName(p));add('title',{},a,canonicalName(p));
+      add('text',{x:3,y:17,class:'dates'},g,`${labelYear(p,'birth')}–${labelYear(p,'death')}`);
+      const birth=lifeYear(p,'birth'),death=lifeYear(p,'death');
+      if(birth!==null&&death!==null){const bar=add('rect',{x:x(birth),y:-10,width:Math.max(2,x(death)-x(birth)),height:17,rx:3,class:'life-bar',tabindex:0,role:'button','aria-label':`Show journeys for ${shortName(p)}`},g);add('title',{},bar,`${canonicalName(p)} · ${birth}–${death} AD. Select to view this person’s journeys.`);const choose=()=>{selectedPerson=id;$('trajectory-person').value=id;paintMap();report(`Trajectory: ${shortName(p)}. Only documented movements are shown.`);};bar.onclick=choose;bar.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}};}
+      else add('text',{x:110,y:2,class:'dates'},g,'Lifespan unresolved');
+      for(const e of current.context.events.filter(e=>e.people.includes(id)))add('circle',{cx:x(e.time.start),cy:-1,r:3,class:'event-dot'},g);
+    }
+    const edges=familyEdges(catalog.relations,order);kin.replaceChildren();const connectors=edges.map(edge=>{const child=people.get(edge.child),parent=people.get(edge.parent),b=lifeYear(child,'birth'),pb=lifeYear(parent,'birth'),pd=lifeYear(parent,'death');const aligned=b!==null&&pb!==null&&pd!==null&&b>=pb&&b<=pd;const xx=aligned?x(b):97;const path=add('path',{class:`family-connector ${edge.status==='reviewed'?'reviewed':''}`,'data-family':edge.id},kin);add('title',{},path,`${shortName(parent)} → ${shortName(child)} · parent–child · ${edge.status}`);return{...edge,node:path,x:xx};});
+    $('context-families').innerHTML=edges.map(e=>`<button data-family-evidence="${h(e.id)}">${h(shortName(people.get(e.parent)))} → ${h(shortName(people.get(e.child)))} <small>parent–child · ${h(e.status)}</small></button>`).join('');
+    $('context-families').querySelectorAll('button').forEach(b=>b.onclick=()=>{const e=edges.find(e=>e.id===b.dataset.familyEvidence);evidence('Family relationship',`<p>${h(canonicalName(people.get(e.parent)))} → ${h(canonicalName(people.get(e.child)))}</p><p>Parent → child · ${h(e.status)}. A connector uses the child’s birth year only when it lies inside the recorded parent’s lifespan; otherwise it is drawn in the relationship margin.</p>${e.evidence.map(v=>`<p>${passageButton(v.witness,v.passage)}</p>`).join('')}`);});
+    cursor.setAttribute('x1',x(current.year));cursor.setAttribute('x2',x(current.year));cursor.setAttribute('y1',22);cursor.setAttribute('y2',order.length*rowHeight+35);
+    cancelAnimationFrame(animation);const start=new Map(order.map(id=>[id,positions.get(id)??target.get(id)])),t0=performance.now();
+    function animate(now){const t=reduced()?1:Math.min(1,(now-t0)/320),ease=t*t*(3-2*t);for(const id of order){const y=start.get(id)+(target.get(id)-start.get(id))*ease;positions.set(id,y);rows.get(id).setAttribute('transform',`translate(0 ${y})`);}for(const e of connectors){const a=positions.get(e.parent)-1,b=positions.get(e.child)-1;e.node.setAttribute('d',`M${e.x-4},${a} H${e.x} V${b} H${e.x+4}`);}if(t<1)animation=requestAnimationFrame(animate);}
+    animation=requestAnimationFrame(animate);
+  }
+  function refresh(){
+    frame=0;const source=catalog.sources.find(s=>s.id===$('source-select').value),paragraph=$('reader').querySelector('p[id].active');
+    if(!source||!paragraph||!paragraph.id.startsWith(source.id+'-'))return;
+    const context=contextFor(catalog,source.id,paragraph.id);
+    const inNode=node=>[...node.querySelectorAll('[data-entity],a[data-person-link]')].map(n=>n.dataset.personLink||n.dataset.entity).filter(id=>people.has(id));
+    const activePeople=inNode(paragraph);
+    const ids=[...new Set([source.subject,...inNode($('reader')),...catalog.events.filter(e=>e.witness===source.id).flatMap(e=>e.people)])].filter(id=>people.has(id));
+    const year=Number($('year').value),key=JSON.stringify([source.id,paragraph.id,year,ids,activePeople]);
+    if(current?.key===key)return;
+    const sourceChanged=current?.source.id!==source.id;
+    current={source,passage:paragraph.id,context,activePeople,people:ids,year,key};
+    if(sourceChanged){previousOrder=[];selectedPerson=source.subject;}
+    if(!selectedPerson||!ids.includes(selectedPerson))selectedPerson=source.subject;
+    $('trajectory-person').innerHTML=ids.map(id=>`<option value="${h(id)}">${h(shortName(people.get(id)))}</option>`).join('');$('trajectory-person').value=selectedPerson;
+    if(lastPassage!==paragraph.id){const c=geo.placeContexts.find(c=>context.entityIds.includes(c.place));chosenJurisdiction=c?.jurisdiction||null;lastPassage=paragraph.id;report('');}
+    updateTimeline();updateHierarchy();paintMap();
+    if(pendingJump&&pendingJump.witness===source.id&&$(pendingJump.passage)){const p=pendingJump;pendingJump=null;focusPassage(p.witness,p.passage);}
+  }
+  const schedule=()=>{if(!frame)frame=requestAnimationFrame(refresh);};
+  new MutationObserver(schedule).observe($('reader'),{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
+  new MutationObserver(schedule).observe($('year-label'),{childList:true,subtree:true,characterData:true});
+  $('year').addEventListener('input',schedule);$('source-select').addEventListener('change',schedule);
+  if(typeof ResizeObserver!=='undefined')new ResizeObserver(()=>paintMap(false)).observe(map);
+  document.body.classList.add('context-enhanced');schedule();
+}
+install().catch(error=>{console.error(error);const status=$('status');if(status)status.textContent=`${error.message} The original reader remains available.`;});

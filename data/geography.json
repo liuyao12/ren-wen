@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "coverageNote": "A small, source-linked late-Qing hierarchy; not a complete gazetteer. Province–prefecture–county is a navigation view, omitting intermediate circuits. Parentage and temporal coverage are agent-proposed. No boundary polygons are bundled.",
+  "sources": {
+    "qsg68": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained."
+    },
+    "qsg58": {
+      "title": "清史稿 · 卷58 · 江蘇",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷58",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained."
+    },
+    "qsg54": {
+      "title": "清史稿 · 卷54 · 直隸",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷54",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained."
+    }
+  },
+  "jurisdictions": [
+    {
+      "id": "hunan",
+      "label": "湖南省",
+      "level": "province",
+      "parent": null,
+      "source": "qsg68",
+      "locator": "湖南；長沙府",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-xiangxiang"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "changsha",
+      "label": "長沙府",
+      "level": "prefecture",
+      "parent": "hunan",
+      "source": "qsg68",
+      "locator": "長沙府，下列湘鄉",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-xiangxiang"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "xiangxiang",
+      "label": "湘鄉縣",
+      "level": "county",
+      "parent": "changsha",
+      "source": "qsg68",
+      "locator": "長沙府：湘鄉，府西南二百一十里",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-xiangxiang"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "jiangsu",
+      "label": "江蘇省",
+      "level": "province",
+      "parent": null,
+      "source": "qsg58",
+      "locator": "地理五：江蘇",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-shanghai"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "songjiang",
+      "label": "松江府",
+      "level": "prefecture",
+      "parent": "jiangsu",
+      "source": "qsg58",
+      "locator": "松江府：領廳一，縣七；下列上海",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-shanghai"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "shanghai",
+      "label": "上海縣",
+      "level": "county",
+      "parent": "songjiang",
+      "source": "qsg58",
+      "locator": "松江府：上海，府東北九十里",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-shanghai"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "zhili",
+      "label": "直隸省",
+      "level": "province",
+      "parent": null,
+      "source": "qsg54",
+      "locator": "地理一：直隸；順天府兼統於直隸總督",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-peking"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "shuntian",
+      "label": "順天府",
+      "level": "prefecture",
+      "parent": "zhili",
+      "source": "qsg54",
+      "locator": "順天府：大興、宛平為附郭",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [
+        "place-peking"
+      ],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "daxing",
+      "label": "大興縣",
+      "level": "county",
+      "parent": "shuntian",
+      "source": "qsg54",
+      "locator": "大興：倚；府東偏",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [],
+      "status": "agent-proposed",
+      "geometry": null
+    },
+    {
+      "id": "wanping",
+      "label": "宛平縣",
+      "level": "county",
+      "parent": "shuntian",
+      "source": "qsg54",
+      "locator": "宛平：倚",
+      "coverage": {
+        "start": 1839,
+        "end": 1890,
+        "basis": "Pilot display coverage; not establishment or abolition dates. Continuity within this interval is an editorial proposal from the Qing geography accounts."
+      },
+      "relatedPlaces": [],
+      "status": "agent-proposed",
+      "geometry": null
+    }
+  ],
+  "placeContexts": [
+    {
+      "place": "place-xiangxiang",
+      "jurisdiction": "xiangxiang",
+      "note": "Native-place reference; not an assertion that he was born at the county seat."
+    },
+    {
+      "place": "place-shanghai",
+      "jurisdiction": "shanghai",
+      "note": "Historical administrative context of the toponym. The treaty port and foreign concessions had distinct jurisdictional arrangements; no precise landing place is identified."
+    },
+    {
+      "place": "place-peking",
+      "jurisdiction": "shuntian",
+      "note": "Capital-city context. The passage does not select between Daxing and Wanping; neither county is assigned as his precise whereabouts."
+    }
+  ],
+  "journeys": [
+    {
+      "id": "embassy-1878",
+      "label": "Journey to France and England",
+      "person": "person-zeng-jize",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "status": "agent-proposed",
+      "basis": "Explicit departure/arrival wording in the cited local source passage. Arcs connect stops schematically, not actual routes.",
+      "stops": [
+        {
+          "place": "place-shanghai",
+          "date": "1878-11-22",
+          "original": "November 22, 1878",
+          "kind": "departure"
+        },
+        {
+          "place": "place-paris",
+          "date": "1879-01-04",
+          "original": "January 4, 1879",
+          "kind": "arrival"
+        },
+        {
+          "place": "place-london",
+          "date": "1879-02-04",
+          "original": "February 4; year supplied by preceding clause",
+          "kind": "arrival"
+        }
+      ]
+    },
+    {
+      "id": "russia-1880",
+      "label": "Journey from London to St. Petersburg",
+      "person": "person-zeng-jize",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "status": "agent-proposed",
+      "basis": "Explicit departure/arrival wording in the cited local source passage. Arcs connect stops schematically, not actual routes.",
+      "stops": [
+        {
+          "place": "place-london",
+          "date": "1880-07-14",
+          "original": "July 14; year supplied by paragraph",
+          "kind": "departure"
+        },
+        {
+          "place": "place-petersburg",
+          "date": "1880-07-30",
+          "original": "July 30; year supplied by paragraph",
+          "kind": "arrival"
+        }
+      ]
+    },
+    {
+      "id": "return-1886",
+      "label": "Return via Shanghai to Peking",
+      "person": "person-zeng-jize",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "status": "agent-proposed",
+      "basis": "Explicit departure/arrival wording in the cited local source passage. Arcs connect stops schematically, not actual routes.",
+      "stops": [
+        {
+          "place": "place-shanghai",
+          "date": "1886-10-18",
+          "original": "October 18, 1886",
+          "kind": "arrival"
+        },
+        {
+          "place": "place-peking",
+          "date": "1886-12-11",
+          "original": "December 11; year supplied by preceding clause",
+          "kind": "arrival"
+        }
+      ]
+    }
+  ],
+  "boundaries": {
+    "type": "FeatureCollection",
+    "features": []
+  }
+}
