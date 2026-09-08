@@ -1,0 +1,27 @@
+name: Validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python scripts/renwen.py validate
+      - run: python -m unittest discover -s tests -v
+      - run: npm test && npm run check
+      - run: python scripts/renwen.py build-db
+      - uses: actions/upload-artifact@v4
+        with:
+          name: renwen-sqlite
+          path: build/renwen.sqlite
