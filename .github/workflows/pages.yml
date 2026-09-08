@@ -9,31 +9,7 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  readiness:
-    permissions:
-      contents: read
-      pages: read
-    runs-on: ubuntu-latest
-    outputs:
-      configured: ${{ steps.pages.outputs.configured }}
-    steps:
-      - name: Check whether Pages is enabled
-        id: pages
-        env:
-          GH_TOKEN: ${{ github.token }}
-          REPOSITORY: ${{ github.repository }}
-        run: |
-          if gh api "repos/$REPOSITORY/pages" > pages.json 2> pages-error.txt && jq -e '.build_type == "workflow"' pages.json >/dev/null; then
-            echo "configured=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "configured=false" >> "$GITHUB_OUTPUT"
-            echo "::notice::Pages is unavailable or not enabled. Select GitHub Actions in Settings > Pages, then run this workflow again."
-            echo "Pages was not deployed. Enable GitHub Actions in repository Settings > Pages, then rerun Pages. API response:" >> "$GITHUB_STEP_SUMMARY"
-            cat pages-error.txt >> "$GITHUB_STEP_SUMMARY"
-          fi
   deploy:
-    needs: readiness
-    if: needs.readiness.outputs.configured == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -43,13 +19,27 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Do not silently skip deployment when hosting is disabled.
+      # A successful Pages run must include a successful deployment.
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Explain Pages configuration failure
+        if: failure() && steps.pages.outcome == 'failure'
+        run: |
+          echo "::error::GitHub Pages configuration failed. Inspect the preceding error; this run did not publish a site."
+          {
+            echo '## Site not published'
+            echo 'GitHub Pages configuration failed. The preceding step contains the actual API error.'
+            echo "For an unconfigured site, open https://github.com/${GITHUB_REPOSITORY}/settings/pages and select **GitHub Actions** under **Build and deployment → Source**. Then re-run this workflow."
+            echo 'Adding or running a workflow does not by itself enable Pages. If Pages is already enabled, check the API error for permissions or service failures.'
+          } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
       - run: python scripts/renwen.py validate
       - run: python scripts/profiles.py validate
-      - uses: actions/configure-pages@v5
       - name: Stage only public reader files
         run: |
           mkdir -p _site
@@ -62,3 +52,8 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Record published URL
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          printf '## Published\n\n%s\n' "$PAGE_URL" >> "$GITHUB_STEP_SUMMARY"
