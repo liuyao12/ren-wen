@@ -1,5 +1,7 @@
 /** Chinese-first UI localization. Explicit message bindings only: never walk or translate source prose. */
-import chinese from './locale-zh.js';
+import baseChinese from './locale-zh.js';
+import familyChinese from './family-locale.js';
+const chinese = {...baseChinese, ...familyChinese};
 
 export const DEFAULT_LOCALE = 'zh-Hant';
 export const STORAGE_KEY = 'ren-wen:language:v1';

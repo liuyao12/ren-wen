@@ -3,7 +3,9 @@ import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h, safeURL, contextFor} from './core.js';
 import {loadProfiles, canonicalName} from './profiles.js';
 import {profilesWithStubs, westernYearText, profileURL} from './person-display.js';
-import {orderedPeople, familyEdges, jurisdictionChain, inYears, project, arcPath,
+import {createFamilyTimeline} from './family-timeline.js';
+import {familyHierarchy} from './family-layout.js';
+import {jurisdictionChain, inYears, project, arcPath,
   routeSegments, validateBoundaries, boundaryPath, clampView, referenceLevels, REGIONAL_VIEW} from './context-model.js';
 
 const $=id=>document.getElementById(id), NS='http://www.w3.org/2000/svg';
@@ -23,10 +25,9 @@ async function install(){
   let reference=null;try {const r=await fetch('data/reference-maps.json');if(r.ok)reference=await r.json();} catch(error){console.warn('Reference map unavailable',error);}
   const people=new Map(profilesWithStubs(catalog,profiles).map(p=>[p.id,p]));
   const entities=new Map(catalog.entities.map(e=>[e.id,e]));
-  let current=null, previousOrder=[], grouped=true, selectedPerson=null, pendingJump=null;
+  let current=null, selectedPerson=null, pendingJump=null;
   let view=[...REGIONAL_VIEW], boundaries=validateBoundaries(geo.boundaries,geo.jurisdictions);
-  let chosenJurisdiction=null, lastPassage=null, frame=0, animation=0;
-  const rows=new Map(), positions=new Map();
+  let chosenJurisdiction=null, lastPassage=null, frame=0;
   const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
   const report=(text,params={})=>{bindText($('context-map-status'),text,params);};
   const placeName=p=>getLocale()==='zh-Hant'?(p?.label||p?.display||''):(p?.display||p?.label||'');
@@ -42,11 +43,9 @@ async function install(){
 
   // Keep legacy nodes as a fallback/API compatibility surface; expose only the new panels.
   const time=document.createElement('div');time.className='context-timeline';
-  time.innerHTML=`<div class="context-options"><label><input id="group-people" type="checkbox" checked> ${ui("Group people in this passage")}</label><span id="context-people-count"></span></div><svg id="context-timeline" role="img" aria-label="${h(t("Lifespans and source-linked parent–child relationships"))}" data-i18n-aria-label="Lifespans and source-linked parent–child relationships"></svg><div id="context-families" class="context-family-list"></div><p class="context-caption">${ui("Names open profiles. Bars select a person’s journeys. Dashed family lines are proposed relationships.")}</p>`;
   $('timeline').before(time);$('timeline').style.display='none';
-  $('group-people').onchange=e=>{grouped=e.target.checked;updateTimeline();};
-  const timeline=$('context-timeline');
-  const grid=add('g',{},timeline), kin=add('g',{'class':'kin-links'},timeline), personLayer=add('g',{},timeline), cursor=add('line',{'class':'cursor'},timeline);
+  const familyTimeline=createFamilyTimeline({host:time,catalog,people,passageButton,onEvidence:evidence,
+    onSelect(id){selectedPerson=id;$('trajectory-person').value=id;paintMap();report('Trajectory: {name}. Only documented movements are shown.',{name:shortName(people.get(id))});}});
 
   const panel=document.querySelector('.map-panel');
   const mapBody=document.createElement('div');mapBody.className='context-map-body';
@@ -171,52 +170,20 @@ async function install(){
     $('context-place-list').innerHTML=`<h3>${ui("Places in this passage")}</h3>`+catalog.entities.filter(p=>p.type==='place'&&ids.has(p.id)).map(p=>`<button class="journey-card" data-context-place="${h(p.id)}">${h(placeName(p))}${p.display!==p.label?` · ${h(getLocale()==='zh-Hant'?p.display:p.label)}`:''}<small>${ui(p.point?'Modern reference point':'Not located; no point invented')}</small></button>`).join('');
     $('context-place-list').querySelectorAll('[data-context-place]').forEach(b=>b.onclick=()=>{const c=geo.placeContexts.find(c=>c.place===b.dataset.contextPlace);chosenJurisdiction=c?.jurisdiction||null;updateHierarchy();fit([b.dataset.contextPlace]);});
   }
-  function updateTimeline(){
-    if(!current)return;
-    const active=new Set([...current.context.entityIds,...current.activePeople,current.source.subject]);
-    const ids=current.people;
-    const order=grouped?orderedPeople(ids,active,current.source.subject,previousOrder):ids;
-    previousOrder=order;
-    bindText($('context-people-count'),'{count} in focus',{count:order.filter(id=>active.has(id)).length});
-    const dates=ids.flatMap(id=>['birth','death'].map(key=>lifeYear(people.get(id),key))).filter(Number.isFinite);
-    const sourceEvents=catalog.events.filter(e=>e.witness===current.source.id).map(e=>e.time.start);
-    const lo=Math.floor(Math.min(...dates,...sourceEvents,1800)/10)*10,hi=Math.ceil(Math.max(...dates,...sourceEvents,1900)/10)*10;
-    $('year').min=lo;$('year').max=hi;
-    const x=year=>105+(year-lo)/(hi-lo)*275,rowHeight=59;
-    const target=new Map(order.map((id,i)=>[id,44+i*rowHeight+(i>0&&!active.has(id)?10:0)]));
-    timeline.setAttribute('viewBox',`0 0 400 ${order.length*rowHeight+60}`);
-    const tick=[10,20,50,100,200,500,1000].find(step=>(hi-lo)/step<=6)||2000;
-    grid.replaceChildren();for(let y=Math.ceil(lo/tick)*tick;y<=hi;y+=tick){add('line',{x1:x(y),x2:x(y),y1:23,y2:order.length*rowHeight+36,class:'ruler'},grid);add('text',{x:x(y),y:14,'text-anchor':'middle'},grid,String(y));}
-    for(const[id,node]of rows)if(!target.has(id)){node.remove();rows.delete(id);positions.delete(id);}
-    for(const id of order){
-      const p=people.get(id);let g=rows.get(id);if(!g){g=add('g',{'data-person-row':id},personLayer);rows.set(id,g);}g.replaceChildren();g.setAttribute('class',`person-row ${active.has(id)?'active':'dim'}`);
-      const a=add('a',{href:profileURL(id)},g);add('text',{x:3,y:1,class:'name'},a,shortName(p));add('title',{},a,canonicalName(p));
-      add('text',{x:3,y:17,class:'dates'},g,`${labelYear(p,'birth')}–${labelYear(p,'death')}`);
-      const birth=lifeYear(p,'birth'),death=lifeYear(p,'death');
-      if(birth!==null&&death!==null){const bar=add('rect',{x:x(birth),y:-10,width:Math.max(2,x(death)-x(birth)),height:17,rx:3,class:'life-bar',tabindex:0,role:'button','aria-label':t('Show journeys for {name}',{name:shortName(p)})},g);add('title',{},bar,`${canonicalName(p)} · ${birth}–${death} AD. Select to view this person’s journeys.`);const choose=()=>{selectedPerson=id;$('trajectory-person').value=id;paintMap();report('Trajectory: {name}. Only documented movements are shown.',{name:shortName(p)});};bar.onclick=choose;bar.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}};}
-      else bindText(add('text',{x:110,y:2,class:'dates'},g),'Lifespan unresolved');
-      for(const e of current.context.events.filter(e=>e.people.includes(id)))add('circle',{cx:x(e.time.start),cy:-1,r:3,class:'event-dot'},g);
-    }
-    const edges=familyEdges(catalog.relations,order);kin.replaceChildren();const connectors=edges.map(edge=>{const child=people.get(edge.child),parent=people.get(edge.parent),b=lifeYear(child,'birth'),pb=lifeYear(parent,'birth'),pd=lifeYear(parent,'death');const aligned=b!==null&&pb!==null&&pd!==null&&b>=pb&&b<=pd;const xx=aligned?x(b):97;const path=add('path',{class:`family-connector ${edge.status==='reviewed'?'reviewed':''}`,'data-family':edge.id,opacity:active.has(edge.parent)&&active.has(edge.child)?1:.12},kin);add('title',{},path,`${shortName(parent)} → ${shortName(child)} · parent–child · ${edge.status}`);return{...edge,node:path,x:xx};});
-    $('context-families').innerHTML=edges.map(e=>`<button data-family-evidence="${h(e.id)}">${h(shortName(people.get(e.parent)))} → ${h(shortName(people.get(e.child)))} <small>${ui("parent–child")} · ${ui(e.status)}</small></button>`).join('');
-    $('context-families').querySelectorAll('button').forEach(b=>b.onclick=()=>{const e=edges.find(e=>e.id===b.dataset.familyEvidence);evidence('Family relationship',`<p>${h(canonicalName(people.get(e.parent)))} → ${h(canonicalName(people.get(e.child)))}</p><p>${ui("Parent → child")} · ${ui(e.status)}${ui(". A connector uses the child’s birth year only when it lies inside the recorded parent’s lifespan; otherwise it is drawn in the relationship margin.")}</p>${e.evidence.map(v=>`<p>${passageButton(v.witness,v.passage)}</p>`).join('')}`);});
-    cursor.setAttribute('x1',x(current.year));cursor.setAttribute('x2',x(current.year));cursor.setAttribute('y1',22);cursor.setAttribute('y2',order.length*rowHeight+35);
-    cancelAnimationFrame(animation);const start=new Map(order.map(id=>[id,positions.get(id)??target.get(id)])),t0=performance.now();
-    function animate(now){const t=reduced()?1:Math.min(1,(now-t0)/320),ease=t*t*(3-2*t);for(const id of order){const y=start.get(id)+(target.get(id)-start.get(id))*ease;positions.set(id,y);rows.get(id).setAttribute('transform',`translate(0 ${y})`);}for(const e of connectors){const a=positions.get(e.parent)-1,b=positions.get(e.child)-1;e.node.setAttribute('d',`M${e.x-4},${a} H${e.x} V${b} H${e.x+4}`);}if(t<1)animation=requestAnimationFrame(animate);}
-    animation=requestAnimationFrame(animate);
-  }
+  function updateTimeline(){if(current)familyTimeline.update(current);}
   function refresh(){
     frame=0;const source=catalog.sources.find(s=>s.id===$('source-select').value),paragraph=$('reader').querySelector('p[id].active');
     if(!source||!paragraph||!paragraph.id.startsWith(source.id+'-'))return;
     const context=contextFor(catalog,source.id,paragraph.id);
     const inNode=node=>[...node.querySelectorAll('[data-entity],a[data-person-link]')].map(n=>n.dataset.personLink||n.dataset.entity).filter(id=>people.has(id));
     const activePeople=inNode(paragraph);
-    const ids=[...new Set([source.subject,...inNode($('reader')),...catalog.events.filter(e=>e.witness===source.id).flatMap(e=>e.people)])].filter(id=>people.has(id));
+    const familyIds=familyHierarchy(source.subject,catalog.relations,[...people.keys()]).members.map(m=>m.id);
+    const ids=[...new Set([source.subject,...familyIds,...inNode($('reader')),...catalog.events.filter(e=>e.witness===source.id).flatMap(e=>e.people)])].filter(id=>people.has(id));
     const year=Number($('year').value),key=JSON.stringify([source.id,paragraph.id,year,ids,activePeople]);
     if(current?.key===key)return;
     const sourceChanged=current?.source.id!==source.id;
     current={source,passage:paragraph.id,context,activePeople,people:ids,year,key};
-    if(sourceChanged){previousOrder=[];selectedPerson=source.subject;}
+    if(sourceChanged){selectedPerson=source.subject;}
     if(!selectedPerson||!ids.includes(selectedPerson))selectedPerson=source.subject;
     $('trajectory-person').innerHTML=ids.map(id=>`<option value="${h(id)}">${h(shortName(people.get(id)))}</option>`).join('');$('trajectory-person').value=selectedPerson;
     if(lastPassage!==paragraph.id){const c=geo.placeContexts.find(c=>context.entityIds.includes(c.place));chosenJurisdiction=c?.jurisdiction||null;lastPassage=paragraph.id;report('');}
