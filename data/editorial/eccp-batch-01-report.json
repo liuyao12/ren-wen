@@ -1,0 +1,18 @@
+{
+  "batch": "eccp-batch-01",
+  "completeEntries": [
+    "eccp",
+    "eccp-chonghou",
+    "eccp-dong-xun",
+    "eccp-guo-songtao"
+  ],
+  "people": 71,
+  "works": 48,
+  "mentions": 343,
+  "status": "agent-first-pass",
+  "limitations": [
+    "Ambiguous or unnamed role references are not silently resolved.",
+    "Place and event extraction is partial.",
+    "Source errors are preserved; independent scan collation is pending."
+  ]
+}

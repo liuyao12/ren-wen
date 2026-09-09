@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-hong-rengan",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "洪",
+    "given": "仁玕",
+    "source": "eccp-entry",
+    "jiguan": {
+      "label": "廣東花縣",
+      "source": "eccp-entry",
+      "note": "Chinese rendering of the native-place expression in the ECCP opening."
+    },
+    "zi": [],
+    "hao": [
+      {
+        "value": "吉甫",
+        "source": "eccp-entry"
+      }
+    ],
+    "parenthetical": {
+      "kind": "hao",
+      "value": "吉甫"
+    },
+    "romanizations": [
+      {
+        "value": "Hung Jên-kan",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1822,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1864,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-07 · Hung Jên-kan",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Hung Jên-kan",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hung_J%C3%AAn-kan",
+      "locator": "Opening paragraph; recorded revision 11285331",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hung_J%C3%AAn-kan",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "mention": "eccp-guo-songtao-07-n004",
+      "quote": "Hung Jên-kan"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "person-luo-yudong",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "羅",
+    "given": "玉東",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Lo Yü-tung",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-20 · Lo Yü-tung",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "mention": "eccp-guo-songtao-20-n011",
+      "quote": "Lo Yü-tung"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "mention": "eccp-guo-songtao-20-n012",
+      "quote": "羅玉東"
+    }
+  ]
+}

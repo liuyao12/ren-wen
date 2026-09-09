@@ -7,13 +7,14 @@
   <meta name="color-scheme" content="light">
   <title>人文 · Ren-Wen</title>
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/library.css">
   <link rel="stylesheet" href="assets/person-navigation.css">
   <link rel="stylesheet" href="assets/context.css">
 </head>
 <body>
   <header class="masthead">
     <a class="brand" href="./" aria-label="Ren-Wen home"><span lang="zh-Hant">人文</span><span>REN-WEN<small>People through texts. Texts in context.</small></span></a>
-    <nav aria-label="Project tools"><a href="profiles.html">People · 人</a><button id="about-button">About the pilot</button><button id="xml-button">Open XML</button><button id="queue-button">Review queue <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav>
+    <nav aria-label="Project tools"><a href="profiles.html">People · 人</a><a href="works.html">Works · 文</a><button id="about-button">About the pilot</button><button id="xml-button">Open XML</button><button id="queue-button">Review queue <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav>
   </header>
   <div class="context-bar"><span class="pilot-badge">RESEARCH PREVIEW</span><span id="reading-context" aria-live="polite">Loading sources…</span><label><input id="follow" type="checkbox" checked> Follow reading</label></div>
   <main class="workspace" id="workspace">
@@ -21,7 +22,7 @@
       <div class="panel-heading"><h2 id="text-heading"><span>01</span> Text <small lang="zh-Hant">文</small></h2><select id="source-select" aria-label="Choose source account"></select></div>
       <div class="text-tools"><label><input id="review-names" type="checkbox"> Review names</label><label><input id="punctuation" type="checkbox"> Hide Chinese editorial punctuation</label><button id="source-info">Source &amp; edition</button></div>
       <div id="reader" tabindex="0" aria-label="Source text"><p class="empty">Loading the annotated edition…</p></div>
-      <div class="panel-footer"><span class="legend-person">People</span><span class="legend-place">Places</span><span class="legend-office">Offices / titles</span><span>Names open profiles; use Review names to inspect annotations.</span></div>
+      <div class="panel-footer"><span class="legend-person">People</span><span class="legend-work">Works</span><span class="legend-place">Places</span><span class="legend-office">Offices / titles</span><span>Names open profiles; use Review names to inspect annotations.</span></div>
     </section>
     <section class="panel time-panel" aria-labelledby="time-heading">
       <div class="panel-heading"><h2 id="time-heading"><span>02</span> People &amp; time <small lang="zh-Hant">人</small></h2></div>
@@ -46,5 +47,6 @@
   <script type="module" src="assets/app.js"></script>
   <script type="module" src="assets/person-links.js"></script>
   <script type="module" src="assets/reader-context.js"></script>
+  <script type="module" src="assets/entity-hover.js"></script>
 </body>
 </html>

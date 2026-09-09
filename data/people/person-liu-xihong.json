@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-liu-xihong",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "劉",
+    "given": "錫鴻",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "雲生",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲生"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Hsi-hung",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-11 · Liu Hsi-hung",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "mention": "eccp-guo-songtao-11-n001",
+      "quote": "Liu Hsi-hung"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "mention": "eccp-guo-songtao-11-n002",
+      "quote": "劉錫鴻"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "mention": "eccp-guo-songtao-11-n003",
+      "quote": "雲生"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-13",
+      "mention": "eccp-guo-songtao-13-n002",
+      "quote": "Liu Hsi-hung"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "mention": "eccp-guo-songtao-20-n002",
+      "quote": "Liu Hsi-hung"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-cen-yuying",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "岑",
+    "given": "毓英",
+    "source": "eccp-entry",
+    "jiguan": {
+      "label": "廣西西林",
+      "source": "eccp-entry",
+      "note": "Chinese rendering of the native-place expression in the ECCP opening."
+    },
+    "zi": [
+      {
+        "value": "彥卿",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "彥卿"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ên Yü-ying",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1889,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-08 · Ts'ên Yü-ying",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Ts'ên Yü-ying",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%27%C3%AAn_Y%C3%BC-ying",
+      "locator": "Opening paragraph; recorded revision 11365213",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%27%C3%AAn_Y%C3%BC-ying",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-08",
+      "mention": "eccp-guo-songtao-08-n002",
+      "quote": "Ts'ên Yü-ying"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "mention": "eccp-guo-songtao-09-n002",
+      "quote": "Ts'ên Yü-ying"
+    }
+  ]
+}

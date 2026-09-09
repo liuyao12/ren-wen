@@ -1,14 +1,329 @@
 {
-  "schemaVersion":1,"id":"person-chonghou","collection":"ECCP","reviewStatus":"agent-proposed",
-  "coverage":"Basic reference profile for a person named in the current pilot. The complete biography and external ID matches have not yet been processed.",
-  "name":{"surname":"完顏","given":"崇厚","source":"eccp","jiguan":null,"zi":[{"value":"地山","source":"eccp"}],"hao":[],"parenthetical":{"kind":"zi","value":"地山"},"romanizations":[{"value":"Ch'ung-hou","system":"source spelling","source":"eccp"}],"note":"ECCP identifies the Wanyen 完顏 clan and Manchu Bordered Yellow Banner. Banner affiliation is not substituted for native place; no place has been inferred."},
-  "life":{
-    "birth":{"chineseYear":1826,"era":"道光","eraYear":6,"precision":"year","original":"Oct., 1826","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "death":{"chineseYear":1893,"era":"光緒","eraYear":19,"precision":"year","original":"1893, Apr.","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "westernDates":[],"westernYears":[{"event":"birth","calendar":"gregorian","value":1826,"source":"eccp","status":"source-reported"},{"event":"death","calendar":"gregorian","value":1893,"source":"eccp","status":"source-reported"}],"reportedAges":[]
+  "schemaVersion": 1,
+  "id": "person-chonghou",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Complete ECCP entry imported and first-pass annotated; profile details and identifications still await independent review.",
+  "name": {
+    "surname": "完顏",
+    "given": "崇厚",
+    "source": "eccp",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "地山",
+        "source": "eccp"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "地山"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ung-hou",
+        "system": "source spelling",
+        "source": "eccp"
+      }
+    ],
+    "note": "ECCP identifies the Wanyen 完顏 clan and Manchu Bordered Yellow Banner. Banner affiliation is not substituted for native place; no place has been inferred."
   },
-  "externalIds":{"cbdb":{"id":null,"status":"not-searched"},"geni":{"id":null,"status":"not-searched"}},
-  "accounts":[{"source":"eccp","relation":"principal-biography","passage":"Opening paragraph","url":"https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-hou"}],
-  "sources":{"eccp":{"title":"ECCP · Ch'ung-hou","url":"https://en.wikisource.org/w/index.php?oldid=11275732","locator":"Opening paragraph","access":"full-text","attribution":"Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"}},
-  "notes":["Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."]
+  "life": {
+    "birth": {
+      "chineseYear": 1826,
+      "era": "道光",
+      "eraYear": 6,
+      "precision": "year",
+      "original": "Oct., 1826",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "death": {
+      "chineseYear": 1893,
+      "era": "光緒",
+      "eraYear": 19,
+      "precision": "year",
+      "original": "1893, Apr.",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1826,
+        "source": "eccp",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1893,
+        "source": "eccp",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-hou",
+      "passage": "eccp-chonghou-01",
+      "readerWitness": "eccp-chonghou"
+    }
+  ],
+  "sources": {
+    "eccp": {
+      "title": "ECCP · Ch'ung-hou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "locator": "Opening paragraph",
+      "access": "full-text",
+      "attribution": "Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"
+    },
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-07 · Ch'ung-hou",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Ch'ung-hou",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-hou",
+      "locator": "Opening paragraph; recorded revision 11275732",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."
+  ],
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-07",
+      "mention": "eccp-07-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "mention": "eccp-08-m01",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "mention": "eccp-guo-songtao-15-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-07",
+      "mention": "eccp-dong-xun-07-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "mention": "eccp-dong-xun-08-n007",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "mention": "eccp-dong-xun-10-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "mention": "eccp-chonghou-01-n001",
+      "quote": "CH'UNG-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "mention": "eccp-chonghou-01-n002",
+      "quote": "崇厚"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "mention": "eccp-chonghou-01-n003",
+      "quote": "地山"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "mention": "eccp-chonghou-02-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-04",
+      "mention": "eccp-chonghou-04-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-05",
+      "mention": "eccp-chonghou-05-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-07",
+      "mention": "eccp-chonghou-07-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "mention": "eccp-chonghou-08-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "mention": "eccp-chonghou-08-n005",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-10",
+      "mention": "eccp-chonghou-10-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-11",
+      "mention": "eccp-chonghou-11-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-12",
+      "mention": "eccp-chonghou-12-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-13",
+      "mention": "eccp-chonghou-13-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "mention": "eccp-chonghou-14-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "mention": "eccp-chonghou-14-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "mention": "eccp-chonghou-14-n004",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-15",
+      "mention": "eccp-chonghou-15-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "mention": "eccp-chonghou-16-n004",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "mention": "eccp-chonghou-17-n003",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "mention": "eccp-chonghou-17-n007",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "mention": "eccp-chonghou-18-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-19",
+      "mention": "eccp-chonghou-19-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "mention": "eccp-chonghou-20-n001",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "mention": "eccp-chonghou-20-n004",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "mention": "eccp-chonghou-21-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "mention": "eccp-chonghou-21-n005",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-22",
+      "mention": "eccp-chonghou-22-n002",
+      "quote": "Ch'ung-hou"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "mention": "qsg-01-m07",
+      "quote": "崇厚"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-03",
+      "mention": "qsg-03-m01",
+      "quote": "崇厚"
+    }
+  ]
 }

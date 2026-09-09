@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-hongli",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "弘歷",
+    "source": "eccp-entry",
+    "jiguan": null,
+    "zi": [],
+    "hao": [
+      {
+        "value": "長春居士",
+        "source": "eccp-entry"
+      }
+    ],
+    "parenthetical": {
+      "kind": "hao",
+      "value": "長春居士"
+    },
+    "romanizations": [
+      {
+        "value": "Hung-li",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1711,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1799,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-06 · Hung-li",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Hung-li",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hung-li",
+      "locator": "Opening paragraph; recorded revision 11285336",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hung-li",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-06",
+      "mention": "eccp-guo-songtao-06-n002",
+      "quote": "Hung-li"
+    }
+  ]
+}

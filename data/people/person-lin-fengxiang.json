@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "person-lin-fengxiang",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "林",
+    "given": "鳳祥",
+    "source": "eccp-entry",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Lin Fêng-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "locator": "eccp-chonghou-02 · Lin Fêng-hsiang",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Lin Fêng-hsiang",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Lin_F%C3%AAng-hsiang",
+      "locator": "Opening paragraph; recorded revision 11299416",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Lin_F%C3%AAng-hsiang",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "mention": "eccp-chonghou-02-n004",
+      "quote": "Lin Fêng-hsiang"
+    }
+  ]
+}

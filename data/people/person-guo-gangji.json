@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-guo-gangji",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "郭",
+    "given": "剛基",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "依水",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "依水"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo Kang-chi",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-18 · Kuo Kang-chi",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n010",
+      "quote": "Kuo Kang-chi"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n011",
+      "quote": "郭剛基"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n012",
+      "quote": "依水"
+    }
+  ]
+}

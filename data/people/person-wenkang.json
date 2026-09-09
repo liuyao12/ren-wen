@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-wenkang",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "Wên-k'ang",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wên-k'ang",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 董恂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370106",
+      "locator": "eccp-dong-xun-17 · Wên-k'ang",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-discussion": {
+      "title": "ECCP · Wên-ch'ing",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAn-ch%27ing",
+      "locator": "Explicit see-under reference in eccp-dong-xun-17",
+      "access": "cross-reference",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-discussion",
+      "relation": "mentioned-in",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAn-ch%27ing",
+      "passage": "Not a principal biography of this person."
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "mention": "eccp-dong-xun-17-n004",
+      "quote": "Wên-k'ang"
+    }
+  ]
+}

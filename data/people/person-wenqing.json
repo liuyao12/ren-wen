@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-wenqing",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "費莫",
+    "given": "文慶",
+    "source": "eccp-entry",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "篤生",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "篤生"
+    },
+    "romanizations": [
+      {
+        "value": "Wên-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1796,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 董恂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370106",
+      "locator": "eccp-dong-xun-17 · Wên-ch'ing",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Wên-ch'ing",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAn-ch%27ing",
+      "locator": "Opening paragraph; recorded revision 11419923",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAn-ch%27ing",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "mention": "eccp-dong-xun-17-n006",
+      "quote": "Wên-ch'ing"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-jin-liang",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "Chin Liang",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chin Liang",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "locator": "eccp-chonghou-24 · Chin Liang",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-discussion": {
+      "title": "ECCP · Wêng T'ung-ho",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAng_T%27ung-ho",
+      "locator": "Explicit see-under reference in eccp-chonghou-24",
+      "access": "cross-reference",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-discussion",
+      "relation": "mentioned-in",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAng_T%27ung-ho",
+      "passage": "Not a principal biography of this person."
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n009",
+      "quote": "Chin Liang"
+    }
+  ]
+}

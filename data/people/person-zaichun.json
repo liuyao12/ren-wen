@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "person-zaichun",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "載淳",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Emperor Mu-tsung",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 董恂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370106",
+      "locator": "eccp-dong-xun-06 · Emperor Mu-tsung",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n001",
+      "quote": "Emperor Mu-tsung"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n002",
+      "quote": "Tsai-ch'un"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n003",
+      "quote": "載淳"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-11",
+      "mention": "eccp-dong-xun-11-n001",
+      "quote": "Emperor Mu-tsung"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-12",
+      "mention": "eccp-dong-xun-12-n003",
+      "quote": "Emperor Mu-tsung"
+    }
+  ]
+}

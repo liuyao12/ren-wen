@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "person-williams",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "S. Wells Williams",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "聽泉",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聽泉"
+    },
+    "romanizations": [
+      {
+        "value": "S. Wells Williams",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1812,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1884,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 董恂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370106",
+      "locator": "eccp-dong-xun-10 · S. Wells Williams",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "mention": "eccp-dong-xun-10-n006",
+      "quote": "S. Wells Williams"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "mention": "eccp-dong-xun-10-n007",
+      "quote": "衛廉士"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "mention": "eccp-dong-xun-10-n008",
+      "quote": "聽泉"
+    }
+  ]
+}

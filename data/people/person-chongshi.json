@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-chongshi",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "完顏",
+    "given": "崇實",
+    "source": "eccp-entry",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "子華",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子華"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ung-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1876,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "locator": "eccp-chonghou-01 · Ch'ung-shih",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Ch'ung-shih",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-shih",
+      "locator": "Opening paragraph; recorded revision 11275733",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-shih",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "mention": "eccp-chonghou-01-n005",
+      "quote": "Ch'ung-shih"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "mention": "eccp-chonghou-02-n001",
+      "quote": "Ch'ung-shih"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "mention": "eccp-chonghou-14-n003",
+      "quote": "Ch'ung-shih"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n017",
+      "quote": "Ch'ung-shih"
+    }
+  ]
+}

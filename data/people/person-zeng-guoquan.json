@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-zeng-guoquan",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "曾",
+    "given": "國荃",
+    "source": "eccp-entry",
+    "jiguan": {
+      "label": "湖南湘鄉",
+      "source": "eccp-entry",
+      "note": "Chinese rendering of the native-place expression in the ECCP opening."
+    },
+    "zi": [
+      {
+        "value": "沅浦",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "沅浦"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Kuo-ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1824,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1890,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-12 · Tsêng Kuo-ch'üan",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Tsêng Kuo-ch'üan",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-ch%27%C3%BCan",
+      "locator": "Opening paragraph; recorded revision 11365227",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-ch%27%C3%BCan",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "mention": "eccp-12-n005",
+      "quote": "Tsêng Kuo-ch'üan"
+    }
+  ]
+}

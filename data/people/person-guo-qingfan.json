@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "person-guo-qingfan",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "郭",
+    "given": "慶藩",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "孟純",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [
+      {
+        "value": "子瀞",
+        "source": "batch-evidence"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟純"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo Ch'ing-fan",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1844,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1896,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-19 · Kuo Ch'ing-fan",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "mention": "eccp-guo-songtao-19-n002",
+      "quote": "Kuo Ch'ing-fan"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "mention": "eccp-guo-songtao-19-n003",
+      "quote": "郭慶藩"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "mention": "eccp-guo-songtao-19-n004",
+      "quote": "孟純"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "mention": "eccp-guo-songtao-19-n005",
+      "quote": "子瀞"
+    }
+  ]
+}

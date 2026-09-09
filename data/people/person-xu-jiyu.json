@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "person-xu-jiyu",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "徐",
+    "given": "繼畲",
+    "source": "eccp-entry",
+    "jiguan": {
+      "label": "山西五臺",
+      "source": "eccp-entry",
+      "note": "Chinese rendering of the native-place expression in the ECCP opening."
+    },
+    "zi": [
+      {
+        "value": "健男",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "健男"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Chi-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1795,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1873,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-16 · Hsü Chi-yü",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Hsü Chi-yü",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hs%C3%BC_Chi-y%C3%BC",
+      "locator": "Opening paragraph; recorded revision 11282784",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hs%C3%BC_Chi-y%C3%BC",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "mention": "eccp-guo-songtao-16-n006",
+      "quote": "Hsü Chi-yü"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "mention": "eccp-guo-songtao-20-n005",
+      "quote": "Hsü Chi-yü"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n005",
+      "quote": "Hsü Chi-yü"
+    }
+  ]
+}

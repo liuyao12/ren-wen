@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "person-jomini",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "Baron de Jomini",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Baron de Jomini",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-09 · Baron de Jomini",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "mention": "eccp-09-n005",
+      "quote": "Baron de Jomini"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "mention": "eccp-09-n006",
+      "quote": "熱梅尼"
+    }
+  ]
+}

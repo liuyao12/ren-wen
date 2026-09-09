@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-tu-lien-che",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "Tu Lien-chê",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Tu Lien-chê",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-21 · Tu Lien-chê",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "authority": {
+      "title": "Wikisource author record",
+      "url": "https://en.wikisource.org/wiki/Author:Tu_Lien-ch%C3%AA",
+      "locator": "Original source author-link target",
+      "access": "source-link",
+      "attribution": "Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-21",
+      "mention": "eccp-21-n001",
+      "quote": "Tu Lien-chê"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-21",
+      "mention": "eccp-guo-songtao-21-n001",
+      "quote": "Tu Lien-chê"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-19",
+      "mention": "eccp-dong-xun-19-n001",
+      "quote": "Tu Lien-chê"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-25",
+      "mention": "eccp-chonghou-25-n001",
+      "quote": "Tu Lien-chê"
+    }
+  ]
+}

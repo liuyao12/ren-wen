@@ -1,14 +1,174 @@
 {
-  "schemaVersion":1,"id":"person-zeng-guofan","collection":"ECCP","reviewStatus":"agent-proposed",
-  "coverage":"Basic reference profile for a person named in the current pilot. The complete biography and external ID matches have not yet been processed.",
-  "name":{"surname":"曾","given":"國藩","source":"eccp","jiguan":{"label":"湖南湘鄉","source":"eccp"},"zi":[{"value":"伯涵","source":"eccp"}],"hao":[{"value":"滌生","source":"eccp"}],"parenthetical":{"kind":"zi","value":"伯涵"},"romanizations":[{"value":"Tsêng Kuo-fan","system":"source spelling","source":"eccp"}],"note":"Native place is 籍貫, not an assertion of the precise birthplace. Typed zi and hao remain separate."},
-  "life":{
-    "birth":{"chineseYear":1811,"era":"嘉慶","eraYear":16,"precision":"year","original":"Nov. 26, 1811","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "death":{"chineseYear":1872,"era":"同治","eraYear":11,"precision":"year","original":"1872, Mar. 12","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "westernDates":[{"event":"birth","calendar":"gregorian","value":"1811-11-26","source":"eccp","status":"source-reported"},{"event":"death","calendar":"gregorian","value":"1872-03-12","source":"eccp","status":"source-reported"}],"westernYears":[],"reportedAges":[]
+  "schemaVersion": 1,
+  "id": "person-zeng-guofan",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "name": {
+    "surname": "曾",
+    "given": "國藩",
+    "source": "eccp",
+    "jiguan": {
+      "label": "湖南湘鄉",
+      "source": "eccp"
+    },
+    "zi": [
+      {
+        "value": "伯涵",
+        "source": "eccp"
+      }
+    ],
+    "hao": [
+      {
+        "value": "滌生",
+        "source": "eccp"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯涵"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Kuo-fan",
+        "system": "source spelling",
+        "source": "eccp"
+      }
+    ],
+    "note": "Native place is 籍貫, not an assertion of the precise birthplace. Typed zi and hao remain separate."
   },
-  "externalIds":{"cbdb":{"id":null,"status":"not-searched"},"geni":{"id":null,"status":"not-searched"}},
-  "accounts":[{"source":"eccp","relation":"principal-biography","passage":"Opening paragraph","url":"https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"}],
-  "sources":{"eccp":{"title":"ECCP · Tsêng Kuo-fan","url":"https://en.wikisource.org/w/index.php?oldid=11365232","locator":"Opening paragraph","access":"full-text","attribution":"Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"}},
-  "notes":["Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."]
+  "life": {
+    "birth": {
+      "chineseYear": 1811,
+      "era": "嘉慶",
+      "eraYear": 16,
+      "precision": "year",
+      "original": "Nov. 26, 1811",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "death": {
+      "chineseYear": 1872,
+      "era": "同治",
+      "eraYear": 11,
+      "precision": "year",
+      "original": "1872, Mar. 12",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "westernDates": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": "1811-11-26",
+        "source": "eccp",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": "1872-03-12",
+        "source": "eccp",
+        "status": "source-reported"
+      }
+    ],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "sources": {
+    "eccp": {
+      "title": "ECCP · Tsêng Kuo-fan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "locator": "Opening paragraph",
+      "access": "full-text",
+      "attribution": "Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"
+    },
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-01 · Tsêng Kuo-fan",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Tsêng Kuo-fan",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan",
+      "locator": "Opening paragraph; recorded revision 11365232",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."
+  ],
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "mention": "eccp-01-m04",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "mention": "eccp-20-n009",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n006",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "mention": "eccp-guo-songtao-02-n001",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "mention": "eccp-guo-songtao-02-n002",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n015",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-09",
+      "mention": "eccp-chonghou-09-n003",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "mention": "qsg-01-m02",
+      "quote": "國藩"
+    }
+  ]
 }

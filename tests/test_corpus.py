@@ -17,8 +17,8 @@ class CorpusTests(unittest.TestCase):
     def proposal(self):
         m=self.c['mentions'][0];s=self.c['sources'][0]
         return dict(schemaVersion=1,id='test-proposal',operation='relink-mention',witness=s['id'],mention=m['id'],baseSha256=s['sha256'],before=m['entity'],after='person-zeng-guofan',reason='Synthetic test of review mechanics; not a historical judgment.',status='proposed')
-    def test_corpus_valid(self): self.assertEqual(rw.validate()['mentions'],34)
-    def test_all_sources_are_excerpts(self): self.assertTrue(all(s['extent'] for s in self.c['sources']))
+    def test_corpus_valid(self): self.assertEqual(rw.validate()['mentions'],len(self.c['mentions']))
+    def test_all_sources_declare_extent(self): self.assertTrue(all(s['extent'] for s in self.c['sources']))
     def test_no_fabricated_jurisdictions(self): self.assertEqual(self.c['jurisdictions'],[])
     def test_unknown_lives_not_estimated(self): self.assertIsNone(next(e for e in self.c['entities'] if e['id']=='person-macartney')['life'])
     def test_cross_reference_not_identity(self):
@@ -73,7 +73,7 @@ class CorpusTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'db.sqlite';rw.build_db(p)
             with sqlite3.connect(p) as db:
-                self.assertEqual(db.execute('SELECT count(*) FROM mentions').fetchone()[0],34)
+                self.assertEqual(db.execute('SELECT count(*) FROM mentions').fetchone()[0],len(self.c['mentions']))
                 self.assertEqual(db.execute('PRAGMA foreign_key_check').fetchall(),[])
     def test_apply_is_explicit_and_keeps_upstream(self):
         with tempfile.TemporaryDirectory() as d:

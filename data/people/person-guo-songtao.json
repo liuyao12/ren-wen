@@ -1,14 +1,275 @@
 {
-  "schemaVersion":1,"id":"person-guo-songtao","collection":"ECCP","reviewStatus":"agent-proposed",
-  "coverage":"Basic reference profile for a person named in the current pilot. The complete biography and external ID matches have not yet been processed.",
-  "name":{"surname":"郭","given":"嵩燾","source":"eccp","jiguan":{"label":"湖南湘陰","source":"eccp"},"zi":[{"value":"伯琛","source":"eccp"},{"value":"筠仙","source":"eccp"}],"hao":[{"value":"玉池老人","source":"eccp"}],"parenthetical":{"kind":"zi","value":"筠仙"},"romanizations":[{"value":"Kuo Sung-tao","system":"source spelling","source":"eccp"}],"note":"Native place is 籍貫, not an assertion of the precise birthplace. Typed zi and hao remain separate."},
-  "life":{
-    "birth":{"chineseYear":1818,"era":"嘉慶","eraYear":23,"precision":"year","original":"Apr. 11, 1818","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "death":{"chineseYear":1891,"era":"光緒","eraYear":17,"precision":"year","original":"1891, July 18","source":"eccp","basis":"derived-from-source-date-after-new-year","note":"The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."},
-    "westernDates":[{"event":"birth","calendar":"gregorian","value":"1818-04-11","source":"eccp","status":"source-reported"},{"event":"death","calendar":"gregorian","value":"1891-07-18","source":"eccp","status":"source-reported"}],"westernYears":[],"reportedAges":[]
+  "schemaVersion": 1,
+  "id": "person-guo-songtao",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Complete ECCP entry imported and first-pass annotated; profile details and identifications still await independent review.",
+  "name": {
+    "surname": "郭",
+    "given": "嵩燾",
+    "source": "eccp",
+    "jiguan": {
+      "label": "湖南湘陰",
+      "source": "eccp"
+    },
+    "zi": [
+      {
+        "value": "伯琛",
+        "source": "eccp"
+      },
+      {
+        "value": "筠仙",
+        "source": "eccp"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玉池老人",
+        "source": "eccp"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筠仙"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo Sung-tao",
+        "system": "source spelling",
+        "source": "eccp"
+      }
+    ],
+    "note": "Native place is 籍貫, not an assertion of the precise birthplace. Typed zi and hao remain separate."
   },
-  "externalIds":{"cbdb":{"id":null,"status":"not-searched"},"geni":{"id":null,"status":"not-searched"}},
-  "accounts":[{"source":"eccp","relation":"principal-biography","passage":"Opening paragraph","url":"https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"}],
-  "sources":{"eccp":{"title":"ECCP · Kuo Sung-tao","url":"https://en.wikisource.org/w/index.php?oldid=11290556","locator":"Opening paragraph","access":"full-text","attribution":"Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"}},
-  "notes":["Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."]
+  "life": {
+    "birth": {
+      "chineseYear": 1818,
+      "era": "嘉慶",
+      "eraYear": 23,
+      "precision": "year",
+      "original": "Apr. 11, 1818",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "death": {
+      "chineseYear": 1891,
+      "era": "光緒",
+      "eraYear": 17,
+      "precision": "year",
+      "original": "1891, July 18",
+      "source": "eccp",
+      "basis": "derived-from-source-date-after-new-year",
+      "note": "The source month is later than February, resolving the Chinese civil year unambiguously in this Qing-period record. The reign label is a calendar normalization, not a quotation from ECCP; no exact lunar day is asserted."
+    },
+    "westernDates": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": "1818-04-11",
+        "source": "eccp",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": "1891-07-18",
+        "source": "eccp",
+        "status": "source-reported"
+      }
+    ],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao",
+      "passage": "eccp-guo-songtao-01",
+      "readerWitness": "eccp-guo-songtao"
+    }
+  ],
+  "sources": {
+    "eccp": {
+      "title": "ECCP · Kuo Sung-tao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "Opening paragraph",
+      "access": "full-text",
+      "attribution": "Arthur W. Hummel, editor; ECCP contributors; Wikisource contributors"
+    },
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-03 · Kuo Sung-tao",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Kuo Sung-tao",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao",
+      "locator": "Opening paragraph; recorded revision 11290556",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Reference information is agent-proposed, not an independently reviewed genealogy. No external identifiers have been invented."
+  ],
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "mention": "eccp-03-m02",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "mention": "eccp-03-m05",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n001",
+      "quote": "KUO Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n002",
+      "quote": "郭嵩燾"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n003",
+      "quote": "伯琛"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n004",
+      "quote": "筠仙"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "mention": "eccp-guo-songtao-01-n005",
+      "quote": "玉池老人"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "mention": "eccp-guo-songtao-02-n003",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "mention": "eccp-guo-songtao-02-n004",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-03",
+      "mention": "eccp-guo-songtao-03-n001",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-03",
+      "mention": "eccp-guo-songtao-03-n003",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-05",
+      "mention": "eccp-guo-songtao-05-n001",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-05",
+      "mention": "eccp-guo-songtao-05-n003",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "mention": "eccp-guo-songtao-07-n002",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "mention": "eccp-guo-songtao-09-n001",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "mention": "eccp-guo-songtao-09-n003",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-10",
+      "mention": "eccp-guo-songtao-10-n004",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-12",
+      "mention": "eccp-guo-songtao-12-n002",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-13",
+      "mention": "eccp-guo-songtao-13-n001",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-14",
+      "mention": "eccp-guo-songtao-14-n001",
+      "quote": "Yang-chih hsien-shêng"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "mention": "eccp-guo-songtao-15-n004",
+      "quote": "Kuo"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "mention": "eccp-guo-songtao-16-n001",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n009",
+      "quote": "Kuo Sung-tao"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-12",
+      "mention": "eccp-dong-xun-12-n001",
+      "quote": "Kuo Sung-tao"
+    }
+  ]
 }

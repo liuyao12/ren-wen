@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-shao-youlian",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "邵",
+    "given": "友濂",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "筱(小)村",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筱(小)村"
+    },
+    "romanizations": [
+      {
+        "value": "Shao Yu-lien",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1901,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "locator": "eccp-chonghou-18 · Shao Yu-lien",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "mention": "eccp-chonghou-18-n003",
+      "quote": "Shao Yu-lien"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "mention": "eccp-chonghou-18-n004",
+      "quote": "邵友濂"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "mention": "eccp-chonghou-18-n005",
+      "quote": "筱(小)村"
+    }
+  ]
+}

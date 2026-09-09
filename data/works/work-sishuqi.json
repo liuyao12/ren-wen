@@ -1,0 +1,45 @@
+{
+  "id": "work-sishuqi",
+  "title": "四述奇",
+  "kind": "book",
+  "creators": [
+    {
+      "person": "person-zhang-deyi",
+      "role": "author"
+    }
+  ],
+  "schemaVersion": 1,
+  "type": "work",
+  "reviewStatus": "agent-proposed",
+  "attestedTitles": [
+    "四述奇 Ssŭ-shu ch'i",
+    "四述奇 Ssŭ shu-ch'i"
+  ],
+  "sources": {
+    "eccp-chonghou": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-guo-songtao": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "mention": "eccp-guo-songtao-20-n008",
+      "quote": "四述奇 Ssŭ-shu ch'i"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n008",
+      "quote": "四述奇 Ssŭ shu-ch'i"
+    }
+  ],
+  "note": "This record identifies the named work, not a particular physical edition. Publication statements are source reports, not independently verified bibliographical conclusions."
+}

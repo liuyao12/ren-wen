@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "person-yixin",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "奕訢",
+    "source": "eccp-entry",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "鑑園主人",
+        "source": "eccp-entry"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鑑園主人"
+    },
+    "romanizations": [
+      {
+        "value": "I-hsin",
+        "system": "ECCP spelling",
+        "source": "eccp-entry"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1898,
+        "source": "eccp-entry",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-20 · I-hsin",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · I-hsin",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/I-hsin",
+      "locator": "Opening paragraph; recorded revision 11285401",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/I-hsin",
+      "passage": "Opening paragraph"
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "mention": "eccp-20-n002",
+      "quote": "I-hsin"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-05",
+      "mention": "eccp-dong-xun-05-n001",
+      "quote": "I-hsin"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "mention": "eccp-dong-xun-18-n007",
+      "quote": "I-hsin"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-04",
+      "mention": "eccp-chonghou-04-n001",
+      "quote": "I-hsin"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n014",
+      "quote": "I-hsin"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "mention": "eccp-chonghou-24-n016",
+      "quote": "I-hsin"
+    }
+  ]
+}

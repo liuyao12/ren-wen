@@ -4,83 +4,5811 @@
   "defaultWitness": "eccp",
   "defaultPerson": "person-zeng-jize",
   "sources": [
-    {"id": "eccp", "work": "work-eccp", "title": "Tsêng Chi-tsê 曾紀澤", "shortTitle": "ECCP · Tsêng Chi-tsê", "language": "en", "text": "data/texts/eccp.html", "upstream": "data/upstream/eccp.html", "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA", "revision": "11365218", "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11365218", "edition": "Hummel, ed., 1943; Wikisource transcription", "extent": "Seven selected paragraphs, with omissions between excerpts; not the complete biography.", "importMethod": "Manually prepared HTML excerpts from the rendered Wikisource text; NOT a raw API export. Display whitespace and small-cap markup normalized.", "punctuation": {"status": "imported", "attribution": "Printed English text as transcribed on Wikisource; no new punctuation decisions."}, "rights": {"text": "PD-USGov as identified by Wikisource", "transcription": "CC-BY-SA-4.0 where applicable", "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"}, "reviewStatus": "proposed", "subject": "person-zeng-jize", "sha256": "0fb37c130ff35f2fe0880e525d7b8ad65fcfc7d42e54e90c1b742d969564713e", "upstreamSha256": "f91d402142bf0978b9e2c9531a7f3d1e8b0d652de14e4362735b8e14887775d5", "retrieved": "2026-09-08"},
-    {"id": "qsg", "work": "work-qsg", "title": "清史稿 · 卷446 · 曾紀澤", "shortTitle": "清史稿 · 曾紀澤", "language": "zh-Hant", "text": "data/texts/qsg.html", "upstream": "data/upstream/qsg.html", "url": "https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B7446", "revision": "2640966", "revisionUrl": "https://zh.wikisource.org/w/index.php?oldid=2640966", "edition": "Wikisource transcription; printed base edition not yet identified", "extent": "Three paragraphs of the 曾紀澤 account; its long memorial is omitted.", "importMethod": "Manually prepared HTML excerpts from the rendered Wikisource text; not a raw export.", "punctuation": {"status": "editorial-unattributed", "attribution": "Imported Wikisource punctuation; original punctuation editor not identified."}, "rights": {"text": "PD-old as identified by Wikisource", "transcription": "CC-BY-SA-4.0 where applicable", "attribution": "趙爾巽等; Chinese Wikisource contributors"}, "reviewStatus": "proposed", "subject": "person-zeng-jize", "sha256": "b35bf98d87b64f2b51875c588ac440ce654101c1f74b70d09903677140c4e8aa", "upstreamSha256": "b0b17dfd4a68647f5a062ecf00c46e0429f5db5ae1fdd5d490d20d83f171540f", "retrieved": "2026-09-08"}
+    {
+      "id": "eccp",
+      "work": "work-eccp",
+      "title": "Tsêng Chi-tsê 曾紀澤",
+      "shortTitle": "ECCP · 曾紀澤",
+      "language": "en",
+      "text": "data/texts/eccp.html",
+      "upstream": "data/upstream/eccp.html",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+      "revision": "11365218",
+      "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "edition": "Hummel, ed., 1943; Wikisource transcription",
+      "extent": "Complete entry, including bibliography and contributor byline; reading segments may subdivide original paragraphs.",
+      "importMethod": "MediaWiki parse response preserved. Interface/page markers removed; inline formatting and source wording retained. Reading segmentation recorded separately.",
+      "punctuation": {
+        "status": "imported",
+        "attribution": "Printed English text as transcribed on Wikisource."
+      },
+      "rights": {
+        "text": "PD-USGov as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "subject": "person-zeng-jize",
+      "sha256": "615753de9c1bf38efe7c5725314350f9b3672789561531ee880c2aba29041785",
+      "upstreamSha256": "8bda04b38bf1175aa84eacd02aeba6b9c983835cce7813e2b9d955980b7dc093",
+      "retrieved": "2026-09-08T23:59:57.112391+00:00",
+      "complete": true,
+      "rawResponse": "data/imports/eccp-batch-01/eccp.response.json",
+      "rawSha256": "2b62d6acba59e916c10d39cdfaa4da46918bfab6e408b49d129e7a342584b176",
+      "passageLayout": [
+        {
+          "passage": "eccp-01",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-02",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-03",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-04",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-05",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-06",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-07",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-08",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-09",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-10",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-11",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-12",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-13",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-14",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-15",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-16",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-17",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-18",
+          "sourceParagraph": 6,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-19",
+          "sourceParagraph": 6,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-20",
+          "sourceParagraph": 7,
+          "section": "bibliography"
+        },
+        {
+          "passage": "eccp-21",
+          "sourceParagraph": 8,
+          "section": "contributor"
+        }
+      ],
+      "annotationCoverage": {
+        "people": "agent-first-pass",
+        "namedWorks": "agent-first-pass",
+        "places": "partial",
+        "events": "partial",
+        "review": "Awaiting independent review; unnamed or ambiguous role references are not silently identified."
+      }
+    },
+    {
+      "id": "qsg",
+      "work": "work-qsg",
+      "title": "清史稿 · 卷446 · 曾紀澤",
+      "shortTitle": "清史稿 · 曾紀澤",
+      "language": "zh-Hant",
+      "text": "data/texts/qsg.html",
+      "upstream": "data/upstream/qsg.html",
+      "url": "https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B7446",
+      "revision": "2640966",
+      "revisionUrl": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "edition": "Wikisource transcription; printed base edition not yet identified",
+      "extent": "Three paragraphs of the 曾紀澤 account; its long memorial is omitted.",
+      "importMethod": "Manually prepared HTML excerpts from the rendered Wikisource text; not a raw export.",
+      "punctuation": {
+        "status": "editorial-unattributed",
+        "attribution": "Imported Wikisource punctuation; original punctuation editor not identified."
+      },
+      "rights": {
+        "text": "PD-old as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "趙爾巽等; Chinese Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "subject": "person-zeng-jize",
+      "sha256": "b35bf98d87b64f2b51875c588ac440ce654101c1f74b70d09903677140c4e8aa",
+      "upstreamSha256": "b0b17dfd4a68647f5a062ecf00c46e0429f5db5ae1fdd5d490d20d83f171540f",
+      "retrieved": "2026-09-08"
+    },
+    {
+      "id": "eccp-guo-songtao",
+      "work": "work-eccp",
+      "subject": "person-guo-songtao",
+      "title": "Kuo Sung-tao 郭嵩燾",
+      "shortTitle": "ECCP · 郭嵩燾",
+      "language": "en",
+      "text": "data/texts/eccp-guo-songtao.html",
+      "upstream": "data/upstream/eccp-guo-songtao.html",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao",
+      "revision": "11290556",
+      "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "edition": "Hummel, ed., 1943; Wikisource transcription",
+      "extent": "Complete entry, including bibliography and contributor byline; reading segments may subdivide original paragraphs.",
+      "complete": true,
+      "importMethod": "MediaWiki parse response preserved. Interface/page markers removed; inline formatting and source wording retained. Reading segmentation recorded separately.",
+      "punctuation": {
+        "status": "imported",
+        "attribution": "Printed English text as transcribed on Wikisource."
+      },
+      "rights": {
+        "text": "PD-USGov as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "sha256": "8ee5917a55d8f9689339a1eba9e8a9b94737381be73f78d8af408d479de309f3",
+      "upstreamSha256": "df620e76ca10e8a00376ff4d634f71e63617b0cdd387afb89aaa77d5fc47f48e",
+      "retrieved": "2026-09-08T23:59:58.223689+00:00",
+      "rawResponse": "data/imports/eccp-batch-01/eccp-guo-songtao.response.json",
+      "rawSha256": "760ca08ace6a963035c90f6783914a3d4a38ff0027addf0dacdf41f8d3bce7e0",
+      "passageLayout": [
+        {
+          "passage": "eccp-guo-songtao-01",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-02",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-03",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-04",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-05",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-06",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-07",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-08",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-09",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-10",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-11",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-12",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-13",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-14",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-15",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-16",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-17",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-18",
+          "sourceParagraph": 6,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-19",
+          "sourceParagraph": 6,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-guo-songtao-20",
+          "sourceParagraph": 7,
+          "section": "bibliography"
+        },
+        {
+          "passage": "eccp-guo-songtao-21",
+          "sourceParagraph": 8,
+          "section": "contributor"
+        }
+      ],
+      "annotationCoverage": {
+        "people": "agent-first-pass",
+        "namedWorks": "agent-first-pass",
+        "places": "partial",
+        "events": "partial",
+        "review": "Awaiting independent review; unnamed or ambiguous role references are not silently identified."
+      }
+    },
+    {
+      "id": "eccp-dong-xun",
+      "work": "work-eccp",
+      "subject": "person-dong-xun",
+      "title": "Tung Hsün 董恂",
+      "shortTitle": "ECCP · 董恂",
+      "language": "en",
+      "text": "data/texts/eccp-dong-xun.html",
+      "upstream": "data/upstream/eccp-dong-xun.html",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Tung_Hs%C3%BCn",
+      "revision": "11370106",
+      "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11370106",
+      "edition": "Hummel, ed., 1943; Wikisource transcription",
+      "extent": "Complete entry, including bibliography and contributor byline; reading segments may subdivide original paragraphs.",
+      "complete": true,
+      "importMethod": "MediaWiki parse response preserved. Interface/page markers removed; inline formatting and source wording retained. Reading segmentation recorded separately.",
+      "punctuation": {
+        "status": "imported",
+        "attribution": "Printed English text as transcribed on Wikisource."
+      },
+      "rights": {
+        "text": "PD-USGov as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "sha256": "8f44a7376fd992d46b5a8bb6c46113ecbc3369277fc0487639089c342413b3c5",
+      "upstreamSha256": "8edd01715c7759b3633cbadc59f106df51aba5f16051d096f3a9fe1444a09128",
+      "retrieved": "2026-09-08T23:59:59.296069+00:00",
+      "rawResponse": "data/imports/eccp-batch-01/eccp-dong-xun.response.json",
+      "rawSha256": "94326a2391a54c10ed284582078e4b8ef9e166210c027efed250d1354ba1498c",
+      "passageLayout": [
+        {
+          "passage": "eccp-dong-xun-01",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-02",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-03",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-04",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-05",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-06",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-07",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-08",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-09",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-10",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-11",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-12",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-13",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-14",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-15",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-16",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-17",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-dong-xun-18",
+          "sourceParagraph": 5,
+          "section": "bibliography"
+        },
+        {
+          "passage": "eccp-dong-xun-19",
+          "sourceParagraph": 6,
+          "section": "contributor"
+        }
+      ],
+      "annotationCoverage": {
+        "people": "agent-first-pass",
+        "namedWorks": "agent-first-pass",
+        "places": "partial",
+        "events": "partial",
+        "review": "Awaiting independent review; unnamed or ambiguous role references are not silently identified."
+      }
+    },
+    {
+      "id": "eccp-chonghou",
+      "work": "work-eccp",
+      "subject": "person-chonghou",
+      "title": "Ch'ung-hou 崇厚",
+      "shortTitle": "ECCP · 崇厚",
+      "language": "en",
+      "text": "data/texts/eccp-chonghou.html",
+      "upstream": "data/upstream/eccp-chonghou.html",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27ung-hou",
+      "revision": "11275732",
+      "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "edition": "Hummel, ed., 1943; Wikisource transcription",
+      "extent": "Complete entry, including bibliography and contributor byline; reading segments may subdivide original paragraphs.",
+      "complete": true,
+      "importMethod": "MediaWiki parse response preserved. Interface/page markers removed; inline formatting and source wording retained. Reading segmentation recorded separately.",
+      "punctuation": {
+        "status": "imported",
+        "attribution": "Printed English text as transcribed on Wikisource."
+      },
+      "rights": {
+        "text": "PD-USGov as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "sha256": "a70e866d2bb3c013522bacde48ff9b13203431372e0d0c0360d4d122c27c6c66",
+      "upstreamSha256": "41fcebe5c4c11f609e72e88739586a7f314a3a826862e1ea809a469acd261dd4",
+      "retrieved": "2026-09-09T00:00:00.377001+00:00",
+      "rawResponse": "data/imports/eccp-batch-01/eccp-chonghou.response.json",
+      "rawSha256": "f457bec2a9eb8b92688a7659333bb99679ab85c15779257f9efac6e3b4ddb801",
+      "passageLayout": [
+        {
+          "passage": "eccp-chonghou-01",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-02",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-03",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-04",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-05",
+          "sourceParagraph": 1,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-06",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-07",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-08",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-09",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-10",
+          "sourceParagraph": 2,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-11",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-12",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-13",
+          "sourceParagraph": 3,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-14",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-15",
+          "sourceParagraph": 4,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-16",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-17",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-18",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-19",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-20",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-21",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-22",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-23",
+          "sourceParagraph": 5,
+          "section": "narrative"
+        },
+        {
+          "passage": "eccp-chonghou-24",
+          "sourceParagraph": 6,
+          "section": "bibliography"
+        },
+        {
+          "passage": "eccp-chonghou-25",
+          "sourceParagraph": 7,
+          "section": "contributor"
+        }
+      ],
+      "annotationCoverage": {
+        "people": "agent-first-pass",
+        "namedWorks": "agent-first-pass",
+        "places": "partial",
+        "events": "partial",
+        "review": "Awaiting independent review; unnamed or ambiguous role references are not silently identified."
+      }
+    }
   ],
   "entities": [
-    {"id": "person-zeng-jize", "type": "person", "label": "曾紀澤", "display": "Tsêng Chi-tsê", "aliases": ["Zeng Jize", "劼剛"], "life": {"birth": 1839, "death": 1890, "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA", "note": "Year-scale display. ECCP prints Mar. 12; exact death date not adjudicated here."}, "sources": ["eccp", "qsg"], "note": "Main subject. Source-specific assertions remain separate."},
-    {"id": "person-zeng-guofan", "type": "person", "label": "曾國藩", "display": "Tsêng Kuo-fan", "aliases": ["Zeng Guofan", "伯涵", "滌生"], "life": {"birth": 1811, "death": 1872, "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"}, "sources": [], "externalSources": [{"label": "ECCP biography", "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"}, {"label": "清史稿 · 卷405", "url": "https://zh.wikisource.org/wiki/清史稿/卷405"}]},
-    {"id": "person-guo-songtao", "type": "person", "label": "郭嵩燾", "display": "Kuo Sung-tao", "aliases": ["Guo Songtao", "筠仙"], "life": {"birth": 1818, "death": 1891, "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"}, "sources": [], "externalSources": [{"label": "ECCP biography", "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"}]},
-    {"id": "person-macartney", "type": "person", "label": "Macartney", "display": "Samuel Halliday Macartney", "aliases": [], "life": null, "sources": [], "note": "Named in ECCP. The “see under Kuo Sung-tao” link is a reading reference, NOT identity with Kuo."},
-    {"id": "person-chonghou", "type": "person", "label": "崇厚", "display": "Ch'ung-hou", "aliases": [], "life": null, "sources": [], "note": "No lifespan assertion imported in this pilot."},
-    {"id": "place-peking", "type": "place", "label": "北京", "display": "Peking", "aliases": [], "point": {"coordinates": [116.4, 39.9], "source": "https://www.wikidata.org/wiki/Q956", "kind": "modern-reference", "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."}},
-    {"id": "place-shanghai", "type": "place", "label": "上海", "display": "Shanghai", "aliases": [], "point": {"coordinates": [121.47, 31.23], "source": "https://www.wikidata.org/wiki/Q8686", "kind": "modern-reference", "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."}},
-    {"id": "place-paris", "type": "place", "label": "巴黎", "display": "Paris", "aliases": [], "point": {"coordinates": [2.35, 48.86], "source": "https://www.wikidata.org/wiki/Q90", "kind": "modern-reference", "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."}},
-    {"id": "place-london", "type": "place", "label": "倫敦", "display": "London", "aliases": [], "point": {"coordinates": [-0.13, 51.51], "source": "https://www.wikidata.org/wiki/Q84", "kind": "modern-reference", "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."}},
-    {"id": "place-petersburg", "type": "place", "label": "聖彼得堡", "display": "St. Petersburg", "aliases": [], "point": {"coordinates": [30.32, 59.94], "source": "https://www.wikidata.org/wiki/Q656", "kind": "modern-reference", "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."}},
-    {"id": "place-xiangxiang", "type": "place", "label": "湘鄉", "display": "Hsiang-hsiang", "aliases": [], "point": null, "note": "Native-place reference, not an asserted birthplace. Historical jurisdiction and seat unresolved."},
-    {"id": "office-envoy", "type": "office", "label": "出使大臣", "display": "Minister / envoy", "aliases": [], "note": "Broad pilot category; exact office, appointment and service need separate assertions."},
-    {"id": "office-taichang", "type": "office", "label": "太常寺少卿", "display": "太常寺少卿", "aliases": []},
-    {"id": "title-hou", "type": "title", "label": "侯", "display": "Hereditary marquisate", "aliases": [], "note": "Title, not an administrative office."}
+    {
+      "id": "person-zeng-jize",
+      "type": "person",
+      "label": "曾紀澤",
+      "display": "Tsêng Chi-tsê",
+      "aliases": [
+        "Zeng Jize",
+        "劼剛"
+      ],
+      "life": {
+        "birth": 1839,
+        "death": 1890,
+        "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+        "note": "Year-scale display. ECCP prints Mar. 12; exact death date not adjudicated here."
+      },
+      "sources": [
+        "eccp",
+        "qsg"
+      ],
+      "note": "Main subject. Source-specific assertions remain separate."
+    },
+    {
+      "id": "person-zeng-guofan",
+      "type": "person",
+      "label": "曾國藩",
+      "display": "Tsêng Kuo-fan",
+      "aliases": [
+        "Zeng Guofan",
+        "伯涵",
+        "滌生"
+      ],
+      "life": {
+        "birth": 1811,
+        "death": 1872,
+        "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"
+      },
+      "sources": [],
+      "externalSources": [
+        {
+          "label": "ECCP biography",
+          "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"
+        },
+        {
+          "label": "清史稿 · 卷405",
+          "url": "https://zh.wikisource.org/wiki/清史稿/卷405"
+        }
+      ]
+    },
+    {
+      "id": "person-guo-songtao",
+      "type": "person",
+      "label": "郭嵩燾",
+      "display": "Kuo Sung-tao",
+      "aliases": [
+        "Guo Songtao",
+        "筠仙"
+      ],
+      "life": {
+        "birth": 1818,
+        "death": 1891,
+        "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"
+      },
+      "sources": [
+        "eccp-guo-songtao"
+      ],
+      "externalSources": [
+        {
+          "label": "ECCP biography",
+          "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Kuo_Sung-tao"
+        }
+      ]
+    },
+    {
+      "id": "person-macartney",
+      "type": "person",
+      "label": "Macartney",
+      "display": "Samuel Halliday Macartney",
+      "aliases": [],
+      "life": null,
+      "sources": [],
+      "note": "Named in ECCP. The “see under Kuo Sung-tao” link is a reading reference, NOT identity with Kuo."
+    },
+    {
+      "id": "person-chonghou",
+      "type": "person",
+      "label": "崇厚",
+      "display": "Ch'ung-hou",
+      "aliases": [],
+      "life": null,
+      "sources": [
+        "eccp-chonghou"
+      ],
+      "note": "No lifespan assertion imported in this pilot."
+    },
+    {
+      "id": "place-peking",
+      "type": "place",
+      "label": "北京",
+      "display": "Peking",
+      "aliases": [],
+      "point": {
+        "coordinates": [
+          116.4,
+          39.9
+        ],
+        "source": "https://www.wikidata.org/wiki/Q956",
+        "kind": "modern-reference",
+        "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."
+      }
+    },
+    {
+      "id": "place-shanghai",
+      "type": "place",
+      "label": "上海",
+      "display": "Shanghai",
+      "aliases": [],
+      "point": {
+        "coordinates": [
+          121.47,
+          31.23
+        ],
+        "source": "https://www.wikidata.org/wiki/Q8686",
+        "kind": "modern-reference",
+        "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."
+      }
+    },
+    {
+      "id": "place-paris",
+      "type": "place",
+      "label": "巴黎",
+      "display": "Paris",
+      "aliases": [],
+      "point": {
+        "coordinates": [
+          2.35,
+          48.86
+        ],
+        "source": "https://www.wikidata.org/wiki/Q90",
+        "kind": "modern-reference",
+        "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."
+      }
+    },
+    {
+      "id": "place-london",
+      "type": "place",
+      "label": "倫敦",
+      "display": "London",
+      "aliases": [],
+      "point": {
+        "coordinates": [
+          -0.13,
+          51.51
+        ],
+        "source": "https://www.wikidata.org/wiki/Q84",
+        "kind": "modern-reference",
+        "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."
+      }
+    },
+    {
+      "id": "place-petersburg",
+      "type": "place",
+      "label": "聖彼得堡",
+      "display": "St. Petersburg",
+      "aliases": [],
+      "point": {
+        "coordinates": [
+          30.32,
+          59.94
+        ],
+        "source": "https://www.wikidata.org/wiki/Q656",
+        "kind": "modern-reference",
+        "note": "Rounded modern reference point; not a reconstructed historical seat or boundary."
+      }
+    },
+    {
+      "id": "place-xiangxiang",
+      "type": "place",
+      "label": "湘鄉",
+      "display": "Hsiang-hsiang",
+      "aliases": [],
+      "point": null,
+      "note": "Native-place reference, not an asserted birthplace. Historical jurisdiction and seat unresolved."
+    },
+    {
+      "id": "office-envoy",
+      "type": "office",
+      "label": "出使大臣",
+      "display": "Minister / envoy",
+      "aliases": [],
+      "note": "Broad pilot category; exact office, appointment and service need separate assertions."
+    },
+    {
+      "id": "office-taichang",
+      "type": "office",
+      "label": "太常寺少卿",
+      "display": "太常寺少卿",
+      "aliases": []
+    },
+    {
+      "id": "title-hou",
+      "type": "title",
+      "label": "侯",
+      "display": "Hereditary marquisate",
+      "aliases": [],
+      "note": "Title, not an administrative office."
+    },
+    {
+      "id": "person-dong-xun",
+      "type": "person",
+      "label": "董恂",
+      "display": "Tung Hsün",
+      "aliases": [],
+      "life": null,
+      "sources": [
+        "eccp-dong-xun"
+      ]
+    },
+    {
+      "id": "person-zuo-zongtang",
+      "type": "person",
+      "label": "左宗棠",
+      "display": "Tso Tsung-t'ang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yakub-beg",
+      "type": "person",
+      "label": "Yakoob Beg",
+      "display": "Yakoob Beg",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-girs",
+      "type": "person",
+      "label": "Nicolas de Giers",
+      "display": "Nicolas de Giers",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-jomini",
+      "type": "person",
+      "label": "Baron de Jomini",
+      "display": "Baron de Jomini",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-butzow",
+      "type": "person",
+      "label": "Eugene C. Butzow",
+      "display": "Eugene C. Butzow",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-mingchuan",
+      "type": "person",
+      "label": "劉銘傳",
+      "display": "Liu Ming-ch'uan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-feng-zicai",
+      "type": "person",
+      "label": "馮子材",
+      "display": "Fêng Tzŭ-ts'ai",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-li-hongzhang",
+      "type": "person",
+      "label": "李鴻章",
+      "display": "Li Hung-chang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-patenotre",
+      "type": "person",
+      "label": "Patenôtre",
+      "display": "Patenôtre",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guoquan",
+      "type": "person",
+      "label": "曾國荃",
+      "display": "Tsêng Kuo-ch'üan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-salisbury",
+      "type": "person",
+      "label": "Lord Salisbury",
+      "display": "Lord Salisbury",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-ruifen",
+      "type": "person",
+      "label": "劉瑞芬",
+      "display": "Liu Jui-fên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yihuan",
+      "type": "person",
+      "label": "奕譞",
+      "display": "I-huan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-ding-richang",
+      "type": "person",
+      "label": "丁日昌",
+      "display": "Ting Jih-ch'ang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yixin",
+      "type": "person",
+      "label": "奕訢",
+      "display": "I-hsin",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-boulger",
+      "type": "person",
+      "label": "Demetrius Charles Boulger",
+      "display": "Boulger, D. C.",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-martin",
+      "type": "person",
+      "label": "丁韙良",
+      "display": "W. A. P. Martin",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-cordier",
+      "type": "person",
+      "label": "Henri Cordier",
+      "display": "Cordier, Henri",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-tu-lien-che",
+      "type": "person",
+      "label": "Tu Lien-chê",
+      "display": "Tu Lien-chê",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-rong",
+      "type": "person",
+      "label": "Liu Jung",
+      "display": "Liu Jung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-luo-bingzhang",
+      "type": "person",
+      "label": "駱秉章",
+      "display": "Lo Ping-chang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-jiang-zhongyuan",
+      "type": "person",
+      "label": "江忠源",
+      "display": "Chiang Chung-yüan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-peng-yulin",
+      "type": "person",
+      "label": "彭玉麟",
+      "display": "P'êng Yü-lin",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-lei-yixian",
+      "type": "person",
+      "label": "雷以諴",
+      "display": "Lei I-hsien",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-senggelinqin",
+      "type": "person",
+      "label": "僧格林沁",
+      "display": "Sêng-ko-lin-ch'in",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-hongli",
+      "type": "person",
+      "label": "弘歷",
+      "display": "Hung-li",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-haiyang",
+      "type": "person",
+      "label": "Wang Hai-yang",
+      "display": "Wang Hai-yang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-hong-rengan",
+      "type": "person",
+      "label": "洪仁玕",
+      "display": "Hung Jên-kan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-margary",
+      "type": "person",
+      "label": "Augustus Raymond Margary",
+      "display": "Augustus Raymond Margary",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-cen-yuying",
+      "type": "person",
+      "label": "岑毓英",
+      "display": "Ts'ên Yü-ying",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-xihong",
+      "type": "person",
+      "label": "劉錫鴻",
+      "display": "Liu Hsi-hung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-xu-jiyu",
+      "type": "person",
+      "label": "徐繼畲",
+      "display": "Hsü Chi-yü",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-guo-kuntao",
+      "type": "person",
+      "label": "郭崑燾",
+      "display": "Kuo K'un-tao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-guo-luntao",
+      "type": "person",
+      "label": "郭崙燾",
+      "display": "Kuo Lun-tao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-guo-gangji",
+      "type": "person",
+      "label": "郭剛基",
+      "display": "Kuo Kang-chi",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jichun",
+      "type": "person",
+      "label": "曾紀純",
+      "display": "Tsêng Chi-ch'un",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-guo-qingfan",
+      "type": "person",
+      "label": "郭慶藩",
+      "display": "Kuo Ch'ing-fan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zhang-deyi",
+      "type": "person",
+      "label": "張德彝",
+      "display": "Chang Tê-i",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-luo-yudong",
+      "type": "person",
+      "label": "羅玉東",
+      "display": "Lo Yü-tung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zaichun",
+      "type": "person",
+      "label": "載淳",
+      "display": "Emperor Mu-tsung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yizhu",
+      "type": "person",
+      "label": "奕詝",
+      "display": "I-chu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wheaton",
+      "type": "person",
+      "label": "Wheaton",
+      "display": "Wheaton",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-burlingame",
+      "type": "person",
+      "label": "Anson Burlingame",
+      "display": "Anson Burlingame",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-weng-tonghe",
+      "type": "person",
+      "label": "翁同龢",
+      "display": "Wêng T'ung-ho",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-williams",
+      "type": "person",
+      "label": "S. Wells Williams",
+      "display": "S. Wells Williams",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zhang-peilun",
+      "type": "person",
+      "label": "張佩綸",
+      "display": "Chang P'ei-lun",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-dong-cheng",
+      "type": "person",
+      "label": "董誠",
+      "display": "Tung Ch'êng",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-qi-junzao",
+      "type": "person",
+      "label": "祁寯藻",
+      "display": "Ch'i Chün-tsao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wenkang",
+      "type": "person",
+      "label": "Wên-k'ang",
+      "display": "Wên-k'ang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wenqing",
+      "type": "person",
+      "label": "文慶",
+      "display": "Wên-ch'ing",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-linqing",
+      "type": "person",
+      "label": "麟慶",
+      "display": "Lin-ch'ing",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-chongshi",
+      "type": "person",
+      "label": "崇實",
+      "display": "Ch'ung-shih",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-shengbao",
+      "type": "person",
+      "label": "Shêng-pao",
+      "display": "Shêng-pao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-lin-fengxiang",
+      "type": "person",
+      "label": "林鳳祥",
+      "display": "Lin Fêng-hsiang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-fontanier",
+      "type": "person",
+      "label": "Fontanier",
+      "display": "Fontanier",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-jie",
+      "type": "person",
+      "label": "劉傑",
+      "display": "Liu Chieh",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-rochechouart",
+      "type": "person",
+      "label": "Rochechouart",
+      "display": "Rochechouart",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-thiers",
+      "type": "person",
+      "label": "Thiers",
+      "display": "President Thiers",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-alexander-ii",
+      "type": "person",
+      "label": "Alexander II",
+      "display": "Alexander II",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-shao-youlian",
+      "type": "person",
+      "label": "邵友濂",
+      "display": "Shao Yu-lien",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zhang-zhidong",
+      "type": "person",
+      "label": "張之洞",
+      "display": "Chang Chih-tung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-koyander",
+      "type": "person",
+      "label": "Koyander",
+      "display": "Koyander",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-victoria",
+      "type": "person",
+      "label": "Queen Victoria",
+      "display": "Queen Victoria",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-young-allen",
+      "type": "person",
+      "label": "林樂知",
+      "display": "Allen, Young",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-jin-liang",
+      "type": "person",
+      "label": "Chin Liang",
+      "display": "Chin Liang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "work-st-petersburg-treaty",
+      "type": "work",
+      "label": "Treaty of St. Petersburg",
+      "display": "Treaty of St. Petersburg",
+      "aliases": [
+        "Treaty of St. Petersburg",
+        "Treaty St. Petersburg"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-livadia-treaty",
+      "type": "work",
+      "label": "Treaty of Livadia",
+      "display": "Treaty of Livadia",
+      "aliases": [
+        "Treaty of Livadia",
+        "Treaty of Livadis",
+        "treaty of Livadia"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-chefoo-convention",
+      "type": "work",
+      "label": "Chefoo Convention",
+      "display": "Chefoo Convention",
+      "aliases": [
+        "Chefoo Convention",
+        "Chefoo convention"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jinyao-choubi",
+      "type": "work",
+      "label": "金軺籌筆",
+      "display": "金軺籌筆",
+      "aliases": [
+        "金軺籌筆 Chin-yao ch'ou-pi",
+        "Chin-yao ch'ou-pi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-asiatic-quarterly-review",
+      "type": "work",
+      "label": "Asiatic Quarterly Review",
+      "display": "Asiatic Quarterly Review",
+      "aliases": [
+        "Asiatic Quarterly Review"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-china-sleep-awakening",
+      "type": "work",
+      "label": "China, the Sleep and the Awakening",
+      "display": "China, the Sleep and the Awakening",
+      "aliases": [
+        "China, the Sleep and the Awakening"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-huimin-quanji",
+      "type": "work",
+      "label": "Tsêng Hui-min kung ch'uan-chi",
+      "display": "Tsêng Hui-min kung ch'uan-chi",
+      "aliases": [
+        "Tsêng Hui-min kung ch'uan-chi (公全集)"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-huimin-zouyi",
+      "type": "work",
+      "label": "Tsêng Hui-min kung tsou-i",
+      "display": "Tsêng Hui-min kung tsou-i",
+      "aliases": [
+        "Tsêng Hui-min kung tsou-i (奏議)"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-huimin-wenji",
+      "type": "work",
+      "label": "Tsêng Hui-min kung wên-chi",
+      "display": "Tsêng Hui-min kung wên-chi",
+      "aliases": [
+        "Tsêng Hui-min kung wên-chi (文集)"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-guipuzhai-shichao",
+      "type": "work",
+      "label": "歸樸齋詩鈔",
+      "display": "歸樸齋詩鈔",
+      "aliases": [
+        "歸樸齋詩鈔 Kuei-p'u chai shih-ch'ao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shixi-riji",
+      "type": "work",
+      "label": "使西日記",
+      "display": "使西日記",
+      "aliases": [
+        "使西日記 Shih Hsi jih-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-qingji-waijiao-shiliao",
+      "type": "work",
+      "label": "Ch'ing-chi wai-chiao shih-liao",
+      "display": "Ch'ing-chi wai-chiao shih-liao",
+      "aliases": [
+        "Ch'ing-chi wai-chiao shih-liao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-life-halliday-macartney",
+      "type": "work",
+      "label": "The Life of Sir Halliday Macartney",
+      "display": "The Life of Sir Halliday Macartney",
+      "aliases": [
+        "The Life of Sir Halliday Macartney"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-life-thomas-macartney-reading",
+      "type": "work",
+      "label": "The Life of Sir Thomas Macartney",
+      "display": "The Life of Sir Thomas Macartney",
+      "aliases": [
+        "The Life of Sir Thomas Macartney"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-cycle-of-cathay",
+      "type": "work",
+      "label": "A Cycle of Cathay",
+      "display": "A Cycle of Cathay",
+      "aliases": [
+        "A Cycle of Cathay"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-cordier-histoire",
+      "type": "work",
+      "label": "Histoire des relations de la Chine avec les puissances occidentales",
+      "display": "Histoire des relations de la Chine avec les puissances occidentales",
+      "aliases": [
+        "Histoire des relations de la Chine avec les puissances occidentales"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-liji-zhiyi",
+      "type": "work",
+      "label": "禮記質疑",
+      "display": "禮記質疑",
+      "aliases": [
+        "禮記質疑 Li-chi chih-i"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-xiangyin-tuzhi",
+      "type": "work",
+      "label": "湘陰圖志",
+      "display": "湘陰圖志",
+      "aliases": [
+        "湘陰圖志 Hsiang-yin t'u-chih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shixi-jicheng",
+      "type": "work",
+      "label": "使西紀程",
+      "display": "使西紀程",
+      "aliases": [
+        "使西紀程 Shih-hsi chi-ch'êng"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-xiaofanghuzhai-yudi-congchao",
+      "type": "work",
+      "label": "Hsiao fang-hu chai yü-ti ts'ung-ch'ao",
+      "display": "Hsiao fang-hu chai yü-ti ts'ung-ch'ao",
+      "aliases": [
+        "Hsiao fang-hu chai yü-ti ts'ung-ch'ao",
+        "Hsiao-fang-hu chai yü-ti ts'ung-ch'ao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yangzhishuwu-quanji",
+      "type": "work",
+      "label": "Yang-chih shu-wu ch'üan-chi",
+      "display": "Yang-chih shu-wu ch'üan-chi",
+      "aliases": [
+        "Yang-chih shu-wu ch'üan-chi (全集)"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yuchilaoren-zixu",
+      "type": "work",
+      "label": "玉池老人自叙",
+      "display": "玉池老人自叙",
+      "aliases": [
+        "玉池老人自叙"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zhuangzi",
+      "type": "work",
+      "label": "Chuang-tzŭ",
+      "display": "Chuang-tzŭ",
+      "aliases": [
+        "Chuang-tzŭ"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zhuangzi-jishi",
+      "type": "work",
+      "label": "莊子集釋",
+      "display": "莊子集釋",
+      "aliases": [
+        "莊子集釋 Chuang-tzŭ chi-shih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yingyao-riji",
+      "type": "work",
+      "label": "英軺日記",
+      "display": "英軺日記",
+      "aliases": [
+        "英軺日記 Ying-yao jih-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-sishuqi",
+      "type": "work",
+      "label": "四述奇",
+      "display": "四述奇",
+      "aliases": [
+        "四述奇 Ssŭ-shu ch'i",
+        "四述奇 Ssŭ shu-ch'i"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zhongguo-lijin-shi",
+      "type": "work",
+      "label": "中國釐金史",
+      "display": "中國釐金史",
+      "aliases": [
+        "中國釐金史 Chung-kuo li-chin shih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-gantang-xiaozhi",
+      "type": "work",
+      "label": "甘棠小志",
+      "display": "甘棠小志",
+      "aliases": [
+        "甘棠小志 Kan-t'ang hsiao-chih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-wenzong-shilu",
+      "type": "work",
+      "label": "Wên-tsung Hsien Huang-ti shih-lu",
+      "display": "Wên-tsung Hsien Huang-ti shih-lu",
+      "aliases": [
+        "Wên-tsung Hsien Huang-ti shih-lu"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-elements-international-law",
+      "type": "work",
+      "label": "Elements of International Law",
+      "display": "Elements of International Law",
+      "aliases": [
+        "Elements of International Law"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-wanguo-gongfa",
+      "type": "work",
+      "label": "萬國公法",
+      "display": "萬國公法",
+      "aliases": [
+        "萬國公法 Wan-kuo kung fa"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-muzong-shilu",
+      "type": "work",
+      "label": "Shih-lu of Emperor Mu-tsung",
+      "display": "Shih-lu of Emperor Mu-tsung",
+      "aliases": [
+        "Shih-lu"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-chucao-jiangcheng",
+      "type": "work",
+      "label": "楚漕江程",
+      "display": "楚漕江程",
+      "aliases": [
+        "楚漕江程 Ch'u Ts'ao chiang-ch'êng"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jiangbei-yuncheng",
+      "type": "work",
+      "label": "江北運程",
+      "display": "江北運程",
+      "aliases": [
+        "江北運程 Chiang-pei yün-Ch'êng"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-huanduwoshushi-nianpu",
+      "type": "work",
+      "label": "還讀我書室老人手訂年譜",
+      "display": "還讀我書室老人手訂年譜",
+      "aliases": [
+        "還讀我書室老人手訂年譜 Huan-tu-wo-shu shih lao-jên shou-ting nien-p'u"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-dulongji",
+      "type": "work",
+      "label": "度隴記",
+      "display": "度隴記",
+      "aliases": [
+        "度隴記 Tu Lung chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-fengtai-zhiyebiji",
+      "type": "work",
+      "label": "鳳臺祗謁筆記",
+      "display": "鳳臺祗謁筆記",
+      "aliases": [
+        "鳳臺祗謁筆記 Fêng-t'ai chih-yeh pi-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yongning-zhiyebiji",
+      "type": "work",
+      "label": "Yung-ning chih-yeh pi-chi",
+      "display": "Yung-ning chih-yeh pi-chi",
+      "aliases": [
+        "Yung-ning (永寧) chih-yeh pi-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-difenshuwu-wengao",
+      "type": "work",
+      "label": "荻芬書屋文稿",
+      "display": "荻芬書屋文稿",
+      "aliases": [
+        "荻芬書屋文稿 Ti-fên shu-wu wên-kao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-difenshuwu-shigao",
+      "type": "work",
+      "label": "Ti-fên shu-wu shih kao",
+      "display": "Ti-fên shu-wu shih kao",
+      "aliases": [
+        "Ti-fên shu-wu shih (詩) kao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-ernu-yingxiong-zhuan",
+      "type": "work",
+      "label": "Êr-nü ying-hsiung chuan",
+      "display": "Êr-nü ying-hsiung chuan",
+      "aliases": [
+        "Êr-nü ying-hsiung chuan"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jinshi-renwuzhi",
+      "type": "work",
+      "label": "Chin-shih jên-wu chih",
+      "display": "Chin-shih jên-wu chih",
+      "aliases": [
+        "Chin-shih jên-wu chih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-donghualu",
+      "type": "work",
+      "label": "Tung-hua lu",
+      "display": "Tung-hua lu",
+      "aliases": [
+        "Tung-hua lu"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-chouban-yiwu-shimo",
+      "type": "work",
+      "label": "Ch'ou-pan i-wu shih-mo",
+      "display": "Ch'ou-pan i-wu shih-mo",
+      "aliases": [
+        "Ch'ou-pan i-wu shih-mo"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shengjing-dianzhi-beikao",
+      "type": "work",
+      "label": "盛京典制備考",
+      "display": "盛京典制備考",
+      "aliases": [
+        "盛京典制備考 Shêng-ching tien-chih pei-k'ao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shifa-shilue",
+      "type": "work",
+      "label": "使法事略",
+      "display": "使法事略",
+      "aliases": [
+        "使法事略 Shih-Fa shih-lüeh"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-toungpao",
+      "type": "work",
+      "label": "T'oung Pao",
+      "display": "T'oung Pao",
+      "aliases": [
+        "T'oung Pao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shixue-nianbao",
+      "type": "work",
+      "label": "史學年報",
+      "display": "史學年報",
+      "aliases": [
+        "史學年報 Shih-hsüeh nien-pao"
+      ],
+      "sources": []
+    }
   ],
   "mentions": [
-    {"id": "eccp-01-m01", "witness": "eccp", "passage": "eccp-01", "entity": "person-zeng-jize", "quote": "TSÊNG Chi-tsê", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-01-m02", "witness": "eccp", "passage": "eccp-01", "entity": "person-zeng-jize", "quote": "曾紀澤", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-01-m03", "witness": "eccp", "passage": "eccp-01", "entity": "place-xiangxiang", "quote": "Hsiang-hsiang", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-01-m04", "witness": "eccp", "passage": "eccp-01", "entity": "person-zeng-guofan", "quote": "Tsêng Kuo-fan", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-01-m05", "witness": "eccp", "passage": "eccp-01", "entity": "place-peking", "quote": "Peking", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-02-m01", "witness": "eccp", "passage": "eccp-02", "entity": "person-zeng-jize", "quote": "Tsêng Chi-tsê", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-03-m01", "witness": "eccp", "passage": "eccp-03", "entity": "person-macartney", "quote": "Samuel Halliday Macartney", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-03-m02", "witness": "eccp", "passage": "eccp-03", "entity": "person-guo-songtao", "quote": "Kuo Sung-tao", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-03-m03", "witness": "eccp", "passage": "eccp-03", "entity": "person-zeng-jize", "quote": "Tsêng Chi-tsê", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-03-m04", "witness": "eccp", "passage": "eccp-03", "entity": "office-envoy", "quote": "minister to England and France", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-03-m05", "witness": "eccp", "passage": "eccp-03", "entity": "person-guo-songtao", "quote": "Kuo Sung-tao", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-04-m01", "witness": "eccp", "passage": "eccp-04", "entity": "place-shanghai", "quote": "Shanghai", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-04-m02", "witness": "eccp", "passage": "eccp-04", "entity": "place-paris", "quote": "Paris", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-04-m03", "witness": "eccp", "passage": "eccp-04", "entity": "place-london", "quote": "London", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-08-m01", "witness": "eccp", "passage": "eccp-08", "entity": "person-chonghou", "quote": "Ch'ung-hou", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-08-m02", "witness": "eccp", "passage": "eccp-08", "entity": "person-zeng-jize", "quote": "Tsêng Chi-tsê", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-08-m03", "witness": "eccp", "passage": "eccp-08", "entity": "office-envoy", "quote": "minister to Russia", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-08-m04", "witness": "eccp", "passage": "eccp-08", "entity": "place-london", "quote": "London", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-08-m05", "witness": "eccp", "passage": "eccp-08", "entity": "place-petersburg", "quote": "St. Petersburg", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-15-m01", "witness": "eccp", "passage": "eccp-15", "entity": "place-london", "quote": "London", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-15-m02", "witness": "eccp", "passage": "eccp-15", "entity": "person-zeng-jize", "quote": "Tsêng Chi-tsê", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-15-m03", "witness": "eccp", "passage": "eccp-15", "entity": "place-shanghai", "quote": "Shanghai", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "eccp-15-m04", "witness": "eccp", "passage": "eccp-15", "entity": "place-peking", "quote": "Peking", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m01", "witness": "qsg", "passage": "qsg-01", "entity": "person-zeng-jize", "quote": "曾紀澤", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m02", "witness": "qsg", "passage": "qsg-01", "entity": "person-zeng-guofan", "quote": "國藩", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m03", "witness": "qsg", "passage": "qsg-01", "entity": "title-hou", "quote": "侯爵", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m04", "witness": "qsg", "passage": "qsg-01", "entity": "office-envoy", "quote": "出使英法大臣", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m05", "witness": "qsg", "passage": "qsg-01", "entity": "office-taichang", "quote": "太常寺少卿", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m06", "witness": "qsg", "passage": "qsg-01", "entity": "office-envoy", "quote": "使俄大臣", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m07", "witness": "qsg", "passage": "qsg-01", "entity": "person-chonghou", "quote": "崇厚", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-01-m08", "witness": "qsg", "passage": "qsg-01", "entity": "person-zeng-jize", "quote": "紀澤", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-03-m01", "witness": "qsg", "passage": "qsg-03", "entity": "person-chonghou", "quote": "崇厚", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-03-m02", "witness": "qsg", "passage": "qsg-03", "entity": "person-zeng-jize", "quote": "紀澤", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."},
-    {"id": "qsg-04-m01", "witness": "qsg", "passage": "qsg-04", "entity": "person-zeng-jize", "quote": "紀澤", "status": "proposed", "origin": "seed-import", "note": "Pilot identification; awaiting independent review."}
+    {
+      "id": "eccp-01-m01",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "person-zeng-jize",
+      "quote": "TSÊNG Chi-tsê",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-01-m02",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "person-zeng-jize",
+      "quote": "曾紀澤",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-01-n001",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "person-zeng-jize",
+      "quote": "劼剛",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-01-m03",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "place-xiangxiang",
+      "quote": "Hsiang-hsiang",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-01-m04",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-01-m05",
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "entity": "place-peking",
+      "quote": "Peking",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-02-m01",
+      "witness": "eccp",
+      "passage": "eccp-02",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-03-m01",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "entity": "person-macartney",
+      "quote": "Samuel Halliday Macartney",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-03-m02",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-03-m03",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-03-m04",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "entity": "office-envoy",
+      "quote": "minister to England and France",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-03-m05",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-04-m01",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "entity": "place-shanghai",
+      "quote": "Shanghai",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-04-m02",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "entity": "place-paris",
+      "quote": "Paris",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-04-m03",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "entity": "place-london",
+      "quote": "London",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-05-n001",
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-05-n002",
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "entity": "work-st-petersburg-treaty",
+      "quote": "Treaty of St. Petersburg",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-05-n003",
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "entity": "person-yakub-beg",
+      "quote": "Yakoob Beg",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-05-n004",
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-05-n005",
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-07-n001",
+      "witness": "eccp",
+      "passage": "eccp-07",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-07-n002",
+      "witness": "eccp",
+      "passage": "eccp-07",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-08-n001",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "work-livadia-treaty",
+      "quote": "Treaty of Livadis",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The source reading Livadis is retained as an attested variant, not corrected in the text."
+    },
+    {
+      "id": "eccp-08-m01",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-08-m02",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-08-m03",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "office-envoy",
+      "quote": "minister to Russia",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-08-m04",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "place-london",
+      "quote": "London",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-08-m05",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "entity": "place-petersburg",
+      "quote": "St. Petersburg",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n001",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "work-jinyao-choubi",
+      "quote": "金軺籌筆 Chin-yao ch'ou-pi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "An account of the negotiations with an appendix annotated by 曾紀澤. The narrative does not by itself establish sole authorship."
+    },
+    {
+      "id": "eccp-09-n002",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n003",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-girs",
+      "quote": "Nicolas de Giers",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n004",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-girs",
+      "quote": "格爾斯",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n005",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-jomini",
+      "quote": "Baron de Jomini",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n006",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-jomini",
+      "quote": "熱梅尼",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n007",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-butzow",
+      "quote": "Eugene C. Butzow",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-09-n008",
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "entity": "person-butzow",
+      "quote": "布策",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-10-n001",
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "entity": "work-st-petersburg-treaty",
+      "quote": "Treaty St. Petersburg",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-10-n002",
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-10-n003",
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "entity": "work-livadia-treaty",
+      "quote": "Treaty of Livadia",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The source reading Livadis is retained as an attested variant, not corrected in the text."
+    },
+    {
+      "id": "eccp-10-n004",
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "entity": "work-st-petersburg-treaty",
+      "quote": "Treaty of St. Petersburg",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-11-n001",
+      "witness": "eccp",
+      "passage": "eccp-11",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-12-n001",
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "entity": "person-liu-mingchuan",
+      "quote": "Liu Ming-ch'uan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-12-n002",
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "entity": "person-feng-zicai",
+      "quote": "Fêng Tzŭ-ts'ai",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-12-n003",
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-12-n004",
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "entity": "person-patenotre",
+      "quote": "Patenôtre",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-12-n005",
+      "witness": "eccp",
+      "passage": "eccp-12",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-13-n001",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-13-n002",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "person-salisbury",
+      "quote": "Lord Salisbury",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-13-n003",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "work-chefoo-convention",
+      "quote": "Chefoo Convention",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-13-n004",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-13-n005",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-13-n006",
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "entity": "person-liu-ruifen",
+      "quote": "Liu Jui-fên",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-14-n001",
+      "witness": "eccp",
+      "passage": "eccp-14",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-14-n002",
+      "witness": "eccp",
+      "passage": "eccp-14",
+      "entity": "person-yihuan",
+      "quote": "I-huan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-14-n003",
+      "witness": "eccp",
+      "passage": "eccp-14",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-15-m01",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "place-london",
+      "quote": "London",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-15-m02",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-15-n001",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "work-asiatic-quarterly-review",
+      "quote": "Asiatic Quarterly Review",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-15-n002",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "work-china-sleep-awakening",
+      "quote": "China, the Sleep and the Awakening",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-15-m03",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "place-shanghai",
+      "quote": "Shanghai",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-15-m04",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "entity": "place-peking",
+      "quote": "Peking",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-17-n001",
+      "witness": "eccp",
+      "passage": "eccp-17",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-17-n002",
+      "witness": "eccp",
+      "passage": "eccp-17",
+      "entity": "person-zeng-jize",
+      "quote": "Hui-min",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-17-n003",
+      "witness": "eccp",
+      "passage": "eccp-17",
+      "entity": "person-zeng-jize",
+      "quote": "惠敏",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-18-n001",
+      "witness": "eccp",
+      "passage": "eccp-18",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-18-n002",
+      "witness": "eccp",
+      "passage": "eccp-18",
+      "entity": "work-zeng-huimin-quanji",
+      "quote": "Tsêng Hui-min kung ch'uan-chi (公全集)",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-18-n003",
+      "witness": "eccp",
+      "passage": "eccp-18",
+      "entity": "person-ding-richang",
+      "quote": "Ting Jih-ch'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-19-n001",
+      "witness": "eccp",
+      "passage": "eccp-19",
+      "entity": "work-zeng-huimin-zouyi",
+      "quote": "Tsêng Hui-min kung tsou-i (奏議)",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-19-n002",
+      "witness": "eccp",
+      "passage": "eccp-19",
+      "entity": "work-zeng-huimin-wenji",
+      "quote": "Tsêng Hui-min kung wên-chi (文集)",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-19-n003",
+      "witness": "eccp",
+      "passage": "eccp-19",
+      "entity": "work-guipuzhai-shichao",
+      "quote": "歸樸齋詩鈔 Kuei-p'u chai shih-ch'ao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-19-n004",
+      "witness": "eccp",
+      "passage": "eccp-19",
+      "entity": "work-shixi-riji",
+      "quote": "使西日記 Shih Hsi jih-chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-20-n001",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "work-qingji-waijiao-shiliao",
+      "quote": "Ch'ing-chi wai-chiao shih-liao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-20-n002",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-20-n003",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "person-boulger",
+      "quote": "Boulger, D. C.",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-20-n004",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "work-life-halliday-macartney",
+      "quote": "The Life of Sir Halliday Macartney",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-20-n005",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "person-martin",
+      "quote": "Martin, W. A. P.",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-20-n006",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "work-cycle-of-cathay",
+      "quote": "A Cycle of Cathay",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-20-n007",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "person-cordier",
+      "quote": "Cordier, Henri",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-20-n008",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "work-cordier-histoire",
+      "quote": "Histoire des relations de la Chine avec les puissances occidentales",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-20-n009",
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-21-n001",
+      "witness": "eccp",
+      "passage": "eccp-21",
+      "entity": "person-tu-lien-che",
+      "quote": "Tu Lien-chê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-guo-songtao",
+      "quote": "KUO Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-guo-songtao",
+      "quote": "郭嵩燾",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-guo-songtao",
+      "quote": "伯琛",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-guo-songtao",
+      "quote": "筠仙",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-guo-songtao",
+      "quote": "玉池老人",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n007",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-liu-rong",
+      "quote": "Liu Jung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-01-n008",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-01",
+      "entity": "person-luo-bingzhang",
+      "quote": "Lo Ping-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-02-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-02-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-02-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-02-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-02-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-02",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang Chung-yüan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-03-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-03",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-03-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-03",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-03-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-03",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-04-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-04",
+      "entity": "person-lei-yixian",
+      "quote": "Lei I-hsien",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-04-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-04",
+      "entity": "person-lei-yixian",
+      "quote": "雷以諴",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-04-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-04",
+      "entity": "person-lei-yixian",
+      "quote": "鶴皋",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-05-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-05",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-05-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-05",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-05-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-05",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-06-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-06",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-06-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-06",
+      "entity": "person-hongli",
+      "quote": "Hung-li",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-07-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-07-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-07-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "entity": "person-wang-haiyang",
+      "quote": "Wang Hai-yang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-07-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-07",
+      "entity": "person-hong-rengan",
+      "quote": "Hung Jên-kan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-08-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-08",
+      "entity": "person-margary",
+      "quote": "Augustus Raymond Margary",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-08-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-08",
+      "entity": "person-cen-yuying",
+      "quote": "Ts'ên Yü-ying",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-09-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-09-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "entity": "person-cen-yuying",
+      "quote": "Ts'ên Yü-ying",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-09-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-09",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-10-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-10",
+      "entity": "work-chefoo-convention",
+      "quote": "Chefoo convention",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-10-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-10",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-10-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-10",
+      "entity": "person-margary",
+      "quote": "Margary",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-10-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-10",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-liu-xihong",
+      "quote": "Liu Hsi-hung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-liu-xihong",
+      "quote": "劉錫鴻",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-liu-xihong",
+      "quote": "雲生",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-macartney",
+      "quote": "Samuel Halliday Macartney",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-macartney",
+      "quote": "馬格理",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-11-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-11",
+      "entity": "person-macartney",
+      "quote": "清臣",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-12-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-12",
+      "entity": "person-macartney",
+      "quote": "Macartney",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-12-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-12",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-12-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-12",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-13-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-13",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-13-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-13",
+      "entity": "person-liu-xihong",
+      "quote": "Liu Hsi-hung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-14-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-14",
+      "entity": "person-guo-songtao",
+      "quote": "Yang-chih hsien-shêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-15-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "entity": "work-livadia-treaty",
+      "quote": "treaty of Livadia",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The source reading Livadis is retained as an attested variant, not corrected in the text."
+    },
+    {
+      "id": "eccp-guo-songtao-15-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-15-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-15-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "work-liji-zhiyi",
+      "quote": "禮記質疑 Li-chi chih-i",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "work-xiangyin-tuzhi",
+      "quote": "湘陰圖志 Hsiang-yin t'u-chih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "work-shixi-jicheng",
+      "quote": "使西紀程 Shih-hsi chi-ch'êng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "work-xiaofanghuzhai-yudi-congchao",
+      "quote": "Hsiao fang-hu chai yü-ti ts'ung-ch'ao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-16-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-16",
+      "entity": "person-xu-jiyu",
+      "quote": "Hsü Chi-yü",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-17-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-17",
+      "entity": "work-yangzhishuwu-quanji",
+      "quote": "Yang-chih shu-wu ch'üan-chi (全集)",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-kuntao",
+      "quote": "Kuo K'un-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-kuntao",
+      "quote": "郭崑燾",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-kuntao",
+      "quote": "意城",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-kuntao",
+      "quote": "樗叜",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-luntao",
+      "quote": "Kuo Lun-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-luntao",
+      "quote": "郭崙燾",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n007",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-luntao",
+      "quote": "叔和",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n008",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-luntao",
+      "quote": "志城",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n009",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n010",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-gangji",
+      "quote": "Kuo Kang-chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n011",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-gangji",
+      "quote": "郭剛基",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n012",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-guo-gangji",
+      "quote": "依水",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n013",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-zeng-jichun",
+      "quote": "Tsêng Chi-ch'un",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n014",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-zeng-jichun",
+      "quote": "曾紀純",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-18-n015",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "person-guo-kuntao",
+      "quote": "Kuo K'un-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "person-guo-qingfan",
+      "quote": "Kuo Ch'ing-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "person-guo-qingfan",
+      "quote": "郭慶藩",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "person-guo-qingfan",
+      "quote": "孟純",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "person-guo-qingfan",
+      "quote": "子瀞",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "work-zhuangzi",
+      "quote": "Chuang-tzŭ",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-19-n007",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "entity": "work-zhuangzi-jishi",
+      "quote": "莊子集釋 Chuang-tzŭ chi-shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-yuchilaoren-zixu",
+      "quote": "玉池老人自叙",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n002",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-liu-xihong",
+      "quote": "Liu Hsi-hung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n003",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-yingyao-riji",
+      "quote": "英軺日記 Ying-yao jih-chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n004",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-xiaofanghuzhai-yudi-congchao",
+      "quote": "Hsiao fang-hu chai yü-ti ts'ung-ch'ao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n005",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-xu-jiyu",
+      "quote": "Hsü Chi-yü",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n006",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-zhang-deyi",
+      "quote": "Chang Tê-i",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n007",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-zhang-deyi",
+      "quote": "張德彝",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n008",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-sishuqi",
+      "quote": "四述奇 Ssŭ-shu ch'i",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n009",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-boulger",
+      "quote": "Boulger",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n010",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-life-thomas-macartney-reading",
+      "quote": "The Life of Sir Thomas Macartney",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "This is the title as printed in the 郭嵩燾 transcription. Possible erroneous title variant of The Life of Sir Halliday Macartney; identity is not silently merged."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n011",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-luo-yudong",
+      "quote": "Lo Yü-tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n012",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "person-luo-yudong",
+      "quote": "羅玉東",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-guo-songtao-20-n013",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-20",
+      "entity": "work-zhongguo-lijin-shi",
+      "quote": "中國釐金史 Chung-kuo li-chin shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-guo-songtao-21-n001",
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-21",
+      "entity": "person-tu-lien-che",
+      "quote": "Tu Lien-chê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-01-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "TUNG Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-01-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "董恂",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-01-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "忱甫",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-01-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "醞卿",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-01-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "椿",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-01-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "壽卿",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-01-n007",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "醇",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-01-n008",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-01",
+      "entity": "person-dong-xun",
+      "quote": "恂",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-03-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-03",
+      "entity": "work-gantang-xiaozhi",
+      "quote": "甘棠小志 Kan-t'ang hsiao-chih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-05-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-05",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-05-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-05",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-zaichun",
+      "quote": "Emperor Mu-tsung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-zaichun",
+      "quote": "Tsai-ch'un",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-zaichun",
+      "quote": "載淳",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-dong-xun",
+      "quote": "Ch'un",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-06-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-dong-xun",
+      "quote": "醇",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-06-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-dong-xun",
+      "quote": "Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-06-n007",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-dong-xun",
+      "quote": "恂",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-06-n008",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n009",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-martin",
+      "quote": "W. A. P. Martin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n010",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-martin",
+      "quote": "丁韙良",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-06-n011",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "entity": "person-martin",
+      "quote": "冠西",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-07-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-07",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-07-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-07",
+      "entity": "person-yizhu",
+      "quote": "Emperor Wên-tsung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-07-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-07",
+      "entity": "work-wenzong-shilu",
+      "quote": "Wên-tsung Hsien Huang-ti shih-lu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-07-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-07",
+      "entity": "person-yizhu",
+      "quote": "I-chu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-08-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "person-martin",
+      "quote": "Martin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-08-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "person-wheaton",
+      "quote": "Wheaton",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-08-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "work-elements-international-law",
+      "quote": "Elements of International Law",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-08-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "work-wanguo-gongfa",
+      "quote": "萬國公法 Wan-kuo kung fa",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-08-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "person-burlingame",
+      "quote": "Anson Burlingame",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-08-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "person-burlingame",
+      "quote": "蒲安臣",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-08-n007",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-09-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-09",
+      "entity": "person-weng-tonghe",
+      "quote": "Wêng T'ung-ho",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-09-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-09",
+      "entity": "person-dong-xun",
+      "quote": "Tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-10-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-dong-xun",
+      "quote": "Tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-10-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-10-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-dong-xun",
+      "quote": "Tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-10-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-burlingame",
+      "quote": "Anson Burlingame",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-10-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-dong-xun",
+      "quote": "Tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-dong-xun-10-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-williams",
+      "quote": "S. Wells Williams",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-10-n007",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-williams",
+      "quote": "衛廉士",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-10-n008",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-10",
+      "entity": "person-williams",
+      "quote": "聽泉",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-11-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-11",
+      "entity": "person-zaichun",
+      "quote": "Emperor Mu-tsung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-11-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-11",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-12-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-12",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-12-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-12",
+      "entity": "work-muzong-shilu",
+      "quote": "Shih-lu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-12-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-12",
+      "entity": "person-zaichun",
+      "quote": "Emperor Mu-tsung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-13-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-13",
+      "entity": "person-zhang-peilun",
+      "quote": "Chang P'ei-lun",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-14-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-14",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-14-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-14",
+      "entity": "work-chucao-jiangcheng",
+      "quote": "楚漕江程 Ch'u Ts'ao chiang-ch'êng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-15-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-15",
+      "entity": "work-jiangbei-yuncheng",
+      "quote": "江北運程 Chiang-pei yün-Ch'êng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-15-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-15",
+      "entity": "work-huanduwoshushi-nianpu",
+      "quote": "還讀我書室老人手訂年譜 Huan-tu-wo-shu shih lao-jên shou-ting nien-p'u",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The transcription reports printing in 1992, an apparent error left unchanged pending collation with the scan."
+    },
+    {
+      "id": "eccp-dong-xun-15-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-15",
+      "entity": "person-dong-cheng",
+      "quote": "Tung Ch'êng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-15-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-15",
+      "entity": "person-dong-cheng",
+      "quote": "董誠",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-16-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-16",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-16-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-16",
+      "entity": "work-dulongji",
+      "quote": "度隴記 Tu Lung chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-16-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-16",
+      "entity": "person-qi-junzao",
+      "quote": "Ch'i Chün-tsao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-16-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-16",
+      "entity": "work-fengtai-zhiyebiji",
+      "quote": "鳳臺祗謁筆記 Fêng-t'ai chih-yeh pi-chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-16-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-16",
+      "entity": "work-yongning-zhiyebiji",
+      "quote": "Yung-ning (永寧) chih-yeh pi-chi",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-17-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-17-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "work-difenshuwu-wengao",
+      "quote": "荻芬書屋文稿 Ti-fên shu-wu wên-kao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-17-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "work-difenshuwu-shigao",
+      "quote": "Ti-fên shu-wu shih (詩) kao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-17-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "person-wenkang",
+      "quote": "Wên-k'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-17-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "work-ernu-yingxiong-zhuan",
+      "quote": "Êr-nü ying-hsiung chuan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-17-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-17",
+      "entity": "person-wenqing",
+      "quote": "Wên-ch'ing",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-18-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "work-jinshi-renwuzhi",
+      "quote": "Chin-shih jên-wu chih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-18-n002",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "person-weng-tonghe",
+      "quote": "Wêng T'ung-ho",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-18-n003",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "person-martin",
+      "quote": "Martin, W. A. P.",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-18-n004",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "work-cycle-of-cathay",
+      "quote": "A Cycle of Cathay",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-18-n005",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "work-donghualu",
+      "quote": "Tung-hua lu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Exact version / compiler of this abbreviated bibliographical reference has not been adjudicated."
+    },
+    {
+      "id": "eccp-dong-xun-18-n006",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "work-chouban-yiwu-shimo",
+      "quote": "Ch'ou-pan i-wu shih-mo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-dong-xun-18-n007",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-dong-xun-19-n001",
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-19",
+      "entity": "person-tu-lien-che",
+      "quote": "Tu Lien-chê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-01-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "entity": "person-chonghou",
+      "quote": "CH'UNG-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-01-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-01-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "entity": "person-chonghou",
+      "quote": "地山",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-01-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "entity": "person-linqing",
+      "quote": "Lin-ch'ing",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-01-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-01",
+      "entity": "person-chongshi",
+      "quote": "Ch'ung-shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-02-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "entity": "person-chongshi",
+      "quote": "Ch'ung-shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-02-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-02-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "entity": "person-shengbao",
+      "quote": "Shêng-pao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-02-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-02",
+      "entity": "person-lin-fengxiang",
+      "quote": "Lin Fêng-hsiang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-03-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-03",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-04-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-04",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-04-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-04",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-05-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-05",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-07-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-07",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-fontanier",
+      "quote": "Fontanier",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-fontanier",
+      "quote": "豐大業",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-fontanier",
+      "quote": "Fontanier",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n006",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-fontanier",
+      "quote": "Fontanier",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n007",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-liu-jie",
+      "quote": "Liu Chieh",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n008",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-liu-jie",
+      "quote": "劉傑",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n009",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-fontanier",
+      "quote": "Fontanier",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-08-n010",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-08",
+      "entity": "person-liu-jie",
+      "quote": "Liu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-chonghou-09-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-09",
+      "entity": "person-rochechouart",
+      "quote": "Rochechouart",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-09-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-09",
+      "entity": "person-rochechouart",
+      "quote": "羅淑亞",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-09-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-09",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-10-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-10",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-11-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-11",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-11-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-11",
+      "entity": "person-burlingame",
+      "quote": "Burlingame",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-11-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-11",
+      "entity": "person-dong-xun",
+      "quote": "Tung Hsün",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-12-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-12",
+      "entity": "person-thiers",
+      "quote": "President Thiers",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-12-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-12",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-13-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-13",
+      "entity": "person-thiers",
+      "quote": "Thiers",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-13-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-13",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-14-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-14-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-14-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "entity": "person-chongshi",
+      "quote": "Ch'ung-shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-14-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-14",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-15-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-15",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-15-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-15",
+      "entity": "work-shengjing-dianzhi-beikao",
+      "quote": "盛京典制備考 Shêng-ching tien-chih pei-k'ao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-16-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-16-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-16-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-16-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-alexander-ii",
+      "quote": "Tzar",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-alexander-ii",
+      "quote": "Alexander II",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-butzow",
+      "quote": "Butzow",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n006",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-alexander-ii",
+      "quote": "Tzar",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-17-n007",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-18-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "entity": "work-livadia-treaty",
+      "quote": "Treaty of Livadia",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The source reading Livadis is retained as an attested variant, not corrected in the text."
+    },
+    {
+      "id": "eccp-chonghou-18-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-18-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "entity": "person-shao-youlian",
+      "quote": "Shao Yu-lien",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-18-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "entity": "person-shao-youlian",
+      "quote": "邵友濂",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-18-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "entity": "person-shao-youlian",
+      "quote": "筱(小)村",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-19-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-19",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-19-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-19",
+      "entity": "person-zhang-zhidong",
+      "quote": "Chang Chih-tung",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-20-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-20-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "entity": "person-koyander",
+      "quote": "Koyander",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-20-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "entity": "person-koyander",
+      "quote": "凱陽德",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-20-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-20",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-21-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "entity": "work-livadia-treaty",
+      "quote": "Treaty of Livadia",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "The source reading Livadis is retained as an attested variant, not corrected in the text."
+    },
+    {
+      "id": "eccp-chonghou-21-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-21-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-21-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Short form resolved within this biography; not a corpus-wide surname replacement."
+    },
+    {
+      "id": "eccp-chonghou-21-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-22-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-22",
+      "entity": "person-victoria",
+      "quote": "Queen Victoria",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-22-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-22",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-young-allen",
+      "quote": "Allen, Young",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n002",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-young-allen",
+      "quote": "林樂知",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n003",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-shifa-shilue",
+      "quote": "使法事略 Shih-Fa shih-lüeh",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n004",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-xiaofanghuzhai-yudi-congchao",
+      "quote": "Hsiao-fang-hu chai yü-ti ts'ung-ch'ao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n005",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-xu-jiyu",
+      "quote": "Hsü Chi-yü",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n006",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-zhang-deyi",
+      "quote": "Chang Tê-i",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n007",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-zhang-deyi",
+      "quote": "張德彝",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n008",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-sishuqi",
+      "quote": "四述奇 Ssŭ shu-ch'i",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n009",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-jin-liang",
+      "quote": "Chin Liang",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n010",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-weng-tonghe",
+      "quote": "Wêng T'ung-ho",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n011",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-jinshi-renwuzhi",
+      "quote": "Chin-shih jên-wu chih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n012",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-donghualu",
+      "quote": "Tung-hua lu",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Exact version / compiler of this abbreviated bibliographical reference has not been adjudicated."
+    },
+    {
+      "id": "eccp-chonghou-24-n013",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-chouban-yiwu-shimo",
+      "quote": "Ch'ou-pan i-wu shih-mo",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n014",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n015",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-qingji-waijiao-shiliao",
+      "quote": "Ch'ing-chi wai-chiao shih-liao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n016",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n017",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-chongshi",
+      "quote": "Ch'ung-shih",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n018",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "person-cordier",
+      "quote": "Henri Cordier",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-chonghou-24-n019",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-cordier-histoire",
+      "quote": "Histoire des relations de la Chine avec les puissances occidentales",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n020",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-toungpao",
+      "quote": "T'oung Pao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-24-n021",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-24",
+      "entity": "work-shixue-nianbao",
+      "quote": "史學年報 Shih-hsüeh nien-pao",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Named work, publication, or titled document; source spelling preserved."
+    },
+    {
+      "id": "eccp-chonghou-25-n001",
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-25",
+      "entity": "person-tu-lien-che",
+      "quote": "Tu Lien-chê",
+      "status": "proposed",
+      "origin": "eccp-batch-01",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m01",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "person-zeng-jize",
+      "quote": "曾紀澤",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m02",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "person-zeng-guofan",
+      "quote": "國藩",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m03",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "title-hou",
+      "quote": "侯爵",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m04",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "office-envoy",
+      "quote": "出使英法大臣",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m05",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "office-taichang",
+      "quote": "太常寺少卿",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m06",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "office-envoy",
+      "quote": "使俄大臣",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m07",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-01-m08",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-03-m01",
+      "witness": "qsg",
+      "passage": "qsg-03",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-03-m02",
+      "witness": "qsg",
+      "passage": "qsg-03",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "qsg-04-m01",
+      "witness": "qsg",
+      "passage": "qsg-04",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "seed-import",
+      "note": "Pilot identification; awaiting independent review."
+    }
   ],
   "events": [
-    {"id": "e-heritage", "witness": "eccp", "passage": "eccp-03", "label": "Inherits hereditary rank", "time": {"start": 1872, "end": 1872, "precision": "year", "original": "1872", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "title", "status": "proposed", "note": ""},
-    {"id": "e-appointment", "witness": "eccp", "passage": "eccp-03", "label": "Appointed minister to England and France", "time": {"start": 1878, "end": 1878, "precision": "year", "original": "1878", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "appointment", "status": "proposed", "note": "Appointment does not establish arrival or assumption of service."},
-    {"id": "e-shanghai", "witness": "eccp", "passage": "eccp-04", "label": "Sails from Shanghai", "time": {"start": 1878, "end": 1878, "precision": "year", "original": "November 22, 1878", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": ["place-shanghai"], "kind": "event", "status": "proposed", "note": ""},
-    {"id": "e-paris", "witness": "eccp", "passage": "eccp-04", "label": "Arrives in Paris", "time": {"start": 1879, "end": 1879, "precision": "year", "original": "January 4, 1879", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": ["place-paris"], "kind": "event", "status": "proposed", "note": ""},
-    {"id": "e-london", "witness": "eccp", "passage": "eccp-04", "label": "Proceeds to London", "time": {"start": 1879, "end": 1879, "precision": "year", "original": "February 4", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": ["place-london"], "kind": "event", "status": "proposed", "note": "Year supplied from the preceding clause."},
-    {"id": "e-russia", "witness": "eccp", "passage": "eccp-08", "label": "Appointed minister to Russia", "time": {"start": 1880, "end": 1880, "precision": "year", "original": "February 12", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "appointment", "status": "proposed", "note": "Year inferred from the paragraph; original wording retained."},
-    {"id": "e-petersburg", "witness": "eccp", "passage": "eccp-08", "label": "Arrives at St. Petersburg", "time": {"start": 1880, "end": 1880, "precision": "year", "original": "July 30", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": ["place-petersburg"], "kind": "event", "status": "proposed", "note": "Year supplied from the paragraph."},
-    {"id": "e-return", "witness": "eccp", "passage": "eccp-15", "label": "Returns via Shanghai to Peking", "time": {"start": 1886, "end": 1886, "precision": "year", "original": "October 18, 1886 … December 11", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": ["place-shanghai", "place-peking"], "kind": "event", "status": "proposed", "note": "Two documented destinations, not a reconstructed route."},
-    {"id": "q-appointment", "witness": "qsg", "passage": "qsg-01", "label": "充出使英法大臣", "time": {"start": 1878, "end": 1878, "precision": "year", "original": "光緒四年", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "appointment", "status": "proposed", "note": "Year-scale index only. A regnal year is not identical to a Gregorian calendar year."},
-    {"id": "q-russia", "witness": "qsg", "passage": "qsg-01", "label": "兼使俄大臣", "time": {"start": 1880, "end": 1880, "precision": "year", "original": "六年", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "appointment", "status": "proposed", "note": "Era supplied from 光緒四年. Exact lunisolar bounds not converted."},
-    {"id": "q-office", "witness": "qsg", "passage": "qsg-03", "label": "遷宗人府府丞、左副都御史", "time": {"start": 1881, "end": 1881, "precision": "year", "original": "七年", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "appointment", "status": "proposed", "note": "Contextual 光緒 era. Year-scale index, not an exact calendar conversion."},
-    {"id": "q-death", "witness": "qsg", "passage": "qsg-04", "label": "卒；加太子少保，諡惠敏", "time": {"start": 1890, "end": 1890, "precision": "year", "original": "十六年", "basis": "source-reading"}, "people": ["person-zeng-jize"], "places": [], "kind": "death", "status": "proposed", "note": "Contextual 光緒 era. Award is posthumous, not service."}
+    {
+      "id": "e-heritage",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "label": "Inherits hereditary rank",
+      "time": {
+        "start": 1872,
+        "end": 1872,
+        "precision": "year",
+        "original": "1872",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "title",
+      "status": "proposed",
+      "note": ""
+    },
+    {
+      "id": "e-appointment",
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "label": "Appointed minister to England and France",
+      "time": {
+        "start": 1878,
+        "end": 1878,
+        "precision": "year",
+        "original": "1878",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "appointment",
+      "status": "proposed",
+      "note": "Appointment does not establish arrival or assumption of service."
+    },
+    {
+      "id": "e-shanghai",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "label": "Sails from Shanghai",
+      "time": {
+        "start": 1878,
+        "end": 1878,
+        "precision": "year",
+        "original": "November 22, 1878",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [
+        "place-shanghai"
+      ],
+      "kind": "event",
+      "status": "proposed",
+      "note": ""
+    },
+    {
+      "id": "e-paris",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "label": "Arrives in Paris",
+      "time": {
+        "start": 1879,
+        "end": 1879,
+        "precision": "year",
+        "original": "January 4, 1879",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [
+        "place-paris"
+      ],
+      "kind": "event",
+      "status": "proposed",
+      "note": ""
+    },
+    {
+      "id": "e-london",
+      "witness": "eccp",
+      "passage": "eccp-04",
+      "label": "Proceeds to London",
+      "time": {
+        "start": 1879,
+        "end": 1879,
+        "precision": "year",
+        "original": "February 4",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [
+        "place-london"
+      ],
+      "kind": "event",
+      "status": "proposed",
+      "note": "Year supplied from the preceding clause."
+    },
+    {
+      "id": "e-russia",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "label": "Appointed minister to Russia",
+      "time": {
+        "start": 1880,
+        "end": 1880,
+        "precision": "year",
+        "original": "February 12",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "appointment",
+      "status": "proposed",
+      "note": "Year inferred from the paragraph; original wording retained."
+    },
+    {
+      "id": "e-petersburg",
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "label": "Arrives at St. Petersburg",
+      "time": {
+        "start": 1880,
+        "end": 1880,
+        "precision": "year",
+        "original": "July 30",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [
+        "place-petersburg"
+      ],
+      "kind": "event",
+      "status": "proposed",
+      "note": "Year supplied from the paragraph."
+    },
+    {
+      "id": "e-return",
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "label": "Returns via Shanghai to Peking",
+      "time": {
+        "start": 1886,
+        "end": 1886,
+        "precision": "year",
+        "original": "October 18, 1886 … December 11",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [
+        "place-shanghai",
+        "place-peking"
+      ],
+      "kind": "event",
+      "status": "proposed",
+      "note": "Two documented destinations, not a reconstructed route."
+    },
+    {
+      "id": "q-appointment",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "label": "充出使英法大臣",
+      "time": {
+        "start": 1878,
+        "end": 1878,
+        "precision": "year",
+        "original": "光緒四年",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "appointment",
+      "status": "proposed",
+      "note": "Year-scale index only. A regnal year is not identical to a Gregorian calendar year."
+    },
+    {
+      "id": "q-russia",
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "label": "兼使俄大臣",
+      "time": {
+        "start": 1880,
+        "end": 1880,
+        "precision": "year",
+        "original": "六年",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "appointment",
+      "status": "proposed",
+      "note": "Era supplied from 光緒四年. Exact lunisolar bounds not converted."
+    },
+    {
+      "id": "q-office",
+      "witness": "qsg",
+      "passage": "qsg-03",
+      "label": "遷宗人府府丞、左副都御史",
+      "time": {
+        "start": 1881,
+        "end": 1881,
+        "precision": "year",
+        "original": "七年",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "appointment",
+      "status": "proposed",
+      "note": "Contextual 光緒 era. Year-scale index, not an exact calendar conversion."
+    },
+    {
+      "id": "q-death",
+      "witness": "qsg",
+      "passage": "qsg-04",
+      "label": "卒；加太子少保，諡惠敏",
+      "time": {
+        "start": 1890,
+        "end": 1890,
+        "precision": "year",
+        "original": "十六年",
+        "basis": "source-reading"
+      },
+      "people": [
+        "person-zeng-jize"
+      ],
+      "places": [],
+      "kind": "death",
+      "status": "proposed",
+      "note": "Contextual 光緒 era. Award is posthumous, not service."
+    }
   ],
   "relations": [
-    {"id": "r-father", "subject": "person-zeng-jize", "predicate": "child-of", "object": "person-zeng-guofan", "evidence": [{"witness": "eccp", "passage": "eccp-01"}, {"witness": "qsg", "passage": "qsg-01"}], "status": "proposed"}
+    {
+      "id": "r-father",
+      "subject": "person-zeng-jize",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp",
+          "passage": "eccp-01"
+        },
+        {
+          "witness": "qsg",
+          "passage": "qsg-01"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-guo-gangji-parent",
+      "subject": "person-guo-gangji",
+      "predicate": "child-of",
+      "object": "person-guo-songtao",
+      "evidence": [
+        {
+          "witness": "eccp-guo-songtao",
+          "passage": "eccp-guo-songtao-18"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-guo-qingfan-parent",
+      "subject": "person-guo-qingfan",
+      "predicate": "child-of",
+      "object": "person-guo-kuntao",
+      "evidence": [
+        {
+          "witness": "eccp-guo-songtao",
+          "passage": "eccp-guo-songtao-19"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jichun-parent",
+      "subject": "person-zeng-jichun",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-guo-songtao",
+          "passage": "eccp-guo-songtao-18"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-chonghou-parent",
+      "subject": "person-chonghou",
+      "predicate": "child-of",
+      "object": "person-linqing",
+      "evidence": [
+        {
+          "witness": "eccp-chonghou",
+          "passage": "eccp-chonghou-01"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-chongshi-parent",
+      "subject": "person-chongshi",
+      "predicate": "child-of",
+      "object": "person-linqing",
+      "evidence": [
+        {
+          "witness": "eccp-chonghou",
+          "passage": "eccp-chonghou-01"
+        }
+      ],
+      "status": "proposed"
+    }
   ],
   "textRelations": [
-    {"id": "t-same-subject", "from": "eccp", "to": "qsg", "type": "account-of-same-person", "person": "person-zeng-jize", "note": "Different works, not parallel editions or sentence-by-sentence translations."}
+    {
+      "id": "t-same-subject",
+      "from": "eccp",
+      "to": "qsg",
+      "type": "account-of-same-person",
+      "person": "person-zeng-jize",
+      "note": "Different works, not parallel editions or sentence-by-sentence translations."
+    }
   ],
-  "jurisdictions": [
-  ],
+  "jurisdictions": [],
   "notes": [
     "No ctext corpus or CHGIS data is bundled. XML staging is lossless; semantic ctext compatibility requires a real annotated fixture.",
     "No historical jurisdiction polygons are asserted. Basemap is modern coastline reference only.",

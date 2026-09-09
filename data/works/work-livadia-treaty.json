@@ -1,0 +1,64 @@
+{
+  "id": "work-livadia-treaty",
+  "title": "Treaty of Livadia",
+  "kind": "treaty",
+  "creators": [],
+  "note": "The source reading Livadis is retained as an attested variant, not corrected in the text.",
+  "schemaVersion": 1,
+  "type": "work",
+  "reviewStatus": "agent-proposed",
+  "attestedTitles": [
+    "Treaty of Livadis",
+    "Treaty of Livadia",
+    "treaty of Livadia"
+  ],
+  "sources": {
+    "eccp": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-chonghou": {
+      "title": "ECCP · 崇厚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-guo-songtao": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "mention": "eccp-08-n001",
+      "quote": "Treaty of Livadis"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "mention": "eccp-10-n003",
+      "quote": "Treaty of Livadia"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-15",
+      "mention": "eccp-guo-songtao-15-n001",
+      "quote": "treaty of Livadia"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-18",
+      "mention": "eccp-chonghou-18-n001",
+      "quote": "Treaty of Livadia"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "mention": "eccp-chonghou-21-n001",
+      "quote": "Treaty of Livadia"
+    }
+  ]
+}

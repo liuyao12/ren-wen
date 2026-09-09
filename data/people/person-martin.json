@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "person-martin",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "丁",
+    "given": "韙良",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "冠西",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "冠西"
+    },
+    "romanizations": [
+      {
+        "value": "W. A. P. Martin",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1916,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-20 · Martin, W. A. P.",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-20",
+      "mention": "eccp-20-n005",
+      "quote": "Martin, W. A. P."
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n009",
+      "quote": "W. A. P. Martin"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n010",
+      "quote": "丁韙良"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-06",
+      "mention": "eccp-dong-xun-06-n011",
+      "quote": "冠西"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-08",
+      "mention": "eccp-dong-xun-08-n001",
+      "quote": "Martin"
+    },
+    {
+      "witness": "eccp-dong-xun",
+      "passage": "eccp-dong-xun-18",
+      "mention": "eccp-dong-xun-18-n003",
+      "quote": "Martin, W. A. P."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "person-butzow",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": null,
+    "given": "Eugene C. Butzow",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Eugene C. Butzow",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-09 · Eugene C. Butzow",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-discussion": {
+      "title": "ECCP · Tsêng Chi-tsê",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+      "locator": "Explicit see-under reference in eccp-09",
+      "access": "cross-reference",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-discussion",
+      "relation": "mentioned-in",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+      "passage": "Not a principal biography of this person."
+    }
+  ],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "mention": "eccp-09-n007",
+      "quote": "Eugene C. Butzow"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "mention": "eccp-09-n008",
+      "quote": "布策"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "mention": "eccp-chonghou-17-n004",
+      "quote": "Butzow"
+    }
+  ]
+}

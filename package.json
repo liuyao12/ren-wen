@@ -1,1 +1,10 @@
-{"name":"ren-wen","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","check":"node --check assets/app.js && node --check assets/core.js && node --check assets/profiles.js && node --check assets/profile-view.js"}}
+{
+  "name": "ren-wen",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check assets/app.js && node --check assets/core.js && node --check assets/profiles.js && node --check assets/profile-view.js && node --check assets/library.js && node --check assets/entity-hover.js && node --check assets/work-view.js"
+  }
+}

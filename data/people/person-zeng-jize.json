@@ -3,16 +3,34 @@
   "id": "person-zeng-jize",
   "collection": "ECCP",
   "reviewStatus": "agent-proposed",
-  "coverage": "Basic profile drafted; the reader still contains selected excerpts, not a fully checked biography.",
+  "coverage": "Complete ECCP entry imported and first-pass annotated; profile details and identifications still await independent review.",
   "name": {
     "surname": "曾",
     "given": "紀澤",
     "source": "eccp",
-    "jiguan": {"label": "湖南湘鄉", "entity": "place-xiangxiang", "source": "eccp"},
-    "zi": [{"value": "劼剛", "source": "eccp"}],
+    "jiguan": {
+      "label": "湖南湘鄉",
+      "entity": "place-xiangxiang",
+      "source": "eccp"
+    },
+    "zi": [
+      {
+        "value": "劼剛",
+        "source": "eccp"
+      }
+    ],
     "hao": [],
-    "parenthetical": {"kind": "zi", "value": "劼剛"},
-    "romanizations": [{"value": "Tsêng Chi-tsê", "system": "Wade–Giles", "source": "eccp"}],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "劼剛"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Chi-tsê",
+        "system": "Wade–Giles",
+        "source": "eccp"
+      }
+    ],
     "note": "Use the sourced zi in the canonical name. An empty hao list means not yet entered, not that he had no hao. Native place is not a birthplace assertion."
   },
   "life": {
@@ -37,11 +55,30 @@
       "note": "The reign is supplied by the preceding Guangxu chronology in this account. This year-level assertion does not resolve the exact death date."
     },
     "westernDates": [
-      {"event": "birth", "calendar": "gregorian", "value": "1839-12-07", "source": "eccp", "status": "source-reported"},
-      {"event": "death", "calendar": "gregorian", "value": "1890-03-12", "source": "eccp", "status": "unadjudicated", "note": "Preserve ECCP's printed March 12 reading; do not silently correct it or treat it as an adjudicated exact date."}
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": "1839-12-07",
+        "source": "eccp",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": "1890-03-12",
+        "source": "eccp",
+        "status": "unadjudicated",
+        "note": "Preserve ECCP's printed March 12 reading; do not silently correct it or treat it as an adjudicated exact date."
+      }
     ],
     "reportedAges": [
-      {"event": "death", "system": "sui", "value": 52, "source": "eccp", "quote": "His death at the age of fifty-two sui"}
+      {
+        "event": "death",
+        "system": "sui",
+        "value": 52,
+        "source": "eccp",
+        "quote": "His death at the age of fifty-two sui"
+      }
     ]
   },
   "externalIds": {
@@ -65,8 +102,19 @@
     }
   },
   "accounts": [
-    {"source": "eccp", "relation": "principal-biography", "readerWitness": "eccp", "passage": "eccp-01"},
-    {"source": "qsg", "relation": "biographical-account", "readerWitness": "qsg", "passage": "qsg-01"}
+    {
+      "source": "qsg",
+      "relation": "biographical-account",
+      "readerWitness": "qsg",
+      "passage": "qsg-01"
+    },
+    {
+      "source": "eccp-entry",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+      "passage": "eccp-01",
+      "readerWitness": "eccp"
+    }
   ],
   "sources": {
     "eccp": {
@@ -96,11 +144,189 @@
       "locator": "Public indexed identity, immediate-family summary and birth event.",
       "access": "search-index",
       "attribution": "Geni profile contributors; the underlying genealogy has not been independently verified."
+    },
+    "batch-evidence": {
+      "title": "ECCP · 曾紀澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365218",
+      "locator": "eccp-01 · TSÊNG Chi-tsê",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-entry": {
+      "title": "ECCP · Tsêng Chi-tsê",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Chi-ts%C3%AA",
+      "locator": "Opening paragraph; recorded revision 11365218",
+      "access": "source-extracted-opening",
+      "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "notes": [
     "Birth and death year numbers label Chinese civil years by the Gregorian year in which each Chinese year begins; they are not whole Gregorian-year intervals.",
     "Computed age at death is 1890 - 1839 + 1 = 52 sui. It agrees with ECCP's reported age, but this agreement is not an independent source.",
     "Use Geni to locate further family connections, then record each imported relationship with its own provenance and review status. A matched Geni ID is not blanket approval of its genealogy."
+  ],
+  "mentions": [
+    {
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "mention": "eccp-01-m01",
+      "quote": "TSÊNG Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "mention": "eccp-01-m02",
+      "quote": "曾紀澤"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-01",
+      "mention": "eccp-01-n001",
+      "quote": "劼剛"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-02",
+      "mention": "eccp-02-m01",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-03",
+      "mention": "eccp-03-m03",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-05",
+      "mention": "eccp-05-n001",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-08",
+      "mention": "eccp-08-m02",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-09",
+      "mention": "eccp-09-n002",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-10",
+      "mention": "eccp-10-n002",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-11",
+      "mention": "eccp-11-n001",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "mention": "eccp-13-n001",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-13",
+      "mention": "eccp-13-n005",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-14",
+      "mention": "eccp-14-n001",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-14",
+      "mention": "eccp-14-n003",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-15",
+      "mention": "eccp-15-m02",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-17",
+      "mention": "eccp-17-n002",
+      "quote": "Hui-min"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-17",
+      "mention": "eccp-17-n003",
+      "quote": "惠敏"
+    },
+    {
+      "witness": "eccp",
+      "passage": "eccp-18",
+      "mention": "eccp-18-n001",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-12",
+      "mention": "eccp-guo-songtao-12-n003",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-16",
+      "mention": "eccp-chonghou-16-n003",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-17",
+      "mention": "eccp-chonghou-17-n005",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "mention": "eccp-chonghou-21-n003",
+      "quote": "Tsêng Chi-tsê"
+    },
+    {
+      "witness": "eccp-chonghou",
+      "passage": "eccp-chonghou-21",
+      "mention": "eccp-chonghou-21-n004",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "mention": "qsg-01-m01",
+      "quote": "曾紀澤"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-01",
+      "mention": "qsg-01-m08",
+      "quote": "紀澤"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-03",
+      "mention": "qsg-03-m02",
+      "quote": "紀澤"
+    },
+    {
+      "witness": "qsg",
+      "passage": "qsg-04",
+      "mention": "qsg-04-m01",
+      "quote": "紀澤"
+    }
   ]
 }

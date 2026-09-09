@@ -1,5 +1,6 @@
 import {escapeHTML as h, safeURL} from './core.js';
 import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
+import {loadWorks,workURL,readerURL,eccpDestination,occurrences} from './library.js';
 import {personHeading, chineseYearText, westernYearText, profilesWithStubs} from './person-display.js';
 
 const link = (url, label) => {
@@ -8,9 +9,13 @@ const link = (url, label) => {
 };
 const byId = id => document.getElementById(id);
 
+let libraryCatalog=null,libraryWorks=[];
 function render(p) {
   const sourceLink = key => link(p.sources[key]?.url, p.sources[key]?.title || key);
   const age = ageAtDeath(p);
+  const destination=eccpDestination(p,libraryCatalog);
+  const contributions=libraryWorks.filter(w=>(w.creators||[]).some(c=>c.person===p.id));
+  const ms=occurrences(libraryCatalog,p.id);
   const accounts = (p.accounts || []).map(a => `<p>${a.readerWitness
     ? `<a href="./#${encodeURIComponent(a.readerWitness)}">${h(p.sources[a.source].title)} →</a>`
     : sourceLink(a.source)}<br><small>${h(a.relation)} · ${h(a.passage || '')}</small></p>`).join('');
@@ -19,6 +24,7 @@ function render(p) {
     ${personHeading(p)}
     <p class="romanization">${(p.name.romanizations || []).map(r => h(r.value)).join(' · ')}</p>
     <div class="profile-source-navigation"><a href="./">Three-panel reader →</a>${(p.accounts || []).filter(a => a.readerWitness).map(a => `<a href="./#${encodeURIComponent(a.readerWitness)}">${h(p.sources[a.source].title)} →</a>`).join('')}</div>
+    ${destination?`<div class="reading-links"><a href="${h(destination.url)}"${destination.external?' target="_blank" rel="noopener"':''}>${h(destination.label)}${destination.external?' ↗':' →'}</a></div>`:''}
     <p class="coverage">${h(p.coverage)}</p>
     <div class="life-grid">
       ${['birth', 'death'].map(endpoint => `<section class="life-cell"><h2>${endpoint === 'birth' ? '生年 · Birth' : '卒年 · Death'}</h2><div class="ad-detail">${h(westernYearText(p, endpoint))} AD</div><strong lang="zh-Hant">${h(chineseYearText(p.life[endpoint]))}</strong><p>${h(p.life[endpoint]?.original || 'Chinese civil year not established.')}</p>${p.life[endpoint]?.source ? sourceLink(p.life[endpoint].source) : ''}</section>`).join('')}
@@ -45,6 +51,8 @@ function render(p) {
         <p class="note">AD and Chinese civil-year labels are separate. A Chinese year can extend into the next AD year; missing calendar evidence is not filled in from a year number alone.</p>
       </section>
     </div>
+    ${contributions.length?`<section><h2>Works and contributions · 文</h2><ul class="contribution-list">${contributions.map(w=>`<li><a href="${h(workURL(w.id))}">${h(w.title)}</a> · ${h(w.creators.filter(c=>c.person===p.id).map(c=>c.role).join(', '))}</li>`).join('')}</ul></section>`:''}
+    <section><h2>Occurrences in the imported texts · ${ms.length}</h2><details><summary>Browse source passages</summary><ul class="mentions-list">${ms.map(m=>`<li><a href="${h(readerURL(m.witness,m.passage))}">${h(libraryCatalog.sources.find(s=>s.id===m.witness)?.shortTitle || m.witness)} · ${h(m.passage)} →</a><br><q>${h(m.quote)}</q></li>`).join('')}</ul></details></section>
     <section class="sources"><h2>Evidence and provenance</h2>
       ${Object.values(p.sources).map(s => `<p>${link(s.url, s.title)}<br><small>${h(s.locator)} · Access: ${h(s.access)}<br>${h(s.attribution)}</small></p>`).join('')}
       ${(p.notes || []).map(n => `<p class="note">${h(n)}</p>`).join('')}
@@ -55,9 +63,10 @@ function render(p) {
 
 (async () => {
   try {
-    const [detailed, response] = await Promise.all([loadProfiles(), fetch('data/catalog.json')]);
+    const [detailed, response, works] = await Promise.all([loadProfiles(), fetch('data/catalog.json'),loadWorks()]);
     if (!response.ok) throw Error('The person catalogue could not be loaded.');
-    const profiles = profilesWithStubs(await response.json(), detailed);
+    libraryCatalog=await response.json();libraryWorks=works;
+    const profiles = profilesWithStubs(libraryCatalog, detailed);
     if (!profiles.length) throw Error('No profiles have been entered.');
     const select = byId('profile-select');
     select.innerHTML = profiles.map(p => `<option value="${h(p.id)}">${h(canonicalName(p))}</option>`).join('');

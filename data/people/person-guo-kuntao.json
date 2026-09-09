@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-guo-kuntao",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "name": {
+    "surname": "郭",
+    "given": "崑燾",
+    "source": "batch-evidence",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "意城",
+        "source": "batch-evidence"
+      }
+    ],
+    "hao": [
+      {
+        "value": "樗叜",
+        "source": "batch-evidence"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "意城"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo K'un-tao",
+        "system": "ECCP spelling",
+        "source": "batch-evidence"
+      }
+    ],
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1882,
+        "source": "batch-evidence",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "sources": {
+    "batch-evidence": {
+      "title": "ECCP · 郭嵩燾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290556",
+      "locator": "eccp-guo-songtao-18 · Kuo K'un-tao",
+      "access": "full-text",
+      "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "notes": [],
+  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "mentions": [
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n001",
+      "quote": "Kuo K'un-tao"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n002",
+      "quote": "郭崑燾"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n003",
+      "quote": "意城"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-18",
+      "mention": "eccp-guo-songtao-18-n004",
+      "quote": "樗叜"
+    },
+    {
+      "witness": "eccp-guo-songtao",
+      "passage": "eccp-guo-songtao-19",
+      "mention": "eccp-guo-songtao-19-n001",
+      "quote": "Kuo K'un-tao"
+    }
+  ]
+}
