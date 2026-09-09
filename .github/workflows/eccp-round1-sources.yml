@@ -1,0 +1,100 @@
+name: ECCP first-round source collection
+on:
+  push:
+    branches: [eccp-complete]
+    paths: ['.github/workflows/eccp-round1-sources.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Collect inventory and QSG revision text without changing published corpus
+        run: |
+          mkdir -p build/round1
+          git archive --format=tar.gz -o build/round1/repository.tar.gz HEAD
+          cat > build/collect.py <<'PY'
+          import concurrent.futures, hashlib, json, pathlib, re, sys, time, urllib.request, urllib.parse
+          from datetime import datetime, timezone
+          OUT = pathlib.Path('build/round1'); OUT.mkdir(parents=True, exist_ok=True)
+          PREFIX = "Eminent Chinese of the Ch'ing Period/"
+          UA = 'Ren-Wen/0.4 (academic source-linked biography reader; https://github.com/liuyao12/ren-wen)'
+          def get(lang, params):
+              query={'format':'json','maxlag':5, **params}
+              url=f'https://{lang}.wikisource.org/w/api.php?'+urllib.parse.urlencode(query)
+              for attempt in range(6):
+                  try:
+                      req=urllib.request.Request(url, headers={'User-Agent':UA})
+                      with urllib.request.urlopen(req, timeout=70) as response:
+                          raw=response.read(25000000)
+                      obj=json.loads(raw)
+                      if 'error' in obj: raise ValueError(obj['error'])
+                      return obj, raw, url
+                  except Exception:
+                      if attempt == 5: raise
+                      time.sleep(min(60, 2**attempt*2))
+          def write(path,obj):
+              path.parent.mkdir(parents=True,exist_ok=True)
+              path.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n', encoding='utf-8')
+          def listing(lang,prefix):
+              rows=[];params={'action':'query','list':'allpages','apprefix':prefix,'aplimit':500,'apfilterredir':'nonredirects'}
+              while True:
+                  obj,raw,url=get(lang,params);rows.extend(obj['query']['allpages'])
+                  if 'continue' not in obj: break
+                  params.update(obj['continue']);time.sleep(.3)
+              return rows
+          def metadata():
+              en=listing('en',PREFIX);zh=listing('zh','清史稿/卷')
+              write(OUT/'inventory.json',{'retrieved':datetime.now(timezone.utc).isoformat(),'eccp':en,'qsg':zh})
+              for lang,title,key in [('en',PREFIX[:-1],'eccp-index'),('zh','清史稿','qsg-index')]:
+                  obj,raw,url=get(lang,{'action':'parse','page':title,'prop':'text|wikitext|revid|links','disablelimitreport':1,'disableeditsection':1})
+                  (OUT/(key+'.response.json')).write_bytes(raw)
+              qsg=[]
+              for start in range(0,len(zh),20):
+                  batch=zh[start:start+20]
+                  obj,raw,url=get('zh',{'action':'query','prop':'revisions','pageids':'|'.join(str(x['pageid']) for x in batch),'rvprop':'ids|timestamp|content','rvslots':'main','formatversion':2})
+                  qsg.extend(obj['query']['pages']);time.sleep(.3)
+              write(OUT/'qsg-revisions.json',qsg)
+              print(json.dumps({'eccpPages':len(en),'qsgPages':len(zh)},ensure_ascii=False))
+          def collect():
+              rows=json.loads((OUT/'inventory.json').read_text())['eccp']; directory=OUT/'eccp';directory.mkdir(exist_ok=True)
+              def one(row):
+                  target=directory/(str(row['pageid'])+'.json')
+                  try:
+                      obj,raw,url=get('en',{'action':'parse','pageid':row['pageid'],'prop':'text|wikitext|revid|links|sections','disablelimitreport':1,'disableeditsection':1})
+                      target.write_bytes(raw)
+                      result={**row,'path':str(target.relative_to(OUT)),'revision':obj['parse']['revid'],'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),'retrieved':datetime.now(timezone.utc).isoformat(),'apiURL':url,'status':'downloaded-not-reviewed'}
+                  except Exception as exc: result={**row,'status':'failed','error':str(exc)}
+                  time.sleep(.25)
+                  return result
+              results=[]
+              with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+                  for row in pool.map(one,rows):
+                      results.append(row)
+                      if len(results)%25==0: print(f'{len(results)}/{len(rows)} source responses preserved',flush=True)
+              write(OUT/'manifest.json',results)
+              failed=[x for x in results if x['status']=='failed']
+              print(json.dumps({'total':len(results),'failed':failed},ensure_ascii=False),flush=True)
+              if failed: sys.exit(1)
+          if __name__=='__main__': metadata() if sys.argv[1]=='metadata' else collect()
+          PY
+          python build/collect.py metadata
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eccp-round1-inventory
+          path: build/round1
+          retention-days: 7
+      - name: Preserve every enumerated ECCP page with bounded concurrency and retries
+        run: python build/collect.py collect
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eccp-round1-sources
+          path: build/round1
+          retention-days: 7
