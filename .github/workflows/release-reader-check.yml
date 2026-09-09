@@ -1,0 +1,40 @@
+name: Validate recovered reader release
+on:
+  push:
+    branches: [release-reader-sept09]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preserve exact candidate
+        run: |
+          mkdir -p build/recovered
+          git archive --format=tar.gz -o build/recovered/repository.tar.gz HEAD
+          git rev-parse HEAD > build/recovered/commit.txt
+          git ls-tree -r HEAD > build/recovered/tree.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: recovered-reader-release
+          path: build/recovered
+          retention-days: 7
+      - name: Validate corpus and code
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m unittest discover -s tests -v
+          npm test
+          npm run check
