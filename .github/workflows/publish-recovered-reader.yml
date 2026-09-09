@@ -1,0 +1,190 @@
+name: Publish recovered reader
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-recovered-reader.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard the existing published history
+        run: |
+          python - <<'PY'
+          import subprocess
+          baseline='a2b5d702a2de5b4d61cabb2ab08b4ecbbd0e31c6'
+          subprocess.run(['git','merge-base','--is-ancestor',baseline,'HEAD'],check=True)
+          changed=subprocess.check_output(['git','diff','--name-only',baseline,'HEAD'],text=True).splitlines()
+          allowed={'.github/workflows/publish-recovered-reader.yml'}
+          unexpected=set(changed)-allowed
+          if unexpected:
+              raise SystemExit('Main has other changes; refusing automatic replacement: '+', '.join(sorted(unexpected)))
+          PY
+      - uses: actions/checkout@v4
+        with:
+          ref: release-reader-sept09
+          path: _candidate
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install validation support
+        run: |
+          python -m pip install PyYAML playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Recover the saved, checksummed implementation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, subprocess, yaml
+          root=Path('_candidate').resolve()
+          sha=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip()
+          workflow=root/'.github/workflows/release-reader-check.yml'
+          plan=yaml.safe_load(workflow.read_text())
+          steps=plan['jobs']['validate']['steps']
+          names={s.get('name'):s for s in steps if s.get('name')}
+          required=['Apply exact reviewed changes with old and new checksums','Validate all text, profiles, dates and code','Test complete collection and new reader through actual HTTP']
+          missing=[n for n in required if n not in names]
+          if missing:
+              raise SystemExit('Expected release validation contract is missing: '+repr(missing))
+          Path('build').mkdir(exist_ok=True)
+          Path('build/recovery-plan.json').write_text(json.dumps({'sourceCommit':sha,'steps':names},ensure_ascii=False,indent=2))
+          if sha=='cebb0e7145cde14c629ca694e6870f9e5689bf94':
+              subprocess.run(['bash','-e','-c',names[required[0]]['run']],cwd=root,check=True)
+          else:
+              subprocess.run(['git','merge-base','--is-ancestor','cebb0e7145cde14c629ca694e6870f9e5689bf94',sha],cwd=root,check=True)
+              print('Using descendant of the prepared release; all validation and browser tests are still mandatory.')
+          PY
+      - name: Validate the full corpus, names and application
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          plan=json.load(open('build/recovery-plan.json'))
+          script=plan['steps']['Validate all text, profiles, dates and code']['run']
+          subprocess.run(['bash','-e','-c',script],cwd='_candidate',check=True)
+          PY
+      - name: Test the release through actual HTTP
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          plan=json.load(open('build/recovery-plan.json'))
+          script=plan['steps']['Test complete collection and new reader through actual HTTP']['run']
+          subprocess.run(['bash','-e','-c',script],cwd='_candidate',check=True)
+          PY
+      - name: Commit only tested application files, preserving main workflows
+        env:
+          EXPECTED_MAIN: ${{ github.sha }}
+        run: |
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$EXPECTED_MAIN"
+          test -f _candidate/library.html
+          test -f _candidate/index.html
+          rsync -a --delete --exclude='.git/' --exclude='.github/' --exclude='.transport/' --exclude='.release/' --exclude='_candidate/' --exclude='_site/' --exclude='build/' --exclude='node_modules/' --exclude='__pycache__/' _candidate/ ./
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':!.github' ':!_candidate' ':!_site' ':!build' ':!.transport' ':!.release' ':!node_modules'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish validated full ECCP collection and dated-name reader' -m 'Preserve source text and provisional identification status; retain main workflow configuration. Application and corpus passed the saved release validation and real HTTP browser tests.'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > build/published-source-commit.txt
+      - name: Stage every public reader page and its data
+        env:
+          RELEASE_RUN: ${{ github.run_id }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, os, shutil
+          site=Path('_site')
+          if site.exists(): shutil.rmtree(site)
+          site.mkdir()
+          pages=sorted(Path('.').glob('*.html'))
+          for path in pages: shutil.copy2(path,site/path.name)
+          for name in ('assets','data'): shutil.copytree(name,site/name)
+          (site/'.nojekyll').write_text('')
+          record={'run':os.environ['RELEASE_RUN'],'commit':Path('build/published-source-commit.txt').read_text().strip(),'pages':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in pages},'sourceCommit':json.load(open('build/recovery-plan.json'))['sourceCommit']}
+          (site/'deployment.json').write_text(json.dumps(record,indent=2)+'\n')
+          shutil.copy2(site/'deployment.json','build/deployment.json')
+          print(json.dumps(record,indent=2))
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy the tested release
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify the actual published files and render the live reader
+        env:
+          PUBLISHED_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, os, shutil, time, urllib.request
+          from playwright.sync_api import sync_playwright
+          base=os.environ['PUBLISHED_URL'].rstrip('/')+'/'
+          expected=json.load(open('build/deployment.json'))
+          def read(path):
+              url=base+path+('?release='+expected['run'])
+              with urllib.request.urlopen(urllib.request.Request(url,headers={'Cache-Control':'no-cache'}),timeout=60) as response:
+                  return response.read()
+          for attempt in range(24):
+              try:
+                  actual=json.loads(read('deployment.json'))
+                  if actual['run']==expected['run'] and actual['commit']==expected['commit']: break
+              except Exception:
+                  pass
+              time.sleep(5)
+          else:
+              raise SystemExit('The live site did not return this release marker.')
+          for path,digest in expected['pages'].items():
+              if hashlib.sha256(read(path)).hexdigest()!=digest:
+                  raise SystemExit('Live page differs from tested release: '+path)
+          out=Path('build/live-release');out.mkdir(parents=True,exist_ok=True)
+          report={'url':base,'deployment':actual,'verifiedPages':list(expected['pages']),'browserPages':[]}
+          with sync_playwright() as p:
+              executable=shutil.which('google-chrome') or shutil.which('chromium')
+              browser=p.chromium.launch(executable_path=executable,headless=True,args=['--no-sandbox'])
+              page=browser.new_page(viewport={'width':1536,'height':1024})
+              errors=[]
+              page.on('pageerror',lambda error:errors.append(str(error)))
+              for path,label in [('index.html#eccp-zeng-guofan','reader'),('library.html','catalogue')]:
+                  page.goto(base+path,wait_until='networkidle',timeout=120000)
+                  page.wait_for_timeout(1500)
+                  if errors: raise RuntimeError('Live application errors: '+repr(errors))
+                  page.screenshot(path=str(out/(label+'.png')),full_page=False)
+                  report['browserPages'].append({'page':path,'title':page.title(),'textLength':len(page.locator('body').inner_text())})
+              browser.close()
+          report['passed']=True
+          (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: recovered-release-publication-report
+          path: |
+            build/deployment.json
+            build/published-source-commit.txt
+            build/live-release/
+            _candidate/build/
+          retention-days: 7
