@@ -1,0 +1,19 @@
+name: Round-one worktree checkpoint
+on:
+  push:
+    branches: [eccp-complete]
+    paths: ['.github/workflows/round1-worktree.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: git archive --format=tar.gz -o /tmp/round1-worktree.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: round1-worktree
+          path: /tmp/round1-worktree.tar.gz
+          retention-days: 7
