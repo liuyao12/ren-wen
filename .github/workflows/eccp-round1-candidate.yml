@@ -41,21 +41,20 @@ jobs:
           for name,sha in data['hashes'].items():assert hashlib.sha256((root/name).read_bytes()).hexdigest()==sha,name
           print('Verified code files:',len(data['hashes']))
           PY
-      - name: Retrieve preserved source artifacts, without fetching new source revisions
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          python - <<'PY'
-          import io,os,pathlib,urllib.request,zipfile
-          for ident,folder in [(10089618787,'eccp-raw'),(10089778890,'qsg-raw')]:
-              request=urllib.request.Request(f'https://api.github.com/repos/liuyao12/ren-wen/actions/artifacts/{ident}/zip',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
-              with urllib.request.urlopen(request,timeout=120) as response:raw=response.read()
-              target=(pathlib.Path('build')/folder).resolve();target.mkdir(parents=True,exist_ok=True)
-              with zipfile.ZipFile(io.BytesIO(raw)) as archive:
-                  for name in archive.namelist():assert (target/name).resolve().is_relative_to(target),name
-                  archive.extractall(target)
-              print('Preserved source artifact:',ident)
-          PY
+      - name: Download preserved ECCP responses
+        uses: actions/download-artifact@v8
+        with:
+          artifact-ids: 10089618787
+          run-id: 34314336843
+          github-token: ${{ github.token }}
+          path: build/eccp-raw
+      - name: Download preserved QSG responses
+        uses: actions/download-artifact@v8
+        with:
+          artifact-ids: 10089778890
+          run-id: 34315005736
+          github-token: ${{ github.token }}
+          path: build/qsg-raw
       - name: Compile complete entries and source-linked reference records
         run: |
           python -m scripts.round1_import --raw build/eccp-raw --qsg build/qsg-raw
