@@ -1,20 +1,21 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Ren-Wen person profiles: native place, names, Chinese life years, and source-linked identities.">
-  <title>People · 人文 · Ren-Wen</title>
-  <link rel="stylesheet" href="assets/profile.css">
-  <link rel="stylesheet" href="assets/library.css">
-  <link rel="stylesheet" href="assets/person-navigation.css">
-</head>
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head><script src="assets/locale-init.js"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="人文人物資料：籍貫、姓名、生卒與文獻對照。" data-i18n-content="Ren-Wen person profiles: native place, names, Chinese life years, and source-linked identities." name="description"/>
+<title data-i18n="People · 人文 · Ren-Wen">人物 · 人文 · Ren-Wen</title>
+<link rel="stylesheet" href="assets/profile.css">
+<link rel="stylesheet" href="assets/library.css">
+<link rel="stylesheet" href="assets/person-navigation.css">
+<link rel="stylesheet" href="assets/i18n.css"></head>
 <body>
-  <header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav aria-label="Project"><a href="./">Text reader · 文</a><a href="works.html">Works</a><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav></header>
-  <div class="toolbar"><label for="profile-select">People · 人</label><select id="profile-select" aria-label="Choose a person"></select><span>One biography at a time</span></div>
-  <main id="profile"><p role="status">Loading profiles…</p></main>
-  <footer>People through texts. Texts in context. · Profile changes are reviewed in the repository; no external genealogy is edited here.</footer>
-  <noscript>The profile JSON files remain available in data/people/.</noscript>
-  <script type="module" src="assets/profile-view.js"></script>
-</body>
+<header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav aria-label="導覽" data-i18n-aria-label="Project"><a href="./"><span data-i18n="Text reader · 文">原文閱讀</span></a><a href="works.html"><span data-i18n="Works">著作</span></a><a href="https://github.com/liuyao12/ren-wen" rel="noopener" target="_blank"><span data-i18n="Repository ↗">程式庫 ↗</span></a><div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button aria-pressed="true" data-set-locale="zh-Hant" lang="zh-Hant" type="button">中文</button><button aria-pressed="false" data-set-locale="en" lang="en" type="button">English</button></div></nav></header>
+<div class="toolbar"><label for="profile-select"><span data-i18n="People · 人">人物</span></label><select aria-label="選擇人物" data-i18n-aria-label="Choose a person" id="profile-select"></select><span><span data-i18n="One biography at a time">逐篇整理，據文立傳</span></span></div>
+<main id="profile"><p role="status"><span data-i18n="Loading profiles…">正在載入人物資料…</span></p></main>
+<footer><span data-i18n="People through texts. Texts in context. · Profile changes are reviewed in the repository; no external genealogy is edited here.">以文識人，因人讀文。人物資料於程式庫中審校；本頁不修改外部家譜。</span></footer>
+<noscript>The profile JSON files remain available in data/people/.</noscript>
+<script type="module" src="assets/profile-view.js"></script>
+<script type="module" src="assets/i18n.js"></script></body>
 </html>

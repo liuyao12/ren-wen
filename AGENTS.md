@@ -36,6 +36,10 @@ The validator intentionally rejects working-text wording changes relative to the
 
 Preserve unknown ctext XML fields and source identifiers. Current XML support only stages and inspects original bytes; do not claim a semantic import/export or upstream writeback until real exported fixtures pass round-trip tests.
 
+## Interface language
+
+Default to Traditional Chinese with an English option. Use the explicit UI message bindings in `assets/i18n.js` and the central dictionary; see `docs/language.md`. Never translate or simplify source paragraphs, quotations, attested names/titles, dates, IDs, or user-entered review reasons. Preserve current navigation and form state when switching languages. English mode retains necessary Chinese characters.
+
 ## Security and testing
 
 Treat imported HTML, XML, links and agent text as untrusted. Never execute imported scripts; reject XML DTD/entity declarations; allow only HTTP(S) external links; do not put credentials in the browser or repository. Upstream writes must be explicit and permission-aware.
