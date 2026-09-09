@@ -44,24 +44,31 @@ jobs:
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
           python tests/browser_live.py --url http://127.0.0.1:8000/ --output build/browser
-      - name: Remove temporary transfer files and commit tested feature tree only
+      - name: Commit application changes only within the bot's permissions
         run: |
           test "$(git branch --show-current)" = text-layers-map
+          mkdir -p build/approved-workflows
+          cp .github/workflows/ci.yml .github/workflows/pages.yml build/approved-workflows/
+          # Workflow changes require the separately authorized connector.
+          # The Actions token must not attempt to create, update or delete workflows.
+          git restore --source=HEAD --staged --worktree .github/workflows
+          test -z "$(git diff --name-only HEAD -- .github/workflows)"
           rm -rf .transport
-          rm -f .github/workflows/text-map-sources.yml .github/workflows/reference-map-review.yml .github/workflows/zeng-identity-review.yml .github/workflows/text-map-candidate.yml
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
+          test -z "$(git diff --cached --name-only -- .github/workflows)"
           git commit -m 'Import complete Zeng Guofan entry, nested quoted texts and cropped historical reference maps'
-          git push origin HEAD:text-layers-map
           git archive --format=tar.gz -o build/tested-text-map.tar.gz HEAD
           git rev-parse HEAD > build/tested-commit.txt
+          git push origin HEAD:text-layers-map
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: tested-text-map-candidate
           path: |
             build/browser
+            build/approved-workflows
             build/text-map-checksums.json
             build/tested-text-map.tar.gz
             build/tested-commit.txt
