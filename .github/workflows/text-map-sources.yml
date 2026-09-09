@@ -1,0 +1,47 @@
+name: Text and map source review
+on:
+  push:
+    branches: [text-layers-map]
+    paths: ['.github/workflows/text-map-sources.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Preserve source responses without changing the corpus
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.parse, pathlib, json, hashlib, time
+          from datetime import datetime, timezone
+          out=pathlib.Path('build/source-review');out.mkdir(parents=True,exist_ok=True)
+          urls={
+            'eccp-zeng-guofan':'https://en.wikisource.org/w/api.php?'+urllib.parse.urlencode({'action':'parse','page':"Eminent Chinese of the Ch'ing Period/Tsêng Kuo-fan",'prop':'text|wikitext|revid','format':'json','maxlag':5}),
+            'chgis-1820-metadata':'https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/2K4FHX',
+            'dataverse-chgis-search':'https://dataverse.harvard.edu/api/search?'+urllib.parse.urlencode({'q':'CHGIS 1911','type':'dataset','per_page':20}),
+            'dataverse-hartwell-search':'https://dataverse.harvard.edu/api/search?'+urllib.parse.urlencode({'q':'Hartwell China Historical GIS','type':'dataset','per_page':10}),
+            'published-index':'https://liuyao12.github.io/ren-wen/'
+          }
+          manifest=[]
+          for name,url in urls.items():
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Ren-Wen research reader (https://github.com/liuyao12/ren-wen)'})
+              with urllib.request.urlopen(req,timeout=40) as r: raw=r.read(8000000)
+              (out/(name+'.txt')).write_bytes(raw)
+              manifest.append({'id':name,'url':url,'retrieved':datetime.now(timezone.utc).isoformat(),'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)})
+            except Exception as e: manifest.append({'id':name,'url':url,'error':str(e)})
+            time.sleep(.5)
+          (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
+          print(json.dumps(manifest,ensure_ascii=False,indent=2))
+          PY
+      - run: git archive --format=tar.gz -o build/source-review/repository.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: text-map-source-review
+          path: build/source-review
+          retention-days: 7
