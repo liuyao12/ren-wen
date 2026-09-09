@@ -1,0 +1,113 @@
+name: Validate complete ECCP first round
+on:
+  push:
+    branches: [eccp-round1-ready]
+    paths: ['.github/workflows/eccp-round1-candidate.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: eccp-round1-ready
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify and apply the locally tested code patch
+        run: |
+          python - <<'PY'
+          import base64,hashlib,json,lzma,pathlib,subprocess
+          root=pathlib.Path.cwd();folder=root/'.round1payload';m=json.loads((folder/'manifest.json').read_text());parts=[]
+          for row in m['parts']:
+              p=folder/row['name'];s=p.read_bytes()
+              assert len(s)==row['characters'] and hashlib.sha256(s).hexdigest()==row['sha256'],row['name']
+              parts.append(s)
+          raw=lzma.decompress(base64.b64decode(b''.join(parts),validate=True));assert hashlib.sha256(raw).hexdigest()==m['payloadSha256']
+          data=json.loads(raw);assert data['base']=='a2b5d702a2de5b4d61cabb2ab08b4ecbbd0e31c6'
+          build=root/'build';build.mkdir(exist_ok=True);patch=build/'round1.patch';patch.write_text(data['patch'],encoding='utf-8')
+          subprocess.run(['git','apply','--check',str(patch)],check=True);subprocess.run(['git','apply',str(patch)],check=True)
+          for name,text in data['new'].items():
+              path=(root/name).resolve();assert path.is_relative_to(root) and not name.startswith(('.git/','.github/','data/'))
+              assert not path.exists(),name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8')
+          for name,sha in data['hashes'].items():assert hashlib.sha256((root/name).read_bytes()).hexdigest()==sha,name
+          print('Verified code files:',len(data['hashes']))
+          PY
+      - name: Retrieve preserved source artifacts, without fetching new source revisions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import io,os,pathlib,urllib.request,zipfile
+          for ident,folder in [(10089618787,'eccp-raw'),(10089778890,'qsg-raw')]:
+              request=urllib.request.Request(f'https://api.github.com/repos/liuyao12/ren-wen/actions/artifacts/{ident}/zip',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(request,timeout=120) as response:raw=response.read()
+              target=(pathlib.Path('build')/folder).resolve();target.mkdir(parents=True,exist_ok=True)
+              with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+                  for name in archive.namelist():assert (target/name).resolve().is_relative_to(target),name
+                  archive.extractall(target)
+              print('Preserved source artifact:',ident)
+          PY
+      - name: Compile complete entries and source-linked reference records
+        run: |
+          python -m scripts.round1_import --raw build/eccp-raw --qsg build/qsg-raw
+          python -m scripts.registry_display
+          python -m scripts.reading_indexes
+      - name: Validate full text, profile identities, concordance and derived indexes
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+          python scripts/renwen.py build-db
+          python scripts/profiles.py index-db
+          python scripts/works.py index-db
+          python -m scripts.text_units index-db
+      - name: Install browser test support
+        run: |
+          pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test the actual served collection and reader
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_round1.py --url http://127.0.0.1:8000/ --output build/round1-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/existing-browser
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/family-browser
+      - name: Commit validated application and corpus to feature branch only
+        run: |
+          test "$(git branch --show-current)" = eccp-round1-ready
+          rm -rf .round1payload
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          test -z "$(git diff --cached --name-only -- .github)"
+          git commit -m 'Import all ECCP reading entries with first-pass profiles and QSG concordance'
+          git push origin HEAD:eccp-round1-ready
+          git archive --format=tar.gz -o build/tested-round1.tar.gz HEAD
+          git rev-parse HEAD > build/tested-commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-eccp-validation
+          path: |
+            build/round1-browser
+            build/existing-browser
+            build/family-browser
+            build/server.log
+            build/tested-round1.tar.gz
+            build/tested-commit.txt
+          retention-days: 7
