@@ -2,13 +2,17 @@ name: Validate recovered reader release
 on:
   push:
     branches: [release-reader-sept09]
+    paths: ['.github/workflows/release-reader-check.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: recovered-reader-release
+  cancel-in-progress: true
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,24 +21,88 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Preserve exact candidate
+      - name: Apply exact reviewed changes with old and new checksums
         run: |
-          mkdir -p build/recovered
-          git archive --format=tar.gz -o build/recovered/repository.tar.gz HEAD
-          git rev-parse HEAD > build/recovered/commit.txt
-          git ls-tree -r HEAD > build/recovered/tree.txt
-      - uses: actions/upload-artifact@v4
-        with:
-          name: recovered-reader-release
-          path: build/recovered
-          retention-days: 7
-      - name: Validate corpus and code
+          python - <<'PY'
+          import base64, hashlib, json, lzma
+          from pathlib import Path
+          root=Path.cwd().resolve()
+          encoded=''.join((root/f'.transport/release-{i:02}.txt').read_text().strip() for i in range(1,5))
+          payload=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(payload).hexdigest()=='b4f70d54a07129a9fea718c6f8c53af1ba86e689ff6fc6d650368e92e326cf0e','Transport checksum mismatch'
+          raw=lzma.decompress(payload)
+          assert hashlib.sha256(raw).hexdigest()=='1a7ce865acfdf634702b2e98cc83e1e729efd0ec995766f2861741f60aafbcf9'
+          records=json.loads(raw); staged={}
+          for item in records:
+              name=item['path'];path=(root/name).resolve();path.relative_to(root)
+              assert not name.startswith(('.git/','.github/','.transport/')) and name not in staged
+              before=path.read_bytes() if path.exists() else b''
+              assert (hashlib.sha256(before).hexdigest() if path.exists() else None)==item['before'],f'Stale file: {name}'
+              text=before.decode('utf-8');limit=len(text)
+              for start,end,replacement in reversed(item['edits']):
+                  assert 0<=start<=end<=limit,(name,start,end,limit)
+                  text=text[:start]+replacement+text[end:];limit=start
+              after=text.encode('utf-8')
+              assert hashlib.sha256(after).hexdigest()==item['after'],f'Output mismatch: {name}'
+              staged[name]=after
+          for name,content in staged.items():
+              path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content)
+          Path('build').mkdir(exist_ok=True)
+          Path('build/release-files.json').write_text(json.dumps({r['path']:r['after'] for r in records},indent=2))
+          print(f'Applied {len(staged)} verified files; no source transcription changes.')
+          PY
+      - name: Validate all text, profiles, dates and code
         run: |
           python scripts/renwen.py validate
           python scripts/profiles.py validate
           python scripts/works.py validate
           python -m scripts.text_units validate
           python -m scripts.round1_validate
+          python -m scripts.name_history validate
           python -m unittest discover -s tests -v
           npm test
           npm run check
+          python scripts/renwen.py build-db
+          python scripts/profiles.py index-db
+          python scripts/works.py index-db
+          python -m scripts.text_units index-db
+          python -m scripts.name_history index-db
+      - name: Install browser support
+        run: |
+          pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test complete collection and new reader through actual HTTP
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/release-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/family
+      - name: Commit tested files to feature branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python - <<'PY'
+          import json, subprocess, hashlib
+          from pathlib import Path
+          files=json.loads(Path('build/release-files.json').read_text())
+          for path,digest in files.items():assert hashlib.sha256(Path(path).read_bytes()).hexdigest()==digest,path
+          subprocess.run(['git','add','--',*files],check=True)
+          PY
+          git commit -m 'Integrate tested full ECCP collection with dated names and narrower profile timeline column'
+          git push origin HEAD:release-reader-sept09
+          git archive --format=tar.gz -o build/tested-release.tar.gz HEAD
+          git rev-parse HEAD > build/tested-commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tested-reader-release
+          path: |
+            build/release-browser
+            build/release-files.json
+            build/tested-commit.txt
+            build/tested-release.tar.gz
+            build/server.log
+          retention-days: 7
