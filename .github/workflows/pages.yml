@@ -41,10 +41,11 @@ jobs:
       - run: python scripts/renwen.py validate
       - run: python scripts/profiles.py validate
       - run: python scripts/works.py validate
+      - run: python -m scripts.text_units validate
       - name: Stage only public reader files
         run: |
           mkdir -p _site
-          cp index.html profiles.html works.html _site/
+          cp index.html profiles.html works.html texts.html _site/
           cp -R assets data _site/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3

@@ -94,6 +94,16 @@ export function boundaryPath(geometry) {
   return polygons.flatMap(poly=>poly.map(ring=>ring.map((p,i)=>`${i?'L':'M'}${project(p).join(',')}`).join('')+'Z')).join('');
 }
 export function clampView([x,y,w,h]) {
-  w=Math.max(2,Math.min(170,w)); h=Math.max(1,Math.min(80,h));
-  return [Math.max(0,Math.min(170-w,x)),Math.max(0,Math.min(80-h,y)),w,h];
+  w=Math.max(.15,Math.min(170,w)); h=Math.max(.10,Math.min(80,h));
+  // Allow a modest overscroll margin even at the overview scale.
+  return [Math.max(-20,Math.min(190-w,x)),Math.max(-12,Math.min(92-h,y)),w,h];
 }
+
+/** A reference snapshot never masquerades as the current narrative year. */
+export function referenceLevels(year, width, mode='auto') {
+  const available=year===1820?['province','prefecture']:year===1911?['province','prefecture','county']:[];
+  const target=mode==='auto'?(width>18?'province':width>7?'prefecture':'county'):mode;
+  const order=['province','prefecture','county'];
+  return available.filter(level=>order.indexOf(level)<=order.indexOf(target));
+}
+export const REGIONAL_VIEW=Object.freeze([125,38,22,16]);

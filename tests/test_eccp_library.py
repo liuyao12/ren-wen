@@ -9,19 +9,19 @@ ROOT=Path(__file__).resolve().parents[1]
 class ECCPLibraryTest(unittest.TestCase):
     def setUp(self):
         self.c=json.loads((ROOT/'data/catalog.json').read_text());self.works=load_works(ROOT)
-    def test_four_complete_entries(self):
-        self.assertEqual({s['id'] for s in self.c['sources'] if s.get('complete')},{'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao'})
+    def test_five_complete_eccp_entries(self):
+        self.assertEqual({s['id'] for s in self.c['sources'] if s.get('complete') and s['work']=='work-eccp'},{'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'})
     def test_raw_content_is_complete(self):
         # Compare all characters, allowing only display whitespace and new reading breaks.
         for s in self.c['sources']:
-            if not s.get('complete'):continue
+            if not s.get('complete') or s['work']!='work-eccp':continue
             raw=(ROOT/s['rawResponse']).read_bytes()
             self.assertEqual(hashlib.sha256(raw).hexdigest(),s['rawSha256'])
             source=''.join(n.text() for n in source_paragraphs(json.loads(raw)['parse']['text']['*']))
             upstream=Tree((ROOT/s['upstream']).read_text()).root.text()
             normalize=lambda text:re.sub(r'\s+','',text)
             self.assertEqual(normalize(source),normalize(upstream),s['id'])
-            self.assertTrue(upstream.rstrip().endswith('Tu Lien-chê'))
+            self.assertTrue(upstream.rstrip().endswith('Têng Ssŭ-yü' if s['id']=='eccp-zeng-guofan' else 'Tu Lien-chê'))
     def test_people_and_work_destinations_exist(self):
         people={json.loads((ROOT/'data/people'/f).read_text())['id'] for f in json.loads((ROOT/'data/people/index.json').read_text())['profiles']}
         works={w['id'] for w in self.works}
@@ -32,8 +32,8 @@ class ECCPLibraryTest(unittest.TestCase):
     def test_bibliographies_and_byline_annotated(self):
         ms=self.c['mentions']
         for s in self.c['sources']:
-            if s.get('complete'):
-                self.assertTrue(any(m['witness']==s['id'] and m['entity']=='person-tu-lien-che' for m in ms))
+            if s.get('complete') and s['work']=='work-eccp':
+                self.assertTrue(any(m['witness']==s['id'] and m['entity']==('person-teng-ssu-yu' if s['id']=='eccp-zeng-guofan' else 'person-tu-lien-che') for m in ms))
                 self.assertTrue(any(m['witness']==s['id'] and m['entity'].startswith('work-') for m in ms))
     def test_legacy_mention_ids_retained(self):
         ids={m['id'] for m in self.c['mentions']}

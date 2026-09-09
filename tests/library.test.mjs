@@ -7,7 +7,8 @@ const person=async id=>JSON.parse(await readFile(new URL(`../data/people/${id}.j
 test('work IDs cannot escape their local route',()=>{assert.equal(workURL('work-test'),'works.html#work-test');assert.equal(workURL('../bad'),null);assert.equal(workURL('person-test'),null);});
 test('source and passage routes are encoded and constrained',()=>{assert.equal(readerURL('eccp','eccp-03'),'./?passage=eccp-03#eccp');assert.equal(readerURL('javascript:alert(1)'),null);});
 test('imported person opens local ECCP',async()=>{const d=eccpDestination(await person('person-guo-songtao'),catalog);assert.equal(d.url,'./#eccp-guo-songtao');assert.equal(d.external,false);});
-test('unimported biography retains external ECCP destination',async()=>{const d=eccpDestination(await person('person-zeng-guofan'),catalog);assert.equal(d.external,true);assert.equal(d.relation,'principal-biography');});
+test('unimported biography retains external ECCP destination',async()=>{const d=eccpDestination(await person('person-li-hongzhang'),catalog);assert.equal(d.external,true);assert.equal(d.relation,'principal-biography');});
+test('new Zeng Guofan entry has a local destination',async()=>{const d=eccpDestination(await person('person-zeng-guofan'),catalog);assert.equal(d.external,false);assert.equal(d.url,'./#eccp-zeng-guofan');});
 test('Macartney has a discussion link, not a Kuo identity',async()=>{const d=eccpDestination(await person('person-macartney'),catalog);assert.equal(d.relation,'mentioned-in');assert.equal(d.label,'Discussed in ECCP');});
 test('people without an entry do not inherit someone else’s',()=>{assert.equal(eccpDestination({id:'person-test',accounts:[]},catalog),null);});
 test('work occurrences use current catalogue identifications',()=>{assert.deepEqual(occurrences({mentions:[{entity:'work-a'},{entity:'person-a'}]},'work-a'),[{entity:'work-a'}]);});

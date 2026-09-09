@@ -1,0 +1,39 @@
+name: Verify published reader
+on:
+  workflow_run:
+    workflows: [Pages]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages-smoke
+  cancel-in-progress: true
+jobs:
+  browser:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install browser test support and Chinese screenshot fonts
+        run: |
+          pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Check actual Pages assets, complete entry, quotation and map interaction
+        run: |
+          # Use the named biography so future changes to the default page do not
+          # accidentally change this regression test's subject.
+          python tests/browser_live.py --url 'https://liuyao12.github.io/ren-wen/#eccp-zeng-guofan' --output build/published-browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: published-reader-browser-checks
+          path: build/published-browser
+          retention-days: 7

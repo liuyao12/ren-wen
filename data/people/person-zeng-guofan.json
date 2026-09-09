@@ -3,7 +3,7 @@
   "id": "person-zeng-guofan",
   "collection": "ECCP",
   "reviewStatus": "agent-proposed",
-  "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
+  "coverage": "Complete ECCP biography imported with all paragraphs, bibliography and byline. Person and work markup is a first-pass proposal; event and place extraction is pending.",
   "name": {
     "surname": "曾",
     "given": "國藩",
@@ -79,20 +79,27 @@
   },
   "externalIds": {
     "cbdb": {
-      "id": null,
-      "status": "not-searched"
+      "id": "34344",
+      "url": "https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=0034344",
+      "status": "matched",
+      "source": "dila-identity",
+      "checked": "2026-09-09",
+      "method": "authority-cross-reference",
+      "evidence": "DILA A007457 曾國藩 explicitly maps to CBDB 0034344; name, aliases 伯涵/滌生 and 1811–1872 dates match the ECCP identity. CBDB bulk data is not copied."
     },
     "geni": {
       "id": null,
-      "status": "not-searched"
+      "status": "unresolved",
+      "checked": "2026-09-09",
+      "note": "Public search did not yield a verified numeric profile ID; do not guess."
     }
   },
   "accounts": [
     {
-      "source": "eccp-entry",
+      "source": "eccp-zeng-guofan",
       "relation": "principal-biography",
-      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan",
-      "passage": "Opening paragraph"
+      "readerWitness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01"
     }
   ],
   "sources": {
@@ -116,6 +123,20 @@
       "locator": "Opening paragraph; recorded revision 11365232",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-zeng-guofan": {
+      "title": "ECCP · 曾國藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "locator": "eccp-zeng-guofan-01; eccp-zeng-guofan-02; eccp-zeng-guofan-03; eccp-zeng-guofan-04; eccp-zeng-guofan-05; eccp-zeng-guofan-06; eccp-zeng-guofan-07; eccp-zeng-guofan-08; eccp-zeng-guofan-09; eccp-zeng-guofan-10; eccp-zeng-guofan-11; eccp-zeng-guofan-12; eccp-zeng-guofan-13; eccp-zeng-guofan-14; eccp-zeng-guofan-15",
+      "access": "full-text",
+      "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "dila-identity": {
+      "title": "DILA 人名規範 · A007457 曾國藩",
+      "url": "https://authority.dila.edu.tw/person/search.php?aid=7457",
+      "locator": "Explicit SameAs CBDB link to person 0034344; identity and dates match 曾國藩, 1811–1872.",
+      "access": "full-text",
+      "attribution": "DILA Authority Database"
     }
   },
   "notes": [
@@ -169,6 +190,270 @@
       "passage": "qsg-01",
       "mention": "qsg-01-m02",
       "quote": "國藩"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n001",
+      "quote": "TSÊNG Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n002",
+      "quote": "曾國藩"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n003",
+      "quote": "伯涵"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n004",
+      "quote": "滌生"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n011",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n012",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "mention": "eccp-zeng-guofan-02-n006",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "mention": "eccp-zeng-guofan-03-n001",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "mention": "eccp-zeng-guofan-03-n006",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "mention": "eccp-zeng-guofan-03-n010",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n003",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n004",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n006",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n009",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n010",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "mention": "eccp-zeng-guofan-04-n013",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n001",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n004",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n005",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n006",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n007",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n013",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n015",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n019",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "mention": "eccp-zeng-guofan-05-n021",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-06",
+      "mention": "eccp-zeng-guofan-06-n003",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "mention": "eccp-zeng-guofan-07-n001",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "mention": "eccp-zeng-guofan-07-n005",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "mention": "eccp-zeng-guofan-07-n008",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "mention": "eccp-zeng-guofan-07-n014",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-08",
+      "mention": "eccp-zeng-guofan-08-n001",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "mention": "eccp-zeng-guofan-09-n001",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "mention": "eccp-zeng-guofan-09-n003",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "mention": "eccp-zeng-guofan-10-n002",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "mention": "eccp-zeng-guofan-10-n004",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "mention": "eccp-zeng-guofan-10-n005",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "mention": "eccp-zeng-guofan-11-n006",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "mention": "eccp-zeng-guofan-12-n001",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "mention": "eccp-zeng-guofan-12-n002",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-13",
+      "mention": "eccp-zeng-guofan-13-n001",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "mention": "eccp-zeng-guofan-14-n003",
+      "quote": "Tsêng Kuo-fan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "mention": "eccp-zeng-guofan-14-n014",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "mention": "eccp-zeng-guofan-14-n018",
+      "quote": "Tsêng"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "mention": "eccp-zeng-guofan-15-n001",
+      "quote": "Tsêng Kuo-fan"
     }
   ]
 }
