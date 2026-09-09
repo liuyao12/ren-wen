@@ -1,0 +1,47 @@
+name: Zeng reference identity evidence
+on:
+  push:
+    branches: [text-layers-map]
+    paths: ['.github/workflows/zeng-identity-review.yml']
+permissions:
+  contents: read
+jobs:
+  identity-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Preserve source openings for Chinese name identification
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.parse,json,time,pathlib,hashlib
+          from datetime import datetime,timezone
+          from scripts.eccp_batch import source_paragraphs,Tree,nodes
+          prefix="Eminent Chinese of the Ch'ing Period/"
+          def read(title):
+            u='https://en.wikisource.org/w/api.php?'+urllib.parse.urlencode({'action':'parse','page':title,'prop':'text|revid','format':'json','maxlag':5})
+            with urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'Ren-Wen source-check (https://github.com/liuyao12/ren-wen)'}),timeout=40) as r:raw=r.read(3000000)
+            return json.loads(raw)['parse'],u,hashlib.sha256(raw).hexdigest()
+          body,u,sha=read(prefix+'Tsêng Kuo-fan')
+          titles=set()
+          for n in nodes(Tree(body['text']['*']).root):
+            href=n.attrs.get('href','')
+            if href.startswith('/wiki/'):
+              title=urllib.parse.unquote(href[len('/wiki/'):]).replace('_',' ').split('#')[0]
+              if title.startswith(prefix) and title!=prefix+'Tsêng Kuo-fan':titles.add(title)
+          out=pathlib.Path('build/identity-review');out.mkdir(parents=True,exist_ok=True);rows=[]
+          for title in sorted(titles):
+            try:
+              parsed,u,sha=read(title);ps=source_paragraphs(parsed['text']['*'])
+              rows.append({'title':title,'url':'https://en.wikisource.org/w/index.php?oldid='+str(parsed['revid']),'revision':parsed['revid'],'opening':ps[0].text(),'retrieved':datetime.now(timezone.utc).isoformat(),'responseSha256':sha,'status':'source-extracted-not-reviewed'})
+            except Exception as e:rows.append({'title':title,'error':str(e)})
+            time.sleep(.5)
+          (out/'reference-openings.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n');print(len(rows))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: zeng-reference-openings
+          path: build/identity-review
+          retention-days: 7
