@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  actions: read
 jobs:
   sources:
     runs-on: ubuntu-latest
@@ -16,41 +15,47 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - name: Preserve rendered QSG text at inventoried revisions
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Preserve rendered QSG text at explicit revisions
         run: |
           python - <<'PY'
-          import concurrent.futures, hashlib, io, json, os, pathlib, re, time, urllib.request, urllib.parse, zipfile
+          import concurrent.futures, hashlib, json, pathlib, re, time, urllib.request, urllib.parse
           from datetime import datetime, timezone
           ua='Ren-Wen/0.4 (academic biography reader; https://github.com/liuyao12/ren-wen)'
-          req=urllib.request.Request('https://api.github.com/repos/liuyao12/ren-wen/actions/artifacts/10089506465/zip',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'User-Agent':ua,'Accept':'application/vnd.github+json'})
-          with urllib.request.urlopen(req,timeout=90) as r: blob=r.read()
-          with zipfile.ZipFile(io.BytesIO(blob)) as z: revisions=json.loads(z.read('qsg-revisions.json'))
-          out=pathlib.Path('build/qsg-round1');out.mkdir(parents=True,exist_ok=True)
-          (out/'revisions.json').write_text(json.dumps(revisions,ensure_ascii=False),encoding='utf-8')
-          def wanted(x):
-              m=re.fullmatch('清史稿/卷([0-9]+)',x['title'])
-              return bool(m) and (int(m[1])<=25 or int(m[1])>=214)
-          rows=[x for x in revisions if wanted(x)]
-          def one(x):
-              rev=x['revisions'][0]['revid']; url='https://zh.wikisource.org/w/api.php?'+urllib.parse.urlencode({'action':'parse','oldid':rev,'prop':'text|revid|sections','format':'json','maxlag':5,'disablelimitreport':1,'disableeditsection':1})
-              result={'title':x['title'],'pageid':x['pageid'],'revision':rev,'apiURL':url}
+          def api(params):
+              url='https://zh.wikisource.org/w/api.php?'+urllib.parse.urlencode({'format':'json','maxlag':5,**params})
               for attempt in range(5):
                   try:
-                      with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':ua}),timeout=70) as r: raw=r.read(16000000)
+                      with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':ua}),timeout=70) as r: raw=r.read(25000000)
                       obj=json.loads(raw)
-                      if 'error' in obj: raise ValueError(obj['error'])
-                      filename=str(x['pageid'])+'.json';(out/filename).write_bytes(raw)
-                      result.update(path=filename,sha256=hashlib.sha256(raw).hexdigest(),retrieved=datetime.now(timezone.utc).isoformat(),status='downloaded-not-reviewed');break
-                  except Exception as exc:
-                      result.update(status='failed',error=str(exc));time.sleep(min(30,2**attempt))
+                      if 'error' in obj:raise ValueError(obj['error'])
+                      return obj,raw,url
+                  except Exception:
+                      if attempt==4:raise
+                      time.sleep(min(30,2**attempt*2))
+          params={'action':'query','list':'allpages','apprefix':'清史稿/卷','aplimit':500,'apfilterredir':'nonredirects'};pages=[]
+          while True:
+              obj,_,_=api(params);pages+=obj['query']['allpages']
+              if 'continue' not in obj:break
+              params.update(obj['continue'])
+          pages=[x for x in pages if re.fullmatch('清史稿/卷[0-9]+',x['title']) and (int(x['title'].split('卷')[-1])<=25 or int(x['title'].split('卷')[-1])>=214)]
+          revisions=[]
+          for i in range(0,len(pages),20):
+              obj,_,_=api({'action':'query','prop':'revisions','pageids':'|'.join(str(x['pageid']) for x in pages[i:i+20]),'rvprop':'ids|timestamp|content','rvslots':'main','formatversion':2});revisions+=obj['query']['pages'];time.sleep(.2)
+          out=pathlib.Path('build/qsg-round1');out.mkdir(parents=True,exist_ok=True)
+          (out/'revisions.json').write_text(json.dumps(revisions,ensure_ascii=False),encoding='utf-8')
+          def one(x):
+              rev=x['revisions'][0]['revid'];result={'title':x['title'],'pageid':x['pageid'],'revision':rev}
+              try:
+                  obj,raw,url=api({'action':'parse','oldid':rev,'prop':'text|revid|sections','disablelimitreport':1,'disableeditsection':1})
+                  filename=str(x['pageid'])+'.json';(out/filename).write_bytes(raw)
+                  result.update(path=filename,sha256=hashlib.sha256(raw).hexdigest(),apiURL=url,retrieved=datetime.now(timezone.utc).isoformat(),status='downloaded-not-reviewed')
+              except Exception as exc:result.update(status='failed',error=str(exc))
               time.sleep(.25);return result
           results=[]
           with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-              for row in pool.map(one,rows):
+              for row in pool.map(one,revisions):
                   results.append(row)
-                  if len(results)%25==0: print(str(len(results))+'/'+str(len(rows)),flush=True)
+                  if len(results)%25==0:print(str(len(results))+'/'+str(len(revisions)),flush=True)
           (out/'manifest.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
           print(json.dumps({'volumes':len(results),'failed':[r for r in results if r['status']=='failed']},ensure_ascii=False))
           PY
