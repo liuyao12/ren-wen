@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633504",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "翼",
+    "source": "eccp-3633504",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHAO I 趙翼 (T. 雲崧, 耘松, H. 甌北) Dec. 4, 1727–1814, June 5, historian and poet, was a native of Yang-hu, Kiangsu. His father, Chao Wei-k'uan 趙惟寬 (T. 子容, d. 1741), taught in private schools for a living.",
+          "source": "eccp-3633504",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "趙翼，字耘松，陽湖人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雲崧",
+        "source": "eccp-3633504"
+      },
+      {
+        "value": "耘松",
+        "source": "eccp-3633504"
+      }
+    ],
+    "hao": [
+      {
+        "value": "甌北",
+        "source": "eccp-3633504"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲崧"
+    },
+    "romanizations": [
+      {
+        "value": "Chao I",
+        "system": "ECCP spelling",
+        "source": "eccp-3633504"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1727,
+        "source": "eccp-3633504",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1814,
+        "source": "eccp-3633504",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633504",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633504",
+      "passage": "eccp-3633504-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-134",
+      "matchStatus": "proposed",
+      "evidence": "趙翼，字耘松，陽湖人。生三歲能識字，年十二，為文一日成七篇，人奇其才。乾隆十九年，由舉人中明通榜，用內閣中書，入直軍機，大學士傅恆尤重之。二十六年，復成進士，殿試擬一甲第一，王杰第三。高宗謂陝西自國朝以來未有以一甲一名及第者，遂拔杰而移翼第三，授編修。"
+    }
+  ],
+  "sources": {
+    "eccp-3633504": {
+      "title": "ECCP · Chao I",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271694",
+      "locator": "eccp-3633504-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3679857": {
+      "title": "ECCP · A Note on Ch'üan Tsu-wang, Chao I-ch'ing and Tai Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=14939986",
+      "locator": "eccp-3679857-039",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643646": {
+      "title": "ECCP · 李調元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294883",
+      "locator": "eccp-3643646-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-134",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

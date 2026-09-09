@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8ce2e9ef4b8280c5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "師誠",
+    "source": "eccp-3643688",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歸安",
+      "source": "qsg-volume-359",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張師誠，字蘭渚，浙江歸安人。",
+          "source": "qsg-volume-359",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "心友",
+        "source": "eccp-3643688"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘭渚",
+        "source": "eccp-3643688"
+      },
+      {
+        "value": "一西居士",
+        "source": "eccp-3643688"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "心友"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Shih-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3643688"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1762,
+        "source": "eccp-3643688",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1830,
+        "source": "eccp-3643688",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-359",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-359",
+      "passage": "qsg-volume-359-025",
+      "matchStatus": "proposed",
+      "evidence": "張師誠，字蘭渚，浙江歸安人。乾隆中，南巡，召試賜舉人，授內閣中書，充軍機章京。遷吏部主事，忤和珅，緣事降中書。得應會試，五十五年，成進士，改庶吉士，授編修。嘉慶元年，出為山西蒲州知府，歷雁平道，河南、江蘇按察使，遷山西布政使。州縣倉庫多虧，師誠知清查有名無實，特嚴於交代之際，有虧必完，在任三年，庫儲充裕。十一年，擢江西巡撫，以兼提督賜花翎，遂著為令。尋調福建，清治淹牘，疏陳整頓積弊事宜，詔嘉勉。"
+    }
+  ],
+  "sources": {
+    "eccp-3643688": {
+      "title": "ECCP · 梁章鉅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294953",
+      "locator": "eccp-3643688-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-359": {
+      "title": "清史稿/卷359",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162674",
+      "locator": "qsg-volume-359-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

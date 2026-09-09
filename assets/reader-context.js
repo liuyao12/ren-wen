@@ -1,3 +1,4 @@
+import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 /** Progressive context panels. Text, source snapshots, and annotation IDs remain untouched. */
 import {escapeHTML as h, safeURL, contextFor} from './core.js';
@@ -17,7 +18,7 @@ const labelYear=(p,key)=>westernYearText(p,key);
 
 async function install(){
   if(!$('reader'))return;
-  const [cr,gr,profiles]=await Promise.all([fetch('data/catalog.json'),fetch('data/geography.json'),loadProfiles()]);
+  const [cr,gr,profiles]=await Promise.all([fetchData('data/catalog.json'),fetchData('data/geography.json'),loadProfiles()]);
   if(!cr.ok||!gr.ok)throw Error('Context data could not be loaded.');
   const catalog=await cr.json(), geo=await gr.json();
   if(geo.schemaVersion!==1)throw Error('Unsupported geography data.');
@@ -172,7 +173,8 @@ async function install(){
   }
   function updateTimeline(){if(current)familyTimeline.update(current);}
   function refresh(){
-    frame=0;const source=catalog.sources.find(s=>s.id===$('source-select').value),paragraph=$('reader').querySelector('p[id].active');
+    frame=0;const baseSource=catalog.sources.find(s=>s.id===$('source-select').value), requestedPerson=new URLSearchParams(location.search).get('person');
+    const source=baseSource && !baseSource.subject && people.has(requestedPerson)?{...baseSource,subject:requestedPerson}:baseSource,paragraph=$('reader').querySelector('p[id].active');
     if(!source||!paragraph||!paragraph.id.startsWith(source.id+'-'))return;
     const context=contextFor(catalog,source.id,paragraph.id);
     const inNode=node=>[...node.querySelectorAll('[data-entity],a[data-person-link]')].map(n=>n.dataset.personLink||n.dataset.entity).filter(id=>people.has(id));

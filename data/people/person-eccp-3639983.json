@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639983",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "文靖",
+    "source": "eccp-3639983",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Wên-ching 徐文靖 (T. 位山, 禺尊), 1667–after 1756, classicist, was a native of Tang-t'u, Anhwei. He did not become a chü-jên until 1723. Thirteen years later (1736) he was recommended by Kan Ju-lai (see under Li Fu), for the po-hsüeh hung-tz'ŭ examination (see under Liu Lun), but failed to qualify.",
+          "source": "eccp-3639983",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "徐文靖，字位山，當塗人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "位山",
+        "source": "eccp-3639983"
+      },
+      {
+        "value": "禺尊",
+        "source": "eccp-3639983"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "位山"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Wên-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3639983"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639983",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639983",
+      "passage": "eccp-3639983-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-112",
+      "matchStatus": "proposed",
+      "evidence": "徐文靖，字位山，當塗人。父章達，以孝義稱鄉里。文靖務古學，無所不窺。著述甚富，皆援據經史。雍正改元，年五十七，始舉江南鄉試。侍郎黃叔琳典試還朝，以得三不朽士自矜，蓋指文靖及任啟運、陳祖範也。乾隆改元，試鴻博，不遇。詹事張鵬翀以所著山河兩戒考、管城碩記進呈，賜國子監學正。十七年，徵經學，入都。會開萬壽恩科，遂與試，年八十六，以老壽賜檢討，給假歸。卒，年九十馀。其所著又有周易拾遺、禹貢會箋、竹書統箋諸書。"
+    }
+  ],
+  "sources": {
+    "eccp-3639983": {
+      "title": "ECCP · Hsü Wên-ching",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282842",
+      "locator": "eccp-3639983-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639237": {
+      "title": "ECCP · 郝懿行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280252",
+      "locator": "eccp-3639237-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-112",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

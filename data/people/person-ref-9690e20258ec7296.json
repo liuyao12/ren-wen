@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9690e20258ec7296",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "鼎芬",
+    "source": "eccp-3633526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "番禺",
+      "source": "qsg-volume-472",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "梁鼎芬，字星海，廣東番禺人。",
+          "source": "qsg-volume-472",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "心",
+        "source": "eccp-3633526"
+      }
+    ],
+    "hao": [
+      {
+        "value": "節庵",
+        "source": "eccp-3633526"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "心"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Ting-fên",
+        "system": "ECCP spelling",
+        "source": "eccp-3633526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1919,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-472",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-472",
+      "passage": "qsg-volume-472-020",
+      "matchStatus": "proposed",
+      "evidence": "梁鼎芬，字星海，廣東番禺人。光緒六年進士，授編修。法越事亟，疏劾北洋大臣李鴻章，不報。旋又追論妄劾，交部嚴議，降五級調用。張之洞督粵，聘主廣雅書院講席；調署兩江，复聘主鍾山書院；又隨還鄂，皆參其幕府事。之洞銳行新政，學堂林立，言學事惟鼎芬是任。"
+    }
+  ],
+  "sources": {
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-472": {
+      "title": "清史稿/卷472",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433579",
+      "locator": "qsg-volume-472-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

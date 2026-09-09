@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-36045fae534bdf5b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郎",
+    "given": "永清",
+    "source": "eccp-3642441",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Lang Yung-ch'ing 郎永清 (T. 定庵, 1620–1687), governor of Shantung in 1686–87, he came of a family which had had some military reputation in the Ming dynasty, but which later served the early Manchu emperors and belonged to the Chinese Bordered Yellow Banner.",
+          "source": "eccp-3642441",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "定庵",
+        "source": "eccp-3642441"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "定庵"
+    },
+    "romanizations": [
+      {
+        "value": "Lang Yung-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3642441"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3642441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1687,
+        "source": "eccp-3642441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-273",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-273",
+      "passage": "qsg-volume-273-032",
+      "matchStatus": "proposed",
+      "evidence": "郎永清，字定庵。初授禮部筆帖式。出知山西渾源州，招民開墾，豁逋賦萬餘。姜瓖黨高山等竄伏山谷間為盜，永清簡丁壯，親率搜捕，多斬獲。事平，擢江西贛州知府，平反冤獄，居官有聲。師討李定國，議牧馬贛州，民譁言兵且入城，爭竄避。永清度城外地為牧場，區畫八旗駐營，具芻茭，兵不入城，贛民安堵。師還，徵民夫數千挽舟，灘水湍激，永清慮民夫無食且逃，以大艦載米尾其後，軍行無滯。民德之，為立像祠焉。"
+    }
+  ],
+  "sources": {
+    "eccp-3642441": {
+      "title": "ECCP · 郎廷極",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290563",
+      "locator": "eccp-3642441-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

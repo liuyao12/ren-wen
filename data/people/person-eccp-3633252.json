@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633252",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "柴",
+    "given": "大紀",
+    "source": "eccp-3633252",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江山",
+      "source": "qsg-volume-329",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'AI Ta-chi 柴大紀 (T. 肇修, H. 東山), d. Aug. 1788, general, was a native of Chiang-shan, Chekiang. A military chin-shih of 1763, he was sent to Fukien as an expectant second captain, but had to wait eight years before he obtained appointment to a vacancy.",
+          "source": "eccp-3633252",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "柴大紀，浙江江山人。",
+          "source": "qsg-volume-329",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "肇修",
+        "source": "eccp-3633252"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東山",
+        "source": "eccp-3633252"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "肇修"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ai Ta-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3633252"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633252",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633252",
+      "passage": "eccp-3633252-001"
+    },
+    {
+      "source": "qsg-volume-329",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-329",
+      "passage": "qsg-volume-329-021",
+      "matchStatus": "proposed",
+      "evidence": "柴大紀，浙江江山人。自武進士授福建守備。累擢至海壇鎮總兵，移台灣鎮。乾隆五十一年十一月，林爽文亂起。爽文漳州人，徙彰化，所居村曰大里杙。時奸民相聚，號天地會，漳州人莊煙為之魁，爽文與相結，謀為變。台灣知府孫景燧馳詣彰化，督知縣俞峻、副將赫生額、游擊耿世文捕治，焚數小村以怵之。爽文因民怨，夜糾其徒來襲，赫生額等皆戰死。明日，遂破彰化，景燧亦殉焉。傍攻諸羅、鳳山，皆陷。大紀時以總兵守府城，賊分道來攻，大紀出駐鹽埕橋御之，擊沉賊舟數十，馘千餘。"
+    }
+  ],
+  "sources": {
+    "eccp-3633252": {
+      "title": "ECCP · Ch'ai Ta-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280398",
+      "locator": "eccp-3633252-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633494": {
+      "title": "ECCP · 長齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271385",
+      "locator": "eccp-3633494-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633504": {
+      "title": "ECCP · 趙翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271694",
+      "locator": "eccp-3633504-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636414": {
+      "title": "ECCP · 朱一貴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272545",
+      "locator": "eccp-3636414-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639193": {
+      "title": "ECCP · 福康安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280189",
+      "locator": "eccp-3639193-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639223": {
+      "title": "ECCP · 海蘭察",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280228",
+      "locator": "eccp-3639223-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643638": {
+      "title": "ECCP · 李侍堯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294860",
+      "locator": "eccp-3643638-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654378": {
+      "title": "ECCP · 順天",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358455",
+      "locator": "eccp-3654378-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649402": {
+      "title": "ECCP · 沈復",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318194",
+      "locator": "eccp-3649402-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654402": {
+      "title": "ECCP · 孫士毅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358540",
+      "locator": "eccp-3654402-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637581": {
+      "title": "ECCP · 額勒登保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275771",
+      "locator": "eccp-3637581-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-329": {
+      "title": "清史稿/卷329",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378275",
+      "locator": "qsg-volume-329-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-330": {
+      "title": "清史稿/卷330",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542412",
+      "locator": "qsg-volume-330-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-350": {
+      "title": "清史稿/卷350",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079385",
+      "locator": "qsg-volume-350-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-136",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

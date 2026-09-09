@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cd676f10787afb4f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曾",
+    "given": "璧光",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "洪雅",
+      "source": "qsg-volume-420",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "曾璧光，字樞垣，四川洪雅人。",
+          "source": "qsg-volume-420",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "毓東",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [
+      {
+        "value": "樞垣",
+        "source": "eccp-3656414"
+      },
+      {
+        "value": "麗東",
+        "source": "eccp-3656414"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "毓東"
+    },
+    "romanizations": [
+      {
+        "value": "Tstêng Pi-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-420",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-420",
+      "passage": "qsg-volume-420-018",
+      "matchStatus": "proposed",
+      "evidence": "曾璧光，字樞垣，四川洪雅人。道光三十年進士，選庶吉士，授編修，記名御史。入直上書房，授恭親王奕訢、醇郡王奕枻讀。咸豐九年，出為貴州鎮遠知府。同治元年，署貴東道。二年，剿平銅仁踞賊蕭文魁，賜花翎。雲貴總督勞崇光薦其才，迭署糧道、按察使、布政使。"
+    }
+  ],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-420": {
+      "title": "清史稿/卷420",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2272914",
+      "locator": "qsg-volume-420-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

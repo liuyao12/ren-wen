@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0e7d8aef1d27bdc5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "學堅",
+    "source": "eccp-3635441",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "子貞",
+        "source": "eccp-3635441"
+      }
+    ],
+    "hao": [
+      {
+        "value": "懷亭",
+        "source": "eccp-3635441"
+      },
+      {
+        "value": "石南老人",
+        "source": "eccp-3635441"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子貞"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Hsüeh-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3635441"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635441": {
+      "title": "ECCP · 蔣光煦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271719",
+      "locator": "eccp-3635441-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

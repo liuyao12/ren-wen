@@ -9,9 +9,17 @@
     "given": "Yang Yüeh-pin",
     "source": "eccp-zeng-guofan",
     "jiguan": null,
-    "zi": [],
+    "zi": [
+      {
+        "value": "厚庵",
+        "source": "eccp-3649350"
+      }
+    ],
     "hao": [],
-    "parenthetical": null,
+    "parenthetical": {
+      "kind": "zi",
+      "value": "厚庵"
+    },
     "romanizations": [
       {
         "value": "Yang Yüeh-pin",
@@ -19,13 +27,43 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "Yang Yüeh-pin 楊岳斌 (original ming Tsai-fu 載福, T. 厚庵, 1822–1890), a native of Shan-hua, Hunan, were fitted by temperament and education to initiate plans and prepare reports for the naval forces.",
+          "source": "eccp-3649350",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
     "death": null,
     "westernDates": [],
-    "westernYears": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1822,
+        "source": "eccp-3649350",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1890,
+        "source": "eccp-3649350",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
     "reportedAges": []
   },
   "externalIds": {
@@ -60,6 +98,13 @@
       "locator": "See-under cross-reference in eccp-zeng-guofan-03",
       "access": "cross-reference",
       "attribution": "ECCP contributors"
+    },
+    "eccp-3649350": {
+      "title": "ECCP · 彭玉麟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318107",
+      "locator": "eccp-3649350-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "notes": [],

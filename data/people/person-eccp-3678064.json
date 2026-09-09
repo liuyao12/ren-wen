@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678064",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "雯",
+    "source": "eccp-3678064",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Wên 吳雯 (T. 天章, H. 蓮洋 and 玉澗子), 1644–1704, June 28, poet and calligrapher, was a native of P'u-chou, Shansi. His father, Wu Yün-shêng 吳允升 (changed later to Wu Lai-hêng 吳萊亨, T. 于公 and 康侯, d.",
+          "source": "eccp-3678064",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天章",
+        "source": "eccp-3678064"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蓮洋",
+        "source": "eccp-3678064"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天章"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3678064"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3678064",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3678064",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678064",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678064",
+      "passage": "eccp-3678064-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678064": {
+      "title": "ECCP · Wu Wên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442383",
+      "locator": "eccp-3678064-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

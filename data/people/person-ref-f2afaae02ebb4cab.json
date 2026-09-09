@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f2afaae02ebb4cab",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "得祿",
+    "source": "eccp-3642447",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "嘉義",
+      "source": "qsg-volume-350",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王得祿，字玉峰，福建嘉義人。",
+          "source": "qsg-volume-350",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "百道",
+        "source": "eccp-3642447"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玉峯",
+        "source": "eccp-3642447"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "百道"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Tê-lu",
+        "system": "ECCP spelling",
+        "source": "eccp-3642447"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1842,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-350",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-350",
+      "passage": "qsg-volume-350-015",
+      "matchStatus": "proposed",
+      "evidence": "王得祿，字玉峰，福建嘉義人。林爽文倡亂，陷縣城。得祿家素豐，捐貲募鄉勇，助官軍復之，授把總。明年，賊复圍城，從總兵柴大紀固守。及圍解，率鄉勇搜捕大坪頂等處餘匪，焚瑯嶠賊巢，賊渠莊大田就擒。台灣平，賜花翎、五品頂戴，遷千總。嘉慶元年，巡洋至獺窟，遇賊，得祿先登，擒吳興信等。歷年出洋捕海盜，號勇敢，累擢金門營游擊。七年，從李長庚擊蔡牽於東滬洋，擒賊目徐業等百餘人，又擒呂送於崇武洋，被獎敘。九年，從總兵羅仁太擊賊於虎頭山洋面，獲船械甚多。十年，擊蔡牽於虎井洋，敗之，署澎湖協副將。九月，遇牽於水澳，焚其"
+    }
+  ],
+  "sources": {
+    "eccp-3642447": {
+      "title": "ECCP · 李長庚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-350": {
+      "title": "清史稿/卷350",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079385",
+      "locator": "qsg-volume-350-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

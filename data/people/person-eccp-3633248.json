@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633248",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "查郎阿",
+    "source": "eccp-3633248",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "JALANGGA 查郎阿 (T. 松莊), d. 1747, official, came from the Ula Nara Clan and belonged to the Manchu Bordered White Banner. His ancestor, Çangju 常住 was a grandson of Buyan (see under Bujantai), beile of the Ula tribe.",
+          "source": "eccp-3640920",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "查郎阿，字松莊，納喇氏，滿洲鑲白旗人。",
+          "source": "qsg-volume-297",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "松莊",
+        "source": "eccp-3640920"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "松莊"
+    },
+    "romanizations": [
+      {
+        "value": "Cha-lang-a",
+        "system": "ECCP spelling",
+        "source": "eccp-3633248"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633248",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3633248",
+      "passage": "eccp-3633248-001"
+    },
+    {
+      "source": "eccp-3640920",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640920",
+      "passage": "eccp-3640920-001"
+    },
+    {
+      "source": "qsg-volume-297",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-297",
+      "passage": "qsg-volume-297-006",
+      "matchStatus": "proposed",
+      "evidence": "查郎阿，字松莊，納喇氏，滿洲鑲白旗人。曾祖章泰，以軍功授拖沙喇哈番。祖查爾海，復以軍功進一等阿達哈哈番。父色思特，死烏闌布通之戰。查郎阿襲世職，兼佐領，遷參領。雍正元年，授吏部郎中。二年，超擢侍郎，署鑲黃旗滿洲都統。五年，遷左都御史，仍治吏部事。是歲冬，西藏噶布倫阿爾布巴等為亂，戕總理藏務貝子康濟鼐，扎薩克台吉頗羅鼐馳聞，上命查郎阿偕副都統邁祿率兵入藏。六年，擢尚書。秋，師至藏，駐藏副都統馬喇等已擒阿爾布巴，即按誅之，並殲其餘黨。查郎阿奏移達賴喇嘛暫居里塘，留兵二千交駐藏大臣調遣；又奏請以頗羅鼐"
+    }
+  ],
+  "sources": {
+    "eccp-3633248": {
+      "title": "ECCP · Cha-lang-a",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271540",
+      "locator": "eccp-3633248-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640920": {
+      "title": "ECCP · Jalangga",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285933",
+      "locator": "eccp-3640920-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633280": {
+      "title": "ECCP · 張廣泗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271615",
+      "locator": "eccp-3633280-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639186": {
+      "title": "ECCP · 傅清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280178",
+      "locator": "eccp-3639186-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-276": {
+      "title": "清史稿/卷276",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469305",
+      "locator": "qsg-volume-276-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-296": {
+      "title": "清史稿/卷296",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162633",
+      "locator": "qsg-volume-296-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-300": {
+      "title": "清史稿/卷300",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433513",
+      "locator": "qsg-volume-300-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-063",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

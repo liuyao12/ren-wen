@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639239",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郝",
+    "given": "碩",
+    "source": "eccp-3639239",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HAO Shuo 郝碩 (T. 冀軒), d. 1784, member of the Chinese Bordered Yellow Banner, and official who was active in the cause of the literary inquisition, was a native of Pa-chou, Chihli. His father, Hao Yü-lin 郝玉麟 (T. 敬亭, d.",
+          "source": "eccp-3639239",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "郝碩，漢軍鑲黃旗人。",
+          "source": "qsg-volume-339",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "冀軒",
+        "source": "eccp-3639239"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "冀軒"
+    },
+    "romanizations": [
+      {
+        "value": "Hao Shuo",
+        "system": "ECCP spelling",
+        "source": "eccp-3639239"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639239",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639239",
+      "passage": "eccp-3639239-001"
+    },
+    {
+      "source": "qsg-volume-339",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-339",
+      "passage": "qsg-volume-339-033",
+      "matchStatus": "proposed",
+      "evidence": "郝碩，漢軍鑲黃旗人。父郝玉麟，官兩江總督。郝碩襲騎都尉世職，授戶部員外郎，直軍機處，遷郎中。外授山東登萊青道，三遷江西巡撫。將朝京師，以行李不具，徵屬吏納賕。四十九年，兩江總督薩載論劾，逮京師鞫實。上謂：「郝碩罪同國泰，國泰小有才，地方事尚知料理。郝碩嘗朝行在，問以地方事，不知所對。不意复貪婪若是！且郝碩託辭求賂，正國泰事敗時，乃明知故蹈，無復忌憚。即視國泰例賜自裁。」因通諭諸直省督撫，當持名節，畏憲典，以國泰、郝碩為戒。"
+    }
+  ],
+  "sources": {
+    "eccp-3639239": {
+      "title": "ECCP · Hao Shuo",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280254",
+      "locator": "eccp-3639239-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672739": {
+      "title": "ECCP · 王錫侯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412304",
+      "locator": "eccp-3672739-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649315",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "耒",
+    "source": "eccp-3649315",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'AN Lei 潘耒 (T. 次耕, H. 稼堂, 止止居士), 1646–1708, Nov. 11, scholar, was a native of Wu-chiang, Kiangsu, and a younger half-brother of P'an Ch'êng-chang [q. v.]. When the latter was involved in the case of Chuang T'ing-lung [q. v.] P'an Lei lived in disguise in his mother's home under the assumed name of Wu Ch'i 吳琦.",
+          "source": "eccp-3649315",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "潘耒，字次耕，吳江人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "次耕",
+        "source": "eccp-3649315"
+      }
+    ],
+    "hao": [
+      {
+        "value": "稼堂",
+        "source": "eccp-3649315"
+      },
+      {
+        "value": "止止居士",
+        "source": "eccp-3649315"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "次耕"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Lei",
+        "system": "ECCP spelling",
+        "source": "eccp-3649315"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1646,
+        "source": "eccp-3649315",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1708,
+        "source": "eccp-3649315",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649315",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649315",
+      "passage": "eccp-3649315-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-179",
+      "matchStatus": "proposed",
+      "evidence": "潘耒，字次耕，吳江人。生而奇慧，讀書十行並下，自經史、音韻、算數及宗乘之學，無不通貫。康熙時，以布衣試鴻博，授檢討，纂修明史。上書總裁，言要義八端：「宜搜採博而考證精；職任分而義例一；秉筆直而持論平；歲月寬而卷帙簡。」總裁善其說，令撰食貨志，兼他紀傳。尋充日講起居注官，修實錄、聖訓。嘗應詔陳言，謂：「建言古無專責，梅福以南昌尉言外戚，柳伉以太常博士言程元振，陳東以太學生攻六賊，楊繼盛以部曹劾嚴嵩。本朝舊制，京官並許條陳。自康熙十年憲臣奏請停止，凡非言官而言事為越職。夫人主明目達聰，宜導之使言。今"
+    }
+  ],
+  "sources": {
+    "eccp-3649315": {
+      "title": "ECCP · P'an Lei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318036",
+      "locator": "eccp-3649315-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635436": {
+      "title": "ECCP · 姜宸英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271707",
+      "locator": "eccp-3635436-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639967": {
+      "title": "ECCP · 徐枋",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282793",
+      "locator": "eccp-3639967-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643699": {
+      "title": "ECCP · 梁佩蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294988",
+      "locator": "eccp-3643699-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646160": {
+      "title": "ECCP · 毛扆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300584",
+      "locator": "eccp-3646160-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649313": {
+      "title": "ECCP · 潘檉章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318032",
+      "locator": "eccp-3649313-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-179",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

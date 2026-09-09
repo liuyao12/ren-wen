@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639207",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "富德",
+    "source": "eccp-3639207",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FU-tê 富德, d. 1776, of the Gûalgiya clan garrisoned at Kirin, was a member of the Manchu Plain Yellow Banner. His life was spent in military activity in the far west in the campaigns which extended Chinese sovereignty over Turkestan and Burma.",
+          "source": "eccp-3639207",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "富德，瓜爾佳氏，滿洲正黃旗人，駐防吉林。",
+          "source": "qsg-volume-314",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Fu-tê",
+        "system": "ECCP spelling",
+        "source": "eccp-3639207"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639207",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639207",
+      "passage": "eccp-3639207-001"
+    },
+    {
+      "source": "qsg-volume-314",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-314",
+      "passage": "qsg-volume-314-031",
+      "matchStatus": "proposed",
+      "evidence": "富德，瓜爾佳氏，滿洲正黃旗人，駐防吉林。乾隆初，自護軍擢至三等侍衛。十三年，從經略大學士傅恆徵金川，擒賊黨阿扣，遷二等侍衛。師還，累遷副都統。二十年，師徵準噶爾，命送綽羅斯台吉噶勒藏多爾濟等赴軍。擢參贊大臣，督西路台站。阿睦爾撒納所屬唐古忒部見阿睦爾撒納入伊犁，謀遁去。二十一年，富德帥師至鄂塔穆和爾，遇唐古忒眾千餘營樹林蒲葦中，擊殺二十餘人，追至色白口山內。賊據險分隊抵禦，奪寨六，斬獲無算。唐古忒部遁伊犁，追至察罕鄂博，复遇哈薩克兵千人與唐古忒隊合。富德奮勇衝擊，斬百餘級，奪回被掠集賽噶雜特三十"
+    }
+  ],
+  "sources": {
+    "eccp-3639207": {
+      "title": "ECCP · Fu-tê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280210",
+      "locator": "eccp-3639207-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633500": {
+      "title": "ECCP · 兆惠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271944",
+      "locator": "eccp-3633500-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637575": {
+      "title": "ECCP · 遏必隆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275761",
+      "locator": "eccp-3637575-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637581": {
+      "title": "ECCP · 額勒登保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275771",
+      "locator": "eccp-3637581-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-330": {
+      "title": "清史稿/卷330",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542412",
+      "locator": "qsg-volume-330-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-331": {
+      "title": "清史稿/卷331",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1373048",
+      "locator": "qsg-volume-331-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-333": {
+      "title": "清史稿/卷333",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378252",
+      "locator": "qsg-volume-333-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

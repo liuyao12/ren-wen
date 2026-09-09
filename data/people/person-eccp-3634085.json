@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634085",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "文述",
+    "source": "eccp-3634085",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Wên-shu 陳文述 (T. 退庵, 雲伯, H. 碧城外史, 頤道先生, 蓮可居士, 秦亭山樵), 1775–1840, official and poet, was a native of Ch'ien-t'ang (Hangchow). Even as a youth he gained recognition as a poet, and the designation Êr Ch'ên 二陳 or \"The Two Ch'êns\" was given to him and his cousin, Ch'ên Hung-shou 陳鴻壽 (T. 頌文, 子恭, 翼庵, H. 曼生, 1768–1822), who was a poet, a painter, and a calligrapher.",
+          "source": "eccp-3634085",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "退庵",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "雲伯",
+        "source": "eccp-3634085"
+      }
+    ],
+    "hao": [
+      {
+        "value": "碧城外史",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "頤道先生",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "蓮可居士",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "秦亭山樵",
+        "source": "eccp-3634085"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "退庵"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Wên-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3634085"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3634085",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3634085",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634085",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634085",
+      "passage": "eccp-3634085-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634085": {
+      "title": "ECCP · Ch'ên Wên-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271502",
+      "locator": "eccp-3634085-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645520": {
+      "title": "ECCP · 柳是",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299491",
+      "locator": "eccp-3645520-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649162": {
+      "title": "ECCP · 鈕樹玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317766",
+      "locator": "eccp-3649162-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654402": {
+      "title": "ECCP · 孫士毅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358540",
+      "locator": "eccp-3654402-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672763": {
+      "title": "ECCP · 汪端",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412343",
+      "locator": "eccp-3672763-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643630",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "鴻藻",
+    "source": "eccp-3643630",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "高陽",
+      "source": "qsg-volume-436",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Hung-tsao 李鴻藻 (T. 寄雲, H. 石孫, 蘭孫), 1820–1897, July 31, official, was a native of Kao-yang, Chihli. He became a chü-jên in 1844 and a chin-shih in 1852, followed by appointment as bachelor in the Hanlin Academy.",
+          "source": "eccp-3643630",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李鴻藻，字蘭孫，直隸高陽人。",
+          "source": "qsg-volume-436",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寄雲",
+        "source": "eccp-3643630"
+      }
+    ],
+    "hao": [
+      {
+        "value": "石孫",
+        "source": "eccp-3643630"
+      },
+      {
+        "value": "蘭孫",
+        "source": "eccp-3643630"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寄雲"
+    },
+    "romanizations": [
+      {
+        "value": "Li Hung-tsao",
+        "system": "ECCP spelling",
+        "source": "eccp-3643630"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-3643630",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1897,
+        "source": "eccp-3643630",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643630",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643630",
+      "passage": "eccp-3643630-001"
+    },
+    {
+      "source": "qsg-volume-436",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-436",
+      "passage": "qsg-volume-436-010",
+      "matchStatus": "proposed",
+      "evidence": "李鴻藻，字蘭孫，直隸高陽人。咸豐二年進士，選庶吉士，授編修。典山西鄉試，督河南學政。十年，上擇儒臣為皇子師，大學士彭蘊章以鴻藻應。召來京，明年，特詔授大阿哥讀。穆宗登極，皇太后懿旨命直弘德殿。同治元年，擢侍講。累遷內閣學士。署戶部左侍郎。四年，命直軍機。五年，授禮部右侍郎。遭母憂，皇太后懿旨，援雍正、乾隆年大臣孫嘉淦等故事，命鴻藻開缺守孝，百日後仍授讀，兼參機務。並諭：「移孝作忠，勿以守禮固辭。」鴻藻懇終制，不允。倭仁等亦代為陳請，仍命恭親王傳諭慰勉。鴻藻連疏稱疾，遂得賜告，卒終制始出。"
+    }
+  ],
+  "sources": {
+    "eccp-3643630": {
+      "title": "ECCP · Li Hung-tsao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294851",
+      "locator": "eccp-3643630-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643665": {
+      "title": "ECCP · 李蔚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294912",
+      "locator": "eccp-3643665-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646142": {
+      "title": "ECCP · 馬新貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649108": {
+      "title": "ECCP · 旻寧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317663",
+      "locator": "eccp-3649108-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656406": {
+      "title": "ECCP · 曹振鏞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365198",
+      "locator": "eccp-3656406-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658536": {
+      "title": "ECCP · 杜受田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370072",
+      "locator": "eccp-3658536-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675184": {
+      "title": "ECCP · 翁心存",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419938",
+      "locator": "eccp-3675184-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-151",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-450": {
+      "title": "清史稿/卷450",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433591",
+      "locator": "qsg-volume-450-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-467": {
+      "title": "清史稿/卷467",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611503",
+      "locator": "qsg-volume-467-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

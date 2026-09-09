@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ec0fbcaad86f849c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "官俊",
+    "source": "eccp-3645512",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濰縣",
+      "source": "qsg-volume-365",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳官俊，字偉堂，山東濰縣人。",
+          "source": "qsg-volume-365",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "籲尊",
+        "source": "eccp-3645512"
+      }
+    ],
+    "hao": [
+      {
+        "value": "偉堂",
+        "source": "eccp-3645512"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "籲尊"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Kuan-chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3645512"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-365",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-365",
+      "passage": "qsg-volume-365-020",
+      "matchStatus": "proposed",
+      "evidence": "陳官俊，字偉堂，山東濰縣人。嘉慶十三年進士，選庶吉士，授編修，遷贊善。二十一年，入直上書房。大考二等，擢洗馬，累遷右庶子。典陝西鄉試，督山西學政。道光元年，命各省明定陋規，中外臣工多言窒礙，官俊亦疏陳不可行，詔嘉之，予議敘。會密諭留心察訪官吏賢否、政治得失，官俊恃曾直內廷為宣宗所眷，意氣甚張。尋遷侍講學士，命回京，仍直上書房。山西巡撫成格追劾官俊在學政任毆差買妾，妄作威福，大開奔競。上以官俊於毆差買妾已自承不諱，曾薦舉魏元烺、邱鳴泰，人材尚不繆；惟所述太監往河東查訪鹽務控案，事出無稽，解職就質，"
+    }
+  ],
+  "sources": {
+    "eccp-3645512": {
+      "title": "ECCP · 劉喜海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299470",
+      "locator": "eccp-3645512-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-365": {
+      "title": "清史稿/卷365",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542368",
+      "locator": "qsg-volume-365-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

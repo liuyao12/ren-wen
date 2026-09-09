@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d3a37fe9138e30d3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "鼎新",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "廬江",
+      "source": "qsg-volume-416",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "潘鼎新，字琴軒，安徽廬江人。",
+          "source": "qsg-volume-416",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "琴軒",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "琴軒"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Ting-hsin",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-416",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-416",
+      "passage": "qsg-volume-416-052",
+      "matchStatus": "proposed",
+      "evidence": "潘鼎新，字琴軒，安徽廬江人。道光二十九年舉人，議敘知縣。咸豐七年，投★安徽軍營，從克霍山，擢同知。十一年，父璞領鄉團助剿，被執不屈死。鼎新誓殺賊復仇，請分兵攻三河鎮，克之，負父骸歸。曾國籓聞而壯之，時方創淮軍，令募勇立鼎字營。"
+    }
+  ],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-416": {
+      "title": "清史稿/卷416",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2651422",
+      "locator": "qsg-volume-416-052",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

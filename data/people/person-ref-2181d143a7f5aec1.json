@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2181d143a7f5aec1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "鵬翀",
+    "source": "eccp-3633290",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "嘉定",
+      "source": "qsg-volume-504",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張鵬翀，字天飛，自號南華山人，江蘇嘉定人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天扉",
+        "source": "eccp-3633290"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天扉"
+    },
+    "romanizations": [
+      {
+        "value": "Chang P'êng-ch'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3633290"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3633290",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1745,
+        "source": "eccp-3633290",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-058",
+      "matchStatus": "proposed",
+      "evidence": "張鵬翀，字天飛，自號南華山人，江蘇嘉定人。雍正五年進士，入翰林，官至詹事府詹事。天才超邁，詩畫皆援筆立就，瀟酒自適，類其為人。高宗愛其才，不次拔擢。進奉詩文，多寓規於頌。畫無師承，自然入古。雖應制之作，蕭散若不經意，愈見神韻。繪春林澹靄圖，題詩進上，上賜和，鵬翀即於宮門疊韻陳謝。嘗從駕西苑液池，一渡之頃，得詩八首。屢敕御舟作畫，賜御筆枇杷折枝及松竹雙清圖，又賜雙清閣書額，迭拜筆硯、文綺之賜無算。乾隆十年，乞假歸，卒於途次。上眷之，久不忘，對群臣輒曰：「張鵬翀可惜！」"
+    }
+  ],
+  "sources": {
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

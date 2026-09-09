@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649395",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "欽韓",
+    "source": "eccp-3649395",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHÊN Ch'in-han 沈欽韓 (T. 文起, H. 小宛), July 5, 1775–1832, Jan. 22, scholar and poet, was a native of Mu-tu 木瀆, in the district of Wu-hsien (Soochow), Kiangsu. He was descended from a line of literati, but during his youth his family was poor.",
+          "source": "eccp-3649395",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文起",
+        "source": "eccp-3649395"
+      }
+    ],
+    "hao": [
+      {
+        "value": "小宛",
+        "source": "eccp-3649395"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文起"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Ch'in-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3649395"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3649395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3649395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649395",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649395",
+      "passage": "eccp-3649395-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649395": {
+      "title": "ECCP · Shên Ch'in-han",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318182",
+      "locator": "eccp-3649395-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-095",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

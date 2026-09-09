@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672721",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "啟淑",
+    "source": "eccp-3672721",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "秀峯",
+        "source": "eccp-3672721"
+      },
+      {
+        "value": "愼儀",
+        "source": "eccp-3672721"
+      }
+    ],
+    "hao": [
+      {
+        "value": "訒庵",
+        "source": "eccp-3672721"
+      },
+      {
+        "value": "槐谷",
+        "source": "eccp-3672721"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "秀峯"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ch'i-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3672721"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1728,
+        "source": "eccp-3672721",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1799,
+        "source": "eccp-3672721",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672721",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672721",
+      "passage": "eccp-3672721-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672721": {
+      "title": "ECCP · Wang Ch'i-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412272",
+      "locator": "eccp-3672721-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649330": {
+      "title": "ECCP · 鮑廷博",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318088",
+      "locator": "eccp-3649330-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3677759": {
+      "title": "ECCP · Thirty-three Collections of Ch'ing Dynasty Biographies",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440506",
+      "locator": "eccp-3677759-052",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672742": {
+      "title": "ECCP · 汪憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412309",
+      "locator": "eccp-3672742-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

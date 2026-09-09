@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7cf1a1d959f5c62a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "丁",
+    "given": "取忠",
+    "source": "eccp-3643637",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "丁取忠，字果臣，長沙人。",
+          "source": "qsg-volume-507",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "果臣",
+        "source": "eccp-3643637"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲梧",
+        "source": "eccp-3643637"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "果臣"
+    },
+    "romanizations": [
+      {
+        "value": "Ting Ch'ü-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3643637"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-057",
+      "matchStatus": "proposed",
+      "evidence": "丁取忠，字果臣，長沙人。研究像數，不求聞達，刻算書二十有一種，為白芙堂叢書。光緒初，卒於家，年逾七十。所自譔者為數學拾遺一卷，以所演算草較詳，可便初學，又意在拾遺，故未暇詳其義之出自何人。"
+    }
+  ],
+  "sources": {
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

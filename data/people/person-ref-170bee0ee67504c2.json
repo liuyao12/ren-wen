@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-170bee0ee67504c2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "宸",
+    "source": "eccp-3674928",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "紫",
+        "source": "eccp-3674928"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蓬心",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "瀟湘翁",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "老蓬仙",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "柳東居士",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "退官衲子",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "玉虎山樵",
+        "source": "eccp-3674928"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "紫"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3674928"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1720,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1797,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

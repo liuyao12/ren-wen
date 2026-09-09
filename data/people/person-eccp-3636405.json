@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636405",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "珔",
+    "source": "eccp-3636405",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Chien 朱珔 (T. 玉存, 蘭坡), Nov., 1769–1850, May 24, official and scholar, was a native of Ching-hsien, Anhwei. His ancestors are said to have migrated from Soochow to Wu-yüan, Anhwei, at the close of the T'ang period, and later to Ching-hsien.",
+          "source": "eccp-3636405",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "朱珔，字蘭坡，涇縣人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉存",
+        "source": "eccp-3636405"
+      },
+      {
+        "value": "蘭坡",
+        "source": "eccp-3636405"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉存"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3636405"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1769,
+        "source": "eccp-3636405",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3636405",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636405",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636405",
+      "passage": "eccp-3636405-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-092",
+      "matchStatus": "proposed",
+      "evidence": "朱珔，字蘭坡，涇縣人。珔生三年而孤，祖命爲季父後，嗣母汪未婚守志，珔孝事之與生母同，昆弟均相友愛。嘉慶七年成進士，選翰林院庶吉士，與幸翰林院栢梁體聯句宴。散館授編修，擢至侍讀。與修明鑑，坐承纂官累，降編修。道光元年，直上書房，屢蒙嘉獎，有「品學兼優」之褒。升右春坊右贊善，告養歸。植品敦俗，獎誘後進。歴主鍾山、正誼、紫陽書院，卒，年八十有二。"
+    }
+  ],
+  "sources": {
+    "eccp-3636405": {
+      "title": "ECCP · Chu Chien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272525",
+      "locator": "eccp-3636405-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636426": {
+      "title": "ECCP · 朱理",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272562",
+      "locator": "eccp-3636426-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-092",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

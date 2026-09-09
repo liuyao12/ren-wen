@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8cc30db150f8693a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "曾敭",
+    "source": "eccp-3636391",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "南皮",
+      "source": "qsg-volume-449",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張曾敭，字小帆，直隸南皮人。",
+          "source": "qsg-volume-449",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "次明",
+        "source": "eccp-3636391"
+      }
+    ],
+    "hao": [
+      {
+        "value": "小帆",
+        "source": "eccp-3636391"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "次明"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Tsêng-yang",
+        "system": "ECCP spelling",
+        "source": "eccp-3636391"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3636391",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1921,
+        "source": "eccp-3636391",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-449",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-449",
+      "passage": "qsg-volume-449-026",
+      "matchStatus": "proposed",
+      "evidence": "張曾敭，字小帆，直隸南皮人。同治七年進士，以編修出知湖南永順府。地屬苗疆，號難治。斥貲募勇戢盜，悉置之法；吏之尤貪污者，彈劾之。徙知廣東肇慶府，有惠愛，督撫交章論薦。光緒二十年，除福建鹽法道。閩鹽踴貴，私運蜂起。為嚴立規約，奏免全釐以卹商，而正課亦饒。遷按察使，歲馀，病免。越三年，再起，召見，奏對稱旨，皇太后獎其明慎，即日授四川按察使，未到官，遷福建布政使。調廣西，桂故瘠區，又分任庚子賠款，益不支。曾敭改釐章，嚴比較，裁冗費，罷不急官吏，用以不絀。"
+    }
+  ],
+  "sources": {
+    "eccp-3636391": {
+      "title": "ECCP · 秋瑾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272491",
+      "locator": "eccp-3636391-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-449": {
+      "title": "清史稿/卷449",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2005162",
+      "locator": "qsg-volume-449-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

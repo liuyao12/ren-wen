@@ -30,7 +30,33 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "TING Jih-ch'ang 丁日昌 (T. 持靜, 雨生), 1813–1882, official, was a native of Fêng-shun, Kwangtung. When he was about twenty sui he became a hsiu-ts'ai, and soon thereafter purchased the title of a student of the Imperial Academy.",
+          "source": "eccp-3656380",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "丁日昌，字禹生，廣東豐順人。",
+          "source": "qsg-volume-448",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "廣東豐順",
+          "source": "eccp-entry",
+          "kind": "previous-record"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "豐順",
+      "source": "eccp-entry"
+    }
   },
   "life": {
     "birth": null,
@@ -68,6 +94,118 @@
       "locator": "Opening paragraph; recorded revision 11365162",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656380": {
+      "title": "ECCP · Ting Jih-ch'ang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365162",
+      "locator": "eccp-3656380-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640947": {
+      "title": "ECCP · 容閎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286002",
+      "locator": "eccp-3640947-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645518": {
+      "title": "ECCP · 劉銘傳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299488",
+      "locator": "eccp-3645518-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646142": {
+      "title": "ECCP · 馬新貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656324": {
+      "title": "ECCP · 孫元化",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365073",
+      "locator": "eccp-3656324-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674958": {
+      "title": "ECCP · 魏源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419241",
+      "locator": "eccp-3674958-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-448": {
+      "title": "清史稿/卷448",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2613364",
+      "locator": "qsg-volume-448-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -86,6 +224,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ting_Jih-ch%27ang",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3656380",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656380",
+      "passage": "eccp-3656380-001"
+    },
+    {
+      "source": "qsg-volume-448",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-448",
+      "passage": "qsg-volume-448-006",
+      "matchStatus": "proposed",
+      "evidence": "丁日昌，字禹生，廣東豐順人。以廩貢生治鄉團，數卻潮州寇。選瓊州府學訓導。錄功敘知縣，補江西萬安，善折獄。坐吉安不守，罷免。參曾國籓戎幕，复官。李鴻章治軍上海，檄主機器局，積勳至知府。江寧既下，除蘇松太道。鴻章倚以辦外交，事有鉤棘，徐起應付，率皆就範。調兩淮鹽運使，淮鹽故弊藪，至則禁私販，糾貪吏，鬯運道，歲入驟增。同治六年，擢布政使，授巡撫。江南戎燼後，庶政不緝，日昌集流亡，除豪猾，設月報詞訟冊，定錢漕科則，下其法各省；又以州縣為親民官，疏請設局編刻牧令諸書。八年，奉敕訓勉臣工，日昌條上六事，曰："
     }
   ],
   "notes": [],

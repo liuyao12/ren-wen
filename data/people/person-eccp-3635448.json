@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635448",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "焦",
+    "given": "循",
+    "source": "eccp-3635448",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIAO Hsün 焦循 (T. 理堂, H. 里堂老人), Mar. 17, 1763–1820, Sept. 4, scholar and philosopher, was a native of Kan-ch'üan (Yangchow), Kiangsu. Becoming a hsiu-ts'ai in 1779, he entered the Academy, An-ting shu-yün 安定書院 at Yangchow (ca.",
+          "source": "eccp-3635448",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "焦循，字裡堂，甘泉人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "理堂",
+        "source": "eccp-3635448"
+      }
+    ],
+    "hao": [
+      {
+        "value": "里堂老人",
+        "source": "eccp-3635448"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "理堂"
+    },
+    "romanizations": [
+      {
+        "value": "Chiao Hsün",
+        "system": "ECCP spelling",
+        "source": "eccp-3635448"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1763,
+        "source": "eccp-3635448",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-3635448",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635448",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635448",
+      "passage": "eccp-3635448-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-066",
+      "matchStatus": "proposed",
+      "evidence": "焦循，字裡堂，甘泉人。嘉慶六年舉人，曾祖源、祖、父蔥，世傳易學。循少穎異，八歳在阮賡堯家與賓客辨壁上「馮夷」字，曰：「此當如楚辭讀皮冰切，不當讀如縫。」阮奇之，妻以女。既壯，雅尚經術，與阮元齊名。元督學山東、浙江，倶招循往遊。性至孝，丁父及嫡母謝艱，哀毀如禮。一應禮部試，後以生母殷病癒而神未健，不復北行。殷歿，循毀如初。服除，遂託足疾不入城市者十餘年。葺其老屋，曰半九書塾，复構一樓，曰雕菰樓，有湖光山色之勝，讀書著述其中。嘗歎曰：「家雖貧，幸蔬菜不乏。天之疾我，福我也。吾老於此矣！」嘉慶二十五"
+    }
+  ],
+  "sources": {
+    "eccp-3635448": {
+      "title": "ECCP · Chiao Hsün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271734",
+      "locator": "eccp-3635448-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633499": {
+      "title": "ECCP · 趙懷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271693",
+      "locator": "eccp-3633499-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639176": {
+      "title": "ECCP · 馮桂芬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639981": {
+      "title": "ECCP · 許宗彥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282837",
+      "locator": "eccp-3639981-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640795": {
+      "title": "ECCP · 洪昇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285341",
+      "locator": "eccp-3640795-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678189": {
+      "title": "ECCP · 英和",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443101",
+      "locator": "eccp-3678189-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-250",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

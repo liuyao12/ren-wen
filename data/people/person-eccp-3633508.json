@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633508",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "申喬",
+    "source": "eccp-3633508",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHAO Shên-ch'iao 趙申喬 (T. 慎旃, H. 松伍), July 21, 1644–1720, Nov. 21, official, was a native of Wu-chin, Kiangsu, and a descendant of the Sung imperial family. His father, Chao Chi-ting 趙繼鼎 (T. 取新, H. 止安, 1607–1673), was a chin-shih of 1640, who after a short career as an official, retired in 1642 to spend his later life in teaching, one of his pupils being a son of Chin Pao [q. v.].",
+          "source": "eccp-3633508",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "趙申喬，字慎旃，江南武進人。",
+          "source": "qsg-volume-263",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "慎旃",
+        "source": "eccp-3633508"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松伍",
+        "source": "eccp-3633508"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "慎旃"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Shên-ch'iao",
+        "system": "ECCP spelling",
+        "source": "eccp-3633508"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3633508",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1720,
+        "source": "eccp-3633508",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633508",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633508",
+      "passage": "eccp-3633508-001"
+    },
+    {
+      "source": "qsg-volume-263",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-263",
+      "passage": "qsg-volume-263-039",
+      "matchStatus": "proposed",
+      "evidence": "趙申喬，字慎旃，江南武進人。康熙九年進士。二十年，授河南商丘知縣，有惠政。二十五年，以賢能行取，命以主事用。二十七年，授刑部主事。三十年，遷員外郎，以病乞歸。四十年，以直隸巡撫李光地薦，召見，上察申喬敬慎，超擢浙江布政使。陛辭，上諭曰：「浙江財賦地，自張鵬翮後，錢糧多蒙混，當秉公察核，不虧帑，不累民。布政使為一省表率，爾清廉，屬吏自皆守法。」申喬頓首謝曰：「臣蒙皇上特擢，不黽勉為好官，請置重典。」申喬上官，不挾幕客，治事皆躬親，例得火耗，悉屏不取。四十一年，上諭獎申喬居官清，能踐其言，就遷巡撫。"
+    }
+  ],
+  "sources": {
+    "eccp-3633508": {
+      "title": "ECCP · Chao Shên-ch'iao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271698",
+      "locator": "eccp-3633508-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633499": {
+      "title": "ECCP · 趙懷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271693",
+      "locator": "eccp-3633499-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642431": {
+      "title": "ECCP · 郭琇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290542",
+      "locator": "eccp-3642431-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656338": {
+      "title": "ECCP · 戴名世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678168": {
+      "title": "ECCP · 胤礽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443032",
+      "locator": "eccp-3678168-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-300": {
+      "title": "清史稿/卷300",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433513",
+      "locator": "qsg-volume-300-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-312": {
+      "title": "清史稿/卷312",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433521",
+      "locator": "qsg-volume-312-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-347",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-493": {
+      "title": "清史稿/卷493",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542551",
+      "locator": "qsg-volume-493-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-355988b6b16cdaa1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "董",
+    "given": "源",
+    "source": "eccp-3658554",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "叔達",
+        "source": "eccp-3658554"
+      }
+    ],
+    "hao": [
+      {
+        "value": "北苑",
+        "source": "eccp-3658554"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔達"
+    },
+    "romanizations": [
+      {
+        "value": "Tung Yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3658554"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658554": {
+      "title": "ECCP · 董邦達",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370110",
+      "locator": "eccp-3658554-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

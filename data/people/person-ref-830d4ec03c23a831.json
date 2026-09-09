@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-830d4ec03c23a831",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "廷祚",
+    "source": "eccp-3678151",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "程廷祚，字啟生，上元人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "啟生",
+        "source": "eccp-3678151"
+      }
+    ],
+    "hao": [
+      {
+        "value": "綿莊",
+        "source": "eccp-3678151"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "啟生"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng T'ing-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3678151"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1767,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-175",
+      "matchStatus": "proposed",
+      "evidence": "程廷祚，字啟生，上元人。初識武進惲鶴生，始聞顏、李之學。康熙庚子歲，塨南游金陵，廷祚屢過問學。讀顏氏存學編，題其後云：「古之害道，出於儒之外；今之害道，出於儒之中。顏氏起於燕、趙，當四海倡和翕然同氣之日，乃能折衷至當，而有以斥其非，蓋五百年間一人而已。」故嘗謂：「為顏氏其勢難於孟子，其功倍於孟子。」於是力屏異說，以顏氏為主，而參以顧炎武、黃宗羲。故其讀書極博，而皆歸於實用。乾隆元年，舉博學鴻詞，至京師，有要人慕其名，囑密友達其意，曰：「主我，翰林可得也。」廷祚拒之，卒報罷。十六年，上特詔舉經明行"
+    }
+  ],
+  "sources": {
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-175",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

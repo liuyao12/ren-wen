@@ -14,7 +14,7 @@ class ProfilesTest(unittest.TestCase):
         self.profile = copy.deepcopy(load_profiles(ROOT)[0])
 
     def test_name(self):
-        self.assertEqual(canonical_name(self.profile), '[湖南湘鄉] 曾紀澤（劼剛）')
+        self.assertEqual(canonical_name(self.profile), '[湘鄉] 曾紀澤（劼剛）')
 
     def test_sui(self):
         self.assertEqual(sui_age(1839, 1890), 52)
@@ -50,6 +50,7 @@ class ProfilesTest(unittest.TestCase):
 
     def test_unknown_native_place_and_alias_omitted(self):
         self.profile['name']['jiguan'] = None
+        self.profile['name']['bracket'] = None
         self.profile['name']['parenthetical'] = None
         self.assertEqual(canonical_name(self.profile), '曾紀澤')
         validate_profile(self.profile)
@@ -93,7 +94,7 @@ class ProfilesTest(unittest.TestCase):
             index_db(path, ROOT)
             index_db(path, ROOT)
             db = sqlite3.connect(path)
-            self.assertEqual(db.execute("SELECT canonical_name,sui_at_death FROM person_profile_summary WHERE id='person-zeng-jize'").fetchone(), ('[湖南湘鄉] 曾紀澤（劼剛）',52))
+            self.assertEqual(db.execute("SELECT canonical_name,sui_at_death FROM person_profile_summary WHERE id='person-zeng-jize'").fetchone(), ('[湘鄉] 曾紀澤（劼剛）',52))
             self.assertEqual(db.execute("SELECT external_id,typeof(external_id) FROM person_external_ids WHERE provider='geni' AND person_id='person-zeng-jize'").fetchone(), ('6000000012827521360','text'))
             db.close()
 

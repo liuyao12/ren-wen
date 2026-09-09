@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633516",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "繼儒",
+    "source": "eccp-3633516",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Chi-ju 陳繼儒 (T. 仲醇, H. 眉公, 糜道人), Dec. 16, 1558–1639, Oct. 19, writer and artist, was a native of Hua-t'ing, Kiangsu. Never passing beyond the licentiate in his examination career, he built a home in the hills of his native district known as Shê-shan 佘山, and earned his living by private teaching, by composing books of a popular character, and by writing epitaphs and birthday congratulations.",
+          "source": "eccp-3633516",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲醇",
+        "source": "eccp-3633516"
+      }
+    ],
+    "hao": [
+      {
+        "value": "眉公",
+        "source": "eccp-3633516"
+      },
+      {
+        "value": "糜道人",
+        "source": "eccp-3633516"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲醇"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Chi-ju",
+        "system": "ECCP spelling",
+        "source": "eccp-3633516"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1558,
+        "source": "eccp-3633516",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1639,
+        "source": "eccp-3633516",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633516",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633516",
+      "passage": "eccp-3633516-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633516": {
+      "title": "ECCP · Ch'ên Chi-ju",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280406",
+      "locator": "eccp-3633516-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637568": {
+      "title": "ECCP · 達海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275751",
+      "locator": "eccp-3637568-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639969": {
+      "title": "ECCP · 徐宏祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282797",
+      "locator": "eccp-3639969-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-017",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649340": {
+      "title": "ECCP · 彭鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318091",
+      "locator": "eccp-3649340-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672722": {
+      "title": "ECCP · 王鑑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674949": {
+      "title": "ECCP · 魏忠賢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419223",
+      "locator": "eccp-3674949-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678082": {
+      "title": "ECCP · 楊漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

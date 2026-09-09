@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674924",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "文治",
+    "source": "eccp-3674924",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "丹徒",
+      "source": "qsg-volume-503",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王文治，字禹卿，江蘇丹徒人。",
+          "source": "qsg-volume-503",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "禹卿",
+        "source": "eccp-3674924"
+      }
+    ],
+    "hao": [
+      {
+        "value": "夢樓",
+        "source": "eccp-3674924"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "禹卿"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Wên-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3674924"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1730,
+        "source": "eccp-3674924",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1802,
+        "source": "eccp-3674924",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674924",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674924",
+      "passage": "eccp-3674924-001"
+    },
+    {
+      "source": "qsg-volume-503",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-503",
+      "passage": "qsg-volume-503-008",
+      "matchStatus": "proposed",
+      "evidence": "王文治，字禹卿，江蘇丹徒人。生有夙慧，十二歲能詩，即工書。長游京師，從翰林院侍讀全魁使琉球，文字播於海外。乾隆三十五年，成一甲三名進士，授翰林院編修。逾三年，大考第一，擢侍讀。出為雲南臨安知府，因事鐫級，乞病歸。後當復官，厭吏事，遂不出，往來吳、越間，主講杭州、鎮江書院。高宗南巡，至錢塘僧寺，見文治書碑，大賞愛之。內廷有以告，招之出者，亦不應。"
+    }
+  ],
+  "sources": {
+    "eccp-3674924": {
+      "title": "ECCP · Wang Wên-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419128",
+      "locator": "eccp-3674924-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643646": {
+      "title": "ECCP · 李調元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294883",
+      "locator": "eccp-3643646-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672719": {
+      "title": "ECCP · 汪楫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412268",
+      "locator": "eccp-3672719-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678487": {
+      "title": "ECCP · 永珹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443841",
+      "locator": "eccp-3678487-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

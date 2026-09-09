@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-168d00a78d22bd66",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "祁",
+    "given": "班孫",
+    "source": "eccp-3635429",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "祁班孫，字奕喜，山陰人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "奕喜",
+        "source": "eccp-3635429"
+      },
+      {
+        "value": "季郎",
+        "source": "eccp-3635429"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "奕喜"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Pan-sun",
+        "system": "ECCP spelling",
+        "source": "eccp-3635429"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-028",
+      "matchStatus": "proposed",
+      "evidence": "祁班孫，字奕喜，山陰人。父彪佳，明蘇松巡撫。班孫次六，人稱六公子，彪佳嘗受業於劉宗周，宗周將兵江上，班孫與其兄理孫罄家餉之。祁氏藏書甲江左，班孫兄弟以故國喬木自任。豪宕喜結客，家居山陰之梅墅，園林深茂。登其堂，複壁大隧，莫能詰也。慈谿布衣魏耕者，狂走四方，思得一當。班孫兄弟與之誓天，稱莫逆。或告變於浙大吏，四道捕耕，並縛班孫兄弟去。既讞，兄弟爭承，祁氏客乃納賂而宥其兄。班孫遣戍遼左，理孫竟以痛弟鬱鬱死，而祁氏家亦破。"
+    }
+  ],
+  "sources": {
+    "eccp-3635429": {
+      "title": "ECCP · 祁彪佳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271392",
+      "locator": "eccp-3635429-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

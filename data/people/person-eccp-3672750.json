@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672750",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "念孫",
+    "source": "eccp-3672750",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Nien-sun 王念孫 (T. 懷祖, H. 石臞, 石渠), Apr. 25, 1744–1832, Feb. 25, official, scholar, son of Wang An-kuo [q. v.], was a native of Kao-yu, Kiangsu. His talent was recognized early, and he soon became known as an inspired or precocious youth (神童).",
+          "source": "eccp-3672750",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王念孫，字懷祖，高郵州人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "懷祖",
+        "source": "eccp-3672750"
+      }
+    ],
+    "hao": [
+      {
+        "value": "石臞",
+        "source": "eccp-3672750"
+      },
+      {
+        "value": "石渠",
+        "source": "eccp-3672750"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "懷祖"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Nien-sun",
+        "system": "ECCP spelling",
+        "source": "eccp-3672750"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1744,
+        "source": "eccp-3672750",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3672750",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672750",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672750",
+      "passage": "eccp-3672750-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-179",
+      "matchStatus": "proposed",
+      "evidence": "王念孫，字懷祖，高郵州人。父安國，官吏部尚書，諡文肅，自有傳。八歲讀十三經畢，旁涉史鑒。高宗南巡，以大臣子迎鑾，獻文冊，賜舉人。乾隆四十年進士，選翰林院庶吉士，散館，改工部主事。升郎中，擢陝西道御史，轉吏科給事中。嘉慶四年，仁宗親政，時川、楚教匪猖獗，念孫陳勦賊六事，首劾大學士和珅，疏語援據經義，大契聖心。是年授直隸永定河道。六年，以河堤漫口罷，特旨留督辦河工。工竣，賞主事銜。河南衡家樓河決，命往查勘，又命馳赴台莊治河務。尋授山東運河道，在任六年，調永定河道。會東河總督與山東巡撫以引黃利運異議，"
+    }
+  ],
+  "sources": {
+    "eccp-3672750": {
+      "title": "ECCP · Wang Nien-sun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412324",
+      "locator": "eccp-3672750-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637540": {
+      "title": "ECCP · 朱筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275700",
+      "locator": "eccp-3637540-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640003": {
+      "title": "ECCP · 黃景仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282883",
+      "locator": "eccp-3640003-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640794": {
+      "title": "ECCP · 洪亮吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285340",
+      "locator": "eccp-3640794-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645489": {
+      "title": "ECCP · 凌廷堪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299423",
+      "locator": "eccp-3645489-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645521": {
+      "title": "ECCP · 劉台拱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299493",
+      "locator": "eccp-3645521-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646135": {
+      "title": "ECCP · 盧文弨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300538",
+      "locator": "eccp-3646135-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633176": {
+      "title": "ECCP · Preface",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440501",
+      "locator": "eccp-3633176-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654399": {
+      "title": "ECCP · 孫詒讓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358521",
+      "locator": "eccp-3654399-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672715": {
+      "title": "ECCP · 王安國",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412262",
+      "locator": "eccp-3672715-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672727": {
+      "title": "ECCP · 汪中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412283",
+      "locator": "eccp-3672727-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674926": {
+      "title": "ECCP · 王引之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419131",
+      "locator": "eccp-3674926-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678441": {
+      "title": "ECCP · 俞樾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443737",
+      "locator": "eccp-3678441-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-179",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639205",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "傅",
+    "given": "山",
+    "source": "eccp-3639205",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "傅山，字青主，陽曲人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "青主",
+        "source": "eccp-3639205"
+      }
+    ],
+    "hao": [
+      {
+        "value": "嗇廬",
+        "source": "eccp-3639205"
+      },
+      {
+        "value": "朱衣道人",
+        "source": "eccp-3639205"
+      },
+      {
+        "value": "仁仲",
+        "source": "eccp-3639205"
+      },
+      {
+        "value": "公之它",
+        "source": "eccp-3639205"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "青主"
+    },
+    "romanizations": [
+      {
+        "value": "Fu Shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3639205"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1607,
+        "source": "eccp-3639205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3639205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639205",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639205",
+      "passage": "eccp-3639205-001"
+    },
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-036",
+      "matchStatus": "proposed",
+      "evidence": "傅山，字青主，陽曲人。六歲，啖黃精，不穀食，強之，乃飯。讀書過目成誦。明季天下將亂，諸號為搢紳先生者，多迂腐不足道，憤之，乃堅苦持氣節，不少媕冘。提學袁繼咸為巡按張孫振所誣，孫振，閹黨也。山約同學曹良直等詣通政使，三上書訟之，巡撫吳甡亦直袁，遂得雪。山以此名聞一下，甲申後，山改黃冠裝，衣硃衣，居土穴，以養母。繼咸自九江執歸燕邸，以難中詩遺山，且曰：「不敢媿友生也！」山省書，慟哭，曰：「嗚呼！吾亦安敢負公哉！」"
+    }
+  ],
+  "sources": {
+    "eccp-3639205": {
+      "title": "ECCP · Fu Shan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658537": {
+      "title": "ECCP · 杜越",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370075",
+      "locator": "eccp-3658537-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678458": {
+      "title": "ECCP · 袁繼咸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443794",
+      "locator": "eccp-3678458-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-063",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

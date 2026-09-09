@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672722",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "鑑",
+    "source": "eccp-3672722",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Chien 王鑑 (T. 圓照, H. 玄照, 湘碧, 染香庵主人), 1598–1677, a native of T'ai-ts'ang, Kiangsu, was a great-grandson of Wang Shih-chên (see under Ch'ên Chi-ju), in recognition of whose distinguished services Wang Chien was made prefect of Lien-chou, modern Ho-p'u-hsien, Kwangtung, during the reign of the last Ming emperor (see under Chu Yu-chien).",
+          "source": "eccp-3672722",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "圓照",
+        "source": "eccp-3672722"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玄照",
+        "source": "eccp-3672722"
+      },
+      {
+        "value": "湘碧",
+        "source": "eccp-3672722"
+      },
+      {
+        "value": "染香庵主人",
+        "source": "eccp-3672722"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "圓照"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3672722"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1598,
+        "source": "eccp-3672722",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1677,
+        "source": "eccp-3672722",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672722",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672722",
+      "passage": "eccp-3672722-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672722": {
+      "title": "ECCP · Wang Chien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678091": {
+      "title": "ECCP · 楊文驄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442527",
+      "locator": "eccp-3678091-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

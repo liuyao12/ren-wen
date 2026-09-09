@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a84f906d5eb5296b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "高",
+    "given": "世栻",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "高世栻，字士宗。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "士宗",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研農",
+        "source": "eccp-3639978"
+      },
+      {
+        "value": "玉",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "士宗"
+    },
+    "romanizations": [
+      {
+        "value": "Kao Shih-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-038",
+      "matchStatus": "proposed",
+      "evidence": "高世栻，字士宗。與志聰同里。少家貧，讀時醫通俗諸書，年二十三即出療病，頗有稱。後自病，時醫治之，益劇；久之，不藥，幸愈。翻然悔曰：「我治人，殆亦如是，是草菅人命也。」乃從志聰講論軒、岐、仲景之學，歷十年，悉窺精奧。遇病必究其本末，處方不同流俗。志聰著本草崇原，未竟，世栻繼成之。又注傷寒論。晚著醫學真傳，示門弟子。自述曰：「醫理如剝蕉，剝至無可剝，方為至理。以之論病，大中至正，一定不移。世行分門別類之方書，皆醫門糟粕，如薛已、趙獻可輩，雖有穎悟變通，非軒、岐、仲景一脈相傳之大道。古人云：'不知十二"
+    }
+  ],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

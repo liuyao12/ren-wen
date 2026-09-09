@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f84f7186d7d89689",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "執玉",
+    "source": "eccp-3643633",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "唐執玉，字益功，江南武進人。",
+          "source": "qsg-volume-292",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "益功",
+        "source": "eccp-3643633"
+      },
+      {
+        "value": "薊門",
+        "source": "eccp-3643633"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "益功"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Chih-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3643633"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1669,
+        "source": "eccp-3643633",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1733,
+        "source": "eccp-3643633",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-292",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-292",
+      "passage": "qsg-volume-292-044",
+      "matchStatus": "proposed",
+      "evidence": "唐執玉，字益功，江南武進人。康熙四十二年進士，授浙江德清知縣。德清盛科第，多鉅室，執玉執法無所撓。將編審，吏以例餽金，執玉卻之，而罪其吏。召縣民親勘，有田無糧者令自首，有糧無田者除之，富無隱糧，貧無賠累。行取工部主事，考選戶科給事中。五十八年，疏言：「戶部錢糧款項最易作弊，當先驅除作弊之人。乃有所謂'缺主'者，或一人佔一司，或數人共一省，佔為世業，句通內外書吏，舞文弄法，當嚴行查禁。」因劾山西司缺主沈天生包攬捐馬事例，下九卿議，逮治。六十年，遷鴻臚寺卿。歷奉天府府丞、大理寺少卿。雍正二年，歲三遷"
+    }
+  ],
+  "sources": {
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

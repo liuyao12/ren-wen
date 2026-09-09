@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c2c566bb57860bf7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "宗幹",
+    "source": "eccp-3639982",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "通州",
+      "source": "qsg-volume-426",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐宗幹，字樹人，江蘇通州人。",
+          "source": "qsg-volume-426",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "樹人",
+        "source": "eccp-3639982"
+      },
+      {
+        "value": "伯楨",
+        "source": "eccp-3639982"
+      }
+    ],
+    "hao": [
+      {
+        "value": "斯未信齋主人",
+        "source": "eccp-3639982"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "樹人"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Tsung-kan",
+        "system": "ECCP spelling",
+        "source": "eccp-3639982"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1796,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1866,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-426",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-426",
+      "passage": "qsg-volume-426-036",
+      "matchStatus": "proposed",
+      "evidence": "徐宗幹，字樹人，江蘇通州人。嘉慶二十五年進士，山東即用知縣，除武城，調泰安。在任十年，有政聲，遷高唐知州。道光十七年，濰縣教匪馬剛等作亂，從巡撫經額布剿擒之，議解省下獄候命。宗幹請於巡撫，即其地誅之，眾心以定。遷濟寧直隸州。金鄉民濬彭河，下游諸屯民聚眾沮之，毆官傷胥役，勢洶洶，宗幹馳往諭使解散。屯民出自首，大吏欲置重典，宗幹以為民畏水患，非與官敵，聚眾本沮工，毆官非本意，力爭戍為首者七人。署兗州知府，修滋陽河堤。"
+    }
+  ],
+  "sources": {
+    "eccp-3639982": {
+      "title": "ECCP · 徐鼒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282839",
+      "locator": "eccp-3639982-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2e6331f6ea47f19f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "刁",
+    "given": "包",
+    "source": "eccp-3678151",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "刁包，字蒙吉，晚號用六居士，祁州人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蒙吉",
+        "source": "eccp-3678151"
+      }
+    ],
+    "hao": [
+      {
+        "value": "非有",
+        "source": "eccp-3678151"
+      },
+      {
+        "value": "用六居士",
+        "source": "eccp-3678151"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蒙吉"
+    },
+    "romanizations": [
+      {
+        "value": "Tiao Pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3678151"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1603,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1669,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-182",
+      "matchStatus": "proposed",
+      "evidence": "刁包，字蒙吉，晚號用六居士，祁州人。明天啟舉人。再上春官，不第。遂棄舉子業，有志聖賢之學。初聞孫奇逢講良知，心鄉之。既讀高攀龍書，大喜，曰：「不讀此書，幾虛過一生。」為主奉之，或有過差，即跪主前自訟。流賊犯祁州，包毀家倡眾誓固守，城得不破。時有二璫主兵事，探卒報賊勢張甚，二璫怒其惑眾，將斬之。包厲聲曰：「必殺彼，請先殺包。」乃止。二璫相謂曰：「使若居官者，其不為楊、左乎？」賊既去，流民載道，設屋聚養之，病者給醫藥，全活尤多。有山左難婦七十餘人，擇老成家人護以歸。臨行，八拜以重託，家人皆感泣，竭力"
+    }
+  ],
+  "sources": {
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-182",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

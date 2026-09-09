@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-96e80510bbf96dd3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "二",
+    "given": "陳",
+    "source": "eccp-3634085",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "頌文",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "子恭",
+        "source": "eccp-3634085"
+      },
+      {
+        "value": "翼庵",
+        "source": "eccp-3634085"
+      }
+    ],
+    "hao": [
+      {
+        "value": "曼生",
+        "source": "eccp-3634085"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "頌文"
+    },
+    "romanizations": [
+      {
+        "value": "Êr Ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3634085"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634085": {
+      "title": "ECCP · 陳文述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271502",
+      "locator": "eccp-3634085-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

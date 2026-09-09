@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0adbb291b113506a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "柯",
+    "given": "永昇",
+    "source": "eccp-3678131",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "柯永昇，漢軍鑲紅旗人。",
+          "source": "qsg-volume-488",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "K'o Yung-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3678131"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-488",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-488",
+      "passage": "qsg-volume-488-060",
+      "matchStatus": "proposed",
+      "evidence": "柯永昇，漢軍鑲紅旗人。由員外郎出任湖南糧道，累擢至湖廣巡撫。康熙二十七年，飭裁湖廣總督，令標兵分別存撤。五月，裁兵夏逢龍，同夥呼為夏包子者，結眾作亂。二十二日，突入巡撫署，拒者輒刃之。傷永昇臂，奪其印，复傷永昇足，僕地。悉驅其親屬家人出走，搜掠財物。永昇乘間自縊死。賊四出剽略，永州錦田衛守備隨光啟嬰城守，力竭，死之。武昌永定營中軍守備孟泰鏖戰金口，亦中砲歿。守備李國俊陽附逢龍，從圍應城。夜半，賊潛梯登城，國俊遽鳴鉦大呼，城中驚起，擊敗之。脫還武昌，卒死樊口。時署布政使者為葉映榴，自有傳。"
+    }
+  ],
+  "sources": {
+    "eccp-3678131": {
+      "title": "ECCP · 葉映榴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442929",
+      "locator": "eccp-3678131-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

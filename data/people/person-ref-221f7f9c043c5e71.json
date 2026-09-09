@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-221f7f9c043c5e71",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "國維",
+    "source": "eccp-3675180",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "靜安",
+        "source": "eccp-3675180"
+      },
+      {
+        "value": "伯隅",
+        "source": "eccp-3675180"
+      }
+    ],
+    "hao": [
+      {
+        "value": "觀堂",
+        "source": "eccp-3675180"
+      },
+      {
+        "value": "永觀",
+        "source": "eccp-3675180"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "靜安"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Kuo-wei",
+        "system": "ECCP spelling",
+        "source": "eccp-3675180"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1877,
+        "source": "eccp-3675180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1927,
+        "source": "eccp-3675180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-496",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-496",
+      "passage": "qsg-volume-496-133",
+      "matchStatus": "proposed",
+      "evidence": "王國維，字靜安，浙江海寧州諸生。少以文名。年弱冠，適時論謀變法自強，即習東文，兼歐洲英、德各國文，並至日本求學。通農學及哲學、心理、論理等學。調學部，充圖書館、編譯名詞館協修。辛亥後，攜家東渡，乃專研國學。謂：「尼山之學在信古，今人則信今而疑古，變本加厲，橫流不返。」遂專以反經信古為己任。著述甚多，擷其精粹為觀堂集林二十卷。返國十年，以教授自給。壬戌冬，前陝甘總督升允薦入南書房，食五品俸，屢言事，皆褒許。甲子冬，遇變，國維誓死殉。駕移天津，丁卯春夏間，時局益危，國維悲憤不自製，於五月初三日，自沉"
+    }
+  ],
+  "sources": {
+    "eccp-3675180": {
+      "title": "ECCP · 文廷式",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419930",
+      "locator": "eccp-3675180-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-496": {
+      "title": "清史稿/卷496",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542421",
+      "locator": "qsg-volume-496-133",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

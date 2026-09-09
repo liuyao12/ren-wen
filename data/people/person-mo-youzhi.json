@@ -9,9 +9,26 @@
     "given": "Mo Yu-chih",
     "source": "eccp-zeng-guofan",
     "jiguan": null,
-    "zi": [],
-    "hao": [],
-    "parenthetical": null,
+    "zi": [
+      {
+        "value": "子偲",
+        "source": "eccp-3649124"
+      }
+    ],
+    "hao": [
+      {
+        "value": "郘亭",
+        "source": "eccp-3649124"
+      },
+      {
+        "value": "眲叟",
+        "source": "eccp-3649124"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子偲"
+    },
     "romanizations": [
       {
         "value": "Mo Yu-chih",
@@ -19,13 +36,43 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "MO Yu-chih 莫友芝 (T. 子偲, H. 郘亭, 眲叟), 1811–1871, Oct. 27, scholar and bibliophile, was a native of Tu-shan, Kweichow. His father, Mo Yü-ch'ou 莫與儔 (T. 猶人, 傑夫, H. 1763–1841), was a chin-shih of 1799 and for many years after 1808 he served as prefectural director of schools in Tsun-i, Kweichow.",
+          "source": "eccp-3649124",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
     "death": null,
     "westernDates": [],
-    "westernYears": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1811,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1871,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
     "reportedAges": []
   },
   "externalIds": {
@@ -44,6 +91,12 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Mo_Yu-chih",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3649124",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649124",
+      "passage": "eccp-3649124-001"
     }
   ],
   "sources": {
@@ -60,6 +113,69 @@
       "locator": "Existing ECCP cross-reference; entry not imported here.",
       "access": "cross-reference",
       "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633499": {
+      "title": "ECCP · 趙懷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271693",
+      "locator": "eccp-3633499-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634093": {
+      "title": "ECCP · 鄭珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271757",
+      "locator": "eccp-3634093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639994": {
+      "title": "ECCP · 胡林翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282866",
+      "locator": "eccp-3639994-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642417": {
+      "title": "ECCP · 谷應泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290515",
+      "locator": "eccp-3642417-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656380": {
+      "title": "ECCP · 丁日昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365162",
+      "locator": "eccp-3656380-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [],

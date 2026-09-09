@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-30abd3b097941686",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "桂芬",
+    "source": "eccp-3634076",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宛平",
+      "source": "qsg-volume-436",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈桂芬，字經笙，順天宛平人，本籍江蘇吳江。",
+          "source": "qsg-volume-436",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "經笙",
+        "source": "eccp-3634076"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "經笙"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Kuei-fên",
+        "system": "ECCP spelling",
+        "source": "eccp-3634076"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3634076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1881,
+        "source": "eccp-3634076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-436",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-436",
+      "passage": "qsg-volume-436-006",
+      "matchStatus": "proposed",
+      "evidence": "沈桂芬，字經笙，順天宛平人，本籍江蘇吳江。道光二十七年進士，選庶吉士，授編修。咸豐二年，大考一等，擢庶子。累遷內閣學士。先後典浙江、廣東鄉試，督陝甘學政，充會試副總裁。八年，丁父憂。服闋，補原官。晉禮部左侍郎。同治二年，出署山西巡撫，明年，實授。連上移屯、練兵諸疏，並稱旨。桂芬以山西民食不敷，自洋藥弛禁，栽種罌粟，糧價踴增。於是刊發條約，飭屬嚴禁。疏陳現辦情形，上韙之，頒行各省，著為令。旋丁母憂。六年，起禮部右侍郎，充經筵講官，命為軍機大臣。歷戶部、吏部，擢都察院左都御史，兼總理各國事務大臣。遷"
+    }
+  ],
+  "sources": {
+    "eccp-3634076": {
+      "title": "ECCP · 陳大受",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271487",
+      "locator": "eccp-3634076-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

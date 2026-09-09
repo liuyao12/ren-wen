@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1bd5e26235e697b2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "敏昌",
+    "source": "eccp-3675183",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "馮敏昌，字伯術，欽州人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯求",
+        "source": "eccp-3675183"
+      }
+    ],
+    "hao": [
+      {
+        "value": "魚山",
+        "source": "eccp-3675183"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯求"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Min-ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3675183"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1747,
+        "source": "eccp-3675183",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3675183",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-201",
+      "matchStatus": "proposed",
+      "evidence": "馮敏昌，字伯術，欽州人。童年補諸生。翁方綱按試廉州，以拔貢選入國學。乾隆四十三年進士，授編修。大考，改戶部主事，調補刑部。性至孝友，聞父喪，一痛嘔血，大雪，徒跣竟日。方綱憂曰：「敏昌萬無生理！」則持其母夫人書促令歸省。及丁內艱，廬墓久，遂不復出。"
+    }
+  ],
+  "sources": {
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-201",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

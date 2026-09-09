@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634080",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "子壯",
+    "source": "eccp-3634080",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Tzŭ-chuang 陳子壯 (T. 集生, H. 秋濤, 雲淙), d. Dec. 1, 1647, age 52 (sui), Ming loyalist, was a native of Nan-hai, Kwangtung. After passing the chin-shih examination with high honors in 1619, he was appointed a Hanlin compiler.",
+          "source": "eccp-3634080",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "集生",
+        "source": "eccp-3634080"
+      }
+    ],
+    "hao": [
+      {
+        "value": "秋濤",
+        "source": "eccp-3634080"
+      },
+      {
+        "value": "雲淙",
+        "source": "eccp-3634080"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "集生"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Tzŭ-chuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3634080"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634080",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634080",
+      "passage": "eccp-3634080-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634080": {
+      "title": "ECCP · Ch'ên Tzŭ-chuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271498",
+      "locator": "eccp-3634080-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633524": {
+      "title": "ECCP · 陳恭尹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271461",
+      "locator": "eccp-3633524-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

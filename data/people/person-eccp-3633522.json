@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633522",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "宏謀",
+    "source": "eccp-3633522",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "臨桂",
+      "source": "qsg-volume-307",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Hung-mou 陳宏謀 (T. 汝咨, H. 榕門), Oct. 10, 1696–1771, July 14, official and educator, was a native of Lin-kuei, Kwangsi, where his family migrated from Ch'ên-chou, Hunan, at the end of the Ming period.",
+          "source": "eccp-3633522",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳宏謀，字汝諮，廣西臨桂人。",
+          "source": "qsg-volume-307",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "汝咨",
+        "source": "eccp-3633522"
+      }
+    ],
+    "hao": [
+      {
+        "value": "榕門",
+        "source": "eccp-3633522"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "汝咨"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Hung-mou",
+        "system": "ECCP spelling",
+        "source": "eccp-3633522"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3633522",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3633522",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633522",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633522",
+      "passage": "eccp-3633522-001"
+    },
+    {
+      "source": "qsg-volume-307",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-307",
+      "passage": "qsg-volume-307-034",
+      "matchStatus": "proposed",
+      "evidence": "陳宏謀，字汝諮，廣西臨桂人。為諸生，即留心時事，聞有邸報至，必借觀之。自題座右，謂「必為世上不可少之人，為世人不能作之事。」雍正元年恩科，世所謂春鄉秋會。宏謀舉鄉試第一，成進士，改庶吉士，授檢討。四年，授吏部郎中。七年，考選浙江道御史，仍兼郎中。監生舊有考職，多以人代。世宗知其弊，令自首，而州縣吏藉察訪為民擾。宏謀疏請禁將來，寬既往。召見，徵詰再三，申論甚晰，乃允其奏，以是知其能。授揚州知府，仍帶御史銜，得便宜奏事。丁父憂，上官留之，辭，不許。遷江南驛鹽道，仍帶御史銜，攝安徽布政使。又丁母憂，命"
+    }
+  ],
+  "sources": {
+    "eccp-3633522": {
+      "title": "ECCP · Ch'ên Hung-mou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271454",
+      "locator": "eccp-3633522-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635454": {
+      "title": "ECCP · 錢棨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271396",
+      "locator": "eccp-3635454-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642409": {
+      "title": "ECCP · 顧奎光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290487",
+      "locator": "eccp-3642409-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-340": {
+      "title": "清史稿/卷340",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433581",
+      "locator": "qsg-volume-340-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-378": {
+      "title": "清史稿/卷378",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433515",
+      "locator": "qsg-volume-378-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-379": {
+      "title": "清史稿/卷379",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484959",
+      "locator": "qsg-volume-379-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656322",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "玉庭",
+    "source": "eccp-3656322",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濟寧",
+      "source": "qsg-volume-366",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Yü-t'ing 孫玉庭, Jan. 14, 1753–1834, Nov. 16, official, was a native of Tsining, Shantung. His father, Sun K'uo-t'u 孫擴圖 (T. 充之, 靈匯, H. 適齋, 1717–1787), was a chü-jên of 1736 who served as a magistrate in Chekiang for five years—his last post being at Ch'ien-t'ang (Hangchow) 1762-63.",
+          "source": "eccp-3656322",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫玉庭，字寄圃，山東濟寧人。",
+          "source": "qsg-volume-366",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "充之",
+        "source": "eccp-3656322"
+      },
+      {
+        "value": "靈匯",
+        "source": "eccp-3656322"
+      }
+    ],
+    "hao": [
+      {
+        "value": "適齋",
+        "source": "eccp-3656322"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "充之"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Yü-t'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3656322"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1753,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656322",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656322",
+      "passage": "eccp-3656322-001"
+    },
+    {
+      "source": "qsg-volume-366",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-366",
+      "passage": "qsg-volume-366-006",
+      "matchStatus": "proposed",
+      "evidence": "孫玉庭，字寄圃，山東濟寧人。乾隆四十年進士，選庶吉士，授檢討。五十一年，出為山西河東道，父憂去，服闋，補廣西鹽法道。嘉慶初，就遷按察使，歷湖南、安徽、湖北布政使，舉發道員胡齊崙侵冒軍需，詔嘉之。"
+    }
+  ],
+  "sources": {
+    "eccp-3656322": {
+      "title": "ECCP · Sun Yü-t'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365066",
+      "locator": "eccp-3656322-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640815": {
+      "title": "ECCP · 奕誌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285386",
+      "locator": "eccp-3640815-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642417": {
+      "title": "ECCP · 谷應泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290515",
+      "locator": "eccp-3642417-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678061": {
+      "title": "ECCP · 吳大澂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442370",
+      "locator": "eccp-3678061-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-192",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-342": {
+      "title": "清史稿/卷342",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029606",
+      "locator": "qsg-volume-342-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-366": {
+      "title": "清史稿/卷366",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542446",
+      "locator": "qsg-volume-366-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-367": {
+      "title": "清史稿/卷367",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1513609",
+      "locator": "qsg-volume-367-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-374": {
+      "title": "清史稿/卷374",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292892",
+      "locator": "qsg-volume-374-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-381": {
+      "title": "清史稿/卷381",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603938",
+      "locator": "qsg-volume-381-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

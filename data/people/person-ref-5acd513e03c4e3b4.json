@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5acd513e03c4e3b4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "鐸",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江寧",
+      "source": "qsg-volume-396",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "潘鐸，字木君，江蘇江寧人。",
+          "source": "qsg-volume-396",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "木君",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [
+      {
+        "value": "振之",
+        "source": "eccp-3656414"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "木君"
+    },
+    "romanizations": [
+      {
+        "value": "P'an To",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-396",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-396",
+      "passage": "qsg-volume-396-012",
+      "matchStatus": "proposed",
+      "evidence": "潘鐸，字木君，江蘇江寧人。道光十二年進士，選庶吉士，散館改兵部主事，充軍機章京。洊升郎中，遷御史。二十年，出為湖北荊州知府，擢江西督糧道。歷廣東鹽運使、四川按察使、山西布政使，署巡撫。"
+    }
+  ],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-396": {
+      "title": "清史稿/卷396",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601780",
+      "locator": "qsg-volume-396-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

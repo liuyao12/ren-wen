@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642398",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "耿",
+    "given": "仲明",
+    "source": "eccp-3642398",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KÊNG Chung-ming 耿仲明 (T. 雲臺), d Dec. 30, 1649, a native of Kai-chou, Liaotung, was throughout his life closely associated with K'ung Yu-tê [q. v.]. When their superior, Mao Wên-lung [q. v.], was executed in 1629 they both fled to Têng-chou, Shantung, becoming lieutenant colonels under the governor, Sun Yüan-hua [q. v.].",
+          "source": "eccp-3642398",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "耿仲明，字云台，遼東人。",
+          "source": "qsg-volume-234",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雲臺",
+        "source": "eccp-3642398"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲臺"
+    },
+    "romanizations": [
+      {
+        "value": "Kêng Chung-ming",
+        "system": "ECCP spelling",
+        "source": "eccp-3642398"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642398",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642398",
+      "passage": "eccp-3642398-001"
+    },
+    {
+      "source": "qsg-volume-234",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-234",
+      "passage": "qsg-volume-234-028",
+      "matchStatus": "proposed",
+      "evidence": "耿仲明，字云台，遼東人。初事明總兵毛文龍，文龍死，走登州依巡撫孫元化，皆與孔有德俱，元化以仲明為中軍參將。時總兵黃龍鎮皮島，所部有李梅者，仲明黨也，通洋。事覺，龍系之獄。仲明弟都司仲裕在龍軍，率部卒假索餉名，圍龍廨，擁之至演武場，折股去耳鼻，將殺之，諸將為救免。龍乃執殺仲裕，疏請罪仲明。元化劾龍蝕餉致兵譁。明莊烈帝命充為事官，而覈仲明主使狀。會有德已叛，還攻登州，仲明遂糾諸將同籍遼東者為內應。城陷，推有德為帥，受署置，稱總兵官。天津裨將孫應龍自誇與仲明兄弟善，能令縛有德以降。巡撫鄭宗周使將二千人"
+    }
+  ],
+  "sources": {
+    "eccp-3642398": {
+      "title": "ECCP · Kêng Chung-ming",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290458",
+      "locator": "eccp-3642398-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633192": {
+      "title": "ECCP · 皇太極",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11279637",
+      "locator": "eccp-3633192-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637537": {
+      "title": "ECCP · 朱由榔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275696",
+      "locator": "eccp-3637537-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640935": {
+      "title": "ECCP · 濟爾哈朗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285968",
+      "locator": "eccp-3640935-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642430": {
+      "title": "ECCP · 孔有德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290540",
+      "locator": "eccp-3642430-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642395": {
+      "title": "ECCP · 耿繼茂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290453",
+      "locator": "eccp-3642395-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649385": {
+      "title": "ECCP · 尚可喜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318166",
+      "locator": "eccp-3649385-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656324": {
+      "title": "ECCP · 孫元化",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365073",
+      "locator": "eccp-3656324-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672717": {
+      "title": "ECCP · 王徵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412264",
+      "locator": "eccp-3672717-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-084",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

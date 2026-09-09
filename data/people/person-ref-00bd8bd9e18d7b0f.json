@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-00bd8bd9e18d7b0f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "芳緝",
+    "source": "eccp-3639176",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "熙臣",
+        "source": "eccp-3639176"
+      }
+    ],
+    "hao": [
+      {
+        "value": "升芷",
+        "source": "eccp-3639176"
+      },
+      {
+        "value": "申之",
+        "source": "eccp-3639176"
+      },
+      {
+        "value": "穉林",
+        "source": "eccp-3639176"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "熙臣"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Fang-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3639176"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639176": {
+      "title": "ECCP · 馮桂芬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

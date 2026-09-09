@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636393",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "裘",
+    "given": "曰修",
+    "source": "eccp-3636393",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新建",
+      "source": "qsg-volume-321",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IU Yüeh-hsiu 裘曰修 (T. 叔度, H. 漫士, 諾皋) Nov. 27, 1712–1773, June 20, official, was a native of Hsin-chien, Kiangsi. His father, Ch'iu Chün-pi 裘君弻 (T. 扆臣, H. 思補), was a chin-shih of 1697 and served as a censor.",
+          "source": "eccp-3636393",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "裘曰修，字叔度，江西新建人。",
+          "source": "qsg-volume-321",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔度",
+        "source": "eccp-3636393"
+      }
+    ],
+    "hao": [
+      {
+        "value": "漫士",
+        "source": "eccp-3636393"
+      },
+      {
+        "value": "諾皋",
+        "source": "eccp-3636393"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔度"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'iu Yüeh-hsiu",
+        "system": "ECCP spelling",
+        "source": "eccp-3636393"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1712,
+        "source": "eccp-3636393",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1773,
+        "source": "eccp-3636393",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636393",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636393",
+      "passage": "eccp-3636393-001"
+    },
+    {
+      "source": "qsg-volume-321",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-321",
+      "passage": "qsg-volume-321-002",
+      "matchStatus": "proposed",
+      "evidence": "裘曰修，字叔度，江西新建人。乾隆四年進士，改庶吉士。自編修五遷至侍郎，歷兵、吏、戶諸部。胡中藻以賦詩訕上罪殊死，事未發，曰修漏言於鄉人。上詰曰修，不敢承，逮所與言者質實，上謂「曰修面欺。」二十年五月，下部議奪職，左授右中允。十二月，擢吏部侍郎。二十一年，令在軍機處行走。師討準噶爾，命如巴里坤董軍儲。二十二年，疏言：「西陲回民數十部落，厄魯特人介其中。當策妄阿喇布坦時恣殺掠，回民久切齒。請敕伯克額敏和卓，厄魯特竄入境當擒戮，予賞賚，勿被煽生疑懼。」尋還京師。"
+    }
+  ],
+  "sources": {
+    "eccp-3636393": {
+      "title": "ECCP · Ch'iu Yüeh-hsiu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272499",
+      "locator": "eccp-3636393-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678431": {
+      "title": "ECCP · 余集",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443720",
+      "locator": "eccp-3678431-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-284",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-321": {
+      "title": "清史稿/卷321",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433547",
+      "locator": "qsg-volume-321-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-123",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

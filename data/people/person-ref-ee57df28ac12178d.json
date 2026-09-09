@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ee57df28ac12178d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "之遴",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海寧",
+      "source": "qsg-volume-245",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳之遴，字彥升，浙江海寧人。",
+          "source": "qsg-volume-245",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "彥升",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "素庵",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "彥升"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Chih-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1605,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1666,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-245",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-245",
+      "passage": "qsg-volume-245-028",
+      "matchStatus": "proposed",
+      "evidence": "陳之遴，字彥升，浙江海寧人。明崇禎進士，自編修遷中允。順治二年，來降，授秘書院侍讀學士。五年，遷禮部侍郎。六年，加右都御史。八年，擢禮部尚書。御史張煊劾大學士陳名夏，語涉之遴，鞫不實，免議，加太子太保，九年，授弘文院大學士。"
+    }
+  ],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

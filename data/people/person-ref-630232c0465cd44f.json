@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-630232c0465cd44f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "壽",
+    "source": "eccp-3645532",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "無錫",
+      "source": "qsg-volume-505",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐壽，字雪村，江蘇無錫人。",
+          "source": "qsg-volume-505",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雪村",
+        "source": "eccp-3645532"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雪村"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Shou",
+        "system": "ECCP spelling",
+        "source": "eccp-3645532"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1884,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-505",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-505",
+      "passage": "qsg-volume-505-030",
+      "matchStatus": "proposed",
+      "evidence": "徐壽，字雪村，江蘇無錫人。生於僻鄉，幼孤，事母以孝聞。性質直無華。道、咸間，東南兵事起，遂棄舉業，專研博物格致之學。時泰西學術流傳中國者，尚未昌明，試驗諸器絕鮮。壽與金匱華蘅芳討論搜求，始得十一，苦心研索，每以意求之，而得其真。嘗購三棱玻璃不可得，磨水晶印章成三角形，驗得光分七色。知槍彈之行拋物線，疑其仰攻俯擊有異，設遠近多靶以測之，其成學之艱類此。久之，於西學具窺見原委，尤精製器。咸豐十一年，從大學士曾國籓軍，先後於安慶、江寧設機器局，皆預其事。"
+    }
+  ],
+  "sources": {
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

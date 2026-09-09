@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636422",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "桂楨",
+    "source": "eccp-3636422",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Kuei-chên 朱桂楨 (T. 幹臣, H. 璞庵, 覺修), 1767–1839, official, was a native of Shang-yüan (Nanking). His grandfather, Chu Lan 朱瀾 (T. 向源, H. 安齋), served for many years as an official in Chihli, finally rising to be intendant of the Ch'ing-ho Circuit at Paoting (1786–89, 1790).",
+          "source": "eccp-3636422",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "幹臣",
+        "source": "eccp-3636422"
+      }
+    ],
+    "hao": [
+      {
+        "value": "璞庵",
+        "source": "eccp-3636422"
+      },
+      {
+        "value": "覺修",
+        "source": "eccp-3636422"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "幹臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Kuei-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3636422"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1767,
+        "source": "eccp-3636422",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1839,
+        "source": "eccp-3636422",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636422",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636422",
+      "passage": "eccp-3636422-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636422": {
+      "title": "ECCP · Chu Kuei-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272556",
+      "locator": "eccp-3636422-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-108",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

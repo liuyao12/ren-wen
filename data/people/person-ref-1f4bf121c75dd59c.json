@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1f4bf121c75dd59c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "井",
+    "source": "eccp-3678428",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "膚施",
+      "source": "qsg-volume-383",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張井，字芥航，陝西膚施人。",
+          "source": "qsg-volume-383",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "儀九",
+        "source": "eccp-3678428"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芥航",
+        "source": "eccp-3678428"
+      },
+      {
+        "value": "晴皞",
+        "source": "eccp-3678428"
+      },
+      {
+        "value": "畏堂",
+        "source": "eccp-3678428"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "儀九"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3678428"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-383",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-383",
+      "passage": "qsg-volume-383-014",
+      "matchStatus": "proposed",
+      "evidence": "張井，字芥航，陝西膚施人。嘉慶六年進士，以內閣中書用，改知縣，銓授廣東樂會。引見，特命改河南正陽，調祥符，遷許州直隸州知州。襄辦馬營壩大工，加知府銜，署汝寧知府。道光四年，擢開歸陳許道。尋以三品頂戴署河東河道總督。五年，秋汛安瀾，乃實授。增培黃河兩岸堤工，並修泉河堤，濬各湖斗門引渠，疏陳河工久遠大計，略曰：「今日之黃河，有防無治。每遇伏秋大汛，司河各官奔走搶救，竭蹶情形，惟日不足。及至水落霜清，則以目前可保無虞，不復求疏刷河身之策。漸致河底墊高，清水不能暢出，並誤漕運。又增盤壩起剝及海運等費，皆"
+    }
+  ],
+  "sources": {
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

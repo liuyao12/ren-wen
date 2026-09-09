@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656427",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "策養嘉錯",
+    "source": "eccp-3656427",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Tshangs-dbyangs-rgya-mtsho",
+        "system": "ECCP spelling",
+        "source": "eccp-3656427"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3656427",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1706,
+        "source": "eccp-3656427",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656427",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656427",
+      "passage": "eccp-3656427-001"
+    }
+  ],
+  "sources": {
+    "eccp-3656427": {
+      "title": "ECCP · Tshangs-dbyangs-rgya-mtsho",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365249",
+      "locator": "eccp-3656427-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633221": {
+      "title": "ECCP · 阿睦爾撒納",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271367",
+      "locator": "eccp-3633221-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639214": {
+      "title": "ECCP · 噶爾丹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280218",
+      "locator": "eccp-3639214-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656425": {
+      "title": "ECCP · 策旺阿拉布坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365239",
+      "locator": "eccp-3656425-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678139": {
+      "title": "ECCP · 延信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442942",
+      "locator": "eccp-3678139-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

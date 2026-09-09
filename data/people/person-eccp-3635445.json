@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635445",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "廷錫",
+    "source": "eccp-3635445",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIANG T'ing-hsi 蔣廷錫 (T. 揚孫, 酉君, H. 西谷, 南沙, 青桐居士, 1669–1732), Sept., official and painter, was a native of Ch'ang-shu, Kiangsu. His grandfather, Chiang Fên 蔣棻 (T. 畹仙, H. 南陔, 1598–1663), was a chin-shih of 1637 who held various official posts in the last years of the Ming dynasty.",
+          "source": "eccp-3635445",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "蔣廷錫，字揚孫，江南常熟人，雲貴總督陳錫弟。",
+          "source": "qsg-volume-289",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "揚孫",
+        "source": "eccp-3635445"
+      },
+      {
+        "value": "酉君",
+        "source": "eccp-3635445"
+      }
+    ],
+    "hao": [
+      {
+        "value": "西谷",
+        "source": "eccp-3635445"
+      },
+      {
+        "value": "南沙",
+        "source": "eccp-3635445"
+      },
+      {
+        "value": "青桐居士",
+        "source": "eccp-3635445"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "揚孫"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang T'ing-hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3635445"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1669,
+        "source": "eccp-3635445",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1732,
+        "source": "eccp-3635445",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635445",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635445",
+      "passage": "eccp-3635445-001"
+    },
+    {
+      "source": "qsg-volume-289",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-289",
+      "passage": "qsg-volume-289-022",
+      "matchStatus": "proposed",
+      "evidence": "蔣廷錫，字揚孫，江南常熟人，雲貴總督陳錫弟。初以舉人供奉內廷。康熙四十二年，賜進士，改庶吉士。四十三年，未散館即授編修。屢遷轉至內閣學士。雍正元年，擢禮部侍郎，世宗賜詩賢之。廷錫疏言：「國家廣黌序，設廩膳，以興文教，乃生員經年未嘗一至學宮。請敕學臣通飭府、州、縣、衛教官，凡所管生員，務立程課，面加考校，講究經史。學臣於歲、科考時，以文藝優劣定教職賢否。會典載順治九年定鄉設社學，以冒濫停止。請敕督撫令所屬州、縣，鄉、堡立社學，擇生員學優行端者充社師，量給廩餼。鄉民子弟年十二以上、二十以下有志者得入"
+    }
+  ],
+  "sources": {
+    "eccp-3635445": {
+      "title": "ECCP · Chiang T'ing-hsi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271732",
+      "locator": "eccp-3635445-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635432": {
+      "title": "ECCP · 齊召南",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271393",
+      "locator": "eccp-3635432-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634059": {
+      "title": "ECCP · 陳夢雷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271466",
+      "locator": "eccp-3634059-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633300": {
+      "title": "ECCP · 張廷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271942",
+      "locator": "eccp-3633300-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633507": {
+      "title": "ECCP · 昭槤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271689",
+      "locator": "eccp-3633507-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643655": {
+      "title": "ECCP · 勵廷儀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496598",
+      "locator": "eccp-3643655-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678167": {
+      "title": "ECCP · 胤祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443028",
+      "locator": "eccp-3678167-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656376",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "田",
+    "given": "雯",
+    "source": "eccp-3656376",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'IEN Wên 田雯 (T. 子綸, 綸霞, H. 山薑, 蒙齋) July 7, 1635–1704, Mar. 28, poet, scholar and official, was a native of Tê-chou, Shantung. His father, T'ien Hsü-tsung 田緒宗 (T. 仿安, H. 蓼菴), was a chin-shih of 1652 who died in 1654 while magistrate of Li-shui, Chekiang.",
+          "source": "eccp-3656376",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子綸",
+        "source": "eccp-3656376"
+      },
+      {
+        "value": "綸霞",
+        "source": "eccp-3656376"
+      }
+    ],
+    "hao": [
+      {
+        "value": "山薑",
+        "source": "eccp-3656376"
+      },
+      {
+        "value": "蒙齋",
+        "source": "eccp-3656376"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子綸"
+    },
+    "romanizations": [
+      {
+        "value": "T'ien Wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3656376"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1635,
+        "source": "eccp-3656376",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3656376",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656376",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656376",
+      "passage": "eccp-3656376-001"
+    }
+  ],
+  "sources": {
+    "eccp-3656376": {
+      "title": "ECCP · T'ien Wên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658561": {
+      "title": "ECCP · 佟養眞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370118",
+      "locator": "eccp-3658561-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

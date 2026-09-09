@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-af8283b64b93d1f3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "志詵",
+    "source": "eccp-3678130",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "仲寅",
+        "source": "eccp-3678130"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東卿",
+        "source": "eccp-3678130"
+      },
+      {
+        "value": "遂翁",
+        "source": "eccp-3678130"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲寅"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Chih-shên",
+        "system": "ECCP spelling",
+        "source": "eccp-3678130"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1779,
+        "source": "eccp-3678130",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1863,
+        "source": "eccp-3678130",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678130": {
+      "title": "ECCP · 葉名琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442928",
+      "locator": "eccp-3678130-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

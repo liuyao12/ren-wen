@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6535bf85efe94c28",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "學浩",
+    "source": "eccp-3633306",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "崑山",
+      "source": "qsg-volume-504",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王學浩，字椒畦，江蘇崑山人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孟養",
+        "source": "eccp-3633306"
+      }
+    ],
+    "hao": [
+      {
+        "value": "椒畦",
+        "source": "eccp-3633306"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟養"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsüeh-hao",
+        "system": "ECCP spelling",
+        "source": "eccp-3633306"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1754,
+        "source": "eccp-3633306",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3633306",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-091",
+      "matchStatus": "proposed",
+      "evidence": "王學浩，字椒畦，江蘇崑山人。乾隆五十一年舉人。幼學畫於同縣李豫德，豫德為王原祁外孫，得南宗之傳。學浩溯源倪、黃，筆力蒼勁。論畫曰：「六法，一寫字盡之。寫者，意在筆先，直追所見，雖亂頭粗服，而意趣自足。或極工麗，而氣味古雅，所謂士大夫畫也。否則與俗工何異？」又曰：「畫以簡為上，雖煙客、麓台，猶未免繁碎，如大癡，真未易到。大癡法固在荒率蒼古中求之，尤須得其不甚著力處。」時論學浩用墨，能入絹素之骨，比人深一色。晚好用破筆，脫盡窠臼，畫格一變。著南山論畫。卒，年七十九。學浩享大年，道光之季，畫苑推為尊宿"
+    }
+  ],
+  "sources": {
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-091",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

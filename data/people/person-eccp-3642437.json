@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642437",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郭",
+    "given": "尚先",
+    "source": "eccp-3642437",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "元開",
+        "source": "eccp-3642437"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘭石",
+        "source": "eccp-3642437"
+      },
+      {
+        "value": "伯抑",
+        "source": "eccp-3642437"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元開"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo Shang-hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3642437"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3642437",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3642437",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642437",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642437",
+      "passage": "eccp-3642437-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642437": {
+      "title": "ECCP · Kuo Shang-hsien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290555",
+      "locator": "eccp-3642437-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

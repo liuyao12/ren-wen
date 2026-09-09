@@ -40,7 +40,7 @@ export function westernYearText(profile, endpoint) {
     && validYear(d.value) && d.source && profile.sources?.[d.source]);
   const values = [...new Set([...dates.map(d => Number(d.value.slice(0, 4))), ...years.map(d => d.value)])]
     .filter(validYear).sort((a, b) => a - b);
-  return values.length ? values.join(' / ') : '?';
+  return values.length ? values.map(y=>years.some(d=>d.value===y && d.uncertain)?`${y}?`:String(y)).join(' / ') : '?';
 }
 
 export function profileURL(id) {

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c4750345859263f7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "肇煌",
+    "source": "eccp-3643698",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "振侯",
+        "source": "eccp-3643698"
+      }
+    ],
+    "hao": [
+      {
+        "value": "檀浦",
+        "source": "eccp-3643698"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "振侯"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Chao-huang",
+        "system": "ECCP spelling",
+        "source": "eccp-3643698"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3643698": {
+      "title": "ECCP · 梁綸樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294987",
+      "locator": "eccp-3643698-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

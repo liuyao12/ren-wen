@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d4565e559b14f799",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "殷",
+    "given": "兆鏞",
+    "source": "eccp-3640911",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "吳江",
+      "source": "qsg-volume-422",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "殷兆鏞，字譜經，江蘇吳江人。",
+          "source": "qsg-volume-422",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "序伯",
+        "source": "eccp-3640911"
+      }
+    ],
+    "hao": [
+      {
+        "value": "譜經",
+        "source": "eccp-3640911"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "序伯"
+    },
+    "romanizations": [
+      {
+        "value": "Yin Chao-yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3640911"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3640911",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1883,
+        "source": "eccp-3640911",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-422",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-422",
+      "passage": "qsg-volume-422-068",
+      "matchStatus": "proposed",
+      "evidence": "殷兆鏞，字譜經，江蘇吳江人。道光二十年進士，選庶吉士，授編修。咸豐四年，遷侍講，直上書房，授惠親王子奕詳等讀。擢侍講學士，命授孚郡王奕硉讀，累遷大理寺少卿。八年，英吉利兵犯天津，兆鏞力主戰，疏請黜邪謀，決不計，詆斥主和諸臣甚力，擢詹事。九年，署兵部侍郎。詔江蘇諸省治團練，兆鏞疏言其弊，舉四害，言甚切。上海欲借英、法人助戰，兆鏞亦以為不可。"
+    }
+  ],
+  "sources": {
+    "eccp-3640911": {
+      "title": "ECCP · 奕山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285908",
+      "locator": "eccp-3640911-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

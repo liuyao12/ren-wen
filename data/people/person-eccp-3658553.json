@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658553",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "董",
+    "given": "鄂妃",
+    "source": "eccp-3658553",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Tung-o Fei 董鄂妃 (Imperial Secondary Consort of the Donggo clan), entered the Palace in 1656 at eighteen sui. According to some Jesuit accounts she had been the \"wife of a young Tartar Lord”, but Emperor Shih-tsu passionately loved her and after her husband's death took her to be his consort (see under Fu-lin).",
+          "source": "eccp-3639271",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Tung-o fei",
+        "system": "ECCP spelling",
+        "source": "eccp-3658553"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658553",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3658553",
+      "passage": "eccp-3658553-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658553": {
+      "title": "ECCP · Tung-o fei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370109",
+      "locator": "eccp-3658553-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639271": {
+      "title": "ECCP · 孝獻皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280302",
+      "locator": "eccp-3639271-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8fac9a4c054dc9bb",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "昌熾",
+    "source": "eccp-3649322",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "葉昌熾，字鞠裳，元和人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鞠裳",
+        "source": "eccp-3649322"
+      }
+    ],
+    "hao": [
+      {
+        "value": "緣督",
+        "source": "eccp-3649322"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鞠裳"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Ch'ang-ch'ih",
+        "system": "ECCP spelling",
+        "source": "eccp-3649322"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1849,
+        "source": "eccp-3649322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1917,
+        "source": "eccp-3649322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-194",
+      "matchStatus": "proposed",
+      "evidence": "葉昌熾，字鞠裳，元和人。光緒十六年進士，選庶吉士，授編修。累至侍講，督甘肅學政，邊地樸陋，昌熾校閱盡職。以裁缺歸，著書終老。國變後五年，卒。著有藏書紀事詩六卷，語石十卷，邠州大佛寺題刻考二卷，均考訂精確。"
+    }
+  ],
+  "sources": {
+    "eccp-3649322": {
+      "title": "ECCP · 潘祖蔭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318050",
+      "locator": "eccp-3649322-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-194",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

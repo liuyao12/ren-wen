@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cf0f59616f38b4e6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "林",
+    "source": "eccp-3635442",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "全州",
+      "source": "qsg-volume-477",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔣林，字元楚，廣西全州人。",
+          "source": "qsg-volume-477",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元楚",
+        "source": "eccp-3635442"
+      }
+    ],
+    "hao": [
+      {
+        "value": "介亭",
+        "source": "eccp-3635442"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元楚"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3635442"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1694,
+        "source": "eccp-3635442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1748,
+        "source": "eccp-3635442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-477",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-477",
+      "passage": "qsg-volume-477-011",
+      "matchStatus": "proposed",
+      "evidence": "蔣林，字元楚，廣西全州人。康熙五十四年進士，選庶吉士，授檢討。直南書房，十年不遷。大將軍年羹堯欲闢為幕僚，林急告歸。尋調戶部郎中，出為福建邵武知府，以事解職，詔發浙江，歷杭州、嚴州、金華三府。在杭州，值織造隆升建議改海門尖山海口，別開河以固海塘。林極言不可，曰：「能使海不潮，則役可興。否則勞民傷財，萬無成理。」上書督撫，俱不省。雍正十二年三月二十五日夜，牒下，索杭夫萬五千人，合旁郡無慮數万人。期三日集海上。林又爭曰：「田蠶方亟，期會迫，萬一勿戢，奈何？必不得已，俟蠶功畢。」隆升怒，督益急，以抗旨"
+    }
+  ],
+  "sources": {
+    "eccp-3635442": {
+      "title": "ECCP · 蔣良騏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271724",
+      "locator": "eccp-3635442-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

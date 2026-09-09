@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633240",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "拜音達里",
+    "source": "eccp-3633240",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "BAINDARI 拜音達里 d. 1607, bore the clan-name Nara and was beile of the Hoifa tribe which formed part of the Hūlun nation. (For the other three tribes, Hada, Yehe, and Ula, see under Wan, Yangginu and Bujantai respectively.) Baindari's ancestors possessed the family name Ikderi and belonged originally to the Nimaca tribe on the banks of the Amur river.",
+          "source": "eccp-3633240",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Baindari",
+        "system": "ECCP spelling",
+        "source": "eccp-3633240"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633240",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633240",
+      "passage": "eccp-3633240-001"
+    },
+    {
+      "source": "eccp-3649310",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649310",
+      "passage": "eccp-3649310-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633240": {
+      "title": "ECCP · Baindari",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271377",
+      "locator": "eccp-3633240-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649310": {
+      "title": "ECCP · Pai-yin-ta-li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318023",
+      "locator": "eccp-3649310-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

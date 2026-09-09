@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646134",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "世儀",
+    "source": "eccp-3646134",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LU Shih-i 陸世儀 (T. 道威, H. 剛齋, 桴亭), Sept. 6, 1611–1672, Feb. 18, philosopher of the Confucian school, was a native of T'ai-ts'ang, Kiangsu. When a boy of eighteen (sui) he studied the classics under Chao Tzŭ-hsin 趙自新 (T. 我完, H. 樽匏, chü-jên of 1639), and became a hsiu-ts'ai in 1632.",
+          "source": "eccp-3646134",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陸世儀，字道威，太倉州人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "道威",
+        "source": "eccp-3646134"
+      }
+    ],
+    "hao": [
+      {
+        "value": "剛齋",
+        "source": "eccp-3646134"
+      },
+      {
+        "value": "桴亭",
+        "source": "eccp-3646134"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "道威"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Shih-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3646134"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3646134",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3646134",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646134",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646134",
+      "passage": "eccp-3646134-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-091",
+      "matchStatus": "proposed",
+      "evidence": "陸世儀，字道威，太倉州人。少從劉宗周講學。歸而鑿池十畝，築亭其中，不通賓客，自號桴亭。與同里陳瑚、盛敬、江士韶相約，為遷善改過之學。或橫經論難，或即事窮理，反覆以求一是。甚有商榷未定，徹夜忘寢，質明而後斷，或未斷而復辨者。著思辨錄，分小學、大學、立志、居敬、格致、誠正、修齊、治平、天道、人道、諸儒異學、經、子、史籍十四門。世儀之學，主於敦守禮法，不虛談誠敬之旨，施行實政，不空為心性之功。於近代講學諸家，最為篤實。其言曰：「天下無講學之人，此世道之衰；天下皆講學之人，亦世道之衰。嘉、隆之間，書院遍"
+    }
+  ],
+  "sources": {
+    "eccp-3646134": {
+      "title": "ECCP · Lu Shih-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300535",
+      "locator": "eccp-3646134-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-091",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

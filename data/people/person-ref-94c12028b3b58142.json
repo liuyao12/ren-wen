@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-94c12028b3b58142",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "壽同",
+    "source": "eccp-3674926",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "高郵",
+      "source": "qsg-volume-395",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王壽同，江蘇高郵人，尚書引之子。",
+          "source": "qsg-volume-395",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季同",
+        "source": "eccp-3674926"
+      }
+    ],
+    "hao": [
+      {
+        "value": "子蘭",
+        "source": "eccp-3674926"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季同"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Shou-t'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3674926"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1805,
+        "source": "eccp-3674926",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1853,
+        "source": "eccp-3674926",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-395",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-395",
+      "passage": "qsg-volume-395-015",
+      "matchStatus": "proposed",
+      "evidence": "王壽同，江蘇高郵人，尚書引之子。捐納刑部郎中。道光二十四年進士。用原官遷御史，出為貴州黎平知府，擢湖北漢黃德道。在黃州募勇，令子恩晉訓練，得精銳四百人。武昌被圍，壽同率以赴援。衝賊營縋城入，任戰守，屢擊斬攻城賊。以甕德法知賊由江岸穴地道，方鑿穴出擊，地雷發，壽同率恩晉巷戰，同遇害。予騎都尉世職，祀京師昭忠祠，與子恩晉同於本籍建忠孝祠，賜兩子恩錫、恩炳並為舉人。後左都御史單懋謙疏陳壽同治績，追諡忠介。"
+    }
+  ],
+  "sources": {
+    "eccp-3674926": {
+      "title": "ECCP · 王引之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419131",
+      "locator": "eccp-3674926-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-395": {
+      "title": "清史稿/卷395",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026650",
+      "locator": "qsg-volume-395-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

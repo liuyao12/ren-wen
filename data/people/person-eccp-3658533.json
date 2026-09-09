@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658533",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "崔",
+    "given": "子忠",
+    "source": "eccp-3658533",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TS'UI Tzŭ-chung 崔子忠, also named Ts'ui Tan 丹, (T. 道母, H. 青蚓), c. 1595–c. 1644, Ming artist, was a native of Lai-yang, Shantung, but registered as a licentiate of Shun-t'ien prefecture and lived in Peking.",
+          "source": "eccp-3658533",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "道母",
+        "source": "eccp-3658533"
+      }
+    ],
+    "hao": [
+      {
+        "value": "青蚓",
+        "source": "eccp-3658533"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "道母"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ui Tzŭ-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3658533"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658533",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658533",
+      "passage": "eccp-3658533-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658533": {
+      "title": "ECCP · Ts'ui Tzŭ-chung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370063",
+      "locator": "eccp-3658533-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633523": {
+      "title": "ECCP · 陳洪綬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271460",
+      "locator": "eccp-3633523-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

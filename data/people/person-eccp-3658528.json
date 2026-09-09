@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658528",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄒",
+    "given": "容",
+    "source": "eccp-3658528",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TSOU Jung 鄒容 (T. 威丹), 1885–1905, Apr. 3, anti-Manchu writer, was a native of Pa-hsien (Chungking), Szechwan. His father was a merchant. In 1901 he was sent to Shanghai, and a year later to Japan, to study.",
+          "source": "eccp-3658528",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "威丹",
+        "source": "eccp-3658528"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "威丹"
+    },
+    "romanizations": [
+      {
+        "value": "Tsou Jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3658528"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1885,
+        "source": "eccp-3658528",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1905,
+        "source": "eccp-3658528",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658528",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658528",
+      "passage": "eccp-3658528-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658528": {
+      "title": "ECCP · Tsou Jung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370043",
+      "locator": "eccp-3658528-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

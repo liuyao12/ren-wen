@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639216",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "根特木",
+    "source": "eccp-3639216",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ghantimur",
+        "system": "ECCP spelling",
+        "source": "eccp-3639216"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639216",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639216",
+      "passage": "eccp-3639216-001"
+    },
+    {
+      "source": "eccp-3642391",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642391",
+      "passage": "eccp-3642391-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639216": {
+      "title": "ECCP · Ghantimur",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280220",
+      "locator": "eccp-3639216-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642391": {
+      "title": "ECCP · Kên-t'ê-mu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290447",
+      "locator": "eccp-3642391-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

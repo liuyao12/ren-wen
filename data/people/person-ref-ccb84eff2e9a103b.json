@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ccb84eff2e9a103b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄧",
+    "given": "爾恆",
+    "source": "eccp-3656370",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江寧",
+      "source": "qsg-volume-396",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄧爾恆，字子久，江蘇江寧人，總督廷楨子。",
+          "source": "qsg-volume-396",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子久",
+        "source": "eccp-3656370"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子久"
+    },
+    "romanizations": [
+      {
+        "value": "Têng Êr-hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3656370"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-396",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-396",
+      "passage": "qsg-volume-396-019",
+      "matchStatus": "proposed",
+      "evidence": "鄧爾恆，字子久，江蘇江寧人，總督廷楨子。道光十三年進士，選庶吉士，授編修。出為湖南辰州府知府。父憂，服闋，補雲南曲靖府。平尋甸叛回馬二花，彌勒土匪吳美、硃順，招撫昆陽回匪，甚有聲績，擢鹽法道，累遷按察使、布政使。咸豐十一年，擢貴州巡撫，未行，調陝西。徐之銘袒回，營將多與通。副將何有保者，之銘私人，尤不法。慮爾恆入覲發其罪，諷有保害之以滅口。爾𢗝行次曲靖，宿於知府署。有保使其黨史榮、戴玉棠偽為盜，戕之，掠其行橐。有保索所劫物不得，執拷二人。玉棠潛逸，糾黨攻殺有保。鐸至，擒二人誅之。詔爾恆依陣亡例賜"
+    }
+  ],
+  "sources": {
+    "eccp-3656370": {
+      "title": "ECCP · 鄧廷楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365148",
+      "locator": "eccp-3656370-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-396": {
+      "title": "清史稿/卷396",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601780",
+      "locator": "qsg-volume-396-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

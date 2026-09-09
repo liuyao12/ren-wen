@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-744dcf5561c4623a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "敦謹",
+    "source": "eccp-3646142",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄭敦謹，字小山，湖南長沙人。",
+          "source": "qsg-volume-421",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔厚",
+        "source": "eccp-3646142"
+      }
+    ],
+    "hao": [
+      {
+        "value": "筱山",
+        "source": "eccp-3646142"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔厚"
+    },
+    "romanizations": [
+      {
+        "value": "Chêng Tun-chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3646142"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1803,
+        "source": "eccp-3646142",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1885,
+        "source": "eccp-3646142",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-421",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-421",
+      "passage": "qsg-volume-421-047",
+      "matchStatus": "proposed",
+      "evidence": "鄭敦謹，字小山，湖南長沙人。道光十五年進士，選庶吉士，散館授刑部主事。再遷郎中，出為山東登州知府，擢河南南汝光道。咸豐元年，泌陽土匪喬建德踞角子山，敦謹與南陽鎮總兵圖塔布督兵捕獲之，被議敘，署布政使。二年，授廣東布政使，仍留署任。"
+    }
+  ],
+  "sources": {
+    "eccp-3646142": {
+      "title": "ECCP · 馬新貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

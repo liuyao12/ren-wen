@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-993a1b396ed99cef",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "藍",
+    "given": "瑛",
+    "source": "eccp-3678433",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "田叔",
+        "source": "eccp-3678433"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蝶叟",
+        "source": "eccp-3678433"
+      },
+      {
+        "value": "石頭陀",
+        "source": "eccp-3678433"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "田叔"
+    },
+    "romanizations": [
+      {
+        "value": "Lan Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3678433"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678433": {
+      "title": "ECCP · 禹之鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443722",
+      "locator": "eccp-3678433-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

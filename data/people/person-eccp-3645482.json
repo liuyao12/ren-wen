@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645482",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "玉繩",
+    "source": "eccp-3645482",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG Yü-shêng 梁玉繩 (T. 曜北, H. 諫庵, 清白士, 無心子), Jan. 15, 1745–1819, scholar, was a native of Ch'ien-t'ang (Hangchow). He was a son of Liang Tun-shu (see under Liang Shih-chêng), a grandson of Liang Shih-chêng [q. v.], and an adopted son of Liang T'ung-shu [q. v.].",
+          "source": "eccp-3645482",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "梁玉繩，字曜北，錢塘人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "曜北",
+        "source": "eccp-3645482"
+      }
+    ],
+    "hao": [
+      {
+        "value": "諫庵",
+        "source": "eccp-3645482"
+      },
+      {
+        "value": "清白士",
+        "source": "eccp-3645482"
+      },
+      {
+        "value": "無心子",
+        "source": "eccp-3645482"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "曜北"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Yü-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3645482"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1745,
+        "source": "eccp-3645482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3645482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645482",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645482",
+      "passage": "eccp-3645482-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-155",
+      "matchStatus": "proposed",
+      "evidence": "梁玉繩，字曜北，錢塘人。增貢生。家世貴顯，玉繩不志富貴，自號清白士。嘗語弟履繩曰：「後漢襄陽樊氏，顯重當時。子孫雖無名德盛位，世世作書生門戶，原與弟共勉之！」故玉繩年未四十，棄舉子業，專心撰著。其瞥記七卷，多釋經之文，有裨古義。玉繩尤精乙部書，著史記志疑三十六卷，據經、傳以糾乖違，參班、荀以究同異，錢大昕稱其書為龍門功臣。著人表考九卷，謂班氏借用禹貢田賦九等之目，造端自馬遷。史記李將軍傳云：「李蔡為人在下中。」其說頗是。"
+    }
+  ],
+  "sources": {
+    "eccp-3645482": {
+      "title": "ECCP · Liang Yü-shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299412",
+      "locator": "eccp-3645482-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3679857": {
+      "title": "ECCP · A Note on Ch'üan Tsu-wang, Chao I-ch'ing and Tai Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=14939986",
+      "locator": "eccp-3679857-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633505": {
+      "title": "ECCP · 趙一清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271695",
+      "locator": "eccp-3633505-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639981": {
+      "title": "ECCP · 許宗彥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282837",
+      "locator": "eccp-3639981-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643705": {
+      "title": "ECCP · 梁同書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294995",
+      "locator": "eccp-3643705-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645503": {
+      "title": "ECCP · 劉逢祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649360": {
+      "title": "ECCP · 畢沅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318124",
+      "locator": "eccp-3649360-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-155",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

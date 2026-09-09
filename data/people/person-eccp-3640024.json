@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640024",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "廷桂",
+    "source": "eccp-3640024",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG T'ing-kuei 黃廷桂 (T. 丹崖), 1691–1759, Feb. 14(?), was a member of the Chinese Bordered Red Banner. His father, Huang Ping-chung 黃秉中 (T. 惟一, 1654–1718), was governor of Chekiang (1709–10) and of Fukien (1710–11).",
+          "source": "eccp-3640024",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃廷桂，字丹崖，漢軍鑲紅旗人。",
+          "source": "qsg-volume-323",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "丹崖",
+        "source": "eccp-3640024"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "丹崖"
+    },
+    "romanizations": [
+      {
+        "value": "Huang T'ing-kuei",
+        "system": "ECCP spelling",
+        "source": "eccp-3640024"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3640024",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1759,
+        "source": "eccp-3640024",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640024",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640024",
+      "passage": "eccp-3640024-001"
+    },
+    {
+      "source": "qsg-volume-323",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-323",
+      "passage": "qsg-volume-323-006",
+      "matchStatus": "proposed",
+      "evidence": "黃廷桂，字丹崖，漢軍鑲紅旗人。父秉中，官福建巡撫。廷桂，初襲曾祖憲章拖沙喇哈番世職。康熙五十二年，授三等侍衛，遷參領。聖祖幸熱河，屢扈從。世宗在潛邸，知其才，雍正三年，授直隸宣化總兵。五年，擢四川提督。疏言：「四川三面環夷。軍械多敝缺，現飭修補。川馬本不高大，又日系槽，多羸斃。令在豐樂場後荒山督牧。士卒驕奢，飭服用毋僭官制。歲十月，番入內地傭工，名曰'下壩'，次年夏初始歸，以禁攜婦女，致成群肆惡，飭攜家屬方許就僱。成都屬德陽、仁壽二縣，南北距數百里，駐一把總；永寧協駐貴州永寧城，中隔河，東隸黔，"
+    }
+  ],
+  "sources": {
+    "eccp-3640024": {
+      "title": "ECCP · Huang T'ing-kuei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282945",
+      "locator": "eccp-3640024-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639221": {
+      "title": "ECCP · 哈元生",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280226",
+      "locator": "eccp-3639221-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656420": {
+      "title": "ECCP · 曾靜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365225",
+      "locator": "eccp-3656420-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-296": {
+      "title": "清史稿/卷296",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162633",
+      "locator": "qsg-volume-296-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-327": {
+      "title": "清史稿/卷327",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026857",
+      "locator": "qsg-volume-327-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

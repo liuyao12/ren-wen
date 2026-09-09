@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d537f1a831d0fc0c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "衡",
+    "source": "eccp-3645532",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "南豐",
+      "source": "qsg-volume-478",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉衡，字廉舫，江西南豐人。",
+          "source": "qsg-volume-478",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘊聲",
+        "source": "eccp-3645532"
+      },
+      {
+        "value": "訒堂",
+        "source": "eccp-3645532"
+      }
+    ],
+    "hao": [
+      {
+        "value": "簾舫",
+        "source": "eccp-3645532"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘊聲"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3645532"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1841,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-478",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-478",
+      "passage": "qsg-volume-478-070",
+      "matchStatus": "proposed",
+      "evidence": "劉衡，字廉舫，江西南豐人。嘉慶五年副榜貢生，充官學教習。十八年，以知縣發廣東。奉檄巡河，日夜坐臥舟中，與兵役同勞苦，俾不得通盜，河盜斂戢。署四會縣，地瘠盜熾。衡團練壯丁，連村自保。诇捕會匪，焚其籍，以安反側。祗治渠魁，眾乃定。調署博羅，城中故設徵糧店數家，鄉又設十站，民以為累，衡至即除之。俗多自戕，裡豪蠹役雜持之，害滋甚。衡釋誣濫，嚴懲主使，錮習一清。補新興，父憂去。服闋，道光三年，授四川墊江，俗輕生亦如博羅，衡先事勸諭，民化之。獲啯匪初犯者，曰：「飢寒迫爾。」給貲使自謀生，再犯不宥，匪輒感泣改"
+    }
+  ],
+  "sources": {
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

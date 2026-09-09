@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649354",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "畢",
+    "given": "拱辰",
+    "source": "eccp-3649354",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "PI Kung-ch'ên 畢拱辰 (T. 星伯, H. 湖目, 羼提居士), d. Mar. 16, 1644, was a native of Yeh-hsien, Shantung. He obtained the chin-shih degree in 1616, and two years later was appointed magistrate of Yen-ch'êng, Kiangsu.",
+          "source": "eccp-3649354",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "星伯",
+        "source": "eccp-3649354"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湖目",
+        "source": "eccp-3649354"
+      },
+      {
+        "value": "羼提居士",
+        "source": "eccp-3649354"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "星伯"
+    },
+    "romanizations": [
+      {
+        "value": "Pi Kung-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649354"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649354",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649354",
+      "passage": "eccp-3649354-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649354": {
+      "title": "ECCP · Pi Kung-ch'ên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318114",
+      "locator": "eccp-3649354-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

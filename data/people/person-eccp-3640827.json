@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640827",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "伊里布",
+    "source": "eccp-3640827",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "I-li-pu (Elipoo) 伊里布 (T. 莘農), d. Mar. 5, 1843, age 72 or 73 (sui), official, diplomat, was a member of the Manchu Bordered Yellow Banner. He was an Imperial Clansman, a descendant of Gunggadai 鞏阿岱 (d.",
+          "source": "eccp-3640827",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "莘農",
+        "source": "eccp-3640827"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "莘農"
+    },
+    "romanizations": [
+      {
+        "value": "I-li-pu",
+        "system": "ECCP spelling",
+        "source": "eccp-3640827"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640827",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640827",
+      "passage": "eccp-3640827-001"
+    },
+    {
+      "source": "qsg-volume-370",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-370",
+      "passage": "qsg-volume-370-017",
+      "matchStatus": "proposed",
+      "evidence": "伊里布，字莘農，鑲黃旗紅帶子。嘉慶六年進士，授國子監學正，改補典簿。出為雲南府南關通判，署澂江知府，遷騰越知州。二十四年，總督伯麟薦其熟練邊務，能馭土司，治緬匪有功，以應升用。"
+    }
+  ],
+  "sources": {
+    "eccp-3640827": {
+      "title": "ECCP · I-li-pu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285415",
+      "locator": "eccp-3640827-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635433": {
+      "title": "ECCP · 耆英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271389",
+      "locator": "eccp-3635433-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633507": {
+      "title": "ECCP · 昭槤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271689",
+      "locator": "eccp-3633507-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640817": {
+      "title": "ECCP · 奕經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285389",
+      "locator": "eccp-3640817-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640911": {
+      "title": "ECCP · 奕山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285908",
+      "locator": "eccp-3640911-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649108": {
+      "title": "ECCP · 旻寧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317663",
+      "locator": "eccp-3649108-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649135": {
+      "title": "ECCP · 穆彰阿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317706",
+      "locator": "eccp-3649135-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678432": {
+      "title": "ECCP · 裕謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443721",
+      "locator": "eccp-3678432-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-365": {
+      "title": "清史稿/卷365",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542368",
+      "locator": "qsg-volume-365-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-370": {
+      "title": "清史稿/卷370",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641846",
+      "locator": "qsg-volume-370-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-378": {
+      "title": "清史稿/卷378",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433515",
+      "locator": "qsg-volume-378-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-470": {
+      "title": "清史稿/卷470",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621222",
+      "locator": "qsg-volume-470-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

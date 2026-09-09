@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7dd3a229a3e7c442",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "康",
+    "given": "有為",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "南海",
+      "source": "qsg-volume-473",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "康有為，字廣廈，號更生，原名祖詒，廣東南海人。",
+          "source": "qsg-volume-473",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "廣厦",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [
+      {
+        "value": "長素",
+        "source": "eccp-3656345"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "廣厦"
+    },
+    "romanizations": [
+      {
+        "value": "K'ang Yu-wei",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1858,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1927,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-473",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-473",
+      "passage": "qsg-volume-473-021",
+      "matchStatus": "proposed",
+      "evidence": "康有為，字廣廈，號更生，原名祖詒，廣東南海人。光緒二十一年進士，用工部主事。少從硃次琦遊，博通經史，好公羊家言，言孔子改制，倡以孔子紀年，尊孔保教，先聚徒講學。入都上萬言書，議變法，給事中餘聯沅劾以惑世誣民，非聖無法，請焚所著書。中日議款，有為集各省公車上書，請拒和、遷都、變法，格不達。复獨上書，由都察院代遞，上覽而善之，命錄存備省覽。再請誓群臣以定國是，開制度局以議新制，別設法律等局以行新政，均下總署議。"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-473": {
+      "title": "清史稿/卷473",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=5977208",
+      "locator": "qsg-volume-473-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

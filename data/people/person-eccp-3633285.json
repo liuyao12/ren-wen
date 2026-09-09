@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633285",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "名振",
+    "source": "eccp-3633285",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Ming-chên 張名振 (T. 侯服), d. Jan. 24, 1656, Ming general, was a native of Chiang-ning (Nanking). He was a military chin-shih of 1638, and in 1643 was given the post of major at Shih-p'u 石浦 on the Chekiang coast south of Ningpo.",
+          "source": "eccp-3633285",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張名振，字侯服，應天江寧人。",
+          "source": "qsg-volume-224",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "侯服",
+        "source": "eccp-3633285"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "侯服"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Ming-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3633285"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633285",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633285",
+      "passage": "eccp-3633285-001"
+    },
+    {
+      "source": "qsg-volume-224",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-224",
+      "passage": "qsg-volume-224-017",
+      "matchStatus": "proposed",
+      "evidence": "張名振，字侯服，應天江寧人。崇禎末，為石浦遊擊。魯王次長垣，率舟師赴之，封定西侯。以所部屯舟山，移南田，迎王居健跳所，與阮進、王朝先共擊黃斌卿。斌卿，莆田人，崇禎末為舟山參將，唐王時封伯。名振奉魯王如舟山，不納。既，以王命進侯。斌卿法嚴急，配民為兵，籍大戶田為官田，先後戕荊本澈、賀君堯。王次健跳，令進告糴，又不應。至是，名振破舟山，沈斌卿於海，迎王居焉。使日本乞師，不應。成功襲破鄭彩，名振因聲彩殺熊汝霖、鄭遵謙罪，擊破其餘兵。俄，又襲殺朝先。師攻舟山，名振與煌言奉王南依成功。成功居王金門，名振屯"
+    }
+  ],
+  "sources": {
+    "eccp-3633285": {
+      "title": "ECCP · Chang Ming-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278372",
+      "locator": "eccp-3633285-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633274": {
+      "title": "ECCP · 張煌言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271612",
+      "locator": "eccp-3633274-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636413": {
+      "title": "ECCP · 朱以海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272542",
+      "locator": "eccp-3636413-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-056",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

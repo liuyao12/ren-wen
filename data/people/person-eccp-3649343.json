@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649343",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "彭",
+    "given": "孫貽",
+    "source": "eccp-3649343",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'ÊNG Sun-i 彭孫貽 (T. 仲謀, 羿仁, H. 茗齋, 管葛山人, 管山人), July 7, 1615–1673, historian and poet, was a native of Hai-yen, Chekiang. His father, P'êng Ch'i-shêng 彭期生 (T. 孝弱, 觀民, H. 弱水道人), Jan. 20, 1584–1646), was a chin-shih of 1616, who died a martyr to the Ming cause after failing to defend the city of Kanchow, Kiangsi, against the Ch'ing armies.",
+          "source": "eccp-3649343",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲謀",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "羿仁",
+        "source": "eccp-3649343"
+      }
+    ],
+    "hao": [
+      {
+        "value": "茗齋",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "管葛山人",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "管山人",
+        "source": "eccp-3649343"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲謀"
+    },
+    "romanizations": [
+      {
+        "value": "P'êng Sun-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3649343"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1615,
+        "source": "eccp-3649343",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3649343",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649343",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649343",
+      "passage": "eccp-3649343-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649343": {
+      "title": "ECCP · P'êng Sun-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318098",
+      "locator": "eccp-3649343-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634082": {
+      "title": "ECCP · 陳子龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271499",
+      "locator": "eccp-3634082-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642454": {
+      "title": "ECCP · 李成梁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290591",
+      "locator": "eccp-3642454-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645522": {
+      "title": "ECCP · 劉挺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299495",
+      "locator": "eccp-3645522-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646149": {
+      "title": "ECCP · 馬曰琯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300566",
+      "locator": "eccp-3646149-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-017",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678093": {
+      "title": "ECCP · 楊吉砮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442549",
+      "locator": "eccp-3678093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

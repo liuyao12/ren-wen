@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658527",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄒",
+    "given": "漢勖",
+    "source": "eccp-3658527",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TSOU Han-hsün 鄒漢勖 (T. 叔績, 績父), Dec. 11, 1805–1854, Jan. 15, scholar and geographer, was a native of Hsin-hua, Hunan, who died in action fighting the Taiping rebels. His father, Tsou Wên-su 鄒文蘇 (T. 望之, H. 眉[景]山, 1769–1831), was an ardent student of the classics, who established at his native place a school named Ku-ching t'ang 古經堂.",
+          "source": "eccp-3658527",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔績",
+        "source": "eccp-3658527"
+      },
+      {
+        "value": "績父",
+        "source": "eccp-3658527"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔績"
+    },
+    "romanizations": [
+      {
+        "value": "Tsou Han-hsün",
+        "system": "ECCP spelling",
+        "source": "eccp-3658527"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1805,
+        "source": "eccp-3658527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3658527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658527",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658527",
+      "passage": "eccp-3658527-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658527": {
+      "title": "ECCP · Tsou Han-hsün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370042",
+      "locator": "eccp-3658527-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672731": {
+      "title": "ECCP · 王夫之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412288",
+      "locator": "eccp-3672731-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

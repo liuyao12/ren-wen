@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-152575e5b738c9b5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "左",
+    "given": "夢庚",
+    "source": "eccp-3658524",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "臨清",
+      "source": "qsg-volume-248",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Tso Mêng-kêng 左夢庚, in charge, but the latter was soon defeated by Huang Tê-kung [q. v.] in Anhwei, and later in the same year (1645) surrendered to the Manchus under Ajige [q. v.]. He was ordered to serve under the Chinese Plain Yellow Banner and in 1648 was given the hereditary rank of viscount of the first class.",
+          "source": "eccp-3658524",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "左夢庚，山東臨清人。",
+          "source": "qsg-volume-248",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Tso Mêng-kêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3658524"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-248",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-248",
+      "passage": "qsg-volume-248-014",
+      "matchStatus": "proposed",
+      "evidence": "左夢庚，山東臨清人。父良玉，明史有傳。良玉初授平賊將軍，及封寧南伯，以平賊將軍印授夢庚。福王時，良玉舉兵自武昌東下，號「清君側」。次九江，病卒。諸將推夢庚為帥。總督袁繼咸禦戰，夢庚還駐池州，遣兵間道自彭澤下建德，遂取安慶。總兵黃得功破之銅陵，乃退保九江。"
+    }
+  ],
+  "sources": {
+    "eccp-3658524": {
+      "title": "ECCP · 左良玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370034",
+      "locator": "eccp-3658524-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

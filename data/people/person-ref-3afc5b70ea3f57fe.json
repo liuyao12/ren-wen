@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3afc5b70ea3f57fe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曾",
+    "given": "望顏",
+    "source": "eccp-3637559",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "香山",
+      "source": "qsg-volume-427",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "曾望顏，字瞻孔，廣東香山人。",
+          "source": "qsg-volume-427",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "瞻孔",
+        "source": "eccp-3637559"
+      }
+    ],
+    "hao": [
+      {
+        "value": "卓如",
+        "source": "eccp-3637559"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "瞻孔"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Wang-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3637559"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-427",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-427",
+      "passage": "qsg-volume-427-013",
+      "matchStatus": "proposed",
+      "evidence": "曾望顏，字瞻孔，廣東香山人。道光二年進士，選庶吉士，授編修，遷御史。十五年，條奏整飭科場凡十四事，皆如所請行。遷給事中，再遷光祿寺少卿。上以望顏遇事敢言，褒勉之，轉太常寺少卿。十六年，擢順天府尹。二十年，出為福建布政使。二十三年，戶部銀庫虧帑事發，望顏嘗以御史察庫，未糾發，坐奪官分償。旋授主事。咸豐三年，命以五品京堂候補，補通政司參議。六年，复授順天府尹，擢陝西巡撫。七年，粵匪自湖北竹山擾陝西平利，望顏遣游擊常有等會湖北軍克竹山。賊竄均州武當山，又遣總兵龍澤厚會湖北軍進剿，殲賊殆盡。八年，粵匪入"
+    }
+  ],
+  "sources": {
+    "eccp-3637559": {
+      "title": "ECCP · 崇實",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275733",
+      "locator": "eccp-3637559-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-427": {
+      "title": "清史稿/卷427",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2259934",
+      "locator": "qsg-volume-427-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

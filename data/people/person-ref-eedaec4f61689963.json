@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-eedaec4f61689963",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "國樑",
+    "source": "eccp-3639261",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "高要",
+      "source": "qsg-volume-401",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張國樑，字殿臣，廣東高要人，初名嘉祥。",
+          "source": "qsg-volume-401",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "殿臣",
+        "source": "eccp-3639261"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "殿臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Kuo-liang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639261"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-401",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-401",
+      "passage": "qsg-volume-401-027",
+      "matchStatus": "proposed",
+      "evidence": "張國樑，字殿臣，廣東高要人，初名嘉祥。少材武任俠，為裡豪所辱，毀其家，走山澤為盜，不妄殺。流入越南，後歸鎮南關。按察使勞崇光聞其名，招降，剿匪多得其力。咸豐元年，破劇賊顏品瑤，斬於陣，盡殲其黨。積功擢守備，繼隸向榮軍。二年，從解桂林圍，復全州、永興，擢都司。赴援湖南，迭破賊於醴陵、益陽、湘陰。援武昌，戰於洪山，皆為軍鋒。"
+    }
+  ],
+  "sources": {
+    "eccp-3639261": {
+      "title": "ECCP · 向榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280291",
+      "locator": "eccp-3639261-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-401": {
+      "title": "清史稿/卷401",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029845",
+      "locator": "qsg-volume-401-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

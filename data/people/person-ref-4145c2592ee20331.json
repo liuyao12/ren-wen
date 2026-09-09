@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4145c2592ee20331",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "遠平",
+    "source": "eccp-3674958",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "邵遠平，字戒三，仁和人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "戒三",
+        "source": "eccp-3674958"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "戒三"
+    },
+    "romanizations": [
+      {
+        "value": "Shao Yüan-p'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3674958"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-203",
+      "matchStatus": "proposed",
+      "evidence": "邵遠平，字戒三，仁和人。康熙三年進士，選庶吉士。歷戶部郎中，出為江西學政，擢光祿寺少卿。試鴻博，授侍讀，至少詹事，致仕歸。以書史自娛，於世務泊如也。聖祖南巡，賜御書「蓬觀」額，因自號蓬觀子。遠平高祖經邦，明正德中進士，刑部員外郎。以建言獲罪。著弘簡錄，起唐迄宋，附以遼、金，未遑及元也。遠平循其例續之，刊除舊史複重不雅馴者，入制誥於帝紀，採著作於儒林，而文苑分經學、文學、藝學三科，十三志則分載於紀傳，名曰元史類編。朱彝尊稱其書非官局所能逮也。別著史學辨誤，京邸、粵行等集。"
+    }
+  ],
+  "sources": {
+    "eccp-3674958": {
+      "title": "ECCP · 魏源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419241",
+      "locator": "eccp-3674958-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-203",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

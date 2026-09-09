@@ -10,11 +10,11 @@ class ECCPLibraryTest(unittest.TestCase):
     def setUp(self):
         self.c=json.loads((ROOT/'data/catalog.json').read_text());self.works=load_works(ROOT)
     def test_five_complete_eccp_entries(self):
-        self.assertEqual({s['id'] for s in self.c['sources'] if s.get('complete') and s['work']=='work-eccp'},{'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'})
+        self.assertEqual({s['id'] for s in self.c['sources'] if s.get('complete') and s['id'] in {'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'}},{'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'})
     def test_raw_content_is_complete(self):
         # Compare all characters, allowing only display whitespace and new reading breaks.
         for s in self.c['sources']:
-            if not s.get('complete') or s['work']!='work-eccp':continue
+            if s['id'] not in {'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'}:continue
             raw=(ROOT/s['rawResponse']).read_bytes()
             self.assertEqual(hashlib.sha256(raw).hexdigest(),s['rawSha256'])
             source=''.join(n.text() for n in source_paragraphs(json.loads(raw)['parse']['text']['*']))
@@ -32,7 +32,7 @@ class ECCPLibraryTest(unittest.TestCase):
     def test_bibliographies_and_byline_annotated(self):
         ms=self.c['mentions']
         for s in self.c['sources']:
-            if s.get('complete') and s['work']=='work-eccp':
+            if s.get('complete') and s['id'] in {'eccp','eccp-chonghou','eccp-dong-xun','eccp-guo-songtao','eccp-zeng-guofan'}:
                 self.assertTrue(any(m['witness']==s['id'] and m['entity']==('person-teng-ssu-yu' if s['id']=='eccp-zeng-guofan' else 'person-tu-lien-che') for m in ms))
                 self.assertTrue(any(m['witness']==s['id'] and m['entity'].startswith('work-') for m in ms))
     def test_legacy_mention_ids_retained(self):

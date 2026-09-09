@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8a97eaf45005ccf9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "圻",
+    "source": "eccp-3637550",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "陸圻，字麗京，錢塘人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "麗京",
+        "source": "eccp-3637550"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "麗京"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3637550"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-229",
+      "matchStatus": "proposed",
+      "evidence": "陸圻，字麗京，錢塘人。少與弟堦、培以文學、志行見重於時，稱曰「三陸」。所為詩號西陵體。性穎異，善思誤書。嘗讀韓非子「一從而咸危」，曰：「是'一徙而成邑'也。」戲令他人射覆，不得，惟弟廷中之。平生不喜言人過，有語及者，輒曰：「吾與汝，姑自淑。」莊廷鑨史禍作，圻坐逮。以先嘗具狀自陳，事得白，歎曰：「今幸得不死，奈何不以餘年學道耶！」親歿，遂棄家遠遊，不知所終。子寅，成進士。往來萬里，尋父不得，竟悒悒以死，時稱其孝。培死甲申之難。"
+    }
+  ],
+  "sources": {
+    "eccp-3637550": {
+      "title": "ECCP · 莊廷鑨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275720",
+      "locator": "eccp-3637550-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-229",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

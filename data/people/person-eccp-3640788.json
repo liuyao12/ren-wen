@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640788",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "洪",
+    "given": "鈞",
+    "source": "eccp-3640788",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "吳縣",
+      "source": "qsg-volume-446",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUNG Chün 洪鈞 (T. 陶士, H. 文卿), Jan. 12, 1840–1893, Oct. 2, scholar and diplomat, was a native of Wu-hsien (Soochow). He became a chü-jên in 1864 and four years later a chin-shih (1868), with the highest honors known as chuang-yüan.",
+          "source": "eccp-3640788",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "洪鈞，字文卿，江蘇吳縣人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "陶士",
+        "source": "eccp-3640788"
+      }
+    ],
+    "hao": [
+      {
+        "value": "文卿",
+        "source": "eccp-3640788"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "陶士"
+    },
+    "romanizations": [
+      {
+        "value": "Hung Chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3640788"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1893,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640788",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640788",
+      "passage": "eccp-3640788-001"
+    },
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-035",
+      "matchStatus": "proposed",
+      "evidence": "洪鈞，字文卿，江蘇吳縣人。同治七年一甲一名進士，授修撰。出督湖北學政，歷典陝西、山東鄉試。遷侍讀，視學江西。光緒七年，歷遷內閣學士。母老乞終養，嗣丁憂，服闋，起故官。出使俄德奧比四國大臣，晉兵部左侍郎。初，喀什噶爾續勘西邊界約，中國圖學未精，乏善本。鈞蒞俄，以俄人所訂中俄界圖紅線均與界約符，私慮英先發，乃譯成漢字備不虞。十六年，使成，攜之歸，命直總理各國事務衙門。"
+    }
+  ],
+  "sources": {
+    "eccp-3640788": {
+      "title": "ECCP · Hung Chün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285326",
+      "locator": "eccp-3640788-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642427": {
+      "title": "ECCP · 龔自珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290533",
+      "locator": "eccp-3642427-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-191",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-344": {
+      "title": "清史稿/卷344",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029609",
+      "locator": "qsg-volume-344-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

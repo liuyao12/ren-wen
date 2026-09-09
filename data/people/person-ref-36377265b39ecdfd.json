@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-36377265b39ecdfd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "駿聲",
+    "source": "eccp-3658544",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "朱駿聲，字豐芑，吳縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "豐芑",
+        "source": "eccp-3658544"
+      }
+    ],
+    "hao": [
+      {
+        "value": "允倩",
+        "source": "eccp-3658544"
+      },
+      {
+        "value": "石隱",
+        "source": "eccp-3658544"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "豐芑"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Chün-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3658544"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1788,
+        "source": "eccp-3658544",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1858,
+        "source": "eccp-3658544",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-286",
+      "matchStatus": "proposed",
+      "evidence": "朱駿聲，字豐芑，吳縣人。年十三，受許氏說文，一讀即通曉。從錢大昕遊，錢一見奇之，曰：「衣缽之傳，將在子矣！」嘉慶二十三年舉人，官黟縣訓導。咸豐元年，以截取知縣入都，進呈所著說文通訓定聲及古今韻準、柬韻、說雅，共四十卷。文宗披覽，嘉其洽，賞國子監博士銜。旋遷揚州府學教授，引疾，未之官。八年，卒，年七十一。"
+    }
+  ],
+  "sources": {
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-286",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

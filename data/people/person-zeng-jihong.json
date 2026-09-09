@@ -27,7 +27,18 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "曾紀鴻，字栗誠，大學士國籓少子。",
+          "source": "qsg-volume-507",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
@@ -61,7 +72,16 @@
       "status": "not-searched"
     }
   },
-  "accounts": [],
+  "accounts": [
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-097",
+      "matchStatus": "proposed",
+      "evidence": "曾紀鴻，字栗誠，大學士國籓少子。恩賞舉人。早卒。紀鴻少年好學，與兄紀澤並精算術，尤神明於西人代數術。銳思勇進，創立新法，同輩多心折焉。謂大衍求一術亦可以代數推求，依題演之，理正相通，撰對數詳解五卷，始明代數之理，為不知代數者開其先路。中言對數之理，末言對數之用，明作書之本意。其於常對、訥對，辨析分明。先求得各真數之訥對，復以對數根乘之，即為常對數。級數朗然，有條不紊，雖初學循序漸進，無不可相說以解焉。"
+    }
+  ],
   "sources": {
     "eccp-zeng-guofan": {
       "title": "ECCP · 曾國藩",
@@ -69,6 +89,13 @@
       "locator": "eccp-zeng-guofan-15",
       "access": "full-text",
       "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-097",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [],

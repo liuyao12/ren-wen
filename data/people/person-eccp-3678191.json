@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678191",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "應",
+    "given": "撝謙",
+    "source": "eccp-3678191",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YING Hui-ch'ien 應撝謙 (T. 嗣寅, H. 潛齋), 1615–1683, scholar, was a native of Jên-ho (Hangchow). A licentiate under the Ming regime, he gave up hope of an official career after the change of dynasty, devoting himself to teaching and writing, and gathering about him a large number of students by his presentation of Neo-Confucian philosophy in which he favored the Ch'êng-Chu school (see under Hu Wei).",
+          "source": "eccp-3678191",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "應撝謙，字潛齋，錢塘人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "嗣寅",
+        "source": "eccp-3678191"
+      }
+    ],
+    "hao": [
+      {
+        "value": "潛齋",
+        "source": "eccp-3678191"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "嗣寅"
+    },
+    "romanizations": [
+      {
+        "value": "Ying Hui-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3678191"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1615,
+        "source": "eccp-3678191",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3678191",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678191",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678191",
+      "passage": "eccp-3678191-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-123",
+      "matchStatus": "proposed",
+      "evidence": "應撝謙，字潛齋，錢塘人。明諸生。性至孝。殫心理學，以躬行實踐為主，不喜陸、王家言。足跡不出百里，隘屋短垣，貧甚，恬如也。杭州知府嵇宗孟數式廬，欲有所贈，囁嚅未出；及讀撝謙所作無悶先生傳，乃不敢言。康熙十七年，詔徵博學鴻儒，大臣項景襄、張天馥交章薦之。撝謙輿床以告有司曰：「撝謙非敢卻薦，實病不能行耳！」客有勸者曰：「昔太山孫明復嘗因石介等請，以成丞相之賢，何果於卻薦哉？」撝謙曰：「我不能以我之不可，學明復之可。」乃免徵。二十二年，卒，年六十九。"
+    }
+  ],
+  "sources": {
+    "eccp-3678191": {
+      "title": "ECCP · Ying Hui-ch'ien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443105",
+      "locator": "eccp-3678191-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658575": {
+      "title": "ECCP · 萬經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370139",
+      "locator": "eccp-3658575-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-123",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

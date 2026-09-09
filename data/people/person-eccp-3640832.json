@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640832",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "伊",
+    "given": "闢",
+    "source": "eccp-3640832",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新城",
+      "source": "qsg-volume-256",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "I Pi 伊闢 (T. 盧原, H. 翕菴), June 14, 1623–1681, June 23, official, was a native of Hsin-ch'êng near Tsinan, Shantung. He became a chin-shih in 1655 along with Wang Shih-chên [q. v.]. After a year or more of study in the Hanlin Academy he was appointed a censor, and in 1657 was sent to Shansi to inspect the administration of that province.",
+          "source": "eccp-3640832",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "伊闢，字盧源，山東新城人。",
+          "source": "qsg-volume-256",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "盧原",
+        "source": "eccp-3640832"
+      }
+    ],
+    "hao": [
+      {
+        "value": "翕菴",
+        "source": "eccp-3640832"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "盧原"
+    },
+    "romanizations": [
+      {
+        "value": "I Pi",
+        "system": "ECCP spelling",
+        "source": "eccp-3640832"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1623,
+        "source": "eccp-3640832",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1681,
+        "source": "eccp-3640832",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640832",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640832",
+      "passage": "eccp-3640832-001"
+    },
+    {
+      "source": "qsg-volume-256",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-256",
+      "passage": "qsg-volume-256-045",
+      "matchStatus": "proposed",
+      "evidence": "伊闢，字盧源，山東新城人。順治五年，舉鄉試第一。十二年，成進士，改庶吉士。十三年，授御史。十四年，巡按山西，捕長治亂民勒化龍，窮治其黨與。十六年，還，掌京畿道，擢通政司參議。累遷大理寺卿。"
+    }
+  ],
+  "sources": {
+    "eccp-3640832": {
+      "title": "ECCP · I Pi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285423",
+      "locator": "eccp-3640832-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-256": {
+      "title": "清史稿/卷256",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433520",
+      "locator": "qsg-volume-256-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-08378c49c5574101",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "正中",
+    "source": "eccp-3636413",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王正中，字仲扌為，保定人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲撝",
+        "source": "eccp-3636413"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲撝"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chêng-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3636413"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1599,
+        "source": "eccp-3636413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1667,
+        "source": "eccp-3636413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-045",
+      "matchStatus": "proposed",
+      "evidence": "王正中，字仲扌為，保定人。崇禎丁丑進士。魯王監國，以兵部職方司主事攝餘姚縣事。時義軍猝起，市魁、裡正得一劄付，輒入民舍括金帛，郡縣不敢誰何。正中既視事，令各營取餉必經縣，否則以盜論。"
+    }
+  ],
+  "sources": {
+    "eccp-3636413": {
+      "title": "ECCP · 朱以海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272542",
+      "locator": "eccp-3636413-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

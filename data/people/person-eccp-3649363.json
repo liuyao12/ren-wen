@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649363",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "卞",
+    "given": "永譽",
+    "source": "eccp-3649363",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "PIEN Yung-yü 卞永譽 (T. 令之, H. 仙容), d. 1712, age 68 (sui), official and connoisseur of painting and calligraphy, came from a family of Liaotung which served the Manchus under the Chinese Bordered Red Banner.",
+          "source": "eccp-3649363",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "令之",
+        "source": "eccp-3649363"
+      }
+    ],
+    "hao": [
+      {
+        "value": "仙容",
+        "source": "eccp-3649363"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "令之"
+    },
+    "romanizations": [
+      {
+        "value": "Pien Yung-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3649363"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649363",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649363",
+      "passage": "eccp-3649363-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649363": {
+      "title": "ECCP · Pien Yung-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318128",
+      "locator": "eccp-3649363-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633228": {
+      "title": "ECCP · 安岐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271372",
+      "locator": "eccp-3633228-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

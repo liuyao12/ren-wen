@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639237",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郝",
+    "given": "懿行",
+    "source": "eccp-3639237",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HAO I-hsing 郝懿行 (T. 恂九, 尋韭, H. 尋皋), Aug. 20, 1757–1825, Mar. 25, scholar, was a native of Ch'i-hsia, Shantung. After the decease of his first wife, née Lin 林 (1758–1786), he married, late in 1787, a talented woman, Wang Chao-yüan 王照圓 (T. 瑞玉, H. 婉佺, 1763–1851), who collaborated in many of her husband's scholarly works and left several contributions of her own.",
+          "source": "eccp-3639237",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "郝懿行，字恂九，棲霞人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "恂九",
+        "source": "eccp-3639237"
+      },
+      {
+        "value": "尋韭",
+        "source": "eccp-3639237"
+      }
+    ],
+    "hao": [
+      {
+        "value": "尋皋",
+        "source": "eccp-3639237"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "恂九"
+    },
+    "romanizations": [
+      {
+        "value": "Hao I-hsing",
+        "system": "ECCP spelling",
+        "source": "eccp-3639237"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1757,
+        "source": "eccp-3639237",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1825,
+        "source": "eccp-3639237",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639237",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639237",
+      "passage": "eccp-3639237-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-022",
+      "matchStatus": "proposed",
+      "evidence": "郝懿行，字恂九，棲霞人。嘉慶四年進士，授戸部主事。二十五年，補江南司主事。道光三年，卒，年六十九。"
+    }
+  ],
+  "sources": {
+    "eccp-3639237": {
+      "title": "ECCP · Hao I-hsing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280252",
+      "locator": "eccp-3639237-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639983": {
+      "title": "ECCP · 徐文靖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282842",
+      "locator": "eccp-3639983-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

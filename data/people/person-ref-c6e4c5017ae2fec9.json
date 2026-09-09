@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c6e4c5017ae2fec9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "維甸",
+    "source": "eccp-3637597",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐城",
+      "source": "qsg-volume-357",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "方維甸，字南耦，安徽桐城人，總督觀承子。",
+          "source": "qsg-volume-357",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "南耦",
+        "source": "eccp-3637597"
+      }
+    ],
+    "hao": [
+      {
+        "value": "葆巖",
+        "source": "eccp-3637597"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "南耦"
+    },
+    "romanizations": [
+      {
+        "value": "Fang Wei-tien",
+        "system": "ECCP spelling",
+        "source": "eccp-3637597"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3637597",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1815,
+        "source": "eccp-3637597",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-357",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-357",
+      "passage": "qsg-volume-357-039",
+      "matchStatus": "proposed",
+      "evidence": "方維甸，字南耦，安徽桐城人，總督觀承子。觀承年逾六十，始生維甸。高宗命抱至御前，解佩囊賜之。乾隆四十一年，帝巡幸山東，維甸以貢生迎駕，授內閣中書，充軍機章京。四十六年，成進士，授吏部主事，歷郎中。五十二年，從福康安徵台灣，賜花翎。遷御史，累擢太常寺少卿。又從福康安徵廓爾喀。歷光祿寺卿、太常寺卿，授長蘆鹽政。嘉慶元年，坐事奪職。吏議遣戍軍台，詔寬免，降刑部員外郎，仍直軍機。遷內閣侍讀學士。從尚書那彥成治陝西軍務。"
+    }
+  ],
+  "sources": {
+    "eccp-3637597": {
+      "title": "ECCP · 方觀承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275792",
+      "locator": "eccp-3637597-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

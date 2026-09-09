@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658524",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "左",
+    "given": "良玉",
+    "source": "eccp-3658524",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TSO Liang-yü 左良玉 (T. 崑山), 1598–1645, Apr. 29, Ming general, was a native of Lin-ch'ing, Shantung. Devoid of formal education, he was a versatile bowman and able strategist. His first post in Liaotung, in 1628, ended disastrously but his second under Hou Hsün (see under Hou Fang-yü) in Ch'ang-p'ing, Chihli, started him on his career.",
+          "source": "eccp-3658524",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "崑山",
+        "source": "eccp-3658524"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "崑山"
+    },
+    "romanizations": [
+      {
+        "value": "Tso Liang-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3658524"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1598,
+        "source": "eccp-3658524",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3658524",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658524",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658524",
+      "passage": "eccp-3658524-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658524": {
+      "title": "ECCP · Tso Liang-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370034",
+      "locator": "eccp-3658524-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633203": {
+      "title": "ECCP · 阿濟格",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271365",
+      "locator": "eccp-3633203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635488": {
+      "title": "ECCP · 秦良玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271421",
+      "locator": "eccp-3635488-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633268": {
+      "title": "ECCP · 張獻忠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271609",
+      "locator": "eccp-3633268-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635480": {
+      "title": "ECCP · 金聲桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271747",
+      "locator": "eccp-3635480-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639255": {
+      "title": "ECCP · 何騰蛟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280280",
+      "locator": "eccp-3639255-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640021": {
+      "title": "ECCP · 黃得功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282938",
+      "locator": "eccp-3640021-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646145": {
+      "title": "ECCP · 馬士英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300562",
+      "locator": "eccp-3646145-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678458": {
+      "title": "ECCP · 袁繼咸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443794",
+      "locator": "eccp-3678458-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

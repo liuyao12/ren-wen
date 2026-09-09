@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645486",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "林",
+    "given": "伯桐",
+    "source": "eccp-3645486",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIN Po-t'ung 林伯桐 (T. 桐君, H. 月亭), 1775–1845, Jan. 8, scholar, was a native of Canton. He graduated as chü-jên in 1801, but was unable to obtain a chin-shih degree though he competed in the examination several times.",
+          "source": "eccp-3645486",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "林伯桐，字桐君，番禺人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "桐君",
+        "source": "eccp-3645486"
+      }
+    ],
+    "hao": [
+      {
+        "value": "月亭",
+        "source": "eccp-3645486"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "桐君"
+    },
+    "romanizations": [
+      {
+        "value": "Lin Po-t'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3645486"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1845,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645486",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645486",
+      "passage": "eccp-3645486-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-149",
+      "matchStatus": "proposed",
+      "evidence": "林伯桐，字桐君，番禺人。嘉慶六年舉人。生平好爲考據之學，宗主漢儒，而踐履則服膺朱子，無門戸之見。事親孝，道光六年，試禮部歸，父已卒，悲慟不欲生。居喪悉遵古禮，蔬食、不入内者三年。自是不復上公車，一意奉母。與兩弟友愛，教授生徒百餘人，咸敦内行，勉實學。粵督阮元、鄧廷楨皆敬禮之。元延爲學海堂學長，廷楨聘課其二子。二十四年，以選授德慶州學正，閲三年卒於官，年七十。"
+    }
+  ],
+  "sources": {
+    "eccp-3645486": {
+      "title": "ECCP · Lin Po-t'ung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642450": {
+      "title": "ECCP · 李兆洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290583",
+      "locator": "eccp-3642450-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643702": {
+      "title": "ECCP · 梁廷枏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649325": {
+      "title": "ECCP · 包世臣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318057",
+      "locator": "eccp-3649325-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656346": {
+      "title": "ECCP · 譚瑩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365107",
+      "locator": "eccp-3656346-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-149",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

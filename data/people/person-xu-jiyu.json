@@ -18,7 +18,12 @@
         "source": "eccp-entry"
       }
     ],
-    "hao": [],
+    "hao": [
+      {
+        "value": "松龕",
+        "source": "eccp-3639963"
+      }
+    ],
     "parenthetical": {
       "kind": "zi",
       "value": "健男"
@@ -30,7 +35,27 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Chi-yü 徐繼畲 (T. 健男, H. 松龕), 1795–1873, official and geographer, was a native of Wu-t'ai, Shansi. His grandfather, Hsü Ching-ju 徐敬儒 (T. 東治), was a chü-jên of 1759 who held official posts in Chihli and Kiangsi.",
+          "source": "eccp-3639963",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "山西五臺",
+          "source": "eccp-entry",
+          "kind": "previous-record"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "五臺",
+      "source": "eccp-entry"
+    }
   },
   "life": {
     "birth": null,
@@ -68,6 +93,55 @@
       "locator": "Opening paragraph; recorded revision 11282784",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639963": {
+      "title": "ECCP · Hsü Chi-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282784",
+      "locator": "eccp-3639963-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643670": {
+      "title": "ECCP · 李元度",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294920",
+      "locator": "eccp-3643670-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645488": {
+      "title": "ECCP · 林則徐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299421",
+      "locator": "eccp-3645488-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658527": {
+      "title": "ECCP · 鄒漢勖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370042",
+      "locator": "eccp-3658527-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678061": {
+      "title": "ECCP · 吳大澂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442370",
+      "locator": "eccp-3678061-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "externalIds": {
@@ -86,6 +160,12 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hs%C3%BC_Chi-y%C3%BC",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3639963",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639963",
+      "passage": "eccp-3639963-001"
     }
   ],
   "notes": [],

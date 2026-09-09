@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-091e044a6498aae1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "志伊",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐城",
+      "source": "qsg-volume-357",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "汪志伊，字稼門，安徽桐城人。",
+          "source": "qsg-volume-357",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "稼門",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "稼門"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chih-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1743,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-357",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-357",
+      "passage": "qsg-volume-357-017",
+      "matchStatus": "proposed",
+      "evidence": "汪志伊，字稼門，安徽桐城人。乾隆三十六年舉人，充四庫館校對，議敘，授山西靈石知縣。除徵糧擾累，刻木為皁隸書里分糧數，以次傳遞，民遵輸納。調榆次，遷霍州直隸州知州。代州民孟木成殺人，已定讞情實，其弟代呼冤，巡撫勒保檄志伊往按，平反之。承審者護前失，不決，命大臣臨鞫，重違眾議，志伊堅執與爭，孟木成竟得免死。志伊以此負強項名。"
+    }
+  ],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

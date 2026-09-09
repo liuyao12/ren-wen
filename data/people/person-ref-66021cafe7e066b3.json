@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-66021cafe7e066b3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "舒翹",
+    "source": "eccp-3640953",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "長安",
+      "source": "qsg-volume-465",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "趙舒翹，字展如，陝西長安人。",
+          "source": "qsg-volume-465",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "展如",
+        "source": "eccp-3640953"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "展如"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Shu-ch'iao",
+        "system": "ECCP spelling",
+        "source": "eccp-3640953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-465",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-465",
+      "passage": "qsg-volume-465-016",
+      "matchStatus": "proposed",
+      "evidence": "趙舒翹，字展如，陝西長安人。同治十三年進士，授刑部主事，遷員外郎。讞河南王樹汶獄，承旨研辨，獲平反，巡撫李鶴年以下譴謫有差。居刑曹十年，多所纂定，其議服制及婦女離異諸條，能傅古義，為時所誦。光緒十二年，以郎中出知安徽鳳陽府。皖北水祲，割俸助賑。課最，擢浙江溫處道，再遷布政使。二十年，擢江蘇巡撫。捕治太湖匪酋葉子春，餘黨股栗；復為籌善後策，弊風漸革。明年，改訂日本條約，牒請總署重民生，所言皆切中。是時朝廷矜慎庶獄，以舒翹諳律令，召為刑部左侍郎。二十四年，晉尚書，督辦礦務、鐵路。明年，命入總理各國事"
+    }
+  ],
+  "sources": {
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633249",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "查",
+    "given": "禮",
+    "source": "eccp-3633249",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宛平",
+      "source": "qsg-volume-332",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHA Li 查禮 (original ming 爲禮, 學禮, T. 恂叔, 魯存, H. 儉堂, 榕巢, 茶坨, 藕汀, 鐵橋, 紅螺山人, 九峯老人, 澹安居士), July 27, 1715–1783, Jan. 31, official and poet, was a native of Wan-p'ing (Peking). From the T'ang period onward his family lived in southern Anhwei, from where his branch of the family first moved to Lin-ch'uan, Kiangsi, and then to Peking.",
+          "source": "eccp-3633249",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "查禮，字恂叔，順天宛平人。",
+          "source": "qsg-volume-332",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "恂叔",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "魯存",
+        "source": "eccp-3633249"
+      }
+    ],
+    "hao": [
+      {
+        "value": "儉堂",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "榕巢",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "茶坨",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "藕汀",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "鐵橋",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "紅螺山人",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "九峯老人",
+        "source": "eccp-3633249"
+      },
+      {
+        "value": "澹安居士",
+        "source": "eccp-3633249"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "恂叔"
+    },
+    "romanizations": [
+      {
+        "value": "Cha Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3633249"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3633249",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1783,
+        "source": "eccp-3633249",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633249",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633249",
+      "passage": "eccp-3633249-001"
+    },
+    {
+      "source": "qsg-volume-332",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-332",
+      "passage": "qsg-volume-332-021",
+      "matchStatus": "proposed",
+      "evidence": "查禮，字恂叔，順天宛平人。少劬學。乾隆元年，應博學鴻詞科，報罷。入貲授戶部主事，揀發廣西，補慶遠同知。舉卓異，上命督撫舉堪任知府者。巡撫定長、李錫秦先後以禮薦。十八年，擢太平知府，母憂去。服闋，補四川寧遠。三十三年，擢川北道。三十四年，調松茂道，"
+    }
+  ],
+  "sources": {
+    "eccp-3633249": {
+      "title": "ECCP · Cha Li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271542",
+      "locator": "eccp-3633249-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639209": {
+      "title": "ECCP · 傅維麟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280212",
+      "locator": "eccp-3639209-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642414": {
+      "title": "ECCP · 顧棟高",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290507",
+      "locator": "eccp-3642414-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642458": {
+      "title": "ECCP · 厲鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290599",
+      "locator": "eccp-3642458-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-333": {
+      "title": "清史稿/卷333",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378252",
+      "locator": "qsg-volume-333-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678433",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "禹",
+    "given": "之鼎",
+    "source": "eccp-3678433",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Chih-ting 禹之鼎 (T. 尚吉, 尚基, 上吉, H. 愼齋), 1649–1702, painter, was a native of Chiang-tu, Kiangsu. In his youth he was a pupil of Lan Ying 藍瑛 (T. 田叔, H. 蝶叟, 石頭陀), a noted painter of the late Ming period.",
+          "source": "eccp-3678433",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "尚吉",
+        "source": "eccp-3678433"
+      },
+      {
+        "value": "尚基",
+        "source": "eccp-3678433"
+      },
+      {
+        "value": "上吉",
+        "source": "eccp-3678433"
+      }
+    ],
+    "hao": [
+      {
+        "value": "愼齋",
+        "source": "eccp-3678433"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尚吉"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Chih-ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3678433"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1649,
+        "source": "eccp-3678433",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3678433",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678433",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678433",
+      "passage": "eccp-3678433-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678433": {
+      "title": "ECCP · Yü Chih-ting",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443722",
+      "locator": "eccp-3678433-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634083": {
+      "title": "ECCP · 陳維崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280420",
+      "locator": "eccp-3634083-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

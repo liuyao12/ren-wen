@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e89b536a35d61739",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "江",
+    "given": "永",
+    "source": "eccp-3656336",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "江永，字慎修，婺源人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "愼修",
+        "source": "eccp-3656336"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "愼修"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656336"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1681,
+        "source": "eccp-3656336",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1762,
+        "source": "eccp-3656336",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-097",
+      "matchStatus": "proposed",
+      "evidence": "江永，字慎修，婺源人。為諸生數十年，博通古今，專心十三經注疏，而於三禮功尤深。以朱子晚年治禮，為儀禮經傳通解。書未就，黃氏、楊氏相繼纂續，亦非完書。乃廣摭博討，大綱細目，一從吉、兇、軍、嘉、賓五禮舊次，題曰禮經綱目，凡八十八卷。引據諸書，釐正發明，實足終朱子未竟之緒。嘗一至京師，桐城方苞、荊谿吳紱質以禮經疑義，皆大折服。讀書好深思，長於比勘，明推步、鐘律、聲韻。歲實消長，前人多論之者，梅文鼎略舉授時，而亦疑之。永為之說，當以恆氣為率，隨其時之高衝以算定氣，而歲實消長勿論，其說至為精當。其論黃鍾之"
+    }
+  ],
+  "sources": {
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-097",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

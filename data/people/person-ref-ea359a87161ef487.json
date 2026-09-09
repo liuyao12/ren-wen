@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ea359a87161ef487",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "孚恩",
+    "source": "eccp-3639247",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新城",
+      "source": "qsg-volume-387",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳孚恩，字子鶴，江西新城人。",
+          "source": "qsg-volume-387",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子鶴",
+        "source": "eccp-3639247"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子鶴"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Fu-ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3639247"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-387",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-387",
+      "passage": "qsg-volume-387-019",
+      "matchStatus": "proposed",
+      "evidence": "陳孚恩，字子鶴，江西新城人。道光五年拔貢，授吏部七品小京官，升主事，充軍機章京。累遷郎中。大學士穆彰阿領樞務，深倚之，歷太僕寺少卿、通政司副使、太僕寺卿，皆留直。遷大理寺卿、左副都御史，兼署順天府尹、工部侍郎，擢倉場侍郎。二十七年，調署兵部侍郎，在軍機大臣上行走。偕侍郎柏葰赴山東按事，劾巡撫崇恩庫款虧缺、捕務廢弛，罷之。暫署山東巡撫。授刑部侍郎，回京面陳在署任不受公費，詔嘉之，特加頭品頂帶、紫禁城騎馬，賜匾額曰「清正良臣」，皆異數。二十九年，偕侍郎福濟赴山西按巡撫王兆琛貪婪事，得實，褫兆琛職，逮"
+    }
+  ],
+  "sources": {
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635464",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "泰吉",
+    "source": "eccp-3635464",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN T'ai-chi 錢泰吉 (T. 輔宜, H. 警石, 深廬, 甘泉鄉人), Nov. 1, 1791–1863, Dec. 30, scholar and bibliophile, native of Chia-hsing, Chekiang, was a great-grandson of Ch'ien Ch'ên-ch'ün [q. v.] and a first cousin of Ch'ien I-chi [q. v.].",
+          "source": "eccp-3635464",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "輔宜",
+        "source": "eccp-3635464"
+      }
+    ],
+    "hao": [
+      {
+        "value": "警石",
+        "source": "eccp-3635464"
+      },
+      {
+        "value": "深廬",
+        "source": "eccp-3635464"
+      },
+      {
+        "value": "甘泉鄉人",
+        "source": "eccp-3635464"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "輔宜"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien T'ai-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3635464"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1791,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1863,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635464",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635464",
+      "passage": "eccp-3635464-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635464": {
+      "title": "ECCP · Ch'ien T'ai-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271411",
+      "locator": "eccp-3635464-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635452": {
+      "title": "ECCP · 錢陳群",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271400",
+      "locator": "eccp-3635452-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635458": {
+      "title": "ECCP · 錢儀吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271410",
+      "locator": "eccp-3635458-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635441": {
+      "title": "ECCP · 蔣光煦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271719",
+      "locator": "eccp-3635441-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639180": {
+      "title": "ECCP · 馮登府",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280162",
+      "locator": "eccp-3639180-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

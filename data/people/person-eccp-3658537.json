@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658537",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "杜",
+    "given": "越",
+    "source": "eccp-3658537",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "君異",
+        "source": "eccp-3658537"
+      }
+    ],
+    "hao": [
+      {
+        "value": "紫峯",
+        "source": "eccp-3658537"
+      },
+      {
+        "value": "文定先生",
+        "source": "eccp-3658537"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "君異"
+    },
+    "romanizations": [
+      {
+        "value": "Tu Yüeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3658537"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1596,
+        "source": "eccp-3658537",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3658537",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658537",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658537",
+      "passage": "eccp-3658537-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658537": {
+      "title": "ECCP · Tu Yüeh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370075",
+      "locator": "eccp-3658537-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639205": {
+      "title": "ECCP · 傅山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

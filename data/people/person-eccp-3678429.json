@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678429",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "于",
+    "given": "成龍",
+    "source": "eccp-3678429",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "永寧",
+      "source": "qsg-volume-277",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Ch'êng-lung 于成龍 (T. 北溟, H. 于山), Sept. 26, 1617–1684, May 31, official, was a native of Yung-ning, Shansi. A senior licentiate (kung-shêng) of 1639, he began his offcial career in 1661 at forty-five sui, as magistrate of Lo-ch'êng, Kwangsi.",
+          "source": "eccp-3678429",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "YÜ Ch'êng-lung 于成龍 (T. 振甲 H. 如山), Aug. 14, 1638–1700, Apr. 16, official, was a native of Kai-p'ing, Liaotung. His family, which belonged to the Chinese Bordered Red Banner, migrated to Chihli in 1648 and, after several removals, settled in the Ku-an district of that province in 1653.",
+          "source": "eccp-3678430",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "于成龍，字北溟，山西永寧人。",
+          "source": "qsg-volume-277",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "北溟",
+        "source": "eccp-3678429"
+      }
+    ],
+    "hao": [
+      {
+        "value": "于山",
+        "source": "eccp-3678429"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "北溟"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Ch'êng-lung (1617–1684)",
+        "system": "ECCP spelling",
+        "source": "eccp-3678429"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1617,
+        "source": "eccp-3678429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3678429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678429",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678429",
+      "passage": "eccp-3678429-001"
+    },
+    {
+      "source": "eccp-3678430",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678430",
+      "passage": "eccp-3678430-001"
+    },
+    {
+      "source": "qsg-volume-277",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-277",
+      "passage": "qsg-volume-277-006",
+      "matchStatus": "proposed",
+      "evidence": "于成龍，字北溟，山西永寧人。明崇禎間副榜貢生。順治十八年，謁選，授廣西羅城知縣，年四十五矣。羅城居萬山中，盛瘴癘，瑤、僮獷悍，初隸版籍。方兵後，遍地榛莽，縣中居民僅六家，無城郭廨舍。成龍到官，召吏民拊循之，申明保甲。盜發即時捕治，請於上官，讞實即處決，民安其居。鄰瑤歲來殺掠，成龍集鄉兵將搗其巢，瑤懼，誓不敢犯羅山境。民益得盡力耕耘。居羅山七年，與民相愛如家人父子。牒上官請寬徭役，疏鹺引，建學宮，創設養濟院，凡所當興罷者，次第舉行，縣大治。總督盧興祖等薦卓異。"
+    }
+  ],
+  "sources": {
+    "eccp-3678429": {
+      "title": "ECCP · Yü Ch'êng-lung (1617–1684)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443703",
+      "locator": "eccp-3678429-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678430": {
+      "title": "ECCP · Yü Ch'êng-lung (1638–1700)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443707",
+      "locator": "eccp-3678430-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

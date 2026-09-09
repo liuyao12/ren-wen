@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-583928576e3eb315",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "致祥",
+    "source": "eccp-3649326",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "嘉定",
+      "source": "qsg-volume-444",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐致祥，字季和，江蘇嘉定人。",
+          "source": "qsg-volume-444",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季和",
+        "source": "eccp-3649326"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季和"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Chih-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649326"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1838,
+        "source": "eccp-3649326",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1899,
+        "source": "eccp-3649326",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-444",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-444",
+      "passage": "qsg-volume-444-034",
+      "matchStatus": "proposed",
+      "evidence": "徐致祥，字季和，江蘇嘉定人。咸豐十年進士，選庶吉士，授編修。晉中允，典試山東。累遷內閣學士，督順天學政。遭憂去，服闋，起故官。光緒十年，法越構兵，德璀琳以和議進，朝旨未決。致祥上三策，謂：決戰宜速，任將宜專，軍勢宜聯。閩事棘，言何璟、張兆棟無幹濟才，而薦楊岳斌、張佩綸堪重任，頗嘉納。時議築鐵路，致祥聞而惡之，痛陳八害，並請力辟邪說，亟修河工，上責其誕妄，鐫三級。越二年，鐵路議再起，又再阻止之。先後封事十數上，而惓惓於抑奄寺，治河工，為時論所美。歷典福建、廣東鄉試。十八年，授大理寺卿，連劾樞臣禮親"
+    }
+  ],
+  "sources": {
+    "eccp-3649326": {
+      "title": "ECCP · 寶廷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318061",
+      "locator": "eccp-3649326-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

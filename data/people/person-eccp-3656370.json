@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656370",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄧",
+    "given": "廷楨",
+    "source": "eccp-3656370",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江寧",
+      "source": "qsg-volume-369",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TÊNG T'ing-chên 鄧廷楨 (T. 維周, H. 嶰筠), Jan. 26, 1776–1846, Apr. 15, official, was a native of Nanking. His family came originally from Shou-chou, Anhwei. The ancestor who first settled in Nanking was Têng Hsü 鄧旭 (T. 元昭, chin-shih of 1647) who rose from a Hanlin corrector to intendant of the T'ao-Min Circuit in Kansu (1656–57).",
+          "source": "eccp-3656370",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "鄧廷楨，字嶰筠，江蘇江寧人。",
+          "source": "qsg-volume-369",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "維周",
+        "source": "eccp-3656370"
+      }
+    ],
+    "hao": [
+      {
+        "value": "嶰筠",
+        "source": "eccp-3656370"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "維周"
+    },
+    "romanizations": [
+      {
+        "value": "Têng T'ing-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3656370"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3656370",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1846,
+        "source": "eccp-3656370",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656370",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656370",
+      "passage": "eccp-3656370-001"
+    },
+    {
+      "source": "qsg-volume-369",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-369",
+      "passage": "qsg-volume-369-017",
+      "matchStatus": "proposed",
+      "evidence": "鄧廷楨，字嶰筠，江蘇江寧人。嘉慶六年進士，選庶吉士，授編修。屢分校鄉、會試，稱得士。十五年，授台灣遺缺知府，浙江巡撫蔣攸銛請留浙，補寧波。母憂歸，服闋，補陝西延安府，歷榆林、西安，以善折獄稱。平反韓城、南鄭冤獄，又全同州嫠婦母子，陝民歌頌，傳播京師。二十五年，超擢湖北按察使，權布政使。沿江民田歷年沈沒，而賦額仍在，為民累，悉請免之。道光元年，遷江西布政使。以前在西安失察渭南令故出縣民柳全璧殺人罪，罣誤，奪職。議戍軍台，宣宗知其無私，特免遣戍，予七品銜，發直隸委用。尋授通永道。四年，擢陝西按察使，"
+    }
+  ],
+  "sources": {
+    "eccp-3656370": {
+      "title": "ECCP · Têng T'ing-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365148",
+      "locator": "eccp-3656370-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640831": {
+      "title": "ECCP · 怡良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285422",
+      "locator": "eccp-3640831-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643702": {
+      "title": "ECCP · 梁廷枏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-076",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-369": {
+      "title": "清史稿/卷369",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433548",
+      "locator": "qsg-volume-369-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-370": {
+      "title": "清史稿/卷370",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641846",
+      "locator": "qsg-volume-370-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-378": {
+      "title": "清史稿/卷378",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433515",
+      "locator": "qsg-volume-378-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-396": {
+      "title": "清史稿/卷396",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601780",
+      "locator": "qsg-volume-396-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-149",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

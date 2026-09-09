@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672745",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "翬",
+    "source": "eccp-3672745",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hui 王翬 (T. 石谷, H. 耕煙散人, 清暉主人 and 烏目山人), Apr. 10, 1632–1717, Nov. 15, was a native of Ch'ang-shu, Kiangsu. His great-great-grandfather, Wang Po-ch'ên 王伯臣 (T. 鑑汝, H. 劍池), was a painter of birds and flowers who was highly praised by a contemporary artist, Shên Chou 沈周 (T. 啟南, H. 石田, 1427–1509).",
+          "source": "eccp-3672745",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王翬，字石谷，號耕煙，江南常熟人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "石谷",
+        "source": "eccp-3672745"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耕煙散人",
+        "source": "eccp-3672745"
+      },
+      {
+        "value": "清暉主人",
+        "source": "eccp-3672745"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "石谷"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hui",
+        "system": "ECCP spelling",
+        "source": "eccp-3672745"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1632,
+        "source": "eccp-3672745",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1717,
+        "source": "eccp-3672745",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672745",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672745",
+      "passage": "eccp-3672745-001"
+    },
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-029",
+      "matchStatus": "proposed",
+      "evidence": "王翬，字石谷，號耕煙，江南常熟人。太倉王鑑遊虞山，見其畫，大驚異，索見，時年甫冠。載歸，謁王時敏，館之西田。盡出唐以後名跡，俾坐臥其中，時敏复挈之游江南北，盡得觀收藏家秘本。如是垂二十年，學遂成。康熙中詔徵，以布衣供奉內廷。繪南巡圖，集海內能手，逡巡莫敢下筆，翬口講指授，咫尺千里，令眾分繪而總其成。圖成，聖祖稱善，欲授官，固辭，厚賜歸。公卿祖餞，賦詩贈行。翬天性孝友，篤於風義，時敏、鑑既歿，歲時猶省其墓。康熙五十六年，卒，年八十六。翬論畫曰：「以元人筆墨，運宋人丘壑，而澤以唐人"
+    }
+  ],
+  "sources": {
+    "eccp-3672745": {
+      "title": "ECCP · Wang Hui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672722": {
+      "title": "ECCP · 王鑑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

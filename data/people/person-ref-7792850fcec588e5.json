@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7792850fcec588e5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "復",
+    "source": "eccp-3635464",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "景顏",
+        "source": "eccp-3635464"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蓉裳",
+        "source": "eccp-3635464"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景顏"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3635464"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1754,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635464": {
+      "title": "ECCP · 錢泰吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271411",
+      "locator": "eccp-3635464-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

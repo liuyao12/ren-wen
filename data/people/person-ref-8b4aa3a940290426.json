@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8b4aa3a940290426",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "丁",
+    "given": "壽昌",
+    "source": "eccp-3656386",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-451",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "丁壽昌，字樂山，安徽合肥人。",
+          "source": "qsg-volume-451",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "頤伯",
+        "source": "eccp-3656386"
+      }
+    ],
+    "hao": [
+      {
+        "value": "菊泉",
+        "source": "eccp-3656386"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "頤伯"
+    },
+    "romanizations": [
+      {
+        "value": "Ting Shou-ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3656386"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-451",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-451",
+      "passage": "qsg-volume-451-012",
+      "matchStatus": "proposed",
+      "evidence": "丁壽昌，字樂山，安徽合肥人。少為裡塾師，粵寇擾淮南，遂集里中子弟勒以兵法，築寨自保。同治初，率偏師從李鴻章東征，轉戰蘇、松間，由知縣晉秩知府。隨潘鼎新攻浙江，克乍浦，攝乍浦同知。又隨克嘉興，晉道員。進攻湖州，戰於晟舍鎮，賊憑河為險。壽昌鳧水破其兩壘，諸軍隨擊，立克之，湖州賊遂不振。論功，加按察使銜。六年，率師從劉銘傳剿捻，迭敗之黃安、鄧州。賊南竄沭陽，霖雨，平地水數尺，捻酋任化邦竄渡沭水而西。壽昌先解衣率將士徒涉，伐木為梁濟軍，既濟，乃斷梁。眾知無退路，奮擊破賊，追斬化邦贛榆城下。詔以道員簡放，"
+    }
+  ],
+  "sources": {
+    "eccp-3656386": {
+      "title": "ECCP · 丁晏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365169",
+      "locator": "eccp-3656386-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-451": {
+      "title": "清史稿/卷451",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607436",
+      "locator": "qsg-volume-451-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

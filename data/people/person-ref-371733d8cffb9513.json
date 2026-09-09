@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-371733d8cffb9513",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "在豐",
+    "source": "eccp-3642429",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "德清",
+      "source": "qsg-volume-279",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫在豐，字屺瞻，浙江德清人。",
+          "source": "qsg-volume-279",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "屺瞻",
+        "source": "eccp-3642429"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "屺瞻"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Tsai-fêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3642429"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3642429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1689,
+        "source": "eccp-3642429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-279",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-279",
+      "passage": "qsg-volume-279-048",
+      "matchStatus": "proposed",
+      "evidence": "孫在豐，字屺瞻，浙江德清人。康熙九年一甲二名進士，授編修。直起居注，充日講官，進講屢稱旨。累遷工部侍郎，仍兼翰林院學士。二十六年，命率郎中鄂素等赴淮、揚濬海口，鑄監修下河工部印授之。在豐疏言開新不如循舊，築高不如就低，迤遠不如取近。施工以岡門鎮為最先，次白駒場，次丁溪場，次草堰。上悉從之，並以在豐請，令輔閉高家堰及高郵諸減水壩。輔仍主築堤束水。上令輔會總督董訥、總漕慕天顏及在豐集議，遂會疏用輔議。在豐監修海口岡門鎮、白駒工已畢，丁溪、草堰工俱停。上以諮成龍，成龍言：「上遣在豐監修下河，萬民歡頌。"
+    }
+  ],
+  "sources": {
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-279": {
+      "title": "清史稿/卷279",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485011",
+      "locator": "qsg-volume-279-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

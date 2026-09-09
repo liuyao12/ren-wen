@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4adb8d22d123b718",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "廉",
+    "given": "泉",
+    "source": "eccp-3636391",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "惠卿",
+        "source": "eccp-3636391"
+      }
+    ],
+    "hao": [
+      {
+        "value": "南湖",
+        "source": "eccp-3636391"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "惠卿"
+    },
+    "romanizations": [
+      {
+        "value": "Lien Ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3636391"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3636391": {
+      "title": "ECCP · 秋瑾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272491",
+      "locator": "eccp-3636391-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

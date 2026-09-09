@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634078",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "廷敬",
+    "source": "eccp-3634078",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "澤州",
+      "source": "qsg-volume-267",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN T'ing-ching 陳廷敬 (T. 子端, H. 說巖 and 午亭), 1639–1712, May, official, was a native of Tse-chou, Shansi. His name was originally Ch'ên Ching, but when he took his chin-shih degree in 1658, it was found that another successful competitor bore exactly the same name.",
+          "source": "eccp-3634078",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳廷敬，初名敬，字子端，山西澤州人。",
+          "source": "qsg-volume-267",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子端",
+        "source": "eccp-3634078"
+      }
+    ],
+    "hao": [
+      {
+        "value": "說巖",
+        "source": "eccp-3634078"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子端"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên T'ing-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3634078"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1639,
+        "source": "eccp-3634078",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1712,
+        "source": "eccp-3634078",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634078",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634078",
+      "passage": "eccp-3634078-001"
+    },
+    {
+      "source": "qsg-volume-267",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-267",
+      "passage": "qsg-volume-267-039",
+      "matchStatus": "proposed",
+      "evidence": "陳廷敬，初名敬，字子端，山西澤州人。順治十五年進士，選庶吉士。是科館選，又有順天通州陳敬，上為加「廷」字以別之。十八年，充會試同考官，尋授秘書院檢討。康熙元年，假歸，四年，補原官。累遷翰林院侍講學士，充日講起居注官。十四年，擢內閣學士，兼禮部侍郎，充經筵講官，改翰林院掌院學士，教習庶吉士。與學士張英日直弘德殿，聖祖器之，與英及掌院學士喇沙裡同賜貂皮五十、表裡緞各二。十七年，命直南書房。丁母憂，遣官慰問，賜茶酒。服除，起故官。二十一年，典會試。滇南平，更定朝會燕饗樂章，命廷敬撰擬，下所司肄習。遷禮"
+    }
+  ],
+  "sources": {
+    "eccp-3634078": {
+      "title": "ECCP · Ch'ên T'ing-ching",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271486",
+      "locator": "eccp-3634078-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639964": {
+      "title": "ECCP · 徐乾學",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282787",
+      "locator": "eccp-3639964-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645483": {
+      "title": "ECCP · 林佶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299414",
+      "locator": "eccp-3645483-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646151": {
+      "title": "ECCP · 馬齊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300570",
+      "locator": "eccp-3646151-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678433": {
+      "title": "ECCP · 禹之鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443722",
+      "locator": "eccp-3678433-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-109",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

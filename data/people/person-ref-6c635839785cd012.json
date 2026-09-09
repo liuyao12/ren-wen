@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6c635839785cd012",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "念祖",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "長樂",
+      "source": "qsg-volume-502",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳念祖，字修園，福建長樂人。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "修園",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研農",
+        "source": "eccp-3639978"
+      },
+      {
+        "value": "玉",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "修園"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Nien-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-041",
+      "matchStatus": "proposed",
+      "evidence": "陳念祖，字修園，福建長樂人。乾隆五十七年舉人。著傷寒金匱淺注，本志聰、錫駒之說，多有發明，世稱善本。嘉慶中，官直隸威縣知縣，有賢聲。值水災，大疫，親施方藥，活人無算。晚歸田，以醫學教授，門弟子甚眾，著書凡十餘種，並行世。"
+    }
+  ],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

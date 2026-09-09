@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4491cfd6648afb6e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "世遠",
+    "source": "eccp-3656400",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "漳浦",
+      "source": "qsg-volume-290",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔡世遠，字聞之，福建漳浦人。",
+          "source": "qsg-volume-290",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聞之",
+        "source": "eccp-3656400"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梁村",
+        "source": "eccp-3656400"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聞之"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Shihyuan",
+        "system": "ECCP spelling",
+        "source": "eccp-3656400"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3656400",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1733,
+        "source": "eccp-3656400",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-290",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-290",
+      "passage": "qsg-volume-290-034",
+      "matchStatus": "proposed",
+      "evidence": "蔡世遠，字聞之，福建漳浦人。父璧，拔貢生，官羅源訓導，有學行，巡撫張伯行延主鼇峰書院，招世遠入使院校訂先儒遺書。"
+    }
+  ],
+  "sources": {
+    "eccp-3656400": {
+      "title": "ECCP · 蔡新",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365189",
+      "locator": "eccp-3656400-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

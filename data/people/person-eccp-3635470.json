@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635470",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "維城",
+    "source": "eccp-3635470",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN Wei-ch'êng 錢維城 (T. 宗磐, 幼安, H. 稼軒, 茶山), 1720–1772, official and artist, was a native of Wu-chin, Kiangsu. Having taken his chü-jên degree at the age of nineteen sui (1738), he was four years later (1742) appointed a secretary in the Grand Secretariat—after passing a special examination.",
+          "source": "eccp-3635470",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "錢維城，字宗盤，江南武進人。",
+          "source": "qsg-volume-305",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "宗磐",
+        "source": "eccp-3635470"
+      },
+      {
+        "value": "幼安",
+        "source": "eccp-3635470"
+      }
+    ],
+    "hao": [
+      {
+        "value": "稼軒",
+        "source": "eccp-3635470"
+      },
+      {
+        "value": "茶山",
+        "source": "eccp-3635470"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "宗磐"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Wei-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3635470"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1720,
+        "source": "eccp-3635470",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3635470",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635470",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635470",
+      "passage": "eccp-3635470-001"
+    },
+    {
+      "source": "qsg-volume-305",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-305",
+      "passage": "qsg-volume-305-042",
+      "matchStatus": "proposed",
+      "evidence": "錢維城，字宗盤，江南武進人。乾隆十年一甲一名進士，授修撰。功令，初入翰林，分習清、漢文。維城習清文，散館列三等。上不懌，曰：「維城豈謂清文不足習耶？」傅恆為之解。命再試漢文，上謂詩有疵，賦尚通順，仍留修撰。是歲即遷右中允，命南書房行走。三遷，再轉為刑部侍郎。疏請申明律例：「事主殺盜賊移屍，有司輒置勿論。本律科移屍罪，反至流徒。請凡殺人律得勿論者，雖移屍仍用本律。殺姦之獄，姦夫拒捕，有司輒用鬥殺律定讞。殺姦殺拒捕者，反重於殺不拒捕者。請用殺拒捕罪人律勿論。」下部議行。三十四年，命偕內閣學士富察善如"
+    }
+  ],
+  "sources": {
+    "eccp-3635470": {
+      "title": "ECCP · Ch'ien Wei-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271418",
+      "locator": "eccp-3635470-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-076",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-059",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

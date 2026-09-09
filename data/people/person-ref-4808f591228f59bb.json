@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4808f591228f59bb",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "祥河",
+    "source": "eccp-3633253",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "婁縣",
+      "source": "qsg-volume-421",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張祥河，字詩舲，江蘇婁縣人。",
+          "source": "qsg-volume-421",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "詩舲",
+        "source": "eccp-3633253"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "詩舲"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Hsiang-ho",
+        "system": "ECCP spelling",
+        "source": "eccp-3633253"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3633253",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3633253",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-421",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-421",
+      "passage": "qsg-volume-421-036",
+      "matchStatus": "proposed",
+      "evidence": "張祥河，字詩舲，江蘇婁縣人。嘉慶二十五年進士，授內閣中書，充軍機章京。遷戶部主事，累轉郎中。道光十一年，出為山東督糧道。十七年，擢河南按察使，以父憂去官。服除，仍授河南按察使，署布政使。二十二年，祥符決口合龍，賜花翎，詔以河南迭被水災，始終克勤其事，予優敘。二十四年，遷廣西布政使，擢陝西巡撫。西安、同州有刀匪擾害閭閻，祥河飭嚴捕百餘人置諸法，詔嘉之。三十年，文宗即位，應詔陳言，請述祖德，守成法，勵官方，蠲民欠。疏入，報聞。祥河優於文事，治尚安靜，不擾民，言者劾其性耽詩酒。"
+    }
+  ],
+  "sources": {
+    "eccp-3633253": {
+      "title": "ECCP · 張照",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271556",
+      "locator": "eccp-3633253-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

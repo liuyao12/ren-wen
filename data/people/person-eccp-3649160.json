@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649160",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "寧",
+    "given": "完我",
+    "source": "eccp-3649160",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "NING Wan-wo 寧完我, d. 1665, Chinese bannerman of the Plain Red Banner, was a native of Liao-tung. Having pledged his allegiance to the Manchus under Nurhaci [q. v.], he served with Sahaliyen [q. v.], third son of Daišan [q. v.], until 1629.",
+          "source": "eccp-3649160",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "寧完我，字公甫，遼陽人。",
+          "source": "qsg-volume-232",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ning Wan-wo",
+        "system": "ECCP spelling",
+        "source": "eccp-3649160"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649160",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649160",
+      "passage": "eccp-3649160-001"
+    },
+    {
+      "source": "qsg-volume-232",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-232",
+      "passage": "qsg-volume-232-039",
+      "matchStatus": "proposed",
+      "evidence": "寧完我，字公甫，遼陽人。天命間來歸，給事貝勒薩哈廉家，隸漢軍正紅旗。天聰三年，太宗聞完我通文史，召令直文館。完我入對，薦所知者與之同升，鮑承先其一也。尋授參將。四年，師克永平，命與達海宣諭安撫。又從攻大凌河及招撫察哈爾，皆有功，授世職備禦。五年七月，初置六部，命儒臣賜號「榜式」得仍舊稱，餘稱「筆帖式」。"
+    }
+  ],
+  "sources": {
+    "eccp-3649160": {
+      "title": "ECCP · Ning Wan-wo",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634062": {
+      "title": "ECCP · 陳名夏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271465",
+      "locator": "eccp-3634062-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674953": {
+      "title": "ECCP · 魏象樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419230",
+      "locator": "eccp-3674953-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

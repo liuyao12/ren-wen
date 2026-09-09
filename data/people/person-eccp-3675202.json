@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675202",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "可讀",
+    "source": "eccp-3675202",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "皋蘭",
+      "source": "qsg-volume-445",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU K'o-tu 吳可讀 (T. 柳堂), 1812–1879, Apr. 25, was a native of Kao-lan (Lanchow), Kansu. He became a chü-jên in 1835 and served as sub-director of schools of Fu-ch'iang, Kansu (1848–50).",
+          "source": "eccp-3675202",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "吳可讀，字柳堂，甘肅皋蘭人。",
+          "source": "qsg-volume-445",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "柳堂",
+        "source": "eccp-3675202"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "柳堂"
+    },
+    "romanizations": [
+      {
+        "value": "Wu K'o-tu",
+        "system": "ECCP spelling",
+        "source": "eccp-3675202"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1812,
+        "source": "eccp-3675202",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1879,
+        "source": "eccp-3675202",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675202",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675202",
+      "passage": "eccp-3675202-001"
+    },
+    {
+      "source": "qsg-volume-445",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-445",
+      "passage": "qsg-volume-445-007",
+      "matchStatus": "proposed",
+      "evidence": "吳可讀，字柳堂，甘肅皋蘭人。初以舉人官伏羌訓導。道光三十年，成進士，授刑部主事。晉員外郎，遭憂去，主講蘭山書院。會撒拉番蠢動，被命佐團練。服闋，起故官。遷吏部郎中，轉御史。各國使臣請覲，議禮久未決，可讀請免拜跪，時論韙之。烏魯木齊提督成祿誣民為逆，擊殺多人，虛飾胜狀，為左宗棠所劾。可讀繼陳其罪有可斬者十，不可緩者五，尋逮問，讞上論斬，廷臣請改監候。可讀憤甚，复疏爭：「請斬成祿以謝甘民，再斬臣以謝成祿。」語過戇直，被訶責，鐫三級。歸，复掌教蘭山。逾年，穆宗崩，德宗纘業，起吏部主事。"
+    }
+  ],
+  "sources": {
+    "eccp-3675202": {
+      "title": "ECCP · Wu K'o-tu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419965",
+      "locator": "eccp-3675202-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633258": {
+      "title": "ECCP · 張之洞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271567",
+      "locator": "eccp-3633258-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639264": {
+      "title": "ECCP · 孝欽顯皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640022": {
+      "title": "ECCP · 黃體芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282942",
+      "locator": "eccp-3640022-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656399": {
+      "title": "ECCP · 載湉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365187",
+      "locator": "eccp-3656399-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-245",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-441": {
+      "title": "清史稿/卷441",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611534",
+      "locator": "qsg-volume-441-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-445": {
+      "title": "清史稿/卷445",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433533",
+      "locator": "qsg-volume-445-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

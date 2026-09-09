@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678435",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "余",
+    "given": "懷",
+    "source": "eccp-3678435",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Huai 余懷 (T. 澹心, 無懷, 曼持, 曼翁, 廣霞), Aug. 25, 1616–1696, July, poet, was a native of P'u-t'ien, Fukien. When the Manchu troops advanced to Nanking in 1645 he was a student of the Imperial Academy in that city.",
+          "source": "eccp-3678435",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "澹心",
+        "source": "eccp-3678435"
+      },
+      {
+        "value": "無懷",
+        "source": "eccp-3678435"
+      },
+      {
+        "value": "曼持",
+        "source": "eccp-3678435"
+      },
+      {
+        "value": "曼翁",
+        "source": "eccp-3678435"
+      },
+      {
+        "value": "廣霞",
+        "source": "eccp-3678435"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "澹心"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Huai",
+        "system": "ECCP spelling",
+        "source": "eccp-3678435"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3678435",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3678435",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678435",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678435",
+      "passage": "eccp-3678435-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678435": {
+      "title": "ECCP · Yü Huai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443729",
+      "locator": "eccp-3678435-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642426": {
+      "title": "ECCP · 龔鼎孳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290530",
+      "locator": "eccp-3642426-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

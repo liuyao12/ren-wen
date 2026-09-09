@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678197",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "尤",
+    "given": "侗",
+    "source": "eccp-3678197",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YU T'ung 尤侗 (T. 同人 and 展成, H. 悔庵 and 艮齋 and 西堂老人), June 16, 1618–1704, July, scholar and calligrapher, was a native of Ch'ang-chou, Kiangsu. In 1648 he was made a pa-kung, or senior licentiate of the first class.",
+          "source": "eccp-3678197",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "尤侗，字展成，長洲人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "同人",
+        "source": "eccp-3678197"
+      }
+    ],
+    "hao": [
+      {
+        "value": "悔庵",
+        "source": "eccp-3678197"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "同人"
+    },
+    "romanizations": [
+      {
+        "value": "Yu T'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678197"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1618,
+        "source": "eccp-3678197",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3678197",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678197",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678197",
+      "passage": "eccp-3678197-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-163",
+      "matchStatus": "proposed",
+      "evidence": "尤侗，字展成，長洲人。少補諸生，以貢謁選。除永平推官，守法不撓。坐撻旗丁鐫級歸。侗天才富贍，詩文多新警之思，雜以諧謔，每一篇出，傳誦遍人口。康熙十八年，試鴻博列二等，授檢討，與修明史。居三年告歸。聖祖南巡至蘇州，侗獻詩頌。上嘉焉，賜御書「鶴棲堂」額，遷侍講。"
+    }
+  ],
+  "sources": {
+    "eccp-3678197": {
+      "title": "ECCP · Yu T'ung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443115",
+      "locator": "eccp-3678197-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656409": {
+      "title": "ECCP · 曹寅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365205",
+      "locator": "eccp-3656409-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678435": {
+      "title": "ECCP · 余懷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443729",
+      "locator": "eccp-3678435-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-163",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

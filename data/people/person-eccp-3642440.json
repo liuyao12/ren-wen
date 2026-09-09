@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642440",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "藍",
+    "given": "鼎元",
+    "source": "eccp-3642440",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "漳浦",
+      "source": "qsg-volume-477",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "藍鼎元，字玉霖，福建漳浦人。",
+          "source": "qsg-volume-477",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉霖",
+        "source": "eccp-3642440"
+      },
+      {
+        "value": "任庵",
+        "source": "eccp-3642440"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鹿洲",
+        "source": "eccp-3642440"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉霖"
+    },
+    "romanizations": [
+      {
+        "value": "Lan Ting-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3642440"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3642440",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1733,
+        "source": "eccp-3642440",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642440",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642440",
+      "passage": "eccp-3642440-001"
+    },
+    {
+      "source": "qsg-volume-477",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-477",
+      "passage": "qsg-volume-477-022",
+      "matchStatus": "proposed",
+      "evidence": "藍鼎元，字玉霖，福建漳浦人。少孤力學，通達治體，嘗泛海考求閩、浙形勢。巡撫張伯行器之，曰：「藍生經世之良材，吾道之羽翼也。」"
+    }
+  ],
+  "sources": {
+    "eccp-3642440": {
+      "title": "ECCP · Lan Ting-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290560",
+      "locator": "eccp-3642440-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636414": {
+      "title": "ECCP · 朱一貴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272545",
+      "locator": "eccp-3636414-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639258",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "侯",
+    "given": "峒曾",
+    "source": "eccp-3639258",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HOU T'ung-tsêng 侯峒曾 (T. 豫瞻, H. 廣成), 1591–1645, Aug. 25, official and martyr to the Ming cause, was a native of Chia-ting, Kiangsu. A chin-shih of 1625, he served in various posts in Kiangsi and Chekiang and was commended as one of the five best local administrators in the empire.",
+          "source": "eccp-3639258",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "豫瞻",
+        "source": "eccp-3639258"
+      }
+    ],
+    "hao": [
+      {
+        "value": "廣成",
+        "source": "eccp-3639258"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "豫瞻"
+    },
+    "romanizations": [
+      {
+        "value": "Hou T'ung-tsêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3639258"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1591,
+        "source": "eccp-3639258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3639258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639258",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639258",
+      "passage": "eccp-3639258-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639258": {
+      "title": "ECCP · Hou T'ung-tsêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280286",
+      "locator": "eccp-3639258-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640006": {
+      "title": "ECCP · 黃淳耀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282888",
+      "locator": "eccp-3640006-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658525": {
+      "title": "ECCP · 左懋第",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370037",
+      "locator": "eccp-3658525-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678148": {
+      "title": "ECCP · 閻應元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442960",
+      "locator": "eccp-3678148-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

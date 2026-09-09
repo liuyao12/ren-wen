@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0e9c46618355265e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "化龍",
+    "source": "eccp-3672740",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "齊東",
+      "source": "qsg-volume-334",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李化龍，山東齊東人。",
+          "source": "qsg-volume-334",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "于田",
+        "source": "eccp-3672740"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "于田"
+    },
+    "romanizations": [
+      {
+        "value": "Li Hua-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3672740"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1554,
+        "source": "eccp-3672740",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3672740",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-334",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-334",
+      "passage": "qsg-volume-334-044",
+      "matchStatus": "proposed",
+      "evidence": "李化龍，山東齊東人。自武進士授藍翎侍衛，擢貴州銅仁協都司。從大學士傅恆討緬甸，師次老官屯，化龍以大砲殺賊。乾隆三十七年，又從將軍溫福討金川，克固卜濟、瑪爾迪克諸碉卡。嗣進攻路頂宗、明郭宗等處，化龍皆力戰有功。明年三月，師次昔嶺，化龍射賊渠殪。徵小金川，克阿噶爾布里、別斯滿諸地。從都統海蘭察克兜烏山梁，复連克路頂宗、明郭宗諸地，旋收美諾。徵大金川，從海蘭察攻克喇穆喇穆諸地，被石傷，賜綿甲。先後攻克遜克爾宗、格魯古、群尼、木思工噶克諸地山梁，被槍傷，賜孔雀翎。金川平，累遷廣東左翼總兵。林爽文為亂，率"
+    }
+  ],
+  "sources": {
+    "eccp-3672740": {
+      "title": "ECCP · 王象乾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412306",
+      "locator": "eccp-3672740-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

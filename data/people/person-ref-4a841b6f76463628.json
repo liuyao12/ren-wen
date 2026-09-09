@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4a841b6f76463628",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "文韶",
+    "source": "eccp-3633288",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "仁和",
+      "source": "qsg-volume-437",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王文韶，字夔石，浙江仁和人。",
+          "source": "qsg-volume-437",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "夔石",
+        "source": "eccp-3633288"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耕娛",
+        "source": "eccp-3633288"
+      },
+      {
+        "value": "退圃",
+        "source": "eccp-3633288"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "夔石"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Wên-shao",
+        "system": "ECCP spelling",
+        "source": "eccp-3633288"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1830,
+        "source": "eccp-3633288",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3633288",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-437",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-437",
+      "passage": "qsg-volume-437-012",
+      "matchStatus": "proposed",
+      "evidence": "王文韶，字夔石，浙江仁和人。咸豐二年進士，銓戶部主事。累遷郎中，出為湖北安襄鄖荊道。左宗棠、李鴻章皆薦其才。擢按察使，遷湖南布政使。同治十年，署巡撫。黔苗亂熾，桂東淪寇域。文韶條上援黔、防境機宜，以兵事屬按察使席寶田，督其部將蘇元春、龔繼昌等進剿，斬首逆張秀眉烏鴉坡，黔境平。文韶繪苗疆要塞圖，上之朝。十一年，除真。寧遠莠民倡亂，耒陽硃鴻英复妄稱明裔構眾，先後檄道員陳寶箴討平之。光緒元年，遣總兵謝晉鈞平新化、衡、永土寇。撫湘六年，內治稱靜謐焉。入權兵部侍郎，直軍機。會歲旱，各省籥災，中旨罪己。文韶"
+    }
+  ],
+  "sources": {
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-437": {
+      "title": "清史稿/卷437",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2592002",
+      "locator": "qsg-volume-437-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

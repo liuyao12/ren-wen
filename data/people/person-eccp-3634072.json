@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634072",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "壽祺",
+    "source": "eccp-3634072",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Shou-ch'i 陳壽祺 (T. 恭甫, H. 梅修, 左海, 隱屏山人), Apr. 1, 1771–1834, Mar. 29, scholar, was a native of Foochow, Fukien. His grandfather, Ch'ên Ch'i-lung 陳起龍 (T. 武桓, 1725–1804), was a scholar.",
+          "source": "eccp-3634072",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳壽祺，字恭甫，閩縣人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "恭甫",
+        "source": "eccp-3634072"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梅修",
+        "source": "eccp-3634072"
+      },
+      {
+        "value": "左海",
+        "source": "eccp-3634072"
+      },
+      {
+        "value": "隱屏山人",
+        "source": "eccp-3634072"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "恭甫"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Shou-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3634072"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3634072",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3634072",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634072",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634072",
+      "passage": "eccp-3634072-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-028",
+      "matchStatus": "proposed",
+      "evidence": "陳壽祺，字恭甫，閩縣人。少能文。年十八，臺灣平，撰上福康安百韻詩并序，沉博絶麗，傳誦一時。嘉慶四年成進士，選翰林院庶吉士，散館授編修。尋告歸，性至孝，不忍言仕，家貧無食，父命之入都。九年，充廣東鄕試副考官。十二年，充河南鄕試副考官。十四年，充會試同考官，京察一等，記名御史。壽祺以不得迎養二親，常愀然不樂。將告歸矣，俄聞父歿，慟幾絶，奔歸。服除，乞養母，母歿，終喪。年五十三，有密薦於朝者，卒不出。"
+    }
+  ],
+  "sources": {
+    "eccp-3634072": {
+      "title": "ECCP · Ch'ên Shou-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634059": {
+      "title": "ECCP · 陳夢雷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271466",
+      "locator": "eccp-3634059-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639180": {
+      "title": "ECCP · 馮登府",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280162",
+      "locator": "eccp-3639180-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640020": {
+      "title": "ECCP · 黃道周",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282934",
+      "locator": "eccp-3640020-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649095": {
+      "title": "ECCP · 孟超然",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317645",
+      "locator": "eccp-3649095-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649312": {
+      "title": "ECCP · 潘振承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318029",
+      "locator": "eccp-3649312-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-072",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-129",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3c3cebf65134008b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "宗漢",
+    "source": "eccp-3639247",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "晉江",
+      "source": "qsg-volume-394",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃宗漢，字壽臣，福建晉江人。",
+          "source": "qsg-volume-394",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "壽臣",
+        "source": "eccp-3639247"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽臣"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Tsung-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3639247"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-394",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-394",
+      "passage": "qsg-volume-394-016",
+      "matchStatus": "proposed",
+      "evidence": "黃宗漢，字壽臣，福建晉江人。道光十五年進士，選庶吉士。散館改兵部主事，充軍機章京。歷員外郎、郎中，遷御史、給事中。二十五年，出為廣東督糧道，調雷瓊道，歷山東、浙江按察使。咸豐初，巡撫吳文鎔薦宗漢可重用，遷甘肅布政使。二年，擢雲南巡撫，未之任，調浙江。值試辦海運，湖郡漕船淺滯，改留變價，虧銀三十餘萬兩，布政使椿壽情急自縊。宗漢疏請原米隨新漕運京，允之。"
+    }
+  ],
+  "sources": {
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-394": {
+      "title": "清史稿/卷394",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079383",
+      "locator": "qsg-volume-394-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

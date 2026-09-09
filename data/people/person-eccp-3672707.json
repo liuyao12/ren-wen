@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672707",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "斯選",
+    "source": "eccp-3672707",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN Ssŭ-hsüan 萬斯選 (T. 公擇, H. 白雲先生), July 9, 1629–1694, Sept. 28, scholar, native of Yin-hsien, Chekiang, was the fifth son of Wan T'ai [q. v.] and a pupil of Huang Tsung-hsi [q. v.].",
+          "source": "eccp-3672707",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "公擇",
+        "source": "eccp-3672707"
+      }
+    ],
+    "hao": [
+      {
+        "value": "白雲先生",
+        "source": "eccp-3672707"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "公擇"
+    },
+    "romanizations": [
+      {
+        "value": "Wan Ssŭ-hsüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3672707"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1629,
+        "source": "eccp-3672707",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1694,
+        "source": "eccp-3672707",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672707",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672707",
+      "passage": "eccp-3672707-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672707": {
+      "title": "ECCP · Wan Ssŭ-hsüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412224",
+      "locator": "eccp-3672707-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672713": {
+      "title": "ECCP · 萬泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412257",
+      "locator": "eccp-3672713-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

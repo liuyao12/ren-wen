@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649163",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "牛",
+    "given": "運震",
+    "source": "eccp-3649163",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "滋陽",
+      "source": "qsg-volume-477",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "NIU Yün-chên 牛運震 (T. 階平, H. 眞谷 and 空山), Dec. 11, 1706–1758, Mar. 1, scholar, educator and administrator, was a native of Tzŭ-yang, Shantung. His father, Niu Mêng-jui 牛夢瑞 (T. 思然, H. 松亭), a senior licentiate (pa-kung) of 1723, lived to an advanced age and survived his son.",
+          "source": "eccp-3649163",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "牛運震，字階平，山東滋陽人。",
+          "source": "qsg-volume-477",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "階平",
+        "source": "eccp-3649163"
+      }
+    ],
+    "hao": [
+      {
+        "value": "眞谷",
+        "source": "eccp-3649163"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "階平"
+    },
+    "romanizations": [
+      {
+        "value": "Niu Yün-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649163"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1706,
+        "source": "eccp-3649163",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1758,
+        "source": "eccp-3649163",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649163",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649163",
+      "passage": "eccp-3649163-001"
+    },
+    {
+      "source": "qsg-volume-477",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-477",
+      "passage": "qsg-volume-477-062",
+      "matchStatus": "proposed",
+      "evidence": "牛運震，字階平，山東滋陽人。雍正十一年進士。乾隆元年，召試博學鴻詞，不遇。尋授甘肅秦安知縣，開九渠，溉田萬畝。縣北玉鍾峽山崩塞河，水溢為災。運震率丁夫開濬，凡四日夜，水退。緣山步行，以錢米給災戶。縣聚曰西固，去治二百餘裡，輸糧苦運艱，多積逋。運震許以銀代納，民便之。先是巡檢某誣馬得才兄弟五人為盜，前令弗察，得才自刎死。其兄馬都上控，令又誘而斃之獄。其三人者將解府，運震鞫得其情，昭雪之。又清水縣某令冤武生杜其陶父子謀殺罪，上官檄運震覆治，驗死者得自刎狀，以移屍罪其陶而釋其子。他訟獄多所平反。"
+    }
+  ],
+  "sources": {
+    "eccp-3649163": {
+      "title": "ECCP · Niu Yün-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317767",
+      "locator": "eccp-3649163-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-062",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

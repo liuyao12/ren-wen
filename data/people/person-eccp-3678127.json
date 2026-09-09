@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678127",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "方藹",
+    "source": "eccp-3678127",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEH Fang-ai 葉方藹 (T. 子吉, H. 訒菴) May 20, 1629–1682, June 3, official, was a native of K'un-shan, Kiangsu. His father, Yeh Ch'ung-hua 葉重華 (T. 德元), was a chin-shih of 1628 who held various posts in Shantung and Kwangtung during the closing years of the Ming dynasty.",
+          "source": "eccp-3678127",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "葉方藹，字子吉，江南崑山人。",
+          "source": "qsg-volume-266",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子吉",
+        "source": "eccp-3678127"
+      }
+    ],
+    "hao": [
+      {
+        "value": "訒菴",
+        "source": "eccp-3678127"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子吉"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Fang-ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3678127"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1629,
+        "source": "eccp-3678127",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3678127",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678127",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678127",
+      "passage": "eccp-3678127-001"
+    },
+    {
+      "source": "qsg-volume-266",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-266",
+      "passage": "qsg-volume-266-006",
+      "matchStatus": "proposed",
+      "evidence": "葉方藹，字子吉，江南崑山人。順治十六年一甲三名進士，授編修。江南奏銷案起，坐奪官。尋授上林苑蕃育署丞。事白，還故官。康熙十二年，充日講起居注官。十四年，遷國子監司業，再遷侍講。宴瀛台，群臣皆進詩賦，方藹制八箴以獻，上甚悅，命撰太極圖論以進，賜貂裘、文綺。十五年，遷左庶子，再遷侍講學士。十六年，命充孝經衍義總裁，進講通鑑。上問：「諸葛亮何如伊尹？」方藹對曰：「伊尹聖人，可比孔子；諸葛亮大賢，可比顏淵。」上首肯。講中庸，上問：「知行孰重？」對曰：「宋臣硃熹之說，以次序言，則知先行後；以功夫言，則知輕"
+    }
+  ],
+  "sources": {
+    "eccp-3678127": {
+      "title": "ECCP · Yeh Fang-ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442924",
+      "locator": "eccp-3678127-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635468": {
+      "title": "ECCP · 錢曾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271416",
+      "locator": "eccp-3635468-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633491": {
+      "title": "ECCP · 張玉書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271679",
+      "locator": "eccp-3633491-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635436": {
+      "title": "ECCP · 姜宸英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271707",
+      "locator": "eccp-3635436-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635478": {
+      "title": "ECCP · 金人瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271745",
+      "locator": "eccp-3635478-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639962": {
+      "title": "ECCP · 熊賜履",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282783",
+      "locator": "eccp-3639962-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639984": {
+      "title": "ECCP · 徐元文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282843",
+      "locator": "eccp-3639984-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649386": {
+      "title": "ECCP · 邵長蘅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318167",
+      "locator": "eccp-3649386-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672764": {
+      "title": "ECCP · 汪琬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412345",
+      "locator": "eccp-3672764-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675189": {
+      "title": "ECCP · 吳正治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419945",
+      "locator": "eccp-3675189-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678062": {
+      "title": "ECCP · 吳偉業",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442376",
+      "locator": "eccp-3678062-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678131": {
+      "title": "ECCP · 葉映榴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442929",
+      "locator": "eccp-3678131-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

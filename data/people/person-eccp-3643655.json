@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643655",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "勵",
+    "given": "廷儀",
+    "source": "eccp-3643655",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI T'ing-i 勵廷儀 (T. 令式, H. 南湖), 1669–1732, July, official, was a native of Ching-hai, Chihli. Like his father, Li Tu-no [q. v.], he was an accomplished calligrapher. Made a chin-shih in 1700 with the rank of Hanlin bachelor, he was appointed two years later to the Imperial Study, and in 1704 was made a Hanlin compiler.",
+          "source": "eccp-3643655",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "令式",
+        "source": "eccp-3643655"
+      }
+    ],
+    "hao": [
+      {
+        "value": "南湖",
+        "source": "eccp-3643655"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "令式"
+    },
+    "romanizations": [
+      {
+        "value": "Li T'ing-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3643655"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1669,
+        "source": "eccp-3643655",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1732,
+        "source": "eccp-3643655",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643655",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643655",
+      "passage": "eccp-3643655-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643655": {
+      "title": "ECCP · Li T'ing-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496598",
+      "locator": "eccp-3643655-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643657": {
+      "title": "ECCP · 勵宗萬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496594",
+      "locator": "eccp-3643657-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643659": {
+      "title": "ECCP · 勵杜訥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496599",
+      "locator": "eccp-3643659-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

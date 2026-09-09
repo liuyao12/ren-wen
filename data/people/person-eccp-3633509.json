@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633509",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "士麟",
+    "source": "eccp-3633509",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "河陽",
+      "source": "qsg-volume-275",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHAO Shih-lin 趙士麟 (T. 麟伯, H. 玉峯), Apr. 30, 1629–1699, June 5, official, was a native of Ho-yang, Yunnan. He became a chin-shih in 1664 and thereupon was made police magistrate of P'ing-yüan, Kweichow.",
+          "source": "eccp-3633509",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "趙士麟，字麟伯，雲南河陽人。",
+          "source": "qsg-volume-275",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "麟伯",
+        "source": "eccp-3633509"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玉峯",
+        "source": "eccp-3633509"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "麟伯"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Shih-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3633509"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1629,
+        "source": "eccp-3633509",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3633509",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633509",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633509",
+      "passage": "eccp-3633509-001"
+    },
+    {
+      "source": "qsg-volume-275",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-275",
+      "passage": "qsg-volume-275-011",
+      "matchStatus": "proposed",
+      "evidence": "趙士麟，字麟伯，雲南河陽人。康熙三年進士，授貴州平遠推官。改直隸容城知縣，緝盜衛民，創正學書院，與諸生講學。行取，授吏部主事。歷郎中，擢光祿寺少卿，三遷至左副都御史。疏請台灣改郡縣比內地，設總兵鎮守，省沿海之戍卒，詔報可。"
+    }
+  ],
+  "sources": {
+    "eccp-3633509": {
+      "title": "ECCP · Chao Shih-lin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271697",
+      "locator": "eccp-3633509-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3646157": {
+      "title": "ECCP · 毛奇齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300580",
+      "locator": "eccp-3646157-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-275": {
+      "title": "清史稿/卷275",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163015",
+      "locator": "qsg-volume-275-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

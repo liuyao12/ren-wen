@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672737",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "熙",
+    "source": "eccp-3672737",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宛平",
+      "source": "qsg-volume-250",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hsi 王熙 (T. 子雍 and 胥庭, H. 慕齋), Aug. 7, 1628–1703, Mar. 14, official, eldest son of Wang Ch'ung-chien [q. v.], was a native of Wan-p'ing (Peking). Taking his chin-shih in 1647 at the age of nineteen, he was made a bachelor of the Kuo-shih yüan 國史院 to where he was taught the Manchu language.",
+          "source": "eccp-3672737",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王熙，字子雍，順天宛平人。",
+          "source": "qsg-volume-250",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子雍",
+        "source": "eccp-3672737"
+      }
+    ],
+    "hao": [
+      {
+        "value": "慕齋",
+        "source": "eccp-3672737"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子雍"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3672737"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1628,
+        "source": "eccp-3672737",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1703,
+        "source": "eccp-3672737",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672737",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672737",
+      "passage": "eccp-3672737-001"
+    },
+    {
+      "source": "qsg-volume-250",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-250",
+      "passage": "qsg-volume-250-030",
+      "matchStatus": "proposed",
+      "evidence": "王熙，字子雍，順天宛平人。父崇簡，明崇禎十六年進士。順治三年，以順天學政曹溶薦，補選庶吉士，授檢討。累遷禮部尚書，加太子少保。嘗疏請賜血卩明季殉難範景文、蔡懋德等二十八人，又議帝王廟罷宋臣潘美、張浚從祀，北岳移祀渾源，皆用其議。十八年，引疾解職。康熙十七年，卒，諡文貞。"
+    }
+  ],
+  "sources": {
+    "eccp-3672737": {
+      "title": "ECCP · Wang Hsi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412300",
+      "locator": "eccp-3672737-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633255": {
+      "title": "ECCP · 張琦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633277": {
+      "title": "ECCP · 張然",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271614",
+      "locator": "eccp-3633277-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672728": {
+      "title": "ECCP · 王崇簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-078",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-144",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

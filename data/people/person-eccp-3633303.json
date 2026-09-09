@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633303",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "章",
+    "given": "宗源",
+    "source": "eccp-3633303",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Tsung-yüan 章宗源 (T. 逢之), 1752?–1800, scholar, was a native of Shan-yin, Chekiang, and a distant relative of Chang Hsüeh-ch'êng [q. v.]. His family, once well-to-do, met reverses of fortune during his grandfather's time, chiefly owing to a disastrous tidal wave.",
+          "source": "eccp-3633303",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "章宗源，字逢之。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "逢之",
+        "source": "eccp-3633303"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "逢之"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Tsung-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633303"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1752,
+        "source": "eccp-3633303",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1800,
+        "source": "eccp-3633303",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633303",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633303",
+      "passage": "eccp-3633303-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-187",
+      "matchStatus": "proposed",
+      "evidence": "章宗源，字逢之。乾隆五十一年，大興籍舉人，其祖籍亦浙江也。嘗輯錄唐、宋以來亡佚古書，欲撰隋書經籍志考證，積十餘年始成。稿為仇家所焚，僅存史部五卷。"
+    }
+  ],
+  "sources": {
+    "eccp-3633303": {
+      "title": "ECCP · Chang Tsung-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-187",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

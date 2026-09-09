@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d7b0d4b9e284d1c9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄧",
+    "given": "顯鶴",
+    "source": "eccp-3658527",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄧顯鶴，字子立，新化人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子立",
+        "source": "eccp-3658527"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湘皋",
+        "source": "eccp-3658527"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子立"
+    },
+    "romanizations": [
+      {
+        "value": "Têng Hsien-ho",
+        "system": "ECCP spelling",
+        "source": "eccp-3658527"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1777,
+        "source": "eccp-3658527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1851,
+        "source": "eccp-3658527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-027",
+      "matchStatus": "proposed",
+      "evidence": "鄧顯鶴，字子立，新化人。少與同里歐陽紹洛以詩相勵，遊客四方，所至傾動。嘉慶九年舉人。厭薄仕進，一以篡著為事，系楚南文獻者三十年，學者稱之曰湘皋先生。內行修，事兄白首無間，撫其子勤於己子。尤篤於師友風義。嘗以為洞庭以南，服嶺以北，屈原、賈誼傷心之地也，歷代通人志士相望，而文字湮鬱不宣。乃從事搜討，每得貞烈遺行於殘簡斷冊中，為之驚喜狂拜，汲汲彰顯，若大譴隨其後。凡所著有資江耆舊集、沅湘耆舊集、楚寶增輯考異、武岡志、寶慶志、朱子五忠祠傳略及續傳、明季湖南殉節傳略。又易述、毛詩表、南村草堂詩文集，共數百"
+    }
+  ],
+  "sources": {
+    "eccp-3658527": {
+      "title": "ECCP · 鄒漢勖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370042",
+      "locator": "eccp-3658527-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

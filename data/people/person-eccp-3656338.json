@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656338",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "戴",
+    "given": "名世",
+    "source": "eccp-3656338",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TAI Ming-shih 戴名世 (T. 田有, 褐夫, H. 藥身, 憂庵, 南山), Apr. 15, 1653–1713, Mar. 3?, scholar, was a native of T'ung-ch'êng, Anhwei, the eldest son of Tai Shih 戴碩 (1633–1680). From the time he was nineteen he taught in the local schools, and in 1680 became a licentiate.",
+          "source": "eccp-3656338",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "戴名世，字田有，桐城人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "田有",
+        "source": "eccp-3656338"
+      },
+      {
+        "value": "褐夫",
+        "source": "eccp-3656338"
+      }
+    ],
+    "hao": [
+      {
+        "value": "藥身",
+        "source": "eccp-3656338"
+      },
+      {
+        "value": "憂庵",
+        "source": "eccp-3656338"
+      },
+      {
+        "value": "南山",
+        "source": "eccp-3656338"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "田有"
+    },
+    "romanizations": [
+      {
+        "value": "Tai Ming-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3656338"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1653,
+        "source": "eccp-3656338",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1713,
+        "source": "eccp-3656338",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656338",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656338",
+      "passage": "eccp-3656338-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-346",
+      "matchStatus": "proposed",
+      "evidence": "戴名世，字田有，桐城人。生而才辨雋逸，課徒自給。以製舉業發名廩生，考得貢，補正藍旗教習。授知縣，棄去。自是往來燕、趙、齊、魯、河、洛、吳、越之間，賣文為活。喜讀太史公書，考求前代奇節瑋行。時時著文以自抒湮鬱，氣逸發不可控禦。諸公貴人畏其口，尤忌嫉之。嘗遇方苞京師，言曰：「吾非役役求有得於時也，吾胸中有書數百卷，其出也，自忖將有異於人人。然非屏居深山，足衣食，使身無所累，未能誘而出之也。」因太息別去。康熙四十八年，年五十七，始中式會試第一，殿試一甲二名及第，授編修。又二年而南山集禍作。"
+    }
+  ],
+  "sources": {
+    "eccp-3656338": {
+      "title": "ECCP · Tai Ming-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633283": {
+      "title": "ECCP · 張漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278371",
+      "locator": "eccp-3633283-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633508": {
+      "title": "ECCP · 趙申喬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271698",
+      "locator": "eccp-3633508-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637597": {
+      "title": "ECCP · 方觀承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275792",
+      "locator": "eccp-3637597-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654362": {
+      "title": "ECCP · 史可法",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358423",
+      "locator": "eccp-3654362-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672741": {
+      "title": "ECCP · 王象晉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412308",
+      "locator": "eccp-3672741-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-278": {
+      "title": "清史稿/卷278",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162667",
+      "locator": "qsg-volume-278-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-346",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

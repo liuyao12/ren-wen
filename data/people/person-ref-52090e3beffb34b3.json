@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-52090e3beffb34b3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "國魁",
+    "source": "eccp-3634149",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-416",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄭國魁，安徽合肥人。",
+          "source": "qsg-volume-416",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chêng Kuo-k'uei",
+        "system": "ECCP spelling",
+        "source": "eccp-3634149"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-416",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-416",
+      "passage": "qsg-volume-416-017",
+      "matchStatus": "proposed",
+      "evidence": "鄭國魁，安徽合肥人。咸豐十年，兩江總督何桂清令募勇屯無錫高橋，桂清棄軍走，國魁從提督曾秉忠於上海。初李鴻章督師江蘇，檄領親兵水師後營，四江口、崑山、寶帶橋諸戰，功皆最，累擢至副將。蘇州既合圍，郜雲官與譚紹光不協，國魁遣人說之降，從程學啟會雲官，許雲官等二品武職，折箭誓不殺降，雲官如約獻城。國魁先往宣諭，次日，大軍始入。既而云官等駢誅，國魁涕泣不食，自謂負約，辭不居功，仍以總兵記名，賜號勃勇巴圖魯。從克嘉興、江陰、常州，予一品封典。同治五年，從剿東捻，駐防山東嶧縣。捻平，以提督記名。光緒中，署天津"
+    }
+  ],
+  "sources": {
+    "eccp-3634149": {
+      "title": "ECCP · 程學啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271518",
+      "locator": "eccp-3634149-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-416": {
+      "title": "清史稿/卷416",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2651422",
+      "locator": "qsg-volume-416-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635472",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "志銳",
+    "source": "eccp-3635472",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIH-jui 志銳 (T. 伯愚, H. 公顈, 廓軒, 迂安), 1852–1912, Jan. 7, civil and military official, was a member of the Tatala (他塔剌) clan and of the Manchu Bordered Red Banner. His grandfather, Yü-t'ai 裕泰 (T. 東巖, H. 餘山, posthumous name 莊𣪣, 1788–1851), had a long and brilliant career as governor of Hunan (1836–37 and 1838–41) and as governor-general of Hu-Kuang (1841–51).",
+          "source": "eccp-3635472",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯愚",
+        "source": "eccp-3635472"
+      }
+    ],
+    "hao": [
+      {
+        "value": "公顈",
+        "source": "eccp-3635472"
+      },
+      {
+        "value": "廓軒",
+        "source": "eccp-3635472"
+      },
+      {
+        "value": "迂安",
+        "source": "eccp-3635472"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯愚"
+    },
+    "romanizations": [
+      {
+        "value": "Chih-jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3635472"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1852,
+        "source": "eccp-3635472",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1912,
+        "source": "eccp-3635472",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635472",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635472",
+      "passage": "eccp-3635472-001"
+    },
+    {
+      "source": "qsg-volume-470",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-470",
+      "passage": "qsg-volume-470-009",
+      "matchStatus": "proposed",
+      "evidence": "志銳，字公穎，他塔拉氏，世居扎庫木，隸滿洲正紅旗，陝甘總督裕泰孫。父長敬，四川綏定府知府。志銳幼穎異，光緒六年成進士，選庶吉士，授編修。與黃體芳、盛昱輩相勵以風節，數上書言事。累遷詹事，擢禮部右侍郎。中東事起，上疏畫戰守策累萬言。慮陪都警，自請募勇設防，稱旨，命赴熱河練兵。未踰月，以其妹瑾、珍兩妃貶貴人，降授烏里雅蘇台參贊大臣，釋兵柄。遂迂道出張家口，策馬逾天山西絕幕。所迳台站，輒週諮山川、風俗、宗教，箸詩記事。居數年，將軍長庚令赴邊外釐中俄積案，凡六閱月，結千餘起。前後五上疏籌西北防務，發強鄰"
+    }
+  ],
+  "sources": {
+    "eccp-3635472": {
+      "title": "ECCP · Chih-jui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271738",
+      "locator": "eccp-3635472-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639981": {
+      "title": "ECCP · 許宗彥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282837",
+      "locator": "eccp-3639981-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656399": {
+      "title": "ECCP · 載湉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365187",
+      "locator": "eccp-3656399-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675180": {
+      "title": "ECCP · 文廷式",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419930",
+      "locator": "eccp-3675180-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678432": {
+      "title": "ECCP · 裕謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443721",
+      "locator": "eccp-3678432-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-470": {
+      "title": "清史稿/卷470",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621222",
+      "locator": "qsg-volume-470-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-496": {
+      "title": "清史稿/卷496",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542421",
+      "locator": "qsg-volume-496-121",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

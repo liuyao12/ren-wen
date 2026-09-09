@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678477",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惲",
+    "given": "格",
+    "source": "eccp-3678477",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "惲格，字壽平，後以字行，改字正叔，號南田，江南武進人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "壽平",
+        "source": "eccp-3678482"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽平"
+    },
+    "romanizations": [
+      {
+        "value": "Yün Ko",
+        "system": "ECCP spelling",
+        "source": "eccp-3678477"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678477",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3678477",
+      "passage": "eccp-3678477-001"
+    },
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-035",
+      "matchStatus": "proposed",
+      "evidence": "惲格，字壽平，後以字行，改字正叔，號南田，江南武進人。父日初，見隱逸傳。格年十三，從父至閩。時王祈起兵建寧，日初依之。總督陳錦兵克建寧，格被掠，錦妻撫以為子。從遊杭州靈隱寺，日初偵遇之，紿使出家為僧，乃得歸。格以父忠於明，不應舉，擅詩名，鬻畫養父。畫出天性，山水學元王蒙。既與王翬交，曰：「君獨步矣！吾不為第二手。」遂兼用徐熙、黃筌法作花鳥，天機物趣，畢集豪端，比之天仙化人。畫成，輒自題詠書之，世號「南田三絕」。雖自專意寫生，間作山水，皆超逸，得元人冷淡幽雋之致。王時敏聞其名，招之，不時至。至，則"
+    }
+  ],
+  "sources": {
+    "eccp-3678477": {
+      "title": "ECCP · Yün Ko",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443823",
+      "locator": "eccp-3678477-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

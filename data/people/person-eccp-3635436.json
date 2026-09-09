@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635436",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姜",
+    "given": "宸英",
+    "source": "eccp-3635436",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIANG Ch'ên-ying 姜宸英 (T. 西溟, H. 湛園), 1628–1699, scholar and author, was a native of Tz'ŭ-ch'i, Chekiang, and a great-grandson of Chiang Ying-lin 姜應麟 (chin-shih of 1583, d. 1630), one of the first metropolitan censors to memorialize the throne in protest against alleged mistreatment of the heir-apparent, Chu Ch'ang-lo [q. v.].",
+          "source": "eccp-3635436",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "姜宸英，字西溟，慈谿人，明太常卿應麟曾孫。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "西溟",
+        "source": "eccp-3635436"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湛園",
+        "source": "eccp-3635436"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "西溟"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Ch'ên-ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3635436"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1628,
+        "source": "eccp-3635436",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3635436",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635436",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635436",
+      "passage": "eccp-3635436-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-280",
+      "matchStatus": "proposed",
+      "evidence": "姜宸英，字西溟，慈谿人，明太常卿應麟曾孫。父晉珪，諸生，以孝聞。宸英績學工文辭，閎博雅健。屢躓於有司，而名達禁中。聖祖目宸英及朱彝尊、嚴繩孫為海內三布衣。侍讀學士葉方靄薦應鴻博，後期而罷。方藹總裁明史，又薦充纂修，食七品俸，分撰刑法志。極言明詔獄，廷杖，立枷，東、西廠之害，辭甚愷至。尚書徐乾學領一統志事，設局洞庭東山，疏請宸英偕行。久之，舉順天鄉試。三十六年，成進士。廷對李蟠第一，嚴虞惇第二，帝識宸英手書，親拔置第三人及第，授編修，年七十矣。明年，副蟠典試順天，蟠被劾遣戍，宸英亦連坐。事未白，卒"
+    }
+  ],
+  "sources": {
+    "eccp-3635436": {
+      "title": "ECCP · Chiang Ch'ên-ying",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271707",
+      "locator": "eccp-3635436-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-179",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-280",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

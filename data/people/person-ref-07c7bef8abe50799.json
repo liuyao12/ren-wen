@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-07c7bef8abe50799",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "揭",
+    "given": "暄",
+    "source": "eccp-3637596",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "揭暄，字子宣，廣昌人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子宣",
+        "source": "eccp-3637596"
+      }
+    ],
+    "hao": [
+      {
+        "value": "韋綸",
+        "source": "eccp-3637596"
+      },
+      {
+        "value": "半齋",
+        "source": "eccp-3637596"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子宣"
+    },
+    "romanizations": [
+      {
+        "value": "Chieh Hsüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3637596"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-025",
+      "matchStatus": "proposed",
+      "evidence": "揭暄，字子宣，廣昌人。著璇璣遺述七卷，一名寫天新語。論日月東行如槽之滾丸，而月質不變。又謂七政之小輪。皆出自然，如盤水之運旋而周遭，以行疾而成旋渦，遂成留逆。於五星西行，日月盈縮，皆設譬多方，言之近理。康熙己巳，以草稿寄梅文鼎，抄其精語為一卷，稱其『深明西術，而又別有悟入，其言多古今所未發』。卒年逾八十。"
+    }
+  ],
+  "sources": {
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

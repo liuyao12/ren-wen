@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633517",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "奇瑜",
+    "source": "eccp-3633517",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Ch'i-yü 陳奇瑜 (T. 玉鉉, H. 正學), d. 1648, Ming official, was a native of Pao-tê-chou, Shansi. A chin-shih of 1616, he was appointed magistrate of Loyang, Honan. He was promoted to a censor and memorialized against the eunuch, Wei Chung-hsien [q. v.].",
+          "source": "eccp-3633517",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉鉉",
+        "source": "eccp-3633517"
+      }
+    ],
+    "hao": [
+      {
+        "value": "正學",
+        "source": "eccp-3633517"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉鉉"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Ch'i-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3633517"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633517",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633517",
+      "passage": "eccp-3633517-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633517": {
+      "title": "ECCP · Ch'ên Ch'i-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271422",
+      "locator": "eccp-3633517-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643661": {
+      "title": "ECCP · 李自成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294905",
+      "locator": "eccp-3643661-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

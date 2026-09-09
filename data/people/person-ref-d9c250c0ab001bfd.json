@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d9c250c0ab001bfd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "永清",
+    "source": "eccp-3654402",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫永清，字宏度，江南金匱人。",
+          "source": "qsg-volume-332",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "宏度",
+        "source": "eccp-3654402"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "宏度"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Yung-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3654402"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-332",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-332",
+      "passage": "qsg-volume-332-043",
+      "matchStatus": "proposed",
+      "evidence": "孫永清，字宏度，江南金匱人。乾隆三十三年舉人，授內閣中書。永清未入官，嘗佐廣東布政使胡文伯幕。土司以爭襲相訐，驗文牒皆明印，大吏欲以私造符信罪之。永清具稿請文伯力陳，得免者二百餘人。旋充軍機處章京，撰擬精當，事至輒倚以辦。遷侍讀。四十二年，雲南總督圖思德奏緬甸將遣使入貢，上遣大學士阿桂往蒞，以永清從。緬甸使不至，阿桂令永清撰檄諭之，送所留守備蘇爾相還。四十四年，授刑部郎中。考選江西道監察御史。四十五年，超授左副都御史。授貴州布政使。奏言柞子廠產黑鉛，課餘三十餘萬斤，請以十萬斤運廣。四十九年，署巡"
+    }
+  ],
+  "sources": {
+    "eccp-3654402": {
+      "title": "ECCP · 孫士毅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358540",
+      "locator": "eccp-3654402-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658536",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "杜",
+    "given": "受田",
+    "source": "eccp-3658536",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濱州",
+      "source": "qsg-volume-385",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TU Shou-t'ien 杜受田 (T. 芝農), 1787–1852, Aug. 23, official, was a native of Pin-chou, Shantung. His father, Tu Ê 杜堮 (T. 次崖, H. 石樵, posthumous name 文端, d. 1858, age 95 sui), was a chin-shih of 1801 who served as a vice-president of the Board of War (1821–22), of the Board of Civil Appointments (1822–35), and of the Board of Ceremonies (1835–36).",
+          "source": "eccp-3658536",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "杜受田，字芝農，山東濱州人。",
+          "source": "qsg-volume-385",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芝農",
+        "source": "eccp-3658536"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芝農"
+    },
+    "romanizations": [
+      {
+        "value": "Tu Shou-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3658536"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3658536",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1852,
+        "source": "eccp-3658536",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658536",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658536",
+      "passage": "eccp-3658536-001"
+    },
+    {
+      "source": "qsg-volume-385",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-385",
+      "passage": "qsg-volume-385-006",
+      "matchStatus": "proposed",
+      "evidence": "杜受田，字芝農，山東濱州人。父堮，嘉慶六年進士，由翰林院編修累官禮部侍郎，重宴鹿鳴，加太子少保，卒贈太傅，諡文端。"
+    }
+  ],
+  "sources": {
+    "eccp-3658536": {
+      "title": "ECCP · Tu Shou-t'ien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370072",
+      "locator": "eccp-3658536-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640818": {
+      "title": "ECCP · 奕詝",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285393",
+      "locator": "eccp-3640818-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-393": {
+      "title": "清史稿/卷393",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433495",
+      "locator": "qsg-volume-393-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-398": {
+      "title": "清史稿/卷398",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162961",
+      "locator": "qsg-volume-398-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

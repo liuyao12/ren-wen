@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674951",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "魏",
+    "given": "禧",
+    "source": "eccp-3674951",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WEI Hsi 魏禧 (T. 氷[凝]叔, H. 勺庭, 叔子 and 裕齋) Mar. 2, 1624–1681, c. Jan. 6, scholar, a native of Ning-tu, Kiangsi, was the son of a philanthropist, Wei Chao-fêng 魏兆鳳 (T. 聖期, 1596–1654). In his youth Wei Hsi was greatly influenced by the scholarship of his sister's husband, Ch'iu Wei-p'ing 邱維屏 (T. 邦士, H. 松下先生, 1614–1679).",
+          "source": "eccp-3674951",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "魏禧，字冰叔，寧都人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "氷",
+        "source": "eccp-3674951"
+      }
+    ],
+    "hao": [
+      {
+        "value": "勺庭",
+        "source": "eccp-3674951"
+      },
+      {
+        "value": "叔子",
+        "source": "eccp-3674951"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "氷"
+    },
+    "romanizations": [
+      {
+        "value": "Wei Hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3674951"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1681,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674951",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674951",
+      "passage": "eccp-3674951-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-006",
+      "matchStatus": "proposed",
+      "evidence": "魏禧，字冰叔，寧都人。父兆鳳，諸生。明亡，號哭不食，翦發為頭陀，隱居翠微峰。是冬，筮離之乾，遂名其堂為易堂。旋卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3674951": {
+      "title": "ECCP · Wei Hsi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674931": {
+      "title": "ECCP · 魏際瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419146",
+      "locator": "eccp-3674931-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674956": {
+      "title": "ECCP · 魏禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419238",
+      "locator": "eccp-3674956-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

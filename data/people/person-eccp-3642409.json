@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642409",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "顧",
+    "given": "奎光",
+    "source": "eccp-3642409",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KU K'uei-kuang 顧奎光 (T. 星五), 1719–1764, official and scholar, was a native of Wu-hsi, Kiangsu. His great-grandfather, Ku Ch'ên 顧宸 (T. 修遠, chü-jên of 1639), was a bibliophile and a writer who left the following two works: 宋文選 Sung-wên hsüan, 30 chüan (1661), and 杜詩註解 Tu-shih chu-chieh, 12 + 7 chüan (1663).",
+          "source": "eccp-3642409",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "星五",
+        "source": "eccp-3642409"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "星五"
+    },
+    "romanizations": [
+      {
+        "value": "Ku K'uei-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3642409"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1719,
+        "source": "eccp-3642409",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1764,
+        "source": "eccp-3642409",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642409",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642409",
+      "passage": "eccp-3642409-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642409": {
+      "title": "ECCP · Ku K'uei-kuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290487",
+      "locator": "eccp-3642409-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

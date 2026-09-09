@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-312aa6ea97330443",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "燾",
+    "source": "eccp-3642456",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "連江",
+      "source": "qsg-volume-498",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張燾，福建連江人。",
+          "source": "qsg-volume-498",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chang Tao",
+        "system": "ECCP spelling",
+        "source": "eccp-3642456"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-498",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-498",
+      "passage": "qsg-volume-498-085",
+      "matchStatus": "proposed",
+      "evidence": "張燾，福建連江人。父震公，家縣東岱堡，海寇破岱堡，張氏殲焉。震公適他往，獨免。燾方七歲，為所掠，轉徙傭於清漳。康熙十年，燾年二十餘矣，時時念父母。顧被掠時幼，不審鄉縣，以人謂其語音似連江，而追憶父似名天貞，乃走還連江，數日無所鄉。或問何為，以張天貞問。震公聞之，曰：「天貞，吾亡弟，彼焉識之？」走視問其詳，喜挾以歸，使見母。燾追憶母容貌，曰：「非吾母也。」震公曰：「汝母已死於賊，此汝後母耳。」燾大慟，為母補行喪服三年，而事後母如母。"
+    }
+  ],
+  "sources": {
+    "eccp-3642456": {
+      "title": "ECCP · 李之藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290594",
+      "locator": "eccp-3642456-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-498": {
+      "title": "清史稿/卷498",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026199",
+      "locator": "qsg-volume-498-085",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

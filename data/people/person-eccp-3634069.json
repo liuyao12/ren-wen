@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634069",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "鵬年",
+    "source": "eccp-3634069",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN P'êng-nien 陳鵬年 (T. 北溟 and 滄洲) Jan. 10, 1664–1723, Feb. 9, official, was a native of Hsiang-t'an, Hunan. In his youth his family retired to the mountains to avoid disturbances following the revolt of Wu San-kuei [q. v.].",
+          "source": "eccp-3634069",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳鵬年，字滄洲，湖廣湘潭人。",
+          "source": "qsg-volume-277",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "北溟",
+        "source": "eccp-3634069"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "北溟"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên P'êng-nien",
+        "system": "ECCP spelling",
+        "source": "eccp-3634069"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3634069",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3634069",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634069",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634069",
+      "passage": "eccp-3634069-001"
+    },
+    {
+      "source": "qsg-volume-277",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-277",
+      "passage": "qsg-volume-277-027",
+      "matchStatus": "proposed",
+      "evidence": "陳鵬年，字滄洲，湖廣湘潭人。康熙三十年進士。授浙江西安知縣，當兵後，戶口流亡，豪強率佔田自殖。鵬年履畝按驗，復業者數千戶。烈婦徐冤死十年，鵬年雪其枉，得罪人置諸法。禁溺女，民感之，女欲棄复育者，皆以陳為姓。河道總督張鵬翮薦調赴江南河工，授江南山陽知縣，遷海州知州。四十二年，聖祖南巡閱河，以山東飢，詔截漕四萬石，令鵬翮選賢幹吏運兗州分賑，以鵬年董事，全活數万人。上回鑾，召見濟寧舟次，賦詩稱旨，賜御書。"
+    }
+  ],
+  "sources": {
+    "eccp-3634069": {
+      "title": "ECCP · Ch'ên P'êng-nien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271468",
+      "locator": "eccp-3634069-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639215": {
+      "title": "ECCP · 噶禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280219",
+      "locator": "eccp-3639215-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645526": {
+      "title": "ECCP · 劉統勳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299504",
+      "locator": "eccp-3645526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-278": {
+      "title": "清史稿/卷278",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162667",
+      "locator": "qsg-volume-278-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-300": {
+      "title": "清史稿/卷300",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433513",
+      "locator": "qsg-volume-300-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

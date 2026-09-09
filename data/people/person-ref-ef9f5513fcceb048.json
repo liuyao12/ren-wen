@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ef9f5513fcceb048",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "恩彤",
+    "source": "eccp-3635433",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "寧陽",
+      "source": "qsg-volume-371",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃恩彤，字石琴，山東寧陽人。",
+          "source": "qsg-volume-371",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "綺江",
+        "source": "eccp-3635433"
+      }
+    ],
+    "hao": [
+      {
+        "value": "石琴",
+        "source": "eccp-3635433"
+      },
+      {
+        "value": "南雪",
+        "source": "eccp-3635433"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "綺江"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Ên-t'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3635433"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-371",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-371",
+      "passage": "qsg-volume-371-021",
+      "matchStatus": "proposed",
+      "evidence": "黃恩彤，字石琴，山東寧陽人。道光六年進士，授刑部主事，治獄數有平反。充提牢，以疏防越獄降調，尋復之。充熱河理刑司員，卻翁牛特蒙古公賄，黜其爵。累遷郎中。二十年，出為江南鹽巡道，遷按察使，署江寧布政使。英兵犯江寧，耆英、伊里布令恩彤偕侍衛咸齡赴敵艦議款，隨同定約。事竣，复隨伊里布赴廣東，籌議通商。改番舶互市歸官辦，增減稅則，稽查偷漏，悉由恩彤與粵海關監督文豐商定。調廣東按察使，遷布政使。美利堅人顧盛請入京，恩彤赴澳門辯折，止其行，賜花翎。"
+    }
+  ],
+  "sources": {
+    "eccp-3635433": {
+      "title": "ECCP · 耆英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271389",
+      "locator": "eccp-3635433-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

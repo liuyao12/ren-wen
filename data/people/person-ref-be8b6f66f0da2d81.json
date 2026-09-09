@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-be8b6f66f0da2d81",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "莫",
+    "given": "與儔",
+    "source": "eccp-3649124",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "莫與儔，字猶人，獨山州人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "猶人",
+        "source": "eccp-3649124"
+      },
+      {
+        "value": "傑夫",
+        "source": "eccp-3649124"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "猶人"
+    },
+    "romanizations": [
+      {
+        "value": "Mo Yü-ch'ou",
+        "system": "ECCP spelling",
+        "source": "eccp-3649124"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1763,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1841,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-008",
+      "matchStatus": "proposed",
+      "evidence": "莫與儔，字猶人，獨山州人。少有志操，兄歿，持期服，不與試。嘉慶四年，朱珪、阮元總裁會試，所拔取多樸學知名士，與儔亦以是年成進士，選庶吉士。散館，改令鹽源縣。俗，富民買田好擇取無稅者，貧民往往鬻產存賦，久輒逃亡。與儔責賦富人，而貰其隱佔罪。又上言河西寧遠子稅所府隸橫徵病民，得裁去。木里喇嗎左所有山產銀銅，布政使符縣開礦，與儔持不可，以為礦山實土官經堂所據，奸民所呈地圖距經堂遠，實無礦，開廠聚眾，滋擾夷境，貪小利，賈大釁，事誠不便。大吏檄與儔覆勘，至則礦山果在經堂右。其眾嚴兵以待，既瞻與儔貌，聆其溫"
+    }
+  ],
+  "sources": {
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

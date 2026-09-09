@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633525",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "國瑞",
+    "source": "eccp-3633525",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "應城",
+      "source": "qsg-volume-428",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Kuo-jui 陳國瑞 (T. 慶雲), 1837-1883, Feb. 7, general, was a native of Ying-ch'êng, Hupeh. He was about eight sui when his father died. During the years 1852–54 the Taiping forces, then in Ying-ch'êng, detained him but he managed to escape, either by his own efforts or by the help of government troops.",
+          "source": "eccp-3633525",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳國瑞，字慶雲，湖北應城人。",
+          "source": "qsg-volume-428",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "慶雲",
+        "source": "eccp-3633525"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "慶雲"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Kuo-jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3633525"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3633525",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1883,
+        "source": "eccp-3633525",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633525",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633525",
+      "passage": "eccp-3633525-001"
+    },
+    {
+      "source": "qsg-volume-428",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-428",
+      "passage": "qsg-volume-428-032",
+      "matchStatus": "proposed",
+      "evidence": "陳國瑞，字慶雲，湖北應城人。年十餘歲陷賊中，出投總兵黃開榜，收為義子，冒姓黃氏。在軍每戰衝鋒。咸豐九年，從攻懷遠，率七人夜渡河攀堞先登，擲火燔譙樓，斬悍賊十餘人，師畢登，遂克懷遠，自是以勇聞。欽差大臣袁甲三進圍定遠，捻首李光等來援，國瑞陷陣，脅中槍，裹創力戰，賊辟易，乘勝破二圩，賜號技勇巴圖魯。奉檄援壽州，中途聞賊犯鳳陽，回軍夜往，連破賊壘，立解圍，超擢游擊。十一年，江、皖賊合眾窺揚州，國瑞馳剿湖西，屢破賊，加副將銜。"
+    }
+  ],
+  "sources": {
+    "eccp-3633525": {
+      "title": "ECCP · Ch'ên Kuo-jui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280411",
+      "locator": "eccp-3633525-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656325": {
+      "title": "ECCP · 宋慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365074",
+      "locator": "eccp-3656325-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-404": {
+      "title": "清史稿/卷404",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162619",
+      "locator": "qsg-volume-404-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-425": {
+      "title": "清史稿/卷425",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607179",
+      "locator": "qsg-volume-425-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-428": {
+      "title": "清史稿/卷428",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433497",
+      "locator": "qsg-volume-428-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

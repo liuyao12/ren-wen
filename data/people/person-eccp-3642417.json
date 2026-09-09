@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642417",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "谷",
+    "given": "應泰",
+    "source": "eccp-3642417",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KU Ying-t'ai 谷應泰 (T. 賡虞, H. 霖蒼, d. after 1689), scholar and official, was a native of Fêng-jun, Chihli. After becoming a chin-shih in 1647, he was for a time an assistant secretary in the Board of Revenue.",
+          "source": "eccp-3642417",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "賡虞",
+        "source": "eccp-3642417"
+      }
+    ],
+    "hao": [
+      {
+        "value": "霖蒼",
+        "source": "eccp-3642417"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "賡虞"
+    },
+    "romanizations": [
+      {
+        "value": "Ku Ying-t'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3642417"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642417",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642417",
+      "passage": "eccp-3642417-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642417": {
+      "title": "ECCP · Ku Ying-t'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290515",
+      "locator": "eccp-3642417-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633295": {
+      "title": "ECCP · 張岱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271668",
+      "locator": "eccp-3633295-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645522": {
+      "title": "ECCP · 劉挺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299495",
+      "locator": "eccp-3645522-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674949": {
+      "title": "ECCP · 魏忠賢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419223",
+      "locator": "eccp-3674949-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678082": {
+      "title": "ECCP · 楊漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

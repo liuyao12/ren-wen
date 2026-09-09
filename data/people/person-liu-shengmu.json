@@ -9,9 +9,22 @@
     "given": "Liu Shêng-mu",
     "source": "eccp-zeng-guofan",
     "jiguan": null,
-    "zi": [],
-    "hao": [],
-    "parenthetical": null,
+    "zi": [
+      {
+        "value": "述之",
+        "source": "eccp-3633311"
+      }
+    ],
+    "hao": [
+      {
+        "value": "十枝",
+        "source": "eccp-3633311"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "述之"
+    },
     "romanizations": [
       {
         "value": "Liu Shêng-mu",
@@ -19,7 +32,11 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    }
   },
   "life": {
     "birth": null,
@@ -60,6 +77,48 @@
       "locator": "See-under cross-reference in eccp-zeng-guofan-14",
       "access": "cross-reference",
       "attribution": "ECCP contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633311": {
+      "title": "ECCP · 張裕釗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271676",
+      "locator": "eccp-3633311-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649322": {
+      "title": "ECCP · 潘祖蔭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318050",
+      "locator": "eccp-3649322-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674954": {
+      "title": "ECCP · 魏裔介",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419236",
+      "locator": "eccp-3674954-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "notes": [],

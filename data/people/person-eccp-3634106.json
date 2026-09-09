@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634106",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "鄤",
+    "source": "eccp-3634106",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHÊNG Man 鄭鄤 (T. 謙止, 祚長, H. 峚陽), Sept. 22, 1594–1638, Oct. 3, Ming official, was a native of Wu-chin, Kiangsu. His father, Chêng Chên-hsien, 鄭振先 (T. 太初, d. Nov. 5, 1628, chin-shih of 1595), often took him when young into learned circles from which he profited greatly.",
+          "source": "eccp-3634106",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "謙止",
+        "source": "eccp-3634106"
+      },
+      {
+        "value": "祚長",
+        "source": "eccp-3634106"
+      }
+    ],
+    "hao": [
+      {
+        "value": "峚陽",
+        "source": "eccp-3634106"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "謙止"
+    },
+    "romanizations": [
+      {
+        "value": "Chêng Man",
+        "system": "ECCP spelling",
+        "source": "eccp-3634106"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1594,
+        "source": "eccp-3634106",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1638,
+        "source": "eccp-3634106",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634106",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634106",
+      "passage": "eccp-3634106-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634106": {
+      "title": "ECCP · Chêng Man",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293102",
+      "locator": "eccp-3634106-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635455": {
+      "title": "ECCP · 錢謙益",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271399",
+      "locator": "eccp-3635455-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637543": {
+      "title": "ECCP · 瞿式耜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293112",
+      "locator": "eccp-3637543-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640020": {
+      "title": "ECCP · 黃道周",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282934",
+      "locator": "eccp-3640020-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672717": {
+      "title": "ECCP · 王徵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412264",
+      "locator": "eccp-3672717-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678082": {
+      "title": "ECCP · 楊漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

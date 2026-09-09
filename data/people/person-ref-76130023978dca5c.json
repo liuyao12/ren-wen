@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-76130023978dca5c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "韻珂",
+    "source": "eccp-3678432",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "汶上",
+      "source": "qsg-volume-371",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉韻珂，字玉坡，山東汶上人。",
+          "source": "qsg-volume-371",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉坡",
+        "source": "eccp-3678432"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉坡"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Yün-k'o",
+        "system": "ECCP spelling",
+        "source": "eccp-3678432"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-371",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-371",
+      "passage": "qsg-volume-371-025",
+      "matchStatus": "proposed",
+      "evidence": "劉韻珂，字玉坡，山東汶上人。由拔貢授刑部七品小京官，洊遷郎中。道光八年，出為安徽徽州知府，調安慶。歷雲南鹽法道，浙江、廣西按察使，四川布政使。二十年，擢浙江巡撫。定海已陷，韻珂於寧波收撫難民。沿海設防，欽差大臣伊里布駐鎮海督師，琦善方議以香港易還定海，韻珂疏言：「定海為通洋適中之地，英人已築砲台、開河道，經營一切。彼或餌漁、盜為羽翼，其患非小。浙江為財賦之區，寧波又為浙省菁華所在，宜預杜覬覦。」尋詔斥伊里布附和琦善，罷去，以裕謙代之，命韻珂偕提督余步雲治鎮海防務。二十一年，英兵退出定海，仍遊奕浙"
+    }
+  ],
+  "sources": {
+    "eccp-3678432": {
+      "title": "ECCP · 裕謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443721",
+      "locator": "eccp-3678432-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3032547a1fa420bf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "有",
+    "given": "正書局",
+    "source": "eccp-3656403",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "小泉",
+        "source": "eccp-3656403"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘭墅",
+        "source": "eccp-3656403"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "小泉"
+    },
+    "romanizations": [
+      {
+        "value": "Yu-chêng Shu-chü",
+        "system": "ECCP spelling",
+        "source": "eccp-3656403"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656403": {
+      "title": "ECCP · 曹霑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365194",
+      "locator": "eccp-3656403-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

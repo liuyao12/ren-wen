@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-72992a020bcaa7f7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "知節",
+    "source": "eccp-3635444",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "守初",
+        "source": "eccp-3635444"
+      },
+      {
+        "value": "冬生",
+        "source": "eccp-3635444"
+      }
+    ],
+    "hao": [
+      {
+        "value": "竹城",
+        "source": "eccp-3635444"
+      },
+      {
+        "value": "秋竹",
+        "source": "eccp-3635444"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "守初"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Chih-chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3635444"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658534",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "杜",
+    "given": "臻",
+    "source": "eccp-3658534",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "秀水",
+      "source": "qsg-volume-268",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TU Chên 杜臻 (T. 肇余, H. 遇徐), a native of Hsiu-shui, Chekiang, was a chin-shih of 1658 who died between 1700 and 1705. Appointed a second-class Hanlin compiler, he became a reader of the Grand Secretariat and later vice-president of the Board of Civil Office.",
+          "source": "eccp-3658534",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "杜臻，字肇餘，浙江秀水人。",
+          "source": "qsg-volume-268",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "肇余",
+        "source": "eccp-3658534"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遇徐",
+        "source": "eccp-3658534"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "肇余"
+    },
+    "romanizations": [
+      {
+        "value": "Tu Chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3658534"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658534",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658534",
+      "passage": "eccp-3658534-001"
+    },
+    {
+      "source": "qsg-volume-268",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-268",
+      "passage": "qsg-volume-268-030",
+      "matchStatus": "proposed",
+      "evidence": "杜臻，字肇餘，浙江秀水人。順治十五年進士，改庶吉士，散館，授編修。累遷內閣學士，擢吏部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3658534": {
+      "title": "ECCP · Tu Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370066",
+      "locator": "eccp-3658534-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656376": {
+      "title": "ECCP · 田雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675190": {
+      "title": "ECCP · 吳綺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419946",
+      "locator": "eccp-3675190-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

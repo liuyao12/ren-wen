@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3b756af2149564ab",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄒",
+    "given": "伯奇",
+    "source": "eccp-3643637",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "一鶚",
+        "source": "eccp-3643637"
+      }
+    ],
+    "hao": [
+      {
+        "value": "特夫",
+        "source": "eccp-3643637"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "一鶚"
+    },
+    "romanizations": [
+      {
+        "value": "Tsou Po-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3643637"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1869,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-104",
+      "matchStatus": "proposed",
+      "evidence": "鄒伯奇，字特夫，南海諸生。聰敏絕世，覃思聲音文字度數之源。尤精天文曆算，能薈萃中、西之說而貫通之，靜極生明，多具神解。嘗作春秋經傳日月考，謂：「昔人考春秋者多矣，類以經、傳日月求之，未能精確。今以時憲術上推二百四十二年之朔閏及食限，然後以經、傳所書，質其合否，乃知有經誤、傳誤及術誤之分。」又謂：「尚書克殷年月，鄭玄據乾鑿度，以入戊午蔀四十二年克殷，下至春秋，凡三百四十八年。劉歆三統術以為積四百年，近人錢塘李銳皆主其說。今以時憲術上推，且以歲星驗之，始知鄭是劉非。」其解孟子「由周而來，七百有餘歲」"
+    }
+  ],
+  "sources": {
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-104",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

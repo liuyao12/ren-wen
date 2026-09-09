@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-417ab804806e13bb",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "廷珍",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "山陽",
+      "source": "qsg-volume-364",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "汪廷珍，字瑟庵，江蘇山陽人。",
+          "source": "qsg-volume-364",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉粲",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [
+      {
+        "value": "瑟菴",
+        "source": "eccp-3658531"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉粲"
+    },
+    "romanizations": [
+      {
+        "value": "Wang T'ing-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1757,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-364",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-364",
+      "passage": "qsg-volume-364-014",
+      "matchStatus": "proposed",
+      "evidence": "汪廷珍，字瑟庵，江蘇山陽人。少孤，母程撫之成立。家中落，歲兇，饘粥或不給，不令人知。母曰：「吾非恥貧，恥言貧，疑有求於人也。」力學，困諸生十年，始舉於鄉。成乾隆五十四年一甲二名進士，授編修。大考，擢侍讀。未幾，遷祭酒。六十年，以事忤旨，降侍講。嘉慶元年，直上書房。大考，擢侍講學士。母憂歸，服闋，補原官。七年，督安徽學政。任滿，复督江西學政。累遷侍讀學士、太僕寺卿、內閣學士，皆留任。"
+    }
+  ],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-018",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

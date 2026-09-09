@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654373",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "舒赫德",
+    "source": "eccp-3654373",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "舒穆魯",
+      "source": "eccp-3654373"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHU-ho-tê 舒赫德 (T. 伯容, H. 明亭) Jan. 20, 1711–1777, May 27, a member of the Šumuru 舒穆魯 clan of Hun-ch'un, Kirin, came from a family which belonged to the Manchu Plain White Banner. His grandfather, Hsü-yüan-mêng 徐元夢 (T. 善長, H. 蝶園, 1655–1741, posthumous name 文定), was a chin-shih of 1673 and a member of the Hanlin Academy.",
+          "source": "eccp-3654373",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "舒赫德，字伯容，舒穆魯氏，滿洲正白旗人，徐元夢孫也。",
+          "source": "qsg-volume-313",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯容",
+        "source": "eccp-3654373"
+      }
+    ],
+    "hao": [
+      {
+        "value": "明亭",
+        "source": "eccp-3654373"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯容"
+    },
+    "romanizations": [
+      {
+        "value": "Shu-ho-tê",
+        "system": "ECCP spelling",
+        "source": "eccp-3654373"
+      }
+    ],
+    "clan": {
+      "label": "舒穆魯",
+      "source": "eccp-3654373"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1711,
+        "source": "eccp-3654373",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1777,
+        "source": "eccp-3654373",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654373",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654373",
+      "passage": "eccp-3654373-001"
+    },
+    {
+      "source": "qsg-volume-313",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-313",
+      "passage": "qsg-volume-313-035",
+      "matchStatus": "proposed",
+      "evidence": "舒赫德，字伯容，舒穆魯氏，滿洲正白旗人，徐元夢孫也。舒赫德，自筆帖式授內閣中書，累遷御史，充軍機處章京。乾隆二年，疏言：「八旗生齒日繁。盛京、黑龍江、寧古塔三省土沃可耕。請將閒散移屯。併條議設公庫，以各省稅務專屬旗員，贖旗地典於民者，以官地畀無地旗丁。以十年為期，次第施行。」上以稅務專屬旗員為非是，諭曰：「舒赫德此議，但知旗人生計艱難，不知國家設關，欲稽察姦宄，非為收稅之員身家計也。朕日以砥礪廉隅勉臣工，尚恐其不能遵奉，而可以謀利導之乎？況各省稅務本未分滿、漢，旗員有廉潔者，何嘗不可派委。大抵為"
+    }
+  ],
+  "sources": {
+    "eccp-3654373": {
+      "title": "ECCP · Shu-ho-tê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639189": {
+      "title": "ECCP · 傅恆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280183",
+      "locator": "eccp-3639189-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639207": {
+      "title": "ECCP · 富德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280210",
+      "locator": "eccp-3639207-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · 圖理琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675197": {
+      "title": "ECCP · 武億",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419956",
+      "locator": "eccp-3675197-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-320": {
+      "title": "清史稿/卷320",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2550999",
+      "locator": "qsg-volume-320-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-321": {
+      "title": "清史稿/卷321",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433547",
+      "locator": "qsg-volume-321-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

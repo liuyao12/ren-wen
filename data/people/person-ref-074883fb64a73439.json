@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-074883fb64a73439",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "席",
+    "given": "寶田",
+    "source": "eccp-3640790",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "東安",
+      "source": "qsg-volume-420",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hsi Pao-t'ien 席寶田 (T. 研薌, 1829–1889), a native of Tung-an, Hunan. Hung Jên-kan and many other rebel chiefs were apprehended in Shih-ch'êng on October 9, 1864. The young king, having taken refuge alone on a mountain, was captured a few days later.",
+          "source": "eccp-3640790",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "席寶田，字研薌，湖南東安人。",
+          "source": "qsg-volume-420",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "研薌",
+        "source": "eccp-3640790"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "研薌"
+    },
+    "romanizations": [
+      {
+        "value": "Hsi Pao-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3640790"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3640790",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1889,
+        "source": "eccp-3640790",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-420",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-420",
+      "passage": "qsg-volume-420-023",
+      "matchStatus": "proposed",
+      "evidence": "席寶田，字研薌，湖南東安人。諸生。咸豐二年，率鄉團殺賊，复縣城，獎敘訓導。六年，劉長佑援江西，招參軍事，遂從轉戰，積功累擢同知直隸州。九年，石達開由廣西犯湖南，寶田從解寶慶圍，擢知府。十年，駱秉章令募千人號精毅營，防湖南邊。廣東賊犯郴州、桂陽，擊走之。同治元年，石達開復由廣西入境，連敗之於黔陽，克來鳳，以道員記名，加按察使銜。"
+    }
+  ],
+  "sources": {
+    "eccp-3640790": {
+      "title": "ECCP · 洪仁玕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285331",
+      "locator": "eccp-3640790-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-420": {
+      "title": "清史稿/卷420",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2272914",
+      "locator": "qsg-volume-420-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633256",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "介賓",
+    "source": "eccp-3633256",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Chieh-pin 張介賓 (T. 會卿, H. 景岳, 通一子), 1563–1640, physician, was a native of Shan-yin (Shaohsing), Chekiang. At the age of thirteen or fourteen (sui) he went to Peking where his father, a member of one of the most influential families of the Ming dynasty, was honorary advisor to a high military official.",
+          "source": "eccp-3633256",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "會卿",
+        "source": "eccp-3633256"
+      }
+    ],
+    "hao": [
+      {
+        "value": "景岳",
+        "source": "eccp-3633256"
+      },
+      {
+        "value": "通一子",
+        "source": "eccp-3633256"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "會卿"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chieh-pin",
+        "system": "ECCP spelling",
+        "source": "eccp-3633256"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1563,
+        "source": "eccp-3633256",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1640,
+        "source": "eccp-3633256",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633256",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633256",
+      "passage": "eccp-3633256-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633256": {
+      "title": "ECCP · Chang Chieh-pin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271558",
+      "locator": "eccp-3633256-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

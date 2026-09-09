@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633526",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "澧",
+    "source": "eccp-3633526",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Li 陳澧 (T. 蘭甫[浦], H. 東塾, 江南倦客), Mar. 23, 1810–1882, Mar. 11, scholar, was a native of Canton where his grandfather had moved from Nanking. His father was a merchant who late in life purchased the rank of a district-magistrate.",
+          "source": "eccp-3633526",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳澧，字蘭甫，番禺人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘭甫",
+        "source": "eccp-3633526"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東塾",
+        "source": "eccp-3633526"
+      },
+      {
+        "value": "江南倦客",
+        "source": "eccp-3633526"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘭甫"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3633526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1810,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1882,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633526",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633526",
+      "passage": "eccp-3633526-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-165",
+      "matchStatus": "proposed",
+      "evidence": "陳澧，字蘭甫，番禺人。道光十二年舉人，河源縣訓導。澧九歳能文，復問詩學於張維屛，問經學於侯康。凡天文、地理、樂律、算術、篆隸無不研究。中年讀諸經註疎、子、史及朱子書，日有課程。初著聲律通考十巻，謂：「周禮六律、六同皆文之以五聲，禮記五聲、六律、十二管還相爲宮，今之俗樂有七聲而無十二律，有七調而無十二宮，有工尺字譜而不知宮、商、角、徴、羽。懼古樂之遂絶，乃考古今聲律爲一書。」又切韻考六巻、外篇三巻，謂：「孫叔然、陸法言之學存於廣韻，宜明其法，而不惑於沙門之説。」又漢志水道圖説七巻，謂地理之學，當自"
+    }
+  ],
+  "sources": {
+    "eccp-3633526": {
+      "title": "ECCP · Ch'ên Li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633524": {
+      "title": "ECCP · 陳恭尹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271461",
+      "locator": "eccp-3633524-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635448": {
+      "title": "ECCP · 焦循",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271734",
+      "locator": "eccp-3635448-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643698": {
+      "title": "ECCP · 梁綸樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294987",
+      "locator": "eccp-3643698-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633176": {
+      "title": "ECCP · Preface",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440501",
+      "locator": "eccp-3633176-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-098",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-165",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-151",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-115",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

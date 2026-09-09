@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4ad67d7fd2ca1e64",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "懋德",
+    "source": "eccp-3649354",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ts'ai Mou-tê 蔡懋德 (T. 維立, H. 雲怡, posthumous name 忠襄, 1586–1644), a native of K'un-shan, Kiangsu, defended the provincial capital, Taiyuan, but in doing so they both lost their lives (March 16; 1644).",
+          "source": "eccp-3649354",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "維立",
+        "source": "eccp-3649354"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲怡",
+        "source": "eccp-3649354"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "維立"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Mou-tê",
+        "system": "ECCP spelling",
+        "source": "eccp-3649354"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1586,
+        "source": "eccp-3649354",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3649354",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649354": {
+      "title": "ECCP · 畢拱辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318114",
+      "locator": "eccp-3649354-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

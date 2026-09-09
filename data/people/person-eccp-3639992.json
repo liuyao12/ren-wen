@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639992",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "煦",
+    "source": "eccp-3639992",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "光山",
+      "source": "qsg-volume-290",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HU Hsü 胡煦 (T. 滄曉, H. 紫弦), 1655–1736, Oct. 17, scholar and official, was a native of Kuang-shan, Honan. Although he became a chü-jên in 1684, he did not succeed in obtaining his chin-shih until 1712 at the rather advanced age of fifty-eight (sui).",
+          "source": "eccp-3639992",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "胡煦，字滄曉，河南光山人。",
+          "source": "qsg-volume-290",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "滄曉",
+        "source": "eccp-3639992"
+      }
+    ],
+    "hao": [
+      {
+        "value": "紫弦",
+        "source": "eccp-3639992"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "滄曉"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Hsü",
+        "system": "ECCP spelling",
+        "source": "eccp-3639992"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1655,
+        "source": "eccp-3639992",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1736,
+        "source": "eccp-3639992",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639992",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639992",
+      "passage": "eccp-3639992-001"
+    },
+    {
+      "source": "qsg-volume-290",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-290",
+      "passage": "qsg-volume-290-027",
+      "matchStatus": "proposed",
+      "evidence": "胡煦，字滄曉，河南光山人。初以舉入官安陽教諭。治周易，有所撰述。康熙五十一年，成進士，散館授檢討。聖祖聞煦通易理，召對乾清宮，問河、洛理數及卦爻中疑義。煦繪圖進講，聖祖賞之，曰：「真苦心讀書人也。」五十三年，命直南書房。上方纂周易折中，大學士李光地為總裁，命煦分纂。尋命直蒙養齋，與修卜筮精蘊。五十七年，遷洗馬，與修卜筮匯義。轉鴻臚寺少卿。六十一年，遷光祿寺少卿，再遷鴻臚寺卿。雍正元年，擢內閣學士，命與刑部侍郎馬晉泰如盛京按鞫私刨人葠，錄囚百五十八人，論罪如律。煦還奏：「刨葠俱貧民，羈候按鞫，自春"
+    }
+  ],
+  "sources": {
+    "eccp-3639992": {
+      "title": "ECCP · Hu Hsü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282862",
+      "locator": "eccp-3639992-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

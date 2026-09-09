@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-34c8a704465c6a88",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "由敦",
+    "source": "eccp-3678438",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-302",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "汪由敦，字師茗，浙江錢塘人，原籍安徽休寧。",
+          "source": "qsg-volume-302",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "師茗",
+        "source": "eccp-3678438"
+      }
+    ],
+    "hao": [
+      {
+        "value": "謹堂",
+        "source": "eccp-3678438"
+      },
+      {
+        "value": "松泉",
+        "source": "eccp-3678438"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "師茗"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yu-tun",
+        "system": "ECCP spelling",
+        "source": "eccp-3678438"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1692,
+        "source": "eccp-3678438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1758,
+        "source": "eccp-3678438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-302",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-302",
+      "passage": "qsg-volume-302-012",
+      "matchStatus": "proposed",
+      "evidence": "汪由敦，字師茗，浙江錢塘人，原籍安徽休寧。雍正二年進士，選庶吉士。遭父喪，以篡修明史，命在館守制。喪終，三遷內閣學士，直上書房。乾隆二年，廷臣妄傳除目，為言官執奏，語連由敦，未得旨，由敦具疏辨。上詰由敦何以先知，足見有為之耳目者，其人必不謹。左授侍讀學士。累遷工部尚書，調刑部，兼署左都御史。十一年，命在軍機處行走。十四年，金川平，加太子少師。是歲命協辦大學士。由敦出大學士張廷玉門，其直軍機處，廷玉薦也。時軍機處諸大臣，鄂爾泰已卒，廷玉為班首，而訥親被上眷，日入承旨，出令由敦屬草，慮不當上意，輒令"
+    }
+  ],
+  "sources": {
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

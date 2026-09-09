@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635434",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "祁",
+    "given": "韻士",
+    "source": "eccp-3635434",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'I Yün-shih 祁韻士 (T. 諧庭, 鶴皋, H. 訪山, 筠淥), 1751–1815, May 5, historian, was a native of Shou-yang, Shansi. He became a pa-kung in 1777 and a chü-jên in the autumn of the same year. In the following year he took his chin-shih degree and was selected a member of the Hanlin Academy.",
+          "source": "eccp-3635434",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "祁韻士，字鶴皋，壽陽人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "諧庭",
+        "source": "eccp-3635434"
+      },
+      {
+        "value": "鶴皋",
+        "source": "eccp-3635434"
+      }
+    ],
+    "hao": [
+      {
+        "value": "訪山",
+        "source": "eccp-3635434"
+      },
+      {
+        "value": "筠淥",
+        "source": "eccp-3635434"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "諧庭"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Yün-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3635434"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3635434",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1815,
+        "source": "eccp-3635434",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635434",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635434",
+      "passage": "eccp-3635434-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-193",
+      "matchStatus": "proposed",
+      "evidence": "祁韻士，字鶴皋，壽陽人。乾隆四十三年進士，官編修，擢中允，大考改戶部主事。嘉慶初，以郎中監督寶泉局。局庫虧銅案發，戍伊犁。未幾，赦還。卒於保定書院，年六十五。"
+    }
+  ],
+  "sources": {
+    "eccp-3635434": {
+      "title": "ECCP · Ch'i Yün-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271394",
+      "locator": "eccp-3635434-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635427": {
+      "title": "ECCP · 祁寯藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271391",
+      "locator": "eccp-3635427-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633500": {
+      "title": "ECCP · 兆惠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271944",
+      "locator": "eccp-3633500-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639186": {
+      "title": "ECCP · 傅清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280178",
+      "locator": "eccp-3639186-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639211": {
+      "title": "ECCP · 富寧安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280214",
+      "locator": "eccp-3639211-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639214": {
+      "title": "ECCP · 噶爾丹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280218",
+      "locator": "eccp-3639214-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639276": {
+      "title": "ECCP · 孝端文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280311",
+      "locator": "eccp-3639276-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639976": {
+      "title": "ECCP · 徐松",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282823",
+      "locator": "eccp-3639976-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640920": {
+      "title": "ECCP · 查郎阿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285933",
+      "locator": "eccp-3640920-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656330": {
+      "title": "ECCP · 松筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365085",
+      "locator": "eccp-3656330-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656425": {
+      "title": "ECCP · 策旺阿拉布坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365239",
+      "locator": "eccp-3656425-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-193",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

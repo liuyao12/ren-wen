@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-83af63e4ccf85991",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "金",
+    "given": "溶",
+    "source": "eccp-3646135",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大興",
+      "source": "qsg-volume-336",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "金溶，字廣蘊，順天大興人。",
+          "source": "qsg-volume-336",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "廣薀",
+        "source": "eccp-3646135"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "廣薀"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3646135"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1705,
+        "source": "eccp-3646135",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1777,
+        "source": "eccp-3646135",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-336",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-336",
+      "passage": "qsg-volume-336-013",
+      "matchStatus": "proposed",
+      "evidence": "金溶，字廣蘊，順天大興人。雍正八年進士，以刑部員外郎擢山東道監察御史。高宗即位，詔求直言，溶上疏言安民五事：一曰開墾之地緩其昇科；二曰帶徵之項宜加豁免；三曰關稅正額之外免報盈餘；四曰州縣殿最首重民事，不以辦差為能；五曰巡狩之地崇尚樸素，不以紛華取媚。當是時，上命翰詹科道各進經史摺子，溶又上疏曰：「頭會箕斂以裕囊櫝者，匹夫之富也；輕徭薄稅使四海咸寧者，天子之富也。易卦：損下益上，上益矣而反名損；損上益下，上損矣而反名益。蓋謂百姓足君孰與不足，百姓不足君孰與足，聖人制卦之意可深長思也。」乾隆九年，湖"
+    }
+  ],
+  "sources": {
+    "eccp-3646135": {
+      "title": "ECCP · 盧文弨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300538",
+      "locator": "eccp-3646135-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-336": {
+      "title": "清史稿/卷336",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2629888",
+      "locator": "qsg-volume-336-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

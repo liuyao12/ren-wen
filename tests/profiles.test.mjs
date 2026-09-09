@@ -5,8 +5,8 @@ import {canonicalName, suiAge, ageAtDeath, yearText, loadProfiles} from '../asse
 const profile = JSON.parse(readFileSync(new URL('../data/people/person-zeng-jize.json', import.meta.url), 'utf8'));
 
 test('canonical name follows native-place, xing+ming and typed alias', () => {
-  assert.equal(canonicalName(profile), '[湖南湘鄉] 曾紀澤（劼剛）');
-  const p = structuredClone(profile);p.name.jiguan=null;p.name.parenthetical=null;
+  assert.equal(canonicalName(profile), '[湘鄉] 曾紀澤（劼剛）');
+  const p = structuredClone(profile);p.name.jiguan=null;p.name.bracket=null;p.name.parenthetical=null;
   assert.equal(canonicalName(p), '曾紀澤');
 });
 test('Chinese-year sui computation and missing endpoints', () => {

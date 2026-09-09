@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-35a8366f1d8e3823",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "世安",
+    "source": "eccp-3678080",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "井研",
+      "source": "qsg-volume-238",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "胡世安，四川井研人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "處靜",
+        "source": "eccp-3678080"
+      }
+    ],
+    "hao": [
+      {
+        "value": "菊潭",
+        "source": "eccp-3678080"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "處靜"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Shih-an",
+        "system": "ECCP spelling",
+        "source": "eccp-3678080"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1593,
+        "source": "eccp-3678080",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1663,
+        "source": "eccp-3678080",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-049",
+      "matchStatus": "proposed",
+      "evidence": "胡世安，四川井研人。明崇禎元年進士，官至少詹事。順治初，授原官。四遷禮部尚書。十五年，授武英殿大學士，兼兵部尚書。聖祖即位，與之俊同改秘書院大學士。以疾乞休，累加少師兼太子太師。康熙二年，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

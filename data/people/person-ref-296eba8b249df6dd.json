@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-296eba8b249df6dd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "談",
+    "given": "遷",
+    "source": "eccp-3658550",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "談遷，字孺木，原名以訓，海寧人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "T'an Ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3658550"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-065",
+      "matchStatus": "proposed",
+      "evidence": "談遷，字孺木，原名以訓，海寧人。初為諸生。南都立，以中書薦，召入史館，皆辭，曰：「餘豈以國家之不幸博一官耶？」未幾，歸里。遷肆力經史百家言，尤注心於明朝典故。嘗謂：「史之所憑者，實錄耳。實錄見其表，其在裡者，已不可見。況革除之事，楊文貞未免失實；泰陵之盛，焦泌陽又多醜正；神、熹之載筆者，皆逆奄之舍人。至於思陵十七年之憂勤惕厲，而太史遯荒，皇宬烈焰，國滅而史亦隨滅，普天心痛，莫甚於此！ 」乃汰十五朝實錄，正其是非。訪崇禎十七年邸報，補其缺文，成書，名曰國榷。"
+    }
+  ],
+  "sources": {
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

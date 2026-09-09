@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b570adf2a6848590",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "儒",
+    "source": "eccp-3639965",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "子通",
+        "source": "eccp-3639965"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子通"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Ju",
+        "system": "ECCP spelling",
+        "source": "eccp-3639965"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-045",
+      "matchStatus": "proposed",
+      "evidence": "楊儒，字子通，漢軍正紅旗入。以監生納貲為員外郎，銓兵部。舉同治六年鄉試。久之，出為常鎮道。母憂，服闋，除溫處道，調徽寧池太道。光緒十八年，改四品卿，出使美日秘三國大臣，補太常寺少卿。與英外部葛禮山續定華工條約。歷通政使副使、左副都御史，留使如故。二十二年，調使俄奧和三國。越二年，晉工部侍郎，仍駐俄。"
+    }
+  ],
+  "sources": {
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

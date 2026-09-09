@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9818ce804a44663a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "兆霖",
+    "source": "eccp-3675202",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-421",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈兆霖，字朗亭，浙江錢塘人。",
+          "source": "qsg-volume-421",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "尺生",
+        "source": "eccp-3675202"
+      },
+      {
+        "value": "子菉",
+        "source": "eccp-3675202"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雨亭",
+        "source": "eccp-3675202"
+      },
+      {
+        "value": "朗亭",
+        "source": "eccp-3675202"
+      },
+      {
+        "value": "萸井生",
+        "source": "eccp-3675202"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尺生"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Chao-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3675202"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1801,
+        "source": "eccp-3675202",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3675202",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-421",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-421",
+      "passage": "qsg-volume-421-006",
+      "matchStatus": "proposed",
+      "evidence": "沈兆霖，字朗亭，浙江錢塘人。道光十六年進士，選庶吉士，授編修。十九年，大考二等。二十五年，遷司業。二十六年，遷侍講，入直上書房，授惇郡王讀。二十九年，遷侍講學士，直南書房。歷詹事、內閣學士。咸豐二年，擢吏部侍郎，督江西學政。"
+    }
+  ],
+  "sources": {
+    "eccp-3675202": {
+      "title": "ECCP · 吳可讀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419965",
+      "locator": "eccp-3675202-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

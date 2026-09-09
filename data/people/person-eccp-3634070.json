@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634070",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "世倌",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海寧",
+      "source": "qsg-volume-303",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Shih-kuan 陳世倌 (T. 秉之, H. 蓮宇) Nov. 15, 1680-1758, May 21, official, was a native of Hai-ning, Chekiang. He received his chin-shih degree in 1703 and became a compiler in the Hanlin Academy (1706).",
+          "source": "eccp-3634070",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳世倌，字秉之，浙江海寧人。",
+          "source": "qsg-volume-303",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "秉之",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蓮宇",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "秉之"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Shih-kuan",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1758,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634070",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634070",
+      "passage": "eccp-3634070-001"
+    },
+    {
+      "source": "qsg-volume-303",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-303",
+      "passage": "qsg-volume-303-010",
+      "matchStatus": "proposed",
+      "evidence": "陳世倌，字秉之，浙江海寧人。父詵，自有傳。世倌，康熙四十二年進士，改庶吉士。自編修累遷侍讀學士，督順天學政。父憂歸，起督江西學政，疏乞終制，得請。雍正二年，服闋，擢內閣學士，出為山東巡撫。時山東境旱蝗，糧運淺阻，世倌單車週曆，密察災輕重、吏能否，乃視事。趣捕蝗略盡，並疏治運道，世宗書扇以賜。世倌疏言：「社倉通有無、濟豐歉，古今可行。宜令各鄉勸富民輸穀，不限多寡，量予獎勸。舉公正鄉約三人司其出入，官為稽覈。貧民春貸秋償，石納息二斗，歉則減之，十年後納息一斗。請飭諸行省先就數州縣行之。俟有成效，然後"
+    }
+  ],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · Ch'ên Shih-kuan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-303": {
+      "title": "清史稿/卷303",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132223",
+      "locator": "qsg-volume-303-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-344",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

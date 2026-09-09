@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2f9a86638195ec14",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "樹義",
+    "source": "eccp-3656351",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "唐樹義，貴州遵義人。",
+          "source": "qsg-volume-400",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "方山",
+        "source": "eccp-3656351"
+      },
+      {
+        "value": "子方",
+        "source": "eccp-3656351"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "方山"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Shu-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3656351"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3656351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3656351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-400",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-400",
+      "passage": "qsg-volume-400-015",
+      "matchStatus": "proposed",
+      "evidence": "唐樹義，貴州遵義人。嘉慶二十一年舉人，官湖北咸豐、監利、江夏知縣，洊擢湖北布政使。以病歸，在籍辦團練。張亮基奏調湖北，署按察使。及田家鎮軍事亟，率兵防江北陵路，駐廣濟。既而黃州、漢陽相繼陷，樹義勦賊德安，進軍灄口。咸豐四年，戰失利，褫職留任，率舟師禦賊金口，船破，死之。予騎都尉世職，諡威恪。"
+    }
+  ],
+  "sources": {
+    "eccp-3656351": {
+      "title": "ECCP · 唐炯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365117",
+      "locator": "eccp-3656351-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-400": {
+      "title": "清史稿/卷400",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026858",
+      "locator": "qsg-volume-400-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

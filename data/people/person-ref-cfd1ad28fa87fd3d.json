@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cfd1ad28fa87fd3d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "華",
+    "given": "衡芳",
+    "source": "eccp-3645532",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "華衡芳，字若汀，金匱人。",
+          "source": "qsg-volume-507",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "若汀",
+        "source": "eccp-3645532"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "若汀"
+    },
+    "romanizations": [
+      {
+        "value": "Hua Hêng-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3645532"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1902,
+        "source": "eccp-3645532",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-123",
+      "matchStatus": "proposed",
+      "evidence": "華衡芳，字若汀，金匱人。能文善算，著有行素軒算學行世。其筆談一書，猶為生平精力所聚。凡十二卷，第一卷論加、減、乘、除之理；第二卷論通分之理；第三卷論十分數；第四卷論開方之理；第五卷論看題、馭題之法，以明加、減、乘、除、通分、開方之用；第六卷論天元及天元開方；第七卷論方程之術，已寓四元之意，末乃專論四元；第八卷論代數釋號及等式；第九卷論代數中助變之數及虛代之法；第十卷論微分；第十一卷論積分，分十六款以明之；第十二卷一論各種算學不外乎加、減、乘、除，二論一切算稿宜筆之於書，三論算學中可以著書之事，四"
+    }
+  ],
+  "sources": {
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-123",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

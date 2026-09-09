@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672749",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "鳴盛",
+    "source": "eccp-3672749",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Ming-shêng 王鳴盛 (T. 鳳階, 禮堂, H. 西莊, 西沚), 1722–1798, Jan. 18, scholar, was a native of Chia-ting, Kiangsu. His grandfather, Wang Hun 王焜 (T. 大生, H. 卓人), was a chü-jên of 1696; and his father, Wang Êr-ta 王爾達 (T. 通侯, H. 虛亭, 1693–1768), was a scholar and teacher.",
+          "source": "eccp-3672749",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王鳴盛，字鳳喈，嘉定人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鳳階",
+        "source": "eccp-3672749"
+      },
+      {
+        "value": "禮堂",
+        "source": "eccp-3672749"
+      }
+    ],
+    "hao": [
+      {
+        "value": "西莊",
+        "source": "eccp-3672749"
+      },
+      {
+        "value": "西沚",
+        "source": "eccp-3672749"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鳳階"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ming-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3672749"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1722,
+        "source": "eccp-3672749",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3672749",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672749",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672749",
+      "passage": "eccp-3672749-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-124",
+      "matchStatus": "proposed",
+      "evidence": "王鳴盛，字鳳喈，嘉定人。幼從長洲沈德潛受詩，後又從惠棟問經義，遂通漢學。乾隆十九年，以一甲進士授翰林院編修，大考翰詹第一，擢侍讀學士。充福建鄉試正考官，尋擢內閣學士，兼禮部侍郎。坐濫支驛馬，左遷光祿寺卿。丁內艱，遂不復出。"
+    }
+  ],
+  "sources": {
+    "eccp-3672749": {
+      "title": "ECCP · Wang Ming-shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412322",
+      "locator": "eccp-3672749-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649409": {
+      "title": "ECCP · 沈德潛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11405868",
+      "locator": "eccp-3649409-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656402": {
+      "title": "ECCP · 臧庸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365192",
+      "locator": "eccp-3656402-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-124",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

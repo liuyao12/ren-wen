@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654399",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "詒讓",
+    "source": "eccp-3654399",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN I-jang 孫詒讓 (T. 仲容, H. 籀䯧[廎]), Sept. 11, 1848–1908, June 20, a prominent scholar of the late Ch‘ing period, was a native of Jui-an, Chekiang. His father, Sun I-yen 孫衣言 (T. 劭聞, H. 琴西, 1815–1895), official and scholar, was a chin-shih of 1850.",
+          "source": "eccp-3654399",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫詒讓，字仲容，瑞安人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲容",
+        "source": "eccp-3654399"
+      }
+    ],
+    "hao": [
+      {
+        "value": "籀䯧",
+        "source": "eccp-3654399"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲容"
+    },
+    "romanizations": [
+      {
+        "value": "Sun I-jang",
+        "system": "ECCP spelling",
+        "source": "eccp-3654399"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1848,
+        "source": "eccp-3654399",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3654399",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654399",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654399",
+      "passage": "eccp-3654399-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-233",
+      "matchStatus": "proposed",
+      "evidence": "孫詒讓，字仲容，瑞安人。父衣言，自有傳。詒讓，同治六年舉人，官刑部主事。初讀漢學師承記及皇淸經解，漸窺通儒治經、史、小學家法。謂古子、群經，有三代文字之通假，有秦、漢篆隸之變遷，有魏、晉正草之混淆，有六朝、唐人俗書之流失，有宋、元、明校讎之羼改。匡違捃佚，必有誼據，先成札迻十二巻。"
+    }
+  ],
+  "sources": {
+    "eccp-3654399": {
+      "title": "ECCP · Sun I-jang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358521",
+      "locator": "eccp-3654399-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633275": {
+      "title": "ECCP · 張惠言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271613",
+      "locator": "eccp-3633275-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645502": {
+      "title": "ECCP · 劉鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649360": {
+      "title": "ECCP · 畢沅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318124",
+      "locator": "eccp-3649360-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-020",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656380": {
+      "title": "ECCP · 丁日昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365162",
+      "locator": "eccp-3656380-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656385": {
+      "title": "ECCP · 丁丙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365168",
+      "locator": "eccp-3656385-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658528": {
+      "title": "ECCP · 鄒容",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370043",
+      "locator": "eccp-3658528-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678441": {
+      "title": "ECCP · 俞樾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443737",
+      "locator": "eccp-3678441-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-233",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

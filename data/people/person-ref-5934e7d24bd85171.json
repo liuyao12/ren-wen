@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5934e7d24bd85171",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "培芳",
+    "source": "eccp-3633304",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Huang P'ei-fang 黃培芳 (T. 子實, H. 香石, 粵嶽山人, 1779–1859), a native of Hsiang-shan, a senior licentiate of 1804, and the author of some thirty works, among which are: 嶺海樓詩鈔 Ling-hai lou shih-ch'ao, 12 chüan; Ling-hai lou ching-i (經義), 2 chüan; and 香石詩話 Hsiang-shih shih-hua, 4 chüan (1810).",
+          "source": "eccp-3633304",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子實",
+        "source": "eccp-3633304"
+      }
+    ],
+    "hao": [
+      {
+        "value": "香石",
+        "source": "eccp-3633304"
+      },
+      {
+        "value": "粵嶽山人",
+        "source": "eccp-3633304"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子實"
+    },
+    "romanizations": [
+      {
+        "value": "Huang P'ei-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3633304"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1779,
+        "source": "eccp-3633304",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3633304",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633304": {
+      "title": "ECCP · 張維屏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271671",
+      "locator": "eccp-3633304-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

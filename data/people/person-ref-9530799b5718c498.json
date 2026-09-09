@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9530799b5718c498",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "桐",
+    "source": "eccp-3640953",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐桐，字蔭軒，漢軍正藍旗人，尚書澤醇子。",
+          "source": "qsg-volume-465",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "豫如",
+        "source": "eccp-3640953"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蔭軒",
+        "source": "eccp-3640953"
+      },
+      {
+        "value": "仲琴",
+        "source": "eccp-3640953"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "豫如"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü T'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3640953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-465",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-465",
+      "passage": "qsg-volume-465-007",
+      "matchStatus": "proposed",
+      "evidence": "徐桐，字蔭軒，漢軍正藍旗人，尚書澤醇子。道光三十年進士，選庶吉士，授編修。坐修改中卷干磨勘，罷職。咸豐十年，特賞檢討，協修文宗實錄。同治初，命在上書房行走，奉懿旨番講治平寶鑑，入直弘德殿，累遷侍講學士。先後疏請習政事、勤修省，成大學衍義體要以進。數擢至禮部侍郎。念外人麕集京師，和議難恃，宜壹意修攘圖自強；因條上簡才能、結民心、裕度支、修邊備四策。光緒初，授禮部尚書，加太子少保。主事吳可讀請豫定大統，以屍諫，桐與翁同龢等謂其未悉本朝家法：「當申明列聖不建儲彝訓，俾知他日紹膺大寶之元良，即為承繼穆宗"
+    }
+  ],
+  "sources": {
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

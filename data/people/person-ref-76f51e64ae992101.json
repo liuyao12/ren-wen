@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-76f51e64ae992101",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "進寶",
+    "source": "eccp-3633506",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "靖遠",
+      "source": "qsg-volume-255",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王進寶，字顯吾，甘肅靖遠人。",
+          "source": "qsg-volume-255",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "顯吾",
+        "source": "eccp-3633506"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "顯吾"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chin-pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3633506"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1626,
+        "source": "eccp-3633506",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1685,
+        "source": "eccp-3633506",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-255",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-255",
+      "passage": "qsg-volume-255-032",
+      "matchStatus": "proposed",
+      "evidence": "王進寶，字顯吾，甘肅靖遠人。精騎射。順治初，從孟喬芳討定河西回，授守備，隸甘肅總兵張勇標下。十一年，勇調經略右標總兵，南征，進寶從徇湖南。十五年，下貴州，師次十萬谿，懸崖千仞，明將李定國遣其將羅大順扼險屯守。進寶率眾攀崖直上，搗其巢，大順奔潰，以功遷經略右標中營游擊。康熙二年，勇還為甘肅提督，進寶亦改授提標左營游擊，隨軍有功，遷參將。厄魯特蒙古欲得大草灘駐牧，勇用進寶議，持不可。既，城永固，以進寶為副將駐其地。十二年，擢西寧總兵。"
+    }
+  ],
+  "sources": {
+    "eccp-3633506": {
+      "title": "ECCP · 趙良棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271696",
+      "locator": "eccp-3633506-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-255": {
+      "title": "清史稿/卷255",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1235555",
+      "locator": "qsg-volume-255-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

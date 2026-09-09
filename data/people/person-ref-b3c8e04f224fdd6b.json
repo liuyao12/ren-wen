@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b3c8e04f224fdd6b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "中通",
+    "source": "eccp-3637596",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "方中通，字位伯，桐城人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "位伯",
+        "source": "eccp-3637596"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "位伯"
+    },
+    "romanizations": [
+      {
+        "value": "Fang Chung-t'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3637596"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-023",
+      "matchStatus": "proposed",
+      "evidence": "方中通，字位伯，桐城人。集諸家之說，著數度衍二十四卷，附錄一卷。言：『九章皆出於句股，環矩以為圓，合矩以為方，方數為典。以方出圓，句股之所生也；少廣，方圓所出也。方田、商功，皆少廣所出。一方一圓，其間不齊，始出差分，而均輸對差分之數，盈朒借差求均。又差分、均輸所出，而以方程濟其窮。度量衡原出黃鍾，粟佈出焉，黃鍾出於方圓者也。』又言：『古法用竹徑一寸長六分二百七十一而成六觚為一握，後世有珠算而古法亡矣。泰西之筆算、籌算，皆出九九。尺算即比例規，出三角。乘莫善於籌，除莫善於筆，加減莫善於珠，比例莫善"
+    }
+  ],
+  "sources": {
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

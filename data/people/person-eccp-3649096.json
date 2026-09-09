@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649096",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孟",
+    "given": "喬芳",
+    "source": "eccp-3649096",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "永平",
+      "source": "qsg-volume-237",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "MÊNG Ch'iao-fang 孟喬芳 (T. 心亭), Mar. 15, 1595–1654, Feb. 17, Ch'ing general, was a native of Yung-p'ing, Chihli, who served for a time as colonel under the Ming régime, but was dismissed from office and was living in retirement when in 1630 the Manchus occupied Yung-p'ing.",
+          "source": "eccp-3649096",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孟喬芳，字心亭，直隸永平人。",
+          "source": "qsg-volume-237",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "心亭",
+        "source": "eccp-3649096"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "心亭"
+    },
+    "romanizations": [
+      {
+        "value": "Mêng Ch'iao-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649096"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1595,
+        "source": "eccp-3649096",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1654,
+        "source": "eccp-3649096",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649096",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649096",
+      "passage": "eccp-3649096-001"
+    },
+    {
+      "source": "qsg-volume-237",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-237",
+      "passage": "qsg-volume-237-026",
+      "matchStatus": "proposed",
+      "evidence": "孟喬芳，字心亭，直隸永平人。父國用，明寧夏總兵官。喬芳仕明為副將，坐事罷，家居。"
+    }
+  ],
+  "sources": {
+    "eccp-3649096": {
+      "title": "ECCP · Mêng Ch'iao-fang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317646",
+      "locator": "eccp-3649096-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633301": {
+      "title": "ECCP · 張存仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271669",
+      "locator": "eccp-3633301-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633492": {
+      "title": "ECCP · 張勇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271675",
+      "locator": "eccp-3633492-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633506": {
+      "title": "ECCP · 趙良棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271696",
+      "locator": "eccp-3633506-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-255": {
+      "title": "清史稿/卷255",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1235555",
+      "locator": "qsg-volume-255-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

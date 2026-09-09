@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-305552fc4caba02f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "勞",
+    "given": "乃宣",
+    "source": "eccp-3658542",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐鄉",
+      "source": "qsg-volume-472",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "勞乃宣，字玉初，浙江桐鄉人。",
+          "source": "qsg-volume-472",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季瑄",
+        "source": "eccp-3658542"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玉初",
+        "source": "eccp-3658542"
+      },
+      {
+        "value": "矩齋",
+        "source": "eccp-3658542"
+      },
+      {
+        "value": "韌叟",
+        "source": "eccp-3658542"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季瑄"
+    },
+    "romanizations": [
+      {
+        "value": "Lao Nai-hsüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3658542"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1921,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-472",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-472",
+      "passage": "qsg-volume-472-026",
+      "matchStatus": "proposed",
+      "evidence": "勞乃宣，字玉初，浙江桐鄉人。同治十年進士，以知縣分直隸。查淶水禮王府圈地，力請減租蘇民困。光緒五年，初任臨榆，日晨起坐堂皇治官書，啟重門，民有呼籥者，立親訊之，使閽者不能隔吏役，吏役不能隔人民。其後居官二十餘年皆如之。曾國荃督師山海關，檄司文案。歷南皮等縣，畿輔州縣遇道差，咸科於民有定額，而官取其贏。乃宣任蠡縣，值謁陵事竣，贏支應錢千餘緡，儲庫備公用。任完縣，購書萬餘卷庋尊經閣。任吳橋，創裡塾，農事畢，令民入塾，授以弟子規、小學內篇、聖諭廣訓諸書，歲盡始罷。先是寧津奸民陳二糾黨為州郡害，土人稱曰"
+    }
+  ],
+  "sources": {
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-472": {
+      "title": "清史稿/卷472",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433579",
+      "locator": "qsg-volume-472-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

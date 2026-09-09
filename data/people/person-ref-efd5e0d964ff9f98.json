@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-efd5e0d964ff9f98",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "宮",
+    "given": "慕久",
+    "source": "eccp-3675191",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "景虞",
+        "source": "eccp-3675191"
+      }
+    ],
+    "hao": [
+      {
+        "value": "竹圃",
+        "source": "eccp-3675191"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景虞"
+    },
+    "romanizations": [
+      {
+        "value": "Kung Mu-chiu",
+        "system": "ECCP spelling",
+        "source": "eccp-3675191"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3675191": {
+      "title": "ECCP · 吳健章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419947",
+      "locator": "eccp-3675191-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649318",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "世恩",
+    "source": "eccp-3649318",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "吳縣",
+      "source": "qsg-volume-363",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'AN Shih-ên 潘世恩 (T. 芝軒, H. 槐堂), Jan. 17, 1770–1854, May 16, official, was a native of Wu-hsien, Kiangsu. In 1793 he took his chin-shih degree, attaining the rank of chuang-yüan and compiler of the first class.",
+          "source": "eccp-3649318",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "潘世恩，字芝軒，江蘇吳縣人。",
+          "source": "qsg-volume-363",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芝軒",
+        "source": "eccp-3649318"
+      }
+    ],
+    "hao": [
+      {
+        "value": "槐堂",
+        "source": "eccp-3649318"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芝軒"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Shih-ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649318"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1770,
+        "source": "eccp-3649318",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3649318",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649318",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649318",
+      "passage": "eccp-3649318-001"
+    },
+    {
+      "source": "qsg-volume-363",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-363",
+      "passage": "qsg-volume-363-033",
+      "matchStatus": "proposed",
+      "evidence": "潘世恩，字芝軒，江蘇吳縣人。乾隆五十八年一甲一名進士，授修撰。嘉慶二年，大考一等，擢侍讀。和珅以其青年上第有才望，欲招致之，世恩謝不與通。以次當遷，和珅抑題本六閱月不上。仁宗親政，乃擢侍講學士。一歲三遷至內閣學士，歷禮部、兵部、戶部、吏部侍郎，督雲南、浙江、江西學政。十七年，擢工部尚書，調戶部。母憂歸，服除，以父老乞養，會其子登鄉舉，具疏謝，坐未親詣京，降侍郎。帝鑑其孝思，仍允終養，居家十載。"
+    }
+  ],
+  "sources": {
+    "eccp-3649318": {
+      "title": "ECCP · P'an Shih-ên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11446658",
+      "locator": "eccp-3649318-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635441": {
+      "title": "ECCP · 蔣光煦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271719",
+      "locator": "eccp-3635441-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639176": {
+      "title": "ECCP · 馮桂芬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649322": {
+      "title": "ECCP · 潘祖蔭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318050",
+      "locator": "eccp-3649322-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654371": {
+      "title": "ECCP · 石韞玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358442",
+      "locator": "eccp-3654371-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656371": {
+      "title": "ECCP · 鐵保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365150",
+      "locator": "eccp-3656371-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656406": {
+      "title": "ECCP · 曹振鏞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365198",
+      "locator": "eccp-3656406-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-242",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-096",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

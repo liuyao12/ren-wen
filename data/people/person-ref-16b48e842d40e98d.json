@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-16b48e842d40e98d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "棠",
+    "source": "eccp-3643627",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "盱眙",
+      "source": "qsg-volume-425",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳棠，字仲宣，安徽盱眙人。",
+          "source": "qsg-volume-425",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲宣",
+        "source": "eccp-3643627"
+      }
+    ],
+    "hao": [
+      {
+        "value": "棣華",
+        "source": "eccp-3643627"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲宣"
+    },
+    "romanizations": [
+      {
+        "value": "Wu T'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3643627"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-425",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-425",
+      "passage": "qsg-volume-425-010",
+      "matchStatus": "proposed",
+      "evidence": "吳棠，字仲宣，安徽盱眙人。道光十五年舉人，大挑知縣，分南河，補桃源。調清河，署邳州。山東捻匪入境，率團勇擊走之，還清河。咸豐三年，粵匪陷揚州，時圖北竄，棠招集鄉勇，分設七十二局，合數万人，聯絡鄰近十餘縣，合力防禦，有聲江、淮間。丁母憂，士民攀留，河道總督楊以增疏請令治喪百日後，仍署清河。太常寺少卿王茂廕疏薦，詔詢以增，亦以治績上，特命以同知直隸州即補，賜花翎。六年，丁父憂，仍留江蘇，以剿匪功，累擢以道員即補。十年，補淮徐道，命幫辦江北團練。皖北捻匪出入，以徐、宿為孔道，山東土匪時相勾結，一歲數擾"
+    }
+  ],
+  "sources": {
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-425": {
+      "title": "清史稿/卷425",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607179",
+      "locator": "qsg-volume-425-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678079",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "揚",
+    "given": "古利額附",
+    "source": "eccp-3678079",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANGGÛRI efu 揚古利額附, d. 1637, age 66 (sui), of the Sumuru clan at Huncun, served while still a youth as a page in the control of Nurhaci [q. v.]. His father, Langju 郎柱, chieftain of a Kûrka 庫爾喀 tribe, was murdered by one of his followers; and when in 1585 this tribe came to swear allegiance to Nurhaci, Yanggûri sought out his father's murderer, killed him, and ate his ears and nose.",
+          "source": "eccp-3678096",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yang-ku-li ê-fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3678079"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678079",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3678079",
+      "passage": "eccp-3678079-001"
+    },
+    {
+      "source": "eccp-3678096",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678096",
+      "passage": "eccp-3678096-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678079": {
+      "title": "ECCP · Yang-ku-li ê-fu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442427",
+      "locator": "eccp-3678079-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678096": {
+      "title": "ECCP · Yanggûri efu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442566",
+      "locator": "eccp-3678096-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

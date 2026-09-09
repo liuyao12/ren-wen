@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645483",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "林",
+    "given": "佶",
+    "source": "eccp-3645483",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIN Chi 林佶 (T. 吉人, H. 鹿原), b. 1660, calligrapher and bibliophile, was a native of Hou-kuan (Foochow). A chü-jên of 1699, he was appointed in 1706 to serve as a copyist in the Wu-ying-tien 武英殿.",
+          "source": "eccp-3645483",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "吉人",
+        "source": "eccp-3645483"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鹿原",
+        "source": "eccp-3645483"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "吉人"
+    },
+    "romanizations": [
+      {
+        "value": "Lin Chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3645483"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645483",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645483",
+      "passage": "eccp-3645483-001"
+    }
+  ],
+  "sources": {
+    "eccp-3645483": {
+      "title": "ECCP · Lin Chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299414",
+      "locator": "eccp-3645483-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634078": {
+      "title": "ECCP · 陳廷敬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271486",
+      "locator": "eccp-3634078-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672764": {
+      "title": "ECCP · 汪琬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412345",
+      "locator": "eccp-3672764-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

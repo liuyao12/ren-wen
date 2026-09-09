@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637596",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "以智",
+    "source": "eccp-3637596",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FANG I-chih 方以智 (T. 密之, H. 曼公, 鹿起, monastic name 弘智, T. 無可, H. 浮山愚者, 藥地和尚, 五老, 墨歷, 木立 d. 1671?), Ming official and scholar, member of the politico-literary group known as Fu-shê (復社), and later a monk, was a native of T'ungch'êng, Anhwei.",
+          "source": "eccp-3637596",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "方以智，字密之，桐城人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "密之",
+        "source": "eccp-3637596"
+      }
+    ],
+    "hao": [
+      {
+        "value": "曼公",
+        "source": "eccp-3637596"
+      },
+      {
+        "value": "鹿起",
+        "source": "eccp-3637596"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "密之"
+    },
+    "romanizations": [
+      {
+        "value": "Fang I-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3637596"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637596",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637596",
+      "passage": "eccp-3637596-001"
+    },
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-058",
+      "matchStatus": "proposed",
+      "evidence": "方以智，字密之，桐城人。父孔炤，明湖廣巡撫，為楊嗣昌劾下獄，以智懷血疏訟冤，得釋，事具明史。以智，崇禎庚辰進士，授檢討。會李自成破潼關，範景文疏薦以智，召對德政殿，語中機要，上撫幾稱善。以忤執政意，不果用。京師陷，以智哭臨殯宮，至東華門，被執，加刑毒，兩髁骨見，不屈。"
+    }
+  ],
+  "sources": {
+    "eccp-3637596": {
+      "title": "ECCP · Fang I-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633515": {
+      "title": "ECCP · 陳貞慧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ab5bf0c070480a0f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "光第",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "富順",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Liu Kuang-ti 劉光第 (T. 裴村, 1859–1898), a native of Fu-shun, Szechwan, a chin-shih of 1883, who had been secretary of the Board of Punishments for more than ten years. These four secretaries pressed their reforms vehemently and efficiently but, in doing so, committed the nation to rash and premature action which was bound to rouse the enmity of the Empress Dowager, Hsiao-ch'in [q. v.], and of the con",
+          "source": "eccp-3656345",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉光第，字裴村，四川富順人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "裴村",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "裴村"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Kuang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1898,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-030",
+      "matchStatus": "proposed",
+      "evidence": "劉光第，字裴村，四川富順人。光緒九年進士，授刑部主事。治事精嚴，因讞獄忤長官，遂退而閉戶勤學，絕跡不詣署。家素貧，而性廉介，非舊交，雖禮饋弗受。獨與楊銳善。通周官、禮及大小戴禮記。其應召也，亦以陳寶箴薦，然非其素志，將具疏辭，川人官京朝者力勸之。一日，召見，力陳時危民困，外患日迫，亟宜虛懷圖治，上稱善。惟時言路宏啟，臣民奏事日數百計，光第竟日批答，簽識可否，以待上裁。退語所親曰：「吾終不任此，行當亟假歸矣！」未一月而禍作，光第自投獄。臨刑，協辦大學士剛毅監斬，光第詫曰：「未訊而誅，何哉？」令跪聽"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

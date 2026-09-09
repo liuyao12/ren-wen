@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643641",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "棠階",
+    "source": "eccp-3643641",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "河內",
+      "source": "qsg-volume-391",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI T'ang-chieh 李棠階 (T. 樹南, H. 文園, 強齋), Apr. 2, 1798–1865, Dec. 26, official, was a native of Pao-fêng ts'un 保封村 in the district of Ho-nei, Honan. His ancestors were farmers and came originally from Hung-tung, Shansi.",
+          "source": "eccp-3643641",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李棠階，字文園，河南河內人。",
+          "source": "qsg-volume-391",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "樹南",
+        "source": "eccp-3643641"
+      }
+    ],
+    "hao": [
+      {
+        "value": "文園",
+        "source": "eccp-3643641"
+      },
+      {
+        "value": "強齋",
+        "source": "eccp-3643641"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "樹南"
+    },
+    "romanizations": [
+      {
+        "value": "Li T'ang-chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3643641"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3643641",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1865,
+        "source": "eccp-3643641",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643641",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643641",
+      "passage": "eccp-3643641-001"
+    },
+    {
+      "source": "qsg-volume-391",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-391",
+      "passage": "qsg-volume-391-013",
+      "matchStatus": "proposed",
+      "evidence": "李棠階，字文園，河南河內人。道光二年進士，選庶吉士，授編修。五遷至侍讀。二十二年，督廣東學政，擢太常寺少卿。會巡撫黃恩彤奏請予鄉試年老武生職銜，嚴旨責譴，棠階亦因違例送考，議降三級調用，遂引疾家居。文宗即位，复日講，曾國籓薦棠階醇正堪備講官，召來京。既而日講中輟，棠階以病未赴。"
+    }
+  ],
+  "sources": {
+    "eccp-3643641": {
+      "title": "ECCP · Li T'ang-chieh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294865",
+      "locator": "eccp-3643641-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-391": {
+      "title": "清史稿/卷391",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132575",
+      "locator": "qsg-volume-391-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-115",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

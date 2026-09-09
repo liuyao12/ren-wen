@@ -50,7 +50,7 @@ Original software is MIT; imported material keeps its own rights and attribution
 
 ## Complete text and reference maps
 
-Import one complete biography per editorial step. Preserve bibliography, byline,
+The complete ECCP inventory is imported in round one. Review one complete biography per editorial step. Preserve bibliography, byline,
 quotations, and all source body text; unsupported blocks must fail loudly.
 See `docs/text-layers.md`. Extracted quotations remain in their containers;
 separate occurrence records do not count as independent historical evidence.
@@ -60,3 +60,11 @@ CHGIS files have more restrictive file-level terms than their landing metadata.
 Only cropped, attributed academic map images are included; do not add raw CHGIS
 vectors or label the images MIT/CC0. Snapshot years are not the viewing year.
 See `docs/reference-maps.md`. Test the deployed map as well as local fixtures.
+
+## County/clan labels and full-corpus indexes
+
+Use `name.bracket` for the county-only or clan display qualifier; never treat a clan
+as a geographical place. Keep full registry wording and evidence separately in
+`name.registration`; do not infer 民籍, banner company, or an exact birth location.
+After person, work or catalogue edits, run `python -m scripts.reading_indexes`
+and `python -m scripts.round1_validate`. See `docs/eccp-round1.md`.

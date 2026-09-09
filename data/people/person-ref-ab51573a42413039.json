@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ab51573a42413039",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "祁",
+    "given": "宿藻",
+    "source": "eccp-3635434",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "壽陽",
+      "source": "qsg-volume-398",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "祁宿藻，字幼章，山西壽陽人，大學士俊藻弟也。",
+          "source": "qsg-volume-398",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "幼章",
+        "source": "eccp-3635434"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "幼章"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Su-tsao",
+        "system": "ECCP spelling",
+        "source": "eccp-3635434"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1801,
+        "source": "eccp-3635434",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1853,
+        "source": "eccp-3635434",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-398",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-398",
+      "passage": "qsg-volume-398-015",
+      "matchStatus": "proposed",
+      "evidence": "祁宿藻，字幼章，山西壽陽人，大學士俊藻弟也。道光十八年進士，選庶吉士，授編修。以召對受宣宗知，特簡授湖北黃州知府，調武昌。連年大水，城幾沒，堵禦獲全。治急賑，煮粥施錢及衣棺藥餌，全活災民甚眾，政聲最。超擢廣東鹽運使，遷按察使，又遷湖南布政使。會韶州數縣土匪起，詔留宿藻督兵往剿，七戰皆捷，匪首就擒。事平，賜花翎。調江寧布政使。咸豐元年，河決豐北，山東、江北皆被水。大學士杜受田奉命臨賑，疏請以宿藻督辦江北賑務，章程出其手定，奏頒兩省行之。"
+    }
+  ],
+  "sources": {
+    "eccp-3635434": {
+      "title": "ECCP · 祁韻士",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271394",
+      "locator": "eccp-3635434-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-398": {
+      "title": "清史稿/卷398",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162961",
+      "locator": "qsg-volume-398-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

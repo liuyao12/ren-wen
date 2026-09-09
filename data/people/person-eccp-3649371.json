@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649371",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蒲",
+    "given": "松齡",
+    "source": "eccp-3649371",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'U Sung-ling 蒲松齡 (T. 留仙, 劍臣, H. 柳泉, 聊齋), June 5, 1640–1715, Feb. 25, author of the famous collection of short stories known as 聊齋志異 Liao-chai chih-i and other masterpieces, was a native of Tzŭ-ch'uan, Shantung.",
+          "source": "eccp-3649371",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "留仙",
+        "source": "eccp-3649371"
+      },
+      {
+        "value": "劍臣",
+        "source": "eccp-3649371"
+      }
+    ],
+    "hao": [
+      {
+        "value": "柳泉",
+        "source": "eccp-3649371"
+      },
+      {
+        "value": "聊齋",
+        "source": "eccp-3649371"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "留仙"
+    },
+    "romanizations": [
+      {
+        "value": "P'u Sung-ling",
+        "system": "ECCP spelling",
+        "source": "eccp-3649371"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1640,
+        "source": "eccp-3649371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3649371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649371",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649371",
+      "passage": "eccp-3649371-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649371": {
+      "title": "ECCP · P'u Sung-ling",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318140",
+      "locator": "eccp-3649371-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643646": {
+      "title": "ECCP · 李調元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294883",
+      "locator": "eccp-3643646-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654357": {
+      "title": "ECCP · 施閏章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678431": {
+      "title": "ECCP · 余集",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443720",
+      "locator": "eccp-3678431-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

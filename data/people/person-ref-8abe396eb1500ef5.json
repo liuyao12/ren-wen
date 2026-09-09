@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8abe396eb1500ef5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "本",
+    "source": "eccp-3649167",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-302",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hsü Pên 徐本 (T. 立人, H. 是齋, 何山, 1683–1747, posthumous name 文穆), and Hu Chung-tsao 胡中藻 (T. 翰千, H. 堅山, d. 1755). Hsü was a native of Hangchow and a son of Hsü Ch'ao 徐潮 (T. 雪崖, H. 浩軒, 青來, 1647–1715, posthumous name 文敬), one-time president of the Board of Civil Office (1708–10).",
+          "source": "eccp-3649167",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "徐本，字立人，浙江錢塘人，尚書潮子。",
+          "source": "qsg-volume-302",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "立人",
+        "source": "eccp-3649167"
+      }
+    ],
+    "hao": [
+      {
+        "value": "是齋",
+        "source": "eccp-3649167"
+      },
+      {
+        "value": "何山",
+        "source": "eccp-3649167"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "立人"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Pên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649167"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3649167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1747,
+        "source": "eccp-3649167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-302",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-302",
+      "passage": "qsg-volume-302-006",
+      "matchStatus": "proposed",
+      "evidence": "徐本，字立人，浙江錢塘人，尚書潮子。本，康熙五十七年進士，改庶吉士，授編修。雍正五年，提督貴州學政，授贊善，遷侍讀。七年，擢貴州按察使。八年，調江蘇，遷湖北布政使。十年，擢安慶巡撫。奏定比緝盜賊章程，竊案責府州，盜案責臬司。案多而未獲，巡撫親提。比立限，定勸懲。上嘉之。十一年，疏言：「雲、貴、廣西改流土司安置內地，例十人給官房五楹，地五十畝。安慶置二十一人，地遠在來安。請變價別購，俾耕以食。」又疏言：「州縣徵糧，例由府道封櫃，請改州縣自封。完糧十截串票改仍用三連由票，零戶銀以下以十錢當一分。」又"
+    }
+  ],
+  "sources": {
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

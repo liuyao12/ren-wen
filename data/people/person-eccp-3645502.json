@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645502",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "鶚",
+    "source": "eccp-3645502",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Ê 劉鶚 (T. 鐵雲, 鐵翁), Oct. 18, 1857–1909, Aug. 23, scholar and writer, was a native of Tan-t'u, Kiangsu. His father, Liu Ch'êng-chung 劉成忠 (T. 子恕), was a chin-shih of 1852, a compiler of the Hanlin Academy and one time intendant of a circuit in Honan.",
+          "source": "eccp-3645502",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鐵雲",
+        "source": "eccp-3645502"
+      },
+      {
+        "value": "鐵翁",
+        "source": "eccp-3645502"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鐵雲"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Ê",
+        "system": "ECCP spelling",
+        "source": "eccp-3645502"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1857,
+        "source": "eccp-3645502",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1909,
+        "source": "eccp-3645502",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645502",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645502",
+      "passage": "eccp-3645502-001"
+    }
+  ],
+  "sources": {
+    "eccp-3645502": {
+      "title": "ECCP · Liu Ê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645512": {
+      "title": "ECCP · 劉喜海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299470",
+      "locator": "eccp-3645512-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654399": {
+      "title": "ECCP · 孫詒讓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358521",
+      "locator": "eccp-3654399-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672748": {
+      "title": "ECCP · 王懿榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412321",
+      "locator": "eccp-3672748-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

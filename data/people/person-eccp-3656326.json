@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656326",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "宋",
+    "given": "權",
+    "source": "eccp-3656326",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "商丘",
+      "source": "qsg-volume-238",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUNG Ch'üan 宋權 (T. 元平, 平公, H. 雨恭, 梁園, 歸德老農), Aug. 5, 1598–1652, July 10, official of both the Ming and Ch'ing dynasties, was a native of Shang-ch'iu, Honan. Made a chin-shih in 1625, he became district magistrate of Yang-ch'ü, Shansi, and in the spring of 1644 was appointed governor of Shun-t'ien (Peking) with headquarters at Mi-yün in the metropolitan area.",
+          "source": "eccp-3656326",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "宋權，字元平，河南商丘人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元平",
+        "source": "eccp-3656326"
+      },
+      {
+        "value": "平公",
+        "source": "eccp-3656326"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雨恭",
+        "source": "eccp-3656326"
+      },
+      {
+        "value": "梁園",
+        "source": "eccp-3656326"
+      },
+      {
+        "value": "歸德老農",
+        "source": "eccp-3656326"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元平"
+    },
+    "romanizations": [
+      {
+        "value": "Sung Ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3656326"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1598,
+        "source": "eccp-3656326",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3656326",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656326",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656326",
+      "passage": "eccp-3656326-001"
+    },
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-025",
+      "matchStatus": "proposed",
+      "evidence": "宋權，字元平，河南商丘人。明天啟五年進士。官順天巡撫，駐密雲。受事甫三日，李自成陷京師，權計殺自成將黃錠等。睿親王師入關，籍所部以降，命巡撫如故。權疏言：「舊主禦宇十有七年，宵衣旰食，聲色玩好一無所嗜。不幸有君無臣，釀成大亂。幸逢聖主，殲亂復仇，祭葬以禮。倘蒙敕議廟號，以光萬世，則仁至義盡，天下咸頌，四海可傳檄而定。明朝軍需浩繁，致有加派，有司假公濟私，明徵外有暗徵，公派外有私派，民困已極。請照萬曆初年為正額，其餘加增悉予蠲免。勤求上理，宜育賢才。臣所知者，如王永吉、方大猷、楊毓楫、硃繼祚、葉廷"
+    }
+  ],
+  "sources": {
+    "eccp-3656326": {
+      "title": "ECCP · Sung Ch'üan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365075",
+      "locator": "eccp-3656326-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656327": {
+      "title": "ECCP · 宋犖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365077",
+      "locator": "eccp-3656327-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658535": {
+      "title": "ECCP · 杜立德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370070",
+      "locator": "eccp-3658535-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

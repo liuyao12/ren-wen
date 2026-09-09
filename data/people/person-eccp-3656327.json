@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656327",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "宋",
+    "given": "犖",
+    "source": "eccp-3656327",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "商丘",
+      "source": "qsg-volume-274",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUNG Lao 宋犖 (T. 牧仲, H. 漫堂, 緜津山人, and 西陂居士), Feb. 23, 1634–1713, Nov. 3, official, poet, bibliophile, and painter, was a native of Shang-ch'iu, Honan. When his father, Sung Ch'üan [q. v.], was serving as a Grand Secretary, Sung Lao was made an officer of the guards—an honor then extended to sons of high officials—although at this time (1647) Sung Lao was only fourteen sui.",
+          "source": "eccp-3656327",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "宋犖，字牧仲，河南商丘人，權子。",
+          "source": "qsg-volume-274",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "牧仲",
+        "source": "eccp-3656327"
+      }
+    ],
+    "hao": [
+      {
+        "value": "漫堂",
+        "source": "eccp-3656327"
+      },
+      {
+        "value": "緜津山人",
+        "source": "eccp-3656327"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "牧仲"
+    },
+    "romanizations": [
+      {
+        "value": "Sung Lao",
+        "system": "ECCP spelling",
+        "source": "eccp-3656327"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1634,
+        "source": "eccp-3656327",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1713,
+        "source": "eccp-3656327",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656327",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656327",
+      "passage": "eccp-3656327-001"
+    },
+    {
+      "source": "qsg-volume-274",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-274",
+      "passage": "qsg-volume-274-021",
+      "matchStatus": "proposed",
+      "evidence": "宋犖，字牧仲，河南商丘人，權子。順治四年，犖年十四，應詔以大臣子列侍衛。逾歲，試授通判。康熙三年，授湖廣黃州通判。以母憂去。十六年，授理籓院院判，遷刑部員外郎，榷贛關，還遷郎中。二十二年，授直隸通永道。二十六年，遷山東按察使。再遷江蘇布政使，察司庫虧三十六萬有奇，犖揭報督撫，責前布政使劉鼎、章欽文分償。戶部採銅鑄錢，定值斤六分五釐，犖以江蘇不產銅，採自他省，值昂過半，牒巡撫田雯，疏請停採。下部議，改視各關例，斤一錢。"
+    }
+  ],
+  "sources": {
+    "eccp-3656327": {
+      "title": "ECCP · Sung Lao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365077",
+      "locator": "eccp-3656327-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635470": {
+      "title": "ECCP · 錢維城",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271418",
+      "locator": "eccp-3635470-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635445": {
+      "title": "ECCP · 蔣廷錫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271732",
+      "locator": "eccp-3635445-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639231": {
+      "title": "ECCP · 韓霖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280240",
+      "locator": "eccp-3639231-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643702": {
+      "title": "ECCP · 梁廷枏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649386": {
+      "title": "ECCP · 邵長蘅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318167",
+      "locator": "eccp-3649386-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649395": {
+      "title": "ECCP · 沈欽韓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318182",
+      "locator": "eccp-3649395-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656326": {
+      "title": "ECCP · 宋權",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365075",
+      "locator": "eccp-3656326-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · 圖理琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-275": {
+      "title": "清史稿/卷275",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163015",
+      "locator": "qsg-volume-275-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-145",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

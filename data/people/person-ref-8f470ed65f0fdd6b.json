@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8f470ed65f0fdd6b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "士祿",
+    "source": "eccp-3672752",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王士祿，字子底，濟南新城人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子底",
+        "source": "eccp-3672752"
+      }
+    ],
+    "hao": [
+      {
+        "value": "西樵",
+        "source": "eccp-3672752"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子底"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Shih-lu",
+        "system": "ECCP spelling",
+        "source": "eccp-3672752"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1626,
+        "source": "eccp-3672752",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3672752",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-085",
+      "matchStatus": "proposed",
+      "evidence": "王士祿，字子底，濟南新城人。少工文章，清介有守。弟士祜、士禎從之學詩。士禎遂為詩家大宗，官尚書，自有傳。士祿，順治九年進士。投牒改官，選萊州府教授，遷國子監助教，擢吏部主事。康熙二年，以員外郎典試河南，磨勘罣吏議下獄。久之得雪，免歸。居數年，起原官。學士張貞生、御史李棠先後建言獲咎，力直之，人以為難。尋又免歸。母喪，以毀卒，年四十有八。其文去雕飾，詩尤閒澹幽肆。有西樵、十笏山房諸集。"
+    }
+  ],
+  "sources": {
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-085",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

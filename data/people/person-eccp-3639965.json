@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639965",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "景澄",
+    "source": "eccp-3639965",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Ching-ch'êng 許景澄 (T. 竹筠[篔], original ming 癸身 T. 拱辰), Oct. 22, 1845–1900, July 28, diplomat and liberal statesman, who died a martyr in the Boxer rebellion, was a native of Chia-hsing, Chekiang.",
+          "source": "eccp-3639965",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "許景澄，字竹篔，嘉興人。",
+          "source": "qsg-volume-466",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "竹筠",
+        "source": "eccp-3639965"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "竹筠"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Ching-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3639965"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1845,
+        "source": "eccp-3639965",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3639965",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639965",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639965",
+      "passage": "eccp-3639965-001"
+    },
+    {
+      "source": "qsg-volume-466",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-466",
+      "passage": "qsg-volume-466-010",
+      "matchStatus": "proposed",
+      "evidence": "許景澄，字竹篔，嘉興人。同治七年進士，選庶吉士，授編修。明習時事，大學士文祥以使才薦。光緒六年，詔使日本，遭父憂，未行。服闋，補侍講。法越之役，條上籌備事宜，上褒納。十年，出使法德意和奧五國大臣，兼攝比國使務。時海軍初創，從德國購造鐵艦，未就。景澄躬歷船廠，鉤稽輯上外國師船表。又言海軍宜定屯埠膠州灣，設鐵甲尓船大沽口。轉侍讀，母憂歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3639965": {
+      "title": "ECCP · Hsü Ching-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640916": {
+      "title": "ECCP · 奕誴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285920",
+      "locator": "eccp-3640916-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678442": {
+      "title": "ECCP · 袁昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443741",
+      "locator": "eccp-3678442-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-087",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-443": {
+      "title": "清史稿/卷443",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433508",
+      "locator": "qsg-volume-443-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-466": {
+      "title": "清史稿/卷466",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433546",
+      "locator": "qsg-volume-466-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

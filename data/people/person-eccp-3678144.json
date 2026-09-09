@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678144",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嚴",
+    "given": "可均",
+    "source": "eccp-3678144",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEN K'o-chün 嚴可均 (T. 景文, H. 鐵橋), 1762–1843, scholar, was a native of Wu-ch'êng, Chekiang. Finding himself unable to advance in the examinations in his native province, owing it is said, to delinquency in taxes, he went to the capital in 1795 and registered as from Wan-p'ing (Peking).",
+          "source": "eccp-3678144",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "嚴可均，字景文，烏程人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "景文",
+        "source": "eccp-3678144"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鐵橋",
+        "source": "eccp-3678144"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景文"
+    },
+    "romanizations": [
+      {
+        "value": "Yen K'o-chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3678144"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1762,
+        "source": "eccp-3678144",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3678144",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678144",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678144",
+      "passage": "eccp-3678144-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-060",
+      "matchStatus": "proposed",
+      "evidence": "嚴可均，字景文，烏程人。嘉慶五年舉人，官建德縣教諭，引疾歸。可均博聞強識，精考據之學，與姚文田同治説文，爲説文長編，亦謂之類考。有天文、算術、地理類，草木、鳥獸、蟲魚類，聲類，説文引群書、群書引説文類，積四十五冊。又輯鐘鼎拓本爲説文翼十五篇，將校定説文，撰爲疎義。孫星衍促其成，乃撮舉大略。就毛氏汲古閣初印本別爲校議三十篇，專正徐鉉之失。"
+    }
+  ],
+  "sources": {
+    "eccp-3678144": {
+      "title": "ECCP · Yen K'o-chün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442954",
+      "locator": "eccp-3678144-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649395": {
+      "title": "ECCP · 沈欽韓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318182",
+      "locator": "eccp-3649395-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678124": {
+      "title": "ECCP · 姚文田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442905",
+      "locator": "eccp-3678124-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-233",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

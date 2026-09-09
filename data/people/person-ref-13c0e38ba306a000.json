@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-13c0e38ba306a000",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "和睿皇后",
+    "source": "eccp-3678497",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Empress Hsiao-ho",
+        "system": "ECCP spelling",
+        "source": "eccp-3678497"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3678497",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3678497",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-196",
+      "matchStatus": "proposed",
+      "evidence": "孝和睿皇后，鈕祜祿氏，禮部尚書恭阿拉女。后事仁宗潛邸，為側室福晉。仁宗即位，封貴妃。孝淑皇后崩，高宗敕以后繼位中宮。先封皇貴妃。嘉慶六年，冊為皇后。二十五年八月，仁宗幸熱河崩，后傳旨令宣宗嗣位。宣宗尊為皇太后，居壽康宮。道光二十九年十二月甲戌，崩，年七十四。宣宗春秋已高，方有疾，居喪哀毀，三十年正月，崩於慎德堂喪次。咸豐三年，葬後昌陵之西，曰昌西陵。初尊皇太后，上徽號。國有慶，累加上，曰恭慈康豫安成莊惠壽禧崇祺皇太后。逮崩，上諡。咸豐間加諡，曰孝和恭慈康豫安成欽順仁正應天熙聖睿皇后。子二：綿愷、"
+    }
+  ],
+  "sources": {
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-196",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

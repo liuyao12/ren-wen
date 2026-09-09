@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643659",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "勵",
+    "given": "杜訥",
+    "source": "eccp-3643659",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "靜海",
+      "source": "qsg-volume-266",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Tu-no 勵杜訥 (T. 近公, 譫園), Sept. 3, 1628–1703, Sept. 7, calligrapher and official, was a native of Ching-hai, Chihli, although his ancestors were originally from Shaohsing, Chekiang.",
+          "source": "eccp-3643659",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "勵杜訥，字近公，直隸靜海人。",
+          "source": "qsg-volume-266",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "近公",
+        "source": "eccp-3643659"
+      },
+      {
+        "value": "譫園",
+        "source": "eccp-3643659"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "近公"
+    },
+    "romanizations": [
+      {
+        "value": "Li Tu-no",
+        "system": "ECCP spelling",
+        "source": "eccp-3643659"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1628,
+        "source": "eccp-3643659",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1703,
+        "source": "eccp-3643659",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643659",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643659",
+      "passage": "eccp-3643659-001"
+    },
+    {
+      "source": "qsg-volume-266",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-266",
+      "passage": "qsg-volume-266-015",
+      "matchStatus": "proposed",
+      "evidence": "勵杜訥，字近公，直隸靜海人。勵氏自鎮海北遷，訥以杜姓補諸生。康熙二年，纂世祖實錄，選善書之士，訥試第一，赴館繕錄。書成敘勞，授福建福寧州同，命留直南書房，食六品俸。十九年，授編修，充日講起居注官。二十一年，奏請復勵姓。聖祖方閱通鑑綱目，杜訥與學士張英侍，閱竟，杜訥請以御批宣示史館，下禮部翰林院會議，如所請。二十七年，遷贊善。二十九年，遷侍講，改光祿寺少卿。三十六年，遷通政司參議。三十七年，遷太僕寺卿，再遷宗人府府丞。"
+    }
+  ],
+  "sources": {
+    "eccp-3643659": {
+      "title": "ECCP · Li Tu-no",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496599",
+      "locator": "eccp-3643659-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643655": {
+      "title": "ECCP · 勵廷儀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496598",
+      "locator": "eccp-3643655-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643657": {
+      "title": "ECCP · 勵宗萬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496594",
+      "locator": "eccp-3643657-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

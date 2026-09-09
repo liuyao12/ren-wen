@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6185ad0167a0e259",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "昱",
+    "source": "eccp-3674928",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "日初",
+        "source": "eccp-3674928"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東莊老人",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "雲槎山人",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "龍道人",
+        "source": "eccp-3674928"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "日初"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3674928"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

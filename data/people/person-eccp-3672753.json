@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672753",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "時敏",
+    "source": "eccp-3672753",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Shih-min 王時敏 (ming before 1603 贊虞, T. 遜之, H. 烟客, 偶諧道人, 懦齋, 西田主人, 歸村老農, 西廬老人), Sept. 18, 1592–1680, July 12, landscape painter and calligrapher, was a native of T'ai-ts'ang, Kiangsu.",
+          "source": "eccp-3672753",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王時敏，字遜之，號煙客，江南太倉人，明大學士錫爵孫。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "遜之",
+        "source": "eccp-3672753"
+      }
+    ],
+    "hao": [
+      {
+        "value": "烟客",
+        "source": "eccp-3672753"
+      },
+      {
+        "value": "偶諧道人",
+        "source": "eccp-3672753"
+      },
+      {
+        "value": "懦齋",
+        "source": "eccp-3672753"
+      },
+      {
+        "value": "西田主人",
+        "source": "eccp-3672753"
+      },
+      {
+        "value": "歸村老農",
+        "source": "eccp-3672753"
+      },
+      {
+        "value": "西廬老人",
+        "source": "eccp-3672753"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "遜之"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Shih-min",
+        "system": "ECCP spelling",
+        "source": "eccp-3672753"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1592,
+        "source": "eccp-3672753",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3672753",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672753",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672753",
+      "passage": "eccp-3672753-001"
+    },
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-009",
+      "matchStatus": "proposed",
+      "evidence": "王時敏，字遜之，號煙客，江南太倉人，明大學士錫爵孫。以廕官至太常寺少卿。時敏係出高門，文采早著。鼎革後，家居不出，獎掖後進，名德為時所重。明季畫學，董其昌有開繼之功，時敏少時親炙，得其真傳。錫爵晚而抱孫，彌鍾愛，居之別業，廣收名跡，悉窮秘奧。於黃公望墨法，尤有深契，暮年益臻神化。愛才若渴，四方工畫者踵接於門，得其指授，無不知名於時，為一代畫苑領袖。康熙十九年，卒，年八十有九。"
+    }
+  ],
+  "sources": {
+    "eccp-3672753": {
+      "title": "ECCP · Wang Shih-min",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633516": {
+      "title": "ECCP · 陳繼儒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280406",
+      "locator": "eccp-3633516-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633519": {
+      "title": "ECCP · 陳撰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280409",
+      "locator": "eccp-3633519-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672722": {
+      "title": "ECCP · 王鑑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672751": {
+      "title": "ECCP · 王掞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412325",
+      "locator": "eccp-3672751-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678091": {
+      "title": "ECCP · 楊文驄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442527",
+      "locator": "eccp-3678091-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

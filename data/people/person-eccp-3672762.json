@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672762",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "在晉",
+    "source": "eccp-3672762",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Tsai-chin 王在晉 (T. 明初), 1564–1643, Ming official and scholar, was a native of T'ai-ts'ang, Kiangsu, and a chin-shih of 1592. In his official career, he rose to the post of governor of Shantung.",
+          "source": "eccp-3672762",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "明初",
+        "source": "eccp-3672762"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "明初"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Tsai-chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3672762"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1564,
+        "source": "eccp-3672762",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1643,
+        "source": "eccp-3672762",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672762",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672762",
+      "passage": "eccp-3672762-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672762": {
+      "title": "ECCP · Wang Tsai-chin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412342",
+      "locator": "eccp-3672762-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633264": {
+      "title": "ECCP · 張銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271555",
+      "locator": "eccp-3633264-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-017",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672740": {
+      "title": "ECCP · 王象乾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412306",
+      "locator": "eccp-3672740-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678460": {
+      "title": "ECCP · 袁崇煥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443797",
+      "locator": "eccp-3678460-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

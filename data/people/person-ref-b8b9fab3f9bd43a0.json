@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b8b9fab3f9bd43a0",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曾",
+    "given": "燦",
+    "source": "eccp-3674951",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "曾燦，字青藜，亦寧都人，給事中應遴仲子。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "青藜",
+        "source": "eccp-3674951"
+      }
+    ],
+    "hao": [
+      {
+        "value": "止山",
+        "source": "eccp-3674951"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "青藜"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Ts'an",
+        "system": "ECCP spelling",
+        "source": "eccp-3674951"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1610,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-022",
+      "matchStatus": "proposed",
+      "evidence": "曾燦，字青藜，亦寧都人，給事中應遴仲子。歲乙酉，楊廷麟竭力保南贛。應遴以閩嶠山澤間有眾十萬，命燦往撫之。既行，而應遴病卒，贛亦破，乃解散。尋祝髮為僧，遊閩、浙、兩廣間。大母及母念燦成疾，乃歸寧都。以大母命受室，築六松草堂，躬耕不出者數年。後僑居吳下二十餘年，客遊燕市以卒。著有六松草堂文集、西崦草堂詩集。"
+    }
+  ],
+  "sources": {
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

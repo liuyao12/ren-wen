@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-dca4fc1fc1c9c4b3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "范",
+    "given": "時崇",
+    "source": "eccp-3637591",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "自牧",
+        "source": "eccp-3637591"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒼崖",
+        "source": "eccp-3637591"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "自牧"
+    },
+    "romanizations": [
+      {
+        "value": "Fan Shih-ch'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3637591"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3637591": {
+      "title": "ECCP · 范承謨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275783",
+      "locator": "eccp-3637591-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

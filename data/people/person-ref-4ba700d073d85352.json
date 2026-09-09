@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4ba700d073d85352",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "訥",
+    "given": "親",
+    "source": "eccp-3633280",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "訥親，鈕祜祿氏，滿洲鑲黃旗人，額亦都曾孫。",
+          "source": "qsg-volume-301",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Secretary No-ch'in",
+        "system": "ECCP spelling",
+        "source": "eccp-3633280"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-301",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-301",
+      "passage": "qsg-volume-301-006",
+      "matchStatus": "proposed",
+      "evidence": "訥親，鈕祜祿氏，滿洲鑲黃旗人，額亦都曾孫。父尹德，附見其父遏必隆傳，訥親其次子。雍正五年，襲公爵，授散秩大臣。十年，授鑾儀使。十一年十二月，命在辦理軍機處行走。十三年，世宗疾大漸，訥親預顧命。高宗即位，莊親王允祿、果親王允禮、鄂爾泰、張廷玉輔政，號「總理王大臣」。授訥親鑲白旗滿洲都統、領侍衛內大臣，協辦總理事務。十二月，敕獎訥親勤慎，因推孝昭仁皇后外家恩，進一等公。乾隆元年，遷鑲黃旗滿洲都統。二年，遷兵部尚書。十一月，莊親王等請罷總理事務，訥親授軍機大臣。敘勞，加拖沙喇哈番世職。三年二月，領戶部"
+    }
+  ],
+  "sources": {
+    "eccp-3633280": {
+      "title": "ECCP · 張廣泗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271615",
+      "locator": "eccp-3633280-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

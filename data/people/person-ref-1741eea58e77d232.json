@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1741eea58e77d232",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "曜",
+    "source": "eccp-3658542",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "張曜，字朗齋，其先上虞人，改籍大興，既，复隸錢塘。",
+          "source": "qsg-volume-454",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "亮臣",
+        "source": "eccp-3658542"
+      }
+    ],
+    "hao": [
+      {
+        "value": "朗齋",
+        "source": "eccp-3658542"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "亮臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Yüeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3658542"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1891,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-454",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-454",
+      "passage": "qsg-volume-454-017",
+      "matchStatus": "proposed",
+      "evidence": "張曜，字朗齋，其先上虞人，改籍大興，既，复隸錢塘。生有神力，幼嘗持竿結陣，部勒群兒，無敢譁者。少長，依舊脈蒯賀蓀。賀蓀宰固始，適豫捻起，集團勇三百屬之。捻起至，時已昏。曜獻策，謂：「伏軍城外，彼不知眾寡，可以計走也。」夜半，捻縱掠，轟擊退。僧格林沁追捻亟，遙見火光，詢知為曜部，召與語，其悅，命從軍。積勳為知縣，權知固始。皖捻來犯，嬰城守，寇駸駸西去。亡何，李秀成又構捻入，圍城三匝。捍禦七十餘日，城獲全。上嘉其功，賜號霍欽巴圖魯。"
+    }
+  ],
+  "sources": {
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-454": {
+      "title": "清史稿/卷454",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2612997",
+      "locator": "qsg-volume-454-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

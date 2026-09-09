@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-073dff87c1bae2db",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "周",
+    "given": "馥",
+    "source": "eccp-3643627",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "建德",
+      "source": "qsg-volume-449",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "周馥，字玉山，安徽建德人。",
+          "source": "qsg-volume-449",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉山",
+        "source": "eccp-3643627"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉山"
+    },
+    "romanizations": [
+      {
+        "value": "Chou Fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3643627"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1921,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-449",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-449",
+      "passage": "qsg-volume-449-017",
+      "matchStatus": "proposed",
+      "evidence": "周馥，字玉山，安徽建德人。初侍李鴻章司文牘，累保道員。光緒三年，署永定河道。初，天津頻患水，馥迭治津沽入海金鐘河、北運筐港減河及通州潮白河，設文武汛官資防守。並言天津為九河故道，不洩則水患莫瘳，請就上游闢減河而開屯田，南運下游分水勢。部議格不行。後提督周盛傳開興濟減河，屯田小站，實本馥議。丁艱，服除，署津海關道。朝鮮初通商，馥與美提督薛裴爾議草商約保衛之，首稱朝鮮為中國屬邦，固以防侵奪也，而樞府削之。馥私歎曰：「分義不著，禍始此矣！」九年，兼署天津兵備道，俄真除津海關道。中法事起，鴻章命赴海口編"
+    }
+  ],
+  "sources": {
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-028",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-449": {
+      "title": "清史稿/卷449",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2005162",
+      "locator": "qsg-volume-449-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

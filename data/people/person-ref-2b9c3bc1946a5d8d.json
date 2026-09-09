@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2b9c3bc1946a5d8d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "德晉",
+    "source": "eccp-3642414",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔡德晉，字仁錫，無錫人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仁錫",
+        "source": "eccp-3642414"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仁錫"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Tê-chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3642414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-093",
+      "matchStatus": "proposed",
+      "evidence": "蔡德晉，字仁錫，無錫人。雍正四年舉人。乾隆二年，禮部尚書楊名時薦德晉經明行修，授國子監學正，遷工部司務。德晉嘗謂橫渠以禮教人，最得孔門博約之旨，故其律身甚嚴。其論三禮，多前人所未發。著禮經本義十七卷，禮傳本義二十卷，通禮五十卷。"
+    }
+  ],
+  "sources": {
+    "eccp-3642414": {
+      "title": "ECCP · 顧棟高",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290507",
+      "locator": "eccp-3642414-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-093",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

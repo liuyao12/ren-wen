@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d3e773fdd0bd0b34",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "鳳苞",
+    "source": "eccp-3639965",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "崇明",
+      "source": "qsg-volume-446",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李鳳苞，字丹厓，江蘇崇明人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "丹崖",
+        "source": "eccp-3639965"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "丹崖"
+    },
+    "romanizations": [
+      {
+        "value": "Li Fêng-pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3639965"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-033",
+      "matchStatus": "proposed",
+      "evidence": "李鳳苞，字丹厓，江蘇崇明人。少聰慧，究心曆算之學，精測繪。丁日昌撫吳，知其才，資以貲為道員。歷辦江南製造局、吳淞砲台工程局，繪地球全圖，並譯西洋諸書。日昌為船政大臣，調充總考工。朝議遣生徒出洋，加三品卿，派為監督。光緒三年，率赴英、法兩國，分置肆業。明年，賜二品頂戴，充出使德國大臣，旋兼使奧、義、荷三國，往來數千里，周旋各國間，聯絡邦交。時建議興海軍，並命督造戰艦。"
+    }
+  ],
+  "sources": {
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

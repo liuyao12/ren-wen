@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634167",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嵇",
+    "given": "曾筠",
+    "source": "eccp-3634167",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHI Tsêng-yün 嵇曾筠 (T. 松友, H. 禮齋) Jan. 6, 1671–1739, Jan. 26, official, was a native of Wu-hsi, Kiangsu. He was the son of Chi Yüng-jên (see under Fan Ch'êng-mo) who died a martyr in 1676 when his son was only seven sui.",
+          "source": "eccp-3634167",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "嵇曾筠，字松友，江南長洲人。",
+          "source": "qsg-volume-310",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "松友",
+        "source": "eccp-3634167"
+      }
+    ],
+    "hao": [
+      {
+        "value": "禮齋",
+        "source": "eccp-3634167"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "松友"
+    },
+    "romanizations": [
+      {
+        "value": "Chi Tsêng-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3634167"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1671,
+        "source": "eccp-3634167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1739,
+        "source": "eccp-3634167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634167",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634167",
+      "passage": "eccp-3634167-001"
+    },
+    {
+      "source": "qsg-volume-310",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-310",
+      "passage": "qsg-volume-310-014",
+      "matchStatus": "proposed",
+      "evidence": "嵇曾筠，字松友，江南長洲人。父永仁，諸生，從福建總督范承謨死事；母楊守節，撫曾筠成立：事分見忠義、列女傳中。"
+    }
+  ],
+  "sources": {
+    "eccp-3634167": {
+      "title": "ECCP · Chi Tsêng-yün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271703",
+      "locator": "eccp-3634167-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635487": {
+      "title": "ECCP · 秦蕙田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271419",
+      "locator": "eccp-3635487-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637591": {
+      "title": "ECCP · 范承謨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275783",
+      "locator": "eccp-3637591-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642384": {
+      "title": "ECCP · 高斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290431",
+      "locator": "eccp-3642384-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645526": {
+      "title": "ECCP · 劉統勳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299504",
+      "locator": "eccp-3645526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-067",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-118",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-089",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

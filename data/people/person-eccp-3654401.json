@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654401",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "愼行",
+    "source": "eccp-3654401",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Shên-hsing 孫愼行 (T. 聞斯, H. 淇澳), 1565–1636, Feb. 18, Ming official, was a native of Wu-chin, Kiangsu. He ranked third as chin-shih in 1595 and was appointed a Hanlin compiler, but retired a few years later to devote himself to study in strict seclusion.",
+          "source": "eccp-3654401",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聞斯",
+        "source": "eccp-3654401"
+      }
+    ],
+    "hao": [
+      {
+        "value": "淇澳",
+        "source": "eccp-3654401"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聞斯"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Shên-hsing",
+        "system": "ECCP spelling",
+        "source": "eccp-3654401"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1565,
+        "source": "eccp-3654401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1636,
+        "source": "eccp-3654401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654401",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654401",
+      "passage": "eccp-3654401-001"
+    }
+  ],
+  "sources": {
+    "eccp-3654401": {
+      "title": "ECCP · Sun Shên-hsing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358525",
+      "locator": "eccp-3654401-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636400": {
+      "title": "ECCP · 朱常洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272520",
+      "locator": "eccp-3636400-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

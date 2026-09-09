@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649389",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "懿辰",
+    "source": "eccp-3649389",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHAO I-ch'ên 邵懿辰 (T. 位西, H. 蕙西), 1810–1861, Dec. 31, scholar and bibliophile, who died a martyr in the Taiping rebellion, was a native of Jên-ho (Hangchow). Made a chü-jên in 1831, he obtained a post as a secretary of the Grand Secretariat (1841).",
+          "source": "eccp-3649389",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "邵懿辰，字位西，仁和人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "位西",
+        "source": "eccp-3649389"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蕙西",
+        "source": "eccp-3649389"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "位西"
+    },
+    "romanizations": [
+      {
+        "value": "Shao I-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649389"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1810,
+        "source": "eccp-3649389",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1861,
+        "source": "eccp-3649389",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649389",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649389",
+      "passage": "eccp-3649389-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-281",
+      "matchStatus": "proposed",
+      "evidence": "邵懿辰，字位西，仁和人。性峭直，能文章，以名節自厲。於近儒尤慕方苞、李光地之學。道光十一年舉人，授內閣中書。久官京師，因究悉朝章國故，與曾國籓、梅曾亮、朱次琦數輩游處，文益茂美。折節造請高才秀士，有不可，面折之。不為朋黨，志量恆在天下。洊升刑部員外郎，入直軍機處。大學士琦善以妄殺熟番下獄，發十九事難之。"
+    }
+  ],
+  "sources": {
+    "eccp-3649389": {
+      "title": "ECCP · Shao I-ch'ên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672748": {
+      "title": "ECCP · 王懿榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412321",
+      "locator": "eccp-3672748-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-281",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-117",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678488",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "永忠",
+    "source": "eccp-3678488",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YUNG-chung 永忠 (T. 良甫, 敬軒, H. 蕖仙, 臞仙, 九華道人, 香園, 存齋, etc.), 1735–1793, poet, was a member of the Ch'ing Imperial Family and belonged to the Bordered Blue Banner. He was a great-grandson of Emperor Shêng-tsu, a grandson of Yin-t'i [禵, q.v.], and the eldest son of Hung-ming 弘明 (1705–1767, posthumous name 恭勤).",
+          "source": "eccp-3678488",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "良甫",
+        "source": "eccp-3678488"
+      },
+      {
+        "value": "敬軒",
+        "source": "eccp-3678488"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蕖仙",
+        "source": "eccp-3678488"
+      },
+      {
+        "value": "臞仙",
+        "source": "eccp-3678488"
+      },
+      {
+        "value": "九華道人",
+        "source": "eccp-3678488"
+      },
+      {
+        "value": "香園",
+        "source": "eccp-3678488"
+      },
+      {
+        "value": "存齋",
+        "source": "eccp-3678488"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "良甫"
+    },
+    "romanizations": [
+      {
+        "value": "Yung-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678488"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1735,
+        "source": "eccp-3678488",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3678488",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678488",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678488",
+      "passage": "eccp-3678488-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-302",
+      "matchStatus": "proposed",
+      "evidence": "永忠，字良輔，又字臞仙，多羅貝勒弘明子。輔國將軍。有延芬室集。詩體秀逸，書法遒勁，頗有晉人風味。常不衫不履，散步市衢。遇奇書異籍，必買之歸，雖典衣絕食不顧也。"
+    }
+  ],
+  "sources": {
+    "eccp-3678488": {
+      "title": "ECCP · Yung-chung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443842",
+      "locator": "eccp-3678488-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656403": {
+      "title": "ECCP · 曹霑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365194",
+      "locator": "eccp-3656403-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678176": {
+      "title": "ECCP · 胤禵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443043",
+      "locator": "eccp-3678176-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-056",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-052",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-302",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-498": {
+      "title": "清史稿/卷498",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026199",
+      "locator": "qsg-volume-498-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

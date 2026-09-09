@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-87f1a9fe1fbb78ad",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "靜成皇后",
+    "source": "eccp-3640821",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "孝靜成皇后，博爾濟吉特氏，刑部員外郎花良阿女。",
+          "source": "qsg-volume-214",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Empress Hsiao-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3640821"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1812,
+        "source": "eccp-3640821",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-3640821",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-217",
+      "matchStatus": "proposed",
+      "evidence": "孝靜成皇后，博爾濟吉特氏，刑部員外郎花良阿女。后事宣宗為靜貴人。累進靜皇貴妃。孝全皇后崩，文宗方十歲，妃撫育有恩。文宗即位，尊為皇考康慈皇貴太妃，居壽康宮。咸豐五年七月，太妃病篤，尊為康慈皇太后。越九日庚午，崩，年四十四。上諡，曰孝靜康慈弼天撫聖皇后，不系宣宗諡，不祔廟。葬慕陵東，曰慕東陵。穆宗即位，祔廟，加諡。光緒、宣統累加諡，曰孝靜康慈懿昭端惠莊仁和慎弼天撫聖成皇后。子三：奕綱、奕繼、奕訢。女一，下嫁景壽。"
+    }
+  ],
+  "sources": {
+    "eccp-3640821": {
+      "title": "ECCP · 奕訢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285401",
+      "locator": "eccp-3640821-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-217",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

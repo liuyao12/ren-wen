@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b621f800c59943be",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "詵",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海寧",
+      "source": "qsg-volume-274",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳詵，字叔大，浙江海寧人。",
+          "source": "qsg-volume-274",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔大",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "實齋",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔大"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1642,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1722,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-274",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-274",
+      "passage": "qsg-volume-274-026",
+      "matchStatus": "proposed",
+      "evidence": "陳詵，字叔大，浙江海寧人。康熙十一年舉人，授中書科中書舍人。二十八年，考授吏科給事中，乞養歸。三十六年，起補原官。輔刑科掌印給事中。疏言：「淮、黃自古不兩行。邇者修歸仁堤，開胡家溝，出睢湖之水；閉六壩，加築高家堰，出洪澤湖之水。此借淮敵黃不易之理。然淮水入運者多，則敵黃仍弱。舊設天妃閘，自淮、黃交會處至清江浦，凡為五閘，重運到時，更迭啟閉，過即下板鎖斷，是以全淮注黃。其引入運河者，不過暫資濟運。自改建草壩，淮、黃盡趨運河，清江浦民居可危。宜复天妃閘舊制，使淮易敵黃，有裨大工。」疏下河督張鵬翮議行"
+    }
+  ],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

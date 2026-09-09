@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675201",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "榮光",
+    "source": "eccp-3675201",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Jung-kuang 吳榮光 (T. 伯榮, H. 殿垣, 荷屋), Feb. 15(?), 1773–1843, Sept. 27, official, was a native of Fo-shan (Nan-hai), west of Canton. He came from a wealthy family engaged in the sale of salt.",
+          "source": "eccp-3675201",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯榮",
+        "source": "eccp-3675201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "殿垣",
+        "source": "eccp-3675201"
+      },
+      {
+        "value": "荷屋",
+        "source": "eccp-3675201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯榮"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Jung-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3675201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1773,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675201",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675201",
+      "passage": "eccp-3675201-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675201": {
+      "title": "ECCP · Wu Jung-kuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3675192": {
+      "title": "ECCP · 吳敬梓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419949",
+      "locator": "eccp-3675192-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-365": {
+      "title": "清史稿/卷365",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542368",
+      "locator": "qsg-volume-365-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-374": {
+      "title": "清史稿/卷374",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292892",
+      "locator": "qsg-volume-374-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

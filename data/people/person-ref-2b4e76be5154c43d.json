@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2b4e76be5154c43d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "鑑",
+    "source": "eccp-3640939",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "張鑑，字春冶，歸安人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "春冶",
+        "source": "eccp-3640939"
+      },
+      {
+        "value": "荀鶴",
+        "source": "eccp-3640939"
+      }
+    ],
+    "hao": [
+      {
+        "value": "秋水",
+        "source": "eccp-3640939"
+      },
+      {
+        "value": "貞疾居士",
+        "source": "eccp-3640939"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "春冶"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3640939"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3640939",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3640939",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-072",
+      "matchStatus": "proposed",
+      "evidence": "張鑑，字春冶，歸安人。巡撫阮元築詁經精舍西湖，鑑及同里楊鳳苞、施國祁肄業其中，皆知名。嘉慶初，副榜貢生。元剿海寇，賑兩浙水災，一資鑑贊畫。時方議海運，鑑力主之。以為河運雖安，費鉅；海運費省，得其人熟習海道，未嘗不安。乃著海運芻言，凡料淺佔風之法，定盤望星之規，放洋泊舟之處，考之甚悉，侍郎英和亟稱其書。道光四年，河決高家堰，漕運阻。英和遂奏行海運，多采用鑑說。卒，年八十三。著十五經叢說、西夏紀事本末、眉山詩案廣證。"
+    }
+  ],
+  "sources": {
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-072",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636411",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "之瑜",
+    "source": "eccp-3636411",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Chih-yü 朱之瑜 (T. 魯嶼, 楚嶼, H. 舜水), Nov. 17, 1600–1682, May 23, was a native of Yü-yao, Chekiang. Both his father and grandfather were Ming officials, and he himself repeatedly declined invitations to accept high positions under the Manchus until his loyalty was questioned and he was forced in 1645 to flee to Japan.",
+          "source": "eccp-3636411",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "魯嶼",
+        "source": "eccp-3636411"
+      },
+      {
+        "value": "楚嶼",
+        "source": "eccp-3636411"
+      }
+    ],
+    "hao": [
+      {
+        "value": "舜水",
+        "source": "eccp-3636411"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "魯嶼"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Chih-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3636411"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1600,
+        "source": "eccp-3636411",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3636411",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636411",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636411",
+      "passage": "eccp-3636411-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636411": {
+      "title": "ECCP · Chu Chih-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272540",
+      "locator": "eccp-3636411-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

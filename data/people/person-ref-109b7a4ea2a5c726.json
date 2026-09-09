@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-109b7a4ea2a5c726",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姚",
+    "given": "瑩",
+    "source": "eccp-3637601",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐城",
+      "source": "qsg-volume-384",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "姚瑩，字石甫，安徽桐城人。",
+          "source": "qsg-volume-384",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "石甫",
+        "source": "eccp-3637601"
+      },
+      {
+        "value": "叔明",
+        "source": "eccp-3637601"
+      }
+    ],
+    "hao": [
+      {
+        "value": "展如",
+        "source": "eccp-3637601"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "石甫"
+    },
+    "romanizations": [
+      {
+        "value": "Yao Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3637601"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1853,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-384",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-384",
+      "passage": "qsg-volume-384-026",
+      "matchStatus": "proposed",
+      "evidence": "姚瑩，字石甫，安徽桐城人。嘉慶十三年進士，授福建平和知縣。調龍溪，俗健悍，械鬥仇殺無虛日。瑩擒巨惡立斃之，收豪猾為用，予以自新。親巡問疾苦，使侵奪者各還舊業，誓解仇讎。擇強力者為家長，約束族眾，籍壯丁為鄉勇，逐捕盜賊，有犯，責家長縛送。械鬥平，盜賊亦戢，治行為閩中第一。調台灣，署海防同知、噶瑪蘭同知，坐事落職。尋以噶瑪蘭獲盜功，复官。父憂歸，服闋，改發江蘇，歷金壇、元和、武進。遷高郵知州，擢兩淮監掣同知，護鹽運使。先後疆吏趙慎畛、陶澍、林則徐皆薦其可大用。"
+    }
+  ],
+  "sources": {
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-384": {
+      "title": "清史稿/卷384",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605682",
+      "locator": "qsg-volume-384-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

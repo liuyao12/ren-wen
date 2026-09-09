@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634186",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "齊",
+    "given": "周華",
+    "source": "eccp-3634186",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'I Chou-hua 齊周華 (T. 巨山, H. 漆若), 1698–1768, ca. Jan. 26, executed for offending the emperor by his writings, was a native of T'ien-t'ai, Chekiang, and a second cousin of Ch'i Shao-nan [q. v.].",
+          "source": "eccp-3634186",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "巨山",
+        "source": "eccp-3634186"
+      }
+    ],
+    "hao": [
+      {
+        "value": "漆若",
+        "source": "eccp-3634186"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "巨山"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Chou-hua",
+        "system": "ECCP spelling",
+        "source": "eccp-3634186"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1698,
+        "source": "eccp-3634186",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3634186",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634186",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634186",
+      "passage": "eccp-3634186-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634186": {
+      "title": "ECCP · Ch'i Chou-hua",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271390",
+      "locator": "eccp-3634186-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635432": {
+      "title": "ECCP · 齊召南",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271393",
+      "locator": "eccp-3635432-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

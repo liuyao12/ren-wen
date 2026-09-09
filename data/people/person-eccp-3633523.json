@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633523",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "洪綬",
+    "source": "eccp-3633523",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "諸暨",
+      "source": "qsg-volume-504",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Hung-shou 陳洪綬 (T. 章侯, H. 老蓮, monastic name after 1645 悔遲 H. 老遲), 1599–1652, Ming artist and poet, was a native of Chu-chi, Chekiang. His grandfather, Ch'ên Hsing-hsüeh 陳性學, chin-shih of 1577 and financial commissioner for Kwangtung in the years 1601-06, left the family a moderate fortune.",
+          "source": "eccp-3633523",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳洪綬，字章侯，浙江諸暨人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "章侯",
+        "source": "eccp-3633523"
+      }
+    ],
+    "hao": [
+      {
+        "value": "老蓮",
+        "source": "eccp-3633523"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "章侯"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Hung-shou",
+        "system": "ECCP spelling",
+        "source": "eccp-3633523"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1599,
+        "source": "eccp-3633523",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3633523",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633523",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633523",
+      "passage": "eccp-3633523-001"
+    },
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-014",
+      "matchStatus": "proposed",
+      "evidence": "陳洪綬，字章侯，浙江諸暨人。幼適婦翁家，登案畫關壯繆像於素壁，長八九尺，婦翁見之驚異，扃室奉之。洪綬畫人物，衣紋清勁，力量氣局，在仇、唐之上。嘗至杭州，摹府學石刻李公麟七十二賢像，又摹周昉美人圖，數四不已，人謂其勝原本，曰：「此所以不及也。吾畫易見好，則能事猶未盡。」嘗為諸生，崇禎間，遊京師，召為舍人，摹歷代帝王像，縱觀禦府圖畫，藝益進。尋辭歸。鼎革後，混跡浮屠間，初號老蓮，至是自號悔遲。縱酒不羈，語及亂離，輒慟哭。後數年卒。子字，號小蓮。畫亦有名。"
+    }
+  ],
+  "sources": {
+    "eccp-3633523": {
+      "title": "ECCP · Ch'ên Hung-shou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271460",
+      "locator": "eccp-3633523-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634085": {
+      "title": "ECCP · 陳文述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271502",
+      "locator": "eccp-3634085-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645503": {
+      "title": "ECCP · 劉逢祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649162": {
+      "title": "ECCP · 鈕樹玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317766",
+      "locator": "eccp-3649162-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656329": {
+      "title": "ECCP · 宋應星",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365080",
+      "locator": "eccp-3656329-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658533": {
+      "title": "ECCP · 崔子忠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370063",
+      "locator": "eccp-3658533-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672741": {
+      "title": "ECCP · 王象晉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412308",
+      "locator": "eccp-3672741-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

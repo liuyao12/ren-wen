@@ -32,7 +32,29 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Yüan-tu 李元度 (T. 次青, 笏庭, H. 天岳山樵, 超然老人), Sept. 20, 1821–1887, Nov. 12, scholar and official, was a native of P'ing-chiang, Hunan, and a chü-jên of 1843. In 1852 he joined the staff of the provincial director of education in Manchuria.",
+          "source": "eccp-3643670",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李元度，字次青，湖南平江人。",
+          "source": "qsg-volume-432",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "平江",
+      "source": "qsg-volume-432",
+      "status": "proposed"
+    }
   },
   "life": {
     "birth": null,
@@ -72,6 +94,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Li_Y%C3%BCan-tu",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3643670",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643670",
+      "passage": "eccp-3643670-001"
+    },
+    {
+      "source": "qsg-volume-432",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-432",
+      "passage": "qsg-volume-432-030",
+      "matchStatus": "proposed",
+      "evidence": "李元度，字次青，湖南平江人。以舉人官黔陽教諭。曾國籓在籍治團練，元度上書數千言言兵事，國籓壯之，招入幕。咸豐五年，國籓移軍江西，令元度募勇三千屯湖口。六年，移屯撫州，偕江軍林源恩合防。與賊相持久之，餉絀，分軍克宜黃、崇仁；而賊自景德來援，撫州賊出攻江軍營，林源恩死之。元度突圍出，移屯貴溪，防廣信。七年，賊二萬來襲玉山，守卒僅七百人，元度迎戰，斷賊浮梁，賊以步隊綴軍，騎賊趨上游跐水渡。乃回城拒守，被攻兩晝夜，元度立埤兒間，彈中左頰。賊忽罷攻，鉦鐃雜作，知其穴地道，乃掘壕以防，伺其穿隧及壕殪之。賊"
     }
   ],
   "sources": {
@@ -95,6 +131,83 @@
       "locator": "Preserved source opening, revision 11294920",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643670": {
+      "title": "ECCP · Li Yüan-tu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294920",
+      "locator": "eccp-3643670-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654367": {
+      "title": "ECCP · 石達開",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358434",
+      "locator": "eccp-3654367-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3677759": {
+      "title": "ECCP · Thirty-three Collections of Ch'ing Dynasty Biographies",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440506",
+      "locator": "eccp-3677759-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-144",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-395": {
+      "title": "清史稿/卷395",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026650",
+      "locator": "qsg-volume-395-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-420": {
+      "title": "清史稿/卷420",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2272914",
+      "locator": "qsg-volume-420-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-432": {
+      "title": "清史稿/卷432",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515895",
+      "locator": "qsg-volume-432-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-434": {
+      "title": "清史稿/卷434",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433516",
+      "locator": "qsg-volume-434-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

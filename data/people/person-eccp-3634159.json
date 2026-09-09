@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634159",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "季",
+    "given": "振宜",
+    "source": "eccp-3634159",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHI Chên-i 季振宜 (T. 詵兮, H. 滄葦), b. 1630, official and bibliophile, was a native of T'ai-hsing, Kiangsu, second of the seven sons of Chi Yü-yung 季寓庸 (T. 因是), a chin-shih of 1622. Chi Chên-i himself became a chin-shih in 1647 at the early age of eighteen (sui) and was at once appointed magistrate of Lan-ch'i, Chekiang.",
+          "source": "eccp-3634159",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "詵兮",
+        "source": "eccp-3634159"
+      }
+    ],
+    "hao": [
+      {
+        "value": "滄葦",
+        "source": "eccp-3634159"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "詵兮"
+    },
+    "romanizations": [
+      {
+        "value": "Chi Chên-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3634159"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634159",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634159",
+      "passage": "eccp-3634159-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634159": {
+      "title": "ECCP · Chi Chên-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271702",
+      "locator": "eccp-3634159-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635468": {
+      "title": "ECCP · 錢曾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271416",
+      "locator": "eccp-3635468-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645483": {
+      "title": "ECCP · 林佶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299414",
+      "locator": "eccp-3645483-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646160": {
+      "title": "ECCP · 毛扆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300584",
+      "locator": "eccp-3646160-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

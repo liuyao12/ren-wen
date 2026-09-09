@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b77f2b3ce77294e1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曹",
+    "given": "錫寶",
+    "source": "eccp-3635456",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "曹錫寶，字鴻書，一字劍亭，江南上海人。",
+          "source": "qsg-volume-322",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鳴書",
+        "source": "eccp-3635456"
+      }
+    ],
+    "hao": [
+      {
+        "value": "劍亭",
+        "source": "eccp-3635456"
+      },
+      {
+        "value": "容圃",
+        "source": "eccp-3635456"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鳴書"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ao Hsi-pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3635456"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1719,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1792,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-322",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-322",
+      "passage": "qsg-volume-322-017",
+      "matchStatus": "proposed",
+      "evidence": "曹錫寶，字鴻書，一字劍亭，江南上海人。乾隆初，以舉人考授內閣中書，充軍機處章京。資深當擢侍讀，錫寶辭。大學士傅恆知其欲以甲科進，乃不為請遷。二十二年，成進士，改庶吉士。以母憂歸，病瘍，數年乃愈。三十一年，散館，改刑部主事。再遷郎中。授山東糧道。衛千總寧廷言子惠以索逋殺千總張繼渠，錫寶下部議。上巡山東，召見，命來京以部屬用。以大學士阿桂奏，令入四庫全書館自效。書成，以國子監司業升用。"
+    }
+  ],
+  "sources": {
+    "eccp-3635456": {
+      "title": "ECCP · 錢灃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271408",
+      "locator": "eccp-3635456-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9719fb47738cdd7a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "毛",
+    "given": "鴻賓",
+    "source": "eccp-3646129",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歷城",
+      "source": "qsg-volume-424",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "毛鴻賓，字翊雲，山東歷城人。",
+          "source": "qsg-volume-424",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寄雲",
+        "source": "eccp-3646129"
+      }
+    ],
+    "hao": [
+      {
+        "value": "寅庵",
+        "source": "eccp-3646129"
+      },
+      {
+        "value": "菊隱",
+        "source": "eccp-3646129"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寄雲"
+    },
+    "romanizations": [
+      {
+        "value": "Mao Hung-pin",
+        "system": "ECCP spelling",
+        "source": "eccp-3646129"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3646129",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1868,
+        "source": "eccp-3646129",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-424",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-424",
+      "passage": "qsg-volume-424-019",
+      "matchStatus": "proposed",
+      "evidence": "毛鴻賓，字翊雲，山東歷城人。道光十八年進士，選庶吉士，授編修。遷御史、給事中，數上封事論軍務。咸豐三年，以尚書孫瑞珍薦，命回籍治團練。四年，劾幫辦軍務大臣勝保罪狀，請嚴旨查辦。五年，授湖北荊宜施道，調安襄鄖荊道，歷安徽按察使、江蘇布政使。"
+    }
+  ],
+  "sources": {
+    "eccp-3646129": {
+      "title": "ECCP · 陸心源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300529",
+      "locator": "eccp-3646129-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-424": {
+      "title": "清史稿/卷424",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027084",
+      "locator": "qsg-volume-424-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

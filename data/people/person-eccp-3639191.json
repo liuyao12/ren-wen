@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639191",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "傅",
+    "given": "以漸",
+    "source": "eccp-3639191",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "聊城",
+      "source": "qsg-volume-238",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "FU I-chien 傅以漸 (T. 于磬, H. 星巖), 1609–1665, was a native of Liao'ch'êng, Shantung. He took his chin-shih with highest honors in 1646, and so was the first scholar to receive the degree of chuang-yüan 狀元 or optimus in the Ch'ing dynasty.",
+          "source": "eccp-3639191",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "傅以漸，字於磐，山東聊城人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "于磬",
+        "source": "eccp-3639191"
+      }
+    ],
+    "hao": [
+      {
+        "value": "星巖",
+        "source": "eccp-3639191"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "于磬"
+    },
+    "romanizations": [
+      {
+        "value": "Fu I-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3639191"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1609,
+        "source": "eccp-3639191",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1665,
+        "source": "eccp-3639191",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639191",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639191",
+      "passage": "eccp-3639191-001"
+    },
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-030",
+      "matchStatus": "proposed",
+      "evidence": "傅以漸，字於磐，山東聊城人。順治三年一甲一名進士，授弘文院修撰。八年，遷國史院侍講。九年，遷左庶子。十年，歷秘書院侍講學士、少詹事，擢國史院學士。十一年，授秘書院大學士。十二年，詔陳時務，條上安民三事。加太子太保，改國史院文學士。先後充明史、太宗實錄纂修，太祖、太宗聖訓並通鑑總裁。又命作資政要覽後序，撰內則衍義，覆核賦役全書。十四年，命以漸及庶子曹本榮修易經通注。十五年，偕學士李霨主會試。考官入闈，例得攜書籍，言官請申禁，以漸請仍如舊例，許之。入闈病咯血，請另簡，命力疾料理。尋加少保，改武英殿大"
+    }
+  ],
+  "sources": {
+    "eccp-3639191": {
+      "title": "ECCP · Fu I-chien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280186",
+      "locator": "eccp-3639191-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646136": {
+      "title": "ECCP · 呂宮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300542",
+      "locator": "eccp-3646136-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-148",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639969",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "宏祖",
+    "source": "eccp-3639969",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "振之",
+        "source": "eccp-3639969"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "振之"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Hung-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639969"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1586,
+        "source": "eccp-3639969",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1641,
+        "source": "eccp-3639969",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639969",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639969",
+      "passage": "eccp-3639969-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639969": {
+      "title": "ECCP · Hsü Hung-tsu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282797",
+      "locator": "eccp-3639969-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639968": {
+      "title": "ECCP · 徐霞客",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282795",
+      "locator": "eccp-3639968-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633176": {
+      "title": "ECCP · Preface",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440501",
+      "locator": "eccp-3633176-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656329": {
+      "title": "ECCP · 宋應星",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365080",
+      "locator": "eccp-3656329-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

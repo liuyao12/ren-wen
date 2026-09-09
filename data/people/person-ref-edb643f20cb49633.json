@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-edb643f20cb49633",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "秦",
+    "given": "瀛",
+    "source": "eccp-3635487",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "無錫",
+      "source": "qsg-volume-354",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "秦瀛，字凌滄，江蘇無錫人，諭德松齡玄孫也。",
+          "source": "qsg-volume-354",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "淩滄",
+        "source": "eccp-3635487"
+      },
+      {
+        "value": "小峴",
+        "source": "eccp-3635487"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遂庵",
+        "source": "eccp-3635487"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "淩滄"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'in Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3635487"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1743,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1821,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-354",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-354",
+      "passage": "qsg-volume-354-013",
+      "matchStatus": "proposed",
+      "evidence": "秦瀛，字凌滄，江蘇無錫人，諭德松齡玄孫也。乾隆四十一年，以舉人召試山東行在，授內閣中書，充軍機章京，洊遷郎中。五十八年，出為浙江溫處道，有惠政。嘉慶五年，擢按察使。寧、紹、台三府水災，有司匿不報，瀛力言於巡撫，乃得賑。調湖南，衡州歲歉，有司匿不報，方議派濟陝西兵米，瀛复力言於巡撫，留米平糶。七年，以病歸。逾兩年，起授廣東按察使，督郡縣治盜，擒著盜梁修平、吳叚喜置諸法。撫瓊州黎匪，嚴禁賭博白鴿票。"
+    }
+  ],
+  "sources": {
+    "eccp-3635487": {
+      "title": "ECCP · 秦蕙田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271419",
+      "locator": "eccp-3635487-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-354": {
+      "title": "清史稿/卷354",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433490",
+      "locator": "qsg-volume-354-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

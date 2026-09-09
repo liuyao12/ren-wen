@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-be02799221733b1b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陶",
+    "given": "樑",
+    "source": "eccp-3636416",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "長洲",
+      "source": "qsg-volume-422",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陶樑，字鳧薌，江蘇長洲人。",
+          "source": "qsg-volume-422",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寧求",
+        "source": "eccp-3636416"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鳧鄉",
+        "source": "eccp-3636416"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寧求"
+    },
+    "romanizations": [
+      {
+        "value": "T'ao Liang",
+        "system": "ECCP spelling",
+        "source": "eccp-3636416"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3636416",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1857,
+        "source": "eccp-3636416",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-422",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-422",
+      "passage": "qsg-volume-422-058",
+      "matchStatus": "proposed",
+      "evidence": "陶樑，字鳧薌，江蘇長洲人。嘉慶十三年進士，選庶吉士，授編修，纂修皇清文穎。十九年，林清之變，逆黨闌入禁城，樑方在館修書，其僕駱升聞警，匿樑於書櫥，自當戶立，賊刃之，僕，越日事定，樑出，救之甦。仁宗回鑾聞之，召樑問狀，曰：「義僕也！」賜之金。"
+    }
+  ],
+  "sources": {
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}
