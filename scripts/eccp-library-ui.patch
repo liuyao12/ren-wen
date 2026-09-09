@@ -1,0 +1,129 @@
+diff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml
+index e4c028d..7496eb4 100644
+--- a/.github/workflows/ci.yml
++++ b/.github/workflows/ci.yml
+@@ -21,0 +22 @@ jobs:
++      - run: python scripts/works.py validate
+@@ -25,0 +27 @@ jobs:
++      - run: python scripts/works.py index-db
+diff --git a/.github/workflows/pages.yml b/.github/workflows/pages.yml
+index e0fdb71..1fd67f0 100644
+--- a/.github/workflows/pages.yml
++++ b/.github/workflows/pages.yml
+@@ -42,0 +43 @@ jobs:
++      - run: python scripts/works.py validate
+@@ -46 +47 @@ jobs:
+-          cp index.html profiles.html _site/
++          cp index.html profiles.html works.html _site/
+diff --git a/assets/app.js b/assets/app.js
+index 1f88504..1592a37 100644
+--- a/assets/app.js
++++ b/assets/app.js
+@@ -57,2 +57,4 @@ async function loadSource(id) {
+-  reader.scrollTop=0;activate(reader.querySelector('p[id]')?.id);selectEntity(state.catalog.defaultPerson);
+-  history.replaceState(null,'',`#${encodeURIComponent(id)}`);
++  reader.scrollTop=0;activate(reader.querySelector('p[id]')?.id);selectEntity(source.subject || state.catalog.defaultPerson);
++  history.replaceState(null,'',`${location.search}#${encodeURIComponent(id)}`);
++  const requested=new URLSearchParams(location.search).get('passage');
++  if(requested && reader.querySelector('p[id]') && document.getElementById(requested)?.parentElement===reader)requestAnimationFrame(()=>jump(requested));
+@@ -110 +112,2 @@ $('close-inspector').onclick=()=>$('inspector').hidden=true;$('close-dialog').on
+-$('source-select').onchange=e=>loadSource(e.target.value).catch(error=>toast(error.message));
++$('source-select').onchange=e=>{const url=new URL(location.href);url.search='';url.hash=e.target.value;history.replaceState(null,'',url);loadSource(e.target.value).catch(error=>toast(error.message));};
++window.addEventListener('hashchange',()=>{let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}if(state.catalog?.sources.some(s=>s.id===id) && state.source?.id!==id)loadSource(id).catch(error=>toast(error.message));});
+@@ -124 +127 @@ $('map-fit').onclick=()=>{const ids=contextFor(state.catalog,state.source.id,sta
+-$('about-button').onclick=()=>modal('人文 · Ren-Wen',`<p>People through texts. Texts in context.</p><p>This first working pilot connects selected passages from the ECCP biography of 曾紀澤 with his account in 清史稿. Scroll or click a paragraph to update the people, events, and places. Click a marked phrase to inspect its evidence and propose a correction.</p><h3>What is deliberately not claimed</h3><p>The seed identifications are proposals, not independently reviewed scholarship. This is an excerpt collection, not a complete import. The map contains modern reference points, not reconstructed historical jurisdictions. No real ctext semantic XML fixture has been validated or imported yet.</p><h3>Original text and versions</h3><p>Imported wording is stored separately from our annotated working copy. Historical witnesses coexist; they are never automatically merged into one “correct” text. Chinese punctuation can be hidden for reading without changing the stored text.</p><p>${link('https://github.com/liuyao12/ren-wen','Project, documentation, and Python tools')}</p>`);
++$('about-button').onclick=()=>modal('人文 · Ren-Wen',`<p>People through texts. Texts in context.</p><p>The reader contains complete ECCP entries for 曾紀澤、郭嵩燾、董恂 and 崇厚, plus selected 清史稿 passages. People and named works have separate source-linked profiles. Scroll or click a paragraph to update the people, events, and places. Click a marked phrase to inspect its evidence and propose a correction.</p><h3>What is deliberately not claimed</h3><p>The seed identifications are proposals, not independently reviewed scholarship. The four ECCP entries are complete; the 清史稿 account remains an excerpt. Person and named-work annotations are an agent first pass; place and event extraction remains partial. The map contains modern reference points, not reconstructed historical jurisdictions. No real ctext semantic XML fixture has been validated or imported yet.</p><h3>Original text and versions</h3><p>Imported wording is stored separately from our annotated working copy. Historical witnesses coexist; they are never automatically merged into one “correct” text. Chinese punctuation can be hidden for reading without changing the stored text.</p><p>${link('https://github.com/liuyao12/ren-wen','Project, documentation, and Python tools')}</p>`);
+diff --git a/assets/profile-view.js b/assets/profile-view.js
+index 4ae3dd9..01fbfd5 100644
+--- a/assets/profile-view.js
++++ b/assets/profile-view.js
+@@ -2,0 +3 @@ import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
++import {loadWorks,workURL,readerURL,eccpDestination,occurrences} from './library.js';
+@@ -10,0 +12 @@ const byId = id => document.getElementById(id);
++let libraryCatalog=null,libraryWorks=[];
+@@ -13,0 +16,3 @@ function render(p) {
++  const destination=eccpDestination(p,libraryCatalog);
++  const contributions=libraryWorks.filter(w=>(w.creators||[]).some(c=>c.person===p.id));
++  const ms=occurrences(libraryCatalog,p.id);
+@@ -21,0 +27 @@ function render(p) {
++    ${destination?`<div class="reading-links"><a href="${h(destination.url)}"${destination.external?' target="_blank" rel="noopener"':''}>${h(destination.label)}${destination.external?' ↗':' →'}</a></div>`:''}
+@@ -47,0 +54,2 @@ function render(p) {
++    ${contributions.length?`<section><h2>Works and contributions · 文</h2><ul class="contribution-list">${contributions.map(w=>`<li><a href="${h(workURL(w.id))}">${h(w.title)}</a> · ${h(w.creators.filter(c=>c.person===p.id).map(c=>c.role).join(', '))}</li>`).join('')}</ul></section>`:''}
++    <section><h2>Occurrences in the imported texts · ${ms.length}</h2><details><summary>Browse source passages</summary><ul class="mentions-list">${ms.map(m=>`<li><a href="${h(readerURL(m.witness,m.passage))}">${h(libraryCatalog.sources.find(s=>s.id===m.witness)?.shortTitle || m.witness)} · ${h(m.passage)} →</a><br><q>${h(m.quote)}</q></li>`).join('')}</ul></details></section>
+@@ -58 +66 @@ function render(p) {
+-    const [detailed, response] = await Promise.all([loadProfiles(), fetch('data/catalog.json')]);
++    const [detailed, response, works] = await Promise.all([loadProfiles(), fetch('data/catalog.json'),loadWorks()]);
+@@ -60 +68,2 @@ function render(p) {
+-    const profiles = profilesWithStubs(await response.json(), detailed);
++    libraryCatalog=await response.json();libraryWorks=works;
++    const profiles = profilesWithStubs(libraryCatalog, detailed);
+diff --git a/assets/profiles.js b/assets/profiles.js
+index 9f4ce19..07c5155 100644
+--- a/assets/profiles.js
++++ b/assets/profiles.js
+@@ -32,0 +33 @@ export async function loadProfiles(fetcher = fetch) {
++  // Bound concurrent reads so a larger profile library remains responsive.
+@@ -34,0 +36,4 @@ export async function loadProfiles(fetcher = fetch) {
++  }
++  for (let start=0; start<index.profiles.length; start+=8) {
++    const batch=await Promise.all(index.profiles.slice(start,start+8).map(async file => {
++    if (typeof file !== 'string' || !/^person-[a-z0-9-]+\.json$/.test(file)) throw new Error('Invalid profile filename.');
+@@ -43 +48,6 @@ export async function loadProfiles(fetcher = fetch) {
+-    ids.add(p.id); result.push(p);
++    return p;
++    }));
++    for (const p of batch) {
++      if (ids.has(p.id)) throw new Error('Invalid or duplicate profile identity.');
++      ids.add(p.id); result.push(p);
++    }
+diff --git a/index.html b/index.html
+index 9f0eeb9..b281d36 100644
+--- a/index.html
++++ b/index.html
+@@ -9,0 +10 @@
++  <link rel="stylesheet" href="assets/library.css">
+@@ -16 +17 @@
+-    <nav aria-label="Project tools"><a href="profiles.html">People · 人</a><button id="about-button">About the pilot</button><button id="xml-button">Open XML</button><button id="queue-button">Review queue <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav>
++    <nav aria-label="Project tools"><a href="profiles.html">People · 人</a><a href="works.html">Works · 文</a><button id="about-button">About the pilot</button><button id="xml-button">Open XML</button><button id="queue-button">Review queue <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav>
+@@ -24 +25 @@
+-      <div class="panel-footer"><span class="legend-person">People</span><span class="legend-place">Places</span><span class="legend-office">Offices / titles</span><span>Names open profiles; use Review names to inspect annotations.</span></div>
++      <div class="panel-footer"><span class="legend-person">People</span><span class="legend-work">Works</span><span class="legend-place">Places</span><span class="legend-office">Offices / titles</span><span>Names open profiles; use Review names to inspect annotations.</span></div>
+@@ -48,0 +50 @@
++  <script type="module" src="assets/entity-hover.js"></script>
+diff --git a/package.json b/package.json
+index 27cd3fc..4135612 100644
+--- a/package.json
++++ b/package.json
+@@ -1 +1,10 @@
+-{"name":"ren-wen","version":"0.1.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","check":"node --check assets/app.js && node --check assets/core.js && node --check assets/profiles.js && node --check assets/profile-view.js"}}
++{
++  "name": "ren-wen",
++  "version": "0.1.0",
++  "private": true,
++  "type": "module",
++  "scripts": {
++    "test": "node --test tests/*.test.mjs",
++    "check": "node --check assets/app.js && node --check assets/core.js && node --check assets/profiles.js && node --check assets/profile-view.js && node --check assets/library.js && node --check assets/entity-hover.js && node --check assets/work-view.js"
++  }
++}
+diff --git a/profiles.html b/profiles.html
+index 74c2465..af6e089 100644
+--- a/profiles.html
++++ b/profiles.html
+@@ -8,0 +9 @@
++  <link rel="stylesheet" href="assets/library.css">
+@@ -12 +13 @@
+-  <header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav aria-label="Project"><a href="./">Text reader · 文</a><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav></header>
++  <header><a class="brand" href="./"><span lang="zh-Hant">人文</span> <span>REN-WEN</span></a><nav aria-label="Project"><a href="./">Text reader · 文</a><a href="works.html">Works</a><a href="https://github.com/liuyao12/ren-wen" target="_blank" rel="noopener">Repository ↗</a></nav></header>
+diff --git a/tests/test_corpus.py b/tests/test_corpus.py
+index 8640b85..b6e11e0 100644
+--- a/tests/test_corpus.py
++++ b/tests/test_corpus.py
+@@ -20,2 +20,2 @@ class CorpusTests(unittest.TestCase):
+-    def test_corpus_valid(self): self.assertEqual(rw.validate()['mentions'],34)
+-    def test_all_sources_are_excerpts(self): self.assertTrue(all(s['extent'] for s in self.c['sources']))
++    def test_corpus_valid(self): self.assertEqual(rw.validate()['mentions'],len(self.c['mentions']))
++    def test_all_sources_declare_extent(self): self.assertTrue(all(s['extent'] for s in self.c['sources']))
+@@ -76 +76 @@ class CorpusTests(unittest.TestCase):
+-                self.assertEqual(db.execute('SELECT count(*) FROM mentions').fetchone()[0],34)
++                self.assertEqual(db.execute('SELECT count(*) FROM mentions').fetchone()[0],len(self.c['mentions']))

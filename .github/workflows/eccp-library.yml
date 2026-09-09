@@ -1,0 +1,75 @@
+name: Build ECCP library candidate
+on:
+  push:
+    branches: [eccp-library]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/eccp-library'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Stage exact reviewed source artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f data/editorial/eccp-batch-01-report.json ]; then
+            echo 'Batch already committed; validating existing records only.'
+            exit 0
+          fi
+          gh api repos/liuyao12/ren-wen/actions/artifacts/10082097555/zip > /tmp/eccp-source.zip
+          echo '80e7192a9c6cf5a4142f5e6a8ec5cefd1c4df9664a6ee26ada7f543fe1ef31f0  /tmp/eccp-source.zip' | sha256sum --check
+          python - <<'PY'
+          import pathlib,zipfile
+          names=['manifest.json','reference-openings.json']+[s+'.response.json' for s in ['eccp','eccp-guo-songtao','eccp-dong-xun','eccp-chonghou']]
+          out=pathlib.Path('data/imports/eccp-batch-01');out.mkdir(parents=True,exist_ok=True)
+          with zipfile.ZipFile('/tmp/eccp-source.zip') as z:
+              for name in names:
+                  raw=z.read(name)
+                  if len(raw)>5000000:raise ValueError('Oversized source response')
+                  (out/name).write_bytes(raw)
+          PY
+      - name: Apply one-time UI migration and build batch
+        run: |
+          if [ ! -f data/editorial/eccp-batch-01-report.json ]; then
+            git apply --unidiff-zero --exclude='.github/workflows/*' --check scripts/eccp-library-ui.patch
+            git apply --unidiff-zero --exclude='.github/workflows/*' scripts/eccp-library-ui.patch
+            python -m scripts.eccp_batch
+          fi
+      - name: Validate source text, profiles, links and derived database
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+          python scripts/renwen.py build-db
+          python scripts/profiles.py index-db
+          python scripts/works.py index-db
+      - name: Commit reviewed batch on its feature branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data assets/app.js assets/profile-view.js assets/profiles.js index.html profiles.html package.json tests/test_corpus.py
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Import four complete ECCP entries with source-linked people and work profiles'
+          git push origin HEAD:eccp-library
+      - name: Preserve the exact tested branch state
+        run: git archive --format=tar.gz -o build/eccp-library-repository.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eccp-library-validation
+          path: |
+            data/editorial/eccp-batch-01-report.json
+            build/renwen.sqlite
+            build/eccp-library-repository.tar.gz
+          retention-days: 7
