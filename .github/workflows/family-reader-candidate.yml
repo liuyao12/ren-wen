@@ -1,0 +1,67 @@
+name: Validate family reader layout
+on:
+  push:
+    branches: [family-reader]
+    paths: ['.github/workflows/family-reader-candidate.yml', 'assets/family-*.js', 'assets/reading-layout.css', 'tests/*family*', 'scripts/migrations/family_reader.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: family-reader
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Integrate the exact tested layout without changing corpus records
+        run: |
+          python scripts/migrations/family_reader.py
+          git diff --exit-code -- data
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m unittest discover -s tests
+          npm test
+          npm run check
+      - name: Install browser checks
+        run: |
+          pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test actual HTTP layout and map interactions
+        run: |
+          mkdir -p build
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_family_layout.py --url http://127.0.0.1:8000/ --output build/family-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/existing-browser
+      - name: Commit integration on the feature branch only
+        run: |
+          test "$(git branch --show-current)" = family-reader
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/reader-context.js assets/i18n.js index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Integrate tested family hierarchy and stacked timeline-map layout'
+            git push origin HEAD:family-reader
+          fi
+          git rev-parse HEAD > build/tested-commit.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: family-reader-checks
+          path: |
+            build/family-browser
+            build/existing-browser
+            build/tested-commit.txt
+          retention-days: 7

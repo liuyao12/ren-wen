@@ -1,0 +1,27 @@
+/** Chinese UI labels for the family timeline; not historical record translations. */
+export default {
+  '{count} people': '{count} 人',
+  'Family hierarchy': '家屬世系',
+  'Follow paragraph focus': '隨段落聚焦',
+  'Expand family': '展開家屬',
+  'Compact family': '收攏家屬',
+  'Show other people ({count})': '其餘人物（{count}）',
+  'Hide other people': '收起其餘人物',
+  'Grandparents': '祖輩',
+  'Parents': '父母',
+  'Self': '本人',
+  'Spouses': '配偶',
+  'Children': '子女',
+  'Other people in this passage': '本段其他人物',
+  'Other people in this source': '本文其他人物',
+  '{role} · {count} not in focus': '{role} · {count} 人未在本段提及',
+  'Expand {role}': '展開{role}',
+  'Family evidence ({count})': '親屬關係出處（{count}）',
+  'spouses': '配偶',
+  'Family roles follow recorded relationships. Missing relatives are not filled in.': '世系依已錄親屬關係排列；未錄家屬不作補造。',
+  'Grey family bands retain known lifespans; expand to see every name.': '灰色家屬列保留已知生卒縮影；可展開查看每人。',
+  'Names open profiles; lifespan bars select journeys.': '點人名開啟人物頁；點生卒條選擇行跡。',
+  'A relationship is not a marriage date.': '此線僅表示配偶關係，並不表示結婚年份。',
+  'Family members': '家屬',
+  'No additional recorded relatives.': '尚無其他已錄家屬。'
+};
