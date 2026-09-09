@@ -41,3 +41,6 @@ The initial proposal operation is `relink-mention`: schema version, proposal ID,
 ## Next adapters
 
 A real ctext fixture establishes the import contract and unknown-field preservation. A MediaWiki importer should preserve raw snapshots, original links and content-bearing page revision dependencies. Historical geometry needs a separately licensed dataset and dated jurisdiction relations; absent polygons remain absent. See `roadmap.md`.
+
+## September 2026 extension
+The original pilot limitations above describe its initial state. Complete entries, reusable quoted readings and cropped dated reference-map images are now implemented; see `text-layers.md` and `reference-maps.md`.

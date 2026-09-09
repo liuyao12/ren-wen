@@ -101,3 +101,18 @@ The Pages workflow validates the data and publishes the reader, person/work page
 ## Rights and affiliation
 
 Original software is MIT-licensed. Source texts, transcriptions, annotations and geographic data retain their separately recorded terms and attribution; the software license does not relicense imported material. ECCP is marked as a United States government public-domain work on Wikisource; applicable Wikisource contributor rights and CC BY-SA attribution are preserved. Ren-Wen is independent and is not affiliated with ctext, CBDB, Geni, Wikisource or CHGIS.
+
+## Complete entry and layered texts
+
+The current landing entry is **曾國藩 / Tsêng Kuo-fan**: all 17 ECCP paragraphs,
+including the bibliography and Têng Ssŭ-yü's byline. Five complete ECCP entries
+are now available. The existing 《清史稿》曾紀澤 account has also been restored
+without the formerly omitted memorial. [Text units](texts.html) retain quoted
+readings inside their original context while giving them reusable identities.
+See [text layers](docs/text-layers.md).
+
+The interactive map now includes actual **cropped, attributed 1820/1911 reference
+map images** of the middle/lower Yangtze corridor. Province, prefecture, and
+(for 1911) county outlines appear with zoom. These are explicitly dated snapshots,
+not boundaries for every reading year, and not nationwide coverage. No CHGIS
+source vector files are redistributed. See [map scope and terms](docs/reference-maps.md).

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "person-zeng-linshu",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Source-linked reference profile; full biographical and external-ID review pending.",
+  "name": {
+    "surname": "曾",
+    "given": "麟書",
+    "source": "eccp-zeng-guofan",
+    "jiguan": null,
+    "zi": [
+      {
+        "value": "竹亭",
+        "source": "eccp-zeng-guofan"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "竹亭"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Lin-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-zeng-guofan"
+      }
+    ],
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1790,
+        "source": "eccp-zeng-guofan",
+        "status": "source-reported"
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1857,
+        "source": "eccp-zeng-guofan",
+        "status": "source-reported"
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-zeng-guofan": {
+      "title": "ECCP · 曾國藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "locator": "eccp-zeng-guofan-01",
+      "access": "full-text",
+      "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [],
+  "mentions": [
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n008",
+      "quote": "Tsêng Lin-shu"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n009",
+      "quote": "曾麟書"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "mention": "eccp-zeng-guofan-01-n010",
+      "quote": "竹亭"
+    }
+  ]
+}

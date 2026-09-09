@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-mo-youzhi",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Source-linked reference profile; full biographical and external-ID review pending.",
+  "name": {
+    "surname": null,
+    "given": "Mo Yu-chih",
+    "source": "eccp-zeng-guofan",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Mo Yu-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-zeng-guofan"
+      }
+    ],
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-cross-reference",
+      "relation": "principal-biography",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Mo_Yu-chih",
+      "passage": "ECCP cross-reference destination"
+    }
+  ],
+  "sources": {
+    "eccp-zeng-guofan": {
+      "title": "ECCP · 曾國藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "locator": "eccp-zeng-guofan-08",
+      "access": "full-text",
+      "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-cross-reference": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Mo_Yu-chih",
+      "locator": "Existing ECCP cross-reference; entry not imported here.",
+      "access": "cross-reference",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": [],
+  "mentions": [
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-08",
+      "mention": "eccp-zeng-guofan-08-n003",
+      "quote": "Mo Yu-chih"
+    }
+  ]
+}

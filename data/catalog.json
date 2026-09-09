@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "title": "人文 · Ren-Wen",
-  "defaultWitness": "eccp",
-  "defaultPerson": "person-zeng-jize",
+  "defaultWitness": "eccp-zeng-guofan",
+  "defaultPerson": "person-zeng-guofan",
   "sources": [
     {
       "id": "eccp",
@@ -162,8 +162,8 @@
       "revision": "2640966",
       "revisionUrl": "https://zh.wikisource.org/w/index.php?oldid=2640966",
       "edition": "Wikisource transcription; printed base edition not yet identified",
-      "extent": "Three paragraphs of the 曾紀澤 account; its long memorial is omitted.",
-      "importMethod": "Manually prepared HTML excerpts from the rendered Wikisource text; not a raw export.",
+      "extent": "Complete 曾紀澤 account in 卷446, including the previously omitted memorial; not the entire multi-person volume.",
+      "importMethod": "Original paragraph IDs and annotations preserved; missing qsg-02 restored from the retained full-volume MediaWiki response.",
       "punctuation": {
         "status": "editorial-unattributed",
         "attribution": "Imported Wikisource punctuation; original punctuation editor not identified."
@@ -175,9 +175,19 @@
       },
       "reviewStatus": "proposed",
       "subject": "person-zeng-jize",
-      "sha256": "b35bf98d87b64f2b51875c588ac440ce654101c1f74b70d09903677140c4e8aa",
-      "upstreamSha256": "b0b17dfd4a68647f5a062ecf00c46e0429f5db5ae1fdd5d490d20d83f171540f",
-      "retrieved": "2026-09-08"
+      "sha256": "c28cb281ba2e3cafcb7c07fd46088851af4b885e0ee6aa7d803cddb8b1976f6b",
+      "upstreamSha256": "1a4ee7805f1941eaf3581067e30e3a982f8f881d45d0ca1333ecb1f83f6d9456",
+      "retrieved": "2026-09-08",
+      "complete": true,
+      "rawResponse": "data/imports/qsg-zeng-jize/response.json",
+      "rawSha256": "54c814822412d12b5556ef743118c7c424b008fc438456a09aa466a4967506df",
+      "completeness": {
+        "method": "bounded-biography-versus-source-paragraphs",
+        "paragraphs": 4,
+        "startsWith": "曾紀澤，字劼剛",
+        "nextBiographyStartsWith": "薛福成，字叔耘",
+        "normalizedBodySha256": "ae3117e413bd448f95a26aef82656eb9afe9737e2a47ccf64cd9ec829ac47488"
+      }
     },
     {
       "id": "eccp-guo-songtao",
@@ -626,6 +636,157 @@
         "events": "partial",
         "review": "Awaiting independent review; unnamed or ambiguous role references are not silently identified."
       }
+    },
+    {
+      "id": "eccp-zeng-guofan",
+      "work": "work-eccp",
+      "subject": "person-zeng-guofan",
+      "title": "Tsêng Kuo-fan 曾國藩",
+      "shortTitle": "ECCP · 曾國藩",
+      "language": "en",
+      "text": "data/texts/eccp-zeng-guofan.html",
+      "upstream": "data/upstream/eccp-zeng-guofan.html",
+      "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan",
+      "revision": "11365232",
+      "revisionUrl": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "edition": "Hummel, ed., 1943; Wikisource transcription",
+      "extent": "Complete entry: 17 source paragraphs, bibliography and contributor byline; no text omitted.",
+      "complete": true,
+      "importMethod": "One-entry import of a preserved MediaWiki response; entire reading-body text checked against every imported paragraph. Inline formatting retained; page-number interface markers removed.",
+      "punctuation": {
+        "status": "imported",
+        "attribution": "Printed English punctuation as transcribed by Wikisource."
+      },
+      "rights": {
+        "text": "PD-USGov as identified by Wikisource",
+        "transcription": "CC-BY-SA-4.0 where applicable",
+        "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+      },
+      "reviewStatus": "proposed",
+      "retrieved": "2026-09-09T03:02:50.686820+00:00",
+      "sha256": "a34f62152880b3092c892ad8ab2405e26a8e1054e6e00d7ec7741cef6607352a",
+      "upstreamSha256": "8bcde969fbd51b560ba83e271acea598d2b09ddc96108f988936908d0bcebeee",
+      "rawResponse": "data/imports/eccp-zeng-guofan/response.json",
+      "rawSha256": "1db4a6a4ebc6cf5776bc03237d3b81edd2afb7c59cdd7358f255d99d62e2a0fc",
+      "passageLayout": [
+        {
+          "passage": "eccp-zeng-guofan-01",
+          "sourceParagraph": 1,
+          "section": "narrative",
+          "characters": 1317
+        },
+        {
+          "passage": "eccp-zeng-guofan-02",
+          "sourceParagraph": 2,
+          "section": "narrative",
+          "characters": 811
+        },
+        {
+          "passage": "eccp-zeng-guofan-03",
+          "sourceParagraph": 3,
+          "section": "narrative",
+          "characters": 2028
+        },
+        {
+          "passage": "eccp-zeng-guofan-04",
+          "sourceParagraph": 4,
+          "section": "narrative",
+          "characters": 2014
+        },
+        {
+          "passage": "eccp-zeng-guofan-05",
+          "sourceParagraph": 5,
+          "section": "narrative",
+          "characters": 1668
+        },
+        {
+          "passage": "eccp-zeng-guofan-06",
+          "sourceParagraph": 6,
+          "section": "narrative",
+          "characters": 1232
+        },
+        {
+          "passage": "eccp-zeng-guofan-07",
+          "sourceParagraph": 7,
+          "section": "narrative",
+          "characters": 2445
+        },
+        {
+          "passage": "eccp-zeng-guofan-08",
+          "sourceParagraph": 8,
+          "section": "narrative",
+          "characters": 1114
+        },
+        {
+          "passage": "eccp-zeng-guofan-09",
+          "sourceParagraph": 9,
+          "section": "narrative",
+          "characters": 662
+        },
+        {
+          "passage": "eccp-zeng-guofan-10",
+          "sourceParagraph": 10,
+          "section": "narrative",
+          "characters": 416
+        },
+        {
+          "passage": "eccp-zeng-guofan-11",
+          "sourceParagraph": 11,
+          "section": "narrative",
+          "characters": 1157
+        },
+        {
+          "passage": "eccp-zeng-guofan-12",
+          "sourceParagraph": 12,
+          "section": "narrative",
+          "characters": 2256
+        },
+        {
+          "passage": "eccp-zeng-guofan-13",
+          "sourceParagraph": 13,
+          "section": "narrative",
+          "characters": 1102
+        },
+        {
+          "passage": "eccp-zeng-guofan-14",
+          "sourceParagraph": 14,
+          "section": "narrative",
+          "characters": 1753
+        },
+        {
+          "passage": "eccp-zeng-guofan-15",
+          "sourceParagraph": 15,
+          "section": "narrative",
+          "characters": 1238
+        },
+        {
+          "passage": "eccp-zeng-guofan-16",
+          "sourceParagraph": 16,
+          "section": "bibliography",
+          "characters": 1461
+        },
+        {
+          "passage": "eccp-zeng-guofan-17",
+          "sourceParagraph": 17,
+          "section": "contributor",
+          "characters": 11
+        }
+      ],
+      "completeness": {
+        "method": "full-reading-body-versus-imported-paragraphs",
+        "paragraphs": 17,
+        "normalizedBodySha256": "b37039b3531b041de6ce01f506ad697be6dc563b98e8e737a414c3c08d505e7a",
+        "normalizedCharacters": 19000,
+        "byline": "Têng Ssŭ-yü",
+        "bibliographyPassage": "eccp-zeng-guofan-16"
+      },
+      "annotationCoverage": {
+        "people": "agent-first-pass",
+        "namedWorks": "agent-first-pass",
+        "places": "not-yet-annotated",
+        "events": "not-yet-extracted",
+        "review": "Unresolved role references recorded in the editorial specification."
+      }
     }
   ],
   "entities": [
@@ -665,7 +826,9 @@
         "death": 1872,
         "source": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ts%C3%AAng_Kuo-fan"
       },
-      "sources": [],
+      "sources": [
+        "eccp-zeng-guofan"
+      ],
       "externalSources": [
         {
           "label": "ECCP biography",
@@ -1915,6 +2078,856 @@
       "display": "史學年報",
       "aliases": [
         "史學年報 Shih-hsüeh nien-pao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "person-zeng-yuping",
+      "type": "person",
+      "label": "曾玉屏",
+      "display": "Tsêng Yü-p'ing",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-linshu",
+      "type": "person",
+      "label": "曾麟書",
+      "display": "Tsêng Lin-shu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-hong-xiuquan",
+      "type": "person",
+      "label": "洪秀全",
+      "display": "Hung Hsiu-ch'üan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-xiang-rong",
+      "type": "person",
+      "label": "向榮",
+      "display": "Hsiang Jung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-luo-zenan",
+      "type": "person",
+      "label": "羅澤南",
+      "display": "Lo Tsê-nan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yang-yuebin",
+      "type": "person",
+      "label": "Yang Yüeh-pin",
+      "display": "Yang Yüeh-pin",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-tachibu",
+      "type": "person",
+      "label": "塔齊布",
+      "display": "T'a-ch'i-pu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-jierhanga",
+      "type": "person",
+      "label": "吉爾杭阿",
+      "display": "Chi-êr-hang-a",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-lin-qirong",
+      "type": "person",
+      "label": "林啓容",
+      "display": "Lin Ch'i-jung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-hu-linyi",
+      "type": "person",
+      "label": "胡林翼",
+      "display": "Hu Lin-i",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-shi-dakai",
+      "type": "person",
+      "label": "石達開",
+      "display": "Shih Ta-k'ai",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-li-xubin",
+      "type": "person",
+      "label": "李續賓",
+      "display": "Li Hsü-pin",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-li-xiucheng",
+      "type": "person",
+      "label": "李秀成",
+      "display": "Li Hsiu-ch'êng",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-bao-chao",
+      "type": "person",
+      "label": "鮑超",
+      "display": "Pao Ch'ao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-shiduo",
+      "type": "person",
+      "label": "汪士鐸",
+      "display": "Wang Shih-to",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-mo-youzhi",
+      "type": "person",
+      "label": "Mo Yu-chih",
+      "display": "Mo Yu-chih",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-rong-hong",
+      "type": "person",
+      "label": "容閎",
+      "display": "Jung Hung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-ma-xinyi",
+      "type": "person",
+      "label": "馬新貽",
+      "display": "Ma Hsin-i",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-gu-yanwu",
+      "type": "person",
+      "label": "顧炎武",
+      "display": "Ku Yen-wu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zhang-yuzhao",
+      "type": "person",
+      "label": "張裕釗",
+      "display": "Chang Yü-chao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-liu-shengmu",
+      "type": "person",
+      "label": "Liu Shêng-mu",
+      "display": "Liu Shêng-mu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guohuang",
+      "type": "person",
+      "label": "曾國潢",
+      "display": "Tsêng Kuo-huang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guohua",
+      "type": "person",
+      "label": "曾國華",
+      "display": "Tsêng Kuo-hua",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guobao",
+      "type": "person",
+      "label": "曾國葆",
+      "display": "Tsêng Kuo-pao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guolan",
+      "type": "person",
+      "label": "曾國蘭",
+      "display": "Tsêng Kuo-lan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-pengyuan",
+      "type": "person",
+      "label": "王鵬遠",
+      "display": "Wang P'êng-yüan",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guohui",
+      "type": "person",
+      "label": "曾國蕙",
+      "display": "Tsêng Kuo-hui",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-daipin",
+      "type": "person",
+      "label": "王待聘",
+      "display": "Wang Tai-p'in",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-guozhi",
+      "type": "person",
+      "label": "曾國芝",
+      "display": "Tsêng Kuo-chih",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zhu-yongchun",
+      "type": "person",
+      "label": "朱詠春",
+      "display": "Chu Yüng-ch'un",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jihong",
+      "type": "person",
+      "label": "曾紀鴻",
+      "display": "Tsêng Chi-hung",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jijing",
+      "type": "person",
+      "label": "曾紀靜",
+      "display": "Tsêng Chi-ching",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yuan-bingzhen",
+      "type": "person",
+      "label": "袁秉楨",
+      "display": "Yüan Ping-chên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jiyao",
+      "type": "person",
+      "label": "曾紀耀",
+      "display": "Tsêng Chi-yao",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-chen-yuanji",
+      "type": "person",
+      "label": "陳遠濟",
+      "display": "Ch'ên Yüan-chi",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jichen",
+      "type": "person",
+      "label": "曾紀琛",
+      "display": "Tsêng Chi-ch'ên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-luo-zhaosheng",
+      "type": "person",
+      "label": "羅兆升",
+      "display": "Lo Chao-shêng",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-zeng-jifen",
+      "type": "person",
+      "label": "曾紀芬",
+      "display": "Tsêng Chi-fên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-nie-jigui",
+      "type": "person",
+      "label": "聶緝槼",
+      "display": "Nieh Ch'i-kuei",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-li-yuandu",
+      "type": "person",
+      "label": "李元度",
+      "display": "Li Yüan-tu",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-li-shuchang",
+      "type": "person",
+      "label": "黎庶昌",
+      "display": "Li Shu-ch'ang",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-xue-fucheng",
+      "type": "person",
+      "label": "薛福成",
+      "display": "Hsüeh Fu-ch'êng",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-yu-yue",
+      "type": "person",
+      "label": "俞樾",
+      "display": "Yü Yüeh",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-guanwen",
+      "type": "person",
+      "label": "官文",
+      "display": "Kuan-wên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-kaiyun",
+      "type": "person",
+      "label": "王闓運",
+      "display": "Wang K'ai-yün",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-wang-dingan",
+      "type": "person",
+      "label": "王定安",
+      "display": "Wang Ting-an",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-mcclellan-jw",
+      "type": "person",
+      "label": "J. W. McClellan",
+      "display": "McClellan, J. W.",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-h-b-morse",
+      "type": "person",
+      "label": "Hosea Ballou Morse",
+      "display": "Morse, H. B.",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-william-james-hail",
+      "type": "person",
+      "label": "William James Hail",
+      "display": "Hail, William James",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-jiang-xingde",
+      "type": "person",
+      "label": "蔣星德",
+      "display": "Chiang Hsing-tê",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-teng-ssu-yu",
+      "type": "person",
+      "label": "Têng Ssŭ-yü",
+      "display": "Têng Ssŭ-yü",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "person-feng-guifen",
+      "type": "person",
+      "label": "馮桂芬",
+      "display": "Fêng Kuei-fên",
+      "aliases": [],
+      "life": null,
+      "sources": []
+    },
+    {
+      "id": "work-zeng-wenzheng-quanji",
+      "type": "work",
+      "label": "曾文正公全集",
+      "display": "曾文正公全集",
+      "aliases": [
+        "曾文正公全集 Tsêng Wên-chêng kung ch'üan-chi",
+        "曾文正公全集",
+        "Tsêng Wên-chêng kung ch'üan-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-wenzheng-nianpu",
+      "type": "work",
+      "label": "曾國藩年譜（ECCP 所述十二卷本）",
+      "display": "曾國藩年譜（ECCP 所述十二卷本）",
+      "aliases": [
+        "nien-p'u"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-dashiji",
+      "type": "work",
+      "label": "大事記",
+      "display": "大事記",
+      "aliases": [
+        "大事記 Ta-shih chi",
+        "Ta-shih chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-shoushu-riji",
+      "type": "work",
+      "label": "手書日記",
+      "display": "手書日記",
+      "aliases": [
+        "手書日記 Shou-shu jih-chi",
+        "Shou-shu jih-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-wenzheng-jiashu",
+      "type": "work",
+      "label": "Tsêng Wên-chêng kung chia-shu",
+      "display": "Tsêng Wên-chêng kung chia-shu",
+      "aliases": [
+        "Tsêng Wên-chêng kung chia-shu",
+        "家書"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-jiaxun",
+      "type": "work",
+      "label": "家訓",
+      "display": "家訓",
+      "aliases": [
+        "家訓 Chia-hsün",
+        "Chia-hsün"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-jiwaiwen",
+      "type": "work",
+      "label": "Tsêng Wen-chêng kung chi wai-wên",
+      "display": "Tsêng Wen-chêng kung chi wai-wên",
+      "aliases": [
+        "Tsêng Wen-chêng kung chi wai-wên",
+        "集外文"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zenghu-zhibing-yulu",
+      "type": "work",
+      "label": "曾胡治兵語錄",
+      "display": "曾胡治兵語錄",
+      "aliases": [
+        "曾胡治兵語錄 Tsêng-Hu chih-ping yü-lu",
+        "Tsêng-Hu chih-ping yü-lu"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-jiayan-chao",
+      "type": "work",
+      "label": "Tsêng Wên-chêng kung chia-yen ch'ao",
+      "display": "Tsêng Wên-chêng kung chia-yen ch'ao",
+      "aliases": [
+        "Tsêng Wên-chêng kung chia-yen ch'ao",
+        "嘉言鈔"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-xuean",
+      "type": "work",
+      "label": "Tsêng Wên-chêng kung hsüeh-an",
+      "display": "Tsêng Wên-chêng kung hsüeh-an",
+      "aliases": [
+        "Tsêng Wên-chêng kung hsüeh-an",
+        "學案"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jiangsu-jianfu-quanan",
+      "type": "work",
+      "label": "江蘇減賦全案",
+      "display": "江蘇減賦全案",
+      "aliases": [
+        "江蘇減賦全案 Kiangsu chien-fu ch'üan-an",
+        "Kiangsu chien-fu ch'üan-an"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jiangxi-quansheng-yutu",
+      "type": "work",
+      "label": "江西全省輿圖",
+      "display": "江西全省輿圖",
+      "aliases": [
+        "江西全省輿圖 Kiangsi ch'üan-shêng yü-t'u",
+        "Kiangsi ch'üan-shêng yü-t'u"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-chongde-laoren-nianpu",
+      "type": "work",
+      "label": "崇德老人八十自訂年譜",
+      "display": "崇德老人八十自訂年譜",
+      "aliases": [
+        "崇德老人八十自訂年譜 Ch'ung-tê lao-jên pa-shih tzŭ-ting nien-p'u",
+        "Ch'ung-tê lao-jên pa-shih tzŭ-ting nien-p'u"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-tianyue-shanguan-wenchao",
+      "type": "work",
+      "label": "T'ien-yüeh shan-kuan wên-ch'ao",
+      "display": "T'ien-yüeh shan-kuan wên-ch'ao",
+      "aliases": [
+        "T'ien-yüeh shan-kuan wên-ch'ao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yangzhishuwu-wenji",
+      "type": "work",
+      "label": "Yang-chih shu-wu wên-chi",
+      "display": "Yang-chih shu-wu wên-chi",
+      "aliases": [
+        "Yang-chih shu-wu wên-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zhuozunyuan-conggao",
+      "type": "work",
+      "label": "Cho-tsun-yüan ts'ung-kao",
+      "display": "Cho-tsun-yüan ts'ung-kao",
+      "aliases": [
+        "Cho-tsun-yüan ts'ung-kao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-yongan-wenbian",
+      "type": "work",
+      "label": "Yung-an wên-pien",
+      "display": "Yung-an wên-pien",
+      "aliases": [
+        "Yung-an wên-pien"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-chunzaitang-zawen",
+      "type": "work",
+      "label": "Ch'un-tsai-t'ang tsa-wên",
+      "display": "Ch'un-tsai-t'ang tsa-wên",
+      "aliases": [
+        "Ch'un-tsai-t'ang tsa-wên"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-jiaoping-yuefei-fanglue",
+      "type": "work",
+      "label": "Chiao-ping Yüeh-fei fang-lüeh",
+      "display": "Chiao-ping Yüeh-fei fang-lüeh",
+      "aliases": [
+        "Chiao-ping Yüeh-fei fang-lüeh"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-pingding-yuefei-jilue",
+      "type": "work",
+      "label": "P'ing-ting Yüeh-fei chi-lüeh",
+      "display": "P'ing-ting Yüeh-fei chi-lüeh",
+      "aliases": [
+        "P'ing-ting Yüeh-fei chi-lüeh"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-xiangjun-zhi",
+      "type": "work",
+      "label": "湘軍志",
+      "display": "湘軍志",
+      "aliases": [
+        "湘軍志 Hsiang-chün chih",
+        "Hsiang-chün chih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-xiangjun-ji",
+      "type": "work",
+      "label": "湘軍記",
+      "display": "湘軍記",
+      "aliases": [
+        "湘軍記 Hsiang-chün chi",
+        "Hsiang-chün chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-qiuquezhai-diziji",
+      "type": "work",
+      "label": "求闕齋弟子記",
+      "display": "求闕齋弟子記",
+      "aliases": [
+        "求闕齋弟子記 Ch'iu-ch'üeh-chai ti-tzŭ-chi",
+        "Ch'iu-ch'üeh-chai ti-tzŭ-chi"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-xianfeng-bingshi-yueri",
+      "type": "work",
+      "label": "咸豐三年以來兵事月日",
+      "display": "咸豐三年以來兵事月日",
+      "aliases": [
+        "咸豐三年以來兵事月日 Hsien-fêng san-nien i-lai ping-shih yüeh-jih",
+        "Hsien-fêng san-nien i-lai ping-shih yüeh-jih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-tongzhi-shangjiang-xianzhi",
+      "type": "work",
+      "label": "同治上江兩縣志",
+      "display": "同治上江兩縣志",
+      "aliases": [
+        "同治上江兩縣志 T'ung-chih Shang Chiang liang-hsien chih",
+        "T'ung-chih Shang Chiang liang-hsien chih"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-li-xiucheng-gongzhuang",
+      "type": "work",
+      "label": "Li Hsiu-ch'êng kung-chuang",
+      "display": "Li Hsiu-ch'êng kung-chuang",
+      "aliases": [
+        "Li Hsiu-ch'êng kung-chuang"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-story-of-shanghai",
+      "type": "work",
+      "label": "The Story of Shanghai",
+      "display": "The Story of Shanghai",
+      "aliases": [
+        "The Story of Shanghai"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-my-life-china-america",
+      "type": "work",
+      "label": "My Life in China and America",
+      "display": "My Life in China and America",
+      "aliases": [
+        "My Life in China and America"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-international-relations-chinese-empire",
+      "type": "work",
+      "label": "The International Relations of the Chinese Empire",
+      "display": "The International Relations of the Chinese Empire",
+      "aliases": [
+        "The International Relations of the Chinese Empire"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-taiping-hail",
+      "type": "work",
+      "label": "Tsêng Kuo-fan and the Taiping Rebellion",
+      "display": "Tsêng Kuo-fan and the Taiping Rebellion",
+      "aliases": [
+        "Tsêng Kuo-fan and the Taiping Rebellion"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zhijietang-congke",
+      "type": "work",
+      "label": "直介堂叢刻",
+      "display": "直介堂叢刻",
+      "aliases": [
+        "直介堂叢刻 Chih-chieh-t'ang ts'ung-k'o",
+        "Chih-chieh-t'ang ts'ung-k'o"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-zeng-shengping-shiye",
+      "type": "work",
+      "label": "曾國藩之生平及事業",
+      "display": "曾國藩之生平及事業",
+      "aliases": [
+        "曾國藩之生平及事業 Tsêng Kuo-fan chih shêng-p'ing chi shih-yeh",
+        "Tsêng Kuo-fan chih shêng-p'ing chi shih-yeh"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-dagongbao",
+      "type": "work",
+      "label": "Ta-kung pao",
+      "display": "Ta-kung pao",
+      "aliases": [
+        "Ta-kung pao"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-wenxue-fukan",
+      "type": "work",
+      "label": "Wên-hsüeh fu-k'an",
+      "display": "Wên-hsüeh fu-k'an",
+      "aliases": [
+        "Wên-hsüeh fu-k'an"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-wenzhe-jikan",
+      "type": "work",
+      "label": "文哲季刊",
+      "display": "文哲季刊",
+      "aliases": [
+        "文哲季刊 Wên-chê chi-k'an",
+        "Wên-chê chi-k'an"
+      ],
+      "sources": []
+    },
+    {
+      "id": "work-shida-yuekan",
+      "type": "work",
+      "label": "師大月刊",
+      "display": "師大月刊",
+      "aliases": [
+        "師大月刊 Shih-ta yüeh-k'an",
+        "Shih-ta yüeh-k'an"
       ],
       "sources": []
     }
@@ -5459,6 +6472,2376 @@
       "status": "proposed",
       "origin": "seed-import",
       "note": "Pilot identification; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "TSÊNG Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "曾國藩",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "伯涵",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "滌生",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-yuping",
+      "quote": "Tsêng Yü-p'ing",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-yuping",
+      "quote": "曾玉屏",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-yuping",
+      "quote": "星岡",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-linshu",
+      "quote": "Tsêng Lin-shu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-linshu",
+      "quote": "曾麟書",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-linshu",
+      "quote": "竹亭",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-01-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-01",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-hong-xiuquan",
+      "quote": "Hung Hsiu-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-xiang-rong",
+      "quote": "Hsiang Jung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang Chung-yüan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-luo-bingzhang",
+      "quote": "Lo Ping-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-02-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang Chung-yüan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-luo-zenan",
+      "quote": "Lo",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-yizhu",
+      "quote": "the Emperor",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang Chung-yüan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang Chung-yüan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-yang-yuebin",
+      "quote": "Yang Yüeh-pin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-03-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-03",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-lin-fengxiang",
+      "quote": "Lin Fêng-hsiang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-tachibu",
+      "quote": "T'a-ch'i-pu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-tachibu",
+      "quote": "T'a-ch'i-pu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-luo-zenan",
+      "quote": "Lo",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-jiang-zhongyuan",
+      "quote": "Chiang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n015",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-jierhanga",
+      "quote": "Chi-êr-hang-a",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-04-n016",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-lin-qirong",
+      "quote": "Lin Ch'i-jung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-lin-qirong",
+      "quote": "林啓容",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-tachibu",
+      "quote": "T'a-ch'i-pu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-hu-linyi",
+      "quote": "Hu Lin-i",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-tachibu",
+      "quote": "T'a-ch'i-pu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-shi-dakai",
+      "quote": "Shih Ta-k'ai",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n015",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n016",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-hu-linyi",
+      "quote": "Hu Lin-i",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n017",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-li-xubin",
+      "quote": "Li Hsü-pin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n018",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n019",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n020",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-05-n021",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-05",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-06-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-06",
+      "entity": "person-xiang-rong",
+      "quote": "Hsiang Jung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-06-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-06",
+      "entity": "person-hong-xiuquan",
+      "quote": "Hung Hsiu-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-06-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-06",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-xiang-rong",
+      "quote": "Hsiang Jung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-li-xiucheng",
+      "quote": "Li Hsiu-ch'êng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zuo-zongtang",
+      "quote": "Tso Tsung-t'ang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-bao-chao",
+      "quote": "Pao Ch'ao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-07-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-07",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-08-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-08",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-08-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-08",
+      "entity": "person-wang-shiduo",
+      "quote": "Wang Shih-to",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-08-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-08",
+      "entity": "person-mo-youzhi",
+      "quote": "Mo Yu-chih",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-09-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-09-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "entity": "person-senggelinqin",
+      "quote": "Sêng-ko-lin-ch'in",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-09-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-09-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-10-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "entity": "person-rong-hong",
+      "quote": "Jung Hung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-10-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-10-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "entity": "person-rong-hong",
+      "quote": "Jung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-10-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-10-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-chonghou",
+      "quote": "Ch'ung-hou",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-ma-xinyi",
+      "quote": "Ma Hsin-i",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-li-hongzhang",
+      "quote": "Li",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Context-specific short form; not a global substitution."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-rong-hong",
+      "quote": "Jung Hung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-11-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-12-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-12-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-12-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "entity": "person-li-hongzhang",
+      "quote": "Li Hung-chang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-12-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-12",
+      "entity": "person-peng-yulin",
+      "quote": "P'êng Yü-lin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-13-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-13",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-13-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-13",
+      "entity": "person-gu-yanwu",
+      "quote": "Ku Yen-wu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-liu-shengmu",
+      "quote": "Liu Shêng-mu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-zhang-yuzhao",
+      "quote": "Chang Yü-chao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-wenzheng-quanji",
+      "quote": "曾文正公全集 Tsêng Wên-chêng kung ch'üan-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-wenzheng-nianpu",
+      "quote": "nien-p'u",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-dashiji",
+      "quote": "大事記 Ta-shih chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-shoushu-riji",
+      "quote": "手書日記 Shou-shu jih-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-wenzheng-jiashu",
+      "quote": "Tsêng Wên-chêng kung chia-shu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-wenzheng-jiashu",
+      "quote": "家書",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-jiaxun",
+      "quote": "家訓 Chia-hsün",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-jiwaiwen",
+      "quote": "Tsêng Wen-chêng kung chi wai-wên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-jiwaiwen",
+      "quote": "集外文",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zenghu-zhibing-yulu",
+      "quote": "曾胡治兵語錄 Tsêng-Hu chih-ping yü-lu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n015",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-hu-linyi",
+      "quote": "Hu Lin-i",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n016",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-jiayan-chao",
+      "quote": "Tsêng Wên-chêng kung chia-yen ch'ao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n017",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-jiayan-chao",
+      "quote": "嘉言鈔",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n018",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n019",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-xuean",
+      "quote": "Tsêng Wên-chêng kung hsüeh-an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n020",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-zeng-xuean",
+      "quote": "學案",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n021",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-jiangsu-jianfu-quanan",
+      "quote": "江蘇減賦全案 Kiangsu chien-fu ch'üan-an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n022",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "person-feng-guifen",
+      "quote": "Fêng Kuei-fên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-14-n023",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-14",
+      "entity": "work-jiangxi-quansheng-yutu",
+      "quote": "江西全省輿圖 Kiangsi ch'üan-shêng yü-t'u",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guofan",
+      "quote": "Tsêng Kuo-fan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohuang",
+      "quote": "Tsêng Kuo-huang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohuang",
+      "quote": "曾國潢",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohuang",
+      "quote": "澄侯",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohua",
+      "quote": "Tsêng Kuo-hua",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohua",
+      "quote": "曾國華",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohua",
+      "quote": "温甫",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guoquan",
+      "quote": "Tsêng Kuo-ch'üan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guobao",
+      "quote": "Tsêng Kuo-pao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guobao",
+      "quote": "曾國葆",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guobao",
+      "quote": "季洪",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guobao",
+      "quote": "曾貞榦",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guobao",
+      "quote": "事恆",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guolan",
+      "quote": "Tsêng Kuo-lan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n015",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guolan",
+      "quote": "曾國蘭",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n016",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-wang-pengyuan",
+      "quote": "Wang P'êng-yüan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n017",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-wang-pengyuan",
+      "quote": "王鵬遠",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n018",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohui",
+      "quote": "Tsêng Kuo-hui",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n019",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guohui",
+      "quote": "曾國蕙",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n020",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-wang-daipin",
+      "quote": "Wang Tai-p'in",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n021",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-wang-daipin",
+      "quote": "王待聘",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n022",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guozhi",
+      "quote": "Tsêng Kuo-chih",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n023",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-guozhi",
+      "quote": "曾國芝",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n024",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zhu-yongchun",
+      "quote": "Chu Yüng-ch'un",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n025",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zhu-yongchun",
+      "quote": "朱詠春",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n026",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jize",
+      "quote": "Tsêng Chi-tsê",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n027",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jihong",
+      "quote": "Tsêng Chi-hung",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n028",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jihong",
+      "quote": "曾紀鴻",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n029",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jihong",
+      "quote": "栗諴",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n030",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jijing",
+      "quote": "Tsêng Chi-ching",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n031",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jijing",
+      "quote": "曾紀靜",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n032",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-yuan-bingzhen",
+      "quote": "Yüan Ping-chên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n033",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-yuan-bingzhen",
+      "quote": "袁秉楨",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n034",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jiyao",
+      "quote": "Tsêng Chi-yao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n035",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jiyao",
+      "quote": "曾紀耀",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n036",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-chen-yuanji",
+      "quote": "Ch'ên Yüan-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n037",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-chen-yuanji",
+      "quote": "陳遠濟",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n038",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jichen",
+      "quote": "Tsêng Chi-ch'ên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n039",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jichen",
+      "quote": "曾紀琛",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n040",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-luo-zhaosheng",
+      "quote": "Lo Chao-shêng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n041",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-luo-zhaosheng",
+      "quote": "羅兆升",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n042",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-luo-zenan",
+      "quote": "Lo Tsê-nan",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n043",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jichun",
+      "quote": "Tsêng Chi-ch'un",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n044",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jichun",
+      "quote": "曾紀純",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n045",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-guo-gangji",
+      "quote": "Kuo Kang-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n046",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n047",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jifen",
+      "quote": "Tsêng Chi-fên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n048",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jifen",
+      "quote": "曾紀芬",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n049",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-nie-jigui",
+      "quote": "Nieh Ch'i-kuei",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n050",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-nie-jigui",
+      "quote": "聶緝槼",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n051",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "person-zeng-jifen",
+      "quote": "Tsêng Chi-fên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-15-n052",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "entity": "work-chongde-laoren-nianpu",
+      "quote": "崇德老人八十自訂年譜 Ch'ung-tê lao-jên pa-shih tzŭ-ting nien-p'u",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-li-yuandu",
+      "quote": "Li Yüan-tu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n002",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-tianyue-shanguan-wenchao",
+      "quote": "T'ien-yüeh shan-kuan wên-ch'ao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n003",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-guo-songtao",
+      "quote": "Kuo Sung-tao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n004",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-yangzhishuwu-wenji",
+      "quote": "Yang-chih shu-wu wên-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n005",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-li-shuchang",
+      "quote": "Li Shu-ch'ang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n006",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-zhuozunyuan-conggao",
+      "quote": "Cho-tsun-yüan ts'ung-kao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n007",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-xue-fucheng",
+      "quote": "Hsüeh Fu-ch'êng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n008",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-yongan-wenbian",
+      "quote": "Yung-an wên-pien",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n009",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-yu-yue",
+      "quote": "Yü Yüeh",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n010",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-chunzaitang-zawen",
+      "quote": "Ch'un-tsai-t'ang tsa-wên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n011",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-yixin",
+      "quote": "I-hsin",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n012",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-jiaoping-yuefei-fanglue",
+      "quote": "Chiao-ping Yüeh-fei fang-lüeh",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n013",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-guanwen",
+      "quote": "Kuan-wên",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n014",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-pingding-yuefei-jilue",
+      "quote": "P'ing-ting Yüeh-fei chi-lüeh",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n015",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-wang-kaiyun",
+      "quote": "Wang K'ai-yün",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n016",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-wang-kaiyun",
+      "quote": "王闓運",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n017",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-xiangjun-zhi",
+      "quote": "湘軍志 Hsiang-chün chih",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n018",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-wang-dingan",
+      "quote": "Wang Ting-an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n019",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-wang-dingan",
+      "quote": "王定安",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n020",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-xiangjun-ji",
+      "quote": "湘軍記 Hsiang-chün chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n021",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-qiuquezhai-diziji",
+      "quote": "求闕齋弟子記 Ch'iu-ch'üeh-chai ti-tzŭ-chi",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n022",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-xianfeng-bingshi-yueri",
+      "quote": "咸豐三年以來兵事月日 Hsien-fêng san-nien i-lai ping-shih yüeh-jih",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n023",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-tongzhi-shangjiang-xianzhi",
+      "quote": "同治上江兩縣志 T'ung-chih Shang Chiang liang-hsien chih",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n024",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-li-xiucheng",
+      "quote": "Li Hsiu-ch'êng",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n025",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-li-xiucheng-gongzhuang",
+      "quote": "Li Hsiu-ch'êng kung-chuang",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n026",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-mcclellan-jw",
+      "quote": "McClellan, J. W.",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n027",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-story-of-shanghai",
+      "quote": "The Story of Shanghai",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n028",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-rong-hong",
+      "quote": "Yung Wing",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n029",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-my-life-china-america",
+      "quote": "My Life in China and America",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n030",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-h-b-morse",
+      "quote": "Morse, H. B.",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n031",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-international-relations-chinese-empire",
+      "quote": "The International Relations of the Chinese Empire",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n032",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-william-james-hail",
+      "quote": "Hail, William James",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n033",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-zeng-taiping-hail",
+      "quote": "Tsêng Kuo-fan and the Taiping Rebellion",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n034",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-liu-shengmu",
+      "quote": "Liu Shêng-mu",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n035",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-zhijietang-congke",
+      "quote": "直介堂叢刻 Chih-chieh-t'ang ts'ung-k'o",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n036",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-jiang-xingde",
+      "quote": "Chiang Hsing-tê",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n037",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "person-jiang-xingde",
+      "quote": "蔣星德",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n038",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-zeng-shengping-shiye",
+      "quote": "曾國藩之生平及事業 Tsêng Kuo-fan chih shêng-p'ing chi shih-yeh",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n039",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-dagongbao",
+      "quote": "Ta-kung pao",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n040",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-wenxue-fukan",
+      "quote": "Wên-hsüeh fu-k'an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n041",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-wenzhe-jikan",
+      "quote": "文哲季刊 Wên-chê chi-k'an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-16-n042",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-16",
+      "entity": "work-shida-yuekan",
+      "quote": "師大月刊 Shih-ta yüeh-k'an",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Named work; title identifies the work, not necessarily a particular edition."
+    },
+    {
+      "id": "eccp-zeng-guofan-17-n001",
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-17",
+      "entity": "person-teng-ssu-yu",
+      "quote": "Têng Ssŭ-yü",
+      "status": "proposed",
+      "origin": "eccp-zeng-guofan-first-pass",
+      "note": "Explicit batch annotation; awaiting independent review."
+    },
+    {
+      "id": "qsg-02-n001",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n002",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n003",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n004",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n005",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n006",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-zeng-jize",
+      "quote": "紀澤",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n007",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-zuo-zongtang",
+      "quote": "左宗棠",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n008",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-zuo-zongtang",
+      "quote": "左宗棠",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
+    },
+    {
+      "id": "qsg-02-n009",
+      "witness": "qsg",
+      "passage": "qsg-02",
+      "entity": "person-chonghou",
+      "quote": "崇厚",
+      "status": "proposed",
+      "origin": "qsg-restored-memorial",
+      "note": "Explicit or contextually resolved person reference in the restored memorial."
     }
   ],
   "events": [
@@ -5793,6 +9176,97 @@
         {
           "witness": "eccp-chonghou",
           "passage": "eccp-chonghou-01"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-guofan-child-of-zeng-linshu",
+      "subject": "person-zeng-guofan",
+      "predicate": "child-of",
+      "object": "person-zeng-linshu",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-01"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-linshu-child-of-zeng-yuping",
+      "subject": "person-zeng-linshu",
+      "predicate": "child-of",
+      "object": "person-zeng-yuping",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-01"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jihong-child-of-zeng-guofan",
+      "subject": "person-zeng-jihong",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-15"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jijing-child-of-zeng-guofan",
+      "subject": "person-zeng-jijing",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-15"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jiyao-child-of-zeng-guofan",
+      "subject": "person-zeng-jiyao",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-15"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jichen-child-of-zeng-guofan",
+      "subject": "person-zeng-jichen",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-15"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "r-zeng-jifen-child-of-zeng-guofan",
+      "subject": "person-zeng-jifen",
+      "predicate": "child-of",
+      "object": "person-zeng-guofan",
+      "evidence": [
+        {
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-15"
         }
       ],
       "status": "proposed"

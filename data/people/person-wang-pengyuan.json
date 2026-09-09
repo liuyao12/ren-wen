@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "person-wang-pengyuan",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "Source-linked reference profile; full biographical and external-ID review pending.",
+  "name": {
+    "surname": "王",
+    "given": "鵬遠",
+    "source": "eccp-zeng-guofan",
+    "jiguan": null,
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wang P'êng-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-zeng-guofan"
+      }
+    ],
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-zeng-guofan": {
+      "title": "ECCP · 曾國藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365232",
+      "locator": "eccp-zeng-guofan-15",
+      "access": "full-text",
+      "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [],
+  "mentions": [
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "mention": "eccp-zeng-guofan-15-n016",
+      "quote": "Wang P'êng-yüan"
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-15",
+      "mention": "eccp-zeng-guofan-15-n017",
+      "quote": "王鵬遠"
+    }
+  ]
+}

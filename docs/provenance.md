@@ -47,3 +47,6 @@ No ctext corpus/export, CBDB extract, or CHGIS dataset is bundled. Their license
 ctext reference documentation: https://ctext.org/instructions/annotation/client and https://ctext.org/tools/linked-open-data . CHGIS dataset information: https://chgis.fas.harvard.edu/data/chgis/v6/ .
 
 Source URLs, revision metadata, attribution, rights notes, and checksums travel with each source in `data/catalog.json`. Corrections to those records should be reviewed like corrections to the text.
+
+## Subsequent complete-text and map update
+The original excerpt descriptions above record the initial pilot. The five ECCP entries are now complete. QSG qsg-02 is restored from revision 2640966, completing the 曾紀澤 account. The source responses, checksums and coverage are in the current catalogue. Cropped 1820/1911 CHGIS map images (not source vectors) are attributed under the file EULA; see `reference-maps.md` and `data/reference-maps.json`.

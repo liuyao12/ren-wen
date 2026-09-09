@@ -1,0 +1,12 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {referenceLevels,clampView,REGIONAL_VIEW} from '../assets/context-model.js';
+import {unitURL,readingText,unitContainers} from '../assets/text-units.js';
+test('1911 detail increases with zoom',()=>{assert.deepEqual(referenceLevels(1911,22),['province']);assert.deepEqual(referenceLevels(1911,10),['province','prefecture']);assert.deepEqual(referenceLevels(1911,4),['province','prefecture','county']);});
+test('no fictitious 1820 county polygons or undated snapshots',()=>{assert.deepEqual(referenceLevels(1820,1),['province','prefecture']);assert.deepEqual(referenceLevels(1878,4),[]);});
+test('manual detail respects source coverage',()=>assert.deepEqual(referenceLevels(1820,25,'county'),['province','prefecture']));
+test('overview can pan instead of sticking',()=>assert.deepEqual(clampView([5,4,170,80]),[5,4,170,80]));
+test('county detail is not restricted to two degrees',()=>assert.equal(clampView([130,45,.5,.3])[2],.5));
+test('regional default shows the actual cropped area',()=>assert.deepEqual(clampView(REGIONAL_VIEW),REGIONAL_VIEW));
+test('unit URLs cannot escape the site',()=>{assert.equal(unitURL('text-qsg'),'texts.html#text-qsg');assert.equal(unitURL('../secret'),null);});
+test('source reading retains punctuation and paragraph breaks',()=>assert.equal(readingText({selectors:[{exact:'甲，乙。'},{exact:'文𠀀'}]}),'甲，乙。\n\n文𠀀'));
+test('container cycles are refused',()=>assert.throws(()=>unitContainers({occurrences:[{id:'a',container:'b'},{id:'b',container:'a'}]},{container:'a'}),/Cyclic/));

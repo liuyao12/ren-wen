@@ -38,9 +38,14 @@ class ProfileNavigationTest(unittest.TestCase):
 
     def test_reference_profiles_keep_unknown_identifiers(self):
         people={p['id']:p for p in load_profiles(ROOT)}
-        for key in ['person-zeng-guofan','person-guo-songtao','person-macartney','person-chonghou','person-dong-xun']:
+        for key in ['person-guo-songtao','person-macartney','person-chonghou','person-dong-xun']:
             for x in people[key]['externalIds'].values():
                 self.assertIsNone(x['id'])
                 self.assertEqual(x['status'],'not-searched')
+        zeng=people['person-zeng-guofan']['externalIds']
+        self.assertEqual(zeng['cbdb']['id'],'34344')
+        self.assertTrue(zeng['cbdb']['evidence'])
+        self.assertIsNone(zeng['geni']['id'])
+        self.assertEqual(zeng['geni']['status'],'unresolved')
         self.assertIsNone(people['person-macartney']['life']['birth'])
         self.assertIsNone(people['person-chonghou']['name']['jiguan'])
