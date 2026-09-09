@@ -18,7 +18,7 @@ def load(page,filename):
     html=re.sub(r'<script type="module"[^>]*></script>','',html)
     html=re.sub(r'<link rel="stylesheet" href="([^"]+)">',lambda m:'<style>'+(ROOT/m[1]).read_text()+'</style>',html).replace('assets/land.svg',land)
     page.set_content(html)
-    page.evaluate('''files=>{const store=new Map();Object.defineProperty(window,'localStorage',{value:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)}});window.fetch=async path=>new Response(files[String(path)],{status:Object.hasOwn(files,String(path))?200:404});}''',files)
+    page.evaluate('''files=>{const store=new Map([['ren-wen:language:v1','en']]);Object.defineProperty(window,'localStorage',{value:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)}});window.fetch=async path=>new Response(files[String(path)],{status:Object.hasOwn(files,String(path))?200:404});}''',files)
     for e in entries:page.add_script_tag(type='module',content='import '+json.dumps(module(ROOT/e)))
 with sync_playwright() as pw:
     b=pw.chromium.launch(headless=True,executable_path=shutil.which('chromium'))

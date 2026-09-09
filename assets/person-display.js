@@ -1,3 +1,4 @@
+import {t, ui, bindText, getLocale} from './i18n.js';
 /** Display projections. Stored source wording and calendar assertions are never rewritten. */
 import {canonicalName, ageAtDeath} from './profiles.js';
 import {escapeHTML as h} from './core.js';
@@ -54,8 +55,8 @@ export function personHeading(profile, {linked = false} = {}) {
   const age = ageAtDeath(profile);
   return `<div class="person-heading" data-profile-heading="${h(profile.id)}">
     <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}</h1>
-    <p class="person-ad">${h(westernYearText(profile, 'birth'))}–${h(westernYearText(profile, 'death'))} <span>AD</span></p>
-    <p class="person-chinese" lang="zh-Hant"><span>生：${h(chineseYearText(profile.life?.birth))}</span><span>卒：${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">享年 ${age} 歲</span>`}</p>
+    <p class="person-ad">${h(westernYearText(profile, 'birth'))}–${h(westernYearText(profile, 'death'))} <span class="person-era">${ui("AD")}</span></p>
+    <p class="person-chinese" lang="zh-Hant"><span>${ui("Birth 生：")}${h(chineseYearText(profile.life?.birth))}</span><span>${ui("Death 卒：")}${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">${ui("{age} sui 歲",{age})}</span>`}</p>
   </div>`;
 }
 

@@ -27,7 +27,7 @@ with sync_playwright() as p:
  errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.set_content(html)
  page.evaluate('''files=>{
-  const store=new Map();Object.defineProperty(window,'localStorage',{value:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)}});
+  const store=new Map([['ren-wen:language:v1','en']]);Object.defineProperty(window,'localStorage',{value:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)}});
   window.fetch=async path=>new Response(files[String(path)],{status:Object.hasOwn(files,String(path))?200:404});
  }''',files)
  for entry in entries:page.add_script_tag(type='module',content='import '+json.dumps(module(ROOT/entry)))

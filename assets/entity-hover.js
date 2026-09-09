@@ -1,3 +1,4 @@
+import {t, ui, bindText, getLocale} from './i18n.js';
 /** Accessible, non-modal navigation cards for annotated people and named works. */
 import {escapeHTML as h} from './core.js';
 import {loadProfiles,canonicalName} from './profiles.js';
@@ -24,7 +25,7 @@ export async function installHover() {
   if(!r.ok)throw Error('Hover navigation: catalogue unavailable.');
   const catalog=await r.json(),people=new Map(ps.map(p=>[p.id,p])),works=new Map(ws.map(w=>[w.id,w]));
   const card=document.createElement('div');card.id='entity-card';card.className='entity-card';card.hidden=true;
-  card.setAttribute('role','dialog');card.setAttribute('aria-label','Profile and source navigation');
+  card.setAttribute('role','dialog');card.setAttribute('data-i18n-aria-label','Profile and source navigation');card.setAttribute('aria-label',t('Profile and source navigation'));
   document.body.append(card);
   let active=null,showTimer=null,hideTimer=null,suppressFocus=false;
   const selector='a[data-person-link],a[data-work-link]';
@@ -52,7 +53,7 @@ export async function installHover() {
     const left=Math.max(margin,Math.min(rect.left,innerWidth-box.width-margin));
     card.style.left=`${left}px`;card.style.top=`${top}px`;
   }
-  function anchor(url,label,external=false){return `<a href="${h(url)}"${external?' target="_blank" rel="noopener"':''}>${h(label)}${external?' ↗':''}</a>`;}
+  function anchor(url,label,external=false){return `<a href="${h(url)}"${external?' target="_blank" rel="noopener"':''}>${ui(label)}${external?' ↗':''}</a>`;}
   function show(a){
     clearTimeout(showTimer);clearTimeout(hideTimer);
     if(active===a && !card.hidden)return;
@@ -62,19 +63,19 @@ export async function installHover() {
     const choices=[];let heading,detail;
     if(p){
       heading=canonicalName(p);
-      detail=`<p>${h(westernYearText(p,'birth'))}–${h(westernYearText(p,'death'))} AD</p><p class="card-calendar">生：${h(chineseYearText(p.life?.birth))}<br>卒：${h(chineseYearText(p.life?.death))}</p>`;
+      detail=`<p>${h(westernYearText(p,'birth'))}–${h(westernYearText(p,'death'))} ${ui("AD")}</p><p class="card-calendar">${ui("Birth 生：")}${h(chineseYearText(p.life?.birth))}<br>${ui("Death 卒：")}${h(chineseYearText(p.life?.death))}</p>`;
       choices.push(anchor(profileURL(p.id),'Person profile · 人'));
       const entry=eccpDestination(p,catalog);
       if(entry)choices.push(anchor(entry.url,entry.label,entry.external));
-      else choices.push('<span class="card-note">No separate ECCP entry identified.</span>');
-      if(entry?.relation==='mentioned-in')choices.push('<span class="card-note">A discussion under another person, not a separate biography.</span>');
+      else choices.push(`<span class="card-note">${ui("No separate ECCP entry identified.")}</span>`);
+      if(entry?.relation==='mentioned-in')choices.push(`<span class="card-note">${ui("A discussion under another person, not a separate biography.")}</span>`);
     }else{
-      heading=w.title;detail=`<p>${h(w.kind || 'work')} · ${h((w.creators||[]).map(c=>`${people.has(c.person)?canonicalName(people.get(c.person)):c.person} (${c.role})`).join(' · ') || 'Authorship not entered')}</p>`;
+      heading=w.title;detail=`<p>${ui(w.kind || 'work')} · ${(w.creators||[]).map(c=>`${h(people.has(c.person)?canonicalName(people.get(c.person)):c.person)} (${ui(c.role)})`).join(' · ') || ui('Authorship not entered')}</p>`;
       choices.push(anchor(workURL(w.id),'Work profile · 文'));
       const m=catalog.mentions.find(m=>m.id===mention?.id) || catalog.mentions.find(m=>m.entity===w.id);
       if(m)choices.push(anchor(readerURL(m.witness,m.passage),'Read this ECCP passage'));
     }
-    card.innerHTML=`<button type="button" class="card-close" aria-label="Close navigation">×</button><div class="card-kind">${p?'PERSON · 人':'WORK · 文'}</div><h2>${h(heading)}</h2>${detail}<nav aria-label="Entity destinations">${choices.join('')}</nav>${mention?.id?'<button type="button" class="card-review">Review this occurrence</button>':''}<small>Source-linked draft · awaiting review</small>`;
+    card.innerHTML=`<button type="button" class="card-close" aria-label="${h(t("Close navigation"))}" data-i18n-aria-label="Close navigation">×</button><div class="card-kind">${ui(p?'PERSON · 人':'WORK · 文')}</div><h2>${h(heading)}</h2>${detail}<nav aria-label="${h(t("Entity destinations"))}" data-i18n-aria-label="Entity destinations">${choices.join('')}</nav>${mention?.id?`<button type="button" class="card-review">${ui("Review this occurrence")}</button>`:''}<small>${ui("Source-linked draft · awaiting review")}</small>`;
     card.querySelector('.card-close').onclick=()=>hide(true);
     const review=card.querySelector('.card-review');if(review)review.onclick=()=>{
       const target=mention;hide();target.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true,altKey:true}));
@@ -115,6 +116,7 @@ export async function installHover() {
   document.addEventListener('keydown',e=>{if(e.key==='Escape' && !card.hidden){e.preventDefault();hide(true);}});
   document.addEventListener('pointerdown',e=>{if(!card.hidden && !card.contains(e.target) && !active?.contains(e.target))hide();});
   reader.addEventListener('scroll',()=>{if(active)hide();},{passive:true});
+  window.addEventListener('renwen:languagechange',()=>{if(active && !card.hidden)requestAnimationFrame(position);});
   window.addEventListener('resize',()=>hide());window.addEventListener('hashchange',()=>hide());
   enhance();
 }

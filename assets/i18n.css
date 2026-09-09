@@ -1,0 +1,15 @@
+.language-switch{display:inline-flex;flex-shrink:0;align-items:center;gap:2px;padding:2px;border:1px solid #c9c4b8;border-radius:5px;background:#fffdf8;white-space:nowrap}
+.language-switch button{font:inherit;font-size:12px;line-height:1.4;padding:5px 9px;min-height:30px;border:0;border-radius:3px;background:transparent;color:#575d58;cursor:pointer;letter-spacing:0;text-transform:none}
+.language-switch button[aria-pressed="true"]{background:#393e39;color:#fffdf8}
+.language-switch button:focus-visible{outline:2px solid #8a533d;outline-offset:3px}
+html[lang="zh-Hant"]{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",sans-serif}
+html[lang="zh-Hant"] .eyebrow,html[lang="zh-Hant"] .subhead,html[lang="zh-Hant"] .card-kind{letter-spacing:.08em}
+.source-language-note{font-size:11px;color:#666e65;margin-top:5px}
+header nav{align-items:center;flex-wrap:wrap}
+@media(max-width:720px){header nav{gap:8px 12px}.language-switch{margin-left:auto}.masthead{height:auto!important;flex-wrap:wrap}.masthead nav{width:100%}.language-switch button{padding:5px 8px}.context-bar{height:auto;min-height:38px;flex-wrap:wrap}header .brand small{white-space:normal}}
+
+.panel-heading h2 > [data-i18n]{font:inherit;margin-right:0;color:inherit}
+html[lang="zh-Hant"] .panel-heading h2 > small{display:none}
+[data-i18n] [lang="en"]{font-family:inherit}
+.person-heading .person-ad{display:flex;gap:.3em;align-items:baseline}
+.person-heading .person-ad > .person-era{order:-1}

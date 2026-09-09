@@ -1,6 +1,10 @@
 # 人文 · Ren-Wen
 
-**People through texts. Texts in context.**
+**以文識人，因人讀文。**
+
+介面預設繁體中文，頁首可切換 **中文 / English**。ECCP 等原文保持原語言；姓名、字號、書名、年號與干支在英文介面中仍予保留。選擇會於閱讀器、人物頁與著作頁間沿用。詳見 [介面語言說明](docs/language.md)。
+
+*People through texts. Texts in context.*
 
 Ren-Wen connects historical texts and people through source-linked biographies, annotated editions, timelines, and maps. 人 and 文 are equal pillars: a person is not reducible to one biography, and a text is not reducible to the facts extracted from it.
 
