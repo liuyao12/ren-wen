@@ -1,0 +1,89 @@
+name: Preserve name and corpus sources
+on:
+  push:
+    branches: [dated-person-names]
+    paths: ['.github/workflows/name-source-snapshot.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Archive exact application and reference code
+        run: |
+          mkdir -p build/name-sources/reference
+          git archive --format=tar.gz -o build/name-sources/repository.tar.gz HEAD
+          curl --fail --retry 2 --max-time 60 -L https://raw.githubusercontent.com/liuyao12/genealogy-timeline/main/app.js -o build/name-sources/reference/app.js
+          curl --fail --retry 2 --max-time 60 -L https://raw.githubusercontent.com/liuyao12/genealogy-timeline/main/styles.css -o build/name-sources/reference/styles.css
+      - uses: actions/upload-artifact@v4
+        with:
+          name: current-reader-and-reference
+          path: build/name-sources/
+          retention-days: 7
+      - name: Preserve full ECCP reading responses without editing the corpus
+        run: |
+          python - <<'PY'
+          import concurrent.futures, hashlib, json, pathlib, time, urllib.parse, urllib.request
+          from datetime import datetime, timezone
+          from html.parser import HTMLParser
+          base="Eminent Chinese of the Ch'ing Period"
+          out=pathlib.Path('build/eccp-all'); out.mkdir(parents=True, exist_ok=True)
+          def request(title):
+            params=urllib.parse.urlencode({'action':'parse','page':title,'prop':'text|wikitext|revid','format':'json','maxlag':5})
+            url='https://en.wikisource.org/w/api.php?'+params
+            for attempt in range(4):
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Ren-Wen/0.3 (source-preservation; https://github.com/liuyao12/ren-wen)'})
+                with urllib.request.urlopen(req,timeout=45) as response: raw=response.read(16000000)
+                obj=json.loads(raw)
+                if 'error' in obj: raise ValueError(str(obj['error']))
+                return url,raw,obj
+              except Exception:
+                if attempt==3: raise
+                time.sleep(2**(attempt+1))
+          url,raw,index=request(base)
+          (out/'index.response.json').write_bytes(raw)
+          class Links(HTMLParser):
+            def __init__(self): super().__init__(); self.links=[]
+            def handle_starttag(self,tag,attrs):
+              if tag!='a': return
+              href=dict(attrs).get('href','')
+              path=urllib.parse.unquote(urllib.parse.urlparse(href).path).replace('_',' ')
+              if path.startswith('/wiki/'+base+'/'):
+                title=path[len('/wiki/'):]
+                if title not in self.links: self.links.append(title)
+          parser=Links();parser.feed(index['parse']['text']['*'])
+          # Inventory retains front matter and cross-reference pages; classify after retrieval.
+          titles=parser.links
+          assert 500<len(titles)<1500, ('Unexpected ECCP inventory size',len(titles))
+          print('Indexed source pages:',len(titles),flush=True)
+          def one(title):
+            key=hashlib.sha256(title.encode()).hexdigest()[:20]
+            result={'title':title,'file':key+'.json'}
+            try:
+              url,raw,obj=request(title)
+              (out/result['file']).write_bytes(raw)
+              result.update({'url':url,'revision':obj['parse']['revid'],'resolvedTitle':obj['parse']['title'],'sha256':hashlib.sha256(raw).hexdigest(),'retrieved':datetime.now(timezone.utc).isoformat(),'status':'downloaded-not-reviewed'})
+            except Exception as e: result.update({'status':'failed','error':str(e)})
+            time.sleep(.3)
+            return result
+          rows=[]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+            for row in pool.map(one,titles):
+              rows.append(row)
+              if len(rows)%50==0: print('Preserved',len(rows),'of',len(titles),flush=True)
+          (out/'manifest.json').write_text(json.dumps({'indexRevision':index['parse']['revid'],'indexURL':url,'pages':rows},ensure_ascii=False,indent=2)+'\n')
+          print('Failed:',sum(r['status']=='failed' for r in rows),flush=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-eccp-source-snapshots
+          path: build/eccp-all/
+          retention-days: 7
