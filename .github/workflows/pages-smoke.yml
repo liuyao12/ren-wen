@@ -31,6 +31,8 @@ jobs:
           # Use the named biography so future changes to the default page do not
           # accidentally change this regression test's subject.
           python tests/browser_live.py --url 'https://liuyao12.github.io/ren-wen/#eccp-zeng-guofan' --output build/published-browser
+      - name: Check family hierarchy and stacked timeline-map layout
+        run: python tests/browser_family_layout.py --url 'https://liuyao12.github.io/ren-wen/#eccp-zeng-guofan' --output build/published-browser/family
       - uses: actions/upload-artifact@v4
         if: always()
         with:

@@ -1,0 +1,98 @@
+/* Two equal reading columns: text left; family timeline above the map on the right. */
+@media (min-width: 761px) {
+  body {height:100dvh;display:flex;flex-direction:column;overflow:hidden;}
+  .masthead,.context-bar {flex-shrink:0;}
+  .masthead {height:70px;padding-inline:22px;gap:18px;}
+  .masthead nav {flex-wrap:wrap;justify-content:flex-end;gap:5px;}
+  .masthead .brand {flex-shrink:0;}
+  .context-bar {min-height:34px;padding-block:6px;}
+  .workspace,.context-enhanced .workspace {
+    flex:1;min-height:0;height:auto;display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+    grid-template-rows:minmax(0,46fr) minmax(0,54fr);
+    grid-template-areas:'text time' 'text map';
+  }
+  .workspace > .text-panel {grid-area:text;}
+  .workspace > .time-panel {grid-area:time;max-height:none;min-height:0;border-right:0;border-bottom:1px solid var(--line);}
+  .workspace > .map-panel {grid-area:map;min-height:0;border:0;}
+  .panel .panel-heading {min-height:38px;padding:8px 16px;flex-shrink:0;}
+  .text-panel .panel-heading {min-height:47px;}
+  .panel .panel-footer {flex-shrink:0;}
+  .time-controls {display:grid;grid-template-columns:auto minmax(80px,1fr);gap:5px 12px;align-items:center;padding:7px 16px;flex-shrink:0;}
+  .time-controls label {margin:0;}
+  .time-controls input {margin:0;width:100%;}
+  .time-controls small {grid-column:1/-1;margin:0;font-size:10px;}
+  .time-body {padding:8px 14px 14px;overflow:auto;min-height:0;overscroll-behavior:contain;}
+  #reader {padding:22px clamp(24px,3.2vw,60px);font-size:18px;line-height:1.85;min-height:0;}
+  .text-tools {flex-wrap:wrap;flex-shrink:0;}
+  .map-panel .context-map-body {min-height:0;overflow:auto;padding:0 12px 12px;overscroll-behavior:contain;}
+  .context-map-toolbar {display:flex;align-items:center;gap:12px;margin:4px 0;padding:0;}
+  .context-map-toolbar label {display:flex;align-items:center;gap:5px;min-width:0;}
+  .context-map-toolbar select {max-width:190px;padding:4px 6px;}
+  .reference-map-controls {padding:5px 8px;margin:0 -12px;gap:12px;}
+  .reference-map-controls select {padding:3px 5px;font-size:11px;}
+  .interactive-map {height:clamp(205px,29dvh,340px);min-height:205px;margin:0 -12px;}
+  #historic-map {height:100%;}
+  .context-map-actions {margin:5px 0;}
+  .context-map-body > .context-caption {margin:5px 0;}
+  .map-panel .panel-footer {font-size:9px;padding:5px 12px;}
+  .reference-status {margin:5px 0;font-size:11px;}
+}
+@media (min-width:761px) and (max-width:1100px) {
+  .masthead {height:auto;min-height:70px;padding:9px 14px;}
+  .masthead .brand small {display:none;}
+  .masthead .brand>span:first-child {font-size:30px;}
+  .masthead nav {font-size:11px;}
+  .context-bar {font-size:10px;padding-inline:14px;}
+  .context-options {flex-wrap:wrap;}
+  .context-map-toolbar {gap:6px;flex-wrap:wrap;}
+  .context-map-toolbar select {max-width:150px;}
+  #reader {font-size:16px;padding:18px 22px;}
+}
+@media (max-width:760px) {
+  body {height:auto;overflow:auto;}
+  .masthead {height:auto;min-height:85px;align-items:flex-start;flex-direction:column;padding:12px 16px;gap:10px;}
+  .masthead nav {flex-wrap:wrap;gap:5px;}
+  .brand small {display:none;}
+  .context-bar {flex-wrap:wrap;padding:8px 16px;font-size:11px;}
+  .workspace,.context-enhanced .workspace {display:flex;flex-direction:column;height:auto;min-height:0;}
+  .workspace > .text-panel {height:68dvh;min-height:400px;}
+  .workspace > .time-panel {height:450px;max-height:none;}
+  .workspace > .map-panel {height:660px;}
+  .panel {border-right:0;border-bottom:1px solid var(--line);}
+  .time-body {min-height:0;padding:10px 12px;}
+  .context-map-body {min-height:0;}
+  .interactive-map {height:280px;min-height:250px;}
+  #historic-map {height:100%;}
+}
+/* Source text, the family grouping, and each known lifespan retain separate semantics. */
+.family-timeline .context-options {margin:0 0 6px;gap:8px;flex-wrap:wrap;}
+.family-timeline .context-options label {font-size:11px;}
+.family-timeline .context-options button,.family-other-control button {padding:3px 8px;font-size:11px;}
+.family-timeline #context-people-count {margin-left:auto;font-size:10px;}
+.family-timeline > svg {display:block;width:100%;height:auto;overflow:hidden;}
+.family-timeline svg .name {font-size:12px;}
+.family-timeline svg .dates {font-size:9px;}
+.family-timeline svg .family-role {font-size:10px;fill:var(--muted);}
+.family-timeline svg .family-divider {font-size:10px;fill:var(--accent);}
+.family-timeline .family-background {fill:#f2f3ed;}
+.family-timeline .self-background {fill:#e2ebe3;}
+.family-timeline .self-row .name {font-weight:650;}
+.family-timeline .self-row .life-bar {fill:var(--ink);}
+.family-timeline .person-row.dim {opacity:.55;}
+.family-timeline .person-row.dim .life-bar {fill:#a0a59f;}
+.family-timeline .person-row {transition:opacity 180ms ease;}
+.family-timeline .family-summary {opacity:.7;}
+.family-timeline .summary-hit {fill:transparent;cursor:pointer;}
+.family-timeline .family-summary [role=button]:hover .summary-hit {fill:#e4e5dc;}
+.family-timeline svg .summary-label {font-size:10px;fill:#666e65;}
+.family-timeline .mini-life {stroke:#929b91;stroke-width:1.4;pointer-events:none;}
+.family-timeline .spouse-connector {stroke-dasharray:5 3;}
+.family-timeline .family-connector {pointer-events:none;}
+.family-evidence {margin-top:6px;font-size:11px;color:var(--muted);}
+.family-evidence summary {cursor:pointer;padding:4px 0;}
+.family-evidence p {font-size:11px;line-height:1.6;}
+.family-help {font-size:10px;line-height:1.6;color:var(--muted);margin:5px 0;}
+.family-other-control {margin:4px 0;}
+.family-timeline #context-families button {padding:5px 8px;}
+@media (prefers-reduced-motion:reduce) {.family-timeline .person-row {transition:none;}}
