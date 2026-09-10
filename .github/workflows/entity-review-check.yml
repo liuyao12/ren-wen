@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Preserve exact source
+      - name: Preserve exact source including staged review edits
         run: |
           mkdir -p build
           git archive --format=tar.gz -o build/review-source.tar.gz HEAD
