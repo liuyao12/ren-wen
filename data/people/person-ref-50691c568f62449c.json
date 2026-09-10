@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-50691c568f62449c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "養粹",
+    "source": "eccp-3678151",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Wang Yang-tsui 王養粹 (T. 法乾, d. 1699), a native of Li-hsien who became his life-long friend and with whom he kept a diary. This diary was later used by Yen's disciple, Li Kung [q. v.], to compile Yen's chronological biography, entitled 顏習齋先生年譜 Yen Hsi-chai hsien-shêng nien-p'u, 2 chüan, completed in 1705, but expanded by another disciple, Wang Yüan [q. v.], in 1706.",
+          "source": "eccp-3678151",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "法乾",
+        "source": "eccp-3678151"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "法乾"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yang-tsui",
+        "system": "ECCP spelling",
+        "source": "eccp-3678151"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

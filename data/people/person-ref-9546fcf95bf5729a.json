@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9546fcf95bf5729a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "藍",
+    "given": "廷珍",
+    "source": "eccp-3654365",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "漳浦",
+      "source": "qsg-volume-284",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "藍廷珍，字荊璞，福建漳浦人。",
+          "source": "qsg-volume-284",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "荆璞",
+        "source": "eccp-3654365"
+      }
+    ],
+    "hao": [
+      {
+        "value": "巖山",
+        "source": "eccp-3654365"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "荆璞"
+    },
+    "romanizations": [
+      {
+        "value": "Lan T'ing-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3654365"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3654365",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1730,
+        "source": "eccp-3654365",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-284",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-284",
+      "passage": "qsg-volume-284-016",
+      "matchStatus": "proposed",
+      "evidence": "藍廷珍，字荊璞，福建漳浦人。少習騎射，從祖理器之。入伍，自定海營把總累遷溫州鎮標左營游擊。巡外洋，屢獲盜，盜皆畏避。以是為諸將所忌，讒於總督滿保，將劾之。會關東大盜孫森等竊遼陽巨砲、戰艦逸入海。聖祖震怒，責沿海疆吏嚴緝。廷珍出巡海，至黑水外洋與遇，力戰，盡獲森等九十餘人，及其船艦、砲械。滿保按部至溫州，廷珍迎謁以告。滿保歎曰：「幾失良將！」召入舟，厚撫之，亟疏薦，超擢福建澎湖副將。未幾，遷南澳總兵。"
+    }
+  ],
+  "sources": {
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

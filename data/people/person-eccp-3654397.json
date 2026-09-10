@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654397",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "枝蔚",
+    "source": "eccp-3654397",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Chih-wei 孫枝蔚 (T. 豹人, H. 溉堂), 1620–1687, poet, native of San-yüan, Shensi, came from a family of some means. After his native place was pillaged by Li Tzŭ-ch'êng [q. v.], he engaged for a time in business at Chiang-tu (Yangchow) and made considerable profit.",
+          "source": "eccp-3654397",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫枝蔚，字豹人，三原人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "豹人",
+        "source": "eccp-3654397"
+      }
+    ],
+    "hao": [
+      {
+        "value": "溉堂",
+        "source": "eccp-3654397"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "豹人"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Chih-wei",
+        "system": "ECCP spelling",
+        "source": "eccp-3654397"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3654397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1687,
+        "source": "eccp-3654397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654397",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654397",
+      "passage": "eccp-3654397-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-248",
+      "matchStatus": "proposed",
+      "evidence": "孫枝蔚，字豹人，三原人。少遭闖賊亂，結邑裡少年擊賊，墮坎埳，幸不死。乃走江都，習賈，屢致千金，輒散之。既乃折節讀書，僦居董相祠，高不見之節。王士禎官揚州，以詩先，遂定交，稱莫逆焉。時左贊善徐乾學方激揚士類，才俊滿門，枝蔚弗屑也。以布衣舉鴻博，自陳衰老，乞還山，遂不應試，授內閣中書。著溉堂集，詩詞多激壯之音，稱其高節。"
+    }
+  ],
+  "sources": {
+    "eccp-3654397": {
+      "title": "ECCP · Sun Chih-wei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358514",
+      "locator": "eccp-3654397-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-248",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

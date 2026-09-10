@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0505f66b03eabca2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "銳",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "綿竹",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Yang Jui 楊銳 (T. 叔嶠, 鈍叔, 1857–1898), a native of Mien-chu, Szechwan, a chü-jên of 1885, a disciple of Chang Chih-tung [q. v.], and chairman of a reform society of his province; Lin Hsü 林旭 (T. 暾谷, H. 晚翠, 1875–1898), a native of Hou-kuan, Fukien, a chü-jên of 1893, a student of K'ang Yu-wei, and chairman of the reform society of his province; and Liu Kuang-ti 劉光第 (T. 裴村, 1859–1898), a native of Fu-sh",
+          "source": "eccp-3656345",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "楊銳，字叔嶠，四川綿竹人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔嶠",
+        "source": "eccp-3656345"
+      },
+      {
+        "value": "鈍叔",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔嶠"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1857,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1898,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-026",
+      "matchStatus": "proposed",
+      "evidence": "楊銳，字叔嶠，四川綿竹人。少俊慧，督學張之洞奇其才，招入幕。肄業尊經書院，年最少，嘗冠其曹。優貢朝考得知縣。之洞督兩廣，從赴粵。光緒十一年，舉順天鄉試，考取內閣中書。"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

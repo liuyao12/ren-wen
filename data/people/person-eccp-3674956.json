@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674956",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "魏",
+    "given": "禮",
+    "source": "eccp-3674956",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WEI Li 魏禮 (T. 和公, H. 吾廬, 季子), 1629–1695, poet, a native of Ning-tu, Kiangsi, was a younger brother of Wei Hsi and Wei Chi-jui [qq. v.] and, like them, achieved fame as a writer. After 1659 he traveled extensively, from the Great Wall in the north to the Island of Hainan in the south, making friends of distinguished scholars whom he met.",
+          "source": "eccp-3674956",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "和公",
+        "source": "eccp-3674956"
+      }
+    ],
+    "hao": [
+      {
+        "value": "吾廬",
+        "source": "eccp-3674956"
+      },
+      {
+        "value": "季子",
+        "source": "eccp-3674956"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "和公"
+    },
+    "romanizations": [
+      {
+        "value": "Wei Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3674956"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1629,
+        "source": "eccp-3674956",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1695,
+        "source": "eccp-3674956",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674956",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674956",
+      "passage": "eccp-3674956-001"
+    }
+  ],
+  "sources": {
+    "eccp-3674956": {
+      "title": "ECCP · Wei Li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419238",
+      "locator": "eccp-3674956-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3674931": {
+      "title": "ECCP · 魏際瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419146",
+      "locator": "eccp-3674931-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-063",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5c1048e65a31754f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "侯",
+    "given": "康",
+    "source": "eccp-3645486",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "侯康，字君謨，亦番禺人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "君模",
+        "source": "eccp-3645486"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "君模"
+    },
+    "romanizations": [
+      {
+        "value": "Hou K'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3645486"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-170",
+      "matchStatus": "proposed",
+      "evidence": "侯康，字君謨，亦番禺人。道光十五年舉人。少孤，事母孝。家貧，欲買書，母稱貸得錢。買十七史，讀之，巻帙皆敝，遂通史學。及長，精研注疎，湛深經術，與同里陳灃交最久。嘗謂：「漢志載春秋古經十二篇者左經也，經十一巻者公、穀經也。今以三傳參校之，大要古經爲優。穀梁出最先，其誤尚寡。公羊出最晩，其誤滋甚。」乃取其義意可尋者疎通證明之，著春秋古經説二巻。又治穀梁以證三禮，以公羊雜出衆師，時多偏駮，排詆獨多。著穀梁禮證，未完帙，僅成二巻。又彷裴松之註三國志例注史，嘗曰：「注古史與近史異，注近史者，群書大備；注古"
+    }
+  ],
+  "sources": {
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-170",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

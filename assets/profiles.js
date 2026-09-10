@@ -1,10 +1,6 @@
+import {fetchData} from './data-cache.js';
 /** Person records are independent of text witnesses and external services. */
-export function canonicalName(profile) {
-  const n = profile.name;
-  const place = n.jiguan?.label ? `[${n.jiguan.label}] ` : '';
-  const alias = n.parenthetical ? `（${n.parenthetical.value}）` : '';
-  return `${place}${n.surname || ''}${n.given || ''}${alias}`;
-}
+export {identityName as canonicalName} from './name-history.js';
 
 /** Parameters must already be resolved Chinese civil-year labels, never Gregorian dates. */
 export function suiAge(birthChineseYear, eventChineseYear) {
@@ -23,7 +19,7 @@ export function yearText(record) {
   return `${record.chineseYear}${era}`;
 }
 
-export async function loadProfiles(fetcher = fetch) {
+async function readProfiles(fetcher) {
   const response = await fetcher('data/people/index.json');
   if (!response.ok) throw new Error(`Profile index unavailable (${response.status}).`);
   const index = await response.json();
@@ -34,23 +30,33 @@ export async function loadProfiles(fetcher = fetch) {
   for (const file of index.profiles) {
     if (typeof file !== 'string' || !/^person-[a-z0-9-]+\.json$/.test(file)) throw new Error('Invalid profile filename.');
   }
-  for (let start=0; start<index.profiles.length; start+=8) {
-    const batch=await Promise.all(index.profiles.slice(start,start+8).map(async file => {
-    if (typeof file !== 'string' || !/^person-[a-z0-9-]+\.json$/.test(file)) throw new Error('Invalid profile filename.');
-    const r = await fetcher(`data/people/${file}`);
-    if (!r.ok) throw new Error(`Cannot load ${file} (${r.status}).`);
-    const p = await r.json();
-    if (p.schemaVersion !== 1 || `${p.id}.json` !== file || ids.has(p.id)) throw new Error('Invalid or duplicate profile identity.');
-    for (const provider of ['cbdb', 'geni']) {
-      const x = p.externalIds?.[provider];
-      if (!x || (x.id !== null && (typeof x.id !== 'string' || !/^[1-9][0-9]*$/.test(x.id)))) throw new Error(`${provider} IDs must be decimal strings or null.`);
+  let records;
+  if(index.bundle) {
+    if(index.bundle!=='bundle.json')throw Error('Invalid profile bundle path.');
+    const r=await fetcher('data/people/bundle.json');
+    if(!r.ok)throw Error('Profile bundle unavailable.');
+    const bundle=await r.json();
+    if(bundle.schemaVersion!==1 || bundle.derived!==true || !Array.isArray(bundle.records) || bundle.records.length!==index.profiles.length)throw Error('Invalid profile bundle.');
+    records=bundle.records;
+  } else {
+    records=[];
+    for(let start=0;start<index.profiles.length;start+=8)records.push(...await Promise.all(index.profiles.slice(start,start+8).map(async file=>{
+      const r=await fetcher(`data/people/${file}`);if(!r.ok)throw Error(`Cannot load ${file}.`);return r.json();
+    })));
+  }
+  for(const [i,p] of records.entries()) {
+    if(p.schemaVersion!==1 || `${p.id}.json`!==index.profiles[i] || ids.has(p.id))throw Error('Invalid or duplicate profile identity.');
+    for(const provider of ['cbdb','geni']) {
+      const x=p.externalIds?.[provider];
+      if(!x || (x.id!==null && (typeof x.id!=='string' || !/^[1-9][0-9]*$/.test(x.id))))throw Error(`${provider} IDs must be decimal strings or null.`);
     }
-    return p;
-    }));
-    for (const p of batch) {
-      if (ids.has(p.id)) throw new Error('Invalid or duplicate profile identity.');
-      ids.add(p.id); result.push(p);
-    }
+    ids.add(p.id);result.push(p);
   }
   return result;
+}
+
+let defaultProfiles;
+export function loadProfiles(fetcher=fetch) {
+  if(fetcher!==fetch)return readProfiles(fetcher);
+  return defaultProfiles ||= readProfiles(fetchData).catch(error=>{defaultProfiles=null;throw error;});
 }

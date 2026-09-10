@@ -8,9 +8,22 @@
     "given": "Liu Jung",
     "source": "batch-evidence",
     "jiguan": null,
-    "zi": [],
-    "hao": [],
-    "parenthetical": null,
+    "zi": [
+      {
+        "value": "孟容",
+        "source": "eccp-3645531"
+      }
+    ],
+    "hao": [
+      {
+        "value": "霞仙",
+        "source": "eccp-3645531"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟容"
+    },
     "romanizations": [
       {
         "value": "Liu Jung",
@@ -18,13 +31,43 @@
         "source": "batch-evidence"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "Liu Jung 劉蓉 (T. 孟容, H. 霞仙, 1816–1873), a native of Hunan who, as a capable secretary and counselor of Tsêng Kuo-fan, served Lo in the same capacity. On October 18, 1861 he was formally installed as governor-general at Chengtu and started to make an end of the insurgents.",
+          "source": "eccp-3645531",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
     "death": null,
     "westernDates": [],
-    "westernYears": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1816,
+        "source": "eccp-3645531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1873,
+        "source": "eccp-3645531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
     "reportedAges": []
   },
   "sources": {
@@ -41,6 +84,34 @@
       "locator": "Explicit see-under reference in eccp-guo-songtao-01",
       "access": "cross-reference",
       "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640015": {
+      "title": "ECCP · 黃彭年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282915",
+      "locator": "eccp-3640015-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645531": {
+      "title": "ECCP · 駱秉章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299511",
+      "locator": "eccp-3645531-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654367": {
+      "title": "ECCP · 石達開",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358434",
+      "locator": "eccp-3654367-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656351": {
+      "title": "ECCP · 唐炯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365117",
+      "locator": "eccp-3656351-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "externalIds": {

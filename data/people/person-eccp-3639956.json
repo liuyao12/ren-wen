@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639956",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "陞",
+    "source": "eccp-3639956",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIEH Shêng 謝陞 (T. 伊晉), d. 1645, Ming-Ch'ing official, was a native of Tê-chou, Shantung. His father, Hsieh T'ing-ts'ê 謝廷策 (T. 正甫, a chin-shih of 1589), was a censor under the Ming.",
+          "source": "eccp-3639956",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伊晉",
+        "source": "eccp-3639956"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伊晉"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3639956"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639956",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639956",
+      "passage": "eccp-3639956-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639956": {
+      "title": "ECCP · Hsieh Shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282775",
+      "locator": "eccp-3639956-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

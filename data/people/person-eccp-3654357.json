@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654357",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "施",
+    "given": "閏章",
+    "source": "eccp-3654357",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH Jun-chang 施閏章 (T. 尚白, 屺雲, H. 愚山, 矩齋, 蠖齋), Jan. 6, 1619–1683, Aug. 5, poet, scholar, and official, was a native of Hsüan-ch'êng, Anhwei. His mother died when he was three (sui) and his father when he was nine (sui), leaving him to be brought up by a younger brother of his father.",
+          "source": "eccp-3654357",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "施閏章，字尚白，號愚山，宣城人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "尚白",
+        "source": "eccp-3654357"
+      },
+      {
+        "value": "屺雲",
+        "source": "eccp-3654357"
+      }
+    ],
+    "hao": [
+      {
+        "value": "愚山",
+        "source": "eccp-3654357"
+      },
+      {
+        "value": "矩齋",
+        "source": "eccp-3654357"
+      },
+      {
+        "value": "蠖齋",
+        "source": "eccp-3654357"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尚白"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Jun-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3654357"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1619,
+        "source": "eccp-3654357",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3654357",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654357",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654357",
+      "passage": "eccp-3654357-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-076",
+      "matchStatus": "proposed",
+      "evidence": "施閏章，字尚白，號愚山，宣城人。祖鴻猷，以儒學著。子姓傳業江南，言家法者推施氏。"
+    }
+  ],
+  "sources": {
+    "eccp-3654357": {
+      "title": "ECCP · Shih Jun-chang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642409": {
+      "title": "ECCP · 顧奎光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290487",
+      "locator": "eccp-3642409-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646146": {
+      "title": "ECCP · 馬驌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300563",
+      "locator": "eccp-3646146-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646157": {
+      "title": "ECCP · 毛奇齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300580",
+      "locator": "eccp-3646157-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649170": {
+      "title": "ECCP · 鄂穆圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317776",
+      "locator": "eccp-3649170-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649371": {
+      "title": "ECCP · 蒲松齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318140",
+      "locator": "eccp-3649371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654394": {
+      "title": "ECCP · 孫奇逢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358505",
+      "locator": "eccp-3654394-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656328": {
+      "title": "ECCP · 宋琬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365079",
+      "locator": "eccp-3656328-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656376": {
+      "title": "ECCP · 田雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-076",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

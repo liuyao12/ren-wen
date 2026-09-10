@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656386",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "丁",
+    "given": "晏",
+    "source": "eccp-3656386",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "山陽",
+      "source": "qsg-volume-482",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TING Yen 丁晏 (T. 柘堂, 柘唐, H. 儉卿), 1794–1875, scholar, was a native of Shan-yang (Huai-an), Kiangsu. He was a brilliant student in the Li-chêng 麗正 Academy of his district and was highly praised by Juan Yüan [q. v.] in 1813 when, as director of grain transport, Juan sponsored that Academy.",
+          "source": "eccp-3656386",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "丁晏，字柘堂，江蘇山陽人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "柘堂",
+        "source": "eccp-3656386"
+      },
+      {
+        "value": "柘唐",
+        "source": "eccp-3656386"
+      }
+    ],
+    "hao": [
+      {
+        "value": "儉卿",
+        "source": "eccp-3656386"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "柘堂"
+    },
+    "romanizations": [
+      {
+        "value": "Ting Yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3656386"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1794,
+        "source": "eccp-3656386",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1875,
+        "source": "eccp-3656386",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656386",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656386",
+      "passage": "eccp-3656386-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-134",
+      "matchStatus": "proposed",
+      "evidence": "丁晏，字柘堂，江蘇山陽人。阮元爲漕督，以漢易十五家發策，晏條對萬餘言，精奧爲當世冠。道光元年舉人。晏以顧炎武云梅賾偽古文雅密非賾所能爲，考之家語後序及釋文、正義，而斷爲王肅偽作。蓋肅雅才博學，好作偽以難鄭君。鄭君之學昌明於漢，肅爲古文孔傳以駕其上，後儒誤信之。近世惠棟、王鳴盛頗疑肅作而未能暢其旨，特著論申辨之，撰尚書餘論二巻。又以胡渭禹貢錐指能知偽古文，而不能信好古學，踵謬沿譌，自逞臆見。後之學者，何所取正？既爲正誤以匡其失，复採獲古文，甄録舊説，砭俗訂譌，斷以己意。期於發揮經文，無取泥古。引用"
+    }
+  ],
+  "sources": {
+    "eccp-3656386": {
+      "title": "ECCP · Ting Yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365169",
+      "locator": "eccp-3656386-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645527": {
+      "title": "ECCP · 劉文淇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645502": {
+      "title": "ECCP · 劉鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672748": {
+      "title": "ECCP · 王懿榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412321",
+      "locator": "eccp-3672748-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678142": {
+      "title": "ECCP · 閻若璩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442948",
+      "locator": "eccp-3678142-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-134",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

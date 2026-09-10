@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658530",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "祖",
+    "given": "大壽",
+    "source": "eccp-3658530",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TSU Ta-shou 祖大壽 (T. 復宇), d. 1656, Ming general, was a native of Liaotung. In 1620, when he was a major in charge of one of the fortresses in that district, he received with others special commendation from the generalissimo, Hsiung T'ing-pi [q. v.].",
+          "source": "eccp-3658530",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "祖大壽，字复宇，遼東人。",
+          "source": "qsg-volume-234",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "復宇",
+        "source": "eccp-3658530"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "復宇"
+    },
+    "romanizations": [
+      {
+        "value": "Tsu Ta-shou",
+        "system": "ECCP spelling",
+        "source": "eccp-3658530"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658530",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658530",
+      "passage": "eccp-3658530-001"
+    },
+    {
+      "source": "qsg-volume-234",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-234",
+      "passage": "qsg-volume-234-061",
+      "matchStatus": "proposed",
+      "evidence": "祖大壽，字复宇，遼東人。仕明為靖東營游擊。經略熊廷弼奏獎忠勤諸將，大壽與焉。天啟初，廣寧巡撫王化貞以為中軍游擊。廣寧破，大壽走覺華島。大學士孫承宗出督師，以大壽佐參將金冠守島。承宗用參政道袁崇煥議，城寧遠，令為高廣，大壽董其役。方竟，太祖師至，穴地而攻，大壽佐城守，發巨砲傷數百人。太祖攻不下，偏師略覺華島，斬冠，殪士卒萬餘。太宗即位，伐明，略寧遠，崇煥令大壽將精兵四千人繞出我師後，總兵滿桂、尤世威等以兵來赴，戰寧遠城下。會溽暑，我師移攻錦州，不克，遂引還。明人謂之寧錦大捷。"
+    }
+  ],
+  "sources": {
+    "eccp-3658530": {
+      "title": "ECCP · Tsu Ta-shou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370050",
+      "locator": "eccp-3658530-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633192": {
+      "title": "ECCP · 皇太極",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11279637",
+      "locator": "eccp-3633192-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633203": {
+      "title": "ECCP · 阿濟格",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271365",
+      "locator": "eccp-3633203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633301": {
+      "title": "ECCP · 張存仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271669",
+      "locator": "eccp-3633301-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642370": {
+      "title": "ECCP · 康果禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290408",
+      "locator": "eccp-3642370-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646152": {
+      "title": "ECCP · 滿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300571",
+      "locator": "eccp-3646152-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654393": {
+      "title": "ECCP · 孫承宗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358503",
+      "locator": "eccp-3654393-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658562": {
+      "title": "ECCP · 佟養性",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370119",
+      "locator": "eccp-3658562-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656401": {
+      "title": "ECCP · 蔡毓榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365190",
+      "locator": "eccp-3656401-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678460": {
+      "title": "ECCP · 袁崇煥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443797",
+      "locator": "eccp-3678460-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-226": {
+      "title": "清史稿/卷226",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2414164",
+      "locator": "qsg-volume-226-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-235": {
+      "title": "清史稿/卷235",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433514",
+      "locator": "qsg-volume-235-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-256": {
+      "title": "清史稿/卷256",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433520",
+      "locator": "qsg-volume-256-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-496": {
+      "title": "清史稿/卷496",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542421",
+      "locator": "qsg-volume-496-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

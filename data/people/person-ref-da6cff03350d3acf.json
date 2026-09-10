@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-da6cff03350d3acf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "南",
+    "given": "懷仁",
+    "source": "eccp-3646130",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "南懷仁，初名佛迪南特斯，姓阜泌斯脫氏，比利時國人。",
+          "source": "qsg-volume-272",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ferdinand Verbiest",
+        "system": "ECCP spelling",
+        "source": "eccp-3646130"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1623,
+        "source": "eccp-3646130",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3646130",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-272",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-272",
+      "passage": "qsg-volume-272-020",
+      "matchStatus": "proposed",
+      "evidence": "南懷仁，初名佛迪南特斯，姓阜泌斯脫氏，比利時國人。康熙初，入中國。時湯若望方黜，楊光先為監正，吳明烜為監副，以大統術治歷，節氣不應，金、水二星躔度舛錯。明烜奏水星當見，其言復不售。乃召南懷仁，命治理曆法。南懷仁劾光先、明烜而去之，遂授南懷仁監副。"
+    }
+  ],
+  "sources": {
+    "eccp-3646130": {
+      "title": "ECCP · 陸隴其",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300530",
+      "locator": "eccp-3646130-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-272": {
+      "title": "清史稿/卷272",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600806",
+      "locator": "qsg-volume-272-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

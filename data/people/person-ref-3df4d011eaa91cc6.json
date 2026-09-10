@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3df4d011eaa91cc6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "志超",
+    "source": "eccp-3656325",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-462",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "葉志超，字曙青，安徽合肥人。",
+          "source": "qsg-volume-462",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "曙青",
+        "source": "eccp-3656325"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "曙青"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Chih-ch'ao",
+        "system": "ECCP spelling",
+        "source": "eccp-3656325"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-462",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-462",
+      "passage": "qsg-volume-462-016",
+      "matchStatus": "proposed",
+      "evidence": "葉志超，字曙青，安徽合肥人。以淮軍末弁從劉銘傳討捻，積功至總兵。戰淮城被創，仍奮擊卻之，逐北天長，又敗之汊河，賜號額圖渾巴圖魯。規南樂，戰德、平間，頻有功。捻平，留北洋。光緒初，署正定鎮總兵，率練軍守新城，為大沽後路。後徙防山海關，李鴻章薦其優智略，予實授。十五年，擢直隸提督。越二年，熱河教匪亂，志超率師討之。平建昌，連克榆林、沈家窩館、貝子廟，釋下長皋圍，進攻烏丹城，擒其渠李國珍磔之，賞黃馬褂、世職。"
+    }
+  ],
+  "sources": {
+    "eccp-3656325": {
+      "title": "ECCP · 宋慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365074",
+      "locator": "eccp-3656325-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-462": {
+      "title": "清史稿/卷462",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2360074",
+      "locator": "qsg-volume-462-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

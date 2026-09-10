@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656347",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "湯",
+    "given": "金釗",
+    "source": "eccp-3656347",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "蕭山",
+      "source": "qsg-volume-364",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'ANG Chin-chao 湯金釗 (T. 敦甫, 勖茲), Dec. 17, 1772–1856, May 22, official, was a native of Hsiao-shan, Chekiang. Though his family had for generations been engaged in mercantile pursuits, he prepared himself for scholarship and government office.",
+          "source": "eccp-3656347",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "湯金釗，字敦甫，浙江蕭山人。",
+          "source": "qsg-volume-364",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "敦甫",
+        "source": "eccp-3656347"
+      },
+      {
+        "value": "勖茲",
+        "source": "eccp-3656347"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敦甫"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Chin-chao",
+        "system": "ECCP spelling",
+        "source": "eccp-3656347"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3656347",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3656347",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656347",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656347",
+      "passage": "eccp-3656347-001"
+    },
+    {
+      "source": "qsg-volume-364",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-364",
+      "passage": "qsg-volume-364-018",
+      "matchStatus": "proposed",
+      "evidence": "湯金釗，字敦甫，浙江蕭山人。嘉慶四年進士，選庶吉士，授編修。十三年，入直上書房。金釗端謹自持，宣宗在潛邸，甚敬禮之。母憂服闋，擢侍講，督湖南學政。累遷內閣學士。二十一年，复直上書房。典江南鄉試，留學政，詔勉以訓士不患無才，務培德，經學為本，才藻次之。金釗闡揚詔旨，通誡士子。會匪以禍福煽惑鄉愚，金釗著福善辨，刊發曉諭。徐州俗悍，武生不馴者，繩之以法。遷禮部侍郎，任滿，仍直上書房。"
+    }
+  ],
+  "sources": {
+    "eccp-3656347": {
+      "title": "ECCP · T'ang Chin-chao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365110",
+      "locator": "eccp-3656347-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656393": {
+      "title": "ECCP · 載銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365177",
+      "locator": "eccp-3656393-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675175": {
+      "title": "ECCP · 文慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419923",
+      "locator": "eccp-3675175-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-056",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-366": {
+      "title": "清史稿/卷366",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542446",
+      "locator": "qsg-volume-366-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-386": {
+      "title": "清史稿/卷386",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603961",
+      "locator": "qsg-volume-386-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-396": {
+      "title": "清史稿/卷396",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601780",
+      "locator": "qsg-volume-396-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-213",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

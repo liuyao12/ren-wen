@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640791",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "弘光",
+    "source": "eccp-3640791",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hung-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640791"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640791",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3640791",
+      "passage": "eccp-3640791-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640791": {
+      "title": "ECCP · Hung-kuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285332",
+      "locator": "eccp-3640791-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654362": {
+      "title": "ECCP · 史可法",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358423",
+      "locator": "eccp-3654362-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

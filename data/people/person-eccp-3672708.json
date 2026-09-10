@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672708",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "斯備",
+    "source": "eccp-3672708",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN Ssŭ-pei 萬斯備 (T. 允誠, H. 又庵), poet and calligrapher, was a native of Yin-hsien, Chekiang. He was the seventh son of Wan T'ai [q. v.], son-in-law of Li Yeh-ssŭ (T. 李鄴嗣, H. 杲堂, original ming 文胤), and a pupil of (T. Huang Tsung-hsi).",
+          "source": "eccp-3672708",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "允誠",
+        "source": "eccp-3672708"
+      }
+    ],
+    "hao": [
+      {
+        "value": "又庵",
+        "source": "eccp-3672708"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "允誠"
+    },
+    "romanizations": [
+      {
+        "value": "Wan Ssŭ-pei",
+        "system": "ECCP spelling",
+        "source": "eccp-3672708"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672708",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672708",
+      "passage": "eccp-3672708-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672708": {
+      "title": "ECCP · Wan Ssŭ-pei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412226",
+      "locator": "eccp-3672708-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672713": {
+      "title": "ECCP · 萬泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412257",
+      "locator": "eccp-3672713-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

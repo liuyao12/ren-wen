@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4106999b351ddc77",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "錫恩",
+    "source": "eccp-3640020",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "涇縣",
+      "source": "qsg-volume-383",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "潘錫恩，字芸閣，安徽涇縣人。",
+          "source": "qsg-volume-383",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芸閣",
+        "source": "eccp-3640020"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芸閣"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Hsi-ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3640020"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-383",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-383",
+      "passage": "qsg-volume-383-032",
+      "matchStatus": "proposed",
+      "evidence": "潘錫恩，字芸閣，安徽涇縣人。嘉慶十六年進士，選庶吉士，授編修。大考第一，超擢侍讀。道光四年，復大考一等，擢侍讀學士。時河患急，錫恩上疏條陳河務，略曰：「蓄清敵黃，為相傳成法。大汛將至，急堵禦黃壩，使黃水全力東趨。今年漕艘早渡，因禦黃壩遲堵，以致倒灌停淤，釀成大患。且欲籌減洩，當在下游，乃輒開祥符徬，減黃入湖。壩口已灌於下，徬口復灌於上，黃水俱無出路，湖底淤墊極高。若更引黃入運，河道淤滿，處處壅溢，恐有決口之患。」宣宗韙其議。五年，命以道員發往南河，補淮揚道。六年，加三品頂戴，授南河副總河。九年，"
+    }
+  ],
+  "sources": {
+    "eccp-3640020": {
+      "title": "ECCP · 黃道周",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282934",
+      "locator": "eccp-3640020-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

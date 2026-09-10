@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640825",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "毅",
+    "given": "皇帝",
+    "source": "eccp-3640825",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "I (毅) Huang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3640825"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640825",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3640825",
+      "passage": "eccp-3640825-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640825": {
+      "title": "ECCP · I (毅) Huang-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285410",
+      "locator": "eccp-3640825-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-411": {
+      "title": "清史稿/卷411",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433542",
+      "locator": "qsg-volume-411-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9867e3646d90c4c5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鮑",
+    "given": "桂星",
+    "source": "eccp-3634072",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歙縣",
+      "source": "qsg-volume-377",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "鮑桂星，字雙五，安徽歙縣人。",
+          "source": "qsg-volume-377",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雙五",
+        "source": "eccp-3634072"
+      },
+      {
+        "value": "覺生",
+        "source": "eccp-3634072"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雙五"
+    },
+    "romanizations": [
+      {
+        "value": "Pao Kuei-hsing",
+        "system": "ECCP spelling",
+        "source": "eccp-3634072"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1764,
+        "source": "eccp-3634072",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1825,
+        "source": "eccp-3634072",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-377",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-377",
+      "passage": "qsg-volume-377-006",
+      "matchStatus": "proposed",
+      "evidence": "鮑桂星，字雙五，安徽歙縣人。嘉慶四年進士，選庶吉士，授編修，遷中允。九年，典試河南，留學政。十三年，典試江西。十五年，督湖北學政。累遷至內閣學士。十八年，任滿，既受代，聞林清之變，疏陳十事，急馳至京，仁宗嘉之，曰：「汝所奏已次第施行矣。」擢工部侍郎，充武英殿總裁。桂星性質直，勇於任事。十九年，疏陳刊書及校勘事宜。又劾提調劉榮黼等不職，命王大臣按之。榮黼面訐桂星曾言滿總裁熙昌所校，不過偏旁點畫，修改徒延時日；且言近日有旨，旗人不足恃，故督撫多用漢人。上聞之，怒，命傳詢。桂星對聞自侍郎周兆基，且言在"
+    }
+  ],
+  "sources": {
+    "eccp-3634072": {
+      "title": "ECCP · 陳壽祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-377": {
+      "title": "清史稿/卷377",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1560014",
+      "locator": "qsg-volume-377-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

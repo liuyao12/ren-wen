@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672751",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "掞",
+    "source": "eccp-3672751",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Shan 王掞 (T. 藻儒, H. 顓庵), Feb. 3, 1645–1728, official, the eighth son of Wang Shih-min [q. v.], was a native of T'ai-ts'ang, Kiangsu. Taking his chin-shih in 1670, he was selected a bachelor of the Hanlin Academy and later was given the rank of compiler.",
+          "source": "eccp-3672751",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王掞，字藻儒，江南太倉人，明大學士錫爵孫。",
+          "source": "qsg-volume-286",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "藻儒",
+        "source": "eccp-3672751"
+      }
+    ],
+    "hao": [
+      {
+        "value": "顓庵",
+        "source": "eccp-3672751"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "藻儒"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3672751"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3672751",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1728,
+        "source": "eccp-3672751",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672751",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672751",
+      "passage": "eccp-3672751-001"
+    },
+    {
+      "source": "qsg-volume-286",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-286",
+      "passage": "qsg-volume-286-007",
+      "matchStatus": "proposed",
+      "evidence": "王掞，字藻儒，江南太倉人，明大學士錫爵孫。康熙九年進士，選庶吉士，授編修，為掌院學士熊賜履所器。遷左贊善，充日講起居注官。以病告八年，起右贊善。提督浙江學政，嚴剔積弊，所拔多宿學寒畯。龍泉知縣茅國璽以印揭薦武童，掞疏劾，國璽坐譴，別疏陳剔除積弊，報聞。累遷侍讀學士。三十年，超擢內閣學士。三十三年，遷戶部侍郎，直經筵。三十八年，調吏部，禁革臨選駁查、臨掣買簽諸弊，銓政以肅。偕尚書范承勳、王鴻緒督修高家堰河工。"
+    }
+  ],
+  "sources": {
+    "eccp-3672751": {
+      "title": "ECCP · Wang Shan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412325",
+      "locator": "eccp-3672751-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678168": {
+      "title": "ECCP · 胤礽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443032",
+      "locator": "eccp-3678168-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-286": {
+      "title": "清史稿/卷286",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1534130",
+      "locator": "qsg-volume-286-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

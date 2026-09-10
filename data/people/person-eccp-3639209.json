@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639209",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "傅",
+    "given": "維麟",
+    "source": "eccp-3639209",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FU Wei-lin 傅維鱗 (T. 掌雷, H. 歉齊, original ming Wei-chên 維楨), d. 1667, official and scholar, was a native of Ling-shou, Chihli. After receiving his chin-shih in 1646, he became a Hanlin compiler and was assigned to the compilation of the Ming history.",
+          "source": "eccp-3639209",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "掌雷",
+        "source": "eccp-3639209"
+      }
+    ],
+    "hao": [
+      {
+        "value": "歉齊",
+        "source": "eccp-3639209"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "掌雷"
+    },
+    "romanizations": [
+      {
+        "value": "Fu Wei-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3639209"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639209",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639209",
+      "passage": "eccp-3639209-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639209": {
+      "title": "ECCP · Fu Wei-lin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280212",
+      "locator": "eccp-3639209-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678082": {
+      "title": "ECCP · 楊漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

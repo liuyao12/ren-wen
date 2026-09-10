@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ae547e2bf991d475",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "焦",
+    "given": "秉貞",
+    "source": "eccp-3639989",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濟寧",
+      "source": "qsg-volume-504",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "焦秉貞，山東濟寧人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "吉臣",
+        "source": "eccp-3639989"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "吉臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chiao Ping-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3639989"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-064",
+      "matchStatus": "proposed",
+      "evidence": "焦秉貞，山東濟寧人。康熙中，官欽天監五官正。工人物樓觀，通測算，參用西洋畫法，剖析分刌，量度陰陽向背，分別明暗，遠視之，人畜、花木、屋宇皆植立而形圓。聖祖嘉之，命繪耕織圖四十六幅，鐫版印賜臣工。自秉貞創法，畫院多相沿襲。"
+    }
+  ],
+  "sources": {
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d23e29047a5c4dc2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郭",
+    "given": "沛霖",
+    "source": "eccp-3645528",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "蘄水",
+      "source": "qsg-volume-490",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "郭沛霖，字仲霽，湖北蘄水人。",
+          "source": "qsg-volume-490",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲霽",
+        "source": "eccp-3645528"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雨三",
+        "source": "eccp-3645528"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲霽"
+    },
+    "romanizations": [
+      {
+        "value": "Kuo P'ei-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3645528"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1809,
+        "source": "eccp-3645528",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3645528",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-490",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-490",
+      "passage": "qsg-volume-490-037",
+      "matchStatus": "proposed",
+      "evidence": "郭沛霖，字仲霽，湖北蘄水人。少年即以經濟自負。道光十六年進士，改翰林，授編修，累遷左贊善，記名道府用。官翰詹時，講求河務，時各衙門保送河工人員，沛霖與焉。既抵工，諮詢詳盡，謂治河宜識土性，宜合者合，宜分者分。因勢利導，則不為害而為利。檄管豐工兼引河工程，昕夕在工，與弁卒雜作。凡佔數之增減，松纜之尺寸，極微極瑣之事，無不斟酌至當。力主引河寬深，俾掣大溜，濬下游安東二塘、雲梯關、老鸛河等處，先修決口上下之險工，全啟各閘洞，以分水勢。緩進占，緩合龍，以期步步追壓到底，為一勞永逸之計。議不盡用。"
+    }
+  ],
+  "sources": {
+    "eccp-3645528": {
+      "title": "ECCP · 劉毓崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299507",
+      "locator": "eccp-3645528-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

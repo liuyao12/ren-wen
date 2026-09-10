@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9ac13c54b3a71099",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "章",
+    "given": "鈺",
+    "source": "eccp-3635468",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "孟堅",
+        "source": "eccp-3635468"
+      },
+      {
+        "value": "茗理",
+        "source": "eccp-3635468"
+      },
+      {
+        "value": "式之",
+        "source": "eccp-3635468"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蟄存",
+        "source": "eccp-3635468"
+      },
+      {
+        "value": "負翁",
+        "source": "eccp-3635468"
+      },
+      {
+        "value": "晦翁",
+        "source": "eccp-3635468"
+      },
+      {
+        "value": "霜根老人",
+        "source": "eccp-3635468"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟堅"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3635468"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1865,
+        "source": "eccp-3635468",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1937,
+        "source": "eccp-3635468",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635468": {
+      "title": "ECCP · 錢曾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271416",
+      "locator": "eccp-3635468-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

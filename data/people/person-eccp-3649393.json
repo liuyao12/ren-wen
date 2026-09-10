@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649393",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "近思",
+    "source": "eccp-3649393",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-290",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈近思，字位山，浙江錢塘人。",
+          "source": "qsg-volume-290",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "位山",
+        "source": "eccp-3649393"
+      }
+    ],
+    "hao": [
+      {
+        "value": "闇齋",
+        "source": "eccp-3649393"
+      },
+      {
+        "value": "俟軒",
+        "source": "eccp-3649393"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "位山"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Chin-ssŭ",
+        "system": "ECCP spelling",
+        "source": "eccp-3649393"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1671,
+        "source": "eccp-3649393",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1728,
+        "source": "eccp-3649393",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649393",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649393",
+      "passage": "eccp-3649393-001"
+    },
+    {
+      "source": "qsg-volume-290",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-290",
+      "passage": "qsg-volume-290-039",
+      "matchStatus": "proposed",
+      "evidence": "沈近思，字位山，浙江錢塘人。康熙三十九年進士。四十五年，授河南臨潁知縣。潁水經許州東入臨潁，許州孔家口下距臨潁境僅百餘步，堤屢圮，水入臨潁，害禾稼。近思請築堤，臨潁任夫十之七，士民爭輸穀。日役千三百人，人穀二升，二十日而堤成。水至不為患，歲大熟。近思立紫陽書院，教士以正學。縣西葛岡村俗最惡，近思為置塾，課村童，立書程簿，躬教督之。化行於其鄉，俗日馴。五十二年，巡撫鹿祐薦卓異，遷廣西南寧同知。病，告歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3649393": {
+      "title": "ECCP · Shên Chin-ssŭ",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318178",
+      "locator": "eccp-3649393-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654395": {
+      "title": "ECCP · 孫嘉淦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358507",
+      "locator": "eccp-3654395-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

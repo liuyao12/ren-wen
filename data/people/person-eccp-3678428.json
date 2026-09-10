@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678428",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "俞",
+    "given": "正燮",
+    "source": "eccp-3678428",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Chêng-hsieh 俞正燮 (T. 理初), Oct. 1, 1775–1840, May 13, scholar, was a native of I-hsien, Anhwei. He was brought up in Chu-jung, Kiangsu, where his father, Yü Hsien 俞獻 (T. 可亭, 1750–1801, pa-kung of 1777), officiated (1778–94) as sub-director of schools.",
+          "source": "eccp-3678428",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "俞正燮，字理初，黟縣人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "理初",
+        "source": "eccp-3678428"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "理初"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Chêng-hsieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3678428"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678428",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678428",
+      "passage": "eccp-3678428-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-098",
+      "matchStatus": "proposed",
+      "evidence": "俞正燮，字理初，黟縣人。性彊記，經目不忘。年二十餘，北走兗州謁孫星衍。時星衍為伏生建立博士，复訪求左氏後裔。正燮因作邱明子孫姓氏論、左山考，星衍多據以折衷群議，由是名大起。道光元年舉人。明年，阮元主會試，士相謂曰：「理初入彀矣！」後竟落第。其經策淹博，為他考官所乙，元未之見也。房考王藻嘗引為恨。"
+    }
+  ],
+  "sources": {
+    "eccp-3678428": {
+      "title": "ECCP · Yü Chêng-hsieh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635427": {
+      "title": "ECCP · 祁寯藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271391",
+      "locator": "eccp-3635427-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-015",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645489": {
+      "title": "ECCP · 凌廷堪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299423",
+      "locator": "eccp-3645489-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649354": {
+      "title": "ECCP · 畢拱辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318114",
+      "locator": "eccp-3649354-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672715": {
+      "title": "ECCP · 王安國",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412262",
+      "locator": "eccp-3672715-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678144": {
+      "title": "ECCP · 嚴可均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442954",
+      "locator": "eccp-3678144-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-098",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

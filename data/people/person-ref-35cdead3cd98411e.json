@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-35cdead3cd98411e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "擴圖",
+    "source": "eccp-3656322",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "充之",
+        "source": "eccp-3656322"
+      },
+      {
+        "value": "靈匯",
+        "source": "eccp-3656322"
+      }
+    ],
+    "hao": [
+      {
+        "value": "適齋",
+        "source": "eccp-3656322"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "充之"
+    },
+    "romanizations": [
+      {
+        "value": "Sun K'uo-t'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3656322"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1717,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656322": {
+      "title": "ECCP · 孫玉庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365066",
+      "locator": "eccp-3656322-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

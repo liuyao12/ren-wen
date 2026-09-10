@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a389ca5c11963962",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "應溥",
+    "source": "eccp-3635464",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "錢應溥，字子密，浙江嘉興人。",
+          "source": "qsg-volume-439",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子密",
+        "source": "eccp-3635464"
+      },
+      {
+        "value": "葆慎",
+        "source": "eccp-3635464"
+      }
+    ],
+    "hao": [
+      {
+        "value": "閒靜老人",
+        "source": "eccp-3635464"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子密"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Ying-p'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3635464"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1824,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1902,
+        "source": "eccp-3635464",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-439",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-439",
+      "passage": "qsg-volume-439-017",
+      "matchStatus": "proposed",
+      "evidence": "錢應溥，字子密，浙江嘉興人。拔貢生，朝考一等，用七品小京官，分吏部，直軍機。咸豐十年，粵寇連陷浙東西郡縣，應溥父海寧州學訓導泰吉，質行樸學，老儒也，時已罷官，州人留主講書院。應溥聞警，亟請歸奉親，轉徙經年，鬚髮為白。"
+    }
+  ],
+  "sources": {
+    "eccp-3635464": {
+      "title": "ECCP · 錢泰吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271411",
+      "locator": "eccp-3635464-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-439": {
+      "title": "清史稿/卷439",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433556",
+      "locator": "qsg-volume-439-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

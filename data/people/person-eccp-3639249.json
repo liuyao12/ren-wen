@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639249",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "何和禮",
+    "source": "eccp-3639249",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HOHORI 何和禮 (or 和和理), 1561–1624, Sept. 2, was the chieftain of a small group of Warka 瓦爾喀 Jurjen who had moved westward to Donggo 棟鄂 and adopted the place-name as the designation for their clan.",
+          "source": "eccp-3639256",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ho-ho-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3639249"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1561,
+        "source": "eccp-3639256",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3639256",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639249",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3639249",
+      "passage": "eccp-3639249-001"
+    },
+    {
+      "source": "eccp-3639256",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639256",
+      "passage": "eccp-3639256-001"
+    },
+    {
+      "source": "qsg-volume-225",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-225",
+      "passage": "qsg-volume-225-034",
+      "matchStatus": "proposed",
+      "evidence": "何和禮，棟鄂氏，其先自瓦爾喀遷於棟鄂，別為一部，因以地為姓。何和禮祖曰克徹巴顏，父曰額勒吉，兄曰屯珠魯巴顏，世為其部長。何和禮年二十六，代兄長其部。棟鄂部素強，克徹巴顏與章甲城長阿哈納相仇怨。阿哈納，興祖諸孫，為「寧古塔」六貝勒之一。棟鄂屢侵寧古塔，寧古塔借兵哈達伐棟鄂，互攻掠。"
+    }
+  ],
+  "sources": {
+    "eccp-3639249": {
+      "title": "ECCP · Ho-ho-li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280269",
+      "locator": "eccp-3639249-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639256": {
+      "title": "ECCP · Hohori",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280281",
+      "locator": "eccp-3639256-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633235": {
+      "title": "ECCP · 安費揚古",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271373",
+      "locator": "eccp-3633235-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637564": {
+      "title": "ECCP · 褚英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275740",
+      "locator": "eccp-3637564-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639215": {
+      "title": "ECCP · 噶禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280219",
+      "locator": "eccp-3639215-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640814": {
+      "title": "ECCP · 扈爾漢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285384",
+      "locator": "eccp-3640814-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649352": {
+      "title": "ECCP · 朋春",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318111",
+      "locator": "eccp-3649352-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

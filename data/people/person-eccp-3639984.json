@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639984",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "元文",
+    "source": "eccp-3639984",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "崑山",
+      "source": "qsg-volume-250",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Yüan-wên 徐元文 (T. 公肅, H. 立齋), Nov. 18, 1634–1691, Aug. 20, official, younger brother of Hsü Ch'ien-hsüeh [q. v.], was a native of K'un-shan, Kiangsu. In 1659 he was the highest ranking chin-shih, known as chuang-yüan, and was given the rank of compiler of the first class in the Hanlin Academy.",
+          "source": "eccp-3639984",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "徐元文，字公肅，江西崑山人。",
+          "source": "qsg-volume-250",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "公肅",
+        "source": "eccp-3639984"
+      }
+    ],
+    "hao": [
+      {
+        "value": "立齋",
+        "source": "eccp-3639984"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "公肅"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Yüan-wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3639984"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1634,
+        "source": "eccp-3639984",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3639984",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639984",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639984",
+      "passage": "eccp-3639984-001"
+    },
+    {
+      "source": "qsg-volume-250",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-250",
+      "passage": "qsg-volume-250-078",
+      "matchStatus": "proposed",
+      "evidence": "徐元文，字公肅，江西崑山人。初冒姓陸，通籍後復姓。少沉潛好學，與兄乾學、弟秉義有聲於時，稱為「三徐」。"
+    }
+  ],
+  "sources": {
+    "eccp-3639984": {
+      "title": "ECCP · Hsü Yüan-wên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282843",
+      "locator": "eccp-3639984-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639964": {
+      "title": "ECCP · 徐乾學",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282787",
+      "locator": "eccp-3639964-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640032": {
+      "title": "ECCP · 黃虞稷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282960",
+      "locator": "eccp-3640032-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672714": {
+      "title": "ECCP · 萬言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412259",
+      "locator": "eccp-3672714-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-078",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-275": {
+      "title": "清史稿/卷275",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163015",
+      "locator": "qsg-volume-275-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

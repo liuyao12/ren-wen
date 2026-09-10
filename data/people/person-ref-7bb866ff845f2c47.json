@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7bb866ff845f2c47",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "賈",
+    "given": "楨",
+    "source": "eccp-3640815",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "黃縣",
+      "source": "qsg-volume-390",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "賈楨，字筠堂，山東黃縣人。",
+          "source": "qsg-volume-390",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "柏貞",
+        "source": "eccp-3640815"
+      }
+    ],
+    "hao": [
+      {
+        "value": "藝林",
+        "source": "eccp-3640815"
+      },
+      {
+        "value": "筠堂",
+        "source": "eccp-3640815"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "柏貞"
+    },
+    "romanizations": [
+      {
+        "value": "Chia Chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3640815"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3640815",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1874,
+        "source": "eccp-3640815",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-390",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-390",
+      "passage": "qsg-volume-390-002",
+      "matchStatus": "proposed",
+      "evidence": "賈楨，字筠堂，山東黃縣人。父允升，乾隆六十年進士，由檢討歷官兵部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3640815": {
+      "title": "ECCP · 奕誌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285386",
+      "locator": "eccp-3640815-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-390": {
+      "title": "清史稿/卷390",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072955",
+      "locator": "qsg-volume-390-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

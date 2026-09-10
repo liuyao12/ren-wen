@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649415",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "彤",
+    "source": "eccp-3649415",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHÊN T'ung 沈彤 (T. 冠[貫]雲, H. 果堂), 1688–1752, Nov. 30, classicist, was a native of Wu-chiang, Kiangsu. When young, he studied under Ho Ch'o [q. v.], but when in 1736 he was recommended to be admitted to the special po-hsüeh hung-tz'ŭ examination in Peking (see under Liu Lun), he was so deliberate in composing his poem that he had not finished it by midnight and therefore failed to qualify.",
+          "source": "eccp-3649415",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "沈彤，字果堂，吳江人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "冠",
+        "source": "eccp-3649415"
+      }
+    ],
+    "hao": [
+      {
+        "value": "果堂",
+        "source": "eccp-3649415"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "冠"
+    },
+    "romanizations": [
+      {
+        "value": "Shên T'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3649415"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3649415",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1752,
+        "source": "eccp-3649415",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649415",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649415",
+      "passage": "eccp-3649415-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-089",
+      "matchStatus": "proposed",
+      "evidence": "沈彤，字果堂，吳江人。自少力學，以窮經為事。貫串前人之異同，折衷至當。乾隆元年，薦舉博學鴻詞報罷，與修三禮及一統志。書成，授九品官，以親老歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3649415": {
+      "title": "ECCP · Shên T'ung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318212",
+      "locator": "eccp-3649415-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639969": {
+      "title": "ECCP · 徐宏祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282797",
+      "locator": "eccp-3639969-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-089",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-340",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

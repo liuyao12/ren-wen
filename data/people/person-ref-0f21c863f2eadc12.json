@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0f21c863f2eadc12",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "荃",
+    "source": "eccp-3642421",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈荃，字貞蕤，江南華亭人。",
+          "source": "qsg-volume-266",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "貞蕤",
+        "source": "eccp-3642421"
+      }
+    ],
+    "hao": [
+      {
+        "value": "繹堂",
+        "source": "eccp-3642421"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "貞蕤"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3642421"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3642421",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3642421",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-266",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-266",
+      "passage": "qsg-volume-266-010",
+      "matchStatus": "proposed",
+      "evidence": "沈荃，字貞蕤，江南華亭人。順治九年一甲三名進士，授編修。世祖擇翰林官外轉，荃出為大樑道副使。劇盜董天祿、牛光天剽掠許、潁間，荃督兵捕治，殲其渠，群盜皆散去。禹州盜倚竹園為巢，殺人越貨，荃遣吏卒收捕，發土得屍十餘，悉按誅之。尋署按察使，疏言：「師方南征，必經南陽、汝寧諸府，供應疲苦，亢村、郭店諸驛，官死夫逃，請敕均撥驛站銀兩。師既入楚，留馬彰德，役民飼秣，請敕以懷慶、衛輝、廣平、順德、大名諸府更番分駐。各縣常平倉蓄穀太寡，請敕定額：大縣五六百石，小縣三四百石。開封自河決後，城垣淤圮，官吏分駐各邑，"
+    }
+  ],
+  "sources": {
+    "eccp-3642421": {
+      "title": "ECCP · 歸莊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290522",
+      "locator": "eccp-3642421-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

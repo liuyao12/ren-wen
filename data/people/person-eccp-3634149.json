@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634149",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "學啟",
+    "source": "eccp-3634149",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐城",
+      "source": "qsg-volume-416",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "程學啟，字方忠，安徽桐城人。",
+          "source": "qsg-volume-416",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "方忠",
+        "source": "eccp-3634149"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "方忠"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng Hsüeh-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3634149"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634149",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634149",
+      "passage": "eccp-3634149-001"
+    },
+    {
+      "source": "qsg-volume-416",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-416",
+      "passage": "qsg-volume-416-006",
+      "matchStatus": "proposed",
+      "evidence": "程學啟，字方忠，安徽桐城人。初陷賊中，陳玉成奇其勇，使佐葉芸來守安慶。咸豐十一年，率三百人自拔來歸。曾國荃使領一營，戰輒請先。安慶北門石壘三最堅，學啟力攻拔之，絕賊糧道。未幾，遂克安慶，學啟功最，擢游擊，賜花翎。從國荃克無為、銅陵諸城，擢參將。"
+    }
+  ],
+  "sources": {
+    "eccp-3634149": {
+      "title": "ECCP · Ch'êng Hsüeh-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271518",
+      "locator": "eccp-3634149-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643625": {
+      "title": "ECCP · 李秀成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294833",
+      "locator": "eccp-3643625-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-411": {
+      "title": "清史稿/卷411",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433542",
+      "locator": "qsg-volume-411-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-413": {
+      "title": "清史稿/卷413",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433597",
+      "locator": "qsg-volume-413-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-416": {
+      "title": "清史稿/卷416",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2651422",
+      "locator": "qsg-volume-416-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-431": {
+      "title": "清史稿/卷431",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542453",
+      "locator": "qsg-volume-431-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-121",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

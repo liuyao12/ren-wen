@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a7c227423e09f551",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "履和",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ên Li-ho 陳履和 (T. 介存, H. 海樓, 1761–1825), a native of Shih-ping, Yunnan, a chü-jên of 1780, and a fellow-townsman of the afore-mentioned Chu Ying who had befriended Ts'ui and his brother in Ta-ming.",
+          "source": "eccp-3658531",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "介存",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [
+      {
+        "value": "海樓",
+        "source": "eccp-3658531"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "介存"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Li-ho",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1761,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1825,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

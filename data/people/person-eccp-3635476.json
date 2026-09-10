@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635476",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "靳",
+    "given": "輔",
+    "source": "eccp-3635476",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIN Fu 靳輔 (T. 紫垣), 1633–1692, Dec. 26, official and specialist in river conservancy, was a member of the Chinese Bordered Yellow Banner and a native of Liao-yang where his ancestors had migrated from Tsinan, Shantung, in the early Ming period.",
+          "source": "eccp-3635476",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "靳輔，字紫垣，漢軍鑲黃旗人。",
+          "source": "qsg-volume-279",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "紫垣",
+        "source": "eccp-3635476"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "紫垣"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3635476"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3635476",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1692,
+        "source": "eccp-3635476",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635476",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635476",
+      "passage": "eccp-3635476-001"
+    },
+    {
+      "source": "qsg-volume-279",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-279",
+      "passage": "qsg-volume-279-019",
+      "matchStatus": "proposed",
+      "evidence": "靳輔，字紫垣，漢軍鑲黃旗人。順治九年，以官學生考授國史館編修，改內閣中書，遷兵部員外郎。康熙初，自郎中四遷內閣學士。十年，授安徽巡撫。疏請行溝田法，以十畝為一鞬，二十鞬為一溝。溝土累為道，道高溝低，澇則洩水，旱以灌田。會三籓亂起，不果行。部議裁驛站經費，輔疏請禁差員橫索、騷擾驛遞，歲終節存驛站、摃腳等項二十四萬有奇。上獎輔實心任事，加兵部尚書銜。"
+    }
+  ],
+  "sources": {
+    "eccp-3635476": {
+      "title": "ECCP · Chin Fu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271743",
+      "locator": "eccp-3635476-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634167": {
+      "title": "ECCP · 嵇曾筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271703",
+      "locator": "eccp-3634167-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642384": {
+      "title": "ECCP · 高斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290431",
+      "locator": "eccp-3642384-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642431": {
+      "title": "ECCP · 郭琇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290542",
+      "locator": "eccp-3642431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643650": {
+      "title": "ECCP · 李天馥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294889",
+      "locator": "eccp-3643650-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656357": {
+      "title": "ECCP · 湯斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365125",
+      "locator": "eccp-3656357-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656376": {
+      "title": "ECCP · 田雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678430": {
+      "title": "ECCP · 于成龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443707",
+      "locator": "eccp-3678430-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-178",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-062",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-278": {
+      "title": "清史稿/卷278",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162667",
+      "locator": "qsg-volume-278-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-279": {
+      "title": "清史稿/卷279",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485011",
+      "locator": "qsg-volume-279-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-342": {
+      "title": "清史稿/卷342",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029606",
+      "locator": "qsg-volume-342-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-360": {
+      "title": "清史稿/卷360",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485024",
+      "locator": "qsg-volume-360-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-213",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637588",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "法",
+    "given": "若真",
+    "source": "eccp-3637588",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FA Jo-chên 法若真 (T. 漢儒, H. 黃石, 黃山), 1613–1696, scholar, official, and landscape painter, was a native of Kiaochow, Shantung. His father, Fa Huan 法寰 (T. 開三, chü-jên of 1627, d. 1653), served as magistrate of three districts in Chihli and Kiangsu, as first-class sub-prefect of Huai-ch'ing-fu, Honan, and when the Ming dynasty fell retired to his home.",
+          "source": "eccp-3637588",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漢儒",
+        "source": "eccp-3637588"
+      }
+    ],
+    "hao": [
+      {
+        "value": "黃石",
+        "source": "eccp-3637588"
+      },
+      {
+        "value": "黃山",
+        "source": "eccp-3637588"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漢儒"
+    },
+    "romanizations": [
+      {
+        "value": "Fa Jo-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3637588"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1613,
+        "source": "eccp-3637588",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3637588",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637588",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637588",
+      "passage": "eccp-3637588-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637588": {
+      "title": "ECCP · Fa Jo-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275780",
+      "locator": "eccp-3637588-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

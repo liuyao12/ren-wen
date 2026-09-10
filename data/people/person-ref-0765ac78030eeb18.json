@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0765ac78030eeb18",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "康",
+    "given": "紹鏞",
+    "source": "eccp-3642450",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "興縣",
+      "source": "qsg-volume-381",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "康紹鏞，字蘭皋，山西興縣人，江西廣信知府基淵子。",
+          "source": "qsg-volume-381",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鎛南",
+        "source": "eccp-3642450"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘭皋",
+        "source": "eccp-3642450"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鎛南"
+    },
+    "romanizations": [
+      {
+        "value": "K'ang Shao-yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3642450"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1770,
+        "source": "eccp-3642450",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3642450",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-381",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-381",
+      "passage": "qsg-volume-381-027",
+      "matchStatus": "proposed",
+      "evidence": "康紹鏞，字蘭皋，山西興縣人，江西廣信知府基淵子。嘉慶四年進士，授兵部主事，充軍機章京。累遷郎中，擢鴻臚寺少卿。十八年，滑縣教匪起，紹鏞隨扈，以畿輔、山東、河南地形險易，將帥賢否，各鎮兵籍，列冊進禦，受仁宗知。會有大名民人司敬武等十餘人傭工熱河、錦州，聞畿南寇起，馳歸，過山海關，關吏執之，誣其預聞逆謀，命紹鏞偕內閣學士文孚往鞫，白其誣，釋之。劾副都統以下，論如律。歷通政司參議、大理寺少卿。"
+    }
+  ],
+  "sources": {
+    "eccp-3642450": {
+      "title": "ECCP · 李兆洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290583",
+      "locator": "eccp-3642450-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-381": {
+      "title": "清史稿/卷381",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603938",
+      "locator": "qsg-volume-381-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

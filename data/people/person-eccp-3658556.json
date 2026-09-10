@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658556",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "佟",
+    "given": "國器",
+    "source": "eccp-3658556",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'UNG Kuo-ch'i 佟國器 (T. 思遠, H. 匯白), d. 1684, official and Christian convert, was a native of Liaoyang. He belonged to the famous T'ung clan of Fu-shun (see under T'ung Yang-chên). His great-grandfather, a wealthy country squire, was the first of the family to move to Liaoyang; and his father, T'ung Pu-nien 佟卜年 (T. 八百, H. 觀瀾, d.",
+          "source": "eccp-3658556",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "思遠",
+        "source": "eccp-3658556"
+      }
+    ],
+    "hao": [
+      {
+        "value": "匯白",
+        "source": "eccp-3658556"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "思遠"
+    },
+    "romanizations": [
+      {
+        "value": "T'ung Kuo-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3658556"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658556",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658556",
+      "passage": "eccp-3658556-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658556": {
+      "title": "ECCP · T'ung Kuo-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

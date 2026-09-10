@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3ff943ea123350d2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "費",
+    "given": "淳",
+    "source": "eccp-3635443",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-343",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "費淳，字筠浦，浙江錢塘人。",
+          "source": "qsg-volume-343",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "筠浦",
+        "source": "eccp-3635443"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筠浦"
+    },
+    "romanizations": [
+      {
+        "value": "Fei Ch'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3635443"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1739,
+        "source": "eccp-3635443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1811,
+        "source": "eccp-3635443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-343",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-343",
+      "passage": "qsg-volume-343-028",
+      "matchStatus": "proposed",
+      "evidence": "費淳，字筠浦，浙江錢塘人。乾隆二十八年進士，授刑部主事。歷郎中，充軍機章京。出為江蘇常州知府，父憂去。服闋，補山西太原，擢冀寧道。累遷雲南布政使，有惠政。以母老乞終養，喪除，起故官。六十年，擢安徽巡撫，調江蘇。嘉慶二年，疏言：「淮、徐、揚三府屬被水窪地，責州縣勸植蘆葦，以收地利。應納錢糧，即照蘆課改折徵輸。」詔議行。調福建，復還江蘇。四年，擢兩江總督。"
+    }
+  ],
+  "sources": {
+    "eccp-3635443": {
+      "title": "ECCP · 江聲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271730",
+      "locator": "eccp-3635443-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-343": {
+      "title": "清史稿/卷343",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029607",
+      "locator": "qsg-volume-343-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

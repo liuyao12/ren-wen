@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649351",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "彭",
+    "given": "蘊章",
+    "source": "eccp-3649351",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "長洲",
+      "source": "qsg-volume-385",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'ÊNG Yün-chang 彭蘊章 (T. 琮達, H. 詠莪, 詒穀老人), Aug. 24, 1792–1862, Dec. 29, official, native of Ch'ang-chou, Kiangsu, was a descendant of P'êng Ting-ch'iu [q. v.] in the sixth generation, and a great-grandson of P'êng Ch'i-fêng (see under P'êng Ting-ch'iu).",
+          "source": "eccp-3649351",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "彭蘊章，字詠莪，江蘇長洲人，尚書啟豐曾孫。",
+          "source": "qsg-volume-385",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "琮達",
+        "source": "eccp-3649351"
+      }
+    ],
+    "hao": [
+      {
+        "value": "詠莪",
+        "source": "eccp-3649351"
+      },
+      {
+        "value": "詒穀老人",
+        "source": "eccp-3649351"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "琮達"
+    },
+    "romanizations": [
+      {
+        "value": "P'êng Yün-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649351"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1792,
+        "source": "eccp-3649351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3649351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649351",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649351",
+      "passage": "eccp-3649351-001"
+    },
+    {
+      "source": "qsg-volume-385",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-385",
+      "passage": "qsg-volume-385-030",
+      "matchStatus": "proposed",
+      "evidence": "彭蘊章，字詠莪，江蘇長洲人，尚書啟豐曾孫。由舉人入貲為內閣中書，充軍機章京。道光十五年，成進士，授工部主事，仍留直軍機處。累遷郎中，歷鴻臚寺少卿、光祿寺少卿、順天府丞、通政司副使、宗人府丞。督福建學政，遷左副都御史。二十八年，疏言：「漕船衛官需索旗丁日益增多，沿途委員及漕運衙門、倉場花戶皆有費，慾減旗丁幫費，宜探本窮源。又州縣辦漕，應令督撫察其潔己愛民者，每歲酌保一二員；辦理不善者，劾一二員。運漕官及坐糧廳如能潔己剔弊，準漕督、倉場保奏，不稱職者劾罷。」下部議行。擢工部侍郎，仍留學政任。咸豐元年"
+    }
+  ],
+  "sources": {
+    "eccp-3649351": {
+      "title": "ECCP · P'êng Yün-chang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649349": {
+      "title": "ECCP · 彭定求",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318104",
+      "locator": "eccp-3649349-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678442": {
+      "title": "ECCP · 袁昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443741",
+      "locator": "eccp-3678442-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

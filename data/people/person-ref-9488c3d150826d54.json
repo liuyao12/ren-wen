@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9488c3d150826d54",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "介之",
+    "source": "eccp-3672731",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "石子",
+        "source": "eccp-3672731"
+      },
+      {
+        "value": "石崖",
+        "source": "eccp-3672731"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耐園",
+        "source": "eccp-3672731"
+      },
+      {
+        "value": "鑑齋",
+        "source": "eccp-3672731"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "石子"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chieh-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3672731"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1607,
+        "source": "eccp-3672731",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1686,
+        "source": "eccp-3672731",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3672731": {
+      "title": "ECCP · 王夫之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412288",
+      "locator": "eccp-3672731-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

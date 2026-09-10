@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646136",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "呂",
+    "given": "宮",
+    "source": "eccp-3646136",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LÜ Kung 呂宮 (T. 長音, 蒼忱, H. 金門), Sept. 28, 1603–1664, May 13, official, was a native of Wu-chin, Kiangnan. He emerged from the examination of 1647 with the rank of optimus or chuang-yüan, being the second scholar to receive that distinction in the Ch'ing dynasty.",
+          "source": "eccp-3646136",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "呂宮，字長音，江南武進人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "長音",
+        "source": "eccp-3646136"
+      },
+      {
+        "value": "蒼忱",
+        "source": "eccp-3646136"
+      }
+    ],
+    "hao": [
+      {
+        "value": "金門",
+        "source": "eccp-3646136"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "長音"
+    },
+    "romanizations": [
+      {
+        "value": "Lü Kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3646136"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1603,
+        "source": "eccp-3646136",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3646136",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646136",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646136",
+      "passage": "eccp-3646136-001"
+    },
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-032",
+      "matchStatus": "proposed",
+      "evidence": "呂宮，字長音，江南武進人。順治四年一甲一名進士，授秘書院修撰。九年，加右中允。十年二月，上幸內院，召宮與侍講法若真，編修程芳朝、黃機，命撰柳下惠不以三公易其介論。宮論有曰：「伊、週、衛、霍，爭介不介。」上喜曰：「此三公語。」列第一。尋諭吏部：「翰林昇轉，舊例論資俸，亦論才品。呂宮文章簡明，氣度閒雅。遇學士員缺，即行推補。」尋授秘書院學士。閏六月，遷吏部侍郎。十二月，超授弘文院大學士。言官請禁江、浙簽富戶運白糧並織造報充機戶，部議已有例禁，宮復請嚴飭督撫察究。"
+    }
+  ],
+  "sources": {
+    "eccp-3646136": {
+      "title": "ECCP · Lü Kung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300542",
+      "locator": "eccp-3646136-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

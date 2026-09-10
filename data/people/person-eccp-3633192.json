@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633192",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "皇太極",
+    "source": "eccp-3633192",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Abahai",
+        "system": "ECCP spelling",
+        "source": "eccp-3633192"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1592,
+        "source": "eccp-3633192",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1643,
+        "source": "eccp-3633192",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633192",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633192",
+      "passage": "eccp-3633192-001"
+    },
+    {
+      "source": "eccp-3640019",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3640019",
+      "passage": "eccp-3640019-001"
+    },
+    {
+      "source": "qsg-volume-2",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-2",
+      "passage": "qsg-volume-2-001",
+      "matchStatus": "proposed",
+      "evidence": "太宗應天興國弘德彰武寬溫仁聖睿孝敬敏昭定隆道顯功文皇帝，諱皇太極，太祖第八子，母孝慈高皇后。上儀表奇偉，聰睿絕倫，顏如渥丹，嚴寒不栗。長益神勇，善騎射，性耽典籍，諮覽弗倦，仁孝寬惠，廓然有大度。"
+    }
+  ],
+  "sources": {
+    "eccp-3633192": {
+      "title": "ECCP · Abahai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11279637",
+      "locator": "eccp-3633192-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640019": {
+      "title": "ECCP · Huang-t'ai-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282931",
+      "locator": "eccp-3640019-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633197": {
+      "title": "ECCP · 阿巴泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271362",
+      "locator": "eccp-3633197-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633203": {
+      "title": "ECCP · 阿濟格",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271365",
+      "locator": "eccp-3633203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633217": {
+      "title": "ECCP · 阿敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271366",
+      "locator": "eccp-3633217-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637561": {
+      "title": "ECCP · 崇德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275735",
+      "locator": "eccp-3637561-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635474": {
+      "title": "ECCP · 金簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271741",
+      "locator": "eccp-3635474-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636431": {
+      "title": "ECCP · 朱由檢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272570",
+      "locator": "eccp-3636431-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637564": {
+      "title": "ECCP · 褚英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275740",
+      "locator": "eccp-3637564-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637568": {
+      "title": "ECCP · 達海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275751",
+      "locator": "eccp-3637568-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637570": {
+      "title": "ECCP · 代善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275754",
+      "locator": "eccp-3637570-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637571": {
+      "title": "ECCP · 多鐸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275755",
+      "locator": "eccp-3637571-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637575": {
+      "title": "ECCP · 遏必隆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275761",
+      "locator": "eccp-3637575-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637579": {
+      "title": "ECCP · 額亦都",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275768",
+      "locator": "eccp-3637579-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637584": {
+      "title": "ECCP · 恩格德爾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275775",
+      "locator": "eccp-3637584-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637587": {
+      "title": "ECCP · 額爾德尼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275779",
+      "locator": "eccp-3637587-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637594": {
+      "title": "ECCP · 范文程",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275788",
+      "locator": "eccp-3637594-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639178": {
+      "title": "ECCP · 馮溥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280157",
+      "locator": "eccp-3639178-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639217": {
+      "title": "ECCP · 金台石",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280221",
+      "locator": "eccp-3639217-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639223": {
+      "title": "ECCP · 海蘭察",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280228",
+      "locator": "eccp-3639223-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639242": {
+      "title": "ECCP · 豪格",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280257",
+      "locator": "eccp-3639242-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639267": {
+      "title": "ECCP · 孝莊文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280298",
+      "locator": "eccp-3639267-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639274": {
+      "title": "ECCP · 孝烈武皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280309",
+      "locator": "eccp-3639274-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639276": {
+      "title": "ECCP · 孝端文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280311",
+      "locator": "eccp-3639276-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639984": {
+      "title": "ECCP · 徐元文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282843",
+      "locator": "eccp-3639984-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640814": {
+      "title": "ECCP · 扈爾漢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285384",
+      "locator": "eccp-3640814-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643640": {
+      "title": "ECCP · 李率泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294862",
+      "locator": "eccp-3643640-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643665": {
+      "title": "ECCP · 李蔚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294912",
+      "locator": "eccp-3643665-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646155": {
+      "title": "ECCP · 莽古爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300578",
+      "locator": "eccp-3646155-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649111": {
+      "title": "ECCP · 明安達禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317670",
+      "locator": "eccp-3649111-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649113": {
+      "title": "ECCP · 明安圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317673",
+      "locator": "eccp-3649113-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649114": {
+      "title": "ECCP · 明珠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317674",
+      "locator": "eccp-3649114-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649096": {
+      "title": "ECCP · 孟喬芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317646",
+      "locator": "eccp-3649096-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649141": {
+      "title": "ECCP · 納林布祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317715",
+      "locator": "eccp-3649141-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649158": {
+      "title": "ECCP · 尼堪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317758",
+      "locator": "eccp-3649158-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649363": {
+      "title": "ECCP · 卞永譽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318128",
+      "locator": "eccp-3649363-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656319": {
+      "title": "ECCP · 孫思克",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365062",
+      "locator": "eccp-3656319-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656330": {
+      "title": "ECCP · 松筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365085",
+      "locator": "eccp-3656330-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656344": {
+      "title": "ECCP · 太宗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365105",
+      "locator": "eccp-3656344-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656375": {
+      "title": "ECCP · 天聰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365154",
+      "locator": "eccp-3656375-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658530": {
+      "title": "ECCP · 祖大壽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370050",
+      "locator": "eccp-3658530-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · 圖理琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658566": {
+      "title": "ECCP · 吳拜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370125",
+      "locator": "eccp-3658566-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672762": {
+      "title": "ECCP · 王在晉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412342",
+      "locator": "eccp-3672762-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675178": {
+      "title": "ECCP · 文皇帝",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419928",
+      "locator": "eccp-3675178-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678093": {
+      "title": "ECCP · 楊吉砮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442549",
+      "locator": "eccp-3678093-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678096": {
+      "title": "ECCP · 揚古利額附",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442566",
+      "locator": "eccp-3678096-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678139": {
+      "title": "ECCP · 延信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442942",
+      "locator": "eccp-3678139-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678153": {
+      "title": "ECCP · 胤禎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442972",
+      "locator": "eccp-3678153-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678189": {
+      "title": "ECCP · 英和",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443101",
+      "locator": "eccp-3678189-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678196": {
+      "title": "ECCP · 岳託",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443113",
+      "locator": "eccp-3678196-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678460": {
+      "title": "ECCP · 袁崇煥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443797",
+      "locator": "eccp-3678460-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

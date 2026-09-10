@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649309",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "拜山",
+    "source": "eccp-3649309",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Pai-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3649309"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649309",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649309",
+      "passage": "eccp-3649309-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649309": {
+      "title": "ECCP · Pai-shan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318020",
+      "locator": "eccp-3649309-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-226": {
+      "title": "清史稿/卷226",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2414164",
+      "locator": "qsg-volume-226-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-449": {
+      "title": "清史稿/卷449",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2005162",
+      "locator": "qsg-volume-449-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

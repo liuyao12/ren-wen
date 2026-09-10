@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656353",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "湯",
+    "given": "顯祖",
+    "source": "eccp-3656353",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'ANG Hsien-tsu 湯顯祖 (T. 義仍, H. 若士, 海若, 清遠道人), 1550–1616, dramatist, contemporary of Shakespeare, was a native of Lin-ch'uan, Kiangsu. A chin-shih of 1583, he was appointed to a minor post in the government at Nanking, and after two years was promoted to a secretaryship in the Board of Ceremonies.",
+          "source": "eccp-3656353",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "義仍",
+        "source": "eccp-3656353"
+      }
+    ],
+    "hao": [
+      {
+        "value": "若士",
+        "source": "eccp-3656353"
+      },
+      {
+        "value": "海若",
+        "source": "eccp-3656353"
+      },
+      {
+        "value": "清遠道人",
+        "source": "eccp-3656353"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "義仍"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Hsien-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3656353"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1550,
+        "source": "eccp-3656353",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3656353",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656353",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656353",
+      "passage": "eccp-3656353-001"
+    }
+  ],
+  "sources": {
+    "eccp-3656353": {
+      "title": "ECCP · T'ang Hsien-tsu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365121",
+      "locator": "eccp-3656353-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

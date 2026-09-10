@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656340",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "戴",
+    "given": "敦元",
+    "source": "eccp-3656340",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "開化",
+      "source": "qsg-volume-374",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TAI Tun-yüan 戴敦元 (T. 士旋, H. 金溪), 1768–1834, Dec. 18, official, was a native of K'ai-hua, Chekiang. Precocious as a child, he obtained the chü-jên degree when he was only fifteen sui.",
+          "source": "eccp-3656340",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "戴敦元，字金溪，浙江開化人。",
+          "source": "qsg-volume-374",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "士旋",
+        "source": "eccp-3656340"
+      }
+    ],
+    "hao": [
+      {
+        "value": "金溪",
+        "source": "eccp-3656340"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "士旋"
+    },
+    "romanizations": [
+      {
+        "value": "Tai Tun-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3656340"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3656340",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3656340",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656340",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656340",
+      "passage": "eccp-3656340-001"
+    },
+    {
+      "source": "qsg-volume-374",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-374",
+      "passage": "qsg-volume-374-012",
+      "matchStatus": "proposed",
+      "evidence": "戴敦元，字金溪，浙江開化人。幼有異禀，過外家，一月盡讀其室中書。十歲舉神童，學政彭元瑞試以文，如老宿；面問經義，答如流。歎曰：「子異日必為國器！」年十五，舉鄉試。乾隆五十五年，成進士，選庶吉士，散館改禮部主事，銓授刑部主事，典山西鄉試。累遷郎中。嘉慶二十四年，出為廣東高廉道。道光元年，擢江西按察使。"
+    }
+  ],
+  "sources": {
+    "eccp-3656340": {
+      "title": "ECCP · Tai Tun-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365101",
+      "locator": "eccp-3656340-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-374": {
+      "title": "清史稿/卷374",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292892",
+      "locator": "qsg-volume-374-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

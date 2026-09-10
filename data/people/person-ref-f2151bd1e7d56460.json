@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f2151bd1e7d56460",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "光遠",
+    "source": "eccp-3658562",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大興",
+      "source": "qsg-volume-231",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "馬光遠，順天大興人。",
+          "source": "qsg-volume-231",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ma Kuang-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3658562"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-231",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-231",
+      "passage": "qsg-volume-231-037",
+      "matchStatus": "proposed",
+      "evidence": "馬光遠，順天大興人。明建昌參將。天聰四年，我師克永平，光遠以所部降，命隸正藍旗，授梅勒額真，賜冠服、鞍馬。五年，上复伐明，圍大凌河，光遠從，招城南台降，得百總一、男婦五十餘，即畀光遠育焉。"
+    }
+  ],
+  "sources": {
+    "eccp-3658562": {
+      "title": "ECCP · 佟養性",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370119",
+      "locator": "eccp-3658562-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

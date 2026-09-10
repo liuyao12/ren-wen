@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-53a77634594fc566",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "桂林",
+    "source": "eccp-3643631",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "許桂林，字同叔，海州人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "同叔",
+        "source": "eccp-3643631"
+      }
+    ],
+    "hao": [
+      {
+        "value": "月南",
+        "source": "eccp-3643631"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "同叔"
+    },
+    "romanizations": [
+      {
+        "value": "Hsi Kuei-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3643631"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1778,
+        "source": "eccp-3643631",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1821,
+        "source": "eccp-3643631",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-159",
+      "matchStatus": "proposed",
+      "evidence": "許桂林，字同叔，海州人。嘉慶二十一年舉人。少孤，孝於母及生母，無間言。家貧，不以厚幣易遠遊，日以詁經爲事。道光元年，丁内艱，以毀卒，年四十三。桂林於諸經皆有發明，尤篤信穀梁之學，著春秋穀梁穀傳時日月書法釋例四巻。其書有引公羊而互證者，有駮公羊而專主者。陽湖孫星衍嘗以條理精密、論辨明允許之。又著易確二十巻，大旨以乾爲主，謂全易皆乾所生，博觀約取，於易義實有發明，別有毛詩後牋八巻，春秋三傳地名考證六巻，漢世別本禮記長義四巻，大學中庸講義二巻，四書因論二巻。嘗以其餘力治六書、九數，著許氏説音十二巻，以"
+    }
+  ],
+  "sources": {
+    "eccp-3643631": {
+      "title": "ECCP · 李汝珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294852",
+      "locator": "eccp-3643631-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-159",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

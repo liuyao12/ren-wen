@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-801580f6a224ad1a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蘇",
+    "given": "元春",
+    "source": "eccp-3639181",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "永安",
+      "source": "qsg-volume-459",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "蘇元春，字子熙，廣西永安人。",
+          "source": "qsg-volume-459",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Su Yüan-ch'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3639181"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-459",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-459",
+      "passage": "qsg-volume-459-023",
+      "matchStatus": "proposed",
+      "evidence": "蘇元春，字子熙，廣西永安人。父德保，以廩生治鄉團，禦寇被害，州人建祠祀之。元春誓復仇，從湘軍。同治初，隨席寶田援贛、皖、粵，累功至參將，假歸。六年，領中軍徵黔苗，破荊竹園，賜號健勇巴圖魯。連克要隘，更號銳勇。八年，統右路軍，值思州苗犯鎮遠，复擊卻之，進復清江，擢總兵。黃飄之役，黃潤昌戰死，元春馳救，亦敗退，幹吏議。克施秉，復故官。九年，攻施洞，拔九股河，又改法什尚阿勇號。薄台拱，苗遁走，晉提督。明年，复丹江、凱里，軍威益振，賞黃馬褂。以次下黃飄、白堡，驛道始通。逾歲，循清水而南，所至輒靡，惟烏鴉"
+    }
+  ],
+  "sources": {
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-459": {
+      "title": "清史稿/卷459",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2604082",
+      "locator": "qsg-volume-459-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

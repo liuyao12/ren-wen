@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678176",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胤",
+    "given": "禵",
+    "source": "eccp-3678176",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yin-t'i (禵)",
+        "system": "ECCP spelling",
+        "source": "eccp-3678176"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3678176",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1755,
+        "source": "eccp-3678176",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678176",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678176",
+      "passage": "eccp-3678176-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678176": {
+      "title": "ECCP · Yin-t'i (禵)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443043",
+      "locator": "eccp-3678176-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

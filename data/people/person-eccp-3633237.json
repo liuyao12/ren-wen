@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633237",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "阿什坦",
+    "source": "eccp-3633237",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "完顏",
+      "source": "eccp-3633237"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "ASITAN 阿什坦 (壇), (T. 海龍), d. 1683 (possibly 1684), Manchu official and translator, was a member of the Wanggiyan 完顏 clan and a descendant of the imperial family of the Chin dynasty (1115–1234).",
+          "source": "eccp-3633237",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "阿什坦，字金龍，完顏氏，滿洲正白旗人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Asitan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633237"
+      }
+    ],
+    "clan": {
+      "label": "完顏",
+      "source": "eccp-3633237"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633237",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633237",
+      "passage": "eccp-3633237-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-132",
+      "matchStatus": "proposed",
+      "evidence": "阿什坦，字金龍，完顏氏，滿洲正白旗人。順治九年進士，授刑科給事中。初繙譯大學、中庸、孝經諸書，詔刊行。阿什坦上言；「學者宜以聖賢為期，經史為導，此外無益雜書當屏絕。」又請嚴旗人男女之別，定部院九品之制，俱報可。康熙初，罷職家居。鰲拜專政，欲令一見終不往。嗣以薦起，聖祖召問節用愛人，對曰：「節用莫要於寡欲，愛人莫先於用賢。」聖祖顧左右曰：「此我朝大儒也！」著有大學中庸講義及奏稿。孫留保，以掌院學士充明史總裁，附王蘭生傳。"
+    }
+  ],
+  "sources": {
+    "eccp-3633237": {
+      "title": "ECCP · Asitan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271375",
+      "locator": "eccp-3633237-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639243": {
+      "title": "ECCP · 和素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280258",
+      "locator": "eccp-3639243-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639267": {
+      "title": "ECCP · 孝莊文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280298",
+      "locator": "eccp-3639267-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645484": {
+      "title": "ECCP · 麟慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299415",
+      "locator": "eccp-3645484-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-132",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

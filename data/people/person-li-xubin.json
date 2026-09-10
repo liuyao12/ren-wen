@@ -32,7 +32,35 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Hsü-pin 李續賓 (T. 克惠, H. 廸菴) d. 1858, Nov. 15, age forty-one (sui), a native of Hsiang-hsiang, Hunan, was one of the leaders of the \"Hunan Braves.\" Shy and reserved as a youth, he became a pupil of Lo Tsê-nan [q. v.] and a senior licentiate.",
+          "source": "eccp-3643626",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李續賓，字迪庵，湖南湘鄉人。",
+          "source": "qsg-volume-408",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "湖南長沙府湘鄉縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "湘鄉",
+      "source": "qsg-volume-408",
+      "status": "proposed"
+    }
   },
   "life": {
     "birth": null,
@@ -57,6 +85,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Li_Hs%C3%BC-pin",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3643626",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643626",
+      "passage": "eccp-3643626-001"
+    },
+    {
+      "source": "qsg-volume-408",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-408",
+      "passage": "qsg-volume-408-006",
+      "matchStatus": "proposed",
+      "evidence": "李續賓，字迪庵，湖南湘鄉人。諸生，膂力過人，善騎射。羅澤南講學里中，折節受書。咸豐初，澤南募鄉勇殺賊，續賓奉父命往佐之，從平桂東土匪。三年，援江西，令將右營。澤南每戰，續賓皆從。歸湖南，屯衡州，复永興。"
     }
   ],
   "sources": {
@@ -80,6 +122,168 @@
       "locator": "Preserved source opening, revision 11294836",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643626": {
+      "title": "ECCP · Li Hsü-pin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294836",
+      "locator": "eccp-3643626-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634089": {
+      "title": "ECCP · 陳玉成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271504",
+      "locator": "eccp-3634089-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639994": {
+      "title": "ECCP · 胡林翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282866",
+      "locator": "eccp-3639994-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643625": {
+      "title": "ECCP · 李秀成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294833",
+      "locator": "eccp-3643625-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654367": {
+      "title": "ECCP · 石達開",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358434",
+      "locator": "eccp-3654367-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656421": {
+      "title": "ECCP · 曾國荃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365227",
+      "locator": "eccp-3656421-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-388": {
+      "title": "清史稿/卷388",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433587",
+      "locator": "qsg-volume-388-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-400": {
+      "title": "清史稿/卷400",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026858",
+      "locator": "qsg-volume-400-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-406": {
+      "title": "清史稿/卷406",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433578",
+      "locator": "qsg-volume-406-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-407": {
+      "title": "清史稿/卷407",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2567599",
+      "locator": "qsg-volume-407-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-408": {
+      "title": "清史稿/卷408",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027044",
+      "locator": "qsg-volume-408-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-409": {
+      "title": "清史稿/卷409",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2567596",
+      "locator": "qsg-volume-409-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-410": {
+      "title": "清史稿/卷410",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433541",
+      "locator": "qsg-volume-410-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-427": {
+      "title": "清史稿/卷427",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2259934",
+      "locator": "qsg-volume-427-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-429": {
+      "title": "清史稿/卷429",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542450",
+      "locator": "qsg-volume-429-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-432": {
+      "title": "清史稿/卷432",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515895",
+      "locator": "qsg-volume-432-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-434": {
+      "title": "清史稿/卷434",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433516",
+      "locator": "qsg-volume-434-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "長沙府下湘鄉"
     }
   },
   "notes": [

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675187",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "倭仁",
+    "source": "eccp-3675187",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "烏齊格里",
+      "source": "eccp-3675187"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WO-jên 倭仁 (T. 艮峯), d. June 8, 1871, official, a Mongol of the Plain Red Banner, was born in Honan where his family, of the Wu-ch'i-ko-li 烏齊格里 clan, was a part of the garrison forces in that province.",
+          "source": "eccp-3675187",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "倭仁，字艮峰，烏齊格里氏，蒙古正紅旗人，河南駐防。",
+          "source": "qsg-volume-391",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "艮峯",
+        "source": "eccp-3675187"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "艮峯"
+    },
+    "romanizations": [
+      {
+        "value": "Wo-jên",
+        "system": "ECCP spelling",
+        "source": "eccp-3675187"
+      }
+    ],
+    "clan": {
+      "label": "烏齊格里",
+      "source": "eccp-3675187"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675187",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675187",
+      "passage": "eccp-3675187-001"
+    },
+    {
+      "source": "qsg-volume-391",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-391",
+      "passage": "qsg-volume-391-006",
+      "matchStatus": "proposed",
+      "evidence": "倭仁，字艮峰，烏齊格里氏，蒙古正紅旗人，河南駐防。道光九年進士，選庶吉士，授編修。歷中允、侍講、侍讀、庶子、侍講學士、侍讀學士。二十二年，擢詹事。二十四年，遷大理寺卿。文宗即位，應詔陳言，略曰：「行政莫先於用人，用人莫先於君子小人之辨。夫君子小人藏於心術者難知，發於事蹟者易見。大抵君子訥拙，小人佞巧；君子澹定，小人躁競；君子愛惜人才，小人排擠異類；君子圖遠大，以國家元氣為先，小人計目前，以聚斂刻薄為務。剛正不撓、無所阿鄉者，君子也；依違兩可、工於趨避者，小人也。諫諍匡弼、進憂危之議，動人主之警心"
+    }
+  ],
+  "sources": {
+    "eccp-3675187": {
+      "title": "ECCP · Wo-jên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419943",
+      "locator": "eccp-3675187-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643630": {
+      "title": "ECCP · 李鴻藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294851",
+      "locator": "eccp-3643630-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645502": {
+      "title": "ECCP · 劉鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654355": {
+      "title": "ECCP · 盛昱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358407",
+      "locator": "eccp-3654355-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-391": {
+      "title": "清史稿/卷391",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132575",
+      "locator": "qsg-volume-391-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-400": {
+      "title": "清史稿/卷400",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026858",
+      "locator": "qsg-volume-400-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-441": {
+      "title": "清史稿/卷441",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611534",
+      "locator": "qsg-volume-441-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-442": {
+      "title": "清史稿/卷442",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433592",
+      "locator": "qsg-volume-442-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-448": {
+      "title": "清史稿/卷448",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2613364",
+      "locator": "qsg-volume-448-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-451": {
+      "title": "清史稿/卷451",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607436",
+      "locator": "qsg-volume-451-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-262",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-117",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-496": {
+      "title": "清史稿/卷496",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542421",
+      "locator": "qsg-volume-496-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

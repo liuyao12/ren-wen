@@ -16,9 +16,9 @@ DECIMAL_ID = re.compile(r"[1-9][0-9]*")
 
 def canonical_name(profile: dict) -> str:
     n = profile['name']
-    place = f"[{n['jiguan']['label']}] " if n.get('jiguan') else ''
-    alias = f"（{n['parenthetical']['value']}）" if n.get('parenthetical') else ''
-    return place + (n.get('surname') or '') + n['given'] + alias
+    qualifier = (n.get('bracket') or {}).get('label') if 'bracket' in n else (n.get('jiguan') or {}).get('label')
+    place = f'[{qualifier}] ' if qualifier else ''
+    return place + (n.get('surname') or '') + n['given']
 
 
 def sui_age(birth_chinese_year: int | None, event_chinese_year: int | None) -> int | None:
@@ -58,6 +58,16 @@ def validate_profile(p: dict) -> None:
     if n.get('jiguan') is not None:
         _require(bool(n['jiguan'].get('label')), 'Empty native-place label')
         ref(n['jiguan']['source'])
+    if n.get('bracket'):
+        _require(n['bracket'].get('kind') in {'county','clan'}, 'Bracket must be county or clan')
+        _require(bool(n['bracket'].get('label')), 'Empty bracket label')
+        ref(n['bracket'].get('source'))
+    if n.get('clan'):
+        _require(bool(n['clan'].get('label')), 'Empty clan label')
+        ref(n['clan'].get('source'))
+    for attestation in n.get('registration',{}).get('attestations',[]):
+        _require(bool(attestation.get('text')), 'Empty registration quotation')
+        ref(attestation.get('source'))
     for kind in ('zi', 'hao', 'romanizations'):
         _require(isinstance(n.get(kind), list), f'{kind} must be a list')
         for item in n[kind]:

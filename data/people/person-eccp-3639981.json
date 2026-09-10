@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639981",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "宗彥",
+    "source": "eccp-3639981",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Tsung-yen 許宗彥 (T. 積聊, 周生, original ming 慶宗), Feb. 18, 1768–1819, Jan. 17, scholar and painter, was a native of Tê-ch'ing, Chekiang, and a member of a celebrated family. His great-grandfather, Hsü Chên 許鎮 (T. 天倚, H. 東間), was a chin-shih of 1712.",
+          "source": "eccp-3639981",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "積聊",
+        "source": "eccp-3639981"
+      },
+      {
+        "value": "周生",
+        "source": "eccp-3639981"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "積聊"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Tsung-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3639981"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3639981",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3639981",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639981",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639981",
+      "passage": "eccp-3639981-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639981": {
+      "title": "ECCP · Hsü Tsung-yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282837",
+      "locator": "eccp-3639981-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672763": {
+      "title": "ECCP · 汪端",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412343",
+      "locator": "eccp-3672763-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

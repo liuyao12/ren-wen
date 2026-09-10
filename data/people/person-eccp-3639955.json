@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639955",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "濟世",
+    "source": "eccp-3639955",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "全州",
+      "source": "qsg-volume-293",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIEH Chi-shih 謝濟世 (T. 石霖, H. 梅莊), 1689–1756, official and scholar, was a native of Ch'üan-chou, Kwangsi. A chin-shih of 1712, he was selected a bachelor of the Hanlin Academy and was then made a corrector.",
+          "source": "eccp-3639955",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "謝濟世，字石霖，廣西全州人。",
+          "source": "qsg-volume-293",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "石霖",
+        "source": "eccp-3639955"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梅莊",
+        "source": "eccp-3639955"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "石霖"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Chi-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3639955"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1689,
+        "source": "eccp-3639955",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3639955",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639955",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639955",
+      "passage": "eccp-3639955-001"
+    },
+    {
+      "source": "qsg-volume-293",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-293",
+      "passage": "qsg-volume-293-019",
+      "matchStatus": "proposed",
+      "evidence": "謝濟世，字石霖，廣西全州人。康熙四十七年，舉鄉試第一。五十一年，成進士，改庶吉士，授檢討。雍正四年，考選浙江道御史。未浹旬，疏劾河南巡撫田文鏡營私負國，貪虐不法，列舉十罪。上方倚文鏡，意不懌，命還濟世奏，濟世堅持不可。上諭曰：「文鏡秉公持正，實心治事，為督撫中所罕見者，貪贓壞法，朕保其必無，而濟世於督撫中獨劾文鏡，朕不知其何心？朕訓誡科道至再至三，誠以科道無私，方能彈劾人之有私者。若自恃為言官，聽人指使，顛倒是非，擾亂國政，為國法所不容。朕豈不知誅戮諫官史書所戒？然誅戮諫官之過小，釀成人心世道之"
+    }
+  ],
+  "sources": {
+    "eccp-3639955": {
+      "title": "ECCP · Hsieh Chi-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282773",
+      "locator": "eccp-3639955-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634186": {
+      "title": "ECCP · 齊周華",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271390",
+      "locator": "eccp-3634186-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654395": {
+      "title": "ECCP · 孫嘉淦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358507",
+      "locator": "eccp-3654395-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656377": {
+      "title": "ECCP · 田文鏡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365156",
+      "locator": "eccp-3656377-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-303": {
+      "title": "清史稿/卷303",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132223",
+      "locator": "qsg-volume-303-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-056",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

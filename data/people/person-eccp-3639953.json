@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639953",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "章鋌",
+    "source": "eccp-3639953",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIEH Chang-t'ing 謝章鋌 (T. 枚如, H. 樂階退叟), Dec. 28, 1820–1903, poet, scholar, essayist, was a native of Ch'ang-lo, Fukien, a descendant of a literary family. He was sickly as a child. His mother died when he was two years old, and he was brought up by his stepmother.",
+          "source": "eccp-3639953",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "枚如",
+        "source": "eccp-3639953"
+      }
+    ],
+    "hao": [
+      {
+        "value": "樂階退叟",
+        "source": "eccp-3639953"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "枚如"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Chang-t'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3639953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-3639953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1903,
+        "source": "eccp-3639953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639953",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639953",
+      "passage": "eccp-3639953-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639953": {
+      "title": "ECCP · Hsieh Chang-t'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282770",
+      "locator": "eccp-3639953-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3675187": {
+      "title": "ECCP · 倭仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419943",
+      "locator": "eccp-3675187-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

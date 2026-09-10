@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645527",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "文淇",
+    "source": "eccp-3645527",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Wên-ch'i 劉文淇 (T. 孟瞻), 1789–1856, scholar, was a native of I-chêng, Kiangsu, but lived in Yangchow where his father, Liu Hsi-yü 劉錫瑜 (T. 懷瑾, H. 琢齋, 1749–1840), practiced medicine.",
+          "source": "eccp-3645527",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉文淇，字孟瞻，儀徴人，嘉慶二十四年優貢生。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孟瞻",
+        "source": "eccp-3645527"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟瞻"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Wên-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3645527"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1789,
+        "source": "eccp-3645527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3645527",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645527",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645527",
+      "passage": "eccp-3645527-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-124",
+      "matchStatus": "proposed",
+      "evidence": "劉文淇，字孟瞻，儀徴人，嘉慶二十四年優貢生。父錫瑜，以醫名世。文淇稍長，即研精古籍，貫串群經。於毛、鄭、賈、孔之書及宋、元以來通經解誼，博覽冥搜，折衷一是。尤肆力春秋左氏傳，嘗謂左氏之義，爲杜注剝蝕巳久，其稍可觀覽者，皆係襲取舊説。爰輯左傳舊注疎證一書，先取賈、服、鄭三君之注，疎通證明。凡杜氏所排撃者糾正之，所剿襲者表明之。其沿用韋氏國語注者，亦一一疎記。他如五經異義所載左氏説，皆本左氏先師；説文所引左傳，亦是古文家説；漢書五行志所載劉子駿説。實左氏一家之學；經疎、史注、御覽等書所引左傳注不載姓"
+    }
+  ],
+  "sources": {
+    "eccp-3645527": {
+      "title": "ECCP · Liu Wên-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645503": {
+      "title": "ECCP · 劉逢祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645519": {
+      "title": "ECCP · 劉寶楠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299489",
+      "locator": "eccp-3645519-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645528": {
+      "title": "ECCP · 劉毓崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299507",
+      "locator": "eccp-3645528-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646135": {
+      "title": "ECCP · 盧文弨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300538",
+      "locator": "eccp-3646135-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656386": {
+      "title": "ECCP · 丁晏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365169",
+      "locator": "eccp-3656386-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675193": {
+      "title": "ECCP · 伍崇曜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419951",
+      "locator": "eccp-3675193-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-124",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

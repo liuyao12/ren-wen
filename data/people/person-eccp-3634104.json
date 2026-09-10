@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634104",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "鴻逵",
+    "source": "eccp-3634104",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHÊNG Hung-k'uei 鄭鴻逵 (T. 羽公) d. 1657, a native of Nan-an, Fukien, was a younger brother of Chêng Chih-lung [q. v.]. He became a military chü-jên in 1630 and in reward for his brother's naval operations against the Dutch was made lieutenant in the palace guards.",
+          "source": "eccp-3634104",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "羽公",
+        "source": "eccp-3634104"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "羽公"
+    },
+    "romanizations": [
+      {
+        "value": "Chêng Hung-k'uei",
+        "system": "ECCP spelling",
+        "source": "eccp-3634104"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634104",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634104",
+      "passage": "eccp-3634104-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634104": {
+      "title": "ECCP · Chêng Hung-k'uei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271759",
+      "locator": "eccp-3634104-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637539": {
+      "title": "ECCP · 朱聿鍵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275699",
+      "locator": "eccp-3637539-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634095": {
+      "title": "ECCP · 鄭芝龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271755",
+      "locator": "eccp-3634095-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678091": {
+      "title": "ECCP · 楊文驄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442527",
+      "locator": "eccp-3678091-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

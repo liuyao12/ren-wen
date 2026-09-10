@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633251",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "查",
+    "given": "嗣庭",
+    "source": "eccp-3633251",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHA Ssŭ-t'ing 查嗣庭 (T. 潤木, H. 橫浦), 1664–1727, April 12?, Ch'ing official, was a native of Hai-ning, Chekiang, and a chin-shih of 1706. After a period of study as a Hanlin bachelor he became a compiler in the Academy; and after several promotions, a vice-president of the Board of Ceremonies (1725).",
+          "source": "eccp-3633251",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "潤木",
+        "source": "eccp-3633251"
+      }
+    ],
+    "hao": [
+      {
+        "value": "橫浦",
+        "source": "eccp-3633251"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "潤木"
+    },
+    "romanizations": [
+      {
+        "value": "Cha Ssŭ-t'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3633251"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3633251",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1727,
+        "source": "eccp-3633251",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633251",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633251",
+      "passage": "eccp-3633251-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633251": {
+      "title": "ECCP · Cha Ssŭ-t'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271544",
+      "locator": "eccp-3633251-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646140": {
+      "title": "ECCP · 隆科多",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649393": {
+      "title": "ECCP · 沈近思",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318178",
+      "locator": "eccp-3649393-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656420": {
+      "title": "ECCP · 曾靜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365225",
+      "locator": "eccp-3656420-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672725": {
+      "title": "ECCP · 汪景祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412280",
+      "locator": "eccp-3672725-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678153": {
+      "title": "ECCP · 胤禎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442972",
+      "locator": "eccp-3678153-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-295": {
+      "title": "清史稿/卷295",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4468582",
+      "locator": "qsg-volume-295-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

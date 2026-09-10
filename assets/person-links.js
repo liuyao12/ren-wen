@@ -1,5 +1,9 @@
+import {ui} from './i18n.js';
+import {readerURL} from './library.js';
+import {fetchData} from './data-cache.js';
 /** Reader adapter: decorate rendered text only; preserve source snapshots and occurrence IDs. */
 import {loadProfiles} from './profiles.js';
+import {nameDetailsHTML, loadNameHistory} from './name-history.js';
 import {personHeading, profileURL, profilesWithStubs} from './person-display.js';
 
 function articleKey(url) {
@@ -69,20 +73,24 @@ function canonicalBareName(p) { return (p.name.surname || '') + p.name.given; }
 async function install() {
   const reader = document.getElementById('reader');
   if (!reader) return;
-  const [response, detailed] = await Promise.all([fetch('data/catalog.json'), loadProfiles()]);
+  const [response, detailed] = await Promise.all([fetchData('data/catalog.json'), loadProfiles(), loadNameHistory()]);
   if (!response.ok) throw Error('Person navigation: catalogue unavailable.');
   const catalog = await response.json();
   const people = new Map(profilesWithStubs(catalog, detailed).map(p => [p.id, p]));
   const selector = document.getElementById('source-select');
   const review = document.getElementById('review-names');
+  const summary = document.getElementById('reader-biography');
+  let displayedPerson=null;
   const observer = new MutationObserver(enhance);
   function enhance() {
     observer.disconnect();
     try {
       linkPersonMentions(reader, people);
       const source = catalog.sources.find(s => s.id === selector?.value);
-      const p = source && people.get(source.subject);
-      if (p && reader.querySelector('p[id]') && !reader.querySelector('[data-profile-heading]')) {
+      const requested=new URLSearchParams(location.search).get('person');
+      const p = source && people.get(source.subject || requested);
+      if(!p && summary){summary.replaceChildren();displayedPerson=null;}
+      if (p && summary && reader.querySelector('p[id]') && displayedPerson !== p.id) {
         const title = reader.querySelector(':scope > h1');
         if (title) {
           const h2 = document.createElement('h2');
@@ -90,7 +98,18 @@ async function install() {
           h2.textContent = title.textContent;
           title.replaceWith(h2);
         }
-        reader.insertAdjacentHTML('afterbegin', personHeading(p, {linked:true}));
+        summary.innerHTML = personHeading(p, {linked:true});
+        displayedPerson=p.id;
+        summary.dataset.person=p.id;
+        fetchData(`data/people/${p.id}.json`).then(r=>r.ok?r.json():p).then(full=>{if(displayedPerson===full.id)summary.querySelector('.person-name-details').innerHTML=nameDetailsHTML(full);}).catch(console.warn);
+        const qsg=(p.accounts||[]).filter(a=>a.readerWitness && catalog.sources.find(s=>s.id===a.readerWitness)?.work==='work-qingshigao');
+        const preferred=qsg.find(a=>a.relation==='principal-biography') || qsg[0];
+        if(preferred) {
+          const nav=document.createElement('div');nav.className='profile-source-navigation';
+          const a=document.createElement('a');a.href=readerURL(preferred.readerWitness,/^[a-z0-9-]+$/.test(preferred.passage||'')?preferred.passage:'',p.id);
+          a.innerHTML=ui(preferred.matchStatus==='proposed'?'QSG account (match proposed)':'QSG account')+' →';nav.append(a);
+          summary.querySelector('[data-profile-heading]').append(nav);
+        }
       }
     } finally {
       observer.observe(reader, {childList:true, subtree:true});

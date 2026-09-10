@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649419",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "聖",
+    "given": "安皇帝",
+    "source": "eccp-3649419",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Shêng-an Huang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3649419"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649419",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649419",
+      "passage": "eccp-3649419-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649419": {
+      "title": "ECCP · Shêng-an Huang-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318219",
+      "locator": "eccp-3649419-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

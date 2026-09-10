@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bee99621a69cd86c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "瞿",
+    "given": "中溶",
+    "source": "eccp-3635463",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "瞿中溶，字木夫，嘉定人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "萇生",
+        "source": "eccp-3635463"
+      }
+    ],
+    "hao": [
+      {
+        "value": "木夫",
+        "source": "eccp-3635463"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "萇生"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ü Chung-jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3635463"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1769,
+        "source": "eccp-3635463",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1842,
+        "source": "eccp-3635463",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-080",
+      "matchStatus": "proposed",
+      "evidence": "瞿中溶，字木夫，嘉定人。為錢大昕女夫。尤邃金石之學。官湖南布政司理問，蒐奇訪僻於人跡罕至之境，所獲益多。著有孔廟從祀弟子辨證、漢魏蜀石經考異辨正、說文地名考異、古泉山館彝器圖錄、錢志補正集、古官印考證、古鏡圖錄、續漢金石文編，凡二十餘種。"
+    }
+  ],
+  "sources": {
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

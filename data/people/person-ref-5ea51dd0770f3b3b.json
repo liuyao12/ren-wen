@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5ea51dd0770f3b3b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "輔相",
+    "source": "eccp-3640015",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "貴築",
+      "source": "qsg-volume-490",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃輔相，字斗南，貴州貴築人。",
+          "source": "qsg-volume-490",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "斗南",
+        "source": "eccp-3640015"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "斗南"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Fu-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640015"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-490",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-490",
+      "passage": "qsg-volume-490-049",
+      "matchStatus": "proposed",
+      "evidence": "黃輔相，字斗南，貴州貴築人。道光二十五年進士，用知縣，分廣西。權陸川、博白縣事，以捕盜著能聲。江南提督張國樑者，原名嘉祥，本盜魁也，糾黨寇博白，勢張甚。輔相率練敗之，獲其酋。三十年，權橫州知州。時南寧各州縣盜賊蜂起，輔相招降數股，以賊攻賊計走之。巨盜王斌，號九江三者，與其弟九江四大舉入橫之陶圩，輔相調團勇，會提督向榮合力兜擊，擒九江三兄弟，斃賊三千有奇。博合圩附近十餘村，賊蟻聚，民多從逆者。輔相聲言閱團，召諸生閔麟書等語之曰：「官不能除害，是屍位也；紳不能衛鄉，是虛生也。爾等豈無意乎？」因泣。諸"
+    }
+  ],
+  "sources": {
+    "eccp-3640015": {
+      "title": "ECCP · 黃彭年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282915",
+      "locator": "eccp-3640015-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

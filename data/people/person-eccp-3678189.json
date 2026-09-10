@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678189",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "英和",
+    "source": "eccp-3678189",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "索綽絡",
+      "source": "eccp-3678189"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YING-ho 英和 (T. 樹琴, H. 煦齋, 脀叟), May 27, 1771–1839, July 18, official and writer, was a Manchu of the Socolo 索綽絡 clan. Certain of his ancestors were probably taken captive by Nurhaci or Abahai [qq. v.], and so went into the service of the Ch'ing Imperial Household as slaves or bondservants.",
+          "source": "eccp-3678189",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "英和，字煦齋，索綽絡氏，滿洲正白旗人，尚書德保子。",
+          "source": "qsg-volume-363",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "樹琴",
+        "source": "eccp-3678189"
+      }
+    ],
+    "hao": [
+      {
+        "value": "煦齋",
+        "source": "eccp-3678189"
+      },
+      {
+        "value": "脀叟",
+        "source": "eccp-3678189"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "樹琴"
+    },
+    "romanizations": [
+      {
+        "value": "Ying-ho",
+        "system": "ECCP spelling",
+        "source": "eccp-3678189"
+      }
+    ],
+    "clan": {
+      "label": "索綽絡",
+      "source": "eccp-3678189"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3678189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1839,
+        "source": "eccp-3678189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678189",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678189",
+      "passage": "eccp-3678189-001"
+    },
+    {
+      "source": "qsg-volume-363",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-363",
+      "passage": "qsg-volume-363-014",
+      "matchStatus": "proposed",
+      "evidence": "英和，字煦齋，索綽絡氏，滿洲正白旗人，尚書德保子。少有俊才，和珅欲妻以女，德保不可。乾隆五十八年，成進士，選庶吉士，授編修，累遷侍讀。嘉慶三年，大考二等，擢侍讀學士。洎仁宗親政。知其拒婚事，嘉焉，遂鄉用，累遷內閣學士。五年，授禮部侍郎，兼副都統。六年，充內務府大臣，調戶部。以不到旗署為儀親王所糾，罷副都統。七年，直南書房。扈蹕木蘭，射鹿以獻，賜黃馬褂。授翰林院掌院學士。九年，帝幸翰林院，賜一品服，加太子少保，命在軍機大臣上學習行走。時詔稽巡幸五台典禮，英和疏言教匪甫平，民未蘇息，請俟數年後再議，"
+    }
+  ],
+  "sources": {
+    "eccp-3678189": {
+      "title": "ECCP · Ying-ho",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443101",
+      "locator": "eccp-3678189-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640817": {
+      "title": "ECCP · 奕經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285389",
+      "locator": "eccp-3640817-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646140": {
+      "title": "ECCP · 隆科多",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642446": {
+      "title": "ECCP · 勒保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11291104",
+      "locator": "eccp-3642446-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649108": {
+      "title": "ECCP · 旻寧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317663",
+      "locator": "eccp-3649108-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649142": {
+      "title": "ECCP · 那彥成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317718",
+      "locator": "eccp-3649142-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656362": {
+      "title": "ECCP · 陶澍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365131",
+      "locator": "eccp-3656362-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-122",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-353": {
+      "title": "清史稿/卷353",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1502201",
+      "locator": "qsg-volume-353-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-341": {
+      "title": "清史稿/卷341",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485033",
+      "locator": "qsg-volume-341-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-366": {
+      "title": "清史稿/卷366",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542446",
+      "locator": "qsg-volume-366-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-375": {
+      "title": "清史稿/卷375",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292895",
+      "locator": "qsg-volume-375-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-377": {
+      "title": "清史稿/卷377",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1560014",
+      "locator": "qsg-volume-377-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-379": {
+      "title": "清史稿/卷379",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484959",
+      "locator": "qsg-volume-379-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-072",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

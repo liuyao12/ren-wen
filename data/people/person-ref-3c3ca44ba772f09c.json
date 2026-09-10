@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3c3ca44ba772f09c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄒",
+    "given": "祇謨",
+    "source": "eccp-3674951",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Tsou Chih-mo 鄒祇謨 (T. 訏士, H. 程村, chin-shih of 1658), a native of Wu-chin, Kiangsu, who helped them in publishing their essays.",
+          "source": "eccp-3674951",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "訏士",
+        "source": "eccp-3674951"
+      }
+    ],
+    "hao": [
+      {
+        "value": "程村",
+        "source": "eccp-3674951"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "訏士"
+    },
+    "romanizations": [
+      {
+        "value": "Tsou Chih-mo",
+        "system": "ECCP spelling",
+        "source": "eccp-3674951"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

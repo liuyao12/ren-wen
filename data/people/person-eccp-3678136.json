@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678136",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嚴",
+    "given": "長明",
+    "source": "eccp-3678136",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEN Ch'ang-ming 嚴長明 (T. 冬友, 東有, H. 道甫), 1731–1787, man of letters, was a native of Nanking, Kiangsu. As a boy, through the recommendation of Li Fu [q. v.], he studied under Fang Pao [q. v.] and Yang Shêng-wu 楊繩武 (T. 文叔, chin-shih of 1713).",
+          "source": "eccp-3678136",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "嚴長明，字道甫，江寧人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "冬友",
+        "source": "eccp-3678136"
+      },
+      {
+        "value": "東有",
+        "source": "eccp-3678136"
+      }
+    ],
+    "hao": [
+      {
+        "value": "道甫",
+        "source": "eccp-3678136"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "冬友"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Ch'ang-ming",
+        "system": "ECCP spelling",
+        "source": "eccp-3678136"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1731,
+        "source": "eccp-3678136",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3678136",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678136",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678136",
+      "passage": "eccp-3678136-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-148",
+      "matchStatus": "proposed",
+      "evidence": "嚴長明，字道甫，江寧人。幼奇慧。年十一，為李紱所賞，告方苞曰：「國器也！」遂從苞受業。尋假館揚州馬氏，盡讀其藏書。高宗二十七年南巡，以諸生獻賦，賜舉人，用內閣中書，入軍機。長明通古今，多智數，工於奏牘，大學士劉統勳最奇其才。戶部奏天下錢糧雜項名目繁多，請併入地丁徵收，長明曰：「今之雜項折徵銀，皆古正供也。若去其名，他日吏忘之，謂其物官所需，必且再徵，是使民重困也。」統勳曰善，乃奏已之。大學士溫福徵大金川，欲長明從行，長明固辭。退，有咎之者，答曰：「是將敗沒，吾奈何從之！」既而溫福果軍潰以死，隨往"
+    }
+  ],
+  "sources": {
+    "eccp-3678136": {
+      "title": "ECCP · Yen Ch'ang-ming",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442936",
+      "locator": "eccp-3678136-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640794": {
+      "title": "ECCP · 洪亮吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285340",
+      "locator": "eccp-3640794-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-148",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

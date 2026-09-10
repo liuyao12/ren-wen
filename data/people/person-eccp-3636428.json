@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636428",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "軾",
+    "source": "eccp-3636428",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Shih 朱軾 (T. 若膽, H. 可亭) Sept. 19, 1665–1736, Oct. 22, official and Confucian scholar, was a native of Kao-an, Kiangsi. He became a hsiu-ts'ai in 1687; a chü-jên in 1693, and a chin-shih in 1694.",
+          "source": "eccp-3636428",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "若膽",
+        "source": "eccp-3636428"
+      }
+    ],
+    "hao": [
+      {
+        "value": "可亭",
+        "source": "eccp-3636428"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "若膽"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3636428"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1665,
+        "source": "eccp-3636428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1736,
+        "source": "eccp-3636428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636428",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636428",
+      "passage": "eccp-3636428-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636428": {
+      "title": "ECCP · Chu Shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272565",
+      "locator": "eccp-3636428-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642440": {
+      "title": "ECCP · 藍鼎元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290560",
+      "locator": "eccp-3642440-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649366": {
+      "title": "ECCP · 白潢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318133",
+      "locator": "eccp-3649366-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672731": {
+      "title": "ECCP · 王夫之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412288",
+      "locator": "eccp-3672731-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

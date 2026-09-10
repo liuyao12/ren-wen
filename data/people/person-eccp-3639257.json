@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639257",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "侯",
+    "given": "方域",
+    "source": "eccp-3639257",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HOU Fang-yü 侯方域 (T. 朝宗), Mar.–Apr. 1618–1655 Jan.–Feb., man of letters, was a native of Shang-ch'iu, Honan. His grandfather, Hou Chih-p'u 侯執蒲 (T. 以康, d. 1641 age 74 sui), was a chin-shih of 1598.",
+          "source": "eccp-3639257",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "侯方域，字朝宗，商丘人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "朝宗",
+        "source": "eccp-3639257"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "朝宗"
+    },
+    "romanizations": [
+      {
+        "value": "Hou Fang-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3639257"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1618,
+        "source": "eccp-3639257",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1655,
+        "source": "eccp-3639257",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639257",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639257",
+      "passage": "eccp-3639257-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-028",
+      "matchStatus": "proposed",
+      "evidence": "侯方域，字朝宗，商丘人。父恂，明戶部尚書；季父恪，官祭酒：皆以東林忤閹黨。"
+    }
+  ],
+  "sources": {
+    "eccp-3639257": {
+      "title": "ECCP · Hou Fang-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633515": {
+      "title": "ECCP · 陳貞慧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658524": {
+      "title": "ECCP · 左良玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370034",
+      "locator": "eccp-3658524-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

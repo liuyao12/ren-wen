@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672731",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "夫之",
+    "source": "eccp-3672731",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Fu-chih 王夫之 (T. 而農, 薑齋, H. 船山, 一瓠道人, 夕堂), Oct. 7, 1619–1692, Feb. 18, philosopher and classicist, was a native of Hêng-yang, Hunan. His father, Wang Ch'ao-p'in 王朝聘 (T. 逸生, 修侯, 武夷先生, 1570–1647), a proponent of the philosophy of Chu Hsi (see under Hu Wei), studied in the Imperial Academy during the years 1621–26 and 1628–31.",
+          "source": "eccp-3672731",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王夫之，字而農，衡陽人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "而農",
+        "source": "eccp-3672731"
+      },
+      {
+        "value": "薑齋",
+        "source": "eccp-3672731"
+      }
+    ],
+    "hao": [
+      {
+        "value": "船山",
+        "source": "eccp-3672731"
+      },
+      {
+        "value": "一瓠道人",
+        "source": "eccp-3672731"
+      },
+      {
+        "value": "夕堂",
+        "source": "eccp-3672731"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "而農"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Fu-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3672731"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1619,
+        "source": "eccp-3672731",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1692,
+        "source": "eccp-3672731",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672731",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672731",
+      "passage": "eccp-3672731-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-027",
+      "matchStatus": "proposed",
+      "evidence": "王夫之，字而農，衡陽人。與兄介之同舉明崇禎壬午鄉試。張獻忠陷衡州，夫之匿南嶽，賊執其父以為質。夫之自引刀遍刺肢體，舁往易父。賊見其重創，免之，與父俱歸。明王駐桂林，大學士瞿式耜薦之，授行人。時國勢阽危，諸臣仍日相水火。夫之說嚴起恆救金堡等，又三劾王化澄，化澄欲殺之。聞母病，間道歸。明亡，益自韜晦。歸衡陽之石船山，築土室曰觀生居，晨夕杜門，學者稱船山先生。"
+    }
+  ],
+  "sources": {
+    "eccp-3672731": {
+      "title": "ECCP · Wang Fu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412288",
+      "locator": "eccp-3672731-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637543": {
+      "title": "ECCP · 瞿式耜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293112",
+      "locator": "eccp-3637543-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637537": {
+      "title": "ECCP · 朱由榔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275696",
+      "locator": "eccp-3637537-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640016": {
+      "title": "ECCP · 黃紹箕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645528": {
+      "title": "ECCP · 劉毓崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299507",
+      "locator": "eccp-3645528-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656381": {
+      "title": "ECCP · 丁魁楚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365163",
+      "locator": "eccp-3656381-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658527": {
+      "title": "ECCP · 鄒漢勖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370042",
+      "locator": "eccp-3658527-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-197",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

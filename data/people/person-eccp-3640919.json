@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640919",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "英俄爾岱",
+    "source": "eccp-3640919",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "INGGÛLDAI 英俄爾岱, 1596–1648, Feb., belonged to the Tatara clan living at Jakûmu. As a young boy he was taken by his grandfather, Daitukû hari 岱圖庫哈理, to join the forces of Nurhaci [q. v.].",
+          "source": "eccp-3640919",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Inggûldai",
+        "system": "ECCP spelling",
+        "source": "eccp-3640919"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1596,
+        "source": "eccp-3640919",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1648,
+        "source": "eccp-3640919",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640919",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640919",
+      "passage": "eccp-3640919-001"
+    },
+    {
+      "source": "eccp-3678192",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3678192",
+      "passage": "eccp-3678192-001"
+    },
+    {
+      "source": "qsg-volume-228",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-228",
+      "passage": "qsg-volume-228-038",
+      "matchStatus": "proposed",
+      "evidence": "英俄爾岱，他塔喇氏，世居扎庫木。太祖時，從其祖岱圖庫哈理來歸，授牛錄額真，隸滿洲正白旗。天命四年，從攻開原。有蒙古巴圖魯阿布爾者，素以驍勇名，降明為邊將，出戰，英俄爾岱馳斬之。六年，從克瀋陽，授游擊。從克遼陽，授二等參將。"
+    }
+  ],
+  "sources": {
+    "eccp-3640919": {
+      "title": "ECCP · Inggûldai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285928",
+      "locator": "eccp-3640919-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678192": {
+      "title": "ECCP · Ying-o-êr-tai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443106",
+      "locator": "eccp-3678192-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-067",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-249": {
+      "title": "清史稿/卷249",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433530",
+      "locator": "qsg-volume-249-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

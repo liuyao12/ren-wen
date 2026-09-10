@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ce692c45010b878c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曾",
+    "given": "釗",
+    "source": "eccp-3645486",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "曾釗，字敏修，南海人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "敏修",
+        "source": "eccp-3645486"
+      },
+      {
+        "value": "勉士",
+        "source": "eccp-3645486"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敏修"
+    },
+    "romanizations": [
+      {
+        "value": "Tsêng Chao",
+        "system": "ECCP spelling",
+        "source": "eccp-3645486"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1789,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1846,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-145",
+      "matchStatus": "proposed",
+      "evidence": "曾釗，字敏修，南海人。道光五年拔貢生，官合浦縣教諭，調欽州學正。釗篤學好古，讀一書必校勘譌字脱文。遇秘本或僱人影寫，或懷餅就鈔，積七八年，得數万巻。自是研求經義，文字則考之説文、玉篇，訓詁則稽之方言、爾雅，雖奧晦難通，而因文得義，因義得音，類能以經解經，確有依據。入都時，見武進劉逢祿，逢祿曰：「篤學若冕士，吾道東矣！」冕士。釗號也。"
+    }
+  ],
+  "sources": {
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-145",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

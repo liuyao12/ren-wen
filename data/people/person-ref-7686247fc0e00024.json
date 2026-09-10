@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7686247fc0e00024",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "慎畛",
+    "source": "eccp-3639976",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "武陵",
+      "source": "qsg-volume-379",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "趙慎畛，字笛樓，湖南武陵人。",
+          "source": "qsg-volume-379",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "遵路",
+        "source": "eccp-3639976"
+      }
+    ],
+    "hao": [
+      {
+        "value": "篴樓",
+        "source": "eccp-3639976"
+      },
+      {
+        "value": "蓼生",
+        "source": "eccp-3639976"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "遵路"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Shên-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3639976"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1762,
+        "source": "eccp-3639976",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1826,
+        "source": "eccp-3639976",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-379",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-379",
+      "passage": "qsg-volume-379-006",
+      "matchStatus": "proposed",
+      "evidence": "趙慎畛，字笛樓，湖南武陵人。為諸生時，學政錢灃器之，曰：「人英也！」嘉慶元年，成進士，選庶吉士，授編修。遷御史、給事中。條上川、楚善後屯田保甲事宜。巡通州漕，革陋規，廉得楊村通判科索剝船，奏褫其職。湖南學政徐松矜愎失士心，欲附慎畛自固，常列其弟子優等，慎畛列款糾劾罷之。兩廣總督蔣攸銛薦其才可大用。"
+    }
+  ],
+  "sources": {
+    "eccp-3639976": {
+      "title": "ECCP · 徐松",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282823",
+      "locator": "eccp-3639976-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-379": {
+      "title": "清史稿/卷379",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484959",
+      "locator": "qsg-volume-379-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

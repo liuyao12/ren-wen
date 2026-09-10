@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8bfd421506db7d1c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "太岳",
+    "source": "eccp-3640003",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王太岳，字基平，定興人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "基平",
+        "source": "eccp-3640003"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芥子",
+        "source": "eccp-3640003"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "基平"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Tai-yüeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3640003"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1722,
+        "source": "eccp-3640003",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3640003",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-102",
+      "matchStatus": "proposed",
+      "evidence": "王太岳，字基平，定興人。齊燾同年進士，授檢討。由侍讀出補甘肅平慶道，調西安，遷湖南按察使。調雲南，擢布政使，坐事落職。命充四庫館總纂官。四十三年，仍授檢討。後遷司業，卒。太岳蒞官有惠政，尤留心水利，與齊燾最善，駢文清剛簡直亦相近。有清虛山房集。"
+    }
+  ],
+  "sources": {
+    "eccp-3640003": {
+      "title": "ECCP · 黃景仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282883",
+      "locator": "eccp-3640003-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-102",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

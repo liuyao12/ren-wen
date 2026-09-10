@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678092",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "遇春",
+    "source": "eccp-3678092",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "崇慶",
+      "source": "qsg-volume-347",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG Yü-ch'un 楊遇春 (T. 時齋), Jan. 19, 1762–1837, Apr. 3, general, the first Marquis Chao-yung (昭勇侯), was a native of Ch'ung-ch'ing, Szechwan, west of Chengtu. Becoming a military chü-jên in 1779, he started his career in 1780 as a non-commissioned officer in a battalion under the command of the governor-general of Szechwan.",
+          "source": "eccp-3678092",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "楊遇春，字時齋，四川崇慶人。",
+          "source": "qsg-volume-347",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "時齋",
+        "source": "eccp-3678092"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "時齋"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Yü-ch'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3678092"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1762,
+        "source": "eccp-3678092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3678092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678092",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678092",
+      "passage": "eccp-3678092-001"
+    },
+    {
+      "source": "qsg-volume-347",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-347",
+      "passage": "qsg-volume-347-006",
+      "matchStatus": "proposed",
+      "evidence": "楊遇春，字時齋，四川崇慶人。以武舉效用督標，為福康安所識拔。從征甘肅石峰堡、台灣、廓爾喀，咸有功，累擢守備。"
+    }
+  ],
+  "sources": {
+    "eccp-3678092": {
+      "title": "ECCP · Yang Yü-ch'un",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442539",
+      "locator": "eccp-3678092-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633494": {
+      "title": "ECCP · 長齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271385",
+      "locator": "eccp-3633494-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649142": {
+      "title": "ECCP · 那彥成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317718",
+      "locator": "eccp-3649142-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656365": {
+      "title": "ECCP · 德楞泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365137",
+      "locator": "eccp-3656365-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678070": {
+      "title": "ECCP · 楊芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442410",
+      "locator": "eccp-3678070-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-344": {
+      "title": "清史稿/卷344",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029609",
+      "locator": "qsg-volume-344-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-347": {
+      "title": "清史稿/卷347",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484993",
+      "locator": "qsg-volume-347-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-361": {
+      "title": "清史稿/卷361",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433537",
+      "locator": "qsg-volume-361-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-367": {
+      "title": "清史稿/卷367",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1513609",
+      "locator": "qsg-volume-367-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-368": {
+      "title": "清史稿/卷368",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162688",
+      "locator": "qsg-volume-368-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-373": {
+      "title": "清史稿/卷373",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433498",
+      "locator": "qsg-volume-373-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-401": {
+      "title": "清史稿/卷401",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029845",
+      "locator": "qsg-volume-401-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-403": {
+      "title": "清史稿/卷403",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162934",
+      "locator": "qsg-volume-403-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

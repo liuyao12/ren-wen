@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640022",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "體芳",
+    "source": "eccp-3640022",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "瑞安",
+      "source": "qsg-volume-444",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG T'i-fang 黃體芳 (T. 漱蘭), Sept., 1832–1899, June-July, native of Jui-an, Chekiang, was one of the so-called \"Four Admonishing Officials\" (see under Chang P'ei-lun) at the close of the Ch'ing period.",
+          "source": "eccp-3640022",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃體芳，字漱蘭，浙江瑞安人。",
+          "source": "qsg-volume-444",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漱蘭",
+        "source": "eccp-3640022"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漱蘭"
+    },
+    "romanizations": [
+      {
+        "value": "Huang T'i-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640022"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3640022",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1899,
+        "source": "eccp-3640022",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640022",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640022",
+      "passage": "eccp-3640022-001"
+    },
+    {
+      "source": "qsg-volume-444",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-444",
+      "passage": "qsg-volume-444-005",
+      "matchStatus": "proposed",
+      "evidence": "黃體芳，字漱蘭，浙江瑞安人。同治二年進士，選庶吉士，授編修。日探討掌故，慨然有經世志。累遷侍讀學士，頻上書言時政得失。晉、豫飢，請籌急賑，整吏治，清庶獄，稱旨。時議禁燒鍋裕民食，戶部覈駁，體芳謂燒鍋領帖，部獲歲銀三萬，因上董恂奸邪狀，坐鐫級。"
+    }
+  ],
+  "sources": {
+    "eccp-3640022": {
+      "title": "ECCP · Huang T'i-fang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282942",
+      "locator": "eccp-3640022-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635465": {
+      "title": "ECCP · 錢塘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271412",
+      "locator": "eccp-3635465-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635472": {
+      "title": "ECCP · 志銳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271738",
+      "locator": "eccp-3635472-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639976": {
+      "title": "ECCP · 徐松",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282823",
+      "locator": "eccp-3639976-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640016": {
+      "title": "ECCP · 黃紹箕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656393": {
+      "title": "ECCP · 載銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365177",
+      "locator": "eccp-3656393-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675198": {
+      "title": "ECCP · 吳任臣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419958",
+      "locator": "eccp-3675198-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-245",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-470": {
+      "title": "清史稿/卷470",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621222",
+      "locator": "qsg-volume-470-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-214",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

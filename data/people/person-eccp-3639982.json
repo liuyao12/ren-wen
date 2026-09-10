@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639982",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "鼒",
+    "source": "eccp-3639982",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Tzŭ 徐鼒 (T. 彝舟, H. 亦才), May 11, 1810–1862, Sept. 2, official and historian, was a native of Liu-ho, Kiangsu. Born in a home of moderate means, he received his early training from his father, Hsü Shih-lin 徐石麟 (T. 穆如, H. 軼陵, d.",
+          "source": "eccp-3639982",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "彝舟",
+        "source": "eccp-3639982"
+      }
+    ],
+    "hao": [
+      {
+        "value": "亦才",
+        "source": "eccp-3639982"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "彝舟"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Tzŭ",
+        "system": "ECCP spelling",
+        "source": "eccp-3639982"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1810,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639982",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639982",
+      "passage": "eccp-3639982-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639982": {
+      "title": "ECCP · Hsü Tzŭ",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282839",
+      "locator": "eccp-3639982-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636391": {
+      "title": "ECCP · 秋瑾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272491",
+      "locator": "eccp-3636391-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634083": {
+      "title": "ECCP · 陳維崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280420",
+      "locator": "eccp-3634083-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640006": {
+      "title": "ECCP · 黃淳耀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282888",
+      "locator": "eccp-3640006-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645516": {
+      "title": "ECCP · 劉良佐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299484",
+      "locator": "eccp-3645516-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

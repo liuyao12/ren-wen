@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-78755496a0748d76",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "宗昉",
+    "source": "eccp-3639193",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "山陽",
+      "source": "qsg-volume-375",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李宗昉，字芝齡，江蘇山陽人。",
+          "source": "qsg-volume-375",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Li Tsung-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639193"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-375",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-375",
+      "passage": "qsg-volume-375-022",
+      "matchStatus": "proposed",
+      "evidence": "李宗昉，字芝齡，江蘇山陽人。嘉慶七年一甲二名進士，授編修，典陝甘鄉試。大考二等，擢贊善。督貴州學政，累遷侍讀學士，督浙江學政。歷詹事、內閣學士。道光元年，授禮部侍郎。次年，典會試，又典江西鄉試，留學政。值大水，歲饑，與巡撫籌賑務，多所全活。調戶部侍郎。初，宗昉督學貴州時，巡撫議丈全省田為增賦計，民情惶駭，會檄學官徵集圖書，得御史包承祚奏疏，乾隆初，學政鄒一桂請丈田，而承祚奏駁之，極言黔中山多平地少，民每虛佔不毛之地，胥吏高下其手，以丈高下不可準之田，賦未必增，民受其害。部議停止，宗昉持以示巡撫曰"
+    }
+  ],
+  "sources": {
+    "eccp-3639193": {
+      "title": "ECCP · 福康安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280189",
+      "locator": "eccp-3639193-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-375": {
+      "title": "清史稿/卷375",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292895",
+      "locator": "qsg-volume-375-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

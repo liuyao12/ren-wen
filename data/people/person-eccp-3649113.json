@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649113",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "明安圖",
+    "source": "eccp-3649113",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MINGGANTU (bayan) 明安圖 (巴顏), was a member of the Namdulu clan and chieftain of the Suifun 綏芬 branch when in 1610 an expedition sent by Nurhaci [q. v.] demanded the submission of this division of the Weji tribe.",
+          "source": "eccp-3649113",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "明安圖，博爾濟吉特氏，蒙古正紅旗人。",
+          "source": "qsg-volume-334",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "明安圖，字靜庵，蒙古正白旗人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Minggantu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649113"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649113",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649113",
+      "passage": "eccp-3649113-001"
+    },
+    {
+      "source": "qsg-volume-334",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-334",
+      "passage": "qsg-volume-334-054",
+      "matchStatus": "proposed",
+      "evidence": "明安圖，博爾濟吉特氏，蒙古正紅旗人。以雲騎尉授三等侍衛，累遷湖南保靖營游擊。從征金川，大小戰五十有四，敘功，累遷鎮筸鎮總兵。貴州、湖北苗石柳鄧、石三保等糾眾為亂，明安圖督兵禦戰，永綏協副將伊薩納赴援，同戰死。苗攻滾牛坡，劫我軍饋運，雲南鶴麗鎮中營游擊永舒、四川阜和協左營都司班第共擊之，沒於陣。"
+    },
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-064",
+      "matchStatus": "proposed",
+      "evidence": "明安圖，字靜庵，蒙古正白旗人。官欽天監監正。受數學於聖祖，預修禦定歷象考成後編、禦定儀象考成。因西士杜德美用連比例演周徑密率及求正弦、正矢之法，知其理深奧，索解未易，因積思三十餘年，著割圜密率捷法四卷。一曰步法，於杜氏三法外，補創弧背求通弦、求矢法，仍杜氏原法，但通加一四除耳。又弦、矢求弧背，並通弦、矢求弧背，凡六法，合杜氏共成九法。其弦求弧背法，以弦為連比例二率，半徑為一率，求得二、四、六、八、十諸率，以一、三、五、七、九之五數各自乘，為累次乘數。二、三、四、五、六、七、八、九相挨，兩兩相乘，"
+    }
+  ],
+  "sources": {
+    "eccp-3649113": {
+      "title": "ECCP · Minggantu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317673",
+      "locator": "eccp-3649113-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639250": {
+      "title": "ECCP · 何國宗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280270",
+      "locator": "eccp-3639250-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642370": {
+      "title": "ECCP · 康果禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290408",
+      "locator": "eccp-3642370-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

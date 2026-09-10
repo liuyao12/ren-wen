@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4637dfca17b12e14",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "文哲",
+    "source": "eccp-3672749",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "上海",
+      "source": "qsg-volume-489",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "趙文哲，字升之，江蘇上海人。",
+          "source": "qsg-volume-489",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "江蘇松江府上海縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "升之",
+        "source": "eccp-3672749"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "升之"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Wên-chê",
+        "system": "ECCP spelling",
+        "source": "eccp-3672749"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1725,
+        "source": "eccp-3672749",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1773,
+        "source": "eccp-3672749",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-489",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-489",
+      "passage": "qsg-volume-489-008",
+      "matchStatus": "proposed",
+      "evidence": "趙文哲，字升之，江蘇上海人。生有異禀，讀書數行下。同時靑浦王昶，嘉定王鳴盛、曹仁虎皆以能詩名，獨心折文哲。爲人瘦不勝衣，而意氣髙邁，由廩生應乾隆二十七年南巡召試，賜舉人，授内閣中書，在軍機章京上行走。以原任兩淮鹽運使盧見曾査抄案通信寄頓，褫職。時大軍徴緬甸，署雲南總督阿桂奏請隨軍。阿桂由緬至蜀，將軍温福方督師徴金川，見文哲，與語，大悅之。時温福與阿桂分兵，文哲遂入温福幕。温福重文哲，片時不見，輒令人覘文哲何作。已而連克金川地，三十七年十月，遂剿平美諾。以功復中書，又授戸部主事，仍隨營治事。三十八"
+    }
+  ],
+  "sources": {
+    "eccp-3672749": {
+      "title": "ECCP · 王鳴盛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412322",
+      "locator": "eccp-3672749-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷58 · 江蘇",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷58",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "松江府下上海"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

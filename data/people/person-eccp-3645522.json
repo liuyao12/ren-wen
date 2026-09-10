@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645522",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "挺",
+    "source": "eccp-3645522",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU T'ing 劉挺 (T. 省吾, 子綬) d. Apr. 17, 1619, age 67 (sui), Ming general, was the son of a provincial general-in-chief 都督 and a native of Nan-ch'ang, Kiangsi. Having accompanied his father on an expedition to the southwest, he distinguished himself in 1583 in warfare with the tribes on the Yunnan-Burma frontier.",
+          "source": "eccp-3645522",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "省吾",
+        "source": "eccp-3645522"
+      },
+      {
+        "value": "子綬",
+        "source": "eccp-3645522"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "省吾"
+    },
+    "romanizations": [
+      {
+        "value": "Liu T'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3645522"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645522",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645522",
+      "passage": "eccp-3645522-001"
+    }
+  ],
+  "sources": {
+    "eccp-3645522": {
+      "title": "ECCP · Liu T'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299495",
+      "locator": "eccp-3645522-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678073": {
+      "title": "ECCP · 楊鎬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442415",
+      "locator": "eccp-3678073-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

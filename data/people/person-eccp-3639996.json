@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639996",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "懷宗",
+    "source": "eccp-3639996",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Huai-tsung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639996"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639996",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3639996",
+      "passage": "eccp-3639996-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639996": {
+      "title": "ECCP · Huai-tsung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282870",
+      "locator": "eccp-3639996-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636431": {
+      "title": "ECCP · 朱由檢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272570",
+      "locator": "eccp-3636431-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-086",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

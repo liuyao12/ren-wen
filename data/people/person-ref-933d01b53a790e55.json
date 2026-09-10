@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-933d01b53a790e55",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "昌綬",
+    "source": "eccp-3642427",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "印丞",
+        "source": "eccp-3642427"
+      },
+      {
+        "value": "伯宛",
+        "source": "eccp-3642427"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松隣",
+        "source": "eccp-3642427"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "印丞"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ch'ang-shou",
+        "system": "ECCP spelling",
+        "source": "eccp-3642427"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3642427": {
+      "title": "ECCP · 龔自珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290533",
+      "locator": "eccp-3642427-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d288ff36aaef9a2e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "光清",
+    "source": "eccp-3635441",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "藑那",
+        "source": "eccp-3635441"
+      },
+      {
+        "value": "雲堂",
+        "source": "eccp-3635441"
+      }
+    ],
+    "hao": [
+      {
+        "value": "心如",
+        "source": "eccp-3635441"
+      },
+      {
+        "value": "天田牧",
+        "source": "eccp-3635441"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "藑那"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Kuang-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3635441"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1797,
+        "source": "eccp-3635441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1880,
+        "source": "eccp-3635441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635441": {
+      "title": "ECCP · 蔣光煦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271719",
+      "locator": "eccp-3635441-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

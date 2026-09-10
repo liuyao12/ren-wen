@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7c0ea1dab7baab22",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "左",
+    "given": "寶貴",
+    "source": "eccp-3656325",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "左寶貴，字冠廷，山東費人。",
+          "source": "qsg-volume-460",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "冠廷",
+        "source": "eccp-3656325"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "冠廷"
+    },
+    "romanizations": [
+      {
+        "value": "Tso Pao-kuei",
+        "system": "ECCP spelling",
+        "source": "eccp-3656325"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-460",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-460",
+      "passage": "qsg-volume-460-007",
+      "matchStatus": "proposed",
+      "evidence": "左寶貴，字冠廷，山東費人。咸豐初，隸江南軍。嘗令當前敵，陣既接，旗兵中砲，殪，寶貴持其幟衝鋒入，大捷，繇是知名。獲苗沛霖，克金陵，頻有功。後以游擊從僧格林沁討捻，積勳至副將。光緒初，尚書崇實巡視奉天、吉林，奏自隨。既至，斬高希珍於土門，誅宋三好於石砬子。邊外東北廟溝金宮四構黨圖大舉，复捕治之，餘燼悉平，賜號鏗色巴圖魯，晉記名提督。授高州鎮總兵，仍留奉天。平朝陽教匪，賞黃馬褂、雙眼花翎，駐瀋陽。"
+    }
+  ],
+  "sources": {
+    "eccp-3656325": {
+      "title": "ECCP · 宋慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365074",
+      "locator": "eccp-3656325-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-460": {
+      "title": "清史稿/卷460",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2024587",
+      "locator": "qsg-volume-460-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ecb860e58e59da7e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "葆田",
+    "source": "eccp-3633311",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "榮成",
+      "source": "qsg-volume-479",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫葆田，字佩南，山東榮成人。",
+          "source": "qsg-volume-479",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "佩南",
+        "source": "eccp-3633311"
+      }
+    ],
+    "hao": [
+      {
+        "value": "嗇庵",
+        "source": "eccp-3633311"
+      },
+      {
+        "value": "嗇翁",
+        "source": "eccp-3633311"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "佩南"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Pao-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3633311"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3633311",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1911,
+        "source": "eccp-3633311",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-479",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-479",
+      "passage": "qsg-volume-479-080",
+      "matchStatus": "proposed",
+      "evidence": "孫葆田，字佩南，山東榮成人。同治十三年進士，授刑部主事，改知縣，銓授安徽宿松。勤政愛民，日坐堂皇，妻紡績，室中蕭然如寒士。調合肥，大學士李鴻章弟子之傔人橫於鄉，以逼債毆人死。葆田檢驗屍傷，觀者數万人，恐縣令為豪強迫脅驗不實。葆田命仵作曰：「敢欺罔者論如律。」得致命狀，人皆歡噪，謂包龍圖復出，讞遂定。有御史劾葆田誤入人死罪，詔巡撫陳彝按之，卒直原讞。葆田遂自免歸，名聞天下。逾數年，安徽將清丈民田，巡撫福潤疏調葆田主其事，辭不赴。貽書當事，言清丈病民，陳：「清賦之要，熟地報荒者，當寬其既往，限年墾复"
+    }
+  ],
+  "sources": {
+    "eccp-3633311": {
+      "title": "ECCP · 張裕釗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271676",
+      "locator": "eccp-3633311-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

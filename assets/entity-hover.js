@@ -1,3 +1,4 @@
+import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 /** Accessible, non-modal navigation cards for annotated people and named works. */
 import {escapeHTML as h} from './core.js';
@@ -21,7 +22,7 @@ export function linkWorkMentions(reader,works) {
 
 export async function installHover() {
   const reader=document.getElementById('reader');if(!reader)return;
-  const [ps,ws,r]=await Promise.all([loadProfiles(),loadWorks(),fetch('data/catalog.json')]);
+  const [ps,ws,r]=await Promise.all([loadProfiles(),loadWorks(),fetchData('data/catalog.json')]);
   if(!r.ok)throw Error('Hover navigation: catalogue unavailable.');
   const catalog=await r.json(),people=new Map(ps.map(p=>[p.id,p])),works=new Map(ws.map(w=>[w.id,w]));
   const card=document.createElement('div');card.id='entity-card';card.className='entity-card';card.hidden=true;

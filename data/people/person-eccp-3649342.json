@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649342",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "彭",
+    "given": "紹升",
+    "source": "eccp-3649342",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'ÊNG Shao-shêng 彭紹升 (T. 允初, H. 尺木, 知歸子, 際清), 1740–1796, Feb. 28, Buddhist lay-monk and philosopher, was a native of Ch'ang-chou, Kiangsu. The fourth son of P'êng Ch'i-fêng (see under P'êng Ting-ch'iu), he lost the sight of one eye when a child, but despite this handicap was able while young to master the Confucian Classics.",
+          "source": "eccp-3649342",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "允初",
+        "source": "eccp-3649342"
+      }
+    ],
+    "hao": [
+      {
+        "value": "尺木",
+        "source": "eccp-3649342"
+      },
+      {
+        "value": "知歸子",
+        "source": "eccp-3649342"
+      },
+      {
+        "value": "際清",
+        "source": "eccp-3649342"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "允初"
+    },
+    "romanizations": [
+      {
+        "value": "P'êng Shao-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3649342"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1740,
+        "source": "eccp-3649342",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1796,
+        "source": "eccp-3649342",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649342",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649342",
+      "passage": "eccp-3649342-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649342": {
+      "title": "ECCP · P'êng Shao-shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318095",
+      "locator": "eccp-3649342-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649349": {
+      "title": "ECCP · 彭定求",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318104",
+      "locator": "eccp-3649349-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649351": {
+      "title": "ECCP · 彭蘊章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-160",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-256",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

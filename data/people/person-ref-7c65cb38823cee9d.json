@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7c65cb38823cee9d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "墉",
+    "source": "eccp-3672727",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "嘉善",
+      "source": "qsg-volume-305",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "謝墉，字昆城，浙江嘉善人。",
+          "source": "qsg-volume-305",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "崑城",
+        "source": "eccp-3672727"
+      }
+    ],
+    "hao": [
+      {
+        "value": "金圃",
+        "source": "eccp-3672727"
+      },
+      {
+        "value": "東墅",
+        "source": "eccp-3672727"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "崑城"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3672727"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1719,
+        "source": "eccp-3672727",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1795,
+        "source": "eccp-3672727",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-305",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-305",
+      "passage": "qsg-volume-305-048",
+      "matchStatus": "proposed",
+      "evidence": "謝墉，字昆城，浙江嘉善人。乾隆十六年，上南巡，墉以優貢生召試，賜舉人，授內閣中書。十七年，成進士，改庶吉士，授編修。坐撰閩浙總督喀爾吉善碑文語失當，下部議，降調。二十四年，回部平，墉擬鐃歌上，上命复官，直上書房。五遷工部侍郎，督江蘇學政。四十三年，調禮部。四十五年，調吏部。廣西全州知州彭曰龍坐縱革役复充，奪官，詣部請捐复。大學士阿桂領吏部，將許之，墉以為不可。時有山東商河教諭侯華捐复，方議駁，墉援以例曰龍。阿桂疑墉為華地，奏聞。上命訊，華力言無囑託，乃用墉議，不許曰龍捐复。四十八年，复督江蘇學政"
+    }
+  ],
+  "sources": {
+    "eccp-3672727": {
+      "title": "ECCP · 汪中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412283",
+      "locator": "eccp-3672727-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

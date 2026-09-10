@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643666",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "文田",
+    "source": "eccp-3643666",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "順德",
+      "source": "qsg-volume-441",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Wên-t'ien 李文田 (T. 仲約, 畬光, H. 芍[若]農), 1834–1895, Dec. 6, official and scholar, was a native of Shun-tê, Kwangtung, but spent much of his youth at Fo-shan (Fatshan) in the neighboring district of Nan-hai, where his father was in business.",
+          "source": "eccp-3643666",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李文田，字芍農，廣東順德人。",
+          "source": "qsg-volume-441",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲約",
+        "source": "eccp-3643666"
+      },
+      {
+        "value": "畬光",
+        "source": "eccp-3643666"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芍",
+        "source": "eccp-3643666"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲約"
+    },
+    "romanizations": [
+      {
+        "value": "Li Wên-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3643666"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3643666",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1895,
+        "source": "eccp-3643666",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643666",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643666",
+      "passage": "eccp-3643666-001"
+    },
+    {
+      "source": "qsg-volume-441",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-441",
+      "passage": "qsg-volume-441-011",
+      "matchStatus": "proposed",
+      "evidence": "李文田，字芍農，廣東順德人。咸豐九年一甲三名進士，授編修。入直南書房，充日講起居注官。同治五年，大考，晉中允。九年，督江西學政。累遷侍讀學士。秩滿，其母年已七十有七矣，將乞終養，會聞朝廷議修園籞，遂入都覆命。既至，謁軍機大臣寶鋆，告以東南事可危，李光昭姦猥無行，責其不能匡救。寶鋆曰：「居南齋亦可言，奚必責樞府？」文田日：「正為是來耳！」疏上，不報。逾歲，上停止園工封事，略言：「巴夏禮等焚毀圓明園，其人尚存。昔既焚之而不懼，安能禁其後之不復為？常人之家偶被盜劫，猶必固其門牆，慎其管鑰，未聞有揮金誇"
+    }
+  ],
+  "sources": {
+    "eccp-3643666": {
+      "title": "ECCP · Li Wên-t'ien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294913",
+      "locator": "eccp-3643666-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654355": {
+      "title": "ECCP · 盛昱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358407",
+      "locator": "eccp-3654355-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672755": {
+      "title": "ECCP · 汪士鐸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412330",
+      "locator": "eccp-3672755-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-441": {
+      "title": "清史稿/卷441",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611534",
+      "locator": "qsg-volume-441-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-445": {
+      "title": "清史稿/卷445",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433533",
+      "locator": "qsg-volume-445-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

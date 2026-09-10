@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640010",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "棃洲",
+    "source": "eccp-3640010",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Huang Li-chou",
+        "system": "ECCP spelling",
+        "source": "eccp-3640010"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640010",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3640010",
+      "passage": "eccp-3640010-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640010": {
+      "title": "ECCP · Huang Li-chou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282906",
+      "locator": "eccp-3640010-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

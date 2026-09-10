@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637600",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "宗誠",
+    "source": "eccp-3637600",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "存之",
+        "source": "eccp-3637600"
+      }
+    ],
+    "hao": [
+      {
+        "value": "柏堂",
+        "source": "eccp-3637600"
+      },
+      {
+        "value": "西眉山人",
+        "source": "eccp-3637600"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "存之"
+    },
+    "romanizations": [
+      {
+        "value": "Fang Tsung-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3637600"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3637600",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1888,
+        "source": "eccp-3637600",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637600",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637600",
+      "passage": "eccp-3637600-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637600": {
+      "title": "ECCP · Fang Tsung-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275795",
+      "locator": "eccp-3637600-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637548",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "莊",
+    "given": "烈愍皇帝",
+    "source": "eccp-3637548",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chuang-leih Min Huang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3637548"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637548",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3637548",
+      "passage": "eccp-3637548-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637548": {
+      "title": "ECCP · Chuang-leih Min Huang-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275715",
+      "locator": "eccp-3637548-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636431": {
+      "title": "ECCP · 朱由檢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272570",
+      "locator": "eccp-3636431-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-183",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

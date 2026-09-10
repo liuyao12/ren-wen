@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-adb72ab91f642cdf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "棨",
+    "source": "eccp-3645526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "諸城",
+      "source": "qsg-volume-476",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉棨，字弢子，山東諸城人。",
+          "source": "qsg-volume-476",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "弢子",
+        "source": "eccp-3645526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "弢子"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3645526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1656,
+        "source": "eccp-3645526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1717,
+        "source": "eccp-3645526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-476",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-476",
+      "passage": "qsg-volume-476-093",
+      "matchStatus": "proposed",
+      "evidence": "劉棨，字弢子，山東諸城人。康熙二十四年進士。三十四年，授湖南長沙知縣，以廉明稱。時訛言裁兵，撫標千人環轅門大噪，棨為開陳大義，預給三月餉，示無裁意，眾乃定。總督吳琠以循良薦之。三十七年，擢陝西寧羌知州。關中大饑，漢南尤甚。州無宿儲，介萬山中，艱於輓運。棨請貸鄰邑倉粟，約民能負一斗至者予三升，不十日輓三千石。大吏下其法賑他邑，咸稱便。又奉檄賑洋縣，移粟沿漢而下。棨先遍歷審勘，剋期給發，數日而畢。謂洋令曰：「此粟貸之官，倘民不能償，吾兩人當代任。」比秋大熟，洋縣民相勉還粟，不煩催督。"
+    }
+  ],
+  "sources": {
+    "eccp-3645526": {
+      "title": "ECCP · 劉統勳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299504",
+      "locator": "eccp-3645526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-093",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645513",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "獻廷",
+    "source": "eccp-3645513",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Hsien-t'ing 劉獻廷 (T. 繼莊, 君賢, H. 廣陽子), Sept. 13, 1648–1695, Aug. 15, scholar, was a native of Ta-hsing (Peking). His father, Liu Kuang 劉鑛, was a physician and his elder brother, Liu Pin-t'ing 劉賓廷, was a chü-jên of 1663 who became a censor in 1684.",
+          "source": "eccp-3645513",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉獻廷，字繼莊，大興人，先世本吳人也。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "繼莊",
+        "source": "eccp-3645513"
+      },
+      {
+        "value": "君賢",
+        "source": "eccp-3645513"
+      }
+    ],
+    "hao": [
+      {
+        "value": "廣陽子",
+        "source": "eccp-3645513"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "繼莊"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Hsien-t'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3645513"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1648,
+        "source": "eccp-3645513",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1695,
+        "source": "eccp-3645513",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645513",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645513",
+      "passage": "eccp-3645513-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-197",
+      "matchStatus": "proposed",
+      "evidence": "劉獻廷，字繼莊，大興人，先世本吳人也。其學主經世，自象緯、律曆、音韻、險塞、財賦、軍政、以逮岐黃、釋老之書，無所不究習。與梁谿顧培、衡山王夫之、南昌彭士望為師友，而復往來崑山徐乾學之門。議論不隨人後。萬斯同引參明史館事，顧祖禹、黃儀亦引參一統志事。獻廷謂諸公考古有餘，實用則未也。"
+    }
+  ],
+  "sources": {
+    "eccp-3645513": {
+      "title": "ECCP · Liu Hsien-t'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299473",
+      "locator": "eccp-3645513-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633520": {
+      "title": "ECCP · 陳芳績",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271438",
+      "locator": "eccp-3633520-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635478": {
+      "title": "ECCP · 金人瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271745",
+      "locator": "eccp-3635478-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656321": {
+      "title": "ECCP · 孫延齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365064",
+      "locator": "eccp-3656321-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656338": {
+      "title": "ECCP · 戴名世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672729": {
+      "title": "ECCP · 王輔臣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412285",
+      "locator": "eccp-3672729-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-173",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-197",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

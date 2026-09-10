@@ -18,7 +18,11 @@
         "source": "batch-evidence"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    }
   },
   "life": {
     "birth": null,
@@ -41,6 +45,20 @@
       "locator": "Explicit see-under reference in eccp-guo-songtao-07",
       "access": "cross-reference",
       "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640790": {
+      "title": "ECCP · 洪仁玕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285331",
+      "locator": "eccp-3640790-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643625": {
+      "title": "ECCP · 李秀成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294833",
+      "locator": "eccp-3643625-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "externalIds": {

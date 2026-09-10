@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640016",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "紹箕",
+    "source": "eccp-3640016",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Shao-chi 黃紹箕 (T. 仲弢, H. 鮮庵), 1854–1908, Jan., official and educationalist, a native of Jui-an, Chekiang, was a son of Huang T'i-fang [q. v.]. In youth he studied Sung philosophy and the methods of the School of Han Learning (see under Ku Yen-wu), but later was much influenced by the pragmatic ideas of Chang Chih-tung [q. v.].",
+          "source": "eccp-3640016",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲弢",
+        "source": "eccp-3640016"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鮮庵",
+        "source": "eccp-3640016"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲弢"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Shao-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3640016"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3640016",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3640016",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640016",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640016",
+      "passage": "eccp-3640016-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640016": {
+      "title": "ECCP · Huang Shao-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633258": {
+      "title": "ECCP · 張之洞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271567",
+      "locator": "eccp-3633258-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640022": {
+      "title": "ECCP · 黃體芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282942",
+      "locator": "eccp-3640022-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

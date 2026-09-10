@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-53c6fa93b30104ad",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惲",
+    "given": "日初",
+    "source": "eccp-3678482",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "惲日初，字仲升，號遜菴，武進人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲升",
+        "source": "eccp-3678482"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遜庵",
+        "source": "eccp-3678482"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲升"
+    },
+    "romanizations": [
+      {
+        "value": "Yün Jih-ch'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3678482"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1601,
+        "source": "eccp-3678482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1678,
+        "source": "eccp-3678482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-066",
+      "matchStatus": "proposed",
+      "evidence": "惲日初，字仲升，號遜菴，武進人。崇禎癸酉副榜。久留京師，應詔上備邊五策，不報。知時事不可為，乃歸隱天台山。兩京亡，唐王立福州，魯王亦監國紹興，吏部侍郎姜垓薦日初知兵，魯王遣使聘之，固辭不起。大兵下浙，避走福州；福州破，走廣州；廣州复破，乃祝髮為浮圖，復至建陽。"
+    }
+  ],
+  "sources": {
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

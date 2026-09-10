@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634146",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "恩澤",
+    "source": "eccp-3634146",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歙縣",
+      "source": "qsg-volume-376",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊNG Ên-tsê 程恩澤 (T. 雲芬, H. 春海), 1785–1837, Aug. 29, official, was a native of Shê-hsien, Anhwei. His father, Ch'êng Ch'ang-ch'i 程昌期 (T. 階平, H. 蘭翹, 1753–1795, chin-shih of 1780), died at his post as educational commissioner of Shantung when Ch'êng Ên-tsê was eleven sui.",
+          "source": "eccp-3634146",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "程恩澤，字春海，安徽歙縣人。",
+          "source": "qsg-volume-376",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雲芬",
+        "source": "eccp-3634146"
+      }
+    ],
+    "hao": [
+      {
+        "value": "春海",
+        "source": "eccp-3634146"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲芬"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng Ên-tsê",
+        "system": "ECCP spelling",
+        "source": "eccp-3634146"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3634146",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3634146",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634146",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634146",
+      "passage": "eccp-3634146-001"
+    },
+    {
+      "source": "qsg-volume-376",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-376",
+      "passage": "qsg-volume-376-024",
+      "matchStatus": "proposed",
+      "evidence": "程恩澤，字春海，安徽歙縣人。父昌期，乾隆四十五年一甲三名進士，累官至侍講學士，直上書房。恩澤勤學嗜奇，受經於江都凌廷堪，廷堪勗之曰：「學必天人並至，博而能精，所成乃大。」嘉慶十六年，成進士，選庶吉士，授編修。道光元年，入直南書房，宣宗曰：「汝父蘭翹先生昔年在上書房，朕敬其品學。汝之聲名，亦所深悉，宜更守素行。」典試四川。三年，督貴州學政，勸民育栗蠶，其利大行。重刊岳珂五經以訓士。鄭珍有異才，特優異之，餉以學，卒為碩儒。六年，調湖南學政。任滿回京，洊擢國子監祭酒。命充春秋左傳纂修官，推本賈、服，不"
+    }
+  ],
+  "sources": {
+    "eccp-3634146": {
+      "title": "ECCP · Ch'êng Ên-tsê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271537",
+      "locator": "eccp-3634146-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635427": {
+      "title": "ECCP · 祁寯藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271391",
+      "locator": "eccp-3635427-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634093": {
+      "title": "ECCP · 鄭珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271757",
+      "locator": "eccp-3634093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-376": {
+      "title": "清史稿/卷376",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292897",
+      "locator": "qsg-volume-376-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-244",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-177",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-197",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

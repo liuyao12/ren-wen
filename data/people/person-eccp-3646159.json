@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646159",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "冒",
+    "given": "襄",
+    "source": "eccp-3646159",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MAO Hsiang 冒襄 (T. 辟疆, H. 巢民, 樸庵), Apr. 27, 1611–1693, Dec. 31, scholar, poet, was a native of Ju-kao, Kiangsu. He came from a family, probably of Mongolian origin, which had been domiciled in Ju-kao since the end of the Yüan dynasty.",
+          "source": "eccp-3646159",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "冒襄，字辟疆，別號巢民，如皋人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "辟疆",
+        "source": "eccp-3646159"
+      }
+    ],
+    "hao": [
+      {
+        "value": "巢民",
+        "source": "eccp-3646159"
+      },
+      {
+        "value": "樸庵",
+        "source": "eccp-3646159"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "辟疆"
+    },
+    "romanizations": [
+      {
+        "value": "Mao Hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3646159"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3646159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1693,
+        "source": "eccp-3646159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646159",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646159",
+      "passage": "eccp-3646159-001"
+    },
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-024",
+      "matchStatus": "proposed",
+      "evidence": "冒襄，字辟疆，別號巢民，如皋人。父起宗，明副使。襄十歲能詩，董其昌為作序。崇禎壬午副榜貢生，當授推官，會亂作，遂不出。與桐城方以智、宜興陳貞慧、商丘侯方域，並稱「四公子」。襄少年負盛氣，才特高，尤能傾動人。嘗置酒桃葉渡，會六君子諸孤，一時名士咸集。酒酣，輒發狂悲歌，訾詈懷寧阮大鋮，大鋮故奄黨也。時金陵歌舞諸部，以懷寧為冠，歌詞皆出大鋮。大鋮欲自結諸社人，令歌者來，襄與客且罵且稱善，大鋮聞之益恨。甲申黨獄興，襄賴救僅免。家故有園池亭館之勝，歸益喜客，招致無虛日，家自此中落，怡然不悔也。"
+    }
+  ],
+  "sources": {
+    "eccp-3646159": {
+      "title": "ECCP · Mao Hsiang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633515": {
+      "title": "ECCP · 陳貞慧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634083": {
+      "title": "ECCP · 陳維崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280420",
+      "locator": "eccp-3634083-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639271": {
+      "title": "ECCP · 孝獻皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280302",
+      "locator": "eccp-3639271-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640016": {
+      "title": "ECCP · 黃紹箕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640826": {
+      "title": "ECCP · 奕繪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285414",
+      "locator": "eccp-3640826-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

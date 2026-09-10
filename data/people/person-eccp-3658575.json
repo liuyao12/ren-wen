@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658575",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "經",
+    "source": "eccp-3658575",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN Ching 萬經 (T. 授一, H. 九沙, 小跛), Feb. 4, 1659-1741, Mar. 11, scholar and calligrapher, a native of Yin-hsien, Chekiang, was the son of Wan Ssŭ-ta and grandson of Wan T'ai [qq. v.]. He was brought up in Hangchow and later made his home there.",
+          "source": "eccp-3658575",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "授一",
+        "source": "eccp-3658575"
+      }
+    ],
+    "hao": [
+      {
+        "value": "九沙",
+        "source": "eccp-3658575"
+      },
+      {
+        "value": "小跛",
+        "source": "eccp-3658575"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "授一"
+    },
+    "romanizations": [
+      {
+        "value": "Wan Ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3658575"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1659,
+        "source": "eccp-3658575",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1741,
+        "source": "eccp-3658575",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658575",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658575",
+      "passage": "eccp-3658575-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658575": {
+      "title": "ECCP · Wan Ching",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370139",
+      "locator": "eccp-3658575-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639236": {
+      "title": "ECCP · 杭世駿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280249",
+      "locator": "eccp-3639236-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672709": {
+      "title": "ECCP · 萬斯大",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412227",
+      "locator": "eccp-3672709-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

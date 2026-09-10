@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678438",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "于",
+    "given": "敏中",
+    "source": "eccp-3678438",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "金壇",
+      "source": "qsg-volume-319",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Min-chung 于敏中 (T. 重常, H. 叔子, 耐圃), 1714–1780, Jan. 23, official, was a native of Chin-t'an, Kiangsu. He came from an illustrious family; his great-grandfather, Yü Ssŭ-ch'ang 于嗣昌 (T. 九扶, H. 毅庵, chin-shih of 1661, d.",
+          "source": "eccp-3678438",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "于敏中，字叔子，江蘇金壇人。",
+          "source": "qsg-volume-319",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "重常",
+        "source": "eccp-3678438"
+      }
+    ],
+    "hao": [
+      {
+        "value": "叔子",
+        "source": "eccp-3678438"
+      },
+      {
+        "value": "耐圃",
+        "source": "eccp-3678438"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "重常"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Min-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678438"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1714,
+        "source": "eccp-3678438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1780,
+        "source": "eccp-3678438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678438",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678438",
+      "passage": "eccp-3678438-001"
+    },
+    {
+      "source": "qsg-volume-319",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-319",
+      "passage": "qsg-volume-319-006",
+      "matchStatus": "proposed",
+      "evidence": "于敏中，字叔子，江蘇金壇人。乾隆三年一甲一名進士，授翰林院修撰。以文翰受高宗知，直懋勤殿，敕書華嚴、楞嚴兩經。累遷侍講，典山西鄉試，督山東、浙江學政。十五年，直上書房。累遷內閣學士。十八年，复督山東學政。擢兵部侍郎。二十一年，丁本生父憂，歸宗持服。逾年，起署刑部侍郎。二十三年，嗣父枋歿，回籍治喪。未幾，丁本生母憂，未以上聞。御史朱嵇疏劾敏中「兩次親喪，蒙混為一，恝然赴官」。並言：「部臣與疆臣異，不宜奪情任事。」詔原之。尋實授。調戶部，管錢法堂事。二十五年，命為軍機大臣。敏中敏捷過人，承旨得上意。"
+    }
+  ],
+  "sources": {
+    "eccp-3678438": {
+      "title": "ECCP · Yü Min-chung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3679857": {
+      "title": "ECCP · A Note on Ch'üan Tsu-wang, Chao I-ch'ing and Tai Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=14939986",
+      "locator": "eccp-3679857-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635456": {
+      "title": "ECCP · 錢灃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271408",
+      "locator": "eccp-3635456-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639189": {
+      "title": "ECCP · 傅恆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280183",
+      "locator": "eccp-3639189-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640793": {
+      "title": "ECCP · 弘歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285336",
+      "locator": "eccp-3640793-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646128": {
+      "title": "ECCP · 陸錫熊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300525",
+      "locator": "eccp-3646128-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

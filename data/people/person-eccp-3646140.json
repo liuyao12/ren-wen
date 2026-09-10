@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646140",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "隆科多",
+    "source": "eccp-3646140",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LUNGKODO 隆科多, d. 1728, official, was the third son of T'ung Kuo-wei [q. v.], and a member of the Manchu Bordered Yellow Banner. His aunt was the mother of Emperor Shêng-tsu. That emperor took two of Lungkodo's sisters as concubines, one of whom was elevated to empress (Empress Hsiao-i, see under T'ung Kuo-wei) shortly before her death in 1689.",
+          "source": "eccp-3646140",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "隆科多，佟佳氏，滿洲鑲黃旗人，一等公佟國維子，孝懿仁皇后弟也。",
+          "source": "qsg-volume-295",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Lungkodo",
+        "system": "ECCP spelling",
+        "source": "eccp-3646140"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646140",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646140",
+      "passage": "eccp-3646140-001"
+    },
+    {
+      "source": "qsg-volume-295",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-295",
+      "passage": "qsg-volume-295-002",
+      "matchStatus": "proposed",
+      "evidence": "隆科多，佟佳氏，滿洲鑲黃旗人，一等公佟國維子，孝懿仁皇后弟也。"
+    }
+  ],
+  "sources": {
+    "eccp-3646140": {
+      "title": "ECCP · Lungkodo",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633251": {
+      "title": "ECCP · 查嗣庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271544",
+      "locator": "eccp-3633251-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-015",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646151": {
+      "title": "ECCP · 馬齊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300570",
+      "locator": "eccp-3646151-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649146": {
+      "title": "ECCP · 年羹堯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317726",
+      "locator": "eccp-3649146-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658559": {
+      "title": "ECCP · 佟國維",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370116",
+      "locator": "eccp-3658559-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658560": {
+      "title": "ECCP · 佟圖賴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370117",
+      "locator": "eccp-3658560-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · 圖理琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678139": {
+      "title": "ECCP · 延信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442942",
+      "locator": "eccp-3678139-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678153": {
+      "title": "ECCP · 胤禎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442972",
+      "locator": "eccp-3678153-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678170": {
+      "title": "ECCP · 胤祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443034",
+      "locator": "eccp-3678170-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678171": {
+      "title": "ECCP · 胤禩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443036",
+      "locator": "eccp-3678171-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678173": {
+      "title": "ECCP · 胤禟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443038",
+      "locator": "eccp-3678173-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678176": {
+      "title": "ECCP · 胤禵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443043",
+      "locator": "eccp-3678176-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-287": {
+      "title": "清史稿/卷287",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433571",
+      "locator": "qsg-volume-287-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-295": {
+      "title": "清史稿/卷295",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4468582",
+      "locator": "qsg-volume-295-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2c5710237b535c1e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "周",
+    "given": "盛波",
+    "source": "eccp-3645518",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-416",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "周盛波，字海舲，安徽合肥人。",
+          "source": "qsg-volume-416",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "海舲",
+        "source": "eccp-3645518"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "海舲"
+    },
+    "romanizations": [
+      {
+        "value": "Chou Shêng-po",
+        "system": "ECCP spelling",
+        "source": "eccp-3645518"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-416",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-416",
+      "passage": "qsg-volume-416-035",
+      "matchStatus": "proposed",
+      "evidence": "周盛波，字海舲，安徽合肥人。咸豐三年，粵匪陷安慶，皖北土匪紛起，盛波兄弟六人，團練鄉勇保衛鄉里，屢出殺賊。兄盛華及弟三人皆死事，惟存盛波與弟盛傳，以勇名。陳玉成、陳得才等屢擾境，盛波等以練丁二千隨方迎敵，相持數年，遂越境出剿近縣，餉械皆所自備，累獎守備。"
+    }
+  ],
+  "sources": {
+    "eccp-3645518": {
+      "title": "ECCP · 劉銘傳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299488",
+      "locator": "eccp-3645518-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-416": {
+      "title": "清史稿/卷416",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2651422",
+      "locator": "qsg-volume-416-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

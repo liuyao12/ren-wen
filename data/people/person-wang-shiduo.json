@@ -32,7 +32,18 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Shih-to 汪士鐸 (original ming 鏊, T. 振庵, 晉侯, 梅村 H. 悔翁, 芝生, 無不悔翁}}, July 14, 1802–1889, Aug. 3, scholar, was a native of Nanking. His father, Wang Chün 汪均 (T. 治平, 1765–1832), was a follower of Neo-Confucianism and a strict disciplinarian.",
+          "source": "eccp-3672755",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
@@ -72,6 +83,12 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Wang_Shih-to",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3672755",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672755",
+      "passage": "eccp-3672755-001"
     }
   ],
   "sources": {
@@ -94,6 +111,41 @@
       "url": "https://en.wikisource.org/w/index.php?oldid=11412330",
       "locator": "Preserved source opening, revision 11412330",
       "access": "source-extracted-opening",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672755": {
+      "title": "ECCP · Wang Shih-to",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412330",
+      "locator": "eccp-3672755-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639994": {
+      "title": "ECCP · 胡林翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282866",
+      "locator": "eccp-3639994-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645527": {
+      "title": "ECCP · 劉文淇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654367": {
+      "title": "ECCP · 石達開",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358434",
+      "locator": "eccp-3654367-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678075": {
+      "title": "ECCP · 楊秀清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442419",
+      "locator": "eccp-3678075-008",
+      "access": "full-text",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },

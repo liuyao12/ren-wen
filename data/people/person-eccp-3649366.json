@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649366",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "白",
+    "given": "潢",
+    "source": "eccp-3649366",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "PO Huang 白潢 (T. 近薇), Jan. 26, 1660–1737, official, was a member of the Chinese Bordered White Banner. In the Ming period his ancestors emigrated to the region of Liao-yang, where they founded the village of Po-chia chai 白家寨.",
+          "source": "eccp-3649366",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "近薇",
+        "source": "eccp-3649366"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "近薇"
+    },
+    "romanizations": [
+      {
+        "value": "Po Huang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649366"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1660,
+        "source": "eccp-3649366",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1737,
+        "source": "eccp-3649366",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649366",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649366",
+      "passage": "eccp-3649366-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649366": {
+      "title": "ECCP · Po Huang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318133",
+      "locator": "eccp-3649366-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

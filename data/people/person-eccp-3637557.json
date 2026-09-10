@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637557",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "崇綺",
+    "source": "eccp-3637557",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'UNG-ch'i 崇綺 (T. 文山), Oct. 13, 1829–1900, Aug. 26, official, father-in-law of Emperor Mu-tsung, was a Mongol of the Alute 阿魯特 Clan. His family belonged to the Mongol Plain Blue Banner.",
+          "source": "eccp-3637557",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "崇綺，字文山，阿魯特氏，蒙古正藍旗人，大學士賽尚阿子。",
+          "source": "qsg-volume-468",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文山",
+        "source": "eccp-3637557"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文山"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ung-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3637557"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3637557",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3637557",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637557",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637557",
+      "passage": "eccp-3637557-001"
+    },
+    {
+      "source": "qsg-volume-468",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-468",
+      "passage": "qsg-volume-468-007",
+      "matchStatus": "proposed",
+      "evidence": "崇綺，字文山，阿魯特氏，蒙古正藍旗人，大學士賽尚阿子。以穆後父貴，升隸滿洲鑲黃旗。初為工部主事，坐其父出師無功，褫職。咸豐四年，粵寇謀犯畿輔，充督練旗兵處文案，事寧，敘兵部七品筆帖式。英吉利兵艦窺天津，錄守內城功，擢主事。嗣遷員外郎。同治三年，將軍都興阿以崇綺諳兵事，奏自隨，兵部疏留。是歲成一甲一名進士，立國二百數十年，滿、蒙人試漢文獲授修撰者，止崇綺一人，士論榮之。九年，遷侍講，出典河南鄉試，充日講起居注官。十一年，詔冊其女為皇后，錫三等承恩公。歷遷內閣學士，戶部、吏部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3637557": {
+      "title": "ECCP · Ch'ung-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275731",
+      "locator": "eccp-3637557-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635437": {
+      "title": "ECCP · 江忠源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271712",
+      "locator": "eccp-3635437-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637575": {
+      "title": "ECCP · 遏必隆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275761",
+      "locator": "eccp-3637575-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639261": {
+      "title": "ECCP · 向榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280291",
+      "locator": "eccp-3639261-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639973": {
+      "title": "ECCP · 徐廣縉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282815",
+      "locator": "eccp-3639973-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640818": {
+      "title": "ECCP · 奕詝",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285393",
+      "locator": "eccp-3640818-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642422": {
+      "title": "ECCP · 桂良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290523",
+      "locator": "eccp-3642422-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672748": {
+      "title": "ECCP · 王懿榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412321",
+      "locator": "eccp-3672748-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675187": {
+      "title": "ECCP · 倭仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419943",
+      "locator": "eccp-3675187-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678442": {
+      "title": "ECCP · 袁昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443741",
+      "locator": "eccp-3678442-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-052",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-268",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-466": {
+      "title": "清史稿/卷466",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433546",
+      "locator": "qsg-volume-466-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-468": {
+      "title": "清史稿/卷468",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433572",
+      "locator": "qsg-volume-468-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

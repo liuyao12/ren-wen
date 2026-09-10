@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649095",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孟",
+    "given": "超然",
+    "source": "eccp-3649095",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MÊNG Ch'ao-jan 孟超然 (T. 朝舉, H. 瓶庵), 1731–1797, official and scholar, was a native of Foochow, Fukien. In 1759 he graduated as chü-jên with first honors, and in the following year took his chin-shih degree, entering the Hanlin Academy as a bachelor.",
+          "source": "eccp-3649095",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孟超然，字朝舉，閩縣人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "朝舉",
+        "source": "eccp-3649095"
+      }
+    ],
+    "hao": [
+      {
+        "value": "瓶庵",
+        "source": "eccp-3649095"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "朝舉"
+    },
+    "romanizations": [
+      {
+        "value": "Mêng Ch'ao-jan",
+        "system": "ECCP spelling",
+        "source": "eccp-3649095"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1731,
+        "source": "eccp-3649095",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1797,
+        "source": "eccp-3649095",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649095",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649095",
+      "passage": "eccp-3649095-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-247",
+      "matchStatus": "proposed",
+      "evidence": "孟超然，字朝舉，閩縣人。乾隆二十五年進士，選庶吉士，改兵部主事，累遷吏部郎中。三十年，典廣西試，尋督學四川，廉正不阿，遇士有禮。以蜀民父子兄弟異居者眾，作厚俗論以箴其失。旋以親老，請急歸，年甫四十二，遂不出。性至孝，侍父疾，躬執廁牏。戚族喪娶，雖空乏必應。嘗嘆服徐陵「我輩猶有車可賣」之言。其學以懲忿、窒慾、改過、遷善為主。嘗曰：「變化氣質，當學呂成公；刻意自責，當學吳聘君。」又曰：「談性命，則先儒之書已詳，不如歸諸實踐；博見聞，則將衰之年無及，不如反諸身心。」其讀商子云：「論至德者，不和於俗；成"
+    }
+  ],
+  "sources": {
+    "eccp-3649095": {
+      "title": "ECCP · Mêng Ch'ao-jan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317645",
+      "locator": "eccp-3649095-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634072": {
+      "title": "ECCP · 陳壽祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-247",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

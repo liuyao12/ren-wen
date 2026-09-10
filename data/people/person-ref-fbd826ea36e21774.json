@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-fbd826ea36e21774",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "與相",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "卜野",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "虛舟",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "卜野"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Yu-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1545,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1628,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

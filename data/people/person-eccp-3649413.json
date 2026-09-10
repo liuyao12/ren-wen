@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649413",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "廷芳",
+    "source": "eccp-3649413",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "畹叔",
+        "source": "eccp-3649413"
+      },
+      {
+        "value": "萩林",
+        "source": "eccp-3649413"
+      }
+    ],
+    "hao": [
+      {
+        "value": "椒園",
+        "source": "eccp-3649413"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "畹叔"
+    },
+    "romanizations": [
+      {
+        "value": "Shên T'ing-fang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649413"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3649413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3649413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649413",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649413",
+      "passage": "eccp-3649413-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649413": {
+      "title": "ECCP · Shên T'ing-fang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318208",
+      "locator": "eccp-3649413-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658536": {
+      "title": "ECCP · 杜受田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370072",
+      "locator": "eccp-3658536-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672743": {
+      "title": "ECCP · 王頊齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412310",
+      "locator": "eccp-3672743-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

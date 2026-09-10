@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ed7efdd380ff4e00",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "鶴年",
+    "source": "eccp-3646129",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "義州",
+      "source": "qsg-volume-450",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李鶴年，字子和，奉天義州人。",
+          "source": "qsg-volume-450",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子和",
+        "source": "eccp-3646129"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子和"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ho-nien",
+        "system": "ECCP spelling",
+        "source": "eccp-3646129"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-450",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-450",
+      "passage": "qsg-volume-450-006",
+      "matchStatus": "proposed",
+      "evidence": "李鶴年，字子和，奉天義州人。道光二十五年進士，由編修改御史，轉給事中。父憂歸，服除，命赴河南襄辦軍務。同治元年，授常鎮通海道，署河南按察使，調直隸，授布政使。四年，擢湖北巡撫，調河南。"
+    }
+  ],
+  "sources": {
+    "eccp-3646129": {
+      "title": "ECCP · 陸心源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300529",
+      "locator": "eccp-3646129-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-450": {
+      "title": "清史稿/卷450",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433591",
+      "locator": "qsg-volume-450-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674927",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "源",
+    "source": "eccp-3674927",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Yüan 王源 (T. 崑繩, H. 或庵), 1648–1710, scholar, was a native of Peking. One of his ancestors died in action while serving in the army of the Ming Emperor Ch'êng-tsu (see under Nurhaci) and was posthumously awarded the hereditary rank of an officer of the Imperial Bodyguard.",
+          "source": "eccp-3674927",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "Wang Yüan 王原 (T. 令詒, H. 學庵, 深廬, 西亭, chin-shih of 1688) whose name is pronounced the same and varies only slightly in the writing. This Wang Yuan was a native of Ch'ing-p'u, Kiangsu, who assisted Hsü in editing the gazetteer and later served as magistrate of Mao-ming, Kwangtung (1694–97), and of T'ung-jên, Kweichow (1698–1702); and as a censor (1702–05).",
+          "source": "eccp-3674927",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王源，字昆繩，大興人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "崑繩",
+        "source": "eccp-3674927"
+      }
+    ],
+    "hao": [
+      {
+        "value": "或庵",
+        "source": "eccp-3674927"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "崑繩"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3674927"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1648,
+        "source": "eccp-3674927",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1710,
+        "source": "eccp-3674927",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674927",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674927",
+      "passage": "eccp-3674927-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-173",
+      "matchStatus": "proposed",
+      "evidence": "王源，字昆繩，大興人。兄潔，少從梁以樟遊。以樟談宋儒學，源方髫齔，聞之不首肯，唯喜習知前代典要及關塞險隘攻守方略。年四十，遊京師。或病其不為時文，源笑曰：「是尚需學而能乎？」因就試，中康熙三十二年舉人。或勸更應禮部試，謝曰：「吾寄焉為謀生計，使無詬厲已耳！」崑山徐乾學開書局於洞庭山，招致天下名士，源與焉。於儕輩中獨與劉獻廷善，日討論天地陰陽之變，伯王大略，兵法、文章、典制，古今興亡之故，方域要害，近代人才邪正，其意見皆相同。獻廷歿，言之輒流涕。未幾，遇李塨，大悅之，曰：「自獻廷歿，豈意復見君乎！"
+    }
+  ],
+  "sources": {
+    "eccp-3674927": {
+      "title": "ECCP · Wang Yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645513": {
+      "title": "ECCP · 劉獻廷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299473",
+      "locator": "eccp-3645513-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-173",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

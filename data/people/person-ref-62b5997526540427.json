@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-62b5997526540427",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "聶",
+    "given": "士成",
+    "source": "eccp-3640953",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-467",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "聶士成，字功亭，安徽合肥人。",
+          "source": "qsg-volume-467",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "功亭",
+        "source": "eccp-3640953"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "功亭"
+    },
+    "romanizations": [
+      {
+        "value": "Nieh Shih-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3640953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-467",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-467",
+      "passage": "qsg-volume-467-014",
+      "matchStatus": "proposed",
+      "evidence": "聶士成，字功亭，安徽合肥人。初從袁甲三軍討捻，補把總。同治初，改隸淮軍，從劉銘傳分援江、浙、閩、皖，累遷至副將。東捻敗，賜號力勇巴圖魯，擢總兵。西捻平，晉提督。光緒十年，法人據基隆，率師渡台灣，屢戰卻敵。還北洋，統慶軍駐旅順。十七年，海軍大閱禮成，晉頭品秩。調統蘆臺淮、練諸軍，擊熱河朝陽教匪，擒斬其酋楊悅春，賞黃馬褂，易勇號曰巴圖隆阿。明年，授山西太原鎮總兵，仍留蘆臺治軍。請單騎巡邊，歷東三省俄羅斯東境、朝鮮八道，圖其山川阨塞，著東遊紀程。"
+    }
+  ],
+  "sources": {
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-467": {
+      "title": "清史稿/卷467",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611503",
+      "locator": "qsg-volume-467-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

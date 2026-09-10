@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635454",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "棨",
+    "source": "eccp-3635454",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN Ch'i 錢棨 (T. 振威, H. 湘舲), d. 1799, age fifty-eight (sui), man of letters, was a native of Ch'ang-chou, part of present Wu-hsien, Kiangsu. His family traced its ancestry to Ch'ien Liu (see under Ch'ien Tsêng), he himself being a descendant of Ch'ien Liu in the thirtieth generation.",
+          "source": "eccp-3635454",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "振威",
+        "source": "eccp-3635454"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湘舲",
+        "source": "eccp-3635454"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "振威"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3635454"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635454",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635454",
+      "passage": "eccp-3635454-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635454": {
+      "title": "ECCP · Ch'ien Ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271396",
+      "locator": "eccp-3635454-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633522": {
+      "title": "ECCP · 陳宏謀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271454",
+      "locator": "eccp-3633522-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-341": {
+      "title": "清史稿/卷341",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485033",
+      "locator": "qsg-volume-341-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

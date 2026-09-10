@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c243c114b927104b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "應琚",
+    "source": "eccp-3649115",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "楊應琚，字佩之，漢軍正白旗人，廣東巡撫文乾子。",
+          "source": "qsg-volume-327",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yang Ying-chü",
+        "system": "ECCP spelling",
+        "source": "eccp-3649115"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-327",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-327",
+      "passage": "qsg-volume-327-010",
+      "matchStatus": "proposed",
+      "evidence": "楊應琚，字佩之，漢軍正白旗人，廣東巡撫文乾子。應琚起家任子。乾隆初，自員外郎出為河東道，調西寧道。巡撫黃廷桂薦其才，高宗曰：「若能進於誠而擴充之，正未可量也。」累遷至兩廣總督。先後疏請練水師，籌軍食，修漓水、陡河堤壩，貯柳、桂、慶、梧餘鹽，皆如所請行。暹羅貢使毆傷通事，其國王鞫實，擬罰鍰，遣使牒禮部。應琚曰：「屬國陪臣無上交。」好語諭遣之，稱旨。二十二年，移閩浙總督。二十三年，加太子太保。"
+    }
+  ],
+  "sources": {
+    "eccp-3649115": {
+      "title": "ECCP · 明瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317676",
+      "locator": "eccp-3649115-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-327": {
+      "title": "清史稿/卷327",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026857",
+      "locator": "qsg-volume-327-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

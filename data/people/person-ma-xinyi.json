@@ -32,7 +32,29 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "MA Hsin-i 馬新貽 (T. 穀山, H. 燕門, 鐵舫), Nov. 3, 1821–1870, Aug. 23, official, was a native of Ho-tsê (Ts'ao-chou), Shantung. He came from a Mohammedan family. A chin-shih of 1847, he was designated as suitable for the post of magistrate and was sent to Anhwei to await a vacancy.",
+          "source": "eccp-3646142",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "馬新貽，字穀山，山東菏澤人。",
+          "source": "qsg-volume-426",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "菏澤",
+      "source": "qsg-volume-426",
+      "status": "proposed"
+    }
   },
   "life": {
     "birth": null,
@@ -72,6 +94,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ma_Hsin-i",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3646142",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646142",
+      "passage": "eccp-3646142-001"
+    },
+    {
+      "source": "qsg-volume-426",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-426",
+      "passage": "qsg-volume-426-023",
+      "matchStatus": "proposed",
+      "evidence": "馬新貽，字穀山，山東菏澤人。道光二十七年進士，安徽即用知縣，除建平，署合肥，以勤明稱。咸豐三年，粵匪擾安徽，淮南北群盜並起，新貽常在兵間。五年，從攻廬州巢湖，新貽擊敗援賊，迭破賊盛家橋、三河鎮、柘皋諸賊屯，尋克廬州。積功累擢知府，賜花翎，補廬州。七年，捻匪、粵匪合陷桃鎮，分擾上下派河，新貽破賊舒城，記名以道員用。八年，署按察使。賊犯廬州，新貽率練勇出城迎擊，賊間道入城，新貽軍潰失印，下吏議，革職留任。九年，丁母憂，巡撫翁同書奏請留署。十年，欽差大臣袁甲三為奏請復官。十一年，同書復奏薦，命以道員候"
     }
   ],
   "sources": {
@@ -95,6 +131,55 @@
       "locator": "Preserved source opening, revision 11300555",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646142": {
+      "title": "ECCP · Ma Hsin-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-399": {
+      "title": "清史稿/卷399",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029843",
+      "locator": "qsg-volume-399-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

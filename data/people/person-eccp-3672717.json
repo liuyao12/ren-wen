@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672717",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "徵",
+    "source": "eccp-3672717",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Chêng 王徵 (T. 良甫, H. 葵心, 了一道人), May 12, 1571–1644, scientist, scholar, and Ming official, was a native of Ching-yang, Shensi. His father, Wang Ying-hsüan 王應選 (T. 滸北, d. 1628), was a tutor to private families in his native place and the author of two short works, entitled 算數歌訣 Suan-shu ko-chüeh and 滸北山翁訓子歌 Hu-pei shan-wêng hsün-tzŭ ko.",
+          "source": "eccp-3672717",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "良甫",
+        "source": "eccp-3672717"
+      }
+    ],
+    "hao": [
+      {
+        "value": "葵心",
+        "source": "eccp-3672717"
+      },
+      {
+        "value": "了一道人",
+        "source": "eccp-3672717"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "良甫"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3672717"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1571,
+        "source": "eccp-3672717",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3672717",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672717",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672717",
+      "passage": "eccp-3672717-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672717": {
+      "title": "ECCP · Wang Chêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412264",
+      "locator": "eccp-3672717-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642456": {
+      "title": "ECCP · 李之藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290594",
+      "locator": "eccp-3642456-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678088": {
+      "title": "ECCP · 楊廷筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442510",
+      "locator": "eccp-3678088-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8d000bbd8f95fe15",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "熙祚",
+    "source": "eccp-3633266",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ien Hsi-tso 錢熙祚 (T. 鍚之,雪枝, d. 1844 age 44 sui), a native of Chin-shan, Kiangsu, who owned the celebrated library named Shou-shan ko (守山閣). Ch'ien incorporated about two-thirds of the items of the Mo-hai chin-hu into his two collectanea known as Shou shan ko ts'ung-shu and 珠叢別錄 Chu-ts'ung pieh-lu, both published about the year 1844.",
+          "source": "eccp-3633266",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鍚之",
+        "source": "eccp-3633266"
+      },
+      {
+        "value": "雪枝",
+        "source": "eccp-3633266"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鍚之"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Hsi-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3633266"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633266": {
+      "title": "ECCP · 張海鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271608",
+      "locator": "eccp-3633266-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

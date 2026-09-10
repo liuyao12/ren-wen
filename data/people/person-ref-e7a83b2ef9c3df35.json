@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e7a83b2ef9c3df35",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "志聰",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-502",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張志聰，字隱庵，浙江錢塘人。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "隱庵",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研農",
+        "source": "eccp-3639978"
+      },
+      {
+        "value": "玉",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "隱庵"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chih-ts'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-034",
+      "matchStatus": "proposed",
+      "evidence": "張志聰，字隱庵，浙江錢塘人。明末，杭州盧之頤、繇父子著書，講明醫學，志聰繼之。構侶山堂，招同志講論其中，參考經論，辨其是非。自順治中至康熙之初，四十年間，談軒、岐之學者咸歸之。注素問、靈樞二經，集諸家之說，隨文衍義，勝明馬元臺本。"
+    }
+  ],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

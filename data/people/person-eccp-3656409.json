@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656409",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曹",
+    "given": "寅",
+    "source": "eccp-3656409",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "曹寅，字楝亭，漢軍正白旗人，世居瀋陽，工部尚書璽子。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子清",
+        "source": "eccp-3656409"
+      }
+    ],
+    "hao": [
+      {
+        "value": "楝亭",
+        "source": "eccp-3656409"
+      },
+      {
+        "value": "荔軒",
+        "source": "eccp-3656409"
+      },
+      {
+        "value": "掃花人",
+        "source": "eccp-3656409"
+      },
+      {
+        "value": "雪樵",
+        "source": "eccp-3656409"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子清"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ao Yin",
+        "system": "ECCP spelling",
+        "source": "eccp-3656409"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1658,
+        "source": "eccp-3656409",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1712,
+        "source": "eccp-3656409",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656409",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656409",
+      "passage": "eccp-3656409-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-055",
+      "matchStatus": "proposed",
+      "evidence": "曹寅，字楝亭，漢軍正白旗人，世居瀋陽，工部尚書璽子。累官通政使、江寧織造。有楝亭詩文詞鈔。"
+    }
+  ],
+  "sources": {
+    "eccp-3656409": {
+      "title": "ECCP · Ts'ao Yin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365205",
+      "locator": "eccp-3656409-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633491": {
+      "title": "ECCP · 張玉書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271679",
+      "locator": "eccp-3633491-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643669": {
+      "title": "ECCP · 李漁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294919",
+      "locator": "eccp-3643669-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649349": {
+      "title": "ECCP · 彭定求",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318104",
+      "locator": "eccp-3649349-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649330": {
+      "title": "ECCP · 鮑廷博",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318088",
+      "locator": "eccp-3649330-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654357": {
+      "title": "ECCP · 施閏章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656329": {
+      "title": "ECCP · 宋應星",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365080",
+      "locator": "eccp-3656329-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656403": {
+      "title": "ECCP · 曹霑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365194",
+      "locator": "eccp-3656403-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672742": {
+      "title": "ECCP · 汪憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412309",
+      "locator": "eccp-3672742-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672746": {
+      "title": "ECCP · 汪輝祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412317",
+      "locator": "eccp-3672746-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678462": {
+      "title": "ECCP · 袁枚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443802",
+      "locator": "eccp-3678462-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

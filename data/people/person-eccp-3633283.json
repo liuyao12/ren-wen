@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633283",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "漣",
+    "source": "eccp-3633283",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "秀水",
+      "source": "qsg-volume-505",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Lien 張漣 (T. 南垣), landscape architect of the late Ming and early Ch'ing period, was a native of Hua-t'ing, Kiangsu, who later moved to Hsiu-shui, Chekiang. Having learned landscape drawing in his youth, he applied the principles of that art to the construction of artificial hills and rock gardens, designing many famous private gardens of Chekiang and Kiangsu, among which may be mentioned the Fu-shui yüan 拂水園 owned by Ch'ien Ch'ien-i [q. v.], and the Chu-t'ing yüan 竹亭園 of Wu Wei-yeh [q. v.].",
+          "source": "eccp-3633283",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張漣，字南垣，浙江秀水人，本籍江南華亭。",
+          "source": "qsg-volume-505",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "南垣",
+        "source": "eccp-3633283"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "南垣"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Lien",
+        "system": "ECCP spelling",
+        "source": "eccp-3633283"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633283",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633283",
+      "passage": "eccp-3633283-001"
+    },
+    {
+      "source": "qsg-volume-505",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-505",
+      "passage": "qsg-volume-505-017",
+      "matchStatus": "proposed",
+      "evidence": "張漣，字南垣，浙江秀水人，本籍江南華亭。少學畫，謁董其昌，通其法，用以疊石堆土為假山。謂世之聚危石作洞壑者，氣象蹙促，由於不通畫理。故漣所作，平岡小阪，陵阜陂纮，錯之以石，就其奔注起伏之勢，多得畫意，而石取易致，隨地材足，點綴飛動，變化無窮。為之既久，土石草樹，咸識其性情，各得其用。創手之始，亂石林立，躊躕四顧，默識在心。高坐與客談笑，但呼役夫，某樹下某石置某處，不假斧鑿而合。及成，結構天然，奇正罔不入妙。以其術游江以南數十年，大家名園，多出其手。東至越，北至燕，多慕其名來請者，四子皆衣食其業。"
+    }
+  ],
+  "sources": {
+    "eccp-3633283": {
+      "title": "ECCP · Chang Lien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278371",
+      "locator": "eccp-3633283-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633277": {
+      "title": "ECCP · 張然",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271614",
+      "locator": "eccp-3633277-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

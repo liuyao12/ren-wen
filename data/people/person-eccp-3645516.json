@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645516",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "良佐",
+    "source": "eccp-3645516",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Liang-tso 劉良佐 (T. 明輔), d. 1667, renegade Ming general, was a native of Tatung, Shansi. He was associated first with Kao Chieh [q. v.] under the rebel, Li Tzŭ-ch'êng [q. v.], and later with the Ming brigade general, Huang Tê-kung [q. v.], against Chang Hsien-chung [q. v.].",
+          "source": "eccp-3645516",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉良佐，直隸人，明總兵，預擁立福王。",
+          "source": "qsg-volume-248",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "明輔",
+        "source": "eccp-3645516"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "明輔"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Liang-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3645516"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645516",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645516",
+      "passage": "eccp-3645516-001"
+    },
+    {
+      "source": "qsg-volume-248",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-248",
+      "passage": "qsg-volume-248-012",
+      "matchStatus": "proposed",
+      "evidence": "劉良佐，直隸人，明總兵，預擁立福王。順治二年，豫親王下江南，良佐以兵十萬來降。江南定，詣京師，隸漢軍鑲黃旗。五年，以來降功，授世職二等精奇尼哈番。從大將軍譚泰討金聲桓。師還，授散秩大臣。十八年，授江南江安提督，加總管銜。尋改直隸提督，改左都督。康熙五年，以病乞休。六年，卒。劉澤清既降复叛，誅死。"
+    }
+  ],
+  "sources": {
+    "eccp-3645516": {
+      "title": "ECCP · Liu Liang-tso",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299484",
+      "locator": "eccp-3645516-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640021": {
+      "title": "ECCP · 黃得功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282938",
+      "locator": "eccp-3640021-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642379": {
+      "title": "ECCP · 高傑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290423",
+      "locator": "eccp-3642379-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645523": {
+      "title": "ECCP · 劉澤清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299498",
+      "locator": "eccp-3645523-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654362": {
+      "title": "ECCP · 史可法",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358423",
+      "locator": "eccp-3654362-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

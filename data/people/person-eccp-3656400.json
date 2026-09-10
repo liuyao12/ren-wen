@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656400",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "新",
+    "source": "eccp-3656400",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "漳浦",
+      "source": "qsg-volume-320",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TS'AI Hsin 蔡新 (T. 次明, H. 葛山, 緝斎), 1707–1800?, official and educator, was a native of Chang-p'u, Fukien. An uncle, Ts'ai Shihyuan 蔡世遠 (T. 聞之, H. 梁村, posthumous name 文勤, 1682–1733), a chin-shih of 1709, served as junior vice-president of the Board of Ceremonies (1728–30), and was a teacher in the school for the Emperor's sons.",
+          "source": "eccp-3656400",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "蔡新，字次明，福建漳浦人，贈尚書世遠族子。",
+          "source": "qsg-volume-320",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "次明",
+        "source": "eccp-3656400"
+      }
+    ],
+    "hao": [
+      {
+        "value": "葛山",
+        "source": "eccp-3656400"
+      },
+      {
+        "value": "緝斎",
+        "source": "eccp-3656400"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "次明"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Hsin",
+        "system": "ECCP spelling",
+        "source": "eccp-3656400"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1707,
+        "source": "eccp-3656400",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1800,
+        "source": "eccp-3656400",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656400",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656400",
+      "passage": "eccp-3656400-001"
+    },
+    {
+      "source": "qsg-volume-320",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-320",
+      "passage": "qsg-volume-320-015",
+      "matchStatus": "proposed",
+      "evidence": "蔡新，字次明，福建漳浦人，贈尚書世遠族子。乾隆元年進士，選庶吉士，授編修。入直上書房。試御史第一，辭，授侍講。累遷工部侍郎，移刑部。十八年，以母老請歸省，賜其母貂緞；旋乞終養，允之。即家命為上書房總師傅，辭，高宗諭之曰：「非令汝即來供職，待後日耳。」二十五年，上五十壽，入京師祝嘏。二十六年，南巡，覲行在。母喪終，授刑部侍郎。三十二年，擢工部尚書。三十八年，移禮部。四十五年，命以吏部尚書協辦大學士。四十六年，乞假修墓。四十八年，還朝。拜文華殿大學士，兼吏部尚書。五十年，與千叟宴。上臨雍講學，新以大"
+    }
+  ],
+  "sources": {
+    "eccp-3656400": {
+      "title": "ECCP · Ts'ai Hsin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365189",
+      "locator": "eccp-3656400-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649095": {
+      "title": "ECCP · 孟超然",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317645",
+      "locator": "eccp-3649095-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678487": {
+      "title": "ECCP · 永珹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443841",
+      "locator": "eccp-3678487-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-320": {
+      "title": "清史稿/卷320",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2550999",
+      "locator": "qsg-volume-320-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

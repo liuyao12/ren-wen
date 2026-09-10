@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-fac7f65408d1da2b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "江",
+    "given": "有誥",
+    "source": "eccp-3642416",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "江有誥，字晉三，歙縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "晉三",
+        "source": "eccp-3642416"
+      }
+    ],
+    "hao": [
+      {
+        "value": "古愚",
+        "source": "eccp-3642416"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "晉三"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Yu-kao",
+        "system": "ECCP spelling",
+        "source": "eccp-3642416"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-221",
+      "matchStatus": "proposed",
+      "evidence": "江有誥，字晉三，歙縣人。通音韻之學，得顧炎武、江永兩家書，嗜之忘寢食。謂江書能補顧所未及，而分部仍多罅漏，乃析江氏十三部為二十一，與戴震、孔廣森多暗合。書成，寄示段玉裁，玉裁深重之，曰：「餘與顧氏、孔氏皆一於考古，江氏、戴氏則兼以審音。晉三於前人之說擇善而從，無所偏徇，又精於呼等字母，不惟古音大明，亦使今韻分為二百六部者得其剖析之故，韻學於是大備矣。」著有詩經韻讀、群經韻讀、楚辭韻讀、先秦韻讀、漢魏韻讀、唐韻四聲正、諧聲表、入聲表、二十一部韻譜、唐韻再正、唐韻更定部分，總名江氏音學十書，王念孫父"
+    }
+  ],
+  "sources": {
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-221",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

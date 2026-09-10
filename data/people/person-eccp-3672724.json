@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672724",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "之寀",
+    "source": "eccp-3672724",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Chih-ts'ai 王之寀 (T. 藎甫, 心一), d. June 2, 1627, was a native of Chao-i, Shensi, who became a chin-shih in 1601 and rose to be a secretary in the Board of Punishments. In 1615 he acquired notoriety, and at the same time aroused the enmity of one of the Court factions, for his activity in the so-called \"club case\" (see under Chu Ch'ang-lo).",
+          "source": "eccp-3672724",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "藎甫",
+        "source": "eccp-3672724"
+      },
+      {
+        "value": "心一",
+        "source": "eccp-3672724"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "藎甫"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chih-ts'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3672724"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672724",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672724",
+      "passage": "eccp-3672724-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672724": {
+      "title": "ECCP · Wang Chih-ts'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412279",
+      "locator": "eccp-3672724-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636400": {
+      "title": "ECCP · 朱常洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272520",
+      "locator": "eccp-3636400-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672744": {
+      "title": "ECCP · 王化貞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412312",
+      "locator": "eccp-3672744-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

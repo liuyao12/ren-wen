@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637602",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "費",
+    "given": "密",
+    "source": "eccp-3637602",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FEI Mi 費密 (T. 此度, H. 燕峰, 卷隱), Aug. 25, 1625–1701, July–Aug., scholar, philosopher, and poet, was a native of Hsin-fan, Szechwan. His family was one of scholarly traditions, his father Fei Ching-yü 費經虞 (T. 仲著, H. 鮮民, 1599–1671), and both grandfathers, having been scholars and officials.",
+          "source": "eccp-3637602",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "費密，字此度，新繁人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "此度",
+        "source": "eccp-3637602"
+      }
+    ],
+    "hao": [
+      {
+        "value": "燕峰",
+        "source": "eccp-3637602"
+      },
+      {
+        "value": "卷隱",
+        "source": "eccp-3637602"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "此度"
+    },
+    "romanizations": [
+      {
+        "value": "Fei Mi",
+        "system": "ECCP spelling",
+        "source": "eccp-3637602"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1625,
+        "source": "eccp-3637602",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1701,
+        "source": "eccp-3637602",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637602",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637602",
+      "passage": "eccp-3637602-001"
+    },
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-041",
+      "matchStatus": "proposed",
+      "evidence": "費密，字此度，新繁人。父經虞，明雲南昆明縣知縣。密年十四，父病，醫言嘗糞甘苦，可知生死，密嘗而苦，父病果起。未幾，流賊張獻忠犯蜀，密上書巡按御史劉之勃，陳戰守策，不省。已而全蜀皆陷，密展轉窮山中，會有人傳其父滇中消息，聞之痛哭，遂去家入滇。經歷蠻峒中，奉父自滇歸蜀。至建昌衛，為凹者蠻所得，父賂蠻人，始脫歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3637602": {
+      "title": "ECCP · Fei Mi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275797",
+      "locator": "eccp-3637602-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654394": {
+      "title": "ECCP · 孫奇逢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358505",
+      "locator": "eccp-3654394-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

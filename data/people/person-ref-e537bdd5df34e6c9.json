@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e537bdd5df34e6c9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "閻",
+    "given": "爾梅",
+    "source": "eccp-3639205",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "閻爾梅，字用卿，號古古，沛縣人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "調鼎",
+        "source": "eccp-3639205"
+      }
+    ],
+    "hao": [
+      {
+        "value": "古古",
+        "source": "eccp-3639205"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "調鼎"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Êr-mei",
+        "system": "ECCP spelling",
+        "source": "eccp-3639205"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1603,
+        "source": "eccp-3639205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1679,
+        "source": "eccp-3639205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-018",
+      "matchStatus": "proposed",
+      "evidence": "閻爾梅，字用卿，號古古，沛縣人。崇禎庚午舉人。李自成陷北京，爾梅上書請兵北伐，並儘散家財，結死士，為前驅。自成黨武愫至沛，屢使招爾梅，以碎牒大罵下獄，愫敗，乃免。赴史可法之聘，參軍事，首勸渡河复山東，不聽。時高傑為許定國所殺，河南大亂，爾梅又說可法西行鎮撫之。傑部將約束待命，可法為設提督統其眾，而自退保揚州。爾梅力阻之，請開幕府徐州，號召河南北義勇，得以一成一旅規畫中原。又請空名告身數百紙，乘時布發，視忠義為鼓勵，俾逋寇叛帥不得以逾時渙散，少有睥睨。策皆不行，遂貽以書而去。"
+    }
+  ],
+  "sources": {
+    "eccp-3639205": {
+      "title": "ECCP · 傅山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4d14ba2199a75d0c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "天衢",
+    "source": "eccp-3633303",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ho T'ien-ch'ü 何天衢 (T. 在山, H. 緩齋, chü-jên of 1784), a native of Po-chou, Anhwei, who, like him, was a disciple of Shao Chin-han. Returning to Peking about three years later (1797?), Chang Tsung-yüan became an ardent devotee of a Buddhist monk named Ming-hsin 明心, (lay name Wang Shu-hsün 王樹勳) who attracted much notoriety by his esoteric doctrines.",
+          "source": "eccp-3633303",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "在山",
+        "source": "eccp-3633303"
+      }
+    ],
+    "hao": [
+      {
+        "value": "緩齋",
+        "source": "eccp-3633303"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "在山"
+    },
+    "romanizations": [
+      {
+        "value": "Ho T'ien-ch'ü",
+        "system": "ECCP spelling",
+        "source": "eccp-3633303"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

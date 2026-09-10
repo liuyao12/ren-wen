@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642429",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孔",
+    "given": "尚任",
+    "source": "eccp-3642429",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "K'UNG Shang-jên 孔尚任 (T. 聘之, 季重, H. 東塘, 岸塘, 云亭山人), Nov. 1, 1648–1718 Feb. 14, scholar and dramatist, a native of Ch'ü-fu, Shantung, was a descendant of Confucius in the sixty-fourth generation.",
+          "source": "eccp-3642429",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聘之",
+        "source": "eccp-3642429"
+      },
+      {
+        "value": "季重",
+        "source": "eccp-3642429"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東塘",
+        "source": "eccp-3642429"
+      },
+      {
+        "value": "岸塘",
+        "source": "eccp-3642429"
+      },
+      {
+        "value": "云亭山人",
+        "source": "eccp-3642429"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聘之"
+    },
+    "romanizations": [
+      {
+        "value": "K'ung Shang-jên",
+        "system": "ECCP spelling",
+        "source": "eccp-3642429"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1648,
+        "source": "eccp-3642429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1718,
+        "source": "eccp-3642429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642429",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642429",
+      "passage": "eccp-3642429-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642429": {
+      "title": "ECCP · K'ung Shang-jên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635476": {
+      "title": "ECCP · 靳輔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271743",
+      "locator": "eccp-3635476-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649318": {
+      "title": "ECCP · 潘世恩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11446658",
+      "locator": "eccp-3649318-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678163": {
+      "title": "ECCP · 胤祉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443022",
+      "locator": "eccp-3678163-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2517d27cdaedf50c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄧",
+    "given": "承修",
+    "source": "eccp-3639181",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歸善",
+      "source": "qsg-volume-444",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄧承修，字鐵香，廣東歸善人。",
+          "source": "qsg-volume-444",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鐵香",
+        "source": "eccp-3639181"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鐵香"
+    },
+    "romanizations": [
+      {
+        "value": "Têng Ch'êng-hsiu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639181"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1841,
+        "source": "eccp-3639181",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1891,
+        "source": "eccp-3639181",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-444",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-444",
+      "passage": "qsg-volume-444-029",
+      "matchStatus": "proposed",
+      "evidence": "鄧承修，字鐵香，廣東歸善人。舉咸豐十一年鄉試，入貲為郎，分刑部。轉御史，遭憂歸。光緒初，服闋，起故官。與張佩綸等主持清議，多彈擊，號曰「鐵漢」。先後疏論闈姓賭捐，大乖政體；關稅侵蝕，嬰害庫帑；以考場積弊，陳七事糾正之；吏治積弊，陳八事肅澄之。又劾總督李瀚章失政，左副都御史崇勳無行，侍郎長敘等違制，學政吳寶恕、葉大焯，布政使方大湜、龔易圖，鹽運使周星譽諸不職狀。會邊警，糾彈舉朝慢弛，請召還左宗棠柄國政。逾歲，彗星見，則又言宗棠蒞事數月，未見設施，而因推及寶鋆、王文韶之昏眊，請罷斥，回天意。是時文韶"
+    }
+  ],
+  "sources": {
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

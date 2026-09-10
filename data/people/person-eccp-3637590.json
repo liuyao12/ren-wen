@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637590",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "法式善",
+    "source": "eccp-3637590",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FA-shih-shan 法式善 (T. 聞文, H. 時帆, 梧門, 陶廬, 小西涯居士, original name Yün-ch'ang 運昌), Feb.–Mar., 1753–1813, official, scholar and poet, was a Mongol whose family belonged to the Plain Yellow Banner of the Imperial Household Division.",
+          "source": "eccp-3637590",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聞文",
+        "source": "eccp-3637590"
+      }
+    ],
+    "hao": [
+      {
+        "value": "時帆",
+        "source": "eccp-3637590"
+      },
+      {
+        "value": "梧門",
+        "source": "eccp-3637590"
+      },
+      {
+        "value": "陶廬",
+        "source": "eccp-3637590"
+      },
+      {
+        "value": "小西涯居士",
+        "source": "eccp-3637590"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聞文"
+    },
+    "romanizations": [
+      {
+        "value": "Fa-shih-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3637590"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1753,
+        "source": "eccp-3637590",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1813,
+        "source": "eccp-3637590",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637590",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637590",
+      "passage": "eccp-3637590-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-208",
+      "matchStatus": "proposed",
+      "evidence": "法式善，字開文，蒙古烏爾濟氏，隸內務府正黃旗。乾隆四十五年進士，授檢討，遷司業。五十年，高宗臨雍，率諸生七十馀人聽講，禮成，賞賚有差。本名運昌，命改今名，國語言「竭力有為」也。由庶子遷侍讀學士，大考降員外郎，阿桂薦補左庶子。性好文，以宏獎風流為己任。顧數奇，官至四品即左遷。其後兩為侍講學士，一以大考改贊善，一坐修書不謹貶庶子，遂乞病歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3637590": {
+      "title": "ECCP · Fa-shih-shan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656371": {
+      "title": "ECCP · 鐵保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365150",
+      "locator": "eccp-3656371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675184": {
+      "title": "ECCP · 翁心存",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419938",
+      "locator": "eccp-3675184-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-208",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-092",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

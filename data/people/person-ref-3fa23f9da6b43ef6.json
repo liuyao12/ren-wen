@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3fa23f9da6b43ef6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "潢",
+    "source": "eccp-3635476",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-279",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳潢，字天一，浙江錢塘人。",
+          "source": "qsg-volume-279",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天一",
+        "source": "eccp-3635476"
+      }
+    ],
+    "hao": [
+      {
+        "value": "省齋",
+        "source": "eccp-3635476"
+      },
+      {
+        "value": "有齋",
+        "source": "eccp-3635476"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天一"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Huang",
+        "system": "ECCP spelling",
+        "source": "eccp-3635476"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-279",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-279",
+      "passage": "qsg-volume-279-037",
+      "matchStatus": "proposed",
+      "evidence": "陳潢，字天一，浙江錢塘人。負才久不遇，過邯鄲呂祖祠，題詩壁間，語豪邁。輔見而異焉，踪跡得之，引為幕客，甚相得。凡輔所建白，多自潢發之。康熙二十三年，上巡河，問輔：「孰為汝佐？」以潢對。二十六年，輔疏言潢十年佐治勤勞，下部議，授潢僉事道銜。二十七年，郭琇劾輔，辭連潢。輔罷，潢削職銜，逮京師，未入獄，以病卒。輔復起，疏請復潢官，部議以潢已卒，寢其奏。"
+    }
+  ],
+  "sources": {
+    "eccp-3635476": {
+      "title": "ECCP · 靳輔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271743",
+      "locator": "eccp-3635476-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-279": {
+      "title": "清史稿/卷279",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485011",
+      "locator": "qsg-volume-279-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

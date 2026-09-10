@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643637",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "善蘭",
+    "source": "eccp-3643637",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Shan-lan 李善蘭 (T. 壬叔, H. 秋紉), 1810–1882, Dec. 9, mathematician, was a native of Hai-ning, Chekiang. From boyhood he was interested in mathematics. Though a licentiate of his district, he failed to obtain a higher degree.",
+          "source": "eccp-3643637",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李善蘭，字壬叔，海寧人。",
+          "source": "qsg-volume-507",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "壬叔",
+        "source": "eccp-3643637"
+      }
+    ],
+    "hao": [
+      {
+        "value": "秋紉",
+        "source": "eccp-3643637"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壬叔"
+    },
+    "romanizations": [
+      {
+        "value": "Li Shan-lan",
+        "system": "ECCP spelling",
+        "source": "eccp-3643637"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1810,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1882,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643637",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643637",
+      "passage": "eccp-3643637-001"
+    },
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-118",
+      "matchStatus": "proposed",
+      "evidence": "李善蘭，字壬叔，海寧人。諸生。從陳奐受經，於算術好之獨深。十歲即通九章，後得測圓海鏡、句股割圜記，學益進。疑割圜法非自然，精思得其理。嘗謂道有一貫，藝亦然。測圓海鏡每題皆有法有草，法者，本題之法也；草者，用立天元一曲折以求本題之法，乃造法之法，法之源也。算術大至躔離交食，細至米鹽瑣碎，其法至繁，以立天元一演之，莫不能得其法。故立天元一者，算學中之一貫也。並時明算如錢塘戴煦，南匯張文虎，烏程徐有壬、汪曰楨，歸安張福僖，皆相友善。咸豐初，客上海，識英吉利偉烈亞力、艾約瑟、韋廉臣三人，偉烈亞力精天算，"
+    }
+  ],
+  "sources": {
+    "eccp-3643637": {
+      "title": "ECCP · Li Shan-lan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639176": {
+      "title": "ECCP · 馮桂芬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640821": {
+      "title": "ECCP · 奕訢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285401",
+      "locator": "eccp-3640821-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640947": {
+      "title": "ECCP · 容閎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286002",
+      "locator": "eccp-3640947-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672757": {
+      "title": "ECCP · 王韜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412333",
+      "locator": "eccp-3672757-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675177": {
+      "title": "ECCP · 文祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419927",
+      "locator": "eccp-3675177-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-118",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

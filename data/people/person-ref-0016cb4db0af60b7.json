@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0016cb4db0af60b7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "榮",
+    "source": "eccp-3645486",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐榮，字鐵生，漢軍正黃旗人，廣州駐防。",
+          "source": "qsg-volume-490",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鐵孫",
+        "source": "eccp-3645486"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鐵孫"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3645486"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1792,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-3645486",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-490",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-490",
+      "passage": "qsg-volume-490-034",
+      "matchStatus": "proposed",
+      "evidence": "徐榮，字鐵生，漢軍正黃旗人，廣州駐防。道光十六年進士，以知縣發浙江。歷權遂昌、嘉興等縣，杭州理事同知。授臨安，升玉環廳同知。保知府，權溫州府事，招降洋盜莊通等二百餘人，授紹興府。咸豐三年，調杭州，並護杭嘉湖道，創議海運章程。時臨安、昌化、於潛土匪趙四喜等謀不軌，榮督兵剿滅之。四年，粵匪竄徽州，浙撫黃宗漢以皖南新隸浙江，中旨亦以「保徽即以保浙」為言，奏派榮督辦徽防。榮扶疾至防，親至箬嶺，開壕遏賊，增設天心洞防勇。七月，勦賊櫸根嶺，斃賊二百餘名。隨諸將克建德、東流兩縣，复敗賊堯渡。十一月，移駐祁門，"
+    }
+  ],
+  "sources": {
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

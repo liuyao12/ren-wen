@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640029",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "宗炎",
+    "source": "eccp-3640029",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Tsung-yen 黃宗炎 (T. 晦木, 立谿, H. 鷓鴣先生), 1616–1686, scholar, artist, Ming loyalist, second son of Huang Tsun-su (see under Huang Tsung-hsi), was a native of Yü-yao, Chekiang. He, together with his elder brother, Huang Tsung-hsi [q. v.], and his younger brother, Huang Tsung-hui 黃宗會 (T. 澤望, H. 縮齋, 石田先生, 1618–1663), were known as the \"Three Huangs\" 三黃.",
+          "source": "eccp-3640029",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "晦木",
+        "source": "eccp-3640029"
+      },
+      {
+        "value": "立谿",
+        "source": "eccp-3640029"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鷓鴣先生",
+        "source": "eccp-3640029"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "晦木"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Tsung-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3640029"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3640029",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1686,
+        "source": "eccp-3640029",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640029",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640029",
+      "passage": "eccp-3640029-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640029": {
+      "title": "ECCP · Huang Tsung-yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282956",
+      "locator": "eccp-3640029-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646137": {
+      "title": "ECCP · 呂留良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300546",
+      "locator": "eccp-3646137-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-117",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

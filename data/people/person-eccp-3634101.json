@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634101",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "燮",
+    "source": "eccp-3634101",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHÊNG Hsieh 鄭燮 (T. 克柔), 1693–1765, official, poet, calligrapher and painter, popularly known by his hao, Pan-ch'iao 板橋, was a native of Hsing-hua, Kiangsu. While still a child he lost his mother and was brought up by a nurse and later by his step-mother.",
+          "source": "eccp-3634101",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "克柔",
+        "source": "eccp-3634101"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "克柔"
+    },
+    "romanizations": [
+      {
+        "value": "Chêng Hsieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3634101"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1693,
+        "source": "eccp-3634101",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1765,
+        "source": "eccp-3634101",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634101",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634101",
+      "passage": "eccp-3634101-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634101": {
+      "title": "ECCP · Chêng Hsieh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271758",
+      "locator": "eccp-3634101-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634108": {
+      "title": "ECCP · 鄭板橋",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271761",
+      "locator": "eccp-3634108-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678488": {
+      "title": "ECCP · 永忠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443842",
+      "locator": "eccp-3678488-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

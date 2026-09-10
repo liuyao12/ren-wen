@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642458",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "厲",
+    "given": "鶚",
+    "source": "eccp-3642458",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Ê 厲鶚 (T. 太鴻, H. 樊榭), June 16, 1692–1752, Oct. 17, man of letters, was a native of Ch'ien-t'ang (Hangchow). He belonged to a poor family and his father died when Li Ê was young. His elder brother sold tobacco to make a living.",
+          "source": "eccp-3642458",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "厲鶚，字太鴻，錢塘人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "太鴻",
+        "source": "eccp-3642458"
+      }
+    ],
+    "hao": [
+      {
+        "value": "樊榭",
+        "source": "eccp-3642458"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "太鴻"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ê",
+        "system": "ECCP spelling",
+        "source": "eccp-3642458"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1692,
+        "source": "eccp-3642458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1752,
+        "source": "eccp-3642458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642458",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642458",
+      "passage": "eccp-3642458-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-013",
+      "matchStatus": "proposed",
+      "evidence": "厲鶚，字太鴻，錢塘人。家貧，性孤峭，不苟合。始為詩即得佳句。於學無所不窺，一發之於詩。康熙五十九年，李紱典試浙江，得鶚卷，閱其謝表，曰：「此必詩人也！」亟錄之。計偕入都，尤以詩見賞湯右曾。再試禮部不第。乾隆元年，舉鴻博，誤寫論置詩前，又報罷。其後赴都銓，行次天津，留友人查為仁水西莊，觴詠數月，不就選，歸。卒，年六十一。"
+    }
+  ],
+  "sources": {
+    "eccp-3642458": {
+      "title": "ECCP · Li Ê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290599",
+      "locator": "eccp-3642458-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635432": {
+      "title": "ECCP · 齊召南",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271393",
+      "locator": "eccp-3635432-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633519": {
+      "title": "ECCP · 陳撰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280409",
+      "locator": "eccp-3633519-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639236": {
+      "title": "ECCP · 杭世駿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280249",
+      "locator": "eccp-3639236-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640826": {
+      "title": "ECCP · 奕繪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285414",
+      "locator": "eccp-3640826-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646129": {
+      "title": "ECCP · 陸心源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300529",
+      "locator": "eccp-3646129-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646149": {
+      "title": "ECCP · 馬曰琯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300566",
+      "locator": "eccp-3646149-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672721": {
+      "title": "ECCP · 汪啟淑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412272",
+      "locator": "eccp-3672721-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675195": {
+      "title": "ECCP · 吴錫麒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419954",
+      "locator": "eccp-3675195-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

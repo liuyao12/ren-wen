@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-94a6f95e2a8d8cf6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "士俊",
+    "source": "eccp-3656377",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "平越",
+      "source": "qsg-volume-294",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王士俊，字灼三，貴州平越人。",
+          "source": "qsg-volume-294",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "灼三",
+        "source": "eccp-3656377"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "灼三"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Shih-chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3656377"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-294",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-294",
+      "passage": "qsg-volume-294-037",
+      "matchStatus": "proposed",
+      "evidence": "王士俊，字灼三，貴州平越人。康熙六十年進士，改庶吉士。雍正元年，上特命以知州發河南待缺，除許州。田文鏡為巡撫，惡以科第起家者，有意督過之，士俊懼將及。文鏡增鹼地稅，民不堪，士俊具牒爭，冀以是劾罷邀名。布政使楊文乾奇士俊，曲護之。三年，文乾遷廣東巡撫，奏以士俊從。四年，題授肇高廉羅道。五年，署巡撫阿克敦察士俊所轄黃江廠稅虧稅銀千餘，疏劾。上諭之曰：「王士俊尚有用，小過猶可諒。當嚴飭令悛改。」尋召士俊詣京師。士俊髮黃江廠庫官為布政使官達索規禮，阿克敦即令官達按鞫。士俊請改員嚴訊，阿克敦令按察使方原瑛"
+    }
+  ],
+  "sources": {
+    "eccp-3656377": {
+      "title": "ECCP · 田文鏡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365156",
+      "locator": "eccp-3656377-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

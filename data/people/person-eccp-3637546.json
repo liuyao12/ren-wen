@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637546",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "屈",
+    "given": "大均",
+    "source": "eccp-3637546",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "翁山",
+        "source": "eccp-3637546"
+      },
+      {
+        "value": "泠君",
+        "source": "eccp-3637546"
+      },
+      {
+        "value": "介子",
+        "source": "eccp-3637546"
+      }
+    ],
+    "hao": [
+      {
+        "value": "華夫",
+        "source": "eccp-3637546"
+      },
+      {
+        "value": "羅浮山人",
+        "source": "eccp-3637546"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "翁山"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ü Ta-chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3637546"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1630,
+        "source": "eccp-3637546",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3637546",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637546",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637546",
+      "passage": "eccp-3637546-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637546": {
+      "title": "ECCP · Ch'ü Ta-chün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633524": {
+      "title": "ECCP · 陳恭尹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271461",
+      "locator": "eccp-3633524-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639205": {
+      "title": "ECCP · 傅山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643650": {
+      "title": "ECCP · 李天馥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294889",
+      "locator": "eccp-3643650-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643672": {
+      "title": "ECCP · 李顒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294922",
+      "locator": "eccp-3643672-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643699": {
+      "title": "ECCP · 梁佩蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294988",
+      "locator": "eccp-3643699-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649315": {
+      "title": "ECCP · 潘耒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318036",
+      "locator": "eccp-3649315-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

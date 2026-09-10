@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0729df59885fd972",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "崔",
+    "given": "應階",
+    "source": "eccp-3635476",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江夏",
+      "source": "qsg-volume-309",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "崔應階，字吉升，湖北江夏人。",
+          "source": "qsg-volume-309",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "吉升",
+        "source": "eccp-3635476"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "吉升"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ui Ying-chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3635476"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-309",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-309",
+      "passage": "qsg-volume-309-060",
+      "matchStatus": "proposed",
+      "evidence": "崔應階，字吉升，湖北江夏人。父相國，官浙江處州鎮總兵。應階，廕生。初授順天府通判，遷西路同知。雍正中，擢山西汾州知府。乾隆十五年，授河南驛鹽道。擢安徽按察使。丁母憂，服闋，補貴州按察使。二十一年，擢湖南布政使，署巡撫。總督碩色劾應階子甘肅東樂知縣琇附驛寄家書，應階不檢舉，上特命降調。二十二年，補江南常鎮揚道。再遷山東布政使。"
+    }
+  ],
+  "sources": {
+    "eccp-3635476": {
+      "title": "ECCP · 靳輔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271743",
+      "locator": "eccp-3635476-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

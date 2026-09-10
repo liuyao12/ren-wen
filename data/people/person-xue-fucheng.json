@@ -32,7 +32,29 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜEH Fu-ch'êng 薛福成 (T. 叔耘, H. 庸盦), Apr. 12, 1838–1894, July 21, official and diplomat, was a native of Wu-hsi, Kiangsu. His father, Hsüeh Hsiang 薛湘 (T. 曉颿, d. 1858), was a chin-shih of 1845 who died while officiating as magistrate of Hsin-ning, Hunan.",
+          "source": "eccp-3639990",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "薛福成，字叔耘，江蘇無錫人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "無錫",
+      "source": "qsg-volume-446",
+      "status": "proposed"
+    }
   },
   "life": {
     "birth": null,
@@ -72,6 +94,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Hs%C3%BCeh_Fu-ch%27%C3%AAng",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3639990",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639990",
+      "passage": "eccp-3639990-001"
+    },
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-022",
+      "matchStatus": "proposed",
+      "evidence": "薛福成，字叔耘，江蘇無錫人。以副貢生參曾國藩戎幕，積勞至直隸州知州。光緒初元，下詔求言，福成上治平六策，又密議海防十事。時總稅務司赫德喜言事，總署議授為總海防司，福成上書力爭，乃止。八年，朝鮮亂，張樹聲代李鴻章督畿輔，聞變，將牒總署奏請發兵。福成慮緩則蹈琉球覆轍，請速發軍艦東渡援之。亂定，以功遷道員。"
     }
   ],
   "sources": {
@@ -95,6 +131,104 @@
       "locator": "Preserved source opening, revision 11282856",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639990": {
+      "title": "ECCP · Hsüeh Fu-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282856",
+      "locator": "eccp-3639990-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3679857": {
+      "title": "ECCP · A Note on Ch'üan Tsu-wang, Chao I-ch'ing and Tai Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=14939986",
+      "locator": "eccp-3679857-035",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637593": {
+      "title": "ECCP · 范懋柱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275787",
+      "locator": "eccp-3637593-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639994": {
+      "title": "ECCP · 胡林翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282866",
+      "locator": "eccp-3639994-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640025": {
+      "title": "ECCP · 黃遵憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282948",
+      "locator": "eccp-3640025-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642418": {
+      "title": "ECCP · 官文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290518",
+      "locator": "eccp-3642418-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646142": {
+      "title": "ECCP · 馬新貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656383": {
+      "title": "ECCP · 丁寶楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365165",
+      "locator": "eccp-3656383-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675175": {
+      "title": "ECCP · 文慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419923",
+      "locator": "eccp-3675175-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-217",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-459": {
+      "title": "清史稿/卷459",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2604082",
+      "locator": "qsg-volume-459-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

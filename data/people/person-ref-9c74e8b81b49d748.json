@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9c74e8b81b49d748",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "先謙",
+    "source": "eccp-3643624",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王先謙，字益吾，長沙人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wang Hsien-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3643624"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-230",
+      "matchStatus": "proposed",
+      "evidence": "王先謙，字益吾，長沙人。同治四年進士，選庶吉士，授編修。光緒元年，大考二等，擢中允，充日講起居注官。歴上疎言言路防弊，請籌東三省防務，並劾雲南巡撫徐之銘。六年，晉國子監祭酒。八年，丁憂歸，服闋，仍故官。疎請三海停工。出爲江蘇學政。十四年，以太監李蓮英招搖，疎請懲戒。略言：「宦寺之患，自古爲昭，本朝法制森嚴，從無太監攬權害事。皇太后垂簾聽政，一禀前謨，毫不寬假，此天下臣民所共知共見者。乃有總管太監李蓮英，秉性姦回，肆無忌憚。其平日穢聲劣跡，不敢形諸奏牘。惟思太監等給使宮禁，得以日近天顏；或因奔走微"
+    }
+  ],
+  "sources": {
+    "eccp-3643624": {
+      "title": "ECCP · 李星沅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294831",
+      "locator": "eccp-3643624-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-230",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

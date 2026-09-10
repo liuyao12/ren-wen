@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637601",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "東樹",
+    "source": "eccp-3637601",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FANG Tung-shu 方東樹 (T. 植之, H. 副墨子, 儀衛老人), Oct. 4, 1772–1851, June 23, scholar, was a native of T'ung-ch'êng, Anhwei, where his ancestors had moved from Wu-yüan of the same province at the beginning of the Ming period.",
+          "source": "eccp-3637601",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "方東樹，字植之，桐城人；宗誠，字存之，從兄弟也：皆諸生。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "植之",
+        "source": "eccp-3637601"
+      }
+    ],
+    "hao": [
+      {
+        "value": "副墨子",
+        "source": "eccp-3637601"
+      },
+      {
+        "value": "儀衛老人",
+        "source": "eccp-3637601"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "植之"
+    },
+    "romanizations": [
+      {
+        "value": "Fang Tung-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3637601"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1851,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637601",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637601",
+      "passage": "eccp-3637601-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-137",
+      "matchStatus": "proposed",
+      "evidence": "方東樹，字植之，桐城人；宗誠，字存之，從兄弟也：皆諸生。東樹曾祖澤，拔貢生，為姚鼐師。東樹既承先業，更師事鼐。當乾、嘉時，漢學熾盛，鼐獨守宋賢說。至東樹排斥漢學益力。阮元督眾，闢學海堂，名流輻湊，東樹亦客其所，不苟同於眾。以謂：「近世尚考據，與宋賢為水火。而其人類皆鴻名博學，貫穿百氏，遂使數十年承學之士，耳目心思為之大障。」乃發憤著漢學商兌一書，正其違謬。又著書林揚觶，戒學者勿輕事著述。"
+    }
+  ],
+  "sources": {
+    "eccp-3637601": {
+      "title": "ECCP · Fang Tung-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637600": {
+      "title": "ECCP · 方宗誠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275795",
+      "locator": "eccp-3637600-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640831": {
+      "title": "ECCP · 怡良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285422",
+      "locator": "eccp-3640831-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643702": {
+      "title": "ECCP · 梁廷枏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-137",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645521",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "台拱",
+    "source": "eccp-3645521",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU T'ai-kung 劉台拱 (T. 端臨, H. 子階, 江嶺), June 24, 1751–1805, June 19, scholar, a native of Pao-ying, Kiangsu, was a descendant of Liu Yung-ch'êng 劉永澄 (T. 靜之, H. 練江, 1576–1612), a member of the Tung-lin Party (see under Chang P'u).",
+          "source": "eccp-3645521",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉台拱，字端臨，寶應人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "端臨",
+        "source": "eccp-3645521"
+      }
+    ],
+    "hao": [
+      {
+        "value": "子階",
+        "source": "eccp-3645521"
+      },
+      {
+        "value": "江嶺",
+        "source": "eccp-3645521"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "端臨"
+    },
+    "romanizations": [
+      {
+        "value": "Liu T'ai-kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3645521"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3645521",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1805,
+        "source": "eccp-3645521",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645521",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645521",
+      "passage": "eccp-3645521-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-161",
+      "matchStatus": "proposed",
+      "evidence": "劉台拱，字端臨，寶應人。性至孝，六歲，母朱氏歿，哀如成人。事繼母鍾氏，與親母同。九歲作顏子頌，斐然成章，觀者稱為神童。中乾隆三十五年舉人，屢試禮部不第。是時朝廷開四庫館，海內方聞綴學之士云集。台拱在都，與學士朱筠、編修程晉芳、庶吉士戴震、學士邵晉涵及其同郡御史任大椿、給事中王念孫等交遊，稽經考古，旦夕討論。自天文、律呂至於聲音、文字，靡不該貫。其於漢、宋諸儒之說，不專一家，而惟是之求。精思所到，如與古作者晤言一室而知其意指之所在，比之閻若璩，蓋相伯仲也。段玉裁每謂「潛心三禮，吾所不如」。"
+    }
+  ],
+  "sources": {
+    "eccp-3645521": {
+      "title": "ECCP · Liu T'ai-kung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299493",
+      "locator": "eccp-3645521-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645519": {
+      "title": "ECCP · 劉寶楠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299489",
+      "locator": "eccp-3645519-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-161",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

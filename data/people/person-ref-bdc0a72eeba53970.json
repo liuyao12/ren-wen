@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bdc0a72eeba53970",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "鼎",
+    "source": "eccp-3642414",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳鼎，字尊彝，金匱人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "尊彝",
+        "source": "eccp-3642414"
+      }
+    ],
+    "hao": [
+      {
+        "value": "易堂",
+        "source": "eccp-3642414"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尊彝"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3642414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-243",
+      "matchStatus": "proposed",
+      "evidence": "吳鼎，字尊彝，金匱人。乾隆九年舉人，授司業。洊擢翰林院侍講學士，轉侍讀學士。大考降左春坊左贊善，遷翰林院侍講，旋休致。所撰有易例舉要二卷，十家易象集說九十卷。裒宋俞琰、元龍仁夫、明來知德等十家易說，以繼李鼎祚、董楷之後。其東莞學案，則專攻陳建學蔀通辨作也。兄鼐，亦通經，深於易、三禮。"
+    }
+  ],
+  "sources": {
+    "eccp-3642414": {
+      "title": "ECCP · 顧棟高",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290507",
+      "locator": "eccp-3642414-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-243",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

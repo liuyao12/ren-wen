@@ -18,13 +18,36 @@
         "source": "batch-evidence"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    }
   },
   "life": {
     "birth": null,
     "death": null,
     "westernDates": [],
-    "westernYears": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1877,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
     "reportedAges": []
   },
   "sources": {
@@ -41,6 +64,13 @@
       "locator": "Explicit see-under reference in eccp-05",
       "access": "cross-reference",
       "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "externalIds": {

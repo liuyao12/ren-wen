@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649362",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "皮",
+    "given": "錫瑞",
+    "source": "eccp-3649362",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'I Hsi-jui 皮錫瑞 (T. 鹿門,簏雲 H. 師伏), Dec. 17, 1850–1908, Mar. 6, scholar, was a native of Shan-hua, Hunan. His ancestors came originally from Kiangsi, and his father was a district magistrate.",
+          "source": "eccp-3649362",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鹿門",
+        "source": "eccp-3649362"
+      },
+      {
+        "value": "簏雲",
+        "source": "eccp-3649362"
+      }
+    ],
+    "hao": [
+      {
+        "value": "師伏",
+        "source": "eccp-3649362"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鹿門"
+    },
+    "romanizations": [
+      {
+        "value": "P'i Hsi-jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3649362"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3649362",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3649362",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649362",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649362",
+      "passage": "eccp-3649362-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649362": {
+      "title": "ECCP · P'i Hsi-jui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318127",
+      "locator": "eccp-3649362-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

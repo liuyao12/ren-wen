@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c97ec974011a70b9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "董",
+    "given": "福祥",
+    "source": "eccp-3640953",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "固原",
+      "source": "qsg-volume-455",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "董福祥，字星五，甘肅固原人。",
+          "source": "qsg-volume-455",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "星五",
+        "source": "eccp-3640953"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "星五"
+    },
+    "romanizations": [
+      {
+        "value": "Tung Fu-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1839,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-455",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-455",
+      "passage": "qsg-volume-455-007",
+      "matchStatus": "proposed",
+      "evidence": "董福祥，字星五，甘肅固原人。同治初，回亂作，鳳、邠、汧、瀧寇氛殆遍。福祥亦起安化，與其州人張俊、李雙良蹂躪陝、甘十數州縣，竊據花馬池，犯綏德，窺榆林，潰勇、饑民附之，眾常十餘萬。嗣為劉松山所敗，其父世猷降，福祥亦率眾乞歸款。乃簡其精銳者，編為董字三營：福祥居中營，俊居左，雙良居右。從攻金積堡，福祥襲卡後，被創不少卻，破其禮拜寺。頓板橋，寇來爭，與蕭章開夾擊敗之，金積堡平，超授都司。十一年，從劉錦棠至碾伯，趨峽口，與陝回禹得彥、雀三大戰，破之。進擊白彥虎於高家堡，焚其壘而還。已而偽知府高桂源構彥虎"
+    }
+  ],
+  "sources": {
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-455": {
+      "title": "清史稿/卷455",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2024594",
+      "locator": "qsg-volume-455-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

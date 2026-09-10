@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643640",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "率泰",
+    "source": "eccp-3643640",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Shuai-t'ai 李率泰 (T. 壽疇, 叔達), d. 1666, Feb., native of T'ieh-ling, Liaotung, a member of the Chinese Plain Blue Banner, was the second son of Li Yung-fang [q. v.]. His personal name was originally Yen-ling 延齡 but at the age of twelve (sui) he was presented at the court of Nurhaci [q. v.] who conferred on him the name Shuai-t'ai.",
+          "source": "eccp-3643640",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李率泰，字壽疇，漢軍正藍旗人，永芳子。",
+          "source": "qsg-volume-273",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "壽疇",
+        "source": "eccp-3643640"
+      },
+      {
+        "value": "叔達",
+        "source": "eccp-3643640"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽疇"
+    },
+    "romanizations": [
+      {
+        "value": "Li Shuai-t'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3643640"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643640",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643640",
+      "passage": "eccp-3643640-001"
+    },
+    {
+      "source": "qsg-volume-273",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-273",
+      "passage": "qsg-volume-273-007",
+      "matchStatus": "proposed",
+      "evidence": "李率泰，字壽疇，漢軍正藍旗人，永芳子。初名延齡，年十二，入侍太祖，賜今名。年十六，以宗室女妻之。弱冠，從太宗徵察哈爾、朝鮮及明錦州，又從貝勒阿巴泰徵山東，並有功，洊擢梅勒額真。"
+    }
+  ],
+  "sources": {
+    "eccp-3643640": {
+      "title": "ECCP · Li Shuai-t'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294862",
+      "locator": "eccp-3643640-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634094": {
+      "title": "ECCP · 鄭成功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271754",
+      "locator": "eccp-3634094-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640031": {
+      "title": "ECCP · 黃梧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282958",
+      "locator": "eccp-3640031-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642395": {
+      "title": "ECCP · 耿繼茂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290453",
+      "locator": "eccp-3642395-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643686": {
+      "title": "ECCP · 李永芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294950",
+      "locator": "eccp-3643686-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646147": {
+      "title": "ECCP · 馬得功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300564",
+      "locator": "eccp-3646147-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-226": {
+      "title": "清史稿/卷226",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2414164",
+      "locator": "qsg-volume-226-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-231": {
+      "title": "清史稿/卷231",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2332825",
+      "locator": "qsg-volume-231-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-078",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

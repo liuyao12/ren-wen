@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-311da0d56f56069d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "開榜",
+    "source": "eccp-3633525",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "施南",
+      "source": "qsg-volume-428",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃開榜，湖北施南人。",
+          "source": "qsg-volume-428",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "殿臣",
+        "source": "eccp-3633525"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "殿臣"
+    },
+    "romanizations": [
+      {
+        "value": "Huang K'ai-pang",
+        "system": "ECCP spelling",
+        "source": "eccp-3633525"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-428",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-428",
+      "passage": "qsg-volume-428-028",
+      "matchStatus": "proposed",
+      "evidence": "黃開榜，湖北施南人。初入湘軍，從塔齊布戰武、漢、蘄、黃間，累擢至都司。咸豐七年，從勝保剿捻匪，克正陽關，擢游擊。八年，偕副都統穆騰阿戰馬頭，開榜失利，褫翎頂。复六安，加副將銜。九年正月，會豫軍毀潁上南照集賊巢，率水師攻蚌埠、長淮衛，戰七晝夜，獲賊船百餘，斃賊千餘，又焚賊舟糧，破懷遠水路諸卡，毀文昌閣賊壘，殺賊甚眾，賜號勤勇巴圖魯。合諸軍擊退援賊，直抵懷遠城下，先登，复懷遠，擢副將。十年，袁甲三圍鳳陽，開榜會攻爐橋，捻首張洛行來援，會諸軍夾擊破之。賊酋鄧正明潛乞降，覘府城虛實，開榜請聚師城外，示以"
+    }
+  ],
+  "sources": {
+    "eccp-3633525": {
+      "title": "ECCP · 陳國瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280411",
+      "locator": "eccp-3633525-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-428": {
+      "title": "清史稿/卷428",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433497",
+      "locator": "qsg-volume-428-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

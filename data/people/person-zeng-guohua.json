@@ -27,7 +27,11 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    }
   },
   "life": {
     "birth": null,
@@ -61,7 +65,16 @@
       "status": "not-searched"
     }
   },
-  "accounts": [],
+  "accounts": [
+    {
+      "source": "qsg-volume-408",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-408",
+      "passage": "qsg-volume-408-020",
+      "matchStatus": "proposed",
+      "evidence": "曾國華，字溫甫，國籓弟。咸豐五年，國籓兵困於江西，國華請於父，赴湖北乞師。胡林翼令劉騰鴻，吳坤修、普承堯率五千人往援，以國華領其軍。攻克咸寧、蒲圻、通城、新昌、上高，以達瑞州。騰鴻戰城南，國華偕承堯戰城西北，屢破賊。國籓至，乃合圍，掘塹周三十里，斷賊接濟。會丁父憂，偕國籓奔喪去軍。與李續賓姻家，招佐軍事。當連克四縣，軍勢銳甚，國華以常勝軍家所忌，時與續賓深語，並書告國籓。及軍敗，從續賓力戰死，贈道銜，予騎都尉世職，諡愍烈。"
+    }
+  ],
   "sources": {
     "eccp-zeng-guofan": {
       "title": "ECCP · 曾國藩",
@@ -69,6 +82,34 @@
       "locator": "eccp-zeng-guofan-15",
       "access": "full-text",
       "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-120",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-408": {
+      "title": "清史稿/卷408",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027044",
+      "locator": "qsg-volume-408-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-432": {
+      "title": "清史稿/卷432",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515895",
+      "locator": "qsg-volume-432-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [],

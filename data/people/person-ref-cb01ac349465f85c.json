@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cb01ac349465f85c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "江",
+    "given": "田益英",
+    "source": "eccp-3656329",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "蘭泉",
+        "source": "eccp-3656329"
+      }
+    ],
+    "hao": [
+      {
+        "value": "涉園",
+        "source": "eccp-3656329"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘭泉"
+    },
+    "romanizations": [
+      {
+        "value": "Eda Masuhide",
+        "system": "ECCP spelling",
+        "source": "eccp-3656329"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1871,
+        "source": "eccp-3656329",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1940,
+        "source": "eccp-3656329",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656329": {
+      "title": "ECCP · 宋應星",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365080",
+      "locator": "eccp-3656329-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

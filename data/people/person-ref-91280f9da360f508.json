@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-91280f9da360f508",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "夢瑤",
+    "source": "eccp-3640033",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "何夢瑤，字報之，南海人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "報之",
+        "source": "eccp-3640033"
+      },
+      {
+        "value": "西池",
+        "source": "eccp-3640033"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "報之"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Mêng-yao",
+        "system": "ECCP spelling",
+        "source": "eccp-3640033"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-024",
+      "matchStatus": "proposed",
+      "evidence": "何夢瑤，字報之，南海人。惠士奇視學廣東，一以通經學古為教。夢瑤與同里勞孝輿、吳世忠，順德羅天尺、蘇珥、陳世和、陳海六，番禺吳秋一時並起，有「惠門八子」之目。雍正八年成進士，出宰粵西，治獄明慎，終奉天遼陽知州。性長於詩，兼通音律算術。謂蔡元定律呂新書，本原九章，為之訓釋。更取御製律呂正義研究八音協律和聲之用，述其大要。參以曹廷棟琴學，為書一編。時稱其決擇精當。又著算迪，述梅氏之學，兼闡數理精蘊、歷象考成之旨。江籓謂近世為此學者，知有法，不知法之所以然；知之者，惟夢瑤也。"
+    }
+  ],
+  "sources": {
+    "eccp-3640033": {
+      "title": "ECCP · 惠士奇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282962",
+      "locator": "eccp-3640033-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

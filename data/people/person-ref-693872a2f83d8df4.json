@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-693872a2f83d8df4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "景曾",
+    "source": "eccp-3672728",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "岵瞻",
+        "source": "eccp-3672728"
+      },
+      {
+        "value": "霽巖",
+        "source": "eccp-3672728"
+      }
+    ],
+    "hao": [
+      {
+        "value": "枚孫",
+        "source": "eccp-3672728"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "岵瞻"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ching-tsêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3672728"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3672728": {
+      "title": "ECCP · 王崇簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

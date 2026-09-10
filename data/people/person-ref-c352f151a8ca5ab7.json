@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c352f151a8ca5ab7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "熊光",
+    "source": "eccp-3656322",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "昭文",
+      "source": "qsg-volume-357",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳熊光，字槐江，江蘇昭文人。",
+          "source": "qsg-volume-357",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "望崑",
+        "source": "eccp-3656322"
+      }
+    ],
+    "hao": [
+      {
+        "value": "槐江",
+        "source": "eccp-3656322"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "望崑"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Hsiung-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3656322"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1750,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3656322",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-357",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-357",
+      "passage": "qsg-volume-357-007",
+      "matchStatus": "proposed",
+      "evidence": "吳熊光，字槐江，江蘇昭文人。舉順天鄉試，乾隆三十七年，登中正榜，授內閣中書，充軍機章京。累遷刑部郎中，改御史。當罷直，大學士阿桂素倚之，請留直如故。阿桂屢奉使出剿匪、治河、閱海塘、讞獄，熊光輒從。累遷通政司參議。"
+    }
+  ],
+  "sources": {
+    "eccp-3656322": {
+      "title": "ECCP · 孫玉庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365066",
+      "locator": "eccp-3656322-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

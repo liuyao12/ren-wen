@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643650",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "天馥",
+    "source": "eccp-3643650",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "永城",
+      "source": "qsg-volume-267",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI T'ien-fu 李天馥 (T. 湘北, H. 容齋) Mar. 12, 1635–1699, Dec. 5; official, was originally from Ho-fei, Anhwei, but registered in the examinations as a native of Yung-ch'êng, Honan. Receiving his chin-shih in 1658, he was made a corrector in 1661, and became sub-chancellor of the Grand Secretariat in 1677.",
+          "source": "eccp-3643650",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李天馥，字湘北，河南永城人。",
+          "source": "qsg-volume-267",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "湘北",
+        "source": "eccp-3643650"
+      }
+    ],
+    "hao": [
+      {
+        "value": "容齋",
+        "source": "eccp-3643650"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "湘北"
+    },
+    "romanizations": [
+      {
+        "value": "Li T'ien-fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3643650"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1635,
+        "source": "eccp-3643650",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3643650",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643650",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643650",
+      "passage": "eccp-3643650-001"
+    },
+    {
+      "source": "qsg-volume-267",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-267",
+      "passage": "qsg-volume-267-016",
+      "matchStatus": "proposed",
+      "evidence": "李天馥，字湘北，河南永城人。先世在明初以軍功得世襲廬州衛指揮僉事，家合肥。有族子佔永城衛籍，天馥以其籍舉鄉試。順治十五年，成進士，選庶吉士，授檢討。博聞約取，究心經世之學，名藉甚。累擢內閣學士，充經筵講官。每侍直，有所見，悉陳無隱，聖祖器之，康熙十九年夏，旱，命偕大學士明珠會三法司慮囚，有矜疑者，悉從末減。尋擢戶部侍郎，調吏部。杜絕苞苴，嚴峻一無所私，銓政稱平。二十七年，遷工部尚書。河道總督靳輔議築高家堰重堤，束水出清口，停濬海口；於成龍主疏濬下河。上召二人詣京師入對，仍各持一說，下廷臣詳議，天"
+    }
+  ],
+  "sources": {
+    "eccp-3643650": {
+      "title": "ECCP · Li T'ien-fu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294889",
+      "locator": "eccp-3643650-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-231",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

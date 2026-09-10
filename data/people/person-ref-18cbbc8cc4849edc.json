@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-18cbbc8cc4849edc",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "瑞徵",
+    "source": "eccp-3634073",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ien Jui-chêng 錢瑞徵 (T. 鶴庵, 1620–1702, chü-jên of 1663), at Ch'ü-chou, Chekiang, where the latter served as director of the district school (1686-97). She managed the affairs of her family with vigor and understanding and sometimes solved difficult problems relating to her husband's clan.",
+          "source": "eccp-3634073",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鶴庵",
+        "source": "eccp-3634073"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鶴庵"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Jui-chêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3634073"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634073": {
+      "title": "ECCP · 陳書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271485",
+      "locator": "eccp-3634073-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-82ae30250f5a3675",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姚",
+    "given": "覲元",
+    "source": "eccp-3678124",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "裕萬",
+        "source": "eccp-3678124"
+      }
+    ],
+    "hao": [
+      {
+        "value": "彥侍",
+        "source": "eccp-3678124"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "裕萬"
+    },
+    "romanizations": [
+      {
+        "value": "Yao Chin-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3678124"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678124": {
+      "title": "ECCP · 姚文田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442905",
+      "locator": "eccp-3678124-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

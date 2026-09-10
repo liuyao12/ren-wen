@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-05c8c44a58a6a8cf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "有壬",
+    "source": "eccp-3643637",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宛平",
+      "source": "qsg-volume-395",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐有壬，字鈞卿，順天宛平人，原籍浙江烏程。",
+          "source": "qsg-volume-395",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "君青",
+        "source": "eccp-3643637"
+      },
+      {
+        "value": "鈞卿",
+        "source": "eccp-3643637"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "君青"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Yu-jên",
+        "system": "ECCP spelling",
+        "source": "eccp-3643637"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1800,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1860,
+        "source": "eccp-3643637",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-395",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-395",
+      "passage": "qsg-volume-395-045",
+      "matchStatus": "proposed",
+      "evidence": "徐有壬，字鈞卿，順天宛平人，原籍浙江烏程。道光九年進士，授戶部主事，洊升郎中。出為四川成綿龍道，署按察使。治啯匪，擒其魁，餘黨解散。遷廣東鹽運使，署按察使，清遠土匪戕官，馳剿平之。遷四川按察使。文宗即位，下詔求言，司道率引嫌，罕所陳奏。有壬獨密疏，論事切直。遷雲南布政使，調湖南。咸豐五年，以母憂回原籍。浙江巡撫何桂清奏起有壬治團防。粵匪由寧國窺湖州，有壬扼長興，設伏敗之，賊去。八年，服闋，命筦江蘇糧台，擢江蘇巡撫。槍船匪首程鵬士擾嘉興、湖州，地方官不能制，潛至蘇州，偵獲之，置諸法。"
+    }
+  ],
+  "sources": {
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-395": {
+      "title": "清史稿/卷395",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026650",
+      "locator": "qsg-volume-395-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

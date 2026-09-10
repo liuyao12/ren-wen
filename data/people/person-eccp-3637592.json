@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637592",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "范",
+    "given": "景文",
+    "source": "eccp-3637592",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FAN Ching-wên 范景文 (T. 夢章, H. 質公 and 思仁), Nov. 29, 1587–1644, Apr. 25, Ming official, poet and painter, native of Wu-ch'iao, Chihli, was the son of a prefect of Nan-ning, Kwangsi. After becoming a chin-shih in 1613 he made a good record as police magistrate in Tung-ch'ang, Shantung, and was promoted to the post of assistant director in the Board of Civil Appointments.",
+          "source": "eccp-3637592",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "夢章",
+        "source": "eccp-3637592"
+      }
+    ],
+    "hao": [
+      {
+        "value": "質公",
+        "source": "eccp-3637592"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "夢章"
+    },
+    "romanizations": [
+      {
+        "value": "Fan Ching-wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3637592"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1587,
+        "source": "eccp-3637592",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3637592",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637592",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637592",
+      "passage": "eccp-3637592-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637592": {
+      "title": "ECCP · Fan Ching-wên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275784",
+      "locator": "eccp-3637592-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678145",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "延",
+    "given": "平王",
+    "source": "eccp-3678145",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yen-p'ing, Prince of",
+        "system": "ECCP spelling",
+        "source": "eccp-3678145"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678145",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3678145",
+      "passage": "eccp-3678145-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678145": {
+      "title": "ECCP · Yen-p'ing, Prince of",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442955",
+      "locator": "eccp-3678145-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634094": {
+      "title": "ECCP · 鄭成功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271754",
+      "locator": "eccp-3634094-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

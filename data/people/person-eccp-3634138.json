@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634138",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "嘉燧",
+    "source": "eccp-3634138",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊNG Chia-sui 程嘉燧 (T. 孟陽, H. 偈庵, 松圓詩老), 1565–1644, Jan–Feb., Ming poet and painter, was a native of Hsiu-ning, Anhwei, but resided most of his life (about fifty years) in Chia-ting, Kiangsu.",
+          "source": "eccp-3634138",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孟陽",
+        "source": "eccp-3634138"
+      }
+    ],
+    "hao": [
+      {
+        "value": "偈庵",
+        "source": "eccp-3634138"
+      },
+      {
+        "value": "松圓詩老",
+        "source": "eccp-3634138"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟陽"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng Chia-sui",
+        "system": "ECCP spelling",
+        "source": "eccp-3634138"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1565,
+        "source": "eccp-3634138",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3634138",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634138",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634138",
+      "passage": "eccp-3634138-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634138": {
+      "title": "ECCP · Ch'êng Chia-sui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285224",
+      "locator": "eccp-3634138-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

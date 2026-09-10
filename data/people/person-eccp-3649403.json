@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649403",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "申",
+    "given": "涵光",
+    "source": "eccp-3649403",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHÊN Han-kuang 申涵光 (T. 孚孟, 和孟, H. 鳧盟, 聰山, 臥樗老人), Jan. 4, 1620–1677, July 5, poet, philosopher and artist, was a native of Yung-nien, Chihli. His father, Shên Chia-yin 申佳胤 (T. 孔嘉, 1602–1644), took his own life as a martyr to the Ming cause and was canonized as Tuan-min 端愍 in the Ch'ing period.",
+          "source": "eccp-3649403",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "申涵光，字孚孟，號鳧盟，永年人，明太僕寺丞佳胤子。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孚孟",
+        "source": "eccp-3649403"
+      },
+      {
+        "value": "和孟",
+        "source": "eccp-3649403"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鳧盟",
+        "source": "eccp-3649403"
+      },
+      {
+        "value": "聰山",
+        "source": "eccp-3649403"
+      },
+      {
+        "value": "臥樗老人",
+        "source": "eccp-3649403"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孚孟"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Han-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649403"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3649403",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1677,
+        "source": "eccp-3649403",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649403",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649403",
+      "passage": "eccp-3649403-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-042",
+      "matchStatus": "proposed",
+      "evidence": "申涵光，字孚孟，號鳧盟，永年人，明太僕寺丞佳胤子。年十五，補諸生。文名藉藉，顧不屑為舉子業。日與諸同志論文立社，載酒豪遊為樂。萬曆六年亂起，議城守，出家貲四百金、錢二十萬犒士。甲申，奉母避亂西山，誅茅廣羊絕頂。與鉅鹿楊思聖，雞澤殷岳、殷淵，定患難交。京師破，佳胤殉國難，涵光痛絕復甦。因渡江而南，謁陳子龍、夏允彝、徐石麟諸名宿，為父志、傳。歸里，事親課弟，足跡絕城市。日與殷岳及同里張蓋相往來酬和，人號為「廣平三君」。"
+    }
+  ],
+  "sources": {
+    "eccp-3649403": {
+      "title": "ECCP · Shên Han-kuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318195",
+      "locator": "eccp-3649403-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656376": {
+      "title": "ECCP · 田雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

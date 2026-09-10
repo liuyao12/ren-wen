@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656364",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "德興阿",
+    "source": "eccp-3656364",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TÊ-hsing-a 德興阿 (clan name 喬佳), d. 1867, was a Manchu general and a member of the Plain Yellow Banner, stationed in Heilungkiang. In 1846 he was transferred to Peking to be an imperial guard and in 1852 he was promoted to senior bodyguard of the first rank.",
+          "source": "eccp-3656364",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "德興阿，喬佳氏，滿洲正黃旗人，黑龍江駐防。",
+          "source": "qsg-volume-403",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Tê-hsing-a",
+        "system": "ECCP spelling",
+        "source": "eccp-3656364"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656364",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656364",
+      "passage": "eccp-3656364-001"
+    },
+    {
+      "source": "qsg-volume-403",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-403",
+      "passage": "qsg-volume-403-029",
+      "matchStatus": "proposed",
+      "evidence": "德興阿，喬佳氏，滿洲正黃旗人，黑龍江駐防。道光末，由駐京前鋒授藍翎侍衛、乾清門行走，累擢頭等侍衛。以善騎射受文宗知，曾手擒奔馬，賜黃馬褂。"
+    }
+  ],
+  "sources": {
+    "eccp-3656364": {
+      "title": "ECCP · Tê-hsing-a",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365135",
+      "locator": "eccp-3656364-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635431": {
+      "title": "ECCP · 琦善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271388",
+      "locator": "eccp-3635431-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639261": {
+      "title": "ECCP · 向榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280291",
+      "locator": "eccp-3639261-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640789": {
+      "title": "ECCP · 洪秀全",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285328",
+      "locator": "eccp-3640789-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-084",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-067",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-400": {
+      "title": "清史稿/卷400",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026858",
+      "locator": "qsg-volume-400-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-401": {
+      "title": "清史稿/卷401",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029845",
+      "locator": "qsg-volume-401-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-403": {
+      "title": "清史稿/卷403",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162934",
+      "locator": "qsg-volume-403-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-404": {
+      "title": "清史稿/卷404",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162619",
+      "locator": "qsg-volume-404-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-427": {
+      "title": "清史稿/卷427",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2259934",
+      "locator": "qsg-volume-427-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

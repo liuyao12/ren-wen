@@ -1,3 +1,5 @@
+import {loadNameHistory, paragraphAnchor} from './name-history.js';
+import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 /** Progressive context panels. Text, source snapshots, and annotation IDs remain untouched. */
 import {escapeHTML as h, safeURL, contextFor} from './core.js';
@@ -17,7 +19,7 @@ const labelYear=(p,key)=>westernYearText(p,key);
 
 async function install(){
   if(!$('reader'))return;
-  const [cr,gr,profiles]=await Promise.all([fetch('data/catalog.json'),fetch('data/geography.json'),loadProfiles()]);
+  const [cr,gr,profiles,history]=await Promise.all([fetchData('data/catalog.json'),fetchData('data/geography.json'),loadProfiles(),loadNameHistory()]);
   if(!cr.ok||!gr.ok)throw Error('Context data could not be loaded.');
   const catalog=await cr.json(), geo=await gr.json();
   if(geo.schemaVersion!==1)throw Error('Unsupported geography data.');
@@ -172,7 +174,8 @@ async function install(){
   }
   function updateTimeline(){if(current)familyTimeline.update(current);}
   function refresh(){
-    frame=0;const source=catalog.sources.find(s=>s.id===$('source-select').value),paragraph=$('reader').querySelector('p[id].active');
+    frame=0;const baseSource=catalog.sources.find(s=>s.id===$('source-select').value), requestedPerson=new URLSearchParams(location.search).get('person');
+    const source=baseSource && !baseSource.subject && people.has(requestedPerson)?{...baseSource,subject:requestedPerson}:baseSource,paragraph=$('reader').querySelector('p[id].active');
     if(!source||!paragraph||!paragraph.id.startsWith(source.id+'-'))return;
     const context=contextFor(catalog,source.id,paragraph.id);
     const inNode=node=>[...node.querySelectorAll('[data-entity],a[data-person-link]')].map(n=>n.dataset.personLink||n.dataset.entity).filter(id=>people.has(id));
@@ -182,7 +185,8 @@ async function install(){
     const year=Number($('year').value),key=JSON.stringify([source.id,paragraph.id,year,ids,activePeople]);
     if(current?.key===key)return;
     const sourceChanged=current?.source.id!==source.id;
-    current={source,passage:paragraph.id,context,activePeople,people:ids,year,key};
+    const anchor=paragraphAnchor(context,source.id,paragraph.id,history);
+    current={source,passage:paragraph.id,context,activePeople,people:ids,year,key,anchor,history,follow:$('follow').checked};
     if(sourceChanged){selectedPerson=source.subject;}
     if(!selectedPerson||!ids.includes(selectedPerson))selectedPerson=source.subject;
     $('trajectory-person').innerHTML=ids.map(id=>`<option value="${h(id)}">${h(shortName(people.get(id)))}</option>`).join('');$('trajectory-person').value=selectedPerson;
@@ -193,6 +197,7 @@ async function install(){
   const schedule=()=>{if(!frame)frame=requestAnimationFrame(refresh);};
   new MutationObserver(schedule).observe($('reader'),{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
   new MutationObserver(schedule).observe($('year-label'),{childList:true,subtree:true,characterData:true});
+  $('follow').addEventListener('change',()=>{if(current)current.key=null;schedule();});
   $('year').addEventListener('input',schedule);$('source-select').addEventListener('change',schedule);
   if(typeof ResizeObserver!=='undefined')new ResizeObserver(()=>paintMap(false)).observe(map);
   window.addEventListener('renwen:languagechange',()=>{updateTimeline();updateHierarchy();paintMap();});

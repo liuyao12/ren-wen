@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658535",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "杜",
+    "given": "立德",
+    "source": "eccp-3658535",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "寶坻",
+      "source": "qsg-volume-250",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TU Li-tê 杜立德 (T. 純一, H. 敬修), 1611–1691, July 3, official, was a native of Pao-ti, Chihli. He became a chin-shih at the last Ming examinations in 1643. Two years later, through the recommendation of Sung Ch'üan [q. v.], he was appointed a censor in the new regime.",
+          "source": "eccp-3658535",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "杜立德，字純一，直隸寶坻人。",
+          "source": "qsg-volume-250",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "純一",
+        "source": "eccp-3658535"
+      }
+    ],
+    "hao": [
+      {
+        "value": "敬修",
+        "source": "eccp-3658535"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "純一"
+    },
+    "romanizations": [
+      {
+        "value": "Tu Li-tê",
+        "system": "ECCP spelling",
+        "source": "eccp-3658535"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3658535",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3658535",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658535",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658535",
+      "passage": "eccp-3658535-001"
+    },
+    {
+      "source": "qsg-volume-250",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-250",
+      "passage": "qsg-volume-250-017",
+      "matchStatus": "proposed",
+      "evidence": "杜立德，字純一，直隸寶坻人。明崇禎進士。順治元年，以順天巡撫宋權薦，授中書科中書。二年，考選戶科給事中。疏陳：「治平之道有三：一曰敬天。君為天之子，當修省以迓天休。今秦、晉、燕畿水旱風雹，天心示警。凡開誠佈公，懋德敦行，皆敬天事也。一曰法古。古者事之鑑，是非定於一時，法則昭於百代。故合經而後能權，遵法而後能創。凡建學明倫，立綱陳紀，皆法古事也。一曰愛人。自大臣以至百姓，宜一視同仁。且無論新舊，悉存棄短取長之心。凡親賢納諫，尚德緩刑，皆愛人事也。」上以其有裨治理，深嘉納之。又累疏言：「牧民之官，宜"
+    }
+  ],
+  "sources": {
+    "eccp-3658535": {
+      "title": "ECCP · Tu Li-tê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370070",
+      "locator": "eccp-3658535-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639962": {
+      "title": "ECCP · 熊賜履",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282783",
+      "locator": "eccp-3639962-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

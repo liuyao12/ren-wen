@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654363",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "施",
+    "given": "琅",
+    "source": "eccp-3654363",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "晉江",
+      "source": "qsg-volume-260",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH Lang 施琅 (T. 鄭侯, H. 琢公), 1621–1696, Apr., Ming-Ch'ing admiral, was a native of Chin-chiang, Fukien. Being of distinguished lineage, he early displayed self-confidence. He studied military strategy and knew how to take advantage of wind and tide.",
+          "source": "eccp-3654363",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "施琅，字琢公，福建晉江人。",
+          "source": "qsg-volume-260",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鄭侯",
+        "source": "eccp-3654363"
+      }
+    ],
+    "hao": [
+      {
+        "value": "琢公",
+        "source": "eccp-3654363"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鄭侯"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Lang",
+        "system": "ECCP spelling",
+        "source": "eccp-3654363"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1621,
+        "source": "eccp-3654363",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3654363",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654363",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654363",
+      "passage": "eccp-3654363-001"
+    },
+    {
+      "source": "qsg-volume-260",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-260",
+      "passage": "qsg-volume-260-027",
+      "matchStatus": "proposed",
+      "evidence": "施琅，字琢公，福建晉江人。初為明總兵鄭芝龍部下左衝鋒。順治三年，師定福建，瑯從芝龍降。從征廣東，戡定順德、東莞、三水、新寧諸縣。芝龍歸京師，其子成功竄踞海島，招瑯，不從。成功執瑯，並縶其家屬。瑯以計得脫，父大宣、弟顯及子侄皆為成功所殺。十三年，從定遠大將軍世子濟度擊敗成功於福州，授同安副將。十六年，成功據台灣，就擢瑯同安總兵。"
+    }
+  ],
+  "sources": {
+    "eccp-3654363": {
+      "title": "ECCP · Shih Lang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358427",
+      "locator": "eccp-3654363-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634098": {
+      "title": "ECCP · 鄭經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271756",
+      "locator": "eccp-3634098-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640008": {
+      "title": "ECCP · 黃芳泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282895",
+      "locator": "eccp-3640008-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640031": {
+      "title": "ECCP · 黃梧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282958",
+      "locator": "eccp-3640031-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642395": {
+      "title": "ECCP · 耿繼茂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290453",
+      "locator": "eccp-3642395-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642447": {
+      "title": "ECCP · 李長庚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643640": {
+      "title": "ECCP · 李率泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294862",
+      "locator": "eccp-3643640-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654364": {
+      "title": "ECCP · 施世綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358429",
+      "locator": "eccp-3654364-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658534": {
+      "title": "ECCP · 杜臻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370066",
+      "locator": "eccp-3658534-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678098": {
+      "title": "ECCP · 姚啟聖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442584",
+      "locator": "eccp-3678098-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

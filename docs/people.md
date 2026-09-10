@@ -64,3 +64,7 @@ python scripts/profiles.py index-db
 The last command indexes profiles into the **same** derived `build/renwen.sqlite`: `person_profiles`, `person_names`, `person_external_ids`, and `person_profile_summary` (a view with derived sui). It checks that each profile joins a person entity already in the corpus. Always rerun it after rebuilding the corpus DB. CI does both steps before uploading the SQLite artifact. This database is not independently editable.
 
 Tests cover typed name selection, missing fields, source requirements, exact string IDs, January/Chinese-year distinction, no fallback from Western dates, and idempotent SQL indexing. The new format is a profile data model, not a replacement for ctext's textual annotation XML.
+
+## County and clan qualifiers
+
+See `docs/round1.md`. Canonical bracket text now uses explicit `name.bracket` (county or clan), not the full jiguan label. Native-place and full registry attestations remain source-attributed fields. Unknown registry category and banner company remain null.

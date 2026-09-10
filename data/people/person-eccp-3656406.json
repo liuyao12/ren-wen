@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656406",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曹",
+    "given": "振鏞",
+    "source": "eccp-3656406",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歙縣",
+      "source": "qsg-volume-363",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TS'AO Chên-yung 曹振鏞 (T. 懌嘉, H. 儷笙), Nov. 8, 1755–1835, Jan. 31, official, was a native of Shê-hsien, Anhwei. His grandfather, Ts'ao Ching-ch'ên 曹景宸 (T. 映青, H. 楓亭, 1707–1776, Feb. 14), was for many years a salt merchant at Yangchow, and as such amassed a tolerable fortune.",
+          "source": "eccp-3656406",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "曹振鏞，字儷笙，安徽歙縣人，尚書文埴子。",
+          "source": "qsg-volume-363",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "懌嘉",
+        "source": "eccp-3656406"
+      }
+    ],
+    "hao": [
+      {
+        "value": "儷笙",
+        "source": "eccp-3656406"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "懌嘉"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ao Chên-yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656406"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1755,
+        "source": "eccp-3656406",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3656406",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656406",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656406",
+      "passage": "eccp-3656406-001"
+    },
+    {
+      "source": "qsg-volume-363",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-363",
+      "passage": "qsg-volume-363-006",
+      "matchStatus": "proposed",
+      "evidence": "曹振鏞，字儷笙，安徽歙縣人，尚書文埴子。乾隆四十六年進士，選庶吉士，授編修。大考三等，高宗以振鏞大臣子，才可用，特擢侍講。累遷侍讀學士。嘉慶三年，大考二等，遷少詹事。父憂歸，服闋，授通政使。歷內閣學士，工部、吏部侍郎。十一年，擢工部尚書。高宗實錄成，加太子少保。調戶部，兼翰林院掌院學士。十八年，調吏部尚書、協辦大學士。尋拜體仁閣大學士，管理工部，晉太子太保。二十五年，仁宗崩，樞臣撰遺詔，稱高宗誕生於避暑山莊，編修劉鳳誥知其誤，告振鏞，振鏞召對陳之，宣宗怒，譴罷樞臣。尋命振鏞為軍機大臣。宣宗治尚恭"
+    }
+  ],
+  "sources": {
+    "eccp-3656406": {
+      "title": "ECCP · Ts'ao Chên-yung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365198",
+      "locator": "eccp-3656406-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636405": {
+      "title": "ECCP · 朱珔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272525",
+      "locator": "eccp-3636405-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649108": {
+      "title": "ECCP · 旻寧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317663",
+      "locator": "eccp-3649108-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649135": {
+      "title": "ECCP · 穆彰阿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317706",
+      "locator": "eccp-3649135-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678189": {
+      "title": "ECCP · 英和",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443101",
+      "locator": "eccp-3678189-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-155",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-17": {
+      "title": "清史稿/卷17",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1812282",
+      "locator": "qsg-volume-17-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-363": {
+      "title": "清史稿/卷363",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433568",
+      "locator": "qsg-volume-363-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

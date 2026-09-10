@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e62a4e2e8f76fc31",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "莊",
+    "given": "述祖",
+    "source": "eccp-3637551",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "莊述祖，字葆琛，武進人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "葆琛",
+        "source": "eccp-3637551"
+      }
+    ],
+    "hao": [
+      {
+        "value": "珍藝",
+        "source": "eccp-3637551"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "葆琛"
+    },
+    "romanizations": [
+      {
+        "value": "Chuang Shu-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3637551"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3637551",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1816,
+        "source": "eccp-3637551",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-210",
+      "matchStatus": "proposed",
+      "evidence": "莊述祖，字葆琛，武進人。世父存與，官禮部侍郎，自有傳。述祖，乾隆四十五年進士，官山東濰縣知縣。明暢吏治，刑獄得中，豪猾斂跡。嘗勘鹼地，眾以為斥鹵也，述祖指路旁草問何名，曰馬帚。述祖笑曰：「此於經名荓，夏正'荓秀'記時，凡沙土草荓者宜禾，何謂鹼？」眾皆服。甲寅，以卓異引見，還，檄授桃源同知。不一月，乞養歸。著書色養者十六年，未嘗一日離左右。二十一年，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3637551": {
+      "title": "ECCP · 莊存與",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275724",
+      "locator": "eccp-3637551-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-210",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

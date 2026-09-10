@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635456",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "灃",
+    "source": "eccp-3635456",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "昆明",
+      "source": "qsg-volume-322",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN Fêng 錢灃 (T. 東注, H. 南園), Apr. 26, 1740–1795, Oct. 30, official, was a native of K'un-ming, Yunnan. After taking his chin-shih degree in 1771 he, for a time, pursued advanced studies in the Hanlin Academy, later serving as a corrector in the same institution until 1780 when he was sent to Kwangsi to conduct the provincial examination.",
+          "source": "eccp-3635456",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "錢灃，字東注，雲南昆明人。",
+          "source": "qsg-volume-322",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "東注",
+        "source": "eccp-3635456"
+      }
+    ],
+    "hao": [
+      {
+        "value": "南園",
+        "source": "eccp-3635456"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "東注"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Fêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3635456"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1740,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1795,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635456",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635456",
+      "passage": "eccp-3635456-001"
+    },
+    {
+      "source": "qsg-volume-322",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-322",
+      "passage": "qsg-volume-322-024",
+      "matchStatus": "proposed",
+      "evidence": "錢灃，字東注，雲南昆明人。乾隆三十六年進士，改庶吉士，散館授檢討。四十六年，考選江南道監察御史。甘肅冒賑折捐事發，主其事者為甘肅布政使王亶望，時已遷浙江巡撫，坐誅，總督勒爾謹及諸府縣吏死者數十人，事具亶望傳。陝西巡撫畢沅嘗兩署陝甘總督，獨置不問。灃疏言：「冒賑折捐，固由亶望骫法，但亶望為布政使時，沅兩署總督，近在同城，豈無聞見？使沅早發其奸，則播惡不至如此之甚；即陷於刑闢者，亦不至如此之多。臣不敢謂其利令智昏，甘受所餌，惟是瞻徇回護，不肯舉發，甚非大臣居心之道。請比捏結各員治罪。」上為詰責沅，降"
+    }
+  ],
+  "sources": {
+    "eccp-3635456": {
+      "title": "ECCP · Ch'ien Fêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271408",
+      "locator": "eccp-3635456-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639239": {
+      "title": "ECCP · 郝碩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280254",
+      "locator": "eccp-3639239-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639253": {
+      "title": "ECCP · 和珅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280277",
+      "locator": "eccp-3639253-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645529": {
+      "title": "ECCP · 劉墉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299508",
+      "locator": "eccp-3645529-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646128": {
+      "title": "ECCP · 陸錫熊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300525",
+      "locator": "eccp-3646128-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-356": {
+      "title": "清史稿/卷356",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611720",
+      "locator": "qsg-volume-356-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-379": {
+      "title": "清史稿/卷379",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484959",
+      "locator": "qsg-volume-379-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

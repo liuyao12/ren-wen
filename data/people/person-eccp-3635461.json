@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635461",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "大昭",
+    "source": "eccp-3635461",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN Ta-chao 錢大昭 (T. 晦之, 宏嗣, H. 可廬, 竹廬), 1744–1813, scholar, native of Chia-ting, Kiangsu, was a brother of Ch'ien Ta-hsin [q. v.] who was eighteen years his senior. For a time Ch'ien Ta-chao joined his older brother in Peking and accompanied him to Kwangtung in 1774 when the latter was appointed director of education.",
+          "source": "eccp-3635461",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "錢大昭，字晦之，嘉定人，大昕弟。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "晦之",
+        "source": "eccp-3635461"
+      },
+      {
+        "value": "宏嗣",
+        "source": "eccp-3635461"
+      }
+    ],
+    "hao": [
+      {
+        "value": "可廬",
+        "source": "eccp-3635461"
+      },
+      {
+        "value": "竹廬",
+        "source": "eccp-3635461"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "晦之"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Ta-chao",
+        "system": "ECCP spelling",
+        "source": "eccp-3635461"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1744,
+        "source": "eccp-3635461",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1813,
+        "source": "eccp-3635461",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635461",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635461",
+      "passage": "eccp-3635461-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-277",
+      "matchStatus": "proposed",
+      "evidence": "錢大昭，字晦之，嘉定人，大昕弟。大昕深於經史，一門群從，皆治古學，能文章，為東南之望。大昭少於大昕者二十年，事兄如嚴師，得其指授，時有兩甦之比。壯歲遊京師，嘗校錄四庫全書，人間未見之秘，皆得縱觀，由是學問益浩博。又善於決擇，其說經及小學之書，能直入漢儒閫奧。嘗欲從事爾雅，大昕與書，謂：「六經皆以明道，未有不通訓詁而能知道者。欲窮六經之旨，必自爾雅始。」大昭乃著爾雅釋文補三卷及廣雅疏義二十卷。"
+    }
+  ],
+  "sources": {
+    "eccp-3635461": {
+      "title": "ECCP · Ch'ien Ta-chao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271413",
+      "locator": "eccp-3635461-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635465": {
+      "title": "ECCP · 錢塘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271412",
+      "locator": "eccp-3635465-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672750": {
+      "title": "ECCP · 王念孫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412324",
+      "locator": "eccp-3672750-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-277",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

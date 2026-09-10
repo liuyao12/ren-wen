@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3299f6bb0c4050d0",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "金",
+    "given": "農",
+    "source": "eccp-3639236",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "壽門",
+        "source": "eccp-3639236"
+      },
+      {
+        "value": "吉金",
+        "source": "eccp-3639236"
+      }
+    ],
+    "hao": [
+      {
+        "value": "冬心",
+        "source": "eccp-3639236"
+      },
+      {
+        "value": "司農",
+        "source": "eccp-3639236"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽門"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Nung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639236"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1687,
+        "source": "eccp-3639236",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1764,
+        "source": "eccp-3639236",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639236": {
+      "title": "ECCP · 杭世駿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280249",
+      "locator": "eccp-3639236-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

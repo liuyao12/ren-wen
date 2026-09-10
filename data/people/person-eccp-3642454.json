@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642454",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "成梁",
+    "source": "eccp-3642454",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Ch'êng-liang 李成梁 (T. 汝器 or 汝契, H. 銀[寅]城), Aug. 21, 1526–1618, Ming general, was a native of T'ieh-ling, Liaotung. His ancestor in the fifth generation, Li Ying-ni 李膺尼, was a Korean who moved to T'ieh-ling in the early Ming period from a town on the south bank of the Yalu River.",
+          "source": "eccp-3642454",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "汝器",
+        "source": "eccp-3642454"
+      }
+    ],
+    "hao": [
+      {
+        "value": "銀",
+        "source": "eccp-3642454"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "汝器"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ch'êng-liang",
+        "system": "ECCP spelling",
+        "source": "eccp-3642454"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1526,
+        "source": "eccp-3642454",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1618,
+        "source": "eccp-3642454",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642454",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642454",
+      "passage": "eccp-3642454-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642454": {
+      "title": "ECCP · Li Ch'êng-liang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290591",
+      "locator": "eccp-3642454-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649141": {
+      "title": "ECCP · 納林布祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317715",
+      "locator": "eccp-3649141-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649159": {
+      "title": "ECCP · 尼堪外蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317760",
+      "locator": "eccp-3649159-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658573": {
+      "title": "ECCP · Wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370135",
+      "locator": "eccp-3658573-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678073": {
+      "title": "ECCP · 楊鎬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442415",
+      "locator": "eccp-3678073-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678093": {
+      "title": "ECCP · 楊吉砮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442549",
+      "locator": "eccp-3678093-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

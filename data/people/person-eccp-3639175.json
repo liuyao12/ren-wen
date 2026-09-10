@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639175",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "銓",
+    "source": "eccp-3639175",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "涿州",
+      "source": "qsg-volume-245",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "FÊNG Ch'üan 馮銓 (T. 振鷺, 伯衡, H. 鹿庵), 1595–1672, official of both Ming and Ch'ing dynasties, was a native of Cho-chou, Chihli. A chin-shih of 1613, he was appointed a bachelor in the Hanlin Academy and was later given the rank of corrector.",
+          "source": "eccp-3639175",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "馮銓，字振鷺，順天涿州人。",
+          "source": "qsg-volume-245",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "振鷺",
+        "source": "eccp-3639175"
+      },
+      {
+        "value": "伯衡",
+        "source": "eccp-3639175"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鹿庵",
+        "source": "eccp-3639175"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "振鷺"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3639175"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1595,
+        "source": "eccp-3639175",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3639175",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639175",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639175",
+      "passage": "eccp-3639175-001"
+    },
+    {
+      "source": "qsg-volume-245",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-245",
+      "passage": "qsg-volume-245-012",
+      "matchStatus": "proposed",
+      "evidence": "馮銓，字振鷺，順天涿州人。明萬曆進士，授檢討。諂事魏忠賢，累遷文淵閣大學士兼戶部尚書，加少保兼太子太保，以微忤罷去。莊烈帝既誅忠賢，得銓罷官後壽忠賢百韻詩，論杖徒，贖為民。"
+    }
+  ],
+  "sources": {
+    "eccp-3639175": {
+      "title": "ECCP · Fêng Ch'üan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408019",
+      "locator": "eccp-3639175-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633300": {
+      "title": "ECCP · 張廷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271942",
+      "locator": "eccp-3633300-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639961": {
+      "title": "ECCP · 熊廷弼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282782",
+      "locator": "eccp-3639961-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649143": {
+      "title": "ECCP · 倪元璐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317719",
+      "locator": "eccp-3649143-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674949": {
+      "title": "ECCP · 魏忠賢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419223",
+      "locator": "eccp-3674949-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678082": {
+      "title": "ECCP · 楊漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-069",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-272": {
+      "title": "清史稿/卷272",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600806",
+      "locator": "qsg-volume-272-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-400": {
+      "title": "清史稿/卷400",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026858",
+      "locator": "qsg-volume-400-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

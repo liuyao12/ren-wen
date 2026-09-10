@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636392",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邱",
+    "given": "逢甲",
+    "source": "eccp-3636392",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "仙根",
+        "source": "eccp-3636392"
+      },
+      {
+        "value": "仲閼",
+        "source": "eccp-3636392"
+      },
+      {
+        "value": "蟄仙",
+        "source": "eccp-3636392"
+      }
+    ],
+    "hao": [
+      {
+        "value": "滄海",
+        "source": "eccp-3636392"
+      },
+      {
+        "value": "南武山人",
+        "source": "eccp-3636392"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仙根"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'iu Fêng-chia",
+        "system": "ECCP spelling",
+        "source": "eccp-3636392"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1864,
+        "source": "eccp-3636392",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1912,
+        "source": "eccp-3636392",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636392",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636392",
+      "passage": "eccp-3636392-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636392": {
+      "title": "ECCP · Ch'iu Fêng-chia",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272493",
+      "locator": "eccp-3636392-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-463": {
+      "title": "清史稿/卷463",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021094",
+      "locator": "qsg-volume-463-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

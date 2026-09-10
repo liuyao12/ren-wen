@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646162",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "毛",
+    "given": "霦",
+    "source": "eccp-3646162",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MAO Pin 毛霦 (T. 荊石), d. 1726, age 76 (sui), recluse and scholar, was a native of Yeh-hsien (Lai-chou), Shantung. He attracted the attention of a district magistrate when competing at the age of thirteen (sui) in a literary examination that took place in 1663.",
+          "source": "eccp-3646162",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "荊石",
+        "source": "eccp-3646162"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "荊石"
+    },
+    "romanizations": [
+      {
+        "value": "Mao Pin",
+        "system": "ECCP spelling",
+        "source": "eccp-3646162"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646162",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646162",
+      "passage": "eccp-3646162-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646162": {
+      "title": "ECCP · Mao Pin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300587",
+      "locator": "eccp-3646162-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642430": {
+      "title": "ECCP · 孔有德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290540",
+      "locator": "eccp-3642430-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656324": {
+      "title": "ECCP · 孫元化",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365073",
+      "locator": "eccp-3656324-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

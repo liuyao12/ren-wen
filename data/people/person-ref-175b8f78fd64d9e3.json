@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-175b8f78fd64d9e3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "清原",
+    "source": "eccp-3636413",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "嗣白",
+        "source": "eccp-3636413"
+      },
+      {
+        "value": "嗣昌",
+        "source": "eccp-3636413"
+      }
+    ],
+    "hao": [
+      {
+        "value": "岫青",
+        "source": "eccp-3636413"
+      },
+      {
+        "value": "鷲青",
+        "source": "eccp-3636413"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "嗣白"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Ch'ing-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3636413"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3636413": {
+      "title": "ECCP · 朱以海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272542",
+      "locator": "eccp-3636413-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

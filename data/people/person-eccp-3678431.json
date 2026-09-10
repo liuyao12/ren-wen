@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678431",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "余",
+    "given": "集",
+    "source": "eccp-3678431",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜ Chi 余集 (T. 秋室, H. 蓉裳), Jan. 29, 1739–1823, man of letters, painter and calligrapher, was a native of Jên-ho (Hangchow). A hsiu-ts'ai of 1757, he became a chü-jên in 1762. When his father died in Kwangtung in 1763 he made a journey to that province to bring back the remains.",
+          "source": "eccp-3678431",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "秋室",
+        "source": "eccp-3678431"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蓉裳",
+        "source": "eccp-3678431"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "秋室"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3678431"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1739,
+        "source": "eccp-3678431",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "eccp-3678431",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678431",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678431",
+      "passage": "eccp-3678431-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678431": {
+      "title": "ECCP · Yü Chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443720",
+      "locator": "eccp-3678431-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636397": {
+      "title": "ECCP · 周永年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272509",
+      "locator": "eccp-3636397-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649371": {
+      "title": "ECCP · 蒲松齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318140",
+      "locator": "eccp-3649371-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649387": {
+      "title": "ECCP · 邵晉涵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318168",
+      "locator": "eccp-3649387-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-172",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

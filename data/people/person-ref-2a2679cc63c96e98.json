@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2a2679cc63c96e98",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "剛",
+    "given": "林",
+    "source": "eccp-3637572",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "剛林，瓜爾佳氏，字公茂，滿洲正黃旗人，世居蘇完。",
+          "source": "qsg-volume-245",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Secretaries Ganglin",
+        "system": "ECCP spelling",
+        "source": "eccp-3637572"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-245",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-245",
+      "passage": "qsg-volume-245-006",
+      "matchStatus": "proposed",
+      "evidence": "剛林，瓜爾佳氏，字公茂，滿洲正黃旗人，世居蘇完。初來歸，隸正藍旗，屬郡王阿達禮。授筆帖式，掌繙譯漢文。天聰八年，以漢文應試，中式舉人，命直文館。崇德元年，授國史院大學士，與範文程、希福等參與政事。疏請重定部院承政以下官各五等，又疏請定試士之法，皆報可。太宗四征不庭，疆宇日闢。剛林屢奉使軍前，宣布威德，咸稱上旨。積功，授世職牛錄章京。八年，阿達禮有罪，改隸正黃旗。"
+    }
+  ],
+  "sources": {
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

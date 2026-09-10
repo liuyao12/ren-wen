@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633499",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "懷玉",
+    "source": "eccp-3633499",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHAO Huai-yü 趙懷玉 (T. 億孫, H. 味辛, 收庵, 涒皋賸人), Apr. 14, 1747–1823, Apr. 1, man of letters, a native of Wu-chin, Kiangsu, was a descendant in the fourth generation of Chao Shên-ch'iao [q. v.].",
+          "source": "eccp-3633499",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "趙懷玉，字億孫，武進人，尚書申喬四世孫。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "億孫",
+        "source": "eccp-3633499"
+      }
+    ],
+    "hao": [
+      {
+        "value": "味辛",
+        "source": "eccp-3633499"
+      },
+      {
+        "value": "收庵",
+        "source": "eccp-3633499"
+      },
+      {
+        "value": "涒皋賸人",
+        "source": "eccp-3633499"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "億孫"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Huai-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3633499"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1747,
+        "source": "eccp-3633499",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "eccp-3633499",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633499",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633499",
+      "passage": "eccp-3633499-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-218",
+      "matchStatus": "proposed",
+      "evidence": "趙懷玉，字億孫，武進人，尚書申喬四世孫。乾隆中召試舉人，授中書。久之，出為青州府同知，以憂歸，終於家。性坦易，工古文辭。嘗自言不敢好名為欺人之事，不敢好奇為欺世之學。惲敬稱其文無有雜言诐義離真反正者。著有生齋文集。"
+    }
+  ],
+  "sources": {
+    "eccp-3633499": {
+      "title": "ECCP · Chao Huai-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271693",
+      "locator": "eccp-3633499-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656402": {
+      "title": "ECCP · 臧庸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365192",
+      "locator": "eccp-3656402-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-218",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

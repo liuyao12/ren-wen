@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637591",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "范",
+    "given": "承謨",
+    "source": "eccp-3637591",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FAN Ch'êng-mo 范承謨 (T. 覲公, H. 螺山, 髡翁), 1624–1676, Oct. 22, official, was a native of Shên-yang, Liao-tung, and belonged to a family which was affiliated with the Chinese Bordered Yellow Banner.",
+          "source": "eccp-3637591",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "范承謨，字覲公，漢軍鑲黃旗人，文程次子。",
+          "source": "qsg-volume-252",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "覲公",
+        "source": "eccp-3637591"
+      }
+    ],
+    "hao": [
+      {
+        "value": "螺山",
+        "source": "eccp-3637591"
+      },
+      {
+        "value": "髡翁",
+        "source": "eccp-3637591"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "覲公"
+    },
+    "romanizations": [
+      {
+        "value": "Fan Ch'êng-mo",
+        "system": "ECCP spelling",
+        "source": "eccp-3637591"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3637591",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1676,
+        "source": "eccp-3637591",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637591",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637591",
+      "passage": "eccp-3637591-001"
+    },
+    {
+      "source": "qsg-volume-252",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-252",
+      "passage": "qsg-volume-252-015",
+      "matchStatus": "proposed",
+      "evidence": "范承謨，字覲公，漢軍鑲黃旗人，文程次子。順治九年進士，選庶吉士，授弘文院編修。累遷秘書院學士。康熙七年，授浙江巡撫。時去開國未久，民流亡未復業，浙東寧波、金華等六府荒田尤多。總督趙廷臣請除賦額，上命承謨履勘。承謨遍歷諸府，請免荒田及水沖田地賦凡三十一萬五千五百馀畝。杭州、嘉興、湖州、紹興四府被水，民飢，承謨出布政使庫銀八萬，糴米湖廣平糶，最貧者得附老弱例，肩鹽給朝夕，全活甚眾。並疏請「漕米改折，石銀一兩。明年麥熟，補徵白糧，以三年帶徵。災重者如例蠲免」。得旨允行。十年，以疾請解職，召還。總督劉兆"
+    }
+  ],
+  "sources": {
+    "eccp-3637591": {
+      "title": "ECCP · Fan Ch'êng-mo",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275783",
+      "locator": "eccp-3637591-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634167": {
+      "title": "ECCP · 嵇曾筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271703",
+      "locator": "eccp-3634167-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637594": {
+      "title": "ECCP · 范文程",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275788",
+      "locator": "eccp-3637594-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642442": {
+      "title": "ECCP · 郎廷佐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290565",
+      "locator": "eccp-3642442-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674931": {
+      "title": "ECCP · 魏際瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419146",
+      "locator": "eccp-3674931-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-252": {
+      "title": "清史稿/卷252",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025072",
+      "locator": "qsg-volume-252-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-253": {
+      "title": "清史稿/卷253",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026844",
+      "locator": "qsg-volume-253-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-498": {
+      "title": "清史稿/卷498",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026199",
+      "locator": "qsg-volume-498-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

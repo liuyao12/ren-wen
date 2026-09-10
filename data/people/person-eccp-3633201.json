@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633201",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "艾",
+    "given": "南英",
+    "source": "eccp-3633201",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "AI Nan-ying 艾南英 (T. 千子, H. 天傭子), Dec. 30, 1583–1646, Sept. 19?, scholar, was a native of Tung-hsiang, Kiangsi, and a chü-jên of 1624. Because of statements in his examination papers which were taken as ridiculing the eunuch, Wei Chung-hsien [q. v.], he was debarred for three successive periods (nine years) from competing in the Metropolitan examinations.",
+          "source": "eccp-3633201",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "千子",
+        "source": "eccp-3633201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "天傭子",
+        "source": "eccp-3633201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "千子"
+    },
+    "romanizations": [
+      {
+        "value": "Ai Nan-ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3633201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1583,
+        "source": "eccp-3633201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1646,
+        "source": "eccp-3633201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633201",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633201",
+      "passage": "eccp-3633201-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633201": {
+      "title": "ECCP · Ai Nan-ying",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271364",
+      "locator": "eccp-3633201-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636395": {
+      "title": "ECCP · 周亮工",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272503",
+      "locator": "eccp-3636395-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

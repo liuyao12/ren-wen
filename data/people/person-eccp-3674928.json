@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674928",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "原祁",
+    "source": "eccp-3674928",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "茂京",
+        "source": "eccp-3674928"
+      }
+    ],
+    "hao": [
+      {
+        "value": "麓臺",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "石師道人",
+        "source": "eccp-3674928"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "茂京"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yüan-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3674928"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1642,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674928",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674928",
+      "passage": "eccp-3674928-001"
+    }
+  ],
+  "sources": {
+    "eccp-3674928": {
+      "title": "ECCP · Wang Yüan-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633255": {
+      "title": "ECCP · 張琦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633506": {
+      "title": "ECCP · 趙良棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271696",
+      "locator": "eccp-3633506-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672715": {
+      "title": "ECCP · 王安國",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412262",
+      "locator": "eccp-3672715-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672751": {
+      "title": "ECCP · 王掞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412325",
+      "locator": "eccp-3672751-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

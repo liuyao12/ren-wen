@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-69bc2083d5378ef4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "權之",
+    "source": "eccp-3678189",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉權之，字云房，湖南長沙人。",
+          "source": "qsg-volume-341",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "德輿",
+        "source": "eccp-3678189"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲房",
+        "source": "eccp-3678189"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "德輿"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Ch'üan-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3678189"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1739,
+        "source": "eccp-3678189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3678189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-341",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-341",
+      "passage": "qsg-volume-341-011",
+      "matchStatus": "proposed",
+      "evidence": "劉權之，字云房，湖南長沙人。乾隆二十五年進士，選庶吉士，授編修，累擢司經局洗馬。四十三年，督安徽學政。預修四庫全書，在事最久，及總目提要告成，以勞擢侍講。五十年，大考二等。逾年，擢大理寺卿，遷左副都御史。疏言：「大挑舉人多夤緣，請於事前一日簡派王大臣，聞命即宿朝房，以杜弊竇。」於是命在午門蒞事，御史監視，護軍巡察，步軍、五城一體嚴查，著為令。尋督山東學政。五十六年，擢禮部侍郎。六十年，典江南鄉試，留學政。嘉慶二年，調吏部。"
+    }
+  ],
+  "sources": {
+    "eccp-3678189": {
+      "title": "ECCP · 英和",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443101",
+      "locator": "eccp-3678189-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-341": {
+      "title": "清史稿/卷341",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485033",
+      "locator": "qsg-volume-341-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

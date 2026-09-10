@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672743",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "頊齡",
+    "source": "eccp-3672743",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hsü-ling 王頊齡 (T. 顓士, H. 瑁湖, 松喬老人), 1642–1725, official, was a native of Hua-t'ing, Kiangsu. His father, Wang Kuang-hsin 王廣心 (T. 農山, 伊人, d. 1691), was a chin-shih of 1648 who served as a censor.",
+          "source": "eccp-3672743",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王頊齡，字顓士，江南華亭人。",
+          "source": "qsg-volume-267",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "顓士",
+        "source": "eccp-3672743"
+      }
+    ],
+    "hao": [
+      {
+        "value": "瑁湖",
+        "source": "eccp-3672743"
+      },
+      {
+        "value": "松喬老人",
+        "source": "eccp-3672743"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "顓士"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsü-ling",
+        "system": "ECCP spelling",
+        "source": "eccp-3672743"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1642,
+        "source": "eccp-3672743",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1725,
+        "source": "eccp-3672743",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672743",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672743",
+      "passage": "eccp-3672743-001"
+    },
+    {
+      "source": "qsg-volume-267",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-267",
+      "passage": "qsg-volume-267-061",
+      "matchStatus": "proposed",
+      "evidence": "王頊齡，字顓士，江南華亭人。父廣心，字農山。有文名。順治六年進士，官御史，巡視京、通二倉，釐剔漕弊，奸猾屏跡。"
+    }
+  ],
+  "sources": {
+    "eccp-3672743": {
+      "title": "ECCP · Wang Hsü-ling",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412310",
+      "locator": "eccp-3672743-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672747": {
+      "title": "ECCP · 王鴻緒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412319",
+      "locator": "eccp-3672747-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-152",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

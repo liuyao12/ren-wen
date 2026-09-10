@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640025",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "遵憲",
+    "source": "eccp-3640025",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Tsun-hsien 黃遵憲 (T. 公度), 1848–1905, Mar. 28, poet and reformer, was a native of Chia-ying-chou, Kwangtung. His father, Huang Hung-tsao 黃鴻藻 (T. 雁賓, H. 逸農, chü-jên of 1855), served as acting prefect of Ssŭ-ên-fu, Kwangsi, 1889–91.",
+          "source": "eccp-3640025",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃遵憲，字公度，嘉應州人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "公度",
+        "source": "eccp-3640025"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "公度"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Tsun-hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3640025"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1848,
+        "source": "eccp-3640025",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1905,
+        "source": "eccp-3640025",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640025",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640025",
+      "passage": "eccp-3640025-001"
+    },
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-017",
+      "matchStatus": "proposed",
+      "evidence": "黃遵憲，字公度，嘉應州人。以舉人入貲為道員。充使日參贊，著日本國誌上之朝。旋移舊金山總領事。美吏嘗藉口衛生，逮華僑滿獄。遵憲徑詣獄中，令從者度其容積，曰：「此處衛生顧右於僑居邪？」美吏謝，遽釋之。歷湖南長寶鹽法道，署按察使。時寶箴為巡撫，行新政，遵憲首倡民治於眾曰：「亦自治其身，自治其鄉而已。由一鄉推之一縣、一府、一省，以迄全國，可以成共和之郅治，臻大同之盛軌。」於是略仿西國巡警之制，設保衛局，凡與民利民瘼相麗，而為一方民力能舉者，悉屬之，領以民望，而官輔其不及焉。尋解職，奉出使日本之命，未行而"
+    }
+  ],
+  "sources": {
+    "eccp-3640025": {
+      "title": "ECCP · Huang Tsun-hsien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282948",
+      "locator": "eccp-3640025-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649362": {
+      "title": "ECCP · 皮錫瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318127",
+      "locator": "eccp-3649362-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675186": {
+      "title": "ECCP · 翁同龢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419941",
+      "locator": "eccp-3675186-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-de1475243d4e9e12",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "銳",
+    "source": "eccp-3635448",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "尚之",
+        "source": "eccp-3635448"
+      }
+    ],
+    "hao": [
+      {
+        "value": "四香",
+        "source": "eccp-3635448"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尚之"
+    },
+    "romanizations": [
+      {
+        "value": "Li Jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3635448"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1765,
+        "source": "eccp-3635448",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1814,
+        "source": "eccp-3635448",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-507",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-507",
+      "passage": "qsg-volume-507-031",
+      "matchStatus": "proposed",
+      "evidence": "李銳，字尚之，元和諸生。幼開敏，有過人之資。從書塾中檢得算法統宗，心通其義，遂為九章、八線之學。因受經於錢大昕，得中、西異同之奧，於古歷尤深。自三統以迄授時，悉能洞澈本原。"
+    }
+  ],
+  "sources": {
+    "eccp-3635448": {
+      "title": "ECCP · 焦循",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271734",
+      "locator": "eccp-3635448-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

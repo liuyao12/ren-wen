@@ -26,7 +26,23 @@
         "source": "batch-evidence"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "雷以諴，字鶴皋，湖北咸寧人。",
+          "source": "qsg-volume-422",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "咸寧",
+      "source": "qsg-volume-422",
+      "status": "proposed"
+    }
   },
   "life": {
     "birth": null,
@@ -42,6 +58,41 @@
       "locator": "eccp-guo-songtao-04 · Lei I-hsien",
       "access": "full-text",
       "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-403": {
+      "title": "清史稿/卷403",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162934",
+      "locator": "qsg-volume-403-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -54,7 +105,16 @@
       "status": "not-searched"
     }
   },
-  "accounts": [],
+  "accounts": [
+    {
+      "source": "qsg-volume-422",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-422",
+      "passage": "qsg-volume-422-053",
+      "matchStatus": "proposed",
+      "evidence": "雷以諴，字鶴皋，湖北咸寧人。道光三年進士，授刑部主事，洊升郎中。遷御史、給事中，擢內閣侍讀學士，三遷奉天府府丞。咸豐元年，應詔陳言，請任賢能，覈名實。二年，复授太常寺少卿，屢上疏陳軍事。三年，遷左副都御史，命會同河道總督楊以增巡視黃河口岸，迭疏請撫卹茌平、東平、東阿、汶上饑民，撤山東防河兵，省各渡口冗費，皆報可。"
+    }
+  ],
   "notes": [],
   "coverage": "Reference profile linked from the imported ECCP entries. Not a fully reviewed biography; unsearched identifiers and unknown dates remain empty.",
   "mentions": [

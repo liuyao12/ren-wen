@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674954",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "魏",
+    "given": "裔介",
+    "source": "eccp-3674954",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "柏鄉",
+      "source": "qsg-volume-262",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WEI I-chieh 魏裔介 (T. 石生, H. 貞庵, 崑林), Sept. 5, 1616–1686, May 1, official and scholar, was a native of Pai-hsiang, Chihli. A chin-shih of 1646, he was first appointed a bachelor in the Hanlin Academy, but in the following year was transferred to the Censorate.",
+          "source": "eccp-3674954",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "魏裔介，字石生，直隸柏鄉人。",
+          "source": "qsg-volume-262",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "石生",
+        "source": "eccp-3674954"
+      }
+    ],
+    "hao": [
+      {
+        "value": "貞庵",
+        "source": "eccp-3674954"
+      },
+      {
+        "value": "崑林",
+        "source": "eccp-3674954"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "石生"
+    },
+    "romanizations": [
+      {
+        "value": "Wei I-chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3674954"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3674954",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1686,
+        "source": "eccp-3674954",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674954",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674954",
+      "passage": "eccp-3674954-001"
+    },
+    {
+      "source": "qsg-volume-262",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-262",
+      "passage": "qsg-volume-262-006",
+      "matchStatus": "proposed",
+      "evidence": "魏裔介，字石生，直隸柏鄉人。順治三年進士，選庶吉士。四年，授工科給事中。五年，疏請舉經筵及時講學，以隆治本。又言：「燕、趙之民，椎牛裹糧，首先歸命。此漢高之關中，光武之河內也。今天下初定，屢奉詔蠲賦，而畿輔未霑實惠，宜切責奉行之吏，彰信於民。」俱報聞。"
+    }
+  ],
+  "sources": {
+    "eccp-3674954": {
+      "title": "ECCP · Wei I-chieh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419236",
+      "locator": "eccp-3674954-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649094": {
+      "title": "ECCP · 梅文鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317644",
+      "locator": "eccp-3649094-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-073",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678098",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姚",
+    "given": "啟聖",
+    "source": "eccp-3678098",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "會稽",
+      "source": "qsg-volume-260",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YAO Ch'i-shêng 姚啟聖 (T. 熙止, H. 憂庵), 1624–1684, Jan., Ch'ing official, was a native of K'uai-chi, Chekiang. As a youth he was daring and ambitious. Having killed two Manchu soldiers who had kidnapped a commoner's daughter, he changed his name and in 1659 joined the family of a related clansman with whom he enlisted in the Chinese Bordered Red Banner.",
+          "source": "eccp-3678098",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "姚啟聖，字熙止，浙江會稽人。",
+          "source": "qsg-volume-260",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "熙止",
+        "source": "eccp-3678098"
+      }
+    ],
+    "hao": [
+      {
+        "value": "憂庵",
+        "source": "eccp-3678098"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "熙止"
+    },
+    "romanizations": [
+      {
+        "value": "Yao Ch'i-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3678098"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3678098",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3678098",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678098",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678098",
+      "passage": "eccp-3678098-001"
+    },
+    {
+      "source": "qsg-volume-260",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-260",
+      "passage": "qsg-volume-260-006",
+      "matchStatus": "proposed",
+      "evidence": "姚啟聖，字熙止，浙江會稽人。少任俠自喜。明季為諸生。順治初，師定江南，遊通州，為土豪所侮，乃詣軍前乞自效。檄署通州知州，執土豪杖殺之，棄官歸。郊行，遇二卒掠女子，故與好語，奪其刀殺之，還女子其家。去附族人，籍隸鑲紅旗漢軍。舉康熙二年八旗鄉試第一，授廣東香山知縣。前政負課數万，繫獄，啟聖牒大府，悉為代償。尋以擅開海禁，被劾奪官。"
+    }
+  ],
+  "sources": {
+    "eccp-3678098": {
+      "title": "ECCP · Yao Ch'i-shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442584",
+      "locator": "eccp-3678098-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639984": {
+      "title": "ECCP · 徐元文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282843",
+      "locator": "eccp-3639984-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642396": {
+      "title": "ECCP · 耿精忠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290454",
+      "locator": "eccp-3642396-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678069": {
+      "title": "ECCP · 楊捷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442405",
+      "locator": "eccp-3678069-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-085",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

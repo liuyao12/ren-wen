@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635458",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "儀吉",
+    "source": "eccp-3635458",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN I-chi 錢儀吉 (T. 藹人, 星湖, H. 衎石, original ming 逵吉), 1783–1850, May 18, scholar, native of Chia-hsing, Chekiang, was a great-grandson of Ch'ien Ch'ên-ch'ün [q. v.]. His grandfather, Ch'ien Ju-kung 錢汝恭 (T. 雨時, H. 蔇齋, Jan.",
+          "source": "eccp-3635458",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "錢儀吉，字衎石，嘉興人，尚書陳群曾孫。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "藹人",
+        "source": "eccp-3635458"
+      },
+      {
+        "value": "星湖",
+        "source": "eccp-3635458"
+      }
+    ],
+    "hao": [
+      {
+        "value": "衎石",
+        "source": "eccp-3635458"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "藹人"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien I-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3635458"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1783,
+        "source": "eccp-3635458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3635458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635458",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635458",
+      "passage": "eccp-3635458-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-055",
+      "matchStatus": "proposed",
+      "evidence": "錢儀吉，字衎石，嘉興人，尚書陳群曾孫。父福胙，侍讀學士。儀吉生有五色文禽翔其室，故初名逵吉，後易焉。嘉慶十三年進士，選庶吉士。改戶部主事，累遷至工科給事中。皆能舉其職，因公罷歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3635458": {
+      "title": "ECCP · Ch'ien I-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271410",
+      "locator": "eccp-3635458-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635452": {
+      "title": "ECCP · 錢陳群",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271400",
+      "locator": "eccp-3635452-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635464": {
+      "title": "ECCP · 錢泰吉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271411",
+      "locator": "eccp-3635464-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3677759": {
+      "title": "ECCP · Thirty-three Collections of Ch'ing Dynasty Biographies",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440506",
+      "locator": "eccp-3677759-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-374": {
+      "title": "清史稿/卷374",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292892",
+      "locator": "qsg-volume-374-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-172",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-078",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

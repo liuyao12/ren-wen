@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a9a16f98f720d516",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "匡",
+    "given": "源",
+    "source": "eccp-3646144",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "膠州",
+      "source": "qsg-volume-387",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "匡源，字鶴泉，山東膠州人。",
+          "source": "qsg-volume-387",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鶴泉",
+        "source": "eccp-3646144"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鶴泉"
+    },
+    "romanizations": [
+      {
+        "value": "K'uang Yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3646144"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-387",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-387",
+      "passage": "qsg-volume-387-016",
+      "matchStatus": "proposed",
+      "evidence": "匡源，字鶴泉，山東膠州人。道光二十年進士，選庶吉士，授編修，累官吏部侍郎。咸豐八年，入直軍機，謙退無所建白。罷官後，清貧，主講濟南濼源書院以終。"
+    }
+  ],
+  "sources": {
+    "eccp-3646144": {
+      "title": "ECCP · 馬國翰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300560",
+      "locator": "eccp-3646144-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

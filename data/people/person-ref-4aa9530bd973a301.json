@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4aa9530bd973a301",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "元龍",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海寧",
+      "source": "qsg-volume-289",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳元龍，字廣陵，浙江海寧人。",
+          "source": "qsg-volume-289",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "廣陵",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "乾齋",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "廣陵"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Yüan-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1736,
+        "source": "eccp-3634070",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-289",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-289",
+      "passage": "qsg-volume-289-051",
+      "matchStatus": "proposed",
+      "evidence": "陳元龍，字廣陵，浙江海寧人。康熙二十四年一甲二名進士，授編修，直南書房。郭琇劾高士奇，辭連元龍，謂與士奇結為叔侄，招納賄賂，命與士奇等並休致。語互詳士奇傳。元龍奏辯，謂：「臣宗本出自高，譜牒炳然。若果臣交結士奇，何以士奇反稱臣為叔？」事得白，命復任。累遷侍讀學士。元龍工書，為聖祖所賞，嘗命就御前作書，深被獎許。上御便殿書賜內直翰林，諭曰：「爾等家中各有堂名，不妨自言，當書以賜。」元龍奏臣父之闓年逾八十，家有愛日堂，御書榜賜之。四十二年，再遷詹事。以父病乞養歸，賜葠。時正編賦匯，令攜歸校對增益。上"
+    }
+  ],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

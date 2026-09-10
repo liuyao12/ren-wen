@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e92f891a3d40b6d7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "余",
+    "given": "國柱",
+    "source": "eccp-3642431",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "余國柱，字兩石，湖廣大冶人。",
+          "source": "qsg-volume-269",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "佺廬",
+        "source": "eccp-3642431"
+      },
+      {
+        "value": "兩石",
+        "source": "eccp-3642431"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "佺廬"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Kuo-chu",
+        "system": "ECCP spelling",
+        "source": "eccp-3642431"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-269",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-269",
+      "passage": "qsg-volume-269-021",
+      "matchStatus": "proposed",
+      "evidence": "余國柱，字兩石，湖廣大冶人。順治九年進士，授兗州推官。遷行人司行人，轉戶部主事。康熙十五年，考授戶科給事中。時方用兵，國柱屢疏言籌餉事，語多精覈。二十年，擢左副都御史。旋授江寧巡撫，請設機制寬大緞疋。得旨：「非常用之物，何為勞費？」當明珠用事，國柱務罔利以迎合之，及內轉左都御史，遷戶部尚書，湯斌繼國柱撫江蘇；國柱索斌獻明珠金，斌不能應，由是傾之。二十六年，授武英殿大學士，益與明珠結，一時稱為「余秦檜」。會上謁陵，中途召于成龍入對，成龍盡發明珠、國柱等貪私。上歸詢高士奇，士奇亦以狀聞。及郭琇疏論劾"
+    }
+  ],
+  "sources": {
+    "eccp-3642431": {
+      "title": "ECCP · 郭琇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290542",
+      "locator": "eccp-3642431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

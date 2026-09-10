@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672748",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "懿榮",
+    "source": "eccp-3672748",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "福山",
+      "source": "qsg-volume-468",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG I-jung 王懿榮 (T. 廉[蓮]生, H. 正孺), 1845–1900, Aug. 15, official and scholar, was a native of Fu-shan, Shantung. His grandfather, Wang Chao-ch'ên 王兆琛 (T. 叔玉, H. 獻甫, 西舶, d. 1852), was a chin-shih of 1817 who rose in his official career to governor of Shansi (1846), but was denounced for bribery and exiled to Sinkiang (1849).",
+          "source": "eccp-3672748",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王懿榮，字正孺，山東福山人。",
+          "source": "qsg-volume-468",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "廉",
+        "source": "eccp-3672748"
+      }
+    ],
+    "hao": [
+      {
+        "value": "正孺",
+        "source": "eccp-3672748"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "廉"
+    },
+    "romanizations": [
+      {
+        "value": "Wang I-jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3672748"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1845,
+        "source": "eccp-3672748",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3672748",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672748",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672748",
+      "passage": "eccp-3672748-001"
+    },
+    {
+      "source": "qsg-volume-468",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-468",
+      "passage": "qsg-volume-468-020",
+      "matchStatus": "proposed",
+      "evidence": "王懿榮，字正孺，山東福山人。祖兆琛，山西巡撫。父祖源，四川成綿龍茂道。懿榮少劬學，不屑治經生藝，以議敘銓戶部主事。光緒六年成進士，選庶吉士，授編修，益詳練經世之務，數上書言事。十二年，父憂，解職。服闋，出典河南鄉試。二十年，大考一等，遷侍讀。明年，入直南書房，署國子監祭酒。會中東戰事起，日軍據威海，分陷榮城，登州大震，懿榮請歸練鄉團。和議成，還都，特旨補祭酒。越二年，遭母憂，終喪，起故官。蓋至是三為祭酒矣，前後凡七年，諸生翕服。"
+    }
+  ],
+  "sources": {
+    "eccp-3672748": {
+      "title": "ECCP · Wang I-jung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412321",
+      "locator": "eccp-3672748-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643666": {
+      "title": "ECCP · 李文田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294913",
+      "locator": "eccp-3643666-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645502": {
+      "title": "ECCP · 劉鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654355": {
+      "title": "ECCP · 盛昱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358407",
+      "locator": "eccp-3654355-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-468": {
+      "title": "清史稿/卷468",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433572",
+      "locator": "qsg-volume-468-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-469": {
+      "title": "清史稿/卷469",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433543",
+      "locator": "qsg-volume-469-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

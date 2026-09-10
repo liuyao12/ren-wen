@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8f81539304e11dd3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "庚",
+    "source": "eccp-3634073",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "張庚，字浦山，亦嘉興人。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "浦山",
+        "source": "eccp-3634073"
+      }
+    ],
+    "hao": [
+      {
+        "value": "瓜田逸史",
+        "source": "eccp-3634073"
+      },
+      {
+        "value": "白苧村桑者",
+        "source": "eccp-3634073"
+      },
+      {
+        "value": "彌伽居士",
+        "source": "eccp-3634073"
+      },
+      {
+        "value": "公之千",
+        "source": "eccp-3634073"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "浦山"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Kêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3634073"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1685,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1760,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-048",
+      "matchStatus": "proposed",
+      "evidence": "張庚，字浦山，亦嘉興人。學於書，深通畫理，著畫徵錄及續錄，自明末至乾、嘉中，所載四百馀人。"
+    }
+  ],
+  "sources": {
+    "eccp-3634073": {
+      "title": "ECCP · 陳書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271485",
+      "locator": "eccp-3634073-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

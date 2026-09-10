@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634062",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "名夏",
+    "source": "eccp-3634062",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Ming-hsia 陳名夏 (T. 百史) d. 1654, age 50 (sui), Ming-Ch'ing official, was a native of Li-yang, Kiangsu, and a member of the political group known as Fu-shê (see under Chang P'u).",
+          "source": "eccp-3634062",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳名夏，字百史，江南溧陽人。",
+          "source": "qsg-volume-245",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "百史",
+        "source": "eccp-3634062"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "百史"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Ming-hsia",
+        "system": "ECCP spelling",
+        "source": "eccp-3634062"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634062",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634062",
+      "passage": "eccp-3634062-001"
+    },
+    {
+      "source": "qsg-volume-245",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-245",
+      "passage": "qsg-volume-245-023",
+      "matchStatus": "proposed",
+      "evidence": "陳名夏，字百史，江南溧陽人。明崇禎進士，官修撰，兼戶、兵二科都給事中。降李自成。福王時，入從賊案。順治二年，詣大名降。以保定巡撫王文奎薦，復原官。入謁睿親王，請正大位。王曰：「本朝自有家法，非爾所知也。」旋超擢吏部侍郎，兼翰林院侍讀學士。師定江南，九卿科道議南京設官。名夏言：「國家定鼎神京，居北制南。不當如前朝稱都會，設官如諸行省。」疏入稱旨。三年，居父喪，命奪情任事，請終制，賜白金五百，暫假歸葬，仍給俸贍其孥在京者。五年，初設六部漢尚書，授名夏吏部尚書，加太子太保。八年，授弘文院大學士，進少保"
+    }
+  ],
+  "sources": {
+    "eccp-3634062": {
+      "title": "ECCP · Ch'ên Ming-hsia",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271465",
+      "locator": "eccp-3634062-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646136": {
+      "title": "ECCP · 呂宮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300542",
+      "locator": "eccp-3646136-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654392": {
+      "title": "ECCP · 孫承澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358502",
+      "locator": "eccp-3654392-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674953": {
+      "title": "ECCP · 魏象樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419230",
+      "locator": "eccp-3674953-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-069",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658554",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "董",
+    "given": "邦達",
+    "source": "eccp-3658554",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "富陽",
+      "source": "qsg-volume-305",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TUNG Pang-ta 董邦達 (T. 孚存, 非聞, H. 東山), 1699–1769, Aug., 19, official, painter and calligrapher, was a native of Fu-yang, Chekiang. Although descended from a poor family, he succeeded after many hardships in obtaining, in 1733, the chin-shih degree.",
+          "source": "eccp-3658554",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "董邦達，字孚存，浙江富陽人。",
+          "source": "qsg-volume-305",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孚存",
+        "source": "eccp-3658554"
+      },
+      {
+        "value": "非聞",
+        "source": "eccp-3658554"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東山",
+        "source": "eccp-3658554"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孚存"
+    },
+    "romanizations": [
+      {
+        "value": "Tung Pang-ta",
+        "system": "ECCP spelling",
+        "source": "eccp-3658554"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3658554",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1769,
+        "source": "eccp-3658554",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658554",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658554",
+      "passage": "eccp-3658554-001"
+    },
+    {
+      "source": "qsg-volume-305",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-305",
+      "passage": "qsg-volume-305-039",
+      "matchStatus": "proposed",
+      "evidence": "董邦達，字孚存，浙江富陽人。雍正元年，選拔貢生。以尚書勵廷儀薦，命在戶部七品小京官上行走。十一年，成進士，改庶吉士，授編修。乾隆三年，充陝西鄉試考官，疏言官卷數少，以民卷補中，報聞。授右中允，再遷侍讀學士。十二年，命直南書房，擢內閣學士，以母憂歸。逾年，召詣京師，命視梁詩正例，入直食俸。十五年，補原官，遷侍郎，歷戶、工、吏諸部。二十七年，遷左都御史，擢工部尚書。二十九年，調禮部。三十一年，調還工部。三十二年，仍調還禮部。三十四年，以老病乞解任，上諭曰：「邦達年逾七十，衰病乞休，自合引年之例。惟邦"
+    }
+  ],
+  "sources": {
+    "eccp-3658554": {
+      "title": "ECCP · Tung Pang-ta",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370110",
+      "locator": "eccp-3658554-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635470": {
+      "title": "ECCP · 錢維城",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271418",
+      "locator": "eccp-3635470-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639976": {
+      "title": "ECCP · 徐松",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282823",
+      "locator": "eccp-3639976-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643700": {
+      "title": "ECCP · 梁詩正",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294989",
+      "locator": "eccp-3643700-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658552": {
+      "title": "ECCP · 董誥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370107",
+      "locator": "eccp-3658552-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672722": {
+      "title": "ECCP · 王鑑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-059",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

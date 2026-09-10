@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c8bd3f22d539c63e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曹",
+    "given": "本榮",
+    "source": "eccp-3639191",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "曹本榮，字欣木，黃岡人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ts'ao Pên-jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639191"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-148",
+      "matchStatus": "proposed",
+      "evidence": "曹本榮，字欣木，黃岡人。順治六年進士，改翰林院庶吉士。布袍蔬食，以清節自勵。八年，授秘書院編修。應詔，上聖學疏千言，其略云：「皇上得二帝三王之統，則當以二帝三王之學為學。誠宜開張聖聽，修德勤學，舉四書、五經及通鑑中有裨身心要務治平大道者，內則深宮燕閒，朝夕討論，外則經筵進講，敷對周詳。君德既修，祈天永命，必基於此。」有詔嘉納。十年，擢右春坊右贊善兼國子監司業，刊白鹿洞學規以教士。十一年，轉中允。十二年，世祖甄拔詞臣品端學裕者充日講官，本榮與焉。十三年，升秘書院侍講、左春坊左庶子兼侍讀，日侍講幄，"
+    }
+  ],
+  "sources": {
+    "eccp-3639191": {
+      "title": "ECCP · 傅以漸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280186",
+      "locator": "eccp-3639191-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-148",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

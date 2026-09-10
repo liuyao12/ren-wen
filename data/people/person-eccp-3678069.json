@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678069",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "捷",
+    "source": "eccp-3678069",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG Chieh 楊捷 (T. 元凱), d. 1690, age 74 (sui), Ming-Ch'ing general, was a native of I-chou, Liaotung. His ancestors had once been domiciled at Pao-ying, Kiangsu, but in the Ming period one of his relatives was given an hereditary post at I-chou in recognition of his military services, and the family settled there.",
+          "source": "eccp-3678069",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "楊捷，字元凱，義州人，先世居寶應，明初，以軍功授後屯衛指揮使，世襲，遂家焉。",
+          "source": "qsg-volume-261",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元凱",
+        "source": "eccp-3678069"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元凱"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3678069"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678069",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678069",
+      "passage": "eccp-3678069-001"
+    },
+    {
+      "source": "qsg-volume-261",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-261",
+      "passage": "qsg-volume-261-007",
+      "matchStatus": "proposed",
+      "evidence": "楊捷，字元凱，義州人，先世居寶應，明初，以軍功授後屯衛指揮使，世襲，遂家焉。捷初為明裨將，順治元年來降，授山西撫標中軍游擊。嵐縣土寇高九英等聚眾剽掠，巡撫馬國柱檄捷捕治，斬九英，毀其巢。國柱遷總督，以捷為督標中軍參將，旋擢副將。"
+    }
+  ],
+  "sources": {
+    "eccp-3678069": {
+      "title": "ECCP · Yang Chieh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442405",
+      "locator": "eccp-3678069-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656328": {
+      "title": "ECCP · 宋琬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365079",
+      "locator": "eccp-3656328-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-074",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

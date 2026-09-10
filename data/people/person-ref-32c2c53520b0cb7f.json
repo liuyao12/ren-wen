@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-32c2c53520b0cb7f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "史",
+    "given": "致儼",
+    "source": "eccp-3639982",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江都",
+      "source": "qsg-volume-375",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "史致儼，字容莊，江蘇江都人。",
+          "source": "qsg-volume-375",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "容莊",
+        "source": "eccp-3639982"
+      }
+    ],
+    "hao": [
+      {
+        "value": "望之",
+        "source": "eccp-3639982"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "容莊"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Chih-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3639982"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1760,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1838,
+        "source": "eccp-3639982",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-375",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-375",
+      "passage": "qsg-volume-375-012",
+      "matchStatus": "proposed",
+      "evidence": "史致儼，字容莊，江蘇江都人。家酷貧。甫冠，為諸生，學政謝墉器其才，給膏火，居尊經閣讀書。薦預召試，未與選。嘉慶四年，成進士，選庶吉士，授編修。督四川學政。累遷右庶子。二十一年，督河南學政。自滑縣匪平，猶有伏莽，密詔偵察。疏陳彰、衛二郡民間習邪教猶眾，州縣編查保甲，有名無實，撰敦俗篇，刊布以化導之。商丘廩生陳忠錦以不濫保被毆，知府、經歷受賕，反加斥責，忿而自經。疏劾，譴罪有差。"
+    }
+  ],
+  "sources": {
+    "eccp-3639982": {
+      "title": "ECCP · 徐鼒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282839",
+      "locator": "eccp-3639982-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-375": {
+      "title": "清史稿/卷375",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292895",
+      "locator": "qsg-volume-375-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649162",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鈕",
+    "given": "樹玉",
+    "source": "eccp-3649162",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "NIU Shu-yü 鈕樹玉 (T. 藍田, 匪[非]石, 1760–1827), Nov. 5, scholar, was a native of Tung-t'ing shan 洞庭山, southwest of Soochow. He lost his parents in childhood and made his living by peddling cotton goods; but having set his heart early on learning, he studied the classics in leisure hours.",
+          "source": "eccp-3649162",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "鈕樹玉，字匪石，吳縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "藍田",
+        "source": "eccp-3649162"
+      },
+      {
+        "value": "匪",
+        "source": "eccp-3649162"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "藍田"
+    },
+    "romanizations": [
+      {
+        "value": "Niu Shu-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3649162"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1760,
+        "source": "eccp-3649162",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3649162",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649162",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649162",
+      "passage": "eccp-3649162-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-147",
+      "matchStatus": "proposed",
+      "evidence": "鈕樹玉，字匪石，吳縣人。篤志好古，不為科舉之業，精研文字聲音訓詁。謂說文懸諸日月而不刊者也，後人以新附淆之，誣許君矣。因博稽載籍，著說文新附考六卷，續考一卷。又著說文解字校錄三十卷。樹玉後見玉裁書，著段氏說文注訂八卷，所駮正之處，皆有依據。"
+    }
+  ],
+  "sources": {
+    "eccp-3649162": {
+      "title": "ECCP · Niu Shu-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317766",
+      "locator": "eccp-3649162-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656402": {
+      "title": "ECCP · 臧庸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365192",
+      "locator": "eccp-3656402-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678144": {
+      "title": "ECCP · 嚴可均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442954",
+      "locator": "eccp-3678144-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-147",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-122",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

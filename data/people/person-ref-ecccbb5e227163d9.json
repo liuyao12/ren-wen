@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ecccbb5e227163d9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "國模",
+    "source": "eccp-3649390",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Shên Kuo-mo 沈國模 (or 謨 T. 叔則, 求如, 1575–1656), who founded in Yü-yao the Academy known as the Yao-chiang Shu-yüan 姚江書院 I to promote the teachings of Wang Shou-jên (see under Chang Li-hsiang)—Wang also having been a native of that place.",
+          "source": "eccp-3649390",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "沈國模，字求如，餘姚人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔則",
+        "source": "eccp-3649390"
+      },
+      {
+        "value": "求如",
+        "source": "eccp-3649390"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔則"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Kuo-mo",
+        "system": "ECCP spelling",
+        "source": "eccp-3649390"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1575,
+        "source": "eccp-3649390",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1656,
+        "source": "eccp-3649390",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-043",
+      "matchStatus": "proposed",
+      "evidence": "沈國模，字求如，餘姚人。明諸生。餘姚自王守仁講致良知之學，弟子遍天下。同邑傳其學者，推徐愛、錢德洪、胡瀚、聞人詮，再傳而得國模。少以明道為己任。嘗預劉宗周證人講會，歸而辟姚江書院，與同里管宗聖、史孝咸輩，講明良知之說。其所學或以為近禪，而言行敦潔，較然不欺其志，故推純儒。山陰祁彪佳以御史按江東，一日，杖殺大憝數人，適國模至，欣然述之。國模瞠目字祁曰：「世培，爾亦曾聞曾子曰『如得其情，則哀矜而勿喜』乎？」後彪佳嘗語人曰：「吾每慮囚，必念求如言。恐倉卒喜怒過差，負此良友也。」明亡，聞宗周死節，為位哭"
+    }
+  ],
+  "sources": {
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-815af8722a8614b2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "錫璵",
+    "source": "eccp-3642414",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "梁錫璵，字確軒，介休人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "確軒",
+        "source": "eccp-3642414"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "確軒"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Hsi-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3642414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-245",
+      "matchStatus": "proposed",
+      "evidence": "梁錫璵，字確軒，介休人。雍正二年舉人，亦授司業，與吳鼎同食俸辦事，不為定員。乾隆十七年，命直上書房，累遷詹事府少詹事。大考降左庶子，擢祭酒，坐遺失書籍鐫級。膺薦時，以所撰易經揆一呈御覽。鼎、錫璵並蒙召對，面諭曰：「汝等以是大學士、九卿公保經學，朕所以用汝等去教人。是汝等積學所致，不是他途幸進。 」又曰：「窮經為讀書根本。但窮經不徒在口耳，須要躬行實踐。汝等自己躬行實踐，方能教人躬行實踐。」鼎、錫璵頓首祇謝。又奉諭：「吳鼎、梁錫璵所著經學，著派翰林二十員、中書二十員，在武英殿各謄寫一部進呈。原書給"
+    }
+  ],
+  "sources": {
+    "eccp-3642414": {
+      "title": "ECCP · 顧棟高",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290507",
+      "locator": "eccp-3642414-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-245",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

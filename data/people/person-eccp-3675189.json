@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675189",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "正治",
+    "source": "eccp-3675189",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "江夏",
+      "source": "qsg-volume-250",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Chêng-chih 吳正治 (T. 當世, H. 賡庵), Jan. 30, 1618–1691, Sept. 17, official, was a native of Han-yang, Hupei. Made a chin-shih in 1649, he was two years later appointed a compiler in the Kuo-shih-yüan 國史院.",
+          "source": "eccp-3675189",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "吳正治，字當世，湖北江夏人。",
+          "source": "qsg-volume-250",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "當世",
+        "source": "eccp-3675189"
+      }
+    ],
+    "hao": [
+      {
+        "value": "賡庵",
+        "source": "eccp-3675189"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "當世"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Chêng-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3675189"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1618,
+        "source": "eccp-3675189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3675189",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675189",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675189",
+      "passage": "eccp-3675189-001"
+    },
+    {
+      "source": "qsg-volume-250",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-250",
+      "passage": "qsg-volume-250-040",
+      "matchStatus": "proposed",
+      "evidence": "吳正治，字當世，湖北江夏人。順治六年進士，選庶吉士，授國史院編修。丁母憂，服闋，起故官。遷右庶子。十五年，特簡翰林官十五人外用，正治與焉，得江西南昌道。遷陝西按察使。所至以清廉執法著稱。十七年，內擢工部侍郎，調刑部。平亭疑獄，釋江南逋賦無辜諸生二百餘人。疏論奉行赦款宜速，丈量田地宜停，禁狀外指扳，嚴婦女私嫁，皆著為令。"
+    }
+  ],
+  "sources": {
+    "eccp-3675189": {
+      "title": "ECCP · Wu Chêng-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419945",
+      "locator": "eccp-3675189-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

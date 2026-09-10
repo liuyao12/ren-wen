@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649115",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "明瑞",
+    "source": "eccp-3649115",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MING-jui 明瑞 (T. 筠亭), d. 1768, first Duke Ch'êng-chia I-yung 誠嘉毅勇公 was a member of the Fuca family and belonged to the Manchu Bordered Yellow Banner. He was a grandson of Li-jung-pao (see under Misḥan) whose daughter was the first Empress of Kao-tsung.",
+          "source": "eccp-3649115",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "明瑞，字筠亭，富察氏，滿洲鑲黃旗人，承恩公富文子。",
+          "source": "qsg-volume-327",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "筠亭",
+        "source": "eccp-3649115"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筠亭"
+    },
+    "romanizations": [
+      {
+        "value": "Ming-jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3649115"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649115",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649115",
+      "passage": "eccp-3649115-001"
+    },
+    {
+      "source": "qsg-volume-327",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-327",
+      "passage": "qsg-volume-327-019",
+      "matchStatus": "proposed",
+      "evidence": "明瑞，字筠亭，富察氏，滿洲鑲黃旗人，承恩公富文子。自官學生襲爵。乾隆二十一年，師徵阿睦爾撒納，明瑞以副都統銜授領隊大臣，有功，擢戶部侍郎，授參贊大臣，於公爵加「毅勇」字，號承恩毅勇公。二十四年，師徵霍集占，復有功，賜雙眼花翎，加雲騎尉世職。師還，圖形紫光閣，擢正白旗漢軍都統。二十七年，出為伊犁將軍，進加騎都尉世職。"
+    }
+  ],
+  "sources": {
+    "eccp-3649115": {
+      "title": "ECCP · Ming-jui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317676",
+      "locator": "eccp-3649115-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639189": {
+      "title": "ECCP · 傅恆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280183",
+      "locator": "eccp-3639189-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639207": {
+      "title": "ECCP · 富德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280210",
+      "locator": "eccp-3639207-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640821": {
+      "title": "ECCP · 奕訢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285401",
+      "locator": "eccp-3640821-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649108": {
+      "title": "ECCP · 旻寧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317663",
+      "locator": "eccp-3649108-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649116": {
+      "title": "ECCP · 明亮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317681",
+      "locator": "eccp-3649116-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649120": {
+      "title": "ECCP · 米思翰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317686",
+      "locator": "eccp-3649120-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-327": {
+      "title": "清史稿/卷327",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026857",
+      "locator": "qsg-volume-327-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-333": {
+      "title": "清史稿/卷333",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378252",
+      "locator": "qsg-volume-333-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-342": {
+      "title": "清史稿/卷342",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029606",
+      "locator": "qsg-volume-342-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

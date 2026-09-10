@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635443",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "江",
+    "given": "聲",
+    "source": "eccp-3635443",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIANG Shêng 江聲 (T. 叔雲, 䲔濤, H. 艮庭), 1721–1799, Oct. 1, native of Yüan-ho (Soochow), was one of the disciples of the great classicist, Hui Tung [q. v.]. In his youth he aspired to official honors, but early in his thirties, while observing the period of mourning for the death of his parents, he devoted himself to a serious study of the Classics, becoming a pupil of Hui Tung under whom he mastered the technique of textual criticism.",
+          "source": "eccp-3635443",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "江聲，字叔澐，元和人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叔雲",
+        "source": "eccp-3635443"
+      },
+      {
+        "value": "䲔濤",
+        "source": "eccp-3635443"
+      }
+    ],
+    "hao": [
+      {
+        "value": "艮庭",
+        "source": "eccp-3635443"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔雲"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3635443"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1721,
+        "source": "eccp-3635443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1799,
+        "source": "eccp-3635443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635443",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635443",
+      "passage": "eccp-3635443-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-267",
+      "matchStatus": "proposed",
+      "evidence": "江聲，字叔澐，元和人。七歲就傅讀書，問讀書何為，師以取科第為言，聲求所以進於是者。年二十九，遭父疾，晨夕侍衛褥，不解衣帶，至自滌穠窬，視穢以驗疾進退。及居憂，哀毀骨立，逾三年，容戚然如新喪者。侍母疾，居喪，亦如父歿時。族黨哀其至行。既孤，因不復事科舉業。"
+    }
+  ],
+  "sources": {
+    "eccp-3635443": {
+      "title": "ECCP · Chiang Shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271730",
+      "locator": "eccp-3635443-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635438": {
+      "title": "ECCP · 江藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271714",
+      "locator": "eccp-3635438-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649162": {
+      "title": "ECCP · 鈕樹玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317766",
+      "locator": "eccp-3649162-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649360": {
+      "title": "ECCP · 畢沅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318124",
+      "locator": "eccp-3649360-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-267",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

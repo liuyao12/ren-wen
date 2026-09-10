@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-57296b4ee29a1895",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黎",
+    "given": "安理",
+    "source": "eccp-3643639",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "黎安理，貴州遵義人。",
+          "source": "qsg-volume-498",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "履泰",
+        "source": "eccp-3643639"
+      }
+    ],
+    "hao": [
+      {
+        "value": "靜圃",
+        "source": "eccp-3643639"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "履泰"
+    },
+    "romanizations": [
+      {
+        "value": "Li An-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3643639"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3643639",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3643639",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-498",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-498",
+      "passage": "qsg-volume-498-025",
+      "matchStatus": "proposed",
+      "evidence": "黎安理，貴州遵義人。祖母卒，复娶而悍，父不容於後母，客授四川灌縣，遂卒，葬焉。母還母家，安理方十歲，留祖父母所。祖母遇之虐，晝則令刈薪，夜督舂，舂重不舉，繩絡碓，以足挽之。恆不使得飽。嘗取毒蠚納其口。誘之溪側，推墮水。皆瀕死，遇救蘇。既長，習舉子業，出客授佐家。祖父卒，為治喪葬。祖母病，侍疾不倦，卒，又為治喪葬，無缺禮。其事祖父母凡三十有四年。痛父客死，恆詣灌縣謁墓。母復歸，事之孝。兩弟不勝祖母虐，出走，安理往來黔、蜀，求得仲弟還。季弟客死，撫其孤。安理晚舉乾隆四十四年鄉試，授永清教諭，遷山東長"
+    }
+  ],
+  "sources": {
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-498": {
+      "title": "清史稿/卷498",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026199",
+      "locator": "qsg-volume-498-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

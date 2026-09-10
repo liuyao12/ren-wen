@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-244e23f9a8e6dff2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "曹",
+    "given": "文埴",
+    "source": "eccp-3656406",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "歙縣",
+      "source": "qsg-volume-321",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "曹文埴，字竹虛，安徽歙縣人。",
+          "source": "qsg-volume-321",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "近薇",
+        "source": "eccp-3656406"
+      }
+    ],
+    "hao": [
+      {
+        "value": "竹虛",
+        "source": "eccp-3656406"
+      },
+      {
+        "value": "薺原",
+        "source": "eccp-3656406"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "近薇"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ao Wên-ch'ih",
+        "system": "ECCP spelling",
+        "source": "eccp-3656406"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1735,
+        "source": "eccp-3656406",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3656406",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-321",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-321",
+      "passage": "qsg-volume-321-036",
+      "matchStatus": "proposed",
+      "evidence": "曹文埴，字竹虛，安徽歙縣人。乾隆二十五年二甲一名進士，改庶吉士，授編修。直懋勤殿，四遷翰林院侍讀學士，命在南書房行走。再遷詹事府詹事。居父喪，歸。四十二年，詣京師，謁孝聖憲皇后梓宮。喪終，仍在南書房行走。授左副都御史。遷侍郎，歷刑、兵、工、戶諸部，兼管順天府府尹。軍機章京、員外郎海昇毆殺其妻，以自縊報，其妻弟貴寧爭非是。命左都御史紀昀等驗屍，仍以自縊具獄。貴寧复爭言：「海昇與大學士阿桂有連，驗不實。」更命文埴與侍郎伊齡阿覆驗，得毆殺狀，以聞。上獎文埴等不徇隱，公正得大臣體。阿桂以嘗奏及語袒海昇，"
+    }
+  ],
+  "sources": {
+    "eccp-3656406": {
+      "title": "ECCP · 曹振鏞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365198",
+      "locator": "eccp-3656406-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-321": {
+      "title": "清史稿/卷321",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433547",
+      "locator": "qsg-volume-321-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

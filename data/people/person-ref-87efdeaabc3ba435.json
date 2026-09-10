@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-87efdeaabc3ba435",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "煐",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Chu Ying 朱煐 (T. 臨川, H. 龍坡, d. 1774, age 76 sui), a native of Shih-p'ing, Yunnan, and a chin-shih of 1724, was so impressed by the talents of the two youths that he arranged for them to be instructed along with his own son, in a studio, Wan Hsiang T'ang 晚香堂, in the courtyard of his yamen.",
+          "source": "eccp-3658531",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "臨川",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [
+      {
+        "value": "龍坡",
+        "source": "eccp-3658531"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "臨川"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

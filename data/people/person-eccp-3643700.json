@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643700",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "詩正",
+    "source": "eccp-3643700",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-303",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG Shih-chêng 梁詩正 (T. 養仲, H. 薌林), Feb. 24, 1697–1763, Dec. 18, official and man of letters, was a native of Ch'ien-t'ang (Hangchow). His father, Liang Wên-lien 梁文濂 (T. 次周, 蓮峯, 谿父, H. 1672–1758), was a kung-shêng 貢生 of the Yung-chêng reign-period (1723–36).",
+          "source": "eccp-3643700",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "梁詩正，字養仲，浙江錢塘人。",
+          "source": "qsg-volume-303",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "養仲",
+        "source": "eccp-3643700"
+      }
+    ],
+    "hao": [
+      {
+        "value": "薌林",
+        "source": "eccp-3643700"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "養仲"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Shih-chêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3643700"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1697,
+        "source": "eccp-3643700",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1763,
+        "source": "eccp-3643700",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643700",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643700",
+      "passage": "eccp-3643700-001"
+    },
+    {
+      "source": "qsg-volume-303",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-303",
+      "passage": "qsg-volume-303-040",
+      "matchStatus": "proposed",
+      "evidence": "梁詩正，字養仲，浙江錢塘人。雍正八年進士及第，授編修。累遷侍講學士。十三年，以母憂歸。高宗即位，召南書房行走。乾隆三年，補侍讀學士。累遷戶部侍郎。詩正疏言：「八旗除各省駐防與近京五百里俱聽屯種，餘並隨旗駐京。皇上為旗人資生計者，委曲備至，而旗人仍不免窮乏。蓋生齒日繁，若不使自為養，而常欲官養之，勢有不能。臣謂非屯田不可。今內地無閒田，興、盛二京膏腴未盡闢。世宗時，欲令黑龍江、寧古塔等處分駐旗人耕種，已有成議，未及舉行。今不早為之所，數百年後，旗戶十倍於今。以有數之錢糧，贍無窮之生齒，使取給於額餉"
+    }
+  ],
+  "sources": {
+    "eccp-3643700": {
+      "title": "ECCP · Liang Shih-chêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294989",
+      "locator": "eccp-3643700-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643705": {
+      "title": "ECCP · 梁同書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294995",
+      "locator": "eccp-3643705-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645482": {
+      "title": "ECCP · 梁玉繩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299412",
+      "locator": "eccp-3645482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658554": {
+      "title": "ECCP · 董邦達",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370110",
+      "locator": "eccp-3658554-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672763": {
+      "title": "ECCP · 汪端",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412343",
+      "locator": "eccp-3672763-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-303": {
+      "title": "清史稿/卷303",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132223",
+      "locator": "qsg-volume-303-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-245",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

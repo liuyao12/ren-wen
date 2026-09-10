@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672740",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "象乾",
+    "source": "eccp-3672740",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "子廓",
+        "source": "eccp-3672740"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子廓"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsiang-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3672740"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672740",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672740",
+      "passage": "eccp-3672740-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672740": {
+      "title": "ECCP · Wang Hsiang-ch'ien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412306",
+      "locator": "eccp-3672740-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672741": {
+      "title": "ECCP · 王象晉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412308",
+      "locator": "eccp-3672741-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

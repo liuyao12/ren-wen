@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-57792e18ccd78f45",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "施",
+    "given": "瑮",
+    "source": "eccp-3654357",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "質存",
+        "source": "eccp-3654357"
+      }
+    ],
+    "hao": [
+      {
+        "value": "隨村",
+        "source": "eccp-3654357"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "質存"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3654357"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3654357": {
+      "title": "ECCP · 施閏章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

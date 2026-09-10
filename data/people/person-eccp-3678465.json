@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678465",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "袁",
+    "given": "應泰",
+    "source": "eccp-3678465",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜAN Ying-t'ai 袁應泰 (T. 大來), d. May 11, 1621, Ming general, was a native of Fêng-hsiang, Shensi. He took the degree of chin-shih in 1595 and became district magistrate of Linchang, Honan.",
+          "source": "eccp-3678465",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "大來",
+        "source": "eccp-3678465"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "大來"
+    },
+    "romanizations": [
+      {
+        "value": "Yüan Ying-t'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3678465"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678465",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678465",
+      "passage": "eccp-3678465-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678465": {
+      "title": "ECCP · Yüan Ying-t'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443806",
+      "locator": "eccp-3678465-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633264": {
+      "title": "ECCP · 張銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271555",
+      "locator": "eccp-3633264-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639961": {
+      "title": "ECCP · 熊廷弼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282782",
+      "locator": "eccp-3639961-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678460": {
+      "title": "ECCP · 袁崇煥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443797",
+      "locator": "eccp-3678460-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-dc613b68ef55edf1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "定國",
+    "source": "eccp-3642379",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "太康",
+      "source": "qsg-volume-248",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "許定國，河南太康人。",
+          "source": "qsg-volume-248",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hsü Ting-kuo",
+        "system": "ECCP spelling",
+        "source": "eccp-3642379"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-248",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-248",
+      "passage": "qsg-volume-248-007",
+      "matchStatus": "proposed",
+      "evidence": "許定國，河南太康人。明崇禎間，官山西總兵官。李自成圍開封，趣定國赴援，師次沁水，一夕師潰，逮治論死。尋复授援剿河南總兵官。福王時，駐軍睢州。"
+    }
+  ],
+  "sources": {
+    "eccp-3642379": {
+      "title": "ECCP · 高傑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290423",
+      "locator": "eccp-3642379-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

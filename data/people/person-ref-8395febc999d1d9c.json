@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8395febc999d1d9c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "覺",
+    "given": "羅滿保",
+    "source": "eccp-3654365",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "覺羅滿保，字鳧山，滿洲正黃旗人。",
+          "source": "qsg-volume-284",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鳧山",
+        "source": "eccp-3654365"
+      }
+    ],
+    "hao": [
+      {
+        "value": "九如",
+        "source": "eccp-3654365"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鳧山"
+    },
+    "romanizations": [
+      {
+        "value": "Gioro Manbao",
+        "system": "ECCP spelling",
+        "source": "eccp-3654365"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3654365",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1730,
+        "source": "eccp-3654365",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-284",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-284",
+      "passage": "qsg-volume-284-007",
+      "matchStatus": "proposed",
+      "evidence": "覺羅滿保，字鳧山，滿洲正黃旗人。康熙三十三年進士，選庶吉士，授檢討。累遷國子監祭酒，擢內閣學士，直經筵。"
+    }
+  ],
+  "sources": {
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

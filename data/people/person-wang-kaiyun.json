@@ -9,9 +9,21 @@
     "given": "闓運",
     "source": "eccp-zeng-guofan",
     "jiguan": null,
-    "zi": [],
+    "zi": [
+      {
+        "value": "壬秋",
+        "source": "eccp-3654385"
+      },
+      {
+        "value": "壬甫",
+        "source": "eccp-3654385"
+      }
+    ],
     "hao": [],
-    "parenthetical": null,
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壬秋"
+    },
     "romanizations": [
       {
         "value": "Wang K'ai-yün",
@@ -19,13 +31,43 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "王闓運，字壬秋，湘潭人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
     "death": null,
     "westernDates": [],
-    "westernYears": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3654385",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1916,
+        "source": "eccp-3654385",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
     "reportedAges": []
   },
   "externalIds": {
@@ -38,7 +80,16 @@
       "status": "not-searched"
     }
   },
-  "accounts": [],
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-225",
+      "matchStatus": "proposed",
+      "evidence": "王闓運，字壬秋，湘潭人。咸豐三年舉人。幼好學，質魯，日誦不能及百言。發憤自責，勉強而行之。昕所習者，不成誦不食；夕所誦者，不得解不寢。於是年十有五明訓詁，二十而通章句，二十四而言禮。考三代之制度，詳品物之所用。二十八而達春秋微言，張公羊，申何學，遂通諸經。潛心著述，尤肆力於文。溯莊、列，探賈、董，其駢儷則揖顏、庾，詩歌則抗阮、左。記事之體，一取裁於龍門。"
+    }
+  ],
   "sources": {
     "eccp-zeng-guofan": {
       "title": "ECCP · 曾國藩",
@@ -46,6 +97,34 @@
       "locator": "eccp-zeng-guofan-16",
       "access": "full-text",
       "attribution": "Têng Ssŭ-yü; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-225",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-207",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [],

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649382",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "沙爾虎達",
+    "source": "eccp-3649382",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "ŠARHÛDA 沙爾虎達, 1599–1659, general, came from a Gûwalgiya clan of the Suwan 蘇完 tribe of Hurha 瑚爾哈. He and his father joined Nurhaci [q. v.] and were assigned to the Manchu Bordered Blue Banner.",
+          "source": "eccp-3649380",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "沙爾虎達，瓜爾佳氏，其先蘇完部人，居虎爾哈。",
+          "source": "qsg-volume-243",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Sha-êr-hu-ta",
+        "system": "ECCP spelling",
+        "source": "eccp-3649382"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1599,
+        "source": "eccp-3649380",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1659,
+        "source": "eccp-3649380",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649382",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649382",
+      "passage": "eccp-3649382-001"
+    },
+    {
+      "source": "eccp-3649380",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649380",
+      "passage": "eccp-3649380-001"
+    },
+    {
+      "source": "qsg-volume-243",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-243",
+      "passage": "qsg-volume-243-007",
+      "matchStatus": "proposed",
+      "evidence": "沙爾虎達，瓜爾佳氏，其先蘇完部人，居虎爾哈。太祖時，從其父桂勒赫來歸，授牛錄額真。天命初，從伐瓦爾喀部，有功，授世職備禦。天聰元年，太宗自將伐明，攻大凌河，圍錦州，沙爾虎達以噶布什賢章京從，屢戰輒勝。三年，復從伐明，拔遵化，薄明都，沙爾虎達戰郭外，敗明兵，進世職游擊。自是數奉命與噶布什賢章京勞薩等率遊騎入明邊，往來松山、杏山間，獲明邏卒十八及牙將為邏卒監者，並得牲畜、器械甚夥。大凌河城下，明將祖大壽降，既，復入錦州為明守。上遣諸將略錦州，使沙爾虎達懸書十三站山坡諭大壽。九年，與白奇超哈將領巴蘭奇"
+    }
+  ],
+  "sources": {
+    "eccp-3649382": {
+      "title": "ECCP · Sha-êr-hu-ta",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318157",
+      "locator": "eccp-3649382-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649380": {
+      "title": "ECCP · Šarhûda",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318154",
+      "locator": "eccp-3649380-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633239": {
+      "title": "ECCP · 巴海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271376",
+      "locator": "eccp-3633239-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639216": {
+      "title": "ECCP · 根特木",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280220",
+      "locator": "eccp-3639216-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649111": {
+      "title": "ECCP · 明安達禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317670",
+      "locator": "eccp-3649111-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · 薩布素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

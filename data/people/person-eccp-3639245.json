@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639245",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "賀",
+    "given": "長齡",
+    "source": "eccp-3639245",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "善化",
+      "source": "qsg-volume-380",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HO Ch'ang-ling 賀長齡 (T. 耦庚, H. 西涯, 耐庵, 齧缺叟), Mar. 18, 1785–1848, July 6, official, was a native of Shan-hua, Hunan. Several of his immediate ancestors were petty judicial officials. He studied for about a year in the Yüeh-lu (嶽麓) Academy at Shan-hua, becoming a chü-jên in 1807, and a chin-shih in 1808.",
+          "source": "eccp-3639245",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "賀長齡，字耦耕，湖南善化人，原籍浙江會稽。",
+          "source": "qsg-volume-380",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "耦庚",
+        "source": "eccp-3639245"
+      }
+    ],
+    "hao": [
+      {
+        "value": "西涯",
+        "source": "eccp-3639245"
+      },
+      {
+        "value": "耐庵",
+        "source": "eccp-3639245"
+      },
+      {
+        "value": "齧缺叟",
+        "source": "eccp-3639245"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "耦庚"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Ch'ang-ling",
+        "system": "ECCP spelling",
+        "source": "eccp-3639245"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1785,
+        "source": "eccp-3639245",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1848,
+        "source": "eccp-3639245",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639245",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639245",
+      "passage": "eccp-3639245-001"
+    },
+    {
+      "source": "qsg-volume-380",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-380",
+      "passage": "qsg-volume-380-024",
+      "matchStatus": "proposed",
+      "evidence": "賀長齡，字耦耕，湖南善化人，原籍浙江會稽。高祖上振，官湖南司獄，卹囚有隱德，貧未能歸，遂家湖南。"
+    }
+  ],
+  "sources": {
+    "eccp-3639245": {
+      "title": "ECCP · Ho Ch'ang-ling",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280262",
+      "locator": "eccp-3639245-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643624": {
+      "title": "ECCP · 李星沅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294831",
+      "locator": "eccp-3643624-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658527": {
+      "title": "ECCP · 鄒漢勖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370042",
+      "locator": "eccp-3658527-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672726": {
+      "title": "ECCP · 王慶雲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412281",
+      "locator": "eccp-3672726-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674958": {
+      "title": "ECCP · 魏源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419241",
+      "locator": "eccp-3674958-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-380": {
+      "title": "清史稿/卷380",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433559",
+      "locator": "qsg-volume-380-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-393": {
+      "title": "清史稿/卷393",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433495",
+      "locator": "qsg-volume-393-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-448": {
+      "title": "清史稿/卷448",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2613364",
+      "locator": "qsg-volume-448-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-071",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

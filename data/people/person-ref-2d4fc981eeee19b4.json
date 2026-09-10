@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2d4fc981eeee19b4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "文洊",
+    "source": "eccp-3674951",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "謝文洊，字秋水，南豐人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "秋水",
+        "source": "eccp-3674951"
+      }
+    ],
+    "hao": [
+      {
+        "value": "約齋",
+        "source": "eccp-3674951"
+      },
+      {
+        "value": "顧庵",
+        "source": "eccp-3674951"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "秋水"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Wên-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3674951"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1615,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1681,
+        "source": "eccp-3674951",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-057",
+      "matchStatus": "proposed",
+      "evidence": "謝文洊，字秋水，南豐人。明諸生。年二十餘，入廣昌之香山，閱佛書，學禪。既，讀龍溪王氏書，遂與友講陽明之學。年四十，會講於新城之神童峰。有王聖瑞者，力攻陽明。文洊與爭辯累日，為所動，取羅欽順困知記讀之，始一意程、朱。辟程山學舍於城西，名其堂曰尊雒。著大學中庸切已錄，發明張子主敬之旨。以為為學之本，「畏天命」一言盡之，學者當以此為心法。注目傾耳，一念之私，醒悔刻責，無犯帝天之怒。其程山十則亦以躬行實踐為主。時寧都「易堂九子」，節行文章為海內所重，「髻山七子」，亦以節概名，而文洊獨反己闇修，務求自得。"
+    }
+  ],
+  "sources": {
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

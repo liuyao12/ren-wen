@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645520",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "柳",
+    "given": "是",
+    "source": "eccp-3645520",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "如是",
+        "source": "eccp-3645520"
+      }
+    ],
+    "hao": [
+      {
+        "value": "河東君",
+        "source": "eccp-3645520"
+      },
+      {
+        "value": "蘼蕪",
+        "source": "eccp-3645520"
+      },
+      {
+        "value": "我聞居士",
+        "source": "eccp-3645520"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "如是"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3645520"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1618,
+        "source": "eccp-3645520",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3645520",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645520",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645520",
+      "passage": "eccp-3645520-001"
+    }
+  ],
+  "sources": {
+    "eccp-3645520": {
+      "title": "ECCP · Liu Shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299491",
+      "locator": "eccp-3645520-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635455": {
+      "title": "ECCP · 錢謙益",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271399",
+      "locator": "eccp-3635455-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

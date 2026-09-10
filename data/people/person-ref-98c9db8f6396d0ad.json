@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-98c9db8f6396d0ad",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "奐",
+    "source": "eccp-3672742",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳奐，字碩甫，長洲人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "碩甫",
+        "source": "eccp-3672742"
+      }
+    ],
+    "hao": [
+      {
+        "value": "師竹",
+        "source": "eccp-3672742"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "碩甫"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Huan",
+        "system": "ECCP spelling",
+        "source": "eccp-3672742"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1786,
+        "source": "eccp-3672742",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1863,
+        "source": "eccp-3672742",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-205",
+      "matchStatus": "proposed",
+      "evidence": "陳奐，字碩甫，長洲人。諸生。咸豐元年，舉孝廉方正。奐始從呉江沅治古學，金壇段玉裁寓呉，與沅祖聲善。嘗曰：「我作六書音韻表，惟江氏祖孫知之，餘尟有知者。」奐盡一晝夜探其梗概。沅嘗假玉裁經韻樓集，奐竊視之，加硃墨。後玉裁見之，稱其學識出孔、賈上，由是奐受學玉裁。髙郵王念孫暨子引之、棲霞郝懿行、績溪胡培翬、涇胡承珙、臨海金鶚，咸與締交。"
+    }
+  ],
+  "sources": {
+    "eccp-3672742": {
+      "title": "ECCP · 汪憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412309",
+      "locator": "eccp-3672742-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-205",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

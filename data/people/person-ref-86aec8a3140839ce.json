@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-86aec8a3140839ce",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梅",
+    "given": "曾亮",
+    "source": "eccp-3678099",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "梅曾亮，字伯言，上元人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯言",
+        "source": "eccp-3678099"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯言"
+    },
+    "romanizations": [
+      {
+        "value": "Mei Tsêng-liang",
+        "system": "ECCP spelling",
+        "source": "eccp-3678099"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1786,
+        "source": "eccp-3678099",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3678099",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-117",
+      "matchStatus": "proposed",
+      "evidence": "梅曾亮，字伯言，上元人。少時工駢文。姚鼐主講鍾山書院，曾亮與邑人管同俱出其門，兩人交最篤，同肆力古文，鼐稱之不容口，名大起。間以規曾亮，曾亮自喜，不為動也。久之，讀周、秦、太史公書，乃頗寤，一變舊習。義法本桐城，稍參以異己者之長，選聲練色，務窮極筆勢。道光二年進士，用知縣，授例改戶部郎中。居京師二十餘年，與宗稷辰、朱琦、龍啟瑞、王拯、邵懿辰輩游處，曾國藩亦起而應之。京師治古文者，皆從梅氏問法。當是時，管同已前逝，曾亮最為大師；而國藩又從唐鑑、倭仁、吳廷棟講身心克治之學，其於文推挹姚氏尤至。於是士"
+    }
+  ],
+  "sources": {
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-117",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

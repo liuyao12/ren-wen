@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a776f120639bf6de",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "舒",
+    "given": "希忠",
+    "source": "eccp-3654374",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "蔗堂",
+        "source": "eccp-3654374"
+      }
+    ],
+    "hao": [
+      {
+        "value": "澹齋",
+        "source": "eccp-3654374"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蔗堂"
+    },
+    "romanizations": [
+      {
+        "value": "Shu Hsi-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3654374"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3654374": {
+      "title": "ECCP · 舒位",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358449",
+      "locator": "eccp-3654374-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

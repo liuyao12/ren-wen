@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635442",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "良騏",
+    "source": "eccp-3635442",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIANG Liang-ch'i 蔣良騏 (T. 千之, H. 蠃川) 1722–1789, official and writer, was a native of Ch'üan-chou, Kwangsi. He was the second son of Chiang Lin 蔣林 (T. 元楚, H. 介亭, 1694–1748) who was a chin-shih of 1715 and a corrector in the Hanlin Academy, and who after filling several posts as prefect served as salt-controller in Chihli from 1736 to 1740.",
+          "source": "eccp-3635442",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "千之",
+        "source": "eccp-3635442"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蠃川",
+        "source": "eccp-3635442"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "千之"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Liang-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3635442"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1722,
+        "source": "eccp-3635442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1789,
+        "source": "eccp-3635442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635442",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635442",
+      "passage": "eccp-3635442-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635442": {
+      "title": "ECCP · Chiang Liang-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271724",
+      "locator": "eccp-3635442-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637550": {
+      "title": "ECCP · 莊廷鑨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275720",
+      "locator": "eccp-3637550-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-015",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640022": {
+      "title": "ECCP · 黃體芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282942",
+      "locator": "eccp-3640022-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-017",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-019",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-017",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

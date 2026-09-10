@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-67e5dd4c49a785e1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "灝",
+    "source": "eccp-3656338",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Wang Hao 汪灝 (T. 紫滄, H. 沅亭, chin-shih 1703), were condemned to penal servitude in one of the Chinese Banners, but were later freed. This episode is known in history as \"The Case of the Condemned Writings of Tai Ming-shih\" (南山集獄).",
+          "source": "eccp-3656338",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "紫滄",
+        "source": "eccp-3656338"
+      }
+    ],
+    "hao": [
+      {
+        "value": "沅亭",
+        "source": "eccp-3656338"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "紫滄"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hao",
+        "system": "ECCP spelling",
+        "source": "eccp-3656338"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656338": {
+      "title": "ECCP · 戴名世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

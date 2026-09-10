@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a45d3e431013f039",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "夢熊",
+    "source": "eccp-3634059",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ên Mêng-hsiung 陳夢熊 and Ch'ên Mêng-p'êng 陳夢鵬 , the latter a hsiu-ts'ai of 1683. One source asserts, perhaps erroneously, that he had a brother named Ch'ên Mêng-ch'iu 陳夢球 (T. 二受, H. 遊龍, a chin-shih of 1694), who was a member of the Chinese Plain White Banner.",
+          "source": "eccp-3634059",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "二受",
+        "source": "eccp-3634059"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遊龍",
+        "source": "eccp-3634059"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "二受"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Mêng-hsiung",
+        "system": "ECCP spelling",
+        "source": "eccp-3634059"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634059": {
+      "title": "ECCP · 陳夢雷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271466",
+      "locator": "eccp-3634059-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

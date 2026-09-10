@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-000b82cdf7afbffe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "呂",
+    "given": "元學",
+    "source": "eccp-3646137",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "聚之",
+        "source": "eccp-3646137"
+      }
+    ],
+    "hao": [
+      {
+        "value": "澹津",
+        "source": "eccp-3646137"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聚之"
+    },
+    "romanizations": [
+      {
+        "value": "Lü Yüan-hsüeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3646137"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3646137": {
+      "title": "ECCP · 呂留良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300546",
+      "locator": "eccp-3646137-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

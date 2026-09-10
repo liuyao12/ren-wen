@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1ff02721d08da0ca",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嚴",
+    "given": "元照",
+    "source": "eccp-3640939",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "嚴元照，字九能，歸安人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "修能",
+        "source": "eccp-3640939"
+      }
+    ],
+    "hao": [
+      {
+        "value": "九能",
+        "source": "eccp-3640939"
+      },
+      {
+        "value": "悔庵",
+        "source": "eccp-3640939"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "修能"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Yüan-chao",
+        "system": "ECCP spelling",
+        "source": "eccp-3640939"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1773,
+        "source": "eccp-3640939",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3640939",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-064",
+      "matchStatus": "proposed",
+      "evidence": "嚴元照，字九能，歸安人。十歳能爲四體書，補諸生。儀徴阮元、大興朱珪深賞之。熟於爾雅，作匡名八巻，旁羅異文軼訓，鉤稽而疎證之。著有悔葊文鈔、詩鈔、詞鈔，娯親雅言等書。"
+    }
+  ],
+  "sources": {
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

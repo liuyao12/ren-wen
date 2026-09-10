@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3668562",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "壽祺",
+    "source": "eccp-3668562",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN Shou-ch'i 萬壽祺 (T. 年少, 介若, 內景, H. 明志道人, monastic name 慧壽), 1603–1652, June 8, poet, painter, and man of letters, was a native of T'ung-shan, Kiangsu. His great-grandfather came from Nanchang, Kiangsi, and settled in T'ung-shan, the prefectural city of Hsü-chou, for medical practice.",
+          "source": "eccp-3668562",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "萬壽祺，字介若，世稱年少先生，徐州人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "年少",
+        "source": "eccp-3668562"
+      },
+      {
+        "value": "介若",
+        "source": "eccp-3668562"
+      },
+      {
+        "value": "內景",
+        "source": "eccp-3668562"
+      }
+    ],
+    "hao": [
+      {
+        "value": "明志道人",
+        "source": "eccp-3668562"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "年少"
+    },
+    "romanizations": [
+      {
+        "value": "Wan Shou-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3668562"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1603,
+        "source": "eccp-3668562",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3668562",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3668562",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3668562",
+      "passage": "eccp-3668562-001"
+    },
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-022",
+      "matchStatus": "proposed",
+      "evidence": "萬壽祺，字介若，世稱年少先生，徐州人。與爾梅同郡，又同歲生，同舉鄉試，志節皆"
+    }
+  ],
+  "sources": {
+    "eccp-3668562": {
+      "title": "ECCP · Wan Shou-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412223",
+      "locator": "eccp-3668562-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

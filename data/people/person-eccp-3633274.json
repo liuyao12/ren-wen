@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633274",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "煌言",
+    "source": "eccp-3633274",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "鄞縣",
+      "source": "qsg-volume-224",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Huang-yen 張煌言 (T. 玄箸, H. 蒼水, childhood name 阿雲), July 8, 1620–1664, Oct. 25, Ming loyalist, was a native of Yin-hsien (Ningpo), Chekiang. One of his ancestors, Chang Chih-po 張知白 (T. 用晦, posthumous name 文節), served as premier during the reign of the Sung emperor, Chên-tsung (宋真宗, 998–1023).",
+          "source": "eccp-3633274",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張煌言，字玄箸，浙江鄞縣人。",
+          "source": "qsg-volume-224",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玄箸",
+        "source": "eccp-3633274"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒼水",
+        "source": "eccp-3633274"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玄箸"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Huang-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3633274"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3633274",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1664,
+        "source": "eccp-3633274",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633274",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633274",
+      "passage": "eccp-3633274-001"
+    },
+    {
+      "source": "qsg-volume-224",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-224",
+      "passage": "qsg-volume-224-006",
+      "matchStatus": "proposed",
+      "evidence": "張煌言，字玄箸，浙江鄞縣人。明崇禎十五年舉人。時以兵事急，令兼試射，煌言三發皆中。慷慨好論兵事。順治二年，師定江寧，煌言與裏人錢肅樂、沈宸荃、馮元颺等合謀奉魯王以海。煌言迎於天台，授行人。至紹興，稱「監國」，授翰林院修撰。入典制誥，出領軍旅。三年，師潰。歸與父母妻子決，從王次石浦，與黃斌卿軍相犄角，加右僉都御史。"
+    }
+  ],
+  "sources": {
+    "eccp-3633274": {
+      "title": "ECCP · Chang Huang-yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271612",
+      "locator": "eccp-3633274-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633285": {
+      "title": "ECCP · 張名振",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278372",
+      "locator": "eccp-3633285-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633496": {
+      "title": "ECCP · 趙之謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271691",
+      "locator": "eccp-3633496-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636413": {
+      "title": "ECCP · 朱以海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272542",
+      "locator": "eccp-3636413-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634094": {
+      "title": "ECCP · 鄭成功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271754",
+      "locator": "eccp-3634094-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658575": {
+      "title": "ECCP · 萬經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370139",
+      "locator": "eccp-3658575-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672708": {
+      "title": "ECCP · 萬斯備",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412226",
+      "locator": "eccp-3672708-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672714": {
+      "title": "ECCP · 萬言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412259",
+      "locator": "eccp-3672714-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-253": {
+      "title": "清史稿/卷253",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026844",
+      "locator": "qsg-volume-253-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

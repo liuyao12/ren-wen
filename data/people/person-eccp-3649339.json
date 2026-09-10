@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649339",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "朋春",
+    "source": "eccp-3649339",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "PENGCUN 朋春, d. 1701, general, was a great-grandson of Hohori [q. v.] of the Donggo clan, and a member of the Manchu Plain Red Banner. In 1652 he succeeded to the family hereditary rank which was raised in that year from duke of the third class, granted in 1628 to his grandfather Hošotu (see under Hohori), to duke of the first class.",
+          "source": "eccp-3649352",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "朋春，棟鄂氏，滿洲正紅旗人，何和禮四世孫。",
+          "source": "qsg-volume-280",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "P'êng-ch'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3649339"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649339",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649339",
+      "passage": "eccp-3649339-001"
+    },
+    {
+      "source": "eccp-3649352",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649352",
+      "passage": "eccp-3649352-001"
+    },
+    {
+      "source": "qsg-volume-280",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-280",
+      "passage": "qsg-volume-280-011",
+      "matchStatus": "proposed",
+      "evidence": "朋春，棟鄂氏，滿洲正紅旗人，何和禮四世孫。何和禮子和碩圖，進爵三等公；子何爾本、哲爾本、蘇布遞襲，至袞布，以恩詔進一等。朋春，哲爾本子也，順治九年，襲封。康熙十五年，加太子太保，授正紅旗蒙古副都統，調本旗滿洲。"
+    }
+  ],
+  "sources": {
+    "eccp-3649339": {
+      "title": "ECCP · P'êng-ch'un",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318089",
+      "locator": "eccp-3649339-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649352": {
+      "title": "ECCP · Pengcun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318111",
+      "locator": "eccp-3649352-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639256": {
+      "title": "ECCP · 何和禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280281",
+      "locator": "eccp-3639256-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642443": {
+      "title": "ECCP · 郎坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290568",
+      "locator": "eccp-3642443-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · 薩布素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654379": {
+      "title": "ECCP · 性德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358459",
+      "locator": "eccp-3654379-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678195": {
+      "title": "ECCP · 岳樂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443111",
+      "locator": "eccp-3678195-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-38df4d6782d19ad6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "國治",
+    "source": "eccp-3678127",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "朱國治，漢軍正黃旗人。",
+          "source": "qsg-volume-488",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chu Kuo-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3678127"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-488",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-488",
+      "passage": "qsg-volume-488-009",
+      "matchStatus": "proposed",
+      "evidence": "朱國治，漢軍正黃旗人。順治四年，由貢生授固安知縣，屢擢至大理寺卿。十六年，外簡江寧巡撫。時鄭成功盤踞外洋，出沒江南濱海州縣，國治疏言：「欲破狡謀，先度形勢。賊眾負險，我師遠涉風濤，其勞逸不同。賊眾熟識海道，我師弓馬便捷，其素習不同；水師舟楫，較之賊船大小懸殊，其攻取不同。臣謂宜以守寓戰，凡海邊江口，多設墩台，待賊勢困援絕，乘間攻之，自能擒渠獻馘。」下所司議行。又以蘇、松、常、鎮四府錢糧抗欠者多，分別造冊，紳士一萬三千五百餘人，衙役二百四十人，請敕部察議。部議現任官降二級調用，衿士褫革，衙役照贓治"
+    }
+  ],
+  "sources": {
+    "eccp-3678127": {
+      "title": "ECCP · 葉方藹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442924",
+      "locator": "eccp-3678127-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

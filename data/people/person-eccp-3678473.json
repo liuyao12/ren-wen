@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678473",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惲",
+    "given": "敬",
+    "source": "eccp-3678473",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜN Ching 惲敬 (T. 子居, H. 簡堂), Mar. 20, 1757–1817, Oct. 3, scholar and official, was a native of Wu-chin, Kiangsu, but usually referred to himself in his writings as from the neighbouring district of Yang-hu.",
+          "source": "eccp-3678473",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "惲敬，字子居，陽湖人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子居",
+        "source": "eccp-3678473"
+      }
+    ],
+    "hao": [
+      {
+        "value": "簡堂",
+        "source": "eccp-3678473"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子居"
+    },
+    "romanizations": [
+      {
+        "value": "Yün Ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3678473"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1757,
+        "source": "eccp-3678473",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3678473",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678473",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678473",
+      "passage": "eccp-3678473-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-215",
+      "matchStatus": "proposed",
+      "evidence": "惲敬，字子居，陽湖人。幼從舅氏鄭環學，持論能獨出己見。乾隆四十八年舉人，以教習官京師。時同縣莊述祖、有可、張惠言，海鹽陳石麟，桐城王灼集輦下，敬與為友，商榷經義，以古文鳴於時。既而選令富陽，銳欲圖治，不隨群輩俯仰。大吏怒其強項，務裁抑之，令督解黔餉。敬曰：「王事也。」怡然就道。後遭父喪，服闋，選新喻。吏民素橫暴，繩以法，人疑其過猛。已乃進秀異士與論文藝，俗習大變。調知瑞金，有富民進千金求脫罪，峻拒之。關說者以萬金相啗，敬曰：「節士苞苴不逮門，吾豈有遺行耶！」卒論如法。由是廉聲大著。卓異，擢南昌同"
+    }
+  ],
+  "sources": {
+    "eccp-3678473": {
+      "title": "ECCP · Yün Ching",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443818",
+      "locator": "eccp-3678473-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633275": {
+      "title": "ECCP · 張惠言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271613",
+      "locator": "eccp-3633275-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645503": {
+      "title": "ECCP · 劉逢祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-215",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

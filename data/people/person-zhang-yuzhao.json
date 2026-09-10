@@ -32,7 +32,18 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "張裕釗，字廉卿，武昌人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
@@ -72,6 +83,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Chang_Y%C3%BC-chao",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3633311",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633311",
+      "passage": "eccp-3633311-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-209",
+      "matchStatus": "proposed",
+      "evidence": "張裕釗，字廉卿，武昌人。少時，塾師授以製舉業，意不樂。家獨有南豐集，時時竊讀之。咸豐元年舉人，考授內閣中書。曾國藩閱卷賞其文，既，來見，曰：「子豈嘗習子固文耶？」裕釗私自喜。已而國藩益告以文事利病及唐、宋以來家法，學乃大進，寤前此所為猶凡近，馬遷、班固、相如、揚雄之書，無一日不誦習。又精八法，由魏、晉、六朝以上窺漢隸，臨池之勤，亦未嘗一日輟。國藩既成大功，出其門者多通顯。裕釗相從數十年，獨以治文為事。國藩為文，義法取桐城，益閎以漢賦之氣體，尤善裕釗之文。嘗言「吾門人可期有成者，惟張、吳兩生」，謂"
     }
   ],
   "sources": {
@@ -95,6 +120,69 @@
       "locator": "Preserved source opening, revision 11271676",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633311": {
+      "title": "ECCP · Chang Yü-chao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271676",
+      "locator": "eccp-3633311-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637600": {
+      "title": "ECCP · 方宗誠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275795",
+      "locator": "eccp-3637600-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674954": {
+      "title": "ECCP · 魏裔介",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419236",
+      "locator": "eccp-3674954-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-209",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

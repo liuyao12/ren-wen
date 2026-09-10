@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649325",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "包",
+    "given": "世臣",
+    "source": "eccp-3649325",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "包世臣，字慎伯，涇縣人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "愼伯",
+        "source": "eccp-3649325"
+      }
+    ],
+    "hao": [
+      {
+        "value": "倦翁",
+        "source": "eccp-3649325"
+      },
+      {
+        "value": "安吳先生",
+        "source": "eccp-3649325"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "愼伯"
+    },
+    "romanizations": [
+      {
+        "value": "Pao Shih-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3649325"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3649325",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-3649325",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649325",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649325",
+      "passage": "eccp-3649325-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-060",
+      "matchStatus": "proposed",
+      "evidence": "包世臣，字慎伯，涇縣人。少工詞章，有經濟大略，喜言兵。嘉慶十三年舉人，大挑以知縣發江西。一權新喻，被劾去。复隨明亮徵川、楚，發奇謀不見用，遂歸，卜居金陵。世臣精悍有口辯，以布衣遨遊公卿間。東南大吏，每遇兵、荒、河、漕、鹽諸鉅政。無不屈節諮詢，世臣亦慷慨言之。"
+    }
+  ],
+  "sources": {
+    "eccp-3649325": {
+      "title": "ECCP · Pao Shih-ch'ên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318057",
+      "locator": "eccp-3649325-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633255": {
+      "title": "ECCP · 張琦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642427": {
+      "title": "ECCP · 龔自珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290533",
+      "locator": "eccp-3642427-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645527": {
+      "title": "ECCP · 劉文淇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649395": {
+      "title": "ECCP · 沈欽韓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318182",
+      "locator": "eccp-3649395-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656362": {
+      "title": "ECCP · 陶澍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365131",
+      "locator": "eccp-3656362-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678076": {
+      "title": "ECCP · 楊以增",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442424",
+      "locator": "eccp-3678076-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-343": {
+      "title": "清史稿/卷343",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029607",
+      "locator": "qsg-volume-343-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-360": {
+      "title": "清史稿/卷360",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485024",
+      "locator": "qsg-volume-360-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-095",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

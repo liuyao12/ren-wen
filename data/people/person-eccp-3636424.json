@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636424",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "國楨",
+    "source": "eccp-3636424",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Kuo-chên 朱國楨 (T. 文寧, H. 平涵, 虯庵), 1557–1632, Ming official and historian, was a native of Wu-ch'êng, Chekiang. A chin-shih of 1589, he was selected a bachelor of the Hanlin Academy and was later appointed a corrector.",
+          "source": "eccp-3636424",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文寧",
+        "source": "eccp-3636424"
+      }
+    ],
+    "hao": [
+      {
+        "value": "平涵",
+        "source": "eccp-3636424"
+      },
+      {
+        "value": "虯庵",
+        "source": "eccp-3636424"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文寧"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Kuo-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3636424"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1557,
+        "source": "eccp-3636424",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1632,
+        "source": "eccp-3636424",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636424",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636424",
+      "passage": "eccp-3636424-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636424": {
+      "title": "ECCP · Chu Kuo-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272559",
+      "locator": "eccp-3636424-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

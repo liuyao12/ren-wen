@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674930",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "瓦三",
+    "source": "eccp-3674930",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wasan",
+        "system": "ECCP spelling",
+        "source": "eccp-3674930"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1676,
+        "source": "eccp-3674930",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3674930",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674930",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674930",
+      "passage": "eccp-3674930-001"
+    }
+  ],
+  "sources": {
+    "eccp-3674930": {
+      "title": "ECCP · Wasan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419145",
+      "locator": "eccp-3674930-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656332": {
+      "title": "ECCP · 舒爾哈齊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365090",
+      "locator": "eccp-3656332-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-075",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

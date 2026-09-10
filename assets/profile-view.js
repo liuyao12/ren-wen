@@ -1,3 +1,5 @@
+import {fetchData} from './data-cache.js';
+import {loadNameHistory, sourceNameGroups, nameHistoryHTML, typedAttestationsHTML} from './name-history.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h, safeURL} from './core.js';
 import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
@@ -17,14 +19,15 @@ function render(p) {
   const destination=eccpDestination(p,libraryCatalog);
   const contributions=libraryWorks.filter(w=>(w.creators||[]).some(c=>c.person===p.id));
   const ms=occurrences(libraryCatalog,p.id);
+  const forms=sourceNameGroups(libraryCatalog,p.id);
   const accounts = (p.accounts || []).map(a => `<p>${a.readerWitness
-    ? `<a href="./#${encodeURIComponent(a.readerWitness)}">${h(p.sources[a.source].title)} →</a>`
+    ? `<a href="${h(readerURL(a.readerWitness, /^[a-z0-9-]+$/.test(a.passage||'') ? a.passage : '', p.id))}">${h(p.sources[a.source].title)} →</a>`
     : sourceLink(a.source)}<br><small>${ui(a.relation)} · ${h(a.passage || '')}</small></p>`).join('');
   byId('profile').innerHTML = `
     <div class="eyebrow">${h(p.collection)} · ${ui("PERSON PROFILE")} · ${ui(p.reviewStatus)}</div>
     ${personHeading(p)}
     <p class="romanization">${(p.name.romanizations || []).map(r => h(r.value)).join(' · ')}</p>
-    <div class="profile-source-navigation"><a href="./">${ui("Three-panel reader →")}</a>${(p.accounts || []).filter(a => a.readerWitness).map(a => `<a href="./#${encodeURIComponent(a.readerWitness)}">${h(p.sources[a.source].title)} →</a>`).join('')}</div>
+    <div class="profile-source-navigation"><a href="./">${ui("Three-panel reader →")}</a>${(p.accounts || []).filter(a => a.readerWitness).map(a => `<a href="${h(readerURL(a.readerWitness, /^[a-z0-9-]+$/.test(a.passage||'') ? a.passage : '', p.id))}">${h(p.sources[a.source].title)} →</a>`).join('')}</div>
     ${destination?`<div class="reading-links"><a href="${h(destination.url)}"${destination.external?' target="_blank" rel="noopener"':''}>${ui(destination.label)}${destination.external?' ↗':' →'}</a></div>`:''}
     <p class="coverage">${ui(p.coverage)}</p>
     <div class="life-grid">
@@ -36,6 +39,8 @@ function render(p) {
         <dt>${ui("姓 · Surname / clan")}</dt><dd>${p.name.surname ? h(p.name.surname) : ui('Not separately recorded')}</dd>
         <dt>${ui("名 · Given / attested name")}</dt><dd>${h(p.name.given)}</dd>
         <dt>${ui("籍貫 · Native place")}</dt><dd>${p.name.jiguan?.label ? h(p.name.jiguan.label) : ui('Unresolved')}</dd>
+        <dt>${ui("氏族 · Clan")}</dt><dd>${p.name.clan?.label?h(p.name.clan.label):ui('Not separately recorded')}</dd>
+        <dt>${ui("完整籍貫／旗籍 · Registration")}</dt><dd>${p.name.registration?.administrativeLabel?`<strong>${h(p.name.registration.administrativeLabel)}</strong><br><small>${sourceLink(p.name.registration.administrativeSource)} · ${ui('Registration category unresolved')}</small>`:''}${(p.name.registration?.attestations||[]).map(a=>`<p><span data-original>${h(a.text)}</span><br><small>${sourceLink(a.source)}</small></p>`).join('') || ui('Unresolved')}<p class="note">${ui('Civil registration and banner company are not inferred when the source does not specify them.')}</p></dd>
         <dt>${ui("字 · Courtesy names")}</dt><dd>${p.name.zi.map(x => h(x.value)).join('、') || ui('Not yet entered')}</dd>
         <dt>${ui("號 · Other names")}</dt><dd>${p.name.hao.map(x => h(x.value)).join('、') || ui('Not yet entered')}</dd>
       </dl><p class="note">${ui(p.name.note)}</p></section>
@@ -54,6 +59,8 @@ function render(p) {
     </div>
     ${contributions.length?`<section><h2>${ui("Works and contributions · 文")}</h2><ul class="contribution-list">${contributions.map(w=>`<li><a href="${h(workURL(w.id))}">${h(w.title)}</a> · ${w.creators.filter(c=>c.person===p.id).map(c=>ui(c.role)).join('、')}</li>`).join('')}</ul></section>`:''}
     <section><h2>${ui("Occurrences in the imported texts ·")} ${ms.length}</h2><details><summary>${ui("Browse source passages")}</summary><ul class="mentions-list">${ms.map(m=>`<li><a href="${h(readerURL(m.witness,m.passage))}">${h(libraryCatalog.sources.find(s=>s.id===m.witness)?.shortTitle || m.witness)} · ${h(m.passage)} →</a><br><q data-original lang="${h(libraryCatalog.sources.find(s=>s.id===m.witness)?.language || 'en')}">${h(m.quote)}</q></li>`).join('')}</ul></details></section>
+    <section><h2>${ui("Dated names and titles")}</h2>${nameHistoryHTML(p)}${typedAttestationsHTML(p,libraryCatalog)}</section>
+    <section id="source-name-attestations"><h2>${ui("Names used by each source")}</h2><p class="note">${ui("Source date is not the date of the event or the adoption of a name.")}</p>${forms.map(g=>`<details class="source-name-group"><summary>${h(g.source?.shortTitle||'')} <span class="source-date-label">${g.date.label?h(g.date.label):ui('Source date unresolved')}</span> · ${g.forms.size}</summary><p class="note">${ui('Digitized witness')} ${h(g.source?.revision||'?')}</p><ul>${[...g.forms].map(([form,items])=>`<li><q data-original>${h(form)}</q> ${items.map(m=>`<a href="${h(readerURL(g.source.id,m.passage,p.id))}">${h(m.passage)} →</a>`).join(' ')}</li>`).join('')}</ul></details>`).join('')}</section>
     <section class="sources"><h2>${ui("Evidence and provenance")}</h2>
       ${Object.values(p.sources).map(s => `<p>${link(s.url, s.title)}<br><small><span data-original lang="en">${h(s.locator)}</span> · ${ui("Access:")} ${ui(s.access)}<br><span data-original lang="en">${h(s.attribution)}</span></small></p>`).join('')}
       ${(p.notes || []).map(n => `<p class="note">${h(n)}</p>`).join('')}
@@ -64,18 +71,20 @@ function render(p) {
 
 (async () => {
   try {
-    const [detailed, response, works] = await Promise.all([loadProfiles(), fetch('data/catalog.json'),loadWorks()]);
+    const [detailed, response, works] = await Promise.all([loadProfiles(), fetchData('data/catalog.json'),loadWorks(), loadNameHistory()]);
     if (!response.ok) throw Error('The person catalogue could not be loaded.');
     libraryCatalog=await response.json();libraryWorks=works;
     const profiles = profilesWithStubs(libraryCatalog, detailed);
     if (!profiles.length) throw Error('No profiles have been entered.');
     const select = byId('profile-select');
     select.innerHTML = profiles.map(p => `<option value="${h(p.id)}">${h(canonicalName(p))}</option>`).join('');
-    function route() {
+    let routeSequence=0;
+    async function route() {
+      const sequence=++routeSequence;
       let requested;
       try { requested = decodeURIComponent(location.hash.slice(1)); } catch { requested = '(invalid)'; }
       if (!requested) { history.replaceState(null, '', `#${encodeURIComponent(profiles[0].id)}`); requested = profiles[0].id; }
-      const profile = profiles.find(p => p.id === requested);
+      let profile = profiles.find(p => p.id === requested);
       if (!profile) {
         select.value = '';
         byId('profile').innerHTML = `<h1>${ui("Profile not found")}</h1><p role="alert">${ui("No person record matches")} <code>${h(requested)}</code>.</p><p>${ui("Select a known person above or")} <a href="./">${ui("return to the reader")}</a>.</p>`;
@@ -83,11 +92,16 @@ function render(p) {
         return;
       }
       select.value = profile.id;
-      render(profile);
+      if(profile.summaryOnly) {
+        const response=await fetchData(`data/people/${profile.id}.json`);
+        if(!response.ok)throw Error('Person record unavailable.');
+        const full=await response.json();if(full.id!==profile.id)throw Error('Mismatched person record.');profile=full;
+      }
+      if(sequence===routeSequence)render(profile);
     }
     select.onchange = () => { location.hash = encodeURIComponent(select.value); };
-    window.addEventListener('hashchange', route);
-    route();
+    window.addEventListener('hashchange', ()=>route().catch(error=>{byId('profile').textContent=error.message;}));
+    await route();
   } catch (error) {
     byId('profile').innerHTML = `<h1>${ui("Profiles could not be loaded")}</h1><p role="alert">${h(error.message)}</p><p>${ui("Serve this directory over HTTP, rather than opening the file directly.")}</p>`;
   }

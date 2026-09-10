@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-aa5da6bfee3bc00e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "任",
+    "given": "啟運",
+    "source": "eccp-3640017",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "任啟運，字翼聖，宜興人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "埾翼",
+        "source": "eccp-3640017"
+      },
+      {
+        "value": "釣臺",
+        "source": "eccp-3640017"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "埾翼"
+    },
+    "romanizations": [
+      {
+        "value": "Jên Ch'i-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3640017"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1670,
+        "source": "eccp-3640017",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1744,
+        "source": "eccp-3640017",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-076",
+      "matchStatus": "proposed",
+      "evidence": "任啟運，字翼聖，宜興人。少讀孟子，至卒章，輒哽咽，大懼道統無傳。家貧，無藏書，從人借閱。夜乏膏火，持書就月，至移牆不輟。事父母孝以聞。年五十四，舉於鄉。雍正十一年，計偕至都，會世宗問有精通性理之學者，尚書張照以啟運名上。特詔廷試，以「太極似何物」對，進呈御覽，得旨嘉獎。會成進士，遂於臚唱前一日引見，特授翰林院檢討，在阿哥書房行走。上嘗問以「朝聞夕死」之旨，啟運對以「生死一理，未知生，焉知死」。上曰：「此是賢人分上事，未到聖人地位。從此作去，久自知之。」逾年抱疾，賜藥賜醫，越月謝恩，特諭繞廊而進。"
+    }
+  ],
+  "sources": {
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-076",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

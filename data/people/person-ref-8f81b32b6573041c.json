@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8f81b32b6573041c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "譚",
+    "given": "廷襄",
+    "source": "eccp-3642422",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "山陰",
+      "source": "qsg-volume-426",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "譚廷襄，字竹厓，浙江山陰人。",
+          "source": "qsg-volume-426",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "竹厓",
+        "source": "eccp-3642422"
+      }
+    ],
+    "hao": [
+      {
+        "value": "竹巖",
+        "source": "eccp-3642422"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "竹厓"
+    },
+    "romanizations": [
+      {
+        "value": "T'an T'ing-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3642422"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-426",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-426",
+      "passage": "qsg-volume-426-016",
+      "matchStatus": "proposed",
+      "evidence": "譚廷襄，字竹厓，浙江山陰人。道光十三年進士，選庶吉士，散館授刑部主事，再遷郎中。出為直隸永平知府，調保定，遷順天府尹，擢刑部侍郎。咸豐六年，出為陝西巡撫。直省採米運京倉，廷襄疏言：「陝西產米少，轉輸不便。請改折解款，由部召糴，費節而事集。」七年，署直隸總督。"
+    }
+  ],
+  "sources": {
+    "eccp-3642422": {
+      "title": "ECCP · 桂良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290523",
+      "locator": "eccp-3642422-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

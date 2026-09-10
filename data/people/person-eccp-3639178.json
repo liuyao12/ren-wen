@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639178",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "溥",
+    "source": "eccp-3639178",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "益都",
+      "source": "qsg-volume-250",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "FÊNG P'u 馮溥 (T. 孔博, 易齋), 1609–1692, Jan.–Feb., official, was a native of I-tu, Shantung. A chin-shih of 1646, he became a compiler of the Hanlin Academy three years later. In 1670 he was made president of the Board of Punishments and in the following year a Grand Secretary.",
+          "source": "eccp-3639178",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "馮溥，字孔博，山東益都人。",
+          "source": "qsg-volume-250",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孔博",
+        "source": "eccp-3639178"
+      },
+      {
+        "value": "易齋",
+        "source": "eccp-3639178"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孔博"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng P'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3639178"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1609,
+        "source": "eccp-3639178",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1692,
+        "source": "eccp-3639178",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639178",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639178",
+      "passage": "eccp-3639178-001"
+    },
+    {
+      "source": "qsg-volume-250",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-250",
+      "passage": "qsg-volume-250-024",
+      "matchStatus": "proposed",
+      "evidence": "馮溥，字孔博，山東益都人。順治三年進士，選庶吉士，授編修。累遷秘書院侍讀學士，直講經筵。世祖幸內院，顧大學士曰：「朕視馮溥乃真翰林也！」十六年，擢吏部侍郎。會各省學道缺，部郎不足，以知府補之。已，會禮部議奏，時尚書孫廷銓、侍郎石申並乞假；給事中張維赤因劾溥徇私，溥疏辨。上曰：「朕知溥不為也！」置勿問。明年，京官三品以上自陳，忽嚴旨黜滿尚書科爾坤及兩侍郎，獨留漢官在部。溥與廷銓疏言：「部事滿、漢同治，今滿臣得罪，漢臣安得免，乞並黜。」詔供職如故。"
+    }
+  ],
+  "sources": {
+    "eccp-3639178": {
+      "title": "ECCP · Fêng P'u",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280157",
+      "locator": "eccp-3639178-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633277": {
+      "title": "ECCP · 張然",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271614",
+      "locator": "eccp-3633277-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639205": {
+      "title": "ECCP · 傅山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674953": {
+      "title": "ECCP · 魏象樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419230",
+      "locator": "eccp-3674953-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-268",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

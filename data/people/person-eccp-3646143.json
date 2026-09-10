@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646143",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "䧺鎭",
+    "source": "eccp-3646143",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MA Hsiung-chên 馬䧺鎭 (T. 錫蕃, H. 坦公), 1634–1677, Nov. 6, official, was a native of Liaoyang, Fengtien. Although the family belonged to the Chinese Bordered Red Banner, his ancestors came originally from P'êng-lai, Shantung.",
+          "source": "eccp-3646143",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "錫蕃",
+        "source": "eccp-3646143"
+      }
+    ],
+    "hao": [
+      {
+        "value": "坦公",
+        "source": "eccp-3646143"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "錫蕃"
+    },
+    "romanizations": [
+      {
+        "value": "Ma Hsiung-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3646143"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1634,
+        "source": "eccp-3646143",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1677,
+        "source": "eccp-3646143",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646143",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646143",
+      "passage": "eccp-3646143-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646143": {
+      "title": "ECCP · Ma Hsiung-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300556",
+      "locator": "eccp-3646143-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656321": {
+      "title": "ECCP · 孫延齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365064",
+      "locator": "eccp-3656321-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636399",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "仇",
+    "given": "兆鼇",
+    "source": "eccp-3636399",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'OU Chao-ao 仇兆鼇 (T. 滄桂, H. 知幾), 1638–1717, scholar, was a native of Yin-hsien, Chekiang. In his youth he was a pupil of Huang Tsung-hsi [q. v.] and like the latter espoused the philosophy of Liu Tsung-chou [q. v.].",
+          "source": "eccp-3636399",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "滄桂",
+        "source": "eccp-3636399"
+      }
+    ],
+    "hao": [
+      {
+        "value": "知幾",
+        "source": "eccp-3636399"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "滄桂"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ou Chao-ao",
+        "system": "ECCP spelling",
+        "source": "eccp-3636399"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1638,
+        "source": "eccp-3636399",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1717,
+        "source": "eccp-3636399",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636399",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636399",
+      "passage": "eccp-3636399-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636399": {
+      "title": "ECCP · Ch'ou Chao-ao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272519",
+      "locator": "eccp-3636399-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635452": {
+      "title": "ECCP · 錢陳群",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271400",
+      "locator": "eccp-3635452-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649403": {
+      "title": "ECCP · 申涵光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318195",
+      "locator": "eccp-3649403-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649409": {
+      "title": "ECCP · 沈德潛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11405868",
+      "locator": "eccp-3649409-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

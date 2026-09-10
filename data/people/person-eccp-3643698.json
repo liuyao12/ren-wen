@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643698",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "綸樞",
+    "source": "eccp-3643698",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG Lun-shu 梁綸樞 (T. 拱辰, H. 星藩), 1790–1877, Aug. 4, a native of Canton, was engaged in foreign trade and was known to Westerners as Kingqua. His father, Liang Ching-kuo 梁經國 (T. 調禮, H. 左垣, 1761–1837), for years a clerk in a Chinese firm trading with Westerners at Canton, established in 1808 a similar business of his own which he styled T'ien-pao 天寶.",
+          "source": "eccp-3643698",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "拱辰",
+        "source": "eccp-3643698"
+      }
+    ],
+    "hao": [
+      {
+        "value": "星藩",
+        "source": "eccp-3643698"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "拱辰"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Lun-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3643698"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1790,
+        "source": "eccp-3643698",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1877,
+        "source": "eccp-3643698",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643698",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643698",
+      "passage": "eccp-3643698-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643698": {
+      "title": "ECCP · Liang Lun-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294987",
+      "locator": "eccp-3643698-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675193": {
+      "title": "ECCP · 伍崇曜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419951",
+      "locator": "eccp-3675193-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

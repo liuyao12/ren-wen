@@ -4,8 +4,8 @@
   "collection": "ECCP",
   "reviewStatus": "agent-proposed",
   "name": {
-    "surname": "費莫",
-    "given": "文慶",
+    "surname": null,
+    "given": "費莫文慶",
     "source": "eccp-entry",
     "jiguan": null,
     "zi": [
@@ -14,7 +14,12 @@
         "source": "eccp-entry"
       }
     ],
-    "hao": [],
+    "hao": [
+      {
+        "value": "孔修",
+        "source": "eccp-3675175"
+      }
+    ],
     "parenthetical": {
       "kind": "zi",
       "value": "篤生"
@@ -26,7 +31,26 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "clan": {
+      "label": "費莫",
+      "source": "eccp-3675175"
+    },
+    "bracket": {
+      "kind": "clan",
+      "label": "費莫",
+      "source": "eccp-3675175"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WÊN-ch'ing 文慶 (T. 篤生, H. 孔修), Apr. 30, 1796-1856, Dec. 13 ?, official, came from the Feimo 費莫 clan which belonged to the Manchu Bordered Red Banner. His great-grandfather, Wên-fu (see under A-kuei), was a Grand Secretary who had two illustrious sons, Lê-pao [q. v.] and Yung-pao (see under Lê-pao).",
+          "source": "eccp-3675175",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    }
   },
   "life": {
     "birth": null,
@@ -64,6 +88,132 @@
       "locator": "Opening paragraph; recorded revision 11419923",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675175": {
+      "title": "ECCP · Wên-ch'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419923",
+      "locator": "eccp-3675175-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639211": {
+      "title": "ECCP · 富寧安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280214",
+      "locator": "eccp-3639211-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643641": {
+      "title": "ECCP · 李棠階",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294865",
+      "locator": "eccp-3643641-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645529": {
+      "title": "ECCP · 劉墉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299508",
+      "locator": "eccp-3645529-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656330": {
+      "title": "ECCP · 松筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365085",
+      "locator": "eccp-3656330-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-331": {
+      "title": "清史稿/卷331",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1373048",
+      "locator": "qsg-volume-331-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-381": {
+      "title": "清史稿/卷381",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603938",
+      "locator": "qsg-volume-381-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-386": {
+      "title": "清史稿/卷386",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603961",
+      "locator": "qsg-volume-386-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-390": {
+      "title": "清史稿/卷390",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072955",
+      "locator": "qsg-volume-390-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-393": {
+      "title": "清史稿/卷393",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433495",
+      "locator": "qsg-volume-393-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-395": {
+      "title": "清史稿/卷395",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026650",
+      "locator": "qsg-volume-395-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-399": {
+      "title": "清史稿/卷399",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029843",
+      "locator": "qsg-volume-399-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -82,6 +232,12 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/W%C3%AAn-ch%27ing",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3675175",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675175",
+      "passage": "eccp-3675175-001"
     }
   ],
   "notes": [],

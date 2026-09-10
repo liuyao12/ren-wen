@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c107a199a94ac188",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "承珙",
+    "source": "eccp-3674958",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "胡承珙，字墨莊，涇縣人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "景孟",
+        "source": "eccp-3674958"
+      }
+    ],
+    "hao": [
+      {
+        "value": "墨莊",
+        "source": "eccp-3674958"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景孟"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Ch'êng-kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3674958"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3674958",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3674958",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-087",
+      "matchStatus": "proposed",
+      "evidence": "胡承珙，字墨莊，涇縣人。嘉慶十年進士，選翰林院庶吉士，散館授編修。十五年，充廣東鄕試副考官，尋遷御史，轉給事中。自以身居言路，當周知天下利弊，陳之於上，方不負職。數年中陳奏甚多，多見施行。而其最切中時病者，則有條陳虧空弊端各條：「一曰冒濫宜禁。司庫支發錢糧，向有扣除二三成之弊，故籓司書吏將不應藉支之款，冒支濫借。此在領者便於急需，不敢望其足數；而在放者利於多扣，不復問其合宜：則雖應放而仍與浮冒無異。一曰抑勒宜禁。州、縣交代，例限綦嚴，均不准充抵。近日仍多以議單欠票虚開實抵者，總由上司多方抑勒，逼"
+    }
+  ],
+  "sources": {
+    "eccp-3674958": {
+      "title": "ECCP · 魏源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419241",
+      "locator": "eccp-3674958-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-087",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1fa6e425a931d1f9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "錫闡",
+    "source": "eccp-3649094",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王錫闡，字曉菴，吳江人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寅旭",
+        "source": "eccp-3649094"
+      }
+    ],
+    "hao": [
+      {
+        "value": "曉庵",
+        "source": "eccp-3649094"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寅旭"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsi-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3649094"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1628,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-014",
+      "matchStatus": "proposed",
+      "evidence": "王錫闡，字曉菴，吳江人。兼通中、西之學，自立新法，用以測日、月食不爽秒忽。每遇天晴霽，輒登屋臥鴟吻察星象，竟夕不寐。著曉庵新法六卷，序曰；『炎帝八節，曆之始也，而其書不傳。黃帝、虞、夏、殷、周、魯七曆，先儒謂系偽作。今七曆俱存，大指與漢曆相似，而章蔀氣朔，未睹其真，為漢人所託無疑。太初、三統，法雖疏遠，而創始之功，不可泯也。劉洪、姜岌，次第闡明，何、祖專力表、圭，益稱精切。自此南、北曆象，率能好學深思，多所推論，皆非淺近所及。唐曆大衍稍密，然開元甲子當食不食，一行乃為諛詞以自解，何如因差以求合乎"
+    }
+  ],
+  "sources": {
+    "eccp-3649094": {
+      "title": "ECCP · 梅文鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317644",
+      "locator": "eccp-3649094-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

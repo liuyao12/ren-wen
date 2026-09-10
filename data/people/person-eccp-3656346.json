@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656346",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "譚",
+    "given": "瑩",
+    "source": "eccp-3656346",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'AN Ying 譚瑩 (T. 兆仁, H. 玉生), Mar. 17, 1800–1871, Oct.–Nov., editor and man of letters, was a native of Canton. Graduated in 1831 as a senior licentiate, he was selected a student of the Imperial Academy.",
+          "source": "eccp-3656346",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "譚瑩，字玉生，南海人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "兆仁",
+        "source": "eccp-3656346"
+      }
+    ],
+    "hao": [
+      {
+        "value": "玉生",
+        "source": "eccp-3656346"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "兆仁"
+    },
+    "romanizations": [
+      {
+        "value": "T'an Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3656346"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1800,
+        "source": "eccp-3656346",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1871,
+        "source": "eccp-3656346",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656346",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656346",
+      "passage": "eccp-3656346-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-151",
+      "matchStatus": "proposed",
+      "evidence": "譚瑩，字玉生，南海人。弱冠應縣試，總督阮元遊山寺，見瑩題壁詩，驚賞，告縣令曰：「邑有才人，勿失之！」令問姓名，不答。已而得所為賦以告元，元曰：「是矣。」逾年，元開學海堂課士，以瑩及侯康、儀克中、熊景星、黃子高為學長。瑩性強記，述往事，雖久遠，時日不失。博考粵中文獻，友人伍崇曜富於貲，為匯刻之，曰嶺南遺書五十九種，曰粵十三家集，曰楚南耆舊遺詩，益擴之為粵雅堂叢書。瑩為學長三十年，英彥多出其門。道光二十四年，舉於鄉，官化州訓導。久之，遷瓊州教授，加中書銜。少與侯康等交莫逆，晚歲陳澧與之齊名。著樂志堂"
+    }
+  ],
+  "sources": {
+    "eccp-3656346": {
+      "title": "ECCP · T'an Ying",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365107",
+      "locator": "eccp-3656346-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649312": {
+      "title": "ECCP · 潘振承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318029",
+      "locator": "eccp-3649312-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675193": {
+      "title": "ECCP · 伍崇曜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419951",
+      "locator": "eccp-3675193-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-151",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

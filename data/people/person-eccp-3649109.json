@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649109",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "明安達禮",
+    "source": "eccp-3649109",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "西魯特",
+      "source": "eccp-3649111"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "MINGGADARI (Minggandari) 明安達禮, d. 1669, was a member of the Mongol Sirut 西魯特 clan which was settled in the Korchin district. His father Bobotu 博博圖 brought a group of fellow-tribesmen to join Nurhaci [q. v.] and was later made captain of a company (niru ejen) under the Mongol Plain White Banner.",
+          "source": "eccp-3649111",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "明安達禮，西魯特氏，蒙古正白旗人，世居科爾沁。",
+          "source": "qsg-volume-228",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ming-an-ta-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3649109"
+      }
+    ],
+    "clan": {
+      "label": "西魯特",
+      "source": "eccp-3649111"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649109",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649109",
+      "passage": "eccp-3649109-001"
+    },
+    {
+      "source": "eccp-3649111",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649111",
+      "passage": "eccp-3649111-001"
+    },
+    {
+      "source": "qsg-volume-228",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-228",
+      "passage": "qsg-volume-228-053",
+      "matchStatus": "proposed",
+      "evidence": "明安達禮，西魯特氏，蒙古正白旗人，世居科爾沁。父博博圖，率七十餘戶歸太祖，即授牛錄額真，領所屬。天聰元年，從伐明，攻錦州，戰死，予世職游擊，以明安達禮襲，仍兼領牛錄額真。"
+    }
+  ],
+  "sources": {
+    "eccp-3649109": {
+      "title": "ECCP · Ming-an-ta-li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317667",
+      "locator": "eccp-3649109-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649111": {
+      "title": "ECCP · Minggadari",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317670",
+      "locator": "eccp-3649111-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649380": {
+      "title": "ECCP · 沙爾虎達",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318154",
+      "locator": "eccp-3649380-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

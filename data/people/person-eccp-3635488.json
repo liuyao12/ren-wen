@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635488",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "秦",
+    "given": "良玉",
+    "source": "eccp-3635488",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IN Liang-yü 秦良玉 (T. 貞素) d. 1648, age 75?, woman leader of the Ming loyalists, was a native of Chung-chou, Szechwan. Her father gave her much the same literary and military training that he gave her brothers, Ch'in Pang-p'ing 秦邦平 (d.",
+          "source": "eccp-3635488",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "貞素",
+        "source": "eccp-3635488"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "貞素"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'in Liang-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3635488"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635488",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635488",
+      "passage": "eccp-3635488-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635488": {
+      "title": "ECCP · Ch'in Liang-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271421",
+      "locator": "eccp-3635488-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

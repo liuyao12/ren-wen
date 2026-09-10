@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639180",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "登府",
+    "source": "eccp-3639180",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FÊNG Têng-fu 馮登府 (T. 雲[芸]伯, H. 柳東, 勺園主人), Feb. 1.2, 1783–1841, Dec. 7, scholar, was a native of Kashing, Chekiang. He became a licentiate when he was twenty sui and a chü-jên in 1818.",
+          "source": "eccp-3639180",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雲",
+        "source": "eccp-3639180"
+      }
+    ],
+    "hao": [
+      {
+        "value": "柳東",
+        "source": "eccp-3639180"
+      },
+      {
+        "value": "勺園主人",
+        "source": "eccp-3639180"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Têng-fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639180"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1783,
+        "source": "eccp-3639180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1841,
+        "source": "eccp-3639180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639180",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639180",
+      "passage": "eccp-3639180-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639180": {
+      "title": "ECCP · Fêng Têng-fu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280162",
+      "locator": "eccp-3639180-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633496": {
+      "title": "ECCP · 趙之謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271691",
+      "locator": "eccp-3633496-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

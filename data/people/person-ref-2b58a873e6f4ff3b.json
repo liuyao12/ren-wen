@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2b58a873e6f4ff3b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "輔辰",
+    "source": "eccp-3640015",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "貴築",
+      "source": "qsg-volume-434",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃輔辰，字琴塢，貴州貴築人，原籍湖南醴陵。",
+          "source": "qsg-volume-434",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "琴隖",
+        "source": "eccp-3640015"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "琴隖"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Fu-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3640015"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1866,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-434",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-434",
+      "passage": "qsg-volume-434-034",
+      "matchStatus": "proposed",
+      "evidence": "黃輔辰，字琴塢，貴州貴築人，原籍湖南醴陵。道光十五年進士，授吏部主事，累遷郎中。遇事侃侃持正論，屢忤上官，不少屈，時稱「硬黃」。咸豐初，以知府分山西。會貴州亂作，遽歸倡團練，修碉堡，積穀省城二萬餘石，撫清水江諸苗，平巴香亂，以功晉道員。尋赴山西，署冀寧道。餉絀，議加釐捐，輔辰謂晉人皆賈於外，山多地瘠，非他行省比，不宜病民。爭之不得，則請蠲苛細，取大宗，及不切民生日用者。戶部設寶泉分局於平定州，就鑄鐵錢。滯不行，則令分銷諸郡縣，歲收息銀三萬解部。輔辰謂：「京師用鐵錢以濟銅幣之乏，山西勿便也。今行各"
+    }
+  ],
+  "sources": {
+    "eccp-3640015": {
+      "title": "ECCP · 黃彭年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282915",
+      "locator": "eccp-3640015-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-434": {
+      "title": "清史稿/卷434",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433516",
+      "locator": "qsg-volume-434-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

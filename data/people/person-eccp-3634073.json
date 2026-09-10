@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634073",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "書",
+    "source": "eccp-3634073",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Shu 陳書 (H. 上元弟子, 南樓老人), Mar. 13, 1660–1736, April 17, painter of landscapes and flowers, was a native of Chia-hsing (Kashing) Chekiang, where her family had resided since the twelfth century.",
+          "source": "eccp-3634073",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [
+      {
+        "value": "上元弟子",
+        "source": "eccp-3634073"
+      },
+      {
+        "value": "南樓老人",
+        "source": "eccp-3634073"
+      }
+    ],
+    "parenthetical": {
+      "kind": "hao",
+      "value": "上元弟子"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3634073"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1660,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1736,
+        "source": "eccp-3634073",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634073",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634073",
+      "passage": "eccp-3634073-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634073": {
+      "title": "ECCP · Ch'ên Shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271485",
+      "locator": "eccp-3634073-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635452": {
+      "title": "ECCP · 錢陳群",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271400",
+      "locator": "eccp-3635452-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635466": {
+      "title": "ECCP · 錢載",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271415",
+      "locator": "eccp-3635466-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-100",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

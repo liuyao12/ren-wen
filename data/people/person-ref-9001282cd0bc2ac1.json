@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9001282cd0bc2ac1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "鳳毛",
+    "source": "eccp-3678131",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "超宗",
+        "source": "eccp-3678131"
+      }
+    ],
+    "hao": [
+      {
+        "value": "恆齋",
+        "source": "eccp-3678131"
+      },
+      {
+        "value": "六泉",
+        "source": "eccp-3678131"
+      },
+      {
+        "value": "錦帶居士",
+        "source": "eccp-3678131"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "超宗"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Fêng-mao",
+        "system": "ECCP spelling",
+        "source": "eccp-3678131"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1709,
+        "source": "eccp-3678131",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1781,
+        "source": "eccp-3678131",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678131": {
+      "title": "ECCP · 葉映榴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442929",
+      "locator": "eccp-3678131-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

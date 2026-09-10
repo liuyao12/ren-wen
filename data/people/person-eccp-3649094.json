@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649094",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梅",
+    "given": "文鼎",
+    "source": "eccp-3649094",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MEI Wên-ting 梅文鼎 (T. 定九, H. 勿庵), Mar. 16, 1633–1721, writer on astronomy and mathematics, was a native of Hsüan-ch'êng, Anhwei. A hsiu-ts'ai of 1647, he became interested in the study of the calendar and calendrical methods—a subject that attracted widespread interest and controversy after the official adoption, in 1645, of the Calendar as revised by the Jesuits (see under Li T'ien-ching).",
+          "source": "eccp-3649094",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "梅文鼎，字定九，號勿庵，宣城人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "定九",
+        "source": "eccp-3649094"
+      }
+    ],
+    "hao": [
+      {
+        "value": "勿庵",
+        "source": "eccp-3649094"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "定九"
+    },
+    "romanizations": [
+      {
+        "value": "Mei Wên-ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3649094"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1721,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649094",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649094",
+      "passage": "eccp-3649094-001"
+    },
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-027",
+      "matchStatus": "proposed",
+      "evidence": "梅文鼎，字定九，號勿庵，宣城人。兒時侍父士昌及塾師羅王賓仰觀星象，輒了然於次舍運轉大意。年二十七，師事竹冠道士倪觀湖，受麻孟旋所藏台官交食法，與弟文鼐、文鼏共習之。稍稍發明其立法之故，補其遺缺，著歷學駢枝二卷，後增為四卷，倪為首肯。"
+    }
+  ],
+  "sources": {
+    "eccp-3649094": {
+      "title": "ECCP · Mei Wên-ting",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317644",
+      "locator": "eccp-3649094-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649093": {
+      "title": "ECCP · 梅瑴成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317643",
+      "locator": "eccp-3649093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675192": {
+      "title": "ECCP · 吳敬梓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419949",
+      "locator": "eccp-3675192-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-097",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-121",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

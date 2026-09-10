@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-acfcbe32aff829f4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "高",
+    "given": "恆",
+    "source": "eccp-3642384",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "高恆，字立齋，滿洲鑲黃旗人，大學士高斌子也。",
+          "source": "qsg-volume-339",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "立斎",
+        "source": "eccp-3642384"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "立斎"
+    },
+    "romanizations": [
+      {
+        "value": "Kao Hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3642384"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-339",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-339",
+      "passage": "qsg-volume-339-011",
+      "matchStatus": "proposed",
+      "evidence": "高恆，字立齋，滿洲鑲黃旗人，大學士高斌子也。乾隆初，以廕生授戶部主事，再遷郎中。出監山海關、淮安、張家口榷稅，署長蘆鹽政、天津總兵。二十二年，授兩淮鹽政。江蘇巡撫陳宏謀疏言：「海州產鹽盛，請令河東買運配引赴陝西引地行銷。淮北鹽賤，並令淮南商買運適中之地，作常平倉鹽備缺額補配。」命高恆會兩江總督尹繼善覆議，尋疏陳：「海洲產鹽盛衰，視天時晴雨，難定成數。距陝西三千餘裡，黃河逆流而上，斷難輓運。自海州出場，經淮、徐、海各屬，皆淮北食鹽口岸；徐州以上，又係長蘆引地。恐沿途挾私，淮南額引多，鹽場廣，有盈無"
+    }
+  ],
+  "sources": {
+    "eccp-3642384": {
+      "title": "ECCP · 高斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290431",
+      "locator": "eccp-3642384-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

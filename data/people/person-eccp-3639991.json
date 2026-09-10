@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639991",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "扈爾漢",
+    "source": "eccp-3639991",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "佟佳",
+      "source": "eccp-3640814"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HÛRHAN, 扈爾漢, 1576–1623, Nov. 13, belonged to the branch of the Tunggiya 佟佳 clan which settled at Yarhû 雅爾古. His father, Hûlahû 扈喇虎, after a disagreement with other members of the clan, came to join Nurhaci [q.v.] in 1588.",
+          "source": "eccp-3640814",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hu-êr-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3639991"
+      }
+    ],
+    "clan": {
+      "label": "佟佳",
+      "source": "eccp-3640814"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1576,
+        "source": "eccp-3640814",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1623,
+        "source": "eccp-3640814",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639991",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3639991",
+      "passage": "eccp-3639991-001"
+    },
+    {
+      "source": "eccp-3640814",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640814",
+      "passage": "eccp-3640814-001"
+    },
+    {
+      "source": "qsg-volume-225",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-225",
+      "passage": "qsg-volume-225-050",
+      "matchStatus": "proposed",
+      "evidence": "扈爾漢，佟佳氏，世居雅爾古寨。父扈喇虎，與族人相仇，率所部來歸，是歲戊子，。旗制定，隸滿洲正白？太祖起兵之六年也，扈爾漢年十三，太祖養以為子。稍長，使為侍旗。扈爾漢感太祖撫育恩，誓效死，戰輒為前鋒。"
+    }
+  ],
+  "sources": {
+    "eccp-3639991": {
+      "title": "ECCP · Hu-êr-han",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282859",
+      "locator": "eccp-3639991-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640814": {
+      "title": "ECCP · Hûrhan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285384",
+      "locator": "eccp-3640814-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633235": {
+      "title": "ECCP · 安費揚古",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271373",
+      "locator": "eccp-3633235-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639256": {
+      "title": "ECCP · 何和禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280281",
+      "locator": "eccp-3639256-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645523": {
+      "title": "ECCP · 劉澤清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299498",
+      "locator": "eccp-3645523-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-226": {
+      "title": "清史稿/卷226",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2414164",
+      "locator": "qsg-volume-226-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-085",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-235": {
+      "title": "清史稿/卷235",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433514",
+      "locator": "qsg-volume-235-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

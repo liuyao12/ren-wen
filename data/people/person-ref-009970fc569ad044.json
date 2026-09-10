@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-009970fc569ad044",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "正言",
+    "source": "eccp-3678091",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hu Chêng-yen 胡正言 (T. 曰從, H. 次公), a native of Hsiu-ning, Anhwei.",
+          "source": "eccp-3678091",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "曰從",
+        "source": "eccp-3678091"
+      }
+    ],
+    "hao": [
+      {
+        "value": "次公",
+        "source": "eccp-3678091"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "曰從"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Chêng-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3678091"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678091": {
+      "title": "ECCP · 楊文驄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442527",
+      "locator": "eccp-3678091-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

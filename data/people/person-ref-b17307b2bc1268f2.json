@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b17307b2bc1268f2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "盧",
+    "given": "坤",
+    "source": "eccp-3675201",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "涿州",
+      "source": "qsg-volume-379",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "盧坤，字厚山，順天涿州人。",
+          "source": "qsg-volume-379",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "靜之",
+        "source": "eccp-3675201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "厚山",
+        "source": "eccp-3675201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "靜之"
+    },
+    "romanizations": [
+      {
+        "value": "Lu K'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3675201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-379",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-379",
+      "passage": "qsg-volume-379-012",
+      "matchStatus": "proposed",
+      "evidence": "盧坤，字厚山，順天涿州人。嘉慶四年進士，選庶吉士，散館授兵部主事，洊遷郎中。扈隨木蘭，校射，賜花翎。十八年，出為湖南糧儲道，丁本生父母憂，服闋，歷廣東惠潮嘉道、山東兗沂曹濟道、湖北按察使、甘肅布政使。道光元年，護理陝西巡撫。二年，擢廣東巡撫，未之任，調陝西。議者謂南山老林易藪姦，不宜開墾。坤歷陳漢、蜀、唐、宋史事，及漢李翕郙閣頌，以徵墾治之利；專任嚴如熤，假以便宜，墾務大興。勘修南山各屬城工，漢江堤岸，築壩濬淤，審度形勢，移駐文武，增改官制。又修復咸寧、長安、涇陽、盩厔、岐山、寶雞、華州、榆林河"
+    }
+  ],
+  "sources": {
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-379": {
+      "title": "清史稿/卷379",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484959",
+      "locator": "qsg-volume-379-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

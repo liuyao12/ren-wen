@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654402",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "士毅",
+    "source": "eccp-3654402",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "仁和",
+      "source": "qsg-volume-330",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Shih-i 孫士毅 (T. 智冶, H. 補山), 1720–1796, July 25, official, was a native of Jên-ho (Hangchow). His family was poor and he endured great hardships in his youth. For more than twenty years he competed in provincial examinations without success, but finally became a chü-jên in 1759 and a chin-shih two years later.",
+          "source": "eccp-3654402",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫士毅，字智冶，一字補山，浙江仁和人。",
+          "source": "qsg-volume-330",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "智冶",
+        "source": "eccp-3654402"
+      }
+    ],
+    "hao": [
+      {
+        "value": "補山",
+        "source": "eccp-3654402"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "智冶"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Shih-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3654402"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1720,
+        "source": "eccp-3654402",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1796,
+        "source": "eccp-3654402",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654402",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654402",
+      "passage": "eccp-3654402-001"
+    },
+    {
+      "source": "qsg-volume-330",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-330",
+      "passage": "qsg-volume-330-025",
+      "matchStatus": "proposed",
+      "evidence": "孫士毅，字智冶，一字補山，浙江仁和人。少穎異，力學。乾隆二十六年進士，以知縣歸班待銓。二十七年，高宗南巡，召試，授內閣中書，充軍機章京。遷侍讀。大學士傅恆督師討緬甸，以士毅典章奏。敘勞，遷戶部郎中。擢大理寺少卿。出為廣西布政使。擢雲南巡撫。總督李侍堯以贓敗，士毅坐不先舉劾，奪職，遣戍伊犁，錄其家，不名一錢。上嘉其廉，命纂校四庫全書，授翰林院編修。書成，擢太常寺少卿。復出為山東布政使。擢廣西巡撫，移廣東。初上官，疏言：「廣東海洋交錯，姦宄易藏。惟有潔以持身，嚴以察吏，不敢因循諱飾。」上諭以勉效李湖"
+    }
+  ],
+  "sources": {
+    "eccp-3654402": {
+      "title": "ECCP · Sun Shih-i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358540",
+      "locator": "eccp-3654402-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639253": {
+      "title": "ECCP · 和珅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280277",
+      "locator": "eccp-3639253-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640793": {
+      "title": "ECCP · 弘歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285336",
+      "locator": "eccp-3640793-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642447": {
+      "title": "ECCP · 李長庚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643638": {
+      "title": "ECCP · 李侍堯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294860",
+      "locator": "eccp-3643638-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656322": {
+      "title": "ECCP · 孫玉庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365066",
+      "locator": "eccp-3656322-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-330": {
+      "title": "清史稿/卷330",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542412",
+      "locator": "qsg-volume-330-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-356": {
+      "title": "清史稿/卷356",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611720",
+      "locator": "qsg-volume-356-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-359": {
+      "title": "清史稿/卷359",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162674",
+      "locator": "qsg-volume-359-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

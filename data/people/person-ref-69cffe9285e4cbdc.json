@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-69cffe9285e4cbdc",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "容",
+    "source": "eccp-3654395",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "虞城",
+      "source": "qsg-volume-291",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "許容，河南虞城人。",
+          "source": "qsg-volume-291",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "涵齋",
+        "source": "eccp-3654395"
+      }
+    ],
+    "hao": [
+      {
+        "value": "季偉",
+        "source": "eccp-3654395"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "涵齋"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3654395"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1686,
+        "source": "eccp-3654395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3654395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-291",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-291",
+      "passage": "qsg-volume-291-040",
+      "matchStatus": "proposed",
+      "evidence": "許容，河南虞城人。康熙五十年舉人，授陝西府谷知縣。內遷工部員外郎，考選廣西道御史。雍正元年，改會考府郎中，仍兼御史。出為直隸口北道，遷陝西按察使。劾河東巡鹽御史馬喀以積鹽變價入己，上奪馬喀官，命兼管河東巡鹽御史，按治。尋聞容刑逼商人，解容任，令總督岳鍾琪覆按。鍾琪言容無刑逼商人事，上擢浙江布政使。五年，代國棟為浙江觀風整俗使。尋偕廣東巡撫楊文乾清察福建倉庫。六年，遭母喪，給假治喪畢，命仍還浙江。旋擢甘肅巡撫，以蔡仕舢代為浙江觀風整俗使。容疏議更正律例，出贓過付人宜視完贓減二等，得贓者完贓減一等，"
+    }
+  ],
+  "sources": {
+    "eccp-3654395": {
+      "title": "ECCP · 孫嘉淦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358507",
+      "locator": "eccp-3654395-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

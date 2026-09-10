@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643672",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "顒",
+    "source": "eccp-3643672",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Yung 李顒 (also written 容 to avoid the personal name, Yung-yen [q. v.], of Emperor Jên-tsung; T. 中孚 H. 二曲), Mar. 12, 1627–1705, May 7, philosopher and scholar, was a native of Chou-chih, Shensi.",
+          "source": "eccp-3643672",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李顒，字中孚，盩厔人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "中孚",
+        "source": "eccp-3643672"
+      }
+    ],
+    "hao": [
+      {
+        "value": "二曲",
+        "source": "eccp-3643672"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "中孚"
+    },
+    "romanizations": [
+      {
+        "value": "Li Yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3643672"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1627,
+        "source": "eccp-3643672",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1705,
+        "source": "eccp-3643672",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643672",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643672",
+      "passage": "eccp-3643672-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-033",
+      "matchStatus": "proposed",
+      "evidence": "李顒，字中孚，盩厔人。又字二曲，二曲者，水曲曰盩，山曲曰厔也。布衣安貧，以理學倡導關中，關中士子多宗之。父可從，為明材官。崇禎十五年，張獻忠寇鄖西，巡撫汪喬年總督軍務，可從隨征討賊。臨行，抉一齒與顒母曰：「如不捷，吾當委骨沙場。子善教吾兒矣。」遂行。兵敗，死之。顒母葬其齒，曰「齒塚」。時顒年十六，母彭氏，日言忠孝節義以督之，顒亦事母孝。飢寒清苦，無所憑藉，而自拔流俗，以昌明關學為己任。有餽遺者，雖十反不受。或曰：「交道接禮，孟子不卻。」顒曰：「我輩百不能學孟子，即此一事不守孟子家法，正自無害。」"
+    }
+  ],
+  "sources": {
+    "eccp-3643672": {
+      "title": "ECCP · Li Yung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294922",
+      "locator": "eccp-3643672-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637602": {
+      "title": "ECCP · 費密",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275797",
+      "locator": "eccp-3637602-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

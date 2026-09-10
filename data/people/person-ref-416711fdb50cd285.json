@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-416711fdb50cd285",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "魏",
+    "given": "世傚",
+    "source": "eccp-3674956",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "昭士",
+        "source": "eccp-3674956"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耕廡",
+        "source": "eccp-3674956"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "昭士"
+    },
+    "romanizations": [
+      {
+        "value": "Wei Shih-hsiao",
+        "system": "ECCP spelling",
+        "source": "eccp-3674956"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3674956": {
+      "title": "ECCP · 魏禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419238",
+      "locator": "eccp-3674956-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

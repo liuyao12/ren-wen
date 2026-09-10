@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-420fd69ca1c32ec3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黎",
+    "given": "世序",
+    "source": "eccp-3678428",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "羅山",
+      "source": "qsg-volume-360",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黎世序，初名承惠，字湛溪，河南羅山人。",
+          "source": "qsg-volume-360",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "景和",
+        "source": "eccp-3678428"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湛溪",
+        "source": "eccp-3678428"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景和"
+    },
+    "romanizations": [
+      {
+        "value": "Li Shih-hsü",
+        "system": "ECCP spelling",
+        "source": "eccp-3678428"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1773,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1824,
+        "source": "eccp-3678428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-360",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-360",
+      "passage": "qsg-volume-360-029",
+      "matchStatus": "proposed",
+      "evidence": "黎世序，初名承惠，字湛溪，河南羅山人。嘉慶元年進士，授江西星子知縣，調南昌。擢江蘇鎮江知府。十六年，遷淮海道。與河督陳鳳翔爭堵倪家灘漫口，由是知名。"
+    }
+  ],
+  "sources": {
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-360": {
+      "title": "清史稿/卷360",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485024",
+      "locator": "qsg-volume-360-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

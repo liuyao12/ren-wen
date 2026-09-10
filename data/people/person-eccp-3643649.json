@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643649",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "天經",
+    "source": "eccp-3643649",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI T'ien-ching 李天經 (T. 仁常, 性參, 長德), 1579–1659, official, was a native of Wu-ch'iao, Hopei, descendant of a family of officials and scholars. His grandfather, Li I 李懿 (T. 省齋, chin-shih of 1544), served as intendant of the Hsi-ning Circuit, Kansu; and his father, Li Ju-fêng 李如峰 (西軒) held a post in the Banqueting Court.",
+          "source": "eccp-3643649",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仁常",
+        "source": "eccp-3643649"
+      },
+      {
+        "value": "性參",
+        "source": "eccp-3643649"
+      },
+      {
+        "value": "長德",
+        "source": "eccp-3643649"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仁常"
+    },
+    "romanizations": [
+      {
+        "value": "Li T'ien-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3643649"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1579,
+        "source": "eccp-3643649",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1659,
+        "source": "eccp-3643649",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643649",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643649",
+      "passage": "eccp-3643649-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643649": {
+      "title": "ECCP · Li T'ien-ching",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294887",
+      "locator": "eccp-3643649-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642456": {
+      "title": "ECCP · 李之藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290594",
+      "locator": "eccp-3642456-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649094": {
+      "title": "ECCP · 梅文鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317644",
+      "locator": "eccp-3649094-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-272": {
+      "title": "清史稿/卷272",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600806",
+      "locator": "qsg-volume-272-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

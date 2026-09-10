@@ -2,6 +2,7 @@ import {t, ui, bindText, getLocale} from './i18n.js';
 /** Display projections. Stored source wording and calendar assertions are never rewritten. */
 import {canonicalName, ageAtDeath} from './profiles.js';
 import {escapeHTML as h} from './core.js';
+import {nameDetailsHTML} from './name-history.js';
 
 const STEMS = [...'甲乙丙丁戊己庚辛壬癸'];
 const BRANCHES = [...'子丑寅卯辰巳午未申酉戌亥'];
@@ -40,7 +41,7 @@ export function westernYearText(profile, endpoint) {
     && validYear(d.value) && d.source && profile.sources?.[d.source]);
   const values = [...new Set([...dates.map(d => Number(d.value.slice(0, 4))), ...years.map(d => d.value)])]
     .filter(validYear).sort((a, b) => a - b);
-  return values.length ? values.join(' / ') : '?';
+  return values.length ? values.map(y=>years.some(d=>d.value===y && d.uncertain)?`${y}?`:String(y)).join(' / ') : '?';
 }
 
 export function profileURL(id) {
@@ -49,12 +50,13 @@ export function profileURL(id) {
 }
 
 /** A shared compact header for both the reader and the person's own page. */
-export function personHeading(profile, {linked = false} = {}) {
+export function personHeading(profile, {linked = false, history} = {}) {
   const name = h(canonicalName(profile));
   const url = profileURL(profile.id);
   const age = ageAtDeath(profile);
   return `<div class="person-heading" data-profile-heading="${h(profile.id)}">
     <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}</h1>
+    <p class="person-name-details">${nameDetailsHTML(profile,history)}</p>
     <p class="person-ad">${h(westernYearText(profile, 'birth'))}–${h(westernYearText(profile, 'death'))} <span class="person-era">${ui("AD")}</span></p>
     <p class="person-chinese" lang="zh-Hant"><span>${ui("Birth 生：")}${h(chineseYearText(profile.life?.birth))}</span><span>${ui("Death 卒：")}${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">${ui("{age} sui 歲",{age})}</span>`}</p>
   </div>`;

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a2984e8aab725d65",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "穎",
+    "source": "eccp-3636419",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ên Ying 陳穎 (1732–1775), a native of Wan-p'ing (Peking) and a daughter of Ch'ên Pang-hsün 陳邦勳 (H. 雨霖, d. 1763), a chü-jên of 1727 who served as prefect of Ssŭ-nan, Kweichow (1759).",
+          "source": "eccp-3636419",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ch'ên Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3636419"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1732,
+        "source": "eccp-3636419",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3636419",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3636419": {
+      "title": "ECCP · 朱珪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272551",
+      "locator": "eccp-3636419-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

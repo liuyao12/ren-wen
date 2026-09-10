@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639221",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "哈",
+    "given": "元生",
+    "source": "eccp-3639221",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "河間",
+      "source": "qsg-volume-298",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HA Yüan-shêng 哈元生 (T. 天章), d. 1738 age 58 (sui), soldier, a Mohammedan by birth, was a native of Ho-chien, Chihli. He rose from the ranks through various positions to a captaincy at Fort Chien-ch'ang in Ch‘ien-an, Chihli.",
+          "source": "eccp-3639221",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "哈元生，直隸河間人。",
+          "source": "qsg-volume-298",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天章",
+        "source": "eccp-3639221"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天章"
+    },
+    "romanizations": [
+      {
+        "value": "Ha Yüan-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3639221"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639221",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639221",
+      "passage": "eccp-3639221-001"
+    },
+    {
+      "source": "qsg-volume-298",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-298",
+      "passage": "qsg-volume-298-022",
+      "matchStatus": "proposed",
+      "evidence": "哈元生，直隸河間人。康熙間入伍，授把總。累遷建昌路都司。坐失察私木過關，奪官。雍正二年，命引見，發直隸以守備用，補撫標右營守備。貴州威寧總兵石禮哈請以元生從剿仲家苗，有勞，三年，補威寧鎮中軍游擊。烏蒙土知府祿萬鍾侵東川，鎮雄土知府隴慶侯助為亂。鄂爾泰檄元生會四川兵討賊，賊據險拒戰，元生冒矢石奪攻克之。鄂爾泰上其功，上獎元生取仲家苗、克烏蒙能效力，命以副將、參將題用，尋授尋霑營參將。"
+    }
+  ],
+  "sources": {
+    "eccp-3639221": {
+      "title": "ECCP · Ha Yüan-shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280226",
+      "locator": "eccp-3639221-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633253": {
+      "title": "ECCP · 張照",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271556",
+      "locator": "eccp-3633253-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633280": {
+      "title": "ECCP · 張廣泗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271615",
+      "locator": "eccp-3633280-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640024": {
+      "title": "ECCP · 黃廷桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282945",
+      "locator": "eccp-3640024-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

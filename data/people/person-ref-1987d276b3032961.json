@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1987d276b3032961",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "松山",
+    "source": "eccp-3658526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "湘鄉",
+      "source": "qsg-volume-409",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉松山，字壽卿，湖南湘鄉人。",
+          "source": "qsg-volume-409",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "湖南長沙府湘鄉縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "壽卿",
+        "source": "eccp-3658526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽卿"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Sung-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3658526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1870,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-409",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-409",
+      "passage": "qsg-volume-409-051",
+      "matchStatus": "proposed",
+      "evidence": "劉松山，字壽卿，湖南湘鄉人。初應募入湘營，隸王珍部下，從平永州、郴、株諸匪，以功擢千總。咸豐七年，克崇陽、通山，擢守備，始領一營。從援江西，克廣昌、樂安，擢都司。王珍卒，張運蘭分領其軍。松山從戰克建昌，擢游擊。賊由福建回竄江西，陷安仁。松山從破賊於青山鋪，進攻安仁，攀堞先登，克之，擢參將。會剿廣東連州踞賊，擒其酋，折回江西。"
+    }
+  ],
+  "sources": {
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-409": {
+      "title": "清史稿/卷409",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2567596",
+      "locator": "qsg-volume-409-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "長沙府下湘鄉"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

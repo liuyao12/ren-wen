@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d3c24d0c67effda8",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "夢草",
+    "source": "eccp-3633304",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "生香",
+        "source": "eccp-3633304"
+      }
+    ],
+    "hao": [
+      {
+        "value": "春塘",
+        "source": "eccp-3633304"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "生香"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Mêng-ts'ao",
+        "system": "ECCP spelling",
+        "source": "eccp-3633304"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633304": {
+      "title": "ECCP · 張維屏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271671",
+      "locator": "eccp-3633304-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

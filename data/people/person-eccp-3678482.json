@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678482",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惲",
+    "given": "壽平",
+    "source": "eccp-3678482",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜN Shou-p'ing 惲壽平 (T. 正叔, H. 東園草衣生, 白雲外史, 園容, 壽平子), 1633–1690, poet and artist, was a native of Yang-hu, Kiangsu. His original name was Yün Ko 惲格 (T. 壽平), but he was commonly known by one of his hao as Yün Nan-t'ien (南田).",
+          "source": "eccp-3678482",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "正叔",
+        "source": "eccp-3678482"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東園草衣生",
+        "source": "eccp-3678482"
+      },
+      {
+        "value": "白雲外史",
+        "source": "eccp-3678482"
+      },
+      {
+        "value": "園容",
+        "source": "eccp-3678482"
+      },
+      {
+        "value": "壽平子",
+        "source": "eccp-3678482"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "正叔"
+    },
+    "romanizations": [
+      {
+        "value": "Yün Shou-p'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3678482"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3678482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1690,
+        "source": "eccp-3678482",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678482",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678482",
+      "passage": "eccp-3678482-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678482": {
+      "title": "ECCP · Yün Shou-p'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645484": {
+      "title": "ECCP · 麟慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299415",
+      "locator": "eccp-3645484-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678473": {
+      "title": "ECCP · 惲敬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443818",
+      "locator": "eccp-3678473-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678477": {
+      "title": "ECCP · 惲格",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443823",
+      "locator": "eccp-3678477-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678480": {
+      "title": "ECCP · 惲南田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443826",
+      "locator": "eccp-3678480-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

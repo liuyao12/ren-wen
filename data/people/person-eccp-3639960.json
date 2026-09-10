@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639960",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "性德",
+    "source": "eccp-3639960",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SINGDE 性德 (T. 容若, H. 楞伽山人, original name, Cengde 成德), Jan. 19, 1655–1685, July 1, poet and official, was the eldest son of Mingju [q. v.] of the Yehe Nara clan, and a member of the Manchu Plain Yellow Banner.",
+          "source": "eccp-3654379",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "性德，納喇氏，初名成德，以避皇太子允礽嫌名改，字容若，滿洲正黃旗人，明珠子也。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "容若",
+        "source": "eccp-3654379"
+      }
+    ],
+    "hao": [
+      {
+        "value": "楞伽山人",
+        "source": "eccp-3654379"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "容若"
+    },
+    "romanizations": [
+      {
+        "value": "Hsing-tê",
+        "system": "ECCP spelling",
+        "source": "eccp-3639960"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1655,
+        "source": "eccp-3654379",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1685,
+        "source": "eccp-3654379",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639960",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3639960",
+      "passage": "eccp-3639960-001"
+    },
+    {
+      "source": "eccp-3654379",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654379",
+      "passage": "eccp-3654379-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-287",
+      "matchStatus": "proposed",
+      "evidence": "性德，納喇氏，初名成德，以避皇太子允礽嫌名改，字容若，滿洲正黃旗人，明珠子也。性德事親孝，侍疾衣不解帶，顏色黧黑，疾愈乃復。數歲即習騎射，稍長工文翰。康熙十四年成進士，年十六。聖祖以其世家子，授三等侍衛，再遷至一等。令賦乾清門應制詩，譯御製松賦，皆稱旨。俄疾作，上將出塞避暑，遣中官將御醫視疾，命以疾增減告。遽卒，年止三十一。嘗奉使塞外有所宣撫，卒後，受撫諸部款塞。上自行在遣中官祭告，其眷睞如是。"
+    }
+  ],
+  "sources": {
+    "eccp-3639960": {
+      "title": "ECCP · Hsing-tê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282781",
+      "locator": "eccp-3639960-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654379": {
+      "title": "ECCP · Singde",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358459",
+      "locator": "eccp-3654379-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634157": {
+      "title": "ECCP · 成德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271515",
+      "locator": "eccp-3634157-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633262": {
+      "title": "ECCP · 張金吾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271589",
+      "locator": "eccp-3633262-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639964": {
+      "title": "ECCP · 徐乾學",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282787",
+      "locator": "eccp-3639964-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640826": {
+      "title": "ECCP · 奕繪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285414",
+      "locator": "eccp-3640826-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642424": {
+      "title": "ECCP · 揆叙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290526",
+      "locator": "eccp-3642424-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649114": {
+      "title": "ECCP · 明珠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317674",
+      "locator": "eccp-3649114-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-287",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

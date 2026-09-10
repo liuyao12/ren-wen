@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e9b3c4206ca13fe2",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "廷香",
+    "source": "eccp-3637601",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳廷香，字奉璋，廬江人。",
+          "source": "qsg-volume-493",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "奉璋",
+        "source": "eccp-3637601"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘭軒",
+        "source": "eccp-3637601"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "奉璋"
+    },
+    "romanizations": [
+      {
+        "value": "Wu T'ing-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3637601"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3637601",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-493",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-493",
+      "passage": "qsg-volume-493-046",
+      "matchStatus": "proposed",
+      "evidence": "吳廷香，字奉璋，廬江人。敏博沈毅，與桐城戴鈞衡、馬三俊友，以文章風節相砥礪。以優貢生舉咸豐初元孝廉方正。上書論時事，有國士之目。三年，粵賊東下，陷安慶，廬江土寇應之，駸駸迫城下。邑團練鄉兵推廷香為督，擊寇，擒其渠，斬之，盡破其黨。"
+    }
+  ],
+  "sources": {
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-493": {
+      "title": "清史稿/卷493",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542551",
+      "locator": "qsg-volume-493-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

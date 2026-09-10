@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c251e9b2a95eb652",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "鍇",
+    "source": "eccp-3642454",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "李鍇，字鐵君，漢軍正黃旗人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鐵君",
+        "source": "eccp-3642454"
+      },
+      {
+        "value": "眉山",
+        "source": "eccp-3642454"
+      }
+    ],
+    "hao": [
+      {
+        "value": "廌青山人",
+        "source": "eccp-3642454"
+      },
+      {
+        "value": "焦明子",
+        "source": "eccp-3642454"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鐵君"
+    },
+    "romanizations": [
+      {
+        "value": "Li K'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3642454"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-045",
+      "matchStatus": "proposed",
+      "evidence": "李鍇，字鐵君，漢軍正黃旗人。祖恆忠，副都統。湖廣總督輝祖子。鍇娶大學士索額圖女，家世貴盛，其於榮利泊如也。性友愛，兄伊山、祈山仕不遂，鍇省伊山戍所，累月乃歸。祈山罷官還，無宅，以己屋授之，並鬻產為清宿逋。嘗一充官庫筆帖式，旋棄去。乾隆元年，舉鴻博，未中選。十五年，詔舉經學，大臣交章論薦，以老疾辭。少好山水，遊蹤所至，務窮其奇。苦嗜茗，為鐵鐺瓦缶，一奴負以從。客江南，嘗月夜挾琴客泛舟採石，彈大雅之章，扣舷和之，水宿者皆驚起，人莫測其致也。鍇既以屋讓兄，乃築室盤山廌青峰下，閉戶躭吟，罕接人事。歲一至"
+    }
+  ],
+  "sources": {
+    "eccp-3642454": {
+      "title": "ECCP · 李成梁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290591",
+      "locator": "eccp-3642454-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

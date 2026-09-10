@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a22a4f383b1e355a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "巘",
+    "source": "eccp-3643705",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "亳州",
+      "source": "qsg-volume-503",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "梁巘，字聞山，安徽亳州人。",
+          "source": "qsg-volume-503",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聞山",
+        "source": "eccp-3643705"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松齋",
+        "source": "eccp-3643705"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聞山"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3643705"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-503",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-503",
+      "passage": "qsg-volume-503-011",
+      "matchStatus": "proposed",
+      "evidence": "梁巘，字聞山，安徽亳州人。乾隆二十七年舉人，官四川巴縣知縣。晚辭官，主講壽春書院，以工李北海書名於世。初為咸安宮教習，至京師，聞欽天監正何國宗曾以事系刑部，時尚書張照亦以他事在系，得其筆法，因詣家就問。國宗年已八十餘，病不能對客，遣一孫傳語。巘質以所聞，國宗答曰：「君已得之矣。」贈以所臨米、黃二帖。"
+    }
+  ],
+  "sources": {
+    "eccp-3643705": {
+      "title": "ECCP · 梁同書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294995",
+      "locator": "eccp-3643705-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

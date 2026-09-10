@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633235",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "安費揚古",
+    "source": "eccp-3633235",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "ANFIYANGGÛ 安費揚古 (武), 1559–1622, Aug. 7, was one of the earliest companions of Nurhaci [q. v.]. His biographers state that he belonged to the Giolca 覺爾察, clan and that his father Wambulu 完布祿, remained loyal to Nurhaci despite efforts of the Janggiya 竟嘉 and Nimala (尼瑪蘭) people to tempt him to rebel.",
+          "source": "eccp-3633235",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Anfiyanggû",
+        "system": "ECCP spelling",
+        "source": "eccp-3633235"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1559,
+        "source": "eccp-3633235",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1622,
+        "source": "eccp-3633235",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633235",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633235",
+      "passage": "eccp-3633235-001"
+    },
+    {
+      "source": "qsg-volume-225",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-225",
+      "passage": "qsg-volume-225-043",
+      "matchStatus": "proposed",
+      "evidence": "安費揚古，覺爾察氏，世居瑚濟寨。父完布祿，事太祖，有章甲、尼麻喇人誘之叛，不從，又劫其孫以要之，終無貳志。安費揚古少事太祖。旗制定，隸滿洲鑲藍旗。"
+    }
+  ],
+  "sources": {
+    "eccp-3633235": {
+      "title": "ECCP · Anfiyanggû",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271373",
+      "locator": "eccp-3633235-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633237": {
+      "title": "ECCP · 阿什坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271375",
+      "locator": "eccp-3633237-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633241": {
+      "title": "ECCP · 覺羅拜山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271378",
+      "locator": "eccp-3633241-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635474": {
+      "title": "ECCP · 金簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271741",
+      "locator": "eccp-3635474-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637568": {
+      "title": "ECCP · 達海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275751",
+      "locator": "eccp-3637568-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637579": {
+      "title": "ECCP · 額亦都",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275768",
+      "locator": "eccp-3637579-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639182": {
+      "title": "ECCP · 費英東",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280166",
+      "locator": "eccp-3639182-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639211": {
+      "title": "ECCP · 富寧安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280214",
+      "locator": "eccp-3639211-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639217": {
+      "title": "ECCP · 金台石",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280221",
+      "locator": "eccp-3639217-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639256": {
+      "title": "ECCP · 何和禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280281",
+      "locator": "eccp-3639256-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640814": {
+      "title": "ECCP · 扈爾漢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285384",
+      "locator": "eccp-3640814-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640920": {
+      "title": "ECCP · 查郎阿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285933",
+      "locator": "eccp-3640920-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646140": {
+      "title": "ECCP · 隆科多",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649114": {
+      "title": "ECCP · 明珠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317674",
+      "locator": "eccp-3649114-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649170": {
+      "title": "ECCP · 鄂穆圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317776",
+      "locator": "eccp-3649170-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658562": {
+      "title": "ECCP · 佟養性",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370119",
+      "locator": "eccp-3658562-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656409": {
+      "title": "ECCP · 曹寅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365205",
+      "locator": "eccp-3656409-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658573": {
+      "title": "ECCP · Wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370135",
+      "locator": "eccp-3658573-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678093": {
+      "title": "ECCP · 楊吉砮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442549",
+      "locator": "eccp-3678093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

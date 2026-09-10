@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6d474a0e7bf41fd6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "江",
+    "given": "忠義",
+    "source": "eccp-3635437",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新寧",
+      "source": "qsg-volume-429",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "江忠義，字味根，湖南新寧人，忠源從弟。",
+          "source": "qsg-volume-429",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "味根",
+        "source": "eccp-3635437"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "味根"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Chung-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3635437"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3635437",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1863,
+        "source": "eccp-3635437",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-429",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-429",
+      "passage": "qsg-volume-429-007",
+      "matchStatus": "proposed",
+      "evidence": "江忠義，字味根，湖南新寧人，忠源從弟。咸豐二年，忠源率楚勇援長沙，忠義年十八，從軍，轉戰湖北、江西。忠源殉難廬州，遂分將其軍。五年，從提督和春复廬州，擢知縣。七年，劉長佑援江西，攻臨江不利，時忠義在籍，巡撫駱秉章檄率新練勇千人往助之，至則破石達開於平墟。臨江既克，擢知府，賞花翎。八年，克崇仁，進攻新城，五戰皆捷，加道銜。江西肅清，凱歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3635437": {
+      "title": "ECCP · 江忠源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271712",
+      "locator": "eccp-3635437-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-429": {
+      "title": "清史稿/卷429",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542450",
+      "locator": "qsg-volume-429-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

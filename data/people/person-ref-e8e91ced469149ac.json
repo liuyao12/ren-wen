@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e8e91ced469149ac",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "景",
+    "source": "eccp-3646135",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "馮景，字山公，錢塘人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "山公",
+        "source": "eccp-3646135"
+      },
+      {
+        "value": "少渠",
+        "source": "eccp-3646135"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "山公"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3646135"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3646135",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3646135",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-276",
+      "matchStatus": "proposed",
+      "evidence": "馮景，字山公，錢塘人。國子監生。善屬文，千言立就。康熙時遊京師，侍郎項景襄、金鼐皆遣子弟從受學。會營宮室，求楠木樑不得，有請以他木易國子監彝倫堂梁者。景上書尚書魏象樞，極陳不可，事得寢。由是馮太學生之名盛傳京師。大學士索額圖召欲見之，謝不往。歸館淮安邱象隨家垂十年。宋犖撫江蘇，禮致幕府，或納金求為緩頰，峻卻之，人益欽其品。景篤師友風義，與仁和汪煜、湯右曾交最篤。二人為給事中，多所論列，亦由景數責善有以激厲之也。王士禎轉左都御史，景以受知士禎，冀其大有匡濟，為書諷之。景雖布衣，不求仕進，而未嘗忘當"
+    }
+  ],
+  "sources": {
+    "eccp-3646135": {
+      "title": "ECCP · 盧文弨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300538",
+      "locator": "eccp-3646135-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-276",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

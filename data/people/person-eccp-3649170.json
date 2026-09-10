@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649170",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "鄂穆圖",
+    "source": "eccp-3649170",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "OMUTU 鄂穆[貌]圖 or Omuktu 鄂莫[謨]克圖 (T. 麟閣, H. 遇義[堯]), 1614–1662, Jan. 21, official and one of the earliest Manchu scholars, was a member of the Janggiya clan (張佳 or 章佳) and of the Manchu Plain Yellow Banner.",
+          "source": "eccp-3649170",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "麟閣",
+        "source": "eccp-3649170"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遇義",
+        "source": "eccp-3649170"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "麟閣"
+    },
+    "romanizations": [
+      {
+        "value": "Omutu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649170"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1614,
+        "source": "eccp-3649170",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1662,
+        "source": "eccp-3649170",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649170",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649170",
+      "passage": "eccp-3649170-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649170": {
+      "title": "ECCP · Omutu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317776",
+      "locator": "eccp-3649170-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672764",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "琬",
+    "source": "eccp-3672764",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Wan 汪琬 (T. 苕文, H. 純庵, 堯峯, 玉遮山樵), Mar. 5, 1624–1691, Jan. 8, writer, was a native of Ch'ang-chou (Soochow), Kiangsu. A chin-shih of 1655, he was made (1658) a secretary in the Board of Revenue and later (1660) rose to be a department director in the Board of Punishments.",
+          "source": "eccp-3672764",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "汪琬，字苕文，長洲人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "苕文",
+        "source": "eccp-3672764"
+      }
+    ],
+    "hao": [
+      {
+        "value": "純庵",
+        "source": "eccp-3672764"
+      },
+      {
+        "value": "堯峯",
+        "source": "eccp-3672764"
+      },
+      {
+        "value": "玉遮山樵",
+        "source": "eccp-3672764"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "苕文"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Wan",
+        "system": "ECCP spelling",
+        "source": "eccp-3672764"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3672764",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3672764",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672764",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672764",
+      "passage": "eccp-3672764-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-140",
+      "matchStatus": "proposed",
+      "evidence": "汪琬，字苕文，長洲人。少孤，自奮於學，銳意為古文辭。於易、詩、書、春秋、三禮、喪服咸有發明。性狷介。深嘆古今文家好名寡實，鮮自重特立，故務為經世有用之學。其於當世人物，褒譏不少寬假。順治十二年進士，授主事，再遷刑部郎中。坐累降兵馬司指揮，能舉其職，不以秩卑自沮。任滿，稍遷戶部主事，民送之溢衢卷。榷江寧西新關，以疾假歸。結廬堯峰山，閉戶撰述，不交世事，學者稱堯峰先生。以宋德宜，陳廷敬薦博學鴻儒科，試列一等。授編修，纂修明史，棘棘爭議不阿。在館六十日，再乞病歸。歸十年而卒，年六十七。"
+    }
+  ],
+  "sources": {
+    "eccp-3672764": {
+      "title": "ECCP · Wang Wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412345",
+      "locator": "eccp-3672764-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634083": {
+      "title": "ECCP · 陳維崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280420",
+      "locator": "eccp-3634083-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645483": {
+      "title": "ECCP · 林佶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299414",
+      "locator": "eccp-3645483-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672737": {
+      "title": "ECCP · 王熙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412300",
+      "locator": "eccp-3672737-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672757": {
+      "title": "ECCP · 王韜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412333",
+      "locator": "eccp-3672757-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-140",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

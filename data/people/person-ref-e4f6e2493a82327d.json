@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e4f6e2493a82327d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "玉科",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "雲階",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲階"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Yü-k'o",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-456",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-456",
+      "passage": "qsg-volume-456-019",
+      "matchStatus": "proposed",
+      "evidence": "楊玉科，字云階，寄籍麗江。其先居湖南善化，既貴，還本籍。同治初，從和耀曾討回。岑毓英徵曲靖，識拔之，命領百人為前鋒，積功至守備。四年，署維西協。李祖裕叛，殺把總陳聰。毓英慮生變，檄玉科代之。玉科至，刺殺祖裕，宣諭部眾，皆伏服，遂克麗江、鶴慶，繇是顯名。"
+    }
+  ],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-456": {
+      "title": "清史稿/卷456",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027082",
+      "locator": "qsg-volume-456-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0f06ea0289a29542",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "仁堪",
+    "source": "eccp-3672726",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "閩縣",
+      "source": "qsg-volume-479",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王仁堪，字可莊，福建閩縣人，尚書慶雲之孫。",
+          "source": "qsg-volume-479",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "可莊",
+        "source": "eccp-3672726"
+      },
+      {
+        "value": "忍庵",
+        "source": "eccp-3672726"
+      }
+    ],
+    "hao": [
+      {
+        "value": "行定",
+        "source": "eccp-3672726"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "可莊"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Jên-k'an",
+        "system": "ECCP spelling",
+        "source": "eccp-3672726"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1849,
+        "source": "eccp-3672726",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1893,
+        "source": "eccp-3672726",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-479",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-479",
+      "passage": "qsg-volume-479-095",
+      "matchStatus": "proposed",
+      "evidence": "王仁堪，字可莊，福建閩縣人，尚書慶雲之孫。光緒三年一甲一名進士，授修撰。督山西學政，歷典貴州、江南、廣東鄉試，入直上書房。時俄羅斯索伊犁，使臣崇厚擅定條約，仁堪與修撰曹鴻勛等合疏劾之。太和門災，復與鴻勛應詔陳言，極論時政。其請罷頤和園工程，謂：「工費指明不動正款，夫出之筦庫，何非小民膏血？計臣可執未動正款之說以告朝廷，朝廷何能執未動正款之說以謝天下？」言尤切直。"
+    }
+  ],
+  "sources": {
+    "eccp-3672726": {
+      "title": "ECCP · 王慶雲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412281",
+      "locator": "eccp-3672726-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-095",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

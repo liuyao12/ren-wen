@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6c7e40b617dde16c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "萬鵬",
+    "source": "eccp-3658526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "寧鄉",
+      "source": "qsg-volume-455",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃萬鵬，字搏九，湖南寧鄉人，本籍善化。",
+          "source": "qsg-volume-455",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "搏九",
+        "source": "eccp-3658526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "搏九"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Wan-p'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3658526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1885,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-455",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-455",
+      "passage": "qsg-volume-455-024",
+      "matchStatus": "proposed",
+      "evidence": "黃萬鵬，字搏九，湖南寧鄉人，本籍善化。初從曾國荃援贛、皖，積勳至都司。從克江寧，歷遷總兵，賜號力勇巴圖魯。捻入鄂，犯德安，萬鵬馳救，大敗之，又破之安陸。會師新洲，於是夾擊，大破虜，擢提督。"
+    }
+  ],
+  "sources": {
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-455": {
+      "title": "清史稿/卷455",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2024594",
+      "locator": "qsg-volume-455-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

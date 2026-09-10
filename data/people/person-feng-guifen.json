@@ -32,7 +32,24 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "FÊNG Kuei-fên 馮桂芬 (T. 林一, H. 景亭, 鄧尉山人), 1809–1874, May 28, scholar, was a native of Wu-hsien (Soochow). Several of his ancestors were wealthy, but his father lost his fortune through fire.",
+          "source": "eccp-3639176",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "馮桂芬，字林一，號景亭，吳縣人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
@@ -72,6 +89,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/F%C3%AAng_Kuei-f%C3%AAn",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3639176",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639176",
+      "passage": "eccp-3639176-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-187",
+      "matchStatus": "proposed",
+      "evidence": "馮桂芬，字林一，號景亭，吳縣人。道光二十年一甲二名進士，授編修，充廣西鄉試正考官，丁母憂。服闋，文宗御極，用大臣薦召見。旋丁父憂，服甫闋而金陵陷。詔募貲團練於鄉，以克復松江府諸城功晉五品銜，擢右中允。赴京，期年告歸。同治元年，以治團功加四品銜。亂定，復以耆宿著書裨治加三品銜。"
     }
   ],
   "sources": {
@@ -95,6 +126,83 @@
       "locator": "Preserved source opening, revision 11408026",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639176": {
+      "title": "ECCP · Fêng Kuei-fên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634149": {
+      "title": "ECCP · 程學啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271518",
+      "locator": "eccp-3634149-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643625": {
+      "title": "ECCP · 李秀成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294833",
+      "locator": "eccp-3643625-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656347": {
+      "title": "ECCP · 湯金釗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365110",
+      "locator": "eccp-3656347-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656421": {
+      "title": "ECCP · 曾國荃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365227",
+      "locator": "eccp-3656421-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672721": {
+      "title": "ECCP · 汪啟淑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412272",
+      "locator": "eccp-3672721-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672742": {
+      "title": "ECCP · 汪憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412309",
+      "locator": "eccp-3672742-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678144": {
+      "title": "ECCP · 嚴可均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442954",
+      "locator": "eccp-3678144-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-187",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

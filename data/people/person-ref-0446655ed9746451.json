@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0446655ed9746451",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "周",
+    "given": "學海",
+    "source": "eccp-3678129",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "建德",
+      "source": "qsg-volume-502",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "周學海，字澂之，安徽建德人，總督馥子。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chou Hsüeh-hai",
+        "system": "ECCP spelling",
+        "source": "eccp-3678129"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-032",
+      "matchStatus": "proposed",
+      "evidence": "周學海，字澂之，安徽建德人，總督馥子。光緒十八年進士，授內閣中書，官至浙江候補道。潛心醫學，論脈尤詳，著脈義簡摩、脈簡補義、診家直訣、辨脈平脈章句。引申舊說，參以實驗，多心得之言。博覽群籍，實事求是，不取依託附會。慕宋人之善悟，故於史堪、張元素、劉完素、滑壽及近世葉桂諸家書，皆有評註。自言於清一代名醫，服膺張璐、葉桂兩家。證治每取璐說，蓋其學頗與相近。宦游江、淮間，時為人療治，常病不異人，遇疑難，輒有奇效。刻古醫書十二種，所據多宋、元舊槧藏家秘笈，校勘精審，世稱善本雲。"
+    }
+  ],
+  "sources": {
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

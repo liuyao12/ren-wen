@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-92b27f9dbd156911",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "志祖",
+    "source": "eccp-3672721",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫志祖，字詒穀，仁和人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "頤谷",
+        "source": "eccp-3672721"
+      },
+      {
+        "value": "貽榖",
+        "source": "eccp-3672721"
+      }
+    ],
+    "hao": [
+      {
+        "value": "約齋",
+        "source": "eccp-3672721"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "頤谷"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Chih-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3672721"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1737,
+        "source": "eccp-3672721",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1801,
+        "source": "eccp-3672721",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-151",
+      "matchStatus": "proposed",
+      "evidence": "孫志祖，字詒穀，仁和人。乾隆三十一年進士，改刑部主事，洊升郎中，擢江南道監察御史，乞養歸。志祖清修自好，讀經史必釋其疑而後已，著讀書脞錄七卷，考論經、子、雜家，折衷精詳，不為武斷之論。又家語疏證六卷，謂王肅作聖證論以攻康成，又偽撰家語，飾其說以欺世。因博集群書，凡肅所剿竊者，皆疏通證明之。又謂孔叢子亦王肅偽託，其小爾雅亦肅借古書以自文，並作疏證以辨其妄。幼熟精文選，後乃仿韓文考異之例，參稽眾說，正俗本之誤，為文選考異四卷。又輯前人及朋輩論說，為文選注補正四卷。又有文選理學權輿補一卷。輯風俗通逸文"
+    }
+  ],
+  "sources": {
+    "eccp-3672721": {
+      "title": "ECCP · 汪啟淑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412272",
+      "locator": "eccp-3672721-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-151",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

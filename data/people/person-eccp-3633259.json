@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633259",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "之萬",
+    "source": "eccp-3633259",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "南皮",
+      "source": "qsg-volume-438",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Chih-wan 張之萬 (T. 子青, H. 鑾坡), 1811–1897, official and painter, was a native of Nan-p'i, Chihli. His father, Chang Yü-ts'ê 張玉册 (T. 壽圖) was a pa-kung of 1813 who held minor posts in the capital for some twenty years.",
+          "source": "eccp-3633259",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張之萬，字子青，直隸南皮人。",
+          "source": "qsg-volume-438",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子青",
+        "source": "eccp-3633259"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鑾坡",
+        "source": "eccp-3633259"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子青"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chih-wan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633259"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1811,
+        "source": "eccp-3633259",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1897,
+        "source": "eccp-3633259",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633259",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633259",
+      "passage": "eccp-3633259-001"
+    },
+    {
+      "source": "qsg-volume-438",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-438",
+      "passage": "qsg-volume-438-011",
+      "matchStatus": "proposed",
+      "evidence": "張之萬，字子青，直隸南皮人。道光二十七年，以一甲一名進士授修撰。咸豐二年，出督河南學政。粵賊破歸德，近偪開封，之萬條上防剿事宜，多允行。俄，召還，授鍾郡王讀。由侍讀累遷內閣學士。同治元年，擢禮部侍郎，兼署工部。嘗被詔偕太常寺卿許彭壽等匯輯前代帝王及垂簾事蹟可法戒者上之，錫名治平寶鑑。會河南州縣以苛派擅殺為御史劉毓楠奏劾，命之萬往按，得實，巡撫鄭元善以下降黜有差，即以之萬署巡撫事。疏陳軍興財匱，請仿湖北變通漕折，言：「汴漕一石舊折銀四兩，今請令州縣留辦公費七錢，實解司庫三兩三錢，以二兩購米實倉，餘"
+    }
+  ],
+  "sources": {
+    "eccp-3633259": {
+      "title": "ECCP · Chang Chih-wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271568",
+      "locator": "eccp-3633259-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633525": {
+      "title": "ECCP · 陳國瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280411",
+      "locator": "eccp-3633525-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640015": {
+      "title": "ECCP · 黃彭年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282915",
+      "locator": "eccp-3640015-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646142": {
+      "title": "ECCP · 馬新貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300555",
+      "locator": "eccp-3646142-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649322": {
+      "title": "ECCP · 潘祖蔭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318050",
+      "locator": "eccp-3649322-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675186": {
+      "title": "ECCP · 翁同龢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419941",
+      "locator": "eccp-3675186-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-130",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-421": {
+      "title": "清史稿/卷421",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027072",
+      "locator": "qsg-volume-421-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-425": {
+      "title": "清史稿/卷425",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607179",
+      "locator": "qsg-volume-425-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-428": {
+      "title": "清史稿/卷428",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433497",
+      "locator": "qsg-volume-428-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-438": {
+      "title": "清史稿/卷438",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433554",
+      "locator": "qsg-volume-438-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

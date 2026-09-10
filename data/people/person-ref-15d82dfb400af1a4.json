@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-15d82dfb400af1a4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "長慶",
+    "source": "eccp-3643639",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "廬江",
+      "source": "qsg-volume-416",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳長慶，字筱軒，安徽廬江人。",
+          "source": "qsg-volume-416",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "筱軒",
+        "source": "eccp-3643639"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筱軒"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ch'ang-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3643639"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3643639",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1884,
+        "source": "eccp-3643639",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-416",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-416",
+      "passage": "qsg-volume-416-059",
+      "matchStatus": "proposed",
+      "evidence": "吳長慶，字筱軒，安徽廬江人。父廷香，在籍治團練，咸豐四年，殉寇難，卹，予雲騎尉世職，見忠義傳。長慶襲世職，繼父領鄉團，先後從官軍克廬江、舒城，擢守備。十一年，會攻克三河。淮軍始創，領五百人，曰慶字營。"
+    }
+  ],
+  "sources": {
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-416": {
+      "title": "清史稿/卷416",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2651422",
+      "locator": "qsg-volume-416-059",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

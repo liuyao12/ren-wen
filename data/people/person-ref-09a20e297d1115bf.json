@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-09a20e297d1115bf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "杰",
+    "source": "eccp-3635438",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "韓城",
+      "source": "qsg-volume-340",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王杰，字偉人，陝西韓城人。",
+          "source": "qsg-volume-340",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "偉人",
+        "source": "eccp-3635438"
+      }
+    ],
+    "hao": [
+      {
+        "value": "惺園",
+        "source": "eccp-3635438"
+      },
+      {
+        "value": "葆淳",
+        "source": "eccp-3635438"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "偉人"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3635438"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1725,
+        "source": "eccp-3635438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1805,
+        "source": "eccp-3635438",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-340",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-340",
+      "passage": "qsg-volume-340-006",
+      "matchStatus": "proposed",
+      "evidence": "王杰，字偉人，陝西韓城人。以拔貢考銓藍田教諭，未任，遭父喪，貧甚，為書記以養母。歷佐兩江總督尹繼善、江蘇巡撫陳宏謀幕，皆重之。初從武功孫景烈遊，講濂、洛、關、閩之學；及見宏謀，學益進，自謂生平行己居官得力於此。"
+    }
+  ],
+  "sources": {
+    "eccp-3635438": {
+      "title": "ECCP · 江藩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271714",
+      "locator": "eccp-3635438-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-340": {
+      "title": "清史稿/卷340",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433581",
+      "locator": "qsg-volume-340-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

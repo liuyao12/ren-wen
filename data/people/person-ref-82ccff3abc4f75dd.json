@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-82ccff3abc4f75dd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黄",
+    "given": "元御",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "坤載",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研農",
+        "source": "eccp-3639978"
+      },
+      {
+        "value": "玉",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "坤載"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Yüan-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

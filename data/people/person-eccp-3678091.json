@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678091",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "文驄",
+    "source": "eccp-3678091",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG Wên-ts'ung 楊文驄 (T. 龍友, 子山), 1597–1646, painter, poet and official, who died a martyr to the Ming cause, was a native of Kweiyang, Kweichow. His father, Yang Shih-k'ung 楊師孔 (T. 冷然), was a chin-shih of 1601 who became assistant financial commissioner of Chekiang in 1628.",
+          "source": "eccp-3678091",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "龍友",
+        "source": "eccp-3678091"
+      },
+      {
+        "value": "子山",
+        "source": "eccp-3678091"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "龍友"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Wên-ts'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678091"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1597,
+        "source": "eccp-3678091",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1646,
+        "source": "eccp-3678091",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678091",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678091",
+      "passage": "eccp-3678091-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678091": {
+      "title": "ECCP · Yang Wên-ts'ung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442527",
+      "locator": "eccp-3678091-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

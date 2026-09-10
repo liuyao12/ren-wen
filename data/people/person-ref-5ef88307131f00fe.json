@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5ef88307131f00fe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "季",
+    "given": "開生",
+    "source": "eccp-3634159",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "季開生，字天中，江南泰興人。",
+          "source": "qsg-volume-244",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天中",
+        "source": "eccp-3634159"
+      }
+    ],
+    "hao": [
+      {
+        "value": "冠月",
+        "source": "eccp-3634159"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天中"
+    },
+    "romanizations": [
+      {
+        "value": "Chi K'ai-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3634159"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1627,
+        "source": "eccp-3634159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1659,
+        "source": "eccp-3634159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-244",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-244",
+      "passage": "qsg-volume-244-056",
+      "matchStatus": "proposed",
+      "evidence": "季開生，字天中，江南泰興人。順治六年進士，改庶吉士。累遷禮科給事中。明將張名振犯上海，開生疏言防禦海寇，宜遠偵探，扼要害，備器械，嚴海禁，杜接濟，密譏察。十一年，因地震，疏言：「地道不靜，民不安也。民之不安，官失職也。官之失職，約有十端：一曰格詔旨，二曰輕民命，三曰縱屬官，四曰庇胥吏，五曰重耗剋，六曰納餽遺，七曰廣株連，八曰閣詞訟，九曰失彈壓，十曰玩糾劾。」分疏其目以上，章下所司。調兵科右給事中。"
+    }
+  ],
+  "sources": {
+    "eccp-3634159": {
+      "title": "ECCP · 季振宜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271702",
+      "locator": "eccp-3634159-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-056",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

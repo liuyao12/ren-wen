@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675180",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "文",
+    "given": "廷式",
+    "source": "eccp-3675180",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WÊN T'ing-shih 文廷式 (T. 道希[溪], H. 芸閣, 純常子), 1856–1904, official and scholar, was a native of P'ing-hsiang, Kiangsi. After becoming a chü-jên, early in the eighteen-eighties, he went to Peking where he became acquainted with many prominent contemporaries, among them Shêng-yü [q. v.] who assisted him greatly.",
+          "source": "eccp-3675180",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "道希",
+        "source": "eccp-3675180"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芸閣",
+        "source": "eccp-3675180"
+      },
+      {
+        "value": "純常子",
+        "source": "eccp-3675180"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "道希"
+    },
+    "romanizations": [
+      {
+        "value": "Wên T'ing-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3675180"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3675180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1904,
+        "source": "eccp-3675180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675180",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675180",
+      "passage": "eccp-3675180-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675180": {
+      "title": "ECCP · Wên T'ing-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419930",
+      "locator": "eccp-3675180-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633505": {
+      "title": "ECCP · 趙一清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271695",
+      "locator": "eccp-3633505-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635472": {
+      "title": "ECCP · 志銳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271738",
+      "locator": "eccp-3635472-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656399": {
+      "title": "ECCP · 載湉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365187",
+      "locator": "eccp-3656399-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-287",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

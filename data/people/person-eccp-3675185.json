@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675185",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "翁",
+    "given": "叔元",
+    "source": "eccp-3675185",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WÊNG Shu-yüan 翁叔元 (original ming 栴 T. 寶林 H. 鐵庵), Apr. 9, 1633–1701, Dec. 18, official, was a native of Ch'ang-shu, Kiangsu, but registered in the official examinations as of Yung-p'ing, Chihli.",
+          "source": "eccp-3675185",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "翁叔元，字寶林，江南常熟人。",
+          "source": "qsg-volume-271",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寶林",
+        "source": "eccp-3675185"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鐵庵",
+        "source": "eccp-3675185"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寶林"
+    },
+    "romanizations": [
+      {
+        "value": "Wêng Shu-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3675185"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3675185",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1701,
+        "source": "eccp-3675185",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675185",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675185",
+      "passage": "eccp-3675185-001"
+    },
+    {
+      "source": "qsg-volume-271",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-271",
+      "passage": "qsg-volume-271-014",
+      "matchStatus": "proposed",
+      "evidence": "翁叔元，字寶林，江南常熟人。康熙十五年，一甲三名進士，授編修，館試第一。累遷國子監祭酒，洊擢吏部侍郎，遷工部尚書。部例，毎有工作，先計其直上之，名曰「料估」。工完多冒破，所司不敢以聞，有十年不銷算者，大工至四十三案。叔元蒞部甫半載，積牘一淸。調邢部，移疾歸，卒。叔元愛才而褊隘，何焯在門下，初甚賞之；叔元疎劾湯斌，焯請削門生籍，叔元擯之，竟不得成名。以是爲世所誚雲。"
+    }
+  ],
+  "sources": {
+    "eccp-3675185": {
+      "title": "ECCP · Wêng Shu-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419939",
+      "locator": "eccp-3675185-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-281",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

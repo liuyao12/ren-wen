@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649143",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "倪",
+    "given": "元璐",
+    "source": "eccp-3649143",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "NI Yüan-lu 倪元璐 (T. 玉汝, H. 鴻寶), Jan. 7, 1594–1644, Apr. 25, Ming official, was a native of Shang-yü, Chekiang. Becoming a chin-shih in 1622, he entered the Hanlin Academy as a bachelor.",
+          "source": "eccp-3649143",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉汝",
+        "source": "eccp-3649143"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鴻寶",
+        "source": "eccp-3649143"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉汝"
+    },
+    "romanizations": [
+      {
+        "value": "Ni Yüan-lu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649143"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1594,
+        "source": "eccp-3649143",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1644,
+        "source": "eccp-3649143",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649143",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649143",
+      "passage": "eccp-3649143-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649143": {
+      "title": "ECCP · Ni Yüan-lu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317719",
+      "locator": "eccp-3649143-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639175": {
+      "title": "ECCP · 馮銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408019",
+      "locator": "eccp-3639175-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

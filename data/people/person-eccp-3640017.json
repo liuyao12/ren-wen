@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640017",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "叔琳",
+    "source": "eccp-3640017",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大興",
+      "source": "qsg-volume-290",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Shu-lin 黃叔琳 (T. 崑圃), Oct. 26, 1672–1756, Feb. 6, scholar and official, was a native of Ta-hsing, one of the two administrative divisions of Peking. His ancestors who bore the surname, Ch'êng 程, came originally from Hsin-an, Anhwei.",
+          "source": "eccp-3640017",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃叔琳，字昆圃，順天大興縣人。",
+          "source": "qsg-volume-290",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "崑圃",
+        "source": "eccp-3640017"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "崑圃"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Shu-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3640017"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3640017",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3640017",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640017",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640017",
+      "passage": "eccp-3640017-001"
+    },
+    {
+      "source": "qsg-volume-290",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-290",
+      "passage": "qsg-volume-290-012",
+      "matchStatus": "proposed",
+      "evidence": "黃叔琳，字昆圃，順天大興縣人。康熙三十年一甲三名進士，授編修，累遷侍講。丁父憂，服除，起原官，遷鴻臚寺少卿。五遷刑部侍郎。雍正元年，調吏部。命偕兩淮鹽政謝賜履赴湖廣，與總督楊宗仁議鹽價，革除陋規，從所請。疏言：「各省支撥兵糧，布政使、糧道為政，先期請託，方撥近營。否則撥遠汛，加運費，民既重累輸輓，兵亦苦待餉。請敕督撫察兵數，先撥本州縣衛、所，不敷，於附近州縣撥運。」下部議行。旋授浙江巡撫。時御史錢廷獻請濬浙江東西湖，蓄水灌田，命叔琳會總督滿保勘議。叔琳等奏言：「西湖居會城西，週三十餘裡，南北山泉"
+    }
+  ],
+  "sources": {
+    "eccp-3640017": {
+      "title": "ECCP · Huang Shu-lin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635436": {
+      "title": "ECCP · 姜宸英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271707",
+      "locator": "eccp-3635436-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636414": {
+      "title": "ECCP · 朱一貴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272545",
+      "locator": "eccp-3636414-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643657": {
+      "title": "ECCP · 勵宗萬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496594",
+      "locator": "eccp-3643657-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646135": {
+      "title": "ECCP · 盧文弨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300538",
+      "locator": "eccp-3646135-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654357": {
+      "title": "ECCP · 施閏章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-112",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a53a273b6683eb64",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "興祚",
+    "source": "eccp-3658534",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳興祚，字伯成，漢軍正紅旗人，原籍浙江山陰。",
+          "source": "qsg-volume-260",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯成",
+        "source": "eccp-3658534"
+      }
+    ],
+    "hao": [
+      {
+        "value": "留村",
+        "source": "eccp-3658534"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯成"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Hsing-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3658534"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1632,
+        "source": "eccp-3658534",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1698,
+        "source": "eccp-3658534",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-260",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-260",
+      "passage": "qsg-volume-260-018",
+      "matchStatus": "proposed",
+      "evidence": "吳興祚，字伯成，漢軍正紅旗人，原籍浙江山陰。父執忠，客禮親王代善幕，授頭等護衛。興祚自貢生授江西萍鄉知縣。金聲桓叛，郡縣多被寇，萍鄉以有備獨完。坐事罷。旋以守禦功复官，授山西大寧知縣，遷山東沂州知州。白蓮教嘯聚為患，興祚開諭散遣之。复坐事降補江南無錫知縣。縣吏虧庫帑，更數政未得償，官罷不能去。興祚至，為請豁除，其當償者出私財代輸。清丈通縣田，編號繪圖，因田徵賦。飛詭隱匿，皆不得行。縣徭役未均，最煩苦者為圖六。興祚以入官田徵租僱役，民害乃除。歲饑，為粥食餓者。八旗兵駐防蘇州，興祚請於領兵固山，單騎"
+    }
+  ],
+  "sources": {
+    "eccp-3658534": {
+      "title": "ECCP · 杜臻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370066",
+      "locator": "eccp-3658534-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

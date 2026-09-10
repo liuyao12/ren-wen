@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a0e90b0ecce8e149",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "堅",
+    "source": "eccp-3635444",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "鉛山",
+      "source": "qsg-volume-499",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔣堅，字非磷，江西鉛山人。",
+          "source": "qsg-volume-499",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "非磷",
+        "source": "eccp-3635444"
+      }
+    ],
+    "hao": [
+      {
+        "value": "適園",
+        "source": "eccp-3635444"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "非磷"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3635444"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1678,
+        "source": "eccp-3635444",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1749,
+        "source": "eccp-3635444",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-499",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-499",
+      "passage": "qsg-volume-499-057",
+      "matchStatus": "proposed",
+      "evidence": "蔣堅，字非磷，江西鉛山人。幼即有智數。七歲，從叔入寺，廡坐縣役，值與語，謂某寺僧被殺，不得其主名。堅語其叔曰：「殺人者，堂上老僧也！」方誦經，屢顧，意乃不在經。役牽去，一訊而服。年十七，附舟經瑞洪，有少年同舟，當食必出避，堅疑而問之。少年自言貧不能償舟值，舟人將不餘食焉，故出避。堅邀與共食，資以金，其人後客死，又策返其骨及餘金。長習法家言，佐幕山西，屢雪疑獄。康熙五十二年，主澤州知州佟國瓏，臨汾民迫姦胥為變，巡撫檄國瓏往按，堅從國瓏以七騎往。至則眾保山洶洶，堅以巡撫令箭先諭眾。國瓏入縣，執胥擾民"
+    }
+  ],
+  "sources": {
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

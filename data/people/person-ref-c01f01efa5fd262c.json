@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c01f01efa5fd262c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "秉虔",
+    "source": "eccp-3675201",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "胡秉虔，字伯敬，績溪人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯敬",
+        "source": "eccp-3675201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "春喬",
+        "source": "eccp-3675201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯敬"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Ping-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3675201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-090",
+      "matchStatus": "proposed",
+      "evidence": "胡秉虔，字伯敬，績溪人。嘉慶四年進士，官刑部主事，改甘肅靈臺縣知縣，升丹噶爾同知，卒於官。秉虔自幼嗜學，博通經史。嘗入都肄業成均，夜讀必盡燭二條。尤精於聲音訓話，著古韻論三巻，辨江、戴、段、孔諸家之説，細入毫芒，塙不可易。説文管見三巻，發明古音古義，多獨得之見。末論二徐書，有灼見語，蓋其所致力也。他著有周易、尚書、論語小識各八巻，卦本圖考一巻，尚書序録一巻，漢西京博士考二巻。甘州明季成仁録四巻，河州景忠録三巻。"
+    }
+  ],
+  "sources": {
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-090",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

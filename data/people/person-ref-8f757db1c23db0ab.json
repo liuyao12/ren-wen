@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8f757db1c23db0ab",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "葆恂",
+    "source": "eccp-3658542",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "叔默",
+        "source": "eccp-3658542"
+      },
+      {
+        "value": "文石",
+        "source": "eccp-3658542"
+      }
+    ],
+    "hao": [
+      {
+        "value": "猛庵",
+        "source": "eccp-3658542"
+      },
+      {
+        "value": "鳧翁",
+        "source": "eccp-3658542"
+      },
+      {
+        "value": "熙怡叟",
+        "source": "eccp-3658542"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叔默"
+    },
+    "romanizations": [
+      {
+        "value": "Li Pao-hsün",
+        "system": "ECCP spelling",
+        "source": "eccp-3658542"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1915,
+        "source": "eccp-3658542",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

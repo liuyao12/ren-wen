@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-468cb628e6316e5a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "余",
+    "given": "步雲",
+    "source": "eccp-3678432",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "廣安",
+      "source": "qsg-volume-373",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "余步雲，四川廣安人。",
+          "source": "qsg-volume-373",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "紫松",
+        "source": "eccp-3678432"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "紫松"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Pu-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3678432"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-373",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-373",
+      "passage": "qsg-volume-373-027",
+      "matchStatus": "proposed",
+      "evidence": "余步雲，四川廣安人。嘉慶中，以鄉勇從剿教匪，積功至游擊。平瞻對叛番，累擢重慶鎮總兵。道光七年，率本鎮兵從楊遇春徵回疆，破賊洋阿爾巴特莊；偕楊芳擊賊於毗拉滿，大敗之，復和闐，追擒賊酋玉努斯，授乾清門侍衛，擢貴州提督。調湖南。十二年，率貴州兵剿江華瑤趙金龍，偕提督羅思舉破賊巢，金龍就殲，加太子少保。复破粵瑤於永州藍山，擒其渠。從尚書禧恩赴廣東剿連州瑤，平之，賜雙眼花翎，予一等輕車都尉世職。歷四川、雲南提督，復調貴州。十八年，擒仁懷匪首謝法真，加太子太保，調福建提督。"
+    }
+  ],
+  "sources": {
+    "eccp-3678432": {
+      "title": "ECCP · 裕謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443721",
+      "locator": "eccp-3678432-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-373": {
+      "title": "清史稿/卷373",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433498",
+      "locator": "qsg-volume-373-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

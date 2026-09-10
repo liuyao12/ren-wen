@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3c49cd1ef3cd3f02",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "瞿",
+    "given": "鴻禨",
+    "source": "eccp-3654396",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "善化",
+      "source": "qsg-volume-437",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "瞿鴻禨，字子玖，湖南善化人。",
+          "source": "qsg-volume-437",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子玖",
+        "source": "eccp-3654396"
+      }
+    ],
+    "hao": [
+      {
+        "value": "止盦",
+        "source": "eccp-3654396"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子玖"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'u Hung-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3654396"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1918,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-437",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-437",
+      "passage": "qsg-volume-437-028",
+      "matchStatus": "proposed",
+      "evidence": "瞿鴻禨，字子玖，湖南善化人。同治十年進士，授編修。光緒元年，大考一等，擢侍講學士。久乃遷詹事，晉內閣學士。先後典福建、廣西鄉試，督河南、浙江、四川學政。所行皆本功令，律下尤嚴。"
+    }
+  ],
+  "sources": {
+    "eccp-3654396": {
+      "title": "ECCP · 孫家鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358512",
+      "locator": "eccp-3654396-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-437": {
+      "title": "清史稿/卷437",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2592002",
+      "locator": "qsg-volume-437-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

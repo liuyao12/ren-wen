@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639234",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "韓",
+    "given": "菼",
+    "source": "eccp-3639234",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HAN T'an 韓菼 (T. 元少, H. 慕廬), 1637–1704, official and scholar, was a native of Ch'ang-chou (Soochow), Kiangsu. Passing first in both the metropolitan and the palace examinations of 1673, he was given the rank of Hanlin compiler of the first class.",
+          "source": "eccp-3639234",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "韓菼，字元少，江南長洲人。",
+          "source": "qsg-volume-266",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元少",
+        "source": "eccp-3639234"
+      }
+    ],
+    "hao": [
+      {
+        "value": "慕廬",
+        "source": "eccp-3639234"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元少"
+    },
+    "romanizations": [
+      {
+        "value": "Han T'an",
+        "system": "ECCP spelling",
+        "source": "eccp-3639234"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1637,
+        "source": "eccp-3639234",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3639234",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639234",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639234",
+      "passage": "eccp-3639234-001"
+    },
+    {
+      "source": "qsg-volume-266",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-266",
+      "passage": "qsg-volume-266-048",
+      "matchStatus": "proposed",
+      "evidence": "韓菼，字元少，江南長洲人。讀書通五經，恬曠好山水。朋遊飲酒，歡諧終日，而製行清嚴。特工製舉文。應順天鄉試，尚書徐乾學拔之遺卷中。康熙十二年，會試、殿試皆第一，授修撰，充日講起居注官。聖祖知其能文，命撰太極圖說以進，复諭進所作制舉文，召入弘德殿講大學。初世祖命纂孝經衍義未成，至是以菼專任纂修。十四年，典順天試。十五年，遷贊善。十六年，遷侍講。十七年，复典順天試。十八年，乞假歸。二十三年，起故官，尋轉侍讀。二十四年，上親試翰林，菼列第二，遷侍講學士。尋擢內閣學士。"
+    }
+  ],
+  "sources": {
+    "eccp-3639234": {
+      "title": "ECCP · Han T'an",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280244",
+      "locator": "eccp-3639234-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633492": {
+      "title": "ECCP · 張勇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271675",
+      "locator": "eccp-3633492-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633506": {
+      "title": "ECCP · 趙良棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271696",
+      "locator": "eccp-3633506-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639218": {
+      "title": "ECCP · 傑書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280222",
+      "locator": "eccp-3639218-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639220": {
+      "title": "ECCP · 顧八代",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280224",
+      "locator": "eccp-3639220-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639984": {
+      "title": "ECCP · 徐元文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282843",
+      "locator": "eccp-3639984-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643663": {
+      "title": "ECCP · 李慈銘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294910",
+      "locator": "eccp-3643663-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643665": {
+      "title": "ECCP · 李蔚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294912",
+      "locator": "eccp-3643665-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649345": {
+      "title": "ECCP · 彭孫遹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318100",
+      "locator": "eccp-3649345-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658535": {
+      "title": "ECCP · 杜立德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370070",
+      "locator": "eccp-3658535-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658545": {
+      "title": "ECCP · 圖海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370093",
+      "locator": "eccp-3658545-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672729": {
+      "title": "ECCP · 王輔臣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412285",
+      "locator": "eccp-3672729-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675189": {
+      "title": "ECCP · 吳正治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419945",
+      "locator": "eccp-3675189-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-286": {
+      "title": "清史稿/卷286",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1534130",
+      "locator": "qsg-volume-286-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

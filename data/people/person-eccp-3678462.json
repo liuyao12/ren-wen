@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678462",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "袁",
+    "given": "枚",
+    "source": "eccp-3678462",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜAN Mei 袁枚 (T. 子才, H. 簡齋, 存齋, 隨園), Mar. 25, 1716–1798, Jan. 3, poet, literary critic, and essayist, was a native of Ch'ien-t'ang (Hangchow). Devoted to literature from childhood, he began to compose verse at the age of nine (sui) and received his hsiu-ts'ai degree at the age of twelve (sui).",
+          "source": "eccp-3678462",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "袁枚，字子才，錢塘人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子才",
+        "source": "eccp-3678462"
+      }
+    ],
+    "hao": [
+      {
+        "value": "簡齋",
+        "source": "eccp-3678462"
+      },
+      {
+        "value": "存齋",
+        "source": "eccp-3678462"
+      },
+      {
+        "value": "隨園",
+        "source": "eccp-3678462"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子才"
+    },
+    "romanizations": [
+      {
+        "value": "Yüan Mei",
+        "system": "ECCP spelling",
+        "source": "eccp-3678462"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1716,
+        "source": "eccp-3678462",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3678462",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678462",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678462",
+      "passage": "eccp-3678462-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-081",
+      "matchStatus": "proposed",
+      "evidence": "袁枚，字子才，錢塘人。幼有異禀。年十二，補縣學生。弱冠，省叔父廣西撫幕，巡撫金鉷見而異之，試以銅鼓賦，立就，甚瑰麗。會開博學鴻詞科，遂疏薦之。時海內舉者二百餘人，枚年最少，試報罷。乾隆四年，成進士，選庶吉士。改知縣江南，歷溧水、江浦、沭陽，調劇江寧。時尹繼善為總督，知枚才，枚亦遇事盡其能。市人至以所判事作歌曲刻行四方。枚不以吏能自喜，既而引疾家居。再起發陝西，丁父憂歸，遂牒請養母。卜築江寧小倉山，號隨園，崇飾池館，自是優游其中者五十年。時出遊佳山水，終不復仕。盡其才以為文辭詩歌，名流造請無虛日，"
+    }
+  ],
+  "sources": {
+    "eccp-3678462": {
+      "title": "ECCP · Yüan Mei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443802",
+      "locator": "eccp-3678462-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633516": {
+      "title": "ECCP · 陳繼儒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280406",
+      "locator": "eccp-3633516-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633504": {
+      "title": "ECCP · 趙翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271694",
+      "locator": "eccp-3633504-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639221": {
+      "title": "ECCP · 哈元生",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280226",
+      "locator": "eccp-3639221-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642409": {
+      "title": "ECCP · 顧奎光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290487",
+      "locator": "eccp-3642409-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643646": {
+      "title": "ECCP · 李調元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294883",
+      "locator": "eccp-3643646-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649342": {
+      "title": "ECCP · 彭紹升",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318095",
+      "locator": "eccp-3649342-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649409": {
+      "title": "ECCP · 沈德潛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11405868",
+      "locator": "eccp-3649409-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656409": {
+      "title": "ECCP · 曹寅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365205",
+      "locator": "eccp-3656409-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674924": {
+      "title": "ECCP · 王文治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419128",
+      "locator": "eccp-3674924-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678157": {
+      "title": "ECCP · 尹繼善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442977",
+      "locator": "eccp-3678157-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-237",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

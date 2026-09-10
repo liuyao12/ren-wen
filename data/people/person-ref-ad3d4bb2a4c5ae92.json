@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ad3d4bb2a4c5ae92",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "大櫆",
+    "source": "eccp-3678099",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Liu Ta-k'uei 劉大櫆 (T. 才甫, 海峯, 1697(?)–1779), who was likewise a native of T'ung-ch'êng. Yao Nai became a chü-jên in 1750 and a chin-shih in 1763. Appointed a bachelor of the Hanlin Academy, he was detached from it in 1766 and was made a second class secretary in the Board of War and later, in the Board of Ceremonies.",
+          "source": "eccp-3678099",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉大櫆，字才甫，一字耕南，桐城人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "才甫",
+        "source": "eccp-3678099"
+      },
+      {
+        "value": "海峯",
+        "source": "eccp-3678099"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "才甫"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Ta-k'uei",
+        "system": "ECCP spelling",
+        "source": "eccp-3678099"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-038",
+      "matchStatus": "proposed",
+      "evidence": "劉大櫆，字才甫，一字耕南，桐城人。曾祖日燿，明末官歙縣訓導，鄉里仰其高節。其後累世皆為諸生，至大櫆益有名。始年二十餘入京師，時方苞負海內重望，後生以文謁者不輕許與，獨奇賞大櫆。雍正中，兩登副榜，竟不獲舉。乾隆元年，苞薦應詞科，大學士張廷玉黜落之，已而悔。十五年，特以經學薦，復不錄。久之，選黟縣教諭，數年告歸。居樅陽江上不復出，年八十三，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

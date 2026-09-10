@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1334a8f67c5c5bbe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "續宜",
+    "source": "eccp-3643626",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "克讓",
+        "source": "eccp-3643626"
+      }
+    ],
+    "hao": [
+      {
+        "value": "希菴",
+        "source": "eccp-3643626"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "克讓"
+    },
+    "romanizations": [
+      {
+        "value": "Li Hsü-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3643626"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-408",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-408",
+      "passage": "qsg-volume-408-022",
+      "matchStatus": "proposed",
+      "evidence": "李續宜，字希庵，續賓弟。同事羅澤南。以文童從軍，援江西、湖北，積功累擢同知，賜花翎。武昌、漢陽复，胡林翼疏陳續宜功多為續賓所掩，詔以知府選用。從續賓攻九江，賊由安徽上犯蘄、黃以牽我師。咸豐七年，續宜率兵千七百人回援湖北，戰於黃州壩崎山，分三路進，毀賊壘，次蘄水、黃岡界。上馬家河、火石港、郴柳灣賊壘林立，傾巢出撲，續宜伏兵山下，驟起突擊，賊大亂，譟，乘之，破壘四十，移屯蘄水。遇援賊於月山，誘至山角，發砲擊之，潰，直搗其巢，焚屯聚數十處，破偽城五。會克小池口，以道員用，賜號伊勒達巴圖魯，由是續宜之名"
+    }
+  ],
+  "sources": {
+    "eccp-3643626": {
+      "title": "ECCP · 李續賓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294836",
+      "locator": "eccp-3643626-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-408": {
+      "title": "清史稿/卷408",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027044",
+      "locator": "qsg-volume-408-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bf95cdec45776cdb",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "敦仁",
+    "source": "eccp-3642408",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "陽城",
+      "source": "qsg-volume-478",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張敦仁，字古愚，山西陽城人。",
+          "source": "qsg-volume-478",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲䈞",
+        "source": "eccp-3642408"
+      },
+      {
+        "value": "古餘",
+        "source": "eccp-3642408"
+      }
+    ],
+    "hao": [
+      {
+        "value": "敦夫",
+        "source": "eccp-3642408"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲䈞"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Tun-jên",
+        "system": "ECCP spelling",
+        "source": "eccp-3642408"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1754,
+        "source": "eccp-3642408",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1834,
+        "source": "eccp-3642408",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-478",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-478",
+      "passage": "qsg-volume-478-044",
+      "matchStatus": "proposed",
+      "evidence": "張敦仁，字古愚，山西陽城人。乾隆四十年進士，授江西高安知縣，調廬陵。精於吏事，有循聲。遷銅鼓營同知，署九江、撫州、南安、饒州諸府事。嘉慶初，改官江蘇，歷松江、蘇州、江寧知府。六年，調授江西吉安。沿贛江多盜，遴健吏專司巡緝，責盜族擒首惡，毋匿逋逃，萑苻以靖，民德之。再署南昌，尋實授。所屬武寧民婦與二人私，殺其夫，前守以夫死途中，非由婦姦報。敦仁覆鞫詞無異，而其幼子但哭不言，疑之。請留前守同讞，遂得謀殺移屍狀，獄乃定。龍泉天地會匪滋事，巡撫檄敦仁往按，未至，鎮道已發兵擒二百餘人，民惶懼。敦仁廉知匪黨"
+    }
+  ],
+  "sources": {
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

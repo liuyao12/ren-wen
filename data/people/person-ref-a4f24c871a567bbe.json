@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a4f24c871a567bbe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "齊燾",
+    "source": "eccp-3640003",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "邵齊燾，字叔宀，昭文人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "荀慈",
+        "source": "eccp-3640003"
+      }
+    ],
+    "hao": [
+      {
+        "value": "叔宀",
+        "source": "eccp-3640003"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "荀慈"
+    },
+    "romanizations": [
+      {
+        "value": "Shao Ch'i-tao",
+        "system": "ECCP spelling",
+        "source": "eccp-3640003"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1717,
+        "source": "eccp-3640003",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3640003",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-100",
+      "matchStatus": "proposed",
+      "evidence": "邵齊燾，字叔宀，昭文人。幼異敏，甫受書即能了大義。乾隆七年進士，以編修居詞館十年。嘗獻東巡頌，時稱班、揚之亞，群公爭欲致門下。齊燾意度夷曠，殊落落也。年三十六，即罷歸。自顏其室曰「道山祿隱」。主常州龍城書院，洪亮吉、黃景仁皆從受學。善為儷體文，氣格排奡，意欲矯陳維崧、吳綺、章藻功三家之失。卒，年五十有二。著玉芝堂集。"
+    }
+  ],
+  "sources": {
+    "eccp-3640003": {
+      "title": "ECCP · 黃景仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282883",
+      "locator": "eccp-3640003-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-100",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

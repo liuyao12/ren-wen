@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633518",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "啟源",
+    "source": "eccp-3633518",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Ch'i-yüan 陳啟源 (T. 長發, H. 見桃居士), d. 1689, scholar, was a native of Wu-chiang, Kiangsu, and a close friend of Chu Ho-ling 朱鶴齡 (T. 長孺, H. 愚菴, 1606–1683) of the same locality. A licentiate, he collaborated with the latter in the compilation of a comprehensive study of the Odes, entitled 毛詩通義 Mao-shih t'ung-i, in 12 chüan, which is regarded as inferior to his own critical study of the Odes based on the exposition of pre-T'ang scholars.",
+          "source": "eccp-3633518",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "長發",
+        "source": "eccp-3633518"
+      }
+    ],
+    "hao": [
+      {
+        "value": "見桃居士",
+        "source": "eccp-3633518"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "長發"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Ch'i-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633518"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633518",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633518",
+      "passage": "eccp-3633518-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633518": {
+      "title": "ECCP · Ch'ên Ch'i-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271423",
+      "locator": "eccp-3633518-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

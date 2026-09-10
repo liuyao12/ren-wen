@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-16962f11e2884500",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姚",
+    "given": "文然",
+    "source": "eccp-3678099",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "姚文然，字弱侯，江南桐城人。",
+          "source": "qsg-volume-263",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "南青",
+        "source": "eccp-3678099"
+      }
+    ],
+    "hao": [
+      {
+        "value": "薑塢",
+        "source": "eccp-3678099"
+      },
+      {
+        "value": "己銅",
+        "source": "eccp-3678099"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "南青"
+    },
+    "romanizations": [
+      {
+        "value": "Yao Wên-jan",
+        "system": "ECCP spelling",
+        "source": "eccp-3678099"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-263",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-263",
+      "passage": "qsg-volume-263-013",
+      "matchStatus": "proposed",
+      "evidence": "姚文然，字弱侯，江南桐城人。明崇禎十六年進士，改庶吉士。順治三年，以安慶巡撫李猶龍薦，授國史院庶吉士。五年，改禮科給事中。六年，疏請「敕撫、按、道恩詔清理刑獄，勿任有司稽玩。條赦之外，有可矜疑原宥者，許專疏上陳」。又請重定會試下第舉人選用例，以廣任使。又言：「直隸與山東、河南接壤，盜賊竊發，東西竄匿，難於越境追捕。請改保定巡撫為總督，轄直隸、山東及河南懷慶、衛輝、彰德三府。 」又請敕各省督撫勿濫委私人署州縣官。諸疏皆下部議行。尋轉工科。"
+    }
+  ],
+  "sources": {
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

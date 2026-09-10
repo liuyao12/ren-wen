@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646139",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "呂",
+    "given": "葆中",
+    "source": "eccp-3646139",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LÜ Pao-chung 呂葆中 (T. 無黨, H. 氷蕸, original ming 公忠), d. ca. 1708, scholar, was a native of Ch'ung-tê, Chekiang, the eldest son of Lü Liu-liang [q. v.]. He took the chü-jên degree in 1696, and in 1706 distinguished himself by coming out second in the Palace examinations at Peking.",
+          "source": "eccp-3646139",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "無黨",
+        "source": "eccp-3646139"
+      }
+    ],
+    "hao": [
+      {
+        "value": "氷蕸",
+        "source": "eccp-3646139"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "無黨"
+    },
+    "romanizations": [
+      {
+        "value": "Lü Pao-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3646139"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646139",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646139",
+      "passage": "eccp-3646139-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646139": {
+      "title": "ECCP · Lü Pao-chung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300549",
+      "locator": "eccp-3646139-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637550": {
+      "title": "ECCP · 莊廷鑨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275720",
+      "locator": "eccp-3637550-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646137": {
+      "title": "ECCP · 呂留良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300546",
+      "locator": "eccp-3646137-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656353": {
+      "title": "ECCP · 湯顯祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365121",
+      "locator": "eccp-3656353-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-64265bbf677d1a1b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "爾豐",
+    "source": "eccp-3658542",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "趙爾豐，字季和，漢軍正藍旗人。",
+          "source": "qsg-volume-469",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季和",
+        "source": "eccp-3658542"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季和"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Êr-fêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3658542"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-469",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-469",
+      "passage": "qsg-volume-469-021",
+      "matchStatus": "proposed",
+      "evidence": "趙爾豐，字季和，漢軍正藍旗人。以山西知縣累保道員。四川總督錫良疏薦其才，權永寧道，剿匪嚴誅捕。駐藏大臣鳳全遇害，調建昌。會克巴塘，建議籌邊，充川滇邊務大臣，護總督，改駐藏大臣。以兵至打箭爐，改設康定、登科等府。宣統元年，仍專任邊務。藏兵犯巴塘，擊敗之，乘勢收江卡等四部。於是爾豐軍越丹達山而西，直抵江達，達賴喇嘛逃入印度。爾豐請一舉平藏，革教易俗，廷意不欲開釁，阻之。爾豐盡克三崖野番，決收回瞻對。三年，署四川總督，檄番官獻瞻對。爾豐遂入瞻對，設官治之。進克波密，並取白馬崗，收明正等土司，皆改流。計"
+    },
+    {
+      "source": "qsg-volume-469",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-469",
+      "passage": "qsg-volume-469-030",
+      "matchStatus": "proposed",
+      "evidence": "趙爾豐，字季和，漢軍正藍旗人。父文穎，見忠義傳。爾豐以鹽大使改知縣，選山西靜樂，歷永濟。清獄治盜，匪絕跡。躬捕蝗，始免災。擢河東監掣同知，護河東道，以憂去。光緒二十六年，聯軍入晉邊，山西巡撫錫良檄總營務處嚴防密偵之。三十一年，駐藏大臣鳳全被害於巴塘，錫良以爾豐為建昌道，會提督馬維騏往討。維騏軍先發，爾豐從之，遂克巴塘。爾豐接辦善後，移兵討鄉城，匪退喇嘛寺，據碉死守。爾豐斷水道，圍攻，番眾悉降。於是爾豐建籌邊議，錫良以聞，加爾豐侍郎，充川滇邊務大臣。爾豐會錫良暨雲貴總督丁振鐸奏陳改流設官、練兵、招"
+    }
+  ],
+  "sources": {
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-469": {
+      "title": "清史稿/卷469",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433543",
+      "locator": "qsg-volume-469-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

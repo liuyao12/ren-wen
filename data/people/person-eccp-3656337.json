@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656337",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "戴",
+    "given": "熙",
+    "source": "eccp-3656337",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-399",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TAI Hsi 戴熙 (T. 醕士, 蒓涘, H. 鹿牀, 東井居士), 1801–1860, Mar. 21, painter and official, was a native of Ch'ien-t'ang (Hangchow). In 1819 he became a chü-jên and in 1832 a chin-shih with appointment to the Hanlin Academy.",
+          "source": "eccp-3656337",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "戴熙，字醇士，浙江錢塘人。",
+          "source": "qsg-volume-399",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "醕士",
+        "source": "eccp-3656337"
+      },
+      {
+        "value": "蒓涘",
+        "source": "eccp-3656337"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鹿牀",
+        "source": "eccp-3656337"
+      },
+      {
+        "value": "東井居士",
+        "source": "eccp-3656337"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "醕士"
+    },
+    "romanizations": [
+      {
+        "value": "Tai Hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3656337"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1801,
+        "source": "eccp-3656337",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1860,
+        "source": "eccp-3656337",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656337",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656337",
+      "passage": "eccp-3656337-001"
+    },
+    {
+      "source": "qsg-volume-399",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-399",
+      "passage": "qsg-volume-399-017",
+      "matchStatus": "proposed",
+      "evidence": "戴熙，字醇士，浙江錢塘人。道光十二年進士，選庶吉士，授編修。大考二等，擢贊善，遷中允。十八年，入直南書房。督廣東學政，任滿，請終養。二十五年，服闋，未補官，复督廣東學政，累遷內閣學士。二十八年，授兵部侍郎，仍直南書房。"
+    }
+  ],
+  "sources": {
+    "eccp-3656337": {
+      "title": "ECCP · Tai Hsi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365097",
+      "locator": "eccp-3656337-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633259": {
+      "title": "ECCP · 張之萬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271568",
+      "locator": "eccp-3633259-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-140",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-399": {
+      "title": "清史稿/卷399",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029843",
+      "locator": "qsg-volume-399-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-493": {
+      "title": "清史稿/卷493",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542551",
+      "locator": "qsg-volume-493-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-507": {
+      "title": "清史稿/卷507",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602045",
+      "locator": "qsg-volume-507-066",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

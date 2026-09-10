@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-62365e5fdf51caca",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "牛",
+    "given": "夢瑞",
+    "source": "eccp-3649163",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "思然",
+        "source": "eccp-3649163"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松亭",
+        "source": "eccp-3649163"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "思然"
+    },
+    "romanizations": [
+      {
+        "value": "Niu Mêng-jui",
+        "system": "ECCP spelling",
+        "source": "eccp-3649163"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649163": {
+      "title": "ECCP · 牛運震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317767",
+      "locator": "eccp-3649163-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

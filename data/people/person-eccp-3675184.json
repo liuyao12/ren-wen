@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675184",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "翁",
+    "given": "心存",
+    "source": "eccp-3675184",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "常熟",
+      "source": "qsg-volume-385",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WÊNG Hsin-ts'un 翁心存 (T. 二銘, H. 邃庵), June 15, 1791–1862, Dec. 27, official, was a native of Ch'ang-shu, Kiangsu. His father, Wêng Hsien-fêng 翁咸封 (T. 子晉, H. 潛 虛, chü-jên of 1783), served as director of schools of the department of Hai-chou in northern Kiangsu for eleven or twelve years, beginning in 1798.",
+          "source": "eccp-3675184",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "翁心存，字二銘，江蘇常熟人。",
+          "source": "qsg-volume-385",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "二銘",
+        "source": "eccp-3675184"
+      }
+    ],
+    "hao": [
+      {
+        "value": "邃庵",
+        "source": "eccp-3675184"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "二銘"
+    },
+    "romanizations": [
+      {
+        "value": "Wêng Hsin-ts'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3675184"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1791,
+        "source": "eccp-3675184",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3675184",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675184",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675184",
+      "passage": "eccp-3675184-001"
+    },
+    {
+      "source": "qsg-volume-385",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-385",
+      "passage": "qsg-volume-385-022",
+      "matchStatus": "proposed",
+      "evidence": "翁心存，字二銘，江蘇常熟人。父咸封，官海州學正。知州唐仲冕見心存有異才，奇之，授之學。道光二年，成進士，選庶吉士，授編修。大考擢中允，督廣東學政。任滿，入直上書房，授惠郡王讀。尋督江西學政，累遷大理寺少卿。十七年，复直上書房，授六阿哥讀。逾年，以母老乞養。家居十年，終母喪。會子同書督貴州學政，陛辭，宣宗命傳諭促之來。二十九年，至京，仍入直，授八阿哥讀。補祭酒。歷內閣學士、工部侍郎，調戶部。江蘇巡撫請蘇州、松江、太倉漕米改徵折色，心存謂：「三屬額徵米一百十四萬餘石，一旦改折，慮京倉不敷支放，州縣假"
+    }
+  ],
+  "sources": {
+    "eccp-3675184": {
+      "title": "ECCP · Wêng Hsin-ts'un",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419938",
+      "locator": "eccp-3675184-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3643630": {
+      "title": "ECCP · 李鴻藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294851",
+      "locator": "eccp-3643630-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675193": {
+      "title": "ECCP · 伍崇曜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419951",
+      "locator": "eccp-3675193-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675186": {
+      "title": "ECCP · 翁同龢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419941",
+      "locator": "eccp-3675186-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-390": {
+      "title": "清史稿/卷390",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072955",
+      "locator": "qsg-volume-390-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675190",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "綺",
+    "source": "eccp-3675190",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Ch'i 吳綺 (T. 園次, H. 聰翁, 紅豆詞人), Dec. 1619–1694, official and scholar, was a native of Chiang-tu (Yangchow), Kiangsu, where his family had migrated from Hui-chou, Anhwei. Selected a senior licentiate in 1654, he went to Peking where he entered the Imperial Academy and was made a secretary in the Grand Secretariat.",
+          "source": "eccp-3675190",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "園次",
+        "source": "eccp-3675190"
+      }
+    ],
+    "hao": [
+      {
+        "value": "聰翁",
+        "source": "eccp-3675190"
+      },
+      {
+        "value": "紅豆詞人",
+        "source": "eccp-3675190"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "園次"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3675190"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1619,
+        "source": "eccp-3675190",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1694,
+        "source": "eccp-3675190",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675190",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675190",
+      "passage": "eccp-3675190-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675190": {
+      "title": "ECCP · Wu Ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419946",
+      "locator": "eccp-3675190-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649315": {
+      "title": "ECCP · 潘耒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318036",
+      "locator": "eccp-3649315-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654379": {
+      "title": "ECCP · 性德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358459",
+      "locator": "eccp-3654379-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-100",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

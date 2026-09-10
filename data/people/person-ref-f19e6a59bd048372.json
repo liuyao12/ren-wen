@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f19e6a59bd048372",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "建忠",
+    "source": "eccp-3678459",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "丹徒",
+      "source": "qsg-volume-446",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "馬建忠，字眉叔，江蘇丹徒人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "眉叔",
+        "source": "eccp-3678459"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "眉叔"
+    },
+    "romanizations": [
+      {
+        "value": "Ma Chien-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678459"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1844,
+        "source": "eccp-3678459",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3678459",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-030",
+      "matchStatus": "proposed",
+      "evidence": "馬建忠，字眉叔，江蘇丹徒人。少好學，通經史。憤外患日深，乃專究西學，派赴西洋各國使館學習洋務。歷上書言借款、造路、創設海軍、通商、開礦、興學、儲材，北洋大臣李鴻章頗稱賞之，所議多采行。累保道員。光緒七年，鴻章遣建忠赴南洋與英人議鴉片專售事。建忠以鴉片流毒，中外騰謗，當寓禁於徵，不可專重稅收。時英人持正議者，亦以強開煙禁責其政府，引以為恥。聞建忠言，雖未能遽許，皆稱其公。"
+    }
+  ],
+  "sources": {
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

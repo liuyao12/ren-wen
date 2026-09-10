@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656328",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "宋",
+    "given": "琬",
+    "source": "eccp-3656328",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUNG Wan 宋琬 (T. 玉叔, H. 荔裳, 漫山人), 1614–1673, man of letters and calligrapher, was a native of Lai-yang, Shantung. His father, Sung Ying-heng 宋應亨 (T. 嘉甫, H. 長元, chin-shih of 1625, d. 1643), was for a time district magistrate of Ch'ing-fêng, Chihli, where he earned the reputation of being a good administrator.",
+          "source": "eccp-3656328",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "宋琬，字玉叔，萊陽人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉叔",
+        "source": "eccp-3656328"
+      }
+    ],
+    "hao": [
+      {
+        "value": "荔裳",
+        "source": "eccp-3656328"
+      },
+      {
+        "value": "漫山人",
+        "source": "eccp-3656328"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉叔"
+    },
+    "romanizations": [
+      {
+        "value": "Sung Wan",
+        "system": "ECCP spelling",
+        "source": "eccp-3656328"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1614,
+        "source": "eccp-3656328",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3656328",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656328",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656328",
+      "passage": "eccp-3656328-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-070",
+      "matchStatus": "proposed",
+      "evidence": "宋琬，字玉叔，萊陽人。父應亨，明天啟中進士。令清豐，有惠政，民為立祠。崇禎末殉節，贈太僕寺卿。"
+    }
+  ],
+  "sources": {
+    "eccp-3656328": {
+      "title": "ECCP · Sung Wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365079",
+      "locator": "eccp-3656328-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654357": {
+      "title": "ECCP · 施閏章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358410",
+      "locator": "eccp-3654357-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678069": {
+      "title": "ECCP · 楊捷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442405",
+      "locator": "eccp-3678069-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

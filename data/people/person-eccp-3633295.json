@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633295",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "岱",
+    "source": "eccp-3633295",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Tai 張岱, (T. 宗子, 石公, H. 陶庵, 蝶庵), Oct. 5, 1597–1684?, historian and essayist, was a native of Shan-yin (Shaohsing), Chekiang. His great-grandfather, Chang Yüan-pien 張元汴 (T. 子蓋, H. 陽和, 1538–1588), became a chin-shih in 1571 with highest honors.",
+          "source": "eccp-3633295",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "宗子",
+        "source": "eccp-3633295"
+      },
+      {
+        "value": "石公",
+        "source": "eccp-3633295"
+      }
+    ],
+    "hao": [
+      {
+        "value": "陶庵",
+        "source": "eccp-3633295"
+      },
+      {
+        "value": "蝶庵",
+        "source": "eccp-3633295"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "宗子"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Tai",
+        "system": "ECCP spelling",
+        "source": "eccp-3633295"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1597,
+        "source": "eccp-3633295",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3633295",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633295",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633295",
+      "passage": "eccp-3633295-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633295": {
+      "title": "ECCP · Chang Tai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271668",
+      "locator": "eccp-3633295-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

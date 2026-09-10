@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b9d759e86c05c051",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "潮",
+    "source": "eccp-3649167",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-276",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐潮，字青來，浙江錢塘人。",
+          "source": "qsg-volume-276",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雪崖",
+        "source": "eccp-3649167"
+      }
+    ],
+    "hao": [
+      {
+        "value": "浩軒",
+        "source": "eccp-3649167"
+      },
+      {
+        "value": "青來",
+        "source": "eccp-3649167"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雪崖"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Ch'ao",
+        "system": "ECCP spelling",
+        "source": "eccp-3649167"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1647,
+        "source": "eccp-3649167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3649167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-276",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-276",
+      "passage": "qsg-volume-276-013",
+      "matchStatus": "proposed",
+      "evidence": "徐潮，字青來，浙江錢塘人。康熙十二年進士，選庶吉士，授檢討，累擢少詹事。潮學問淹通，在翰林，應奉文字，多出其手。聖祖嘗禦門召講易、論語，敷陳明晰，為之傾聽。三遷至工部侍郎，督理錢局，清介不苟隨俗。局官冒濫事發，潮獨無所連染。三十三年，典會試。以母憂歸，服闋，起刑部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-276": {
+      "title": "清史稿/卷276",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469305",
+      "locator": "qsg-volume-276-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

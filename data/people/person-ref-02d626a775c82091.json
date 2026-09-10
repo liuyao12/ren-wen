@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-02d626a775c82091",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "珽",
+    "source": "eccp-3656401",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔡珽，字若璞，漢軍正白旗人，雲貴總督毓榮子。",
+          "source": "qsg-volume-293",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "若璞",
+        "source": "eccp-3656401"
+      }
+    ],
+    "hao": [
+      {
+        "value": "禹功",
+        "source": "eccp-3656401"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "若璞"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3656401"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-293",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-293",
+      "passage": "qsg-volume-293-015",
+      "matchStatus": "proposed",
+      "evidence": "蔡珽，字若璞，漢軍正白旗人，雲貴總督毓榮子。康熙三十六年進士，改庶吉士，散館授檢討。洊擢少詹事，進翰林院掌院學士，兼禮部侍郎。時世宗在潛邸，聞其能醫，欲見之，珽謝不往。六十年，四川巡撫年羹堯入覲，世宗命達意，仍堅辭。六十一年，羹堯授川陝總督，以珽代為四川巡撫，覲聖祖熱河行在，世宗方扈從，乃詣謁而去。雍正二年，羹堯請川、陝開採鼓鑄，珽疏言四川不產鉛，開採非便，羹堯劾珽阻撓，下部議，當奪官。珽辱重慶知府蔣興仁，憤自殺，珽以病卒聞，羹堯劾之，上詰責再三，始自承。下部議，擬斬，詔逮至京師，召入見，具言羹"
+    }
+  ],
+  "sources": {
+    "eccp-3656401": {
+      "title": "ECCP · 蔡毓榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365190",
+      "locator": "eccp-3656401-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c6813de3afc06e3b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "莫",
+    "given": "祥芝",
+    "source": "eccp-3649124",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "善徵",
+        "source": "eccp-3649124"
+      }
+    ],
+    "hao": [
+      {
+        "value": "抢筹",
+        "source": "eccp-3649124"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "善徵"
+    },
+    "romanizations": [
+      {
+        "value": "Mo Hsiang-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3649124"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1889,
+        "source": "eccp-3649124",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

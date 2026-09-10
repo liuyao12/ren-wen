@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-07b318178ab749d7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "高",
+    "given": "其佩",
+    "source": "eccp-3639201",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "遼陽",
+      "source": "qsg-volume-504",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Kao Ch'i-p'ei 高其佩 (T. 且園, H. 韋之, d. 1734), a member of the Chinese Bordered White Banner (later he was elevated to the Bordered Yellow Banner) who served as a vice-president of the Board of Punishments (1723–27) and as lieutenant-general of a Banner (1724–29).",
+          "source": "eccp-3639201",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "高其佩，字韋之，號且園，奉天遼陽人，隸籍漢軍。",
+          "source": "qsg-volume-504",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "且園",
+        "source": "eccp-3639201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "韋之",
+        "source": "eccp-3639201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "且園"
+    },
+    "romanizations": [
+      {
+        "value": "Kao Ch'i-p'ei",
+        "system": "ECCP spelling",
+        "source": "eccp-3639201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-504",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-504",
+      "passage": "qsg-volume-504-053",
+      "matchStatus": "proposed",
+      "evidence": "高其佩，字韋之，號且園，奉天遼陽人，隸籍漢軍。父殉耿籓之難，其佩以廕官至戶部侍郎。畫有奇致，人物山水，並蒼渾沉厚，衣紋如草篆，一袖數折。尤善指畫，嘗畫黃初平叱石成羊，或已成羊而起立，或將成而未起，或半成而未離為石，風趣橫生。畫龍、虎，皆極其態。世既重其指墨，晚年以便於揮灑，遂不復用筆。其筆劃之佳，幾無人知之。雍正十二年，卒。甥李世倬、硃倫瀚皆學於其佩。"
+    }
+  ],
+  "sources": {
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-015",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

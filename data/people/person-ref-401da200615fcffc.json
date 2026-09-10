@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-401da200615fcffc",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "第",
+    "source": "eccp-3642416",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'ên Ti 陳第 (T. 季立, H. 一齋, d. 1620 or 1617, aged 77 sui), a native of Lien-chiang, Fukien, and one-time major in command of a garrison northeast of Peking. In a work entitled 毛詩古音攷 Mao-shih ku-yin k'ao, 4 chüan, printed in Nanking in 1606 with the aid of Chiao Hung [q. v.], Ch'ên determined with a fair degree of accuracy the ancient pronunciation of several hundred rhyming words in the Classic of",
+          "source": "eccp-3642416",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季立",
+        "source": "eccp-3642416"
+      }
+    ],
+    "hao": [
+      {
+        "value": "一齋",
+        "source": "eccp-3642416"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季立"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3642416"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

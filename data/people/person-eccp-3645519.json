@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645519",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "寶楠",
+    "source": "eccp-3645519",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Pao-nan 劉寶楠 (T. 楚楨, H. 念樓), Mar. 9, 1791–1855, Nov. 13, scholar and official, was a native of Pao-ying, Kiangsu. His father, Liu Li-hsün 劉履恂 (T. 廸九, H. 雲陔, 1738–1795), a cousin of Liu T'ai-kung [q. v.], was given late in life the rank of archivist of the Imperial Academy.",
+          "source": "eccp-3645519",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉寶楠，字楚楨，寶應人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "楚楨",
+        "source": "eccp-3645519"
+      }
+    ],
+    "hao": [
+      {
+        "value": "念樓",
+        "source": "eccp-3645519"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "楚楨"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Pao-nan",
+        "system": "ECCP spelling",
+        "source": "eccp-3645519"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1791,
+        "source": "eccp-3645519",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-3645519",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645519",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645519",
+      "passage": "eccp-3645519-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-186",
+      "matchStatus": "proposed",
+      "evidence": "劉寶楠，字楚楨，寶應人。父履恂，字迪九，乾隆五十一年舉人，國子監典簿，著有秋槎札記。"
+    }
+  ],
+  "sources": {
+    "eccp-3645519": {
+      "title": "ECCP · Liu Pao-nan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299489",
+      "locator": "eccp-3645519-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645521": {
+      "title": "ECCP · 劉台拱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299493",
+      "locator": "eccp-3645521-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645527": {
+      "title": "ECCP · 劉文淇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645528": {
+      "title": "ECCP · 劉毓崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299507",
+      "locator": "eccp-3645528-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654362": {
+      "title": "ECCP · 史可法",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358423",
+      "locator": "eccp-3654362-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656331": {
+      "title": "ECCP · 蘇努",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365086",
+      "locator": "eccp-3656331-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656367": {
+      "title": "ECCP · 德沛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365139",
+      "locator": "eccp-3656367-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672746": {
+      "title": "ECCP · 汪輝祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412317",
+      "locator": "eccp-3672746-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-186",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}
