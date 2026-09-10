@@ -87,7 +87,8 @@ jobs:
           rsync -a --delete --exclude='.git/' --exclude='.github/' --exclude='.transport/' --exclude='.release/' --exclude='_candidate/' --exclude='_site/' --exclude='build/' --exclude='node_modules/' --exclude='__pycache__/' _candidate/ ./
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A -- . ':!.github' ':!_candidate' ':!_site' ':!build' ':!.transport' ':!.release' ':!node_modules'
+          git add -A -- . ':(exclude).github' ':(exclude)_candidate' ':(exclude)_site' ':(exclude)build' ':(exclude).transport' ':(exclude).release' ':(exclude)node_modules'
+          test -z "$(git diff --cached --name-only -- .github)"
           git commit -m 'Complete full ECCP reader integration and verify dated names, source attestations and map'
           git push origin HEAD:release-verified-sept10
           mkdir -p build
