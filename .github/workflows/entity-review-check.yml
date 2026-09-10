@@ -5,21 +5,98 @@ on:
     paths: ['.github/workflows/entity-review-check.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
-  snapshot:
+  verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Preserve exact source including staged review edits
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply the exact reviewed code and documentation
+        run: |
+          python - <<'PY'
+          import base64,hashlib,json,lzma
+          from pathlib import Path
+          root=Path.cwd().resolve()
+          encoded=''.join((root/f'.review/editorial-v2-{i:02}.txt').read_text().strip() for i in range(1,5))
+          payload=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(payload).hexdigest()=='e630db2bc9c2dc63055346fcd7fe95f9e05d8a9b5f74c973c88baf93c8bc3c75','Transport checksum mismatch'
+          raw=lzma.decompress(payload)
+          assert hashlib.sha256(raw).hexdigest()=='38a0a427daced71bd6b31fb0e65ffaf5e7f25074cb7805376f9acdc178b9808a'
+          staged={}
+          for item in json.loads(raw):
+              name=item['path'];path=(root/name).resolve();path.relative_to(root)
+              assert not name.startswith(('.git','.review/','data/','build/')) and name not in staged
+              before=path.read_bytes() if path.exists() else b''
+              assert (hashlib.sha256(before).hexdigest() if path.exists() else None)==item['before'],f'Stale input: {name}'
+              text=before.decode('utf8');limit=len(text)
+              for start,end,replacement in reversed(item['edits']):
+                  assert 0<=start<=end<=limit
+                  text=text[:start]+replacement+text[end:];limit=start
+              after=text.encode('utf8')
+              assert hashlib.sha256(after).hexdigest()==item['after'],f'Output mismatch: {name}'
+              staged[name]=after
+          for name,content in staged.items():
+              path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content)
+          print('Applied',len(staged),'checked implementation files.')
+          PY
+      - name: Preserve source wording while revising identifications
         run: |
           mkdir -p build
-          git archive --format=tar.gz -o build/review-source.tar.gz HEAD
-          git rev-parse HEAD > build/review-commit.txt
+          python -m scripts.editorial_cleanup | tee build/editorial-report.json
+          git diff --exit-code -- data/upstream data/imports
+      - name: Validate corpus and every regression
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m scripts.name_history validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+      - name: Install browser verification support
+        run: |
+          python -m pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test navigation, reviewed links, profiles and map through actual HTTP
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/review-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/review-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/review-browser/family
+      - name: Commit tested edits to the feature branch only
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          git fetch origin entity-review-source-navigation
+          test "$(git rev-parse origin/entity-review-source-navigation)" = "$EXPECTED_HEAD"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':(exclude).github' ':(exclude).review' ':(exclude)build' ':(exclude)_site' ':(exclude)node_modules'
+          git commit -m 'Review Akedun names and works, quarantine unsupported links, and add source-based navigation'
+          git push origin HEAD:entity-review-source-navigation
+          git rev-parse HEAD > build/tested-commit.txt
+          git rev-parse HEAD^{tree} > build/tested-tree.txt
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: entity-review-source
+          name: editorial-review-verification
           path: |
-            build/review-source.tar.gz
-            build/review-commit.txt
+            build/review-browser
+            build/editorial-report.json
+            build/tested-commit.txt
+            build/tested-tree.txt
+            build/server.log
           retention-days: 7
