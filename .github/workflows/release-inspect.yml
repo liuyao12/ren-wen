@@ -1,0 +1,42 @@
+name: Inspect recovered release
+on:
+  push:
+    branches: [release-reader-sept09]
+    paths: ['.github/workflows/release-inspect.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cebb0e7145cde14c629ca694e6870f9e5689bf94
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install PyYAML
+      - name: Restore checksummed application and archive for inspection
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, yaml, tarfile
+          plan=yaml.safe_load(Path('.github/workflows/release-reader-check.yml').read_text())
+          steps=plan['jobs']['validate']['steps']
+          step=next(s for s in steps if s.get('name')=='Apply exact reviewed changes with old and new checksums')
+          subprocess.run(['bash','-e','-c',step['run']],check=True)
+          root=Path.cwd()
+          with tarfile.open('/tmp/recovered-source.tar.gz','w:gz') as archive:
+              for path in sorted(root.rglob('*')):
+                  rel=path.relative_to(root)
+                  if any(p in {'.git','.transport','build','node_modules','__pycache__'} for p in rel.parts): continue
+                  if path.is_file(): archive.add(path,arcname=str(rel),recursive=False)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: inspected-release-source
+          path: /tmp/recovered-source.tar.gz
+          retention-days: 7
