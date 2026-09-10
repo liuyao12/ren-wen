@@ -44,6 +44,40 @@ export function westernYearText(profile, endpoint) {
   return values.length ? values.map(y=>years.some(d=>d.value===y && d.uncertain)?`${y}?`:String(y)).join(' / ') : '?';
 }
 
+/** Brackets label Chinese New Year to the next Chinese New Year, never Jan 1–Dec 31. */
+export function chineseYearLabel(record) {
+  return validYear(record?.chineseYear) ? `[${record.chineseYear}]` : '[?]';
+}
+
+/** Primary lifespan labels use only resolved Chinese years. Western evidence stays separate. */
+export function lifeYearsText(profile, {gregorianFallback = false} = {}) {
+  const life = profile?.life || {};
+  const b = validYear(life.birth?.chineseYear), d = validYear(life.death?.chineseYear);
+  if (!gregorianFallback || (b && d)) return `${chineseYearLabel(life.birth)}–${chineseYearLabel(life.death)}`;
+  const wb = westernYearText(profile, 'birth'), wd = westernYearText(profile, 'death');
+  if (!b && !d) return wb === '?' && wd === '?' ? '?–?' : `${t('Gregorian')} ${wb}–${wd}`;
+  const endpoint = (known, record, western) => known ? chineseYearLabel(record)
+    : western === '?' ? '[?]' : `${t('Gregorian')} ${western}`;
+  return `${endpoint(b, life.birth, wb)}–${endpoint(d, life.death, wd)}`;
+}
+
+/** Incomplete profiles may show unbracketed Gregorian evidence, never counterfeit Chinese years. */
+export function westernYearFallbackHTML(profile) {
+  if (validYear(profile.life?.birth?.chineseYear) && validYear(profile.life?.death?.chineseYear)) return '';
+  const birth = westernYearText(profile, 'birth'), death = westernYearText(profile, 'death');
+  return birth === '?' && death === '?' ? ''
+    : `<p class="person-western-reference">${ui('Source Gregorian years:')} ${h(birth)}–${h(death)}</p>`;
+}
+
+/** Year-scale plot coordinate. Unresolved Chinese years retain explicitly labelled Western evidence. */
+export function lifeYearCoordinate(profile, endpoint) {
+  if (!profile) return null;
+  const chinese = profile.life?.[endpoint]?.chineseYear;
+  if (validYear(chinese)) return chinese;
+  const western = westernYearText(profile, endpoint);
+  return /^\d+$/.test(western) ? Number(western) : null;
+}
+
 export function profileURL(id) {
   return typeof id === 'string' && /^person-[a-z0-9-]+$/.test(id)
     ? `profiles.html#${encodeURIComponent(id)}` : null;
@@ -57,8 +91,9 @@ export function personHeading(profile, {linked = false, history} = {}) {
   return `<div class="person-heading" data-profile-heading="${h(profile.id)}">
     <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}</h1>
     <p class="person-name-details">${nameDetailsHTML(profile,history)}</p>
-    <p class="person-ad">${h(westernYearText(profile, 'birth'))}–${h(westernYearText(profile, 'death'))} <span class="person-era">${ui("AD")}</span></p>
-    <p class="person-chinese" lang="zh-Hant"><span>${ui("Birth 生：")}${h(chineseYearText(profile.life?.birth))}</span><span>${ui("Death 卒：")}${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">${ui("{age} sui 歲",{age})}</span>`}</p>
+    <p class="person-ad">${h(lifeYearsText(profile))}</p>
+    ${westernYearFallbackHTML(profile)}
+    <p class="person-chinese" lang="zh-Hant"><span>${ui("Birth 生：")}${h(chineseYearText(profile.life?.birth))}</span><span>${ui("Death 卒：")}${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">${ui("Age at death: {age}",{age})}</span>`}</p>
   </div>`;
 }
 

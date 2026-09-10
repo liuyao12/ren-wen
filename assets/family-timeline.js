@@ -2,14 +2,13 @@
 import {escapeHTML as h} from './core.js';
 import {t, ui, bindText} from './i18n.js';
 import {canonicalName} from './profiles.js';
-import {westernYearText, profileURL} from './person-display.js';
+import {lifeYearCoordinate as year, lifeYearsText, profileURL} from './person-display.js';
 import {nameAtYear} from './name-history.js';
 import {familyFocusLayout} from './family-layout.js';
 
 const NS='http://www.w3.org/2000/svg';
 const roleKeys={grandparents:'Grandparents',parents:'Parents',self:'Self',spouses:'Spouses',children:'Children'};
 const name=p=>(p.name.surname||'')+p.name.given;
-const year=(p,key)=>{if(!p)return null;const s=westernYearText(p,key);return /^\d+$/.test(s)?Number(s):null;};
 const add=(tag,attrs,parent,text)=>{const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;parent.append(n);return n;};
 const activate=(node,fn)=>{node.onclick=fn;node.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fn();}};};
 
@@ -71,7 +70,7 @@ export function createFamilyTimeline({host,catalog,people,onSelect,onEvidence,pa
       g.dataset.familyRole=row.role;
       if(row.kind==='summary'){
         g.removeAttribute('data-person-row');g.dataset.familySummary=row.role;
-        const title=row.ids.map(id=>`${name(people.get(id))} ${westernYearText(people.get(id),'birth')}–${westernYearText(people.get(id),'death')}`).join('、');
+        const title=row.ids.map(id=>`${name(people.get(id))} ${lifeYearsText(people.get(id),{gregorianFallback:true})}`).join('、');
         const button=add('g',{tabindex:0,role:'button','aria-label':`${t('Expand {role}',{role:t(roleKeys[row.role])})}: ${title}`},g);
         add('rect',{x:0,y:-12,width:width-2,height:22,rx:3,class:'summary-hit'},button);
         add('text',{x:5,y:2,class:'family-role'},button,t(roleKeys[row.role]));
@@ -83,6 +82,7 @@ export function createFamilyTimeline({host,catalog,people,onSelect,onEvidence,pa
         g.dataset.personRow=row.key;g.removeAttribute('data-family-summary');
         const p=people.get(row.key),b=year(p,'birth'),d=year(p,'death');
         const display=nameAtYear(p,datedYear,current.history), short=display.label;
+        const dates=lifeYearsText(p,{gregorianFallback:true});
         const known=b!==null&&d!==null&&d>=b;
         const anchorX=known?x(b):x(current.anchor?.year??current.year);
         if(row.role==='self')add('rect',{x:0,y:-20,width,height:39,rx:4,class:'self-background'},g);
@@ -90,15 +90,15 @@ export function createFamilyTimeline({host,catalog,people,onSelect,onEvidence,pa
         if(known){
           const w=Math.max(2,x(d)-x(b));
           const bar=add('rect',{x:anchorX,y:-13,width:w,height:28,rx:3,class:'life-bar',tabindex:0,role:'button','aria-label':t('Show journeys for {name}',{name:short})},g);
-          add('title',{},bar,`${short} · ${b}–${d}`);activate(bar,()=>onSelect(row.key));
+          add('title',{},bar,`${short} · ${dates}`);activate(bar,()=>onSelect(row.key));
           const a=add('a',{href:profileURL(row.key),'aria-label':short},g);
           // Never stretch a short lifespan to fit its label. Preserve the full label in title/ARIA.
           const maxChars=Math.max(0,Math.floor((w-10)/12));
           const visible=[...short].length>maxChars?(maxChars>1?[...short].slice(0,maxChars-1).join('')+'…':''):short;
           const text=add('text',{x:anchorX+5,y:0,class:'name bar-name','data-label-year':datedYear??'default'},a);
           if(visible===short && display.title){add('tspan',{class:'bar-title'},text,display.title+' ');add('tspan',{},text,display.name);}else text.textContent=visible;
-          add('title',{},a,`${short} · ${b}–${d}`);
-          if(w>74)add('text',{x:anchorX+5,y:11,class:'bar-dates'},g,`${b}–${d}`);
+          add('title',{},a,`${short} · ${dates}`);
+          if(w>Math.max(74,[...dates].length*5.5+10))add('text',{x:anchorX+5,y:11,class:'bar-dates'},g,dates);
         } else {
           // An undated card is not a lifespan interval. Its placement is purely for reading.
           const a=add('a',{href:profileURL(row.key),'aria-label':`${short} · ${t('Undated person')}`},g);

@@ -76,6 +76,9 @@ with sync_playwright() as pw:
         heading=page.locator('#reader-biography h1')
         assert heading.inner_text().strip()=='[湘鄉] 曾國藩'
         assert page.locator('#reader [data-profile-heading]').count()==0
+        expect(page.locator('#reader-biography .person-ad')).to_have_text('[1811]–[1872]')
+        expect(page.locator('#reader-biography .person-sui')).to_have_text('享年 62 歲')
+        report['bracketedChineseLifeYears']=True
         for label in ['字伯涵','號滌生','諡文正']:
             assert label in page.locator('#reader-biography .person-name-details').inner_text()
         sizes=page.evaluate("[getComputedStyle(document.querySelector('#reader-biography h1')).fontSize,getComputedStyle(document.querySelector('#reader-biography .person-name-details')).fontSize]")
@@ -117,6 +120,8 @@ with sync_playwright() as pw:
         name=page.locator('#reader a[data-person-link]').first
         name.hover();page.wait_for_selector('#entity-card:not([hidden])')
         assert page.locator('#entity-card a').count()>=2
+        expect(page.locator('#entity-card')).to_contain_text('[1811]–[1872]')
+        expect(page.locator('#entity-card')).to_contain_text('享年 62 歲')
         page.keyboard.press('Escape')
         report['originalTextAndHoverPreserved']=True
         goto('profiles.html#person-zeng-guofan')
@@ -126,6 +131,11 @@ with sync_playwright() as pw:
         assert page.locator('.source-name-group').count()>1
         assert '直隸總督' in page.locator('.dated-names').inner_text()
         report['sourceNameAttestations']=True
+        expect(page.locator('#profile .person-ad')).to_have_text('[1811]–[1872]')
+        expect(page.locator('#profile .life-grid')).to_contain_text('享年')
+        assert '虛歲' not in page.locator('#profile .life-grid').inner_text()
+        assert 'sui' not in page.locator('#profile .life-grid').inner_text()
+        assert '中曆卒年' not in page.locator('#profile .life-grid').inner_text()
         goto('profiles.html#person-chonghou')
         page.wait_for_selector('#profile h1')
         expect(page.locator('#profile h1')).to_have_text('[完顏] 崇厚')

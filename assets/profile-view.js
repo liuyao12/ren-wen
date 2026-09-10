@@ -4,7 +4,7 @@ import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h, safeURL} from './core.js';
 import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
 import {loadWorks,workURL,readerURL,eccpDestination,occurrences} from './library.js';
-import {personHeading, chineseYearText, westernYearText, profilesWithStubs} from './person-display.js';
+import {personHeading, chineseYearText, chineseYearLabel, profilesWithStubs} from './person-display.js';
 
 const link = (url, label) => {
   const safe = safeURL(url);
@@ -31,8 +31,8 @@ function render(p) {
     ${destination?`<div class="reading-links"><a href="${h(destination.url)}"${destination.external?' target="_blank" rel="noopener"':''}>${ui(destination.label)}${destination.external?' ↗':' →'}</a></div>`:''}
     <p class="coverage">${ui(p.coverage)}</p>
     <div class="life-grid">
-      ${['birth', 'death'].map(endpoint => `<section class="life-cell"><h2>${ui(endpoint === 'birth' ? '生年 · Birth' : '卒年 · Death')}</h2><div class="ad-detail">${h(westernYearText(p, endpoint))} ${ui("AD")}</div><strong lang="zh-Hant">${h(chineseYearText(p.life[endpoint]))}</strong><p>${p.life[endpoint]?.original ? h(p.life[endpoint].original) : ui('Chinese civil year not established.')}</p>${p.life[endpoint]?.source ? sourceLink(p.life[endpoint].source) : ''}</section>`).join('')}
-      <section class="life-cell"><h2>${ui("享年 · Calculated sui")}</h2><strong>${age === null ? ui('Unresolved') : `${age} 歲`}</strong><p>${ui("Chinese death year − Chinese birth year + 1.")}</p><small>${ui("Not Western birthday age. 干支 is computed from the resolved Chinese year, not the Gregorian date.")}</small></section>
+      ${['birth', 'death'].map(endpoint => `<section class="life-cell"><h2>${ui(endpoint === 'birth' ? '生年 · Birth' : '卒年 · Death')}</h2><div class="ad-detail">${h(chineseYearLabel(p.life[endpoint]))}</div><strong lang="zh-Hant">${h(chineseYearText(p.life[endpoint]))}</strong><p>${p.life[endpoint]?.original ? h(p.life[endpoint].original) : ui('Chinese civil year not established.')}</p>${p.life[endpoint]?.source ? sourceLink(p.life[endpoint].source) : ''}</section>`).join('')}
+      <section class="life-cell"><h2>${ui("Age at death")}</h2><strong>${age === null ? ui('Unresolved') : `${age} 歲`}</strong></section>
     </div>
     <div class="profile-grid">
       <section><h2>${ui("Identity · 名籍")}</h2><dl>
@@ -52,9 +52,8 @@ function render(p) {
       </section>
       <section><h2>${ui("Date evidence · 生卒考")}</h2>
         ${['birth', 'death'].map(e => `<p><strong>${ui(e === 'birth' ? 'Birth:' : 'Death:')}</strong> ${p.life[e]?.note ? h(p.life[e].note) : ui('Chinese civil year unresolved.')}</p>`).join('')}
-        ${(p.life.reportedAges || []).map(a => `<p>${ui("Reported age:")} ${a.value} ${ui(a.system)} · ${sourceLink(a.source)}</p>`).join('')}
+        ${(p.life.reportedAges || []).map(a => `<p>${ui("Reported age:")} ${a.value} 歲 · ${sourceLink(a.source)}</p>`).join('')}
         <details><summary>${ui("Western dates and years as reported")}</summary>${[...(p.life.westernDates || []), ...(p.life.westernYears || [])].map(d => `<p>${ui(d.event)}: <code>${h(d.value)}</code> (${ui(d.calendar)}; ${ui(d.status || 'source-reported')})<br>${sourceLink(d.source)}${d.note ? `<br><small><span data-original lang="en">${h(d.note)}</span></small>` : ''}</p>`).join('')}</details>
-        <p class="note">${ui("AD and Chinese civil-year labels are separate. A Chinese year can extend into the next AD year; missing calendar evidence is not filled in from a year number alone.")}</p>
       </section>
     </div>
     ${contributions.length?`<section><h2>${ui("Works and contributions · 文")}</h2><ul class="contribution-list">${contributions.map(w=>`<li><a href="${h(workURL(w.id))}">${h(w.title)}</a> · ${w.creators.filter(c=>c.person===p.id).map(c=>ui(c.role)).join('、')}</li>`).join('')}</ul></section>`:''}
