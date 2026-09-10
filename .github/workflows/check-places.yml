@@ -60,10 +60,17 @@ jobs:
           for name,content in staged.items():
               path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content)
           print('Applied',len(staged),'checksummed files.')
+          path=root/'tests/browser_live.py'
+          text=path.read_text()
+          old=r'''page.evaluate(\"w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))\",'qsg')'''
+          assert text.count(old)==1, 'Unexpected map test baseline'
+          path.write_text(text.replace(old,old.replace(chr(92)+chr(34),chr(34))))
+          subprocess.run(['python','-m','compileall','-q','scripts','tests'],cwd=root,check=True)
           PY
       - name: Generate source-preserving proposals and cropped dated labels
         working-directory: _candidate
         run: |
+          set -o pipefail
           mkdir -p build
           python -m scripts.editorial_cleanup | tee build/editorial-report.json
           python -m scripts.place_review | tee build/place-report.json
@@ -83,12 +90,13 @@ jobs:
       - name: Test reader, navigation and names over actual HTTP
         working-directory: _candidate
         run: |
+          set -o pipefail
           python -m http.server 8000 > build/server.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
-          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/places-browser
-          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/places-browser/map
-          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/places-browser/family
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/places-browser 2>&1 | tee build/browser-release.log
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/places-browser/map 2>&1 | tee build/browser-map.log
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/places-browser/family 2>&1 | tee build/browser-family.log
       - name: Save only the tested source to the feature branch
         env:
           EXPECTED_HEAD: ${{ github.sha }}
@@ -117,5 +125,6 @@ jobs:
             _candidate/build/editorial-report.json
             _candidate/build/map-label-report.txt
             _candidate/build/server.log
+            _candidate/build/browser-*.log
             _candidate/data/reference-maps.json
           retention-days: 7
