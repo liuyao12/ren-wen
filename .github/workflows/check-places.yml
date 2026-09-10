@@ -60,11 +60,15 @@ jobs:
           for name,content in staged.items():
               path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content)
           print('Applied',len(staged),'checksummed files.')
-          path=root/'tests/browser_live.py'
-          text=path.read_text()
-          old=r'''page.evaluate(\"w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))\",'qsg')'''
-          assert text.count(old)==1, 'Unexpected map test baseline'
-          path.write_text(text.replace(old,old.replace(chr(92)+chr(34),chr(34))))
+          old=r'''page.evaluate(\"w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))\",'''
+          repairs=0
+          for path in (root/'tests').glob('browser_*.py'):
+              text=path.read_text()
+              if old in text:
+                  repairs+=text.count(old)
+                  path.write_text(text.replace(old,old.replace(chr(92)+chr(34),chr(34))))
+          assert repairs>0, 'Unexpected legacy browser baseline'
+          print('Repaired',repairs,'escaped Python delimiters; JavaScript and assertions unchanged.')
           subprocess.run(['python','-m','compileall','-q','scripts','tests'],cwd=root,check=True)
           PY
       - name: Generate source-preserving proposals and cropped dated labels
