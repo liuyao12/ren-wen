@@ -50,12 +50,12 @@ with sync_playwright() as p:
     with page.expect_download() as d:page.locator('#export-queue').click()
     assert 'relink-mention' in Path(d.value.path()).read_text()
     page.locator('#close-dialog').click()
-    page.locator('#source-select').select_option('qsg');page.wait_for_selector('#qsg-01')
+    page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'qsg');page.wait_for_selector('#qsg-01')
     before=page.locator('#qsg-01').text_content();page.locator('#punctuation').check()
     assert page.locator('#reader .editorial-punctuation.hidden-mark').count()>5
     assert page.locator('#qsg-01').text_content()==before
     assert '，' not in page.locator('#qsg-01').inner_text()
-    page.locator('#source-select').select_option('eccp');page.wait_for_selector('#eccp-01')
+    page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'eccp');page.wait_for_selector('#eccp-01')
     page.locator('#reader').evaluate('(n)=>n.scrollTop=520');page.wait_for_timeout(300)
     assert 'eccp-' in page.locator('#reading-context').inner_text()
     raw=b'<?xml version="1.0"?><synthetic future="keep"><span test="unknown">abc</span></synthetic>'

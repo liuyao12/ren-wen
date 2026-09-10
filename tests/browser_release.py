@@ -51,9 +51,9 @@ with sync_playwright() as pw:
         report['biographies']=page.locator('.collection-entry').count()
         assert report['biographies']==809
         page.locator('#library-kind').select_option('all')
-        assert page.locator('.collection-entry').count()==1008
+        expect(page.locator('.collection-entry')).to_have_count(815)
         page.locator('#library-search').fill('李鴻章')
-        assert page.locator('.collection-entry').count()==1
+        expect(page.locator('.collection-entry')).to_have_count(1)
         page.screenshot(path=str(a.output/'library.png'))
         page.locator('.collection-entry h2 a').click()
         page.wait_for_selector('#eccp-3643627-001')
@@ -124,6 +124,58 @@ with sync_playwright() as pw:
         expect(page.locator('#entity-card')).to_contain_text('享年 62 歲')
         page.keyboard.press('Escape')
         report['originalTextAndHoverPreserved']=True
+        goto('#eccp-3633207')
+        expect(page.locator('#source-family')).to_have_value('eccp')
+        expect(page.locator('#source-group')).to_have_value('A')
+        assert page.locator('#source-select option[value^="qsg"]').count()==0
+        expect(page.locator('#eccp-3633207-003-n011')).to_have_attribute('data-entity','work-akedun-nianpu')
+        expect(page.locator('#reader')).to_contain_text("S. K. Chang")
+        assert page.locator('#reader [data-entity="person-eccp-3678153"]').count()==1
+        assert page.locator('#reader [data-entity="person-hongli"]').count()==1
+        page.locator('#source-family').select_option('qsg')
+        page.locator('#source-group').select_option('accounts')
+        page.locator('#source-select').select_option('qsg')
+        page.wait_for_selector('#qsg-02')
+        assert page.locator('#source-select option[value^="eccp"]').count()==0
+        page.goto(urljoin(base,'#eccp-3642388'),wait_until='networkidle',timeout=120000)
+        expect(page).to_have_url(base+'#eccp-3640793')
+        page.wait_for_selector('#eccp-3640793-001')
+        goto('review.html?source=eccp-3635454')
+        page.wait_for_selector('.review-row')
+        expect(page.locator('#review-results')).to_contain_text('san-yüan')
+        page.screenshot(path=str(a.output/'editorial-review.png'))
+        report['hierarchicalSourcesAndEditorialReview']=True
+        goto('#eccp-zeng-guofan')
+        page.wait_for_selector('#reader a[data-place-link]')
+        loc=page.locator('#reader a[data-place-link]').first
+        loc.hover();page.wait_for_selector('#entity-card:not([hidden])')
+        expect(page.locator('#entity-card')).to_contain_text('地名')
+        assert page.locator('#reader [data-type="place"]').first.evaluate('n=>getComputedStyle(n).borderBottomStyle')=='dotted'
+        page.keyboard.press('Escape')
+        page.locator('#reference-year').select_option('1911')
+        page.locator('#reference-detail').select_option('county')
+        for _ in range(4):page.locator('#context-zoom-in').click()
+        visible=page.locator('#historical-reference-labels image[visibility="visible"]')
+        expect(visible).to_have_count(1)
+        expect(visible).to_have_attribute('data-label-level','county')
+        expect(visible).to_have_attribute('data-label-year','1911')
+        decoded=page.evaluate('''async()=>{const nodes=[...document.querySelectorAll('#historical-reference-labels image')];return Promise.all(nodes.map(n=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img.naturalWidth>0);img.onerror=reject;img.src=n.getAttribute('href');})));}''')
+        assert decoded and all(decoded)
+        page.screenshot(path=str(a.output/'place-labels.png'))
+        page.locator('#reference-names').uncheck()
+        expect(page.locator('#historical-reference-labels image[visibility="visible"]')).to_have_count(0)
+        page.locator('#reference-names').check()
+        page.locator('#reference-year').select_option('1820')
+        expect(page.locator('#historical-reference-labels image[data-label-level="county"][visibility="visible"]')).to_have_count(0)
+        report['placeLinksAndDatedMapNames']=True
+        goto('places.html#place-region-hunan')
+        page.wait_for_selector('.place-occurrence')
+        expect(page.locator('#place-results')).to_contain_text('湖南')
+        goto('places.html')
+        page.locator('#place-mode').select_option('candidates')
+        page.wait_for_selector('.place-candidate')
+        assert page.locator('.place-candidate').count()<=60
+        report['placeRecordsAndCandidateQueue']=True
         goto('profiles.html#person-zeng-guofan')
         page.wait_for_selector('#source-name-attestations')
         assert '1943' in page.locator('#source-name-attestations').inner_text()

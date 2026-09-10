@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: python -m compileall -q scripts tests
       - run: python scripts/renwen.py validate
       - run: python scripts/profiles.py validate
       - run: python scripts/works.py validate

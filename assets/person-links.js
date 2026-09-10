@@ -55,7 +55,7 @@ export function linkPersonMentions(reader, people) {
   }
   for (const a of reader.querySelectorAll('p[id] a[href]:not([data-person-link])')) {
     const p = articles.get(articleKey(a.getAttribute('href')));
-    if (!p) continue;
+    if (!p || a.closest('[data-withheld-identification]')) continue;
     const names = [canonicalBareName(p), ...(p.name.romanizations || []).map(n => n.value)];
     const normalized = text => text.trim().replace(/\s+/gu, ' ').toLocaleLowerCase();
     if (!names.some(n => normalized(n) === normalized(a.textContent))) continue;

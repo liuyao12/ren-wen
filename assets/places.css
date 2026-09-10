@@ -1,0 +1,13 @@
+:root{--place:#196844}
+#reader [data-type=place],#reader a[data-place-link]{color:var(--place);text-decoration:none}
+#reader [data-type=place]{border-bottom:2px dotted var(--place);background:#e6f1e940;padding-bottom:1px}
+#reader a[data-place-link]:hover{background:#e3f1e7}
+.legend-place{color:var(--place);border-bottom:2px dotted var(--place)}
+.reference-name-toggle{display:inline-flex;align-items:center;gap:.35rem;font-size:12px;margin:4px 10px}
+.place-page{max-width:1100px;margin:auto;padding:25px 24px}
+.place-page h1{font-size:26px;margin:16px 0}.place-page h2{font-size:18px}.place-page p{line-height:1.65}
+.place-controls{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.place-controls input{min-width:200px;padding:8px}
+.place-record,.place-occurrence,.place-candidate{border-bottom:1px solid #d9dfd7;padding:12px 0;overflow-wrap:anywhere}
+.place-record a{color:var(--place)}.place-record small,.place-page .muted{color:#59675e;line-height:1.7}
+.place-evidence{padding:0;list-style:none}.place-evidence a{margin-right:15px}.place-note{padding:10px;background:#eef4ef;border-left:3px solid var(--place)}
+.place-page button{margin:6px}.place-page input,.place-page select{max-width:100%}

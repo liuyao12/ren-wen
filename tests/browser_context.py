@@ -94,7 +94,7 @@ with sync_playwright() as p:
  page.wait_for_timeout(400)
  assert page.locator('#life-trajectories [data-route]').count()==0
  assert 'No documented journey' in page.locator('#context-journeys').inner_text()
- page.locator('#source-select').select_option('eccp')
+ page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'eccp')
  page.wait_for_function("document.querySelector('#reader p.active')?.id === 'eccp-01'")
  page.wait_for_timeout(400)
  # Optional local boundary loading with clearly synthetic test-only geometry.

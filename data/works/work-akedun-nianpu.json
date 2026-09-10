@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "work-akedun-nianpu",
+  "type": "work",
+  "title": "阿克敦年譜（ECCP 所述一卷本）",
+  "attestedTitles": [
+    "nien-p’u"
+  ],
+  "kind": "chronology",
+  "creators": [
+    {
+      "person": "person-eccp-3649142",
+      "role": "compiler"
+    }
+  ],
+  "reviewStatus": "agent-proposed",
+  "sources": {
+    "eccp-3633207": {
+      "title": "A-k'o-tun · 阿克敦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271320",
+      "locator": "eccp-3633207-003",
+      "attribution": "ECCP contributors; Wikisource contributors"
+    }
+  },
+  "mentions": [
+    {
+      "witness": "eccp-3633207",
+      "passage": "eccp-3633207-003",
+      "mention": "eccp-3633207-003-n011",
+      "quote": "nien-p'u"
+    }
+  ],
+  "note": "Descriptive title: the one-juan chronology of Akedun compiled by Na-yen-ch’eng, mentioned with the 1816 reprint. Not the chronology of Zeng Guofan."
+}

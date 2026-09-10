@@ -35,13 +35,13 @@ with sync_playwright() as pw:
     page.screenshot(path='/mnt/data/ren-wen-eccp-hover.png')
     page.keyboard.press('Escape');assert page.locator('#entity-card').is_hidden()
     a=page.locator('#eccp-01-m04').locator('..');a.focus();page.keyboard.press('ArrowDown');page.keyboard.press('Escape');assert page.locator('#entity-card').is_hidden()
-    print('Switching',flush=True);page.locator('#source-select').select_option('eccp-guo-songtao');page.wait_for_selector('#eccp-guo-songtao-01');page.wait_for_timeout(250)
+    print('Switching',flush=True);page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'eccp-guo-songtao');page.wait_for_selector('#eccp-guo-songtao-01');page.wait_for_timeout(250)
     assert '郭嵩燾' in page.locator('#reader h1').inner_text()
     page.locator('#reader a[data-work-link]').first.hover();page.wait_for_selector('#entity-card:not([hidden])')
     workhref=page.locator('#entity-card a',has_text='Work profile').get_attribute('href');assert workhref.startswith('works.html#work-')
     assert page.locator('#entity-card a',has_text='Read this ECCP passage').get_attribute('href').startswith('./?passage=')
     page.locator('#entity-card .card-review').click();page.wait_for_selector('#inspector:not([hidden])');assert 'work' in page.locator('#inspector-body').inner_text()
-    page.locator('#close-inspector').click();page.locator('#source-select').select_option('eccp');page.wait_for_selector('#eccp-01');page.wait_for_timeout(250)
+    page.locator('#close-inspector').click();page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'eccp');page.wait_for_selector('#eccp-01');page.wait_for_timeout(250)
     page.locator('#eccp-03-m01').hover();page.wait_for_selector('#entity-card:not([hidden])')
     assert page.locator('#entity-card a',has_text='Discussed in ECCP').count()==1
     assert page.locator('#entity-card a',has_text='Read ECCP entry').count()==0
@@ -49,7 +49,7 @@ with sync_playwright() as pw:
     # Every annotated name and work has a native local destination on every new source.
     page.locator('#close-inspector').click();page.locator('#review-names').uncheck()
     for wid in ['eccp','eccp-guo-songtao','eccp-dong-xun','eccp-chonghou']:
-        page.locator('#source-select').select_option(wid);page.wait_for_selector('#'+wid+'-01');page.wait_for_timeout(220)
+        page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",wid);page.wait_for_selector('#'+wid+'-01');page.wait_for_timeout(220)
         assert page.locator('#reader p[id] a a').count()==0
         assert page.locator('#reader [data-entity^="work-"]').count()==page.locator('#reader a[data-work-link]').count()
         assert page.locator('#reader [data-entity^="person-"]').count()<=page.locator('#reader a[data-person-link]').count()

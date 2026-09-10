@@ -254,6 +254,7 @@ class Importer:
         return ident
     def annotate(self,n,wid,pid,subject,language='en'):
         text=n.text();hits=[];offsets=[]
+        from .editorial_cleanup import IMPERIAL
         def walk(x,pos=0,italic=False):
             if isinstance(x,str):return pos+len(x)
             start=pos
@@ -268,7 +269,8 @@ class Importer:
             if low in NOT_WORK or len(title)<4 or not re.search('[A-Za-z\u3400-\u9fff]',title):continue
             if not ((' ' in title and len(title)>7) or ('-' in title and len(title)>6) or re.search(HAN+'{2}',title)):continue
             if re.fullmatch(r'[0-9 /.,–—-]+',title):continue
-            ident=self.work_id(title,wid,pid);lo=a+len(x.text())-len(x.text().lstrip());hits.append((lo,lo+len(title),ident,1,'work-title-typography'))
+            # Italics are not an entity type. Record candidates for contextual review, not links.
+            self.evidence.append({'witness':wid,'passage':pid,'quote':title,'kind':'italic-expression','status':'needs-review'})
         for a,b,x,italic in offsets:
             if x.tag!='a' or b<=a:continue
             key=article_key(x.attrs.get('href',''));ident=self.article_people.get(key)
@@ -291,6 +293,7 @@ class Importer:
         # Repeated full names already attested in the shared catalogue.
         # A shared compiled matcher avoids scanning thousands of names separately.
         for a,b,term in self.name_matcher.find(text):
+            if text[a:b] in IMPERIAL:continue
             ids=self.terms.get(term,set())
             if len(ids)!=1:continue
             if language=='en' and not re.search(HAN,text[a:b]) and text[a].islower():continue
@@ -303,7 +306,7 @@ class Importer:
         if subject:
             p=self.people[subject]
             for term in [(p['name'].get('surname') or '')+p['name']['given']]+[r['value'] for r in p['name'].get('romanizations',[])]:
-                if term:relevant.append((term,subject))
+                if term and term not in IMPERIAL:relevant.append((term,subject))
         for term,ident in relevant:
             pattern=re.escape(term)
             if term[0].isascii() or ' ' in term:pattern=r'(?<![\w])'+pattern+r'(?![\w-])'
@@ -411,6 +414,7 @@ class Importer:
         dump(self.root/'data/imports/round1/manifest.json',json.load(open(self.raw/'manifest.json')))
         for name in ['inventory.json','eccp-index.response.json','qsg-index.response.json']:
             shutil.copyfile(self.raw/name,self.root/'data/imports/round1'/name)
+        dump(self.root/'data/editorial/import-candidates.json',{'schemaVersion':1,'status':'needs-review','candidates':self.evidence})
         print(json.dumps(report['counts'],ensure_ascii=False,indent=2))
     def run(self):
         if (self.root/'data/collections/eccp.json').exists():raise ValueError('Round one already imported; use reviewed changes, not a destructive rebuild')

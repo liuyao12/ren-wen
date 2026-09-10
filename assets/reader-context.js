@@ -1,3 +1,4 @@
+import {visibleLabelLayers} from './place-model.js';
 import {loadNameHistory, paragraphAnchor} from './name-history.js';
 import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
@@ -29,7 +30,7 @@ async function install(){
   const entities=new Map(catalog.entities.map(e=>[e.id,e]));
   let current=null, selectedPerson=null, pendingJump=null;
   let view=[...REGIONAL_VIEW], boundaries=validateBoundaries(geo.boundaries,geo.jurisdictions);
-  let chosenJurisdiction=null, lastPassage=null, frame=0;
+  let chosenJurisdiction=null, lastPassage=null, frame=0, selectedPlace=null;
   const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
   const report=(text,params={})=>{bindText($('context-map-status'),text,params);};
   const placeName=p=>getLocale()==='zh-Hant'?(p?.label||p?.display||''):(p?.display||p?.label||'');
@@ -38,7 +39,7 @@ async function install(){
   function focusPassage(witness,passage){
     dialog.close();const target=$(passage);
     if($('source-select').value===witness&&target){target.click();target.scrollIntoView({block:'start',behavior:reduced()?'instant':'smooth'});return;}
-    pendingJump={witness,passage};$('source-select').value=witness;$('source-select').dispatchEvent(new Event('change',{bubbles:true}));
+    pendingJump={witness,passage};window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness,passage}}));
   }
   dialog.addEventListener('click',e=>{const b=e.target.closest('[data-evidence-passage]');if(b)focusPassage(b.dataset.witness,b.dataset.evidencePassage);});
   const passageButton=(w,p)=>`<button data-witness="${h(w)}" data-evidence-passage="${h(p)}">${ui("Read {passage}",{passage:p})}</button>`;
@@ -53,7 +54,7 @@ async function install(){
   const mapBody=document.createElement('div');mapBody.className='context-map-body';
   mapBody.innerHTML=`<div class="context-map-toolbar"><label>${ui("Trajectory")} <select id="trajectory-person" aria-label="${h(t("Whose life trajectory"))}" data-i18n-aria-label="Whose life trajectory"></select></label><label>${ui("Show")} <select id="trajectory-scope"><option value="all" data-i18n="All recorded journeys">${t("All recorded journeys")}</option><option value="passage" data-i18n="This passage">${t("This passage")}</option><option value="year" data-i18n="Through viewing year">${t("Through viewing year")}</option></select></label></div>
   <div class="reference-map-controls"><label>${ui("Historical reference map")} <select id="reference-year"><option value="1911">1911 · 宣統三年</option><option value="1820">1820 · 嘉慶二十五年</option><option value="none" data-i18n="Hide reference map">${t("Hide reference map")}</option></select></label><label>${ui("Detail")} <select id="reference-detail"><option value="auto" data-i18n="By zoom">${t("By zoom")}</option><option value="province">省</option><option value="prefecture">省／府</option><option value="county">省／府／縣</option></select></label></div>
-  <div class="interactive-map"><svg id="historic-map" viewBox="125 38 22 16" role="group" tabindex="0" aria-label="${h(t("Interactive map. Drag or pinch; use plus, minus, arrow keys, or Home."))}" data-i18n-aria-label="Interactive map. Drag or pinch; use plus, minus, arrow keys, or Home."><defs><marker id="trajectory-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z"/></marker></defs><rect class="sea" x="0" y="0" width="170" height="80"/><image href="assets/land.svg" width="170" height="80"/><g id="historical-reference-images" pointer-events="none"></g><g id="historical-boundaries"></g><g id="life-trajectories"></g><g id="context-places"></g></svg>
+  <div class="interactive-map"><svg id="historic-map" viewBox="125 38 22 16" role="group" tabindex="0" aria-label="${h(t("Interactive map. Drag or pinch; use plus, minus, arrow keys, or Home."))}" data-i18n-aria-label="Interactive map. Drag or pinch; use plus, minus, arrow keys, or Home."><defs><marker id="trajectory-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z"/></marker></defs><rect class="sea" x="0" y="0" width="170" height="80"/><image href="assets/land.svg" width="170" height="80"/><g id="historical-reference-images" pointer-events="none"></g><g id="historical-reference-labels" pointer-events="none"></g><g id="historical-boundaries"></g><g id="life-trajectories"></g><g id="context-places"></g></svg>
   <div class="map-zoom"><button id="context-zoom-in" aria-label="${h(t("Zoom in"))}" data-i18n-aria-label="Zoom in">+</button><button id="context-zoom-out" aria-label="${h(t("Zoom out"))}" data-i18n-aria-label="Zoom out">−</button><button id="context-map-home" aria-label="${h(t("Reset map"))}" data-i18n-aria-label="Reset map">⌂</button></div></div>
   <div class="context-map-actions"><button id="context-world">${ui("World overview")}</button><button id="context-fit-passage">${ui("Fit passage")}</button><button id="context-fit-journey">${ui("Fit journeys")}</button><span id="context-map-year"></span></div>
   <p class="context-caption">${ui("Drag · scroll / pinch to zoom · arrows show stop order, not actual travel paths. Modern reference coastline and city points.")}</p><p id="reference-map-status" class="reference-status" role="status"></p><details class="reference-attribution"><summary>${ui("Map coverage and attribution")}</summary><p>${ui("Cropped middle/lower Yangtze reference maps only (108–123°E, 24–35°N). Snapshot dates are independent of the viewing year; no historical interpolation is implied. County boundaries are available only for the 1911 snapshot.")}</p><p>CHGIS Version 6. © Fairbank Center for Chinese Studies and the Institute for Chinese Historical Geography at Fudan University, Dec 2016.</p><p><a href="assets/maps/CHGIS-V6-EULA.txt" target="_blank" rel="noopener">${ui("Source terms and map-image attribution")}</a></p></details>
@@ -64,6 +65,23 @@ async function install(){
   for(const old of panel.querySelectorAll(':scope > .map-tools,:scope > .map-wrap,:scope > .map-note,:scope > .place-body'))old.hidden=true;
   $('map-reset').hidden=true;panel.querySelector('.panel-footer').before(mapBody);
   const map=$('historic-map');
+  const namesToggle=document.createElement('label');namesToggle.className='reference-name-toggle';
+  namesToggle.innerHTML=`<input id="reference-names" type="checkbox" checked> ${ui('Jurisdiction names')}`;
+  mapBody.querySelector('.reference-map-controls').append(namesToggle);
+  $('reference-names').onchange=()=>paintMap(false);
+  const labelImages=[];
+  for(const layer of reference?.labelLayers||[]) {
+    if(!/^assets\/maps\/chgis-\d{4}-(province|prefecture|county)-names-(overview|regional|detail)\.png$/.test(layer.file))continue;
+    const [west,south,east,north]=layer.bbox;
+    const image=add('image',{href:layer.file,x:west+20,y:75-north,width:east-west,height:north-south,preserveAspectRatio:'none',visibility:'hidden','data-label-year':layer.year,'data-label-level':layer.level,'data-label-variant':layer.variant,'aria-label':`${layer.year} ${layer.level} · ${layer.labelCount} names`},$('historical-reference-labels'));
+    image.addEventListener('error',()=>{image.dataset.loadError='true';report('Map name layer unavailable.');});
+    labelImages.push({layer,image});
+  }
+  window.addEventListener('renwen:place-selected',event=>{
+    const p=entities.get(event.detail?.id);if(p?.type!=='place')return;
+    selectedPlace=p.id;fit([p.id]);paintMap();
+    if(!p.point)report('Place identified in text; historical coordinates have not been established.');
+  });
   $('reference-year').onchange=()=>paintMap(false);
   $('reference-detail').onchange=()=>paintMap(false);
   $('context-world').onclick=()=>setView([0,0,170,80]);
@@ -144,13 +162,15 @@ async function install(){
   function journeyEvidence(j){const s=catalog.sources.find(s=>s.id===j.witness);evidence(j.label,`<p>${ui(j.basis)}</p><p>${ui("Status:")} ${ui(j.status)} · ${ext(s.revisionUrl,s.shortTitle)}</p>${j.stops.map(stop=>`<p><strong>${h(stop.date)}</strong> · ${h(placeName(entities.get(stop.place))||stop.place)} · ${ui(stop.kind)}<br><small>${h(stop.original)}</small></p>`).join('')}${passageButton(j.witness,j.passage)}`);}
   function paintMap(details=true){
     const snapshot=Number($('reference-year').value),mode=$('reference-detail').value,levels=referenceLevels(snapshot,view[2],mode);
+    const visibleNames=new Set(visibleLabelLayers(reference?.labelLayers||[],snapshot,view[2],levels,$('reference-names').checked).map(l=>l.id));
+    for(const r of labelImages)r.image.setAttribute('visibility',visibleNames.has(r.layer.id)?'visible':'hidden');
     for(const r of referenceImages)r.image.setAttribute('visibility',r.layer.year===snapshot&&levels.includes(r.layer.level)?'visible':'hidden');
     const levelLabels={province:'省',prefecture:'府',county:'縣'};
     bindText($('reference-map-status'),referenceImages.length?(levels.length?'Reference {year} · {levels} · cropped region, not a map of the viewing year':'Reference map hidden'):'Reference map unavailable',{year:snapshot,levels:levels.map(l=>levelLabels[l]).join('／')});
     if(snapshot===1820&&(mode==='county'||(mode==='auto'&&view[2]<=7)))$('reference-map-status').append(' · '+t('1820 county boundaries unavailable; select 1911.'));
     map.querySelector(':scope > image').setAttribute('opacity',levels.length&&view[2]<30?'0.12':'1');
     if(!current)return;
-    const segments=visibleSegments(),ids=new Set(current.context.entityIds),k=Math.max(view[2]/(map.clientWidth||400),view[3]/(map.clientHeight||240));
+    const segments=visibleSegments(),ids=new Set([...current.context.entityIds,...(selectedPlace?[selectedPlace]:[])]),k=Math.max(view[2]/(map.clientWidth||400),view[3]/(map.clientHeight||240));
     const shapes=$('historical-boundaries');shapes.replaceChildren();const shown=boundaries.filter(f=>inYears({start:f.properties.startYear,end:f.properties.endYear},current.year)&&($('boundary-level').value==='all'||f.properties.level===$('boundary-level').value));
     for(const f of shown){const p=f.properties,j=geo.jurisdictions.find(j=>j.id===p.jurisdictionId);const path=add('path',{d:boundaryPath(f.geometry),class:`historical-boundary ${p.level}`,'fill-rule':'evenodd',tabindex:0,role:'button','aria-label':j.label},shapes);add('title',{},path,`${j.label} · ${p.startYear}–${p.endYear} · locally supplied boundary`);const open=()=>{chosenJurisdiction=j.id;updateHierarchy();evidence(j.label,`<p>${ext(p.source,'Boundary source')}</p><p>${h(p.attribution)} · ${h(p.license)}</p><p>Valid ${p.startYear}–${p.endYear}. Locally supplied; not independently reviewed by Ren-Wen.</p>`);};path.onclick=open;path.onkeydown=e=>{if(e.key==='Enter')open();};}
     const routes=$('life-trajectories');routes.replaceChildren();
@@ -190,7 +210,7 @@ async function install(){
     if(sourceChanged){selectedPerson=source.subject;}
     if(!selectedPerson||!ids.includes(selectedPerson))selectedPerson=source.subject;
     $('trajectory-person').innerHTML=ids.map(id=>`<option value="${h(id)}">${h(shortName(people.get(id)))}</option>`).join('');$('trajectory-person').value=selectedPerson;
-    if(lastPassage!==paragraph.id){const c=geo.placeContexts.find(c=>context.entityIds.includes(c.place));chosenJurisdiction=c?.jurisdiction||null;lastPassage=paragraph.id;report('');}
+    if(lastPassage!==paragraph.id){selectedPlace=null;const c=geo.placeContexts.find(c=>context.entityIds.includes(c.place));chosenJurisdiction=c?.jurisdiction||null;lastPassage=paragraph.id;report('');}
     updateTimeline();updateHierarchy();paintMap();
     if(pendingJump&&pendingJump.witness===source.id&&$(pendingJump.passage)){const p=pendingJump;pendingJump=null;focusPassage(p.witness,p.passage);}
   }

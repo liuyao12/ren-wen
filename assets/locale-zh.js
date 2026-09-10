@@ -1,5 +1,14 @@
 /** UI translations only. Source text and historical records are never translated here. */
 export default {
+"Place names":"地名",
+"Place record":"地名資料",
+"PLACE · 地":"地名 · 地",
+"Show place on map":"在地圖查看",
+"Jurisdiction names":"政區名稱",
+"Map name layer unavailable.":"政區名稱圖層未能載入。",
+"Place identified in text; historical coordinates have not been established.":"已辨認文中地名；歷史坐標尚待確定。",
+"Place reference; jurisdiction and travel are separate claims.":"地名出現不等於政區身分或人物行跡。",
+
   "People through texts. Texts in context.": "以文識人，因人讀文。",
   "People · 人": "人物",
   "Works · 文": "著作",
