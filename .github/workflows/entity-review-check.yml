@@ -1,0 +1,25 @@
+name: Review entities and source navigation
+on:
+  push:
+    branches: [entity-review-source-navigation]
+    paths: ['.github/workflows/entity-review-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preserve exact source
+        run: |
+          mkdir -p build
+          git archive --format=tar.gz -o build/review-source.tar.gz HEAD
+          git rev-parse HEAD > build/review-commit.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: entity-review-source
+          path: |
+            build/review-source.tar.gz
+            build/review-commit.txt
+          retention-days: 7
