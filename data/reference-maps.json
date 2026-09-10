@@ -29,9 +29,9 @@
       "sourceFileId": 2966705,
       "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966705",
       "sourceSha256": "4fd8d5972ab54f8151deed27adbb29be9e6cdcab30981e57d271d283b4f8d570",
-      "sha256": "b9ce3b6955ee584763512492247a490f3023e355f20f3c452880da23ea4915a0",
+      "sha256": "54a1d3314b45b2220b08d64f6a0dc72a6291c1b4b466cb0b3b51d4781e9ff1df",
       "retrieved": "2026-09-09T03:08:48.344884+00:00",
-      "changes": "Reprojected to WGS84 lon/lat; cropped to 108–123E, 24–35N; rendered as transparent raster linework. Polygon outlines are map illustrations, not interactive source geometries.",
+      "changes": "Reprojected to WGS84 lon/lat; cropped to 108–123E, 24–35N; rendered as transparent raster linework. Polygon outlines are map illustrations, not interactive source geometries. Province names moved to separately switchable label illustrations.",
       "fieldsInspected": [
         "NAME_PY",
         "NAME_CH",
@@ -115,9 +115,9 @@
       "sourceFileId": 2966688,
       "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966688",
       "sourceSha256": "fdb242671598c80f10bf4ba9be2a22cce659866541d5c351e07a55975d112f30",
-      "sha256": "f260b78694b9050f714eb65268daf1a7e63d0c38f233c0e8b1de052dc2e4a222",
+      "sha256": "55bb0ca404fbcc6a8b0f17aca14e06c122109c83a53a3bf2e9243f60af42e879",
       "retrieved": "2026-09-09T03:08:53.271731+00:00",
-      "changes": "Reprojected to WGS84 lon/lat; cropped to 108–123E, 24–35N; rendered as transparent raster linework. Polygon outlines are map illustrations, not interactive source geometries.",
+      "changes": "Reprojected to WGS84 lon/lat; cropped to 108–123E, 24–35N; rendered as transparent raster linework. Polygon outlines are map illustrations, not interactive source geometries. Province names moved to separately switchable label illustrations.",
       "fieldsInspected": [
         "SYS_ID",
         "OID_",
@@ -247,5 +247,183 @@
       ]
     }
   ],
-  "defaultYear": 1911
+  "defaultYear": 1911,
+  "labelLayers": [
+    {
+      "id": "chgis-1820-province-names-overview",
+      "file": "assets/maps/chgis-1820-province-names-overview.png",
+      "year": 1820,
+      "level": "province",
+      "variant": "overview",
+      "minViewWidth": 0,
+      "maxViewWidth": 1000,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 14,
+      "candidateCount": 16,
+      "sourceFileId": 2966705,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966705",
+      "sourceSha256": "4fd8d5972ab54f8151deed27adbb29be9e6cdcab30981e57d271d283b4f8d570",
+      "sha256": "a8278147f6b41a84399efa6897aeadc9c8c6247259dcc3dca12e97f63a937a98",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1820-prefecture-names-regional",
+      "file": "assets/maps/chgis-1820-prefecture-names-regional.png",
+      "year": 1820,
+      "level": "prefecture",
+      "variant": "regional",
+      "minViewWidth": 6,
+      "maxViewWidth": 1000,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 121,
+      "candidateCount": 150,
+      "sourceFileId": 2966700,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966700",
+      "sourceSha256": "b82c52cd57bfb6bb133f20326cf0628cfa22a608684a8fd9df71a24931d51adb",
+      "sha256": "3b40af1f9192481f5ca9d675ca8b591612f204957f3a666a3a46b2e09dbe987e",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1820-prefecture-names-detail",
+      "file": "assets/maps/chgis-1820-prefecture-names-detail.png",
+      "year": 1820,
+      "level": "prefecture",
+      "variant": "detail",
+      "minViewWidth": 0,
+      "maxViewWidth": 6,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 138,
+      "candidateCount": 150,
+      "sourceFileId": 2966700,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966700",
+      "sourceSha256": "b82c52cd57bfb6bb133f20326cf0628cfa22a608684a8fd9df71a24931d51adb",
+      "sha256": "a162d53e226d6f152e706dffb8f72f6526866dca4f9e9f9ba0acbceaf404abea",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1911-province-names-overview",
+      "file": "assets/maps/chgis-1911-province-names-overview.png",
+      "year": 1911,
+      "level": "province",
+      "variant": "overview",
+      "minViewWidth": 0,
+      "maxViewWidth": 1000,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 15,
+      "candidateCount": 17,
+      "sourceFileId": 2966688,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966688",
+      "sourceSha256": "fdb242671598c80f10bf4ba9be2a22cce659866541d5c351e07a55975d112f30",
+      "sha256": "1155af7fef0b4eb68b4d772d6b0e5081d5a19c5de729fd7613757717cc5e164f",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1911-prefecture-names-regional",
+      "file": "assets/maps/chgis-1911-prefecture-names-regional.png",
+      "year": 1911,
+      "level": "prefecture",
+      "variant": "regional",
+      "minViewWidth": 6,
+      "maxViewWidth": 1000,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 121,
+      "candidateCount": 152,
+      "sourceFileId": 2966689,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966689",
+      "sourceSha256": "93fc7652ea8595fe64076a1c70373b9a4ef4dfc4b8698037ff9f61319067ed2e",
+      "sha256": "f830eea83a8c5060c40919a0949c35718e3ba969c6865370eea36b791f1922d4",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1911-prefecture-names-detail",
+      "file": "assets/maps/chgis-1911-prefecture-names-detail.png",
+      "year": 1911,
+      "level": "prefecture",
+      "variant": "detail",
+      "minViewWidth": 0,
+      "maxViewWidth": 6,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 141,
+      "candidateCount": 152,
+      "sourceFileId": 2966689,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966689",
+      "sourceSha256": "93fc7652ea8595fe64076a1c70373b9a4ef4dfc4b8698037ff9f61319067ed2e",
+      "sha256": "06ecafeb1b16dd266596c1ca5e8811c6a4bc5a095d79e37fb52d854b81e885a2",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1911-county-names-regional",
+      "file": "assets/maps/chgis-1911-county-names-regional.png",
+      "year": 1911,
+      "level": "county",
+      "variant": "regional",
+      "minViewWidth": 3,
+      "maxViewWidth": 1000,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 546,
+      "candidateCount": 773,
+      "sourceFileId": 2966692,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966692",
+      "sourceSha256": "7c6e5fd0b8d326dfbaa902b0984cb6a48ef7e59f96d848ab9f52e4f6958c7702",
+      "sha256": "defacee046274448cc299acebe4b17d1d6d7be1a948643373910da85827f8cb2",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    },
+    {
+      "id": "chgis-1911-county-names-detail",
+      "file": "assets/maps/chgis-1911-county-names-detail.png",
+      "year": 1911,
+      "level": "county",
+      "variant": "detail",
+      "minViewWidth": 0,
+      "maxViewWidth": 3,
+      "bbox": [
+        108,
+        24,
+        123,
+        35
+      ],
+      "labelCount": 715,
+      "candidateCount": 773,
+      "sourceFileId": 2966692,
+      "sourceURL": "https://dataverse.harvard.edu/api/access/datafile/2966692",
+      "sourceSha256": "7c6e5fd0b8d326dfbaa902b0984cb6a48ef7e59f96d848ab9f52e4f6958c7702",
+      "sha256": "06bd3574f7f5f4f1faf61885566927193b9b0a8a330a3bb9febca6e8cfa30d49",
+      "changes": "Chinese labels from NAME_FT (fallback NAME_CH), at interior cartographic positions, not county seats. Cropped to the same academic map region; collision filtering and scale-dependent type sizes. No vector geometry or gazetteer table distributed."
+    }
+  ]
 }

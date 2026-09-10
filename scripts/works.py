@@ -11,6 +11,8 @@ def load_works(root:Path=ROOT)->list[dict]:
     if index.get('schemaVersion')!=1 or not isinstance(index.get('works'),list):raise ValueError('Invalid work index')
     catalog=json.loads((root/'data/catalog.json').read_text());entities={e['id']:e for e in catalog['entities']}
     mentions={m['id']:m for m in catalog['mentions']};result=[];seen=set()
+    qp=root/'data/editorial/identification-review.json'
+    quarantined={m['id']:m for m in json.loads(qp.read_text()).get('quarantined',[])} if qp.exists() else {}
     for filename in index['works']:
         if not isinstance(filename,str) or not re.fullmatch(r'work-[a-z0-9-]+\.json',filename) or filename in seen:raise ValueError('Invalid or duplicate work filename')
         seen.add(filename);p=json.loads((folder/filename).read_text())
@@ -18,7 +20,9 @@ def load_works(root:Path=ROOT)->list[dict]:
         if entities.get(p['id'],{}).get('type')!='work':raise ValueError('Missing work entity')
         if p.get('reviewStatus') not in {'agent-proposed','reviewed','disputed'}:raise ValueError('Invalid work review status')
         if p['reviewStatus']=='reviewed' and not p.get('reviewedBy'):raise ValueError('Actual reviewer required')
-        if not p.get('sources') or not p.get('mentions'):raise ValueError('Work evidence required')
+        if not p.get('sources') or not (p.get('mentions') or (p.get('identificationStatus')=='needs-review' and p.get('quarantinedMentions'))):raise ValueError('Work evidence required')
+        for mid in p.get('quarantinedMentions',[]):
+            if quarantined.get(mid,{}).get('entity')!=p['id']:raise ValueError('Missing quarantined work evidence')
         for source in p['sources'].values():
             u=urlparse(source.get('url',''))
             if u.scheme not in {'http','https'} or not u.netloc:raise ValueError('Unsafe work evidence URL')

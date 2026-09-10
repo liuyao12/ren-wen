@@ -133,7 +133,7 @@ with sync_playwright() as pw:
     assert 'Titles as attested' in work.locator('#work').inner_text()
     assert 'works' in work.locator('#work-count').inner_text()
     # Chinese source text and its punctuation visibility are unaffected by UI switching.
-    page.locator('#source-select').select_option('qsg')
+    page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'qsg')
     page.wait_for_selector('#qsg-01')
     page.locator('#punctuation').check()
     qsg = page.locator('#qsg-01').text_content()

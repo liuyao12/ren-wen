@@ -67,3 +67,10 @@
 
 .release-info { color: #646b70; font-size: 10px; white-space: nowrap; padding: 0 7px; }
 @media (max-width: 760px) { .release-info { display: none; } }
+
+.text-panel>.panel-heading{flex-wrap:wrap;height:auto;min-height:64px;gap:.45rem;padding-bottom:.5rem}
+.source-navigation{display:flex;flex:1 1 520px;gap:.45rem;min-width:0;align-items:center}
+.source-navigation select{width:auto!important;min-width:0;max-width:none!important;flex:1}
+.source-navigation #source-select{flex:3}.source-navigation #source-family{max-width:110px!important}.source-navigation #source-group{max-width:150px!important}
+.editorial-review-link{display:inline-block;margin-left:.7rem}.review-row{border-bottom:1px solid #ddd;padding:1rem 0}.review-row q{display:block;margin:.5rem 0}.review-controls{display:flex;flex-wrap:wrap;gap:.8rem;margin:1rem 0}.review-controls input{flex:1;min-width:12rem}
+@media(max-width:680px){.source-navigation{flex-basis:100%;flex-wrap:wrap}.source-navigation #source-select{flex-basis:100%}}

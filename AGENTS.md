@@ -86,53 +86,36 @@ intervals, not Gregorian calendar years. Display 享年 without 虛歲 commentar
 Keep source Gregorian dates separate and unbracketed; never infer a Chinese year
 or exact age from a Gregorian year alone. Source quotations remain unchanged.
 
-## Shortened personal names: language and narrative scope
+## Contextual identification review
 
-Project convention recorded on 2026-09-10: after an identifying introduction,
-Chinese historical narrative commonly continues with the given name (名), while
-English narrative commonly continues with the surname. Use this as a contextual
-identification rule, not as a universal string substitution or a requirement that
-an author always abbreviate. Determine language from the source passage, not the
-reader's Chinese/English interface setting; embedded quotations may differ from
-the surrounding prose.
+See `docs/editorial-review.md` and the source-filtered `review.html` queue.
+Italics alone never establish a work; temple/reign names are not global person
+aliases. Read each occurrence's dynasty, event chronology and quotation context.
+Preserve original wording and old annotation IDs even when a guess is withdrawn.
+A printed "see under" relation is navigation, not necessarily person identity.
+Do not restore quarantined guesses during re-import. The Sept 10 migration is a
+one-time reproducible operation; subsequent editorial corrections are new patches.
 
-- In a Chinese account introducing 曾國藩, subsequent 國藩 is a candidate reference
-  to that person. In an English account introducing Tsêng Kuo-fan, subsequent
-  Tsêng is a candidate reference. Preserve every occurrence's exact wording and
-  link a resolved short form to the same person ID, not a new abbreviated-name
-  profile. These examples illustrate the rule; they are not source quotations.
-- Establish the relevant people and the current narrative subject before resolving
-  a short form. A full-name mention establishes an anchor but does not override
-  an existing same-name ambiguity. Use syntax, relationships, explicit titles,
-  and the described events to distinguish candidates; neither the first named
-  person, the biography's main subject, nor the nearest name wins automatically.
-  Where 曾國藩 and 曾紀澤 are both relevant, 國藩 and 紀澤 distinguish them; Tsêng
-  alone may require additional context. Leave an unresolved occurrence unlinked
-  with candidate IDs and an explanation in the review record.
-- Scope recognition to the account and its narrative thread. Do not reset merely
-  at a paragraph break. Explicit subject changes, subordinate biographies, and
-  transitions to another account require reassessing the referent. Quotations
-  and embedded documents have their own speaker, addressee, and reference context;
-  inherit an outer referent only where the attribution or wording supports it.
-  A quoted text found in another witness must be checked in that witness too.
-- Use attested name components. Do not derive 名 by simply dropping the first
-  Chinese character, assume every name has a Han surname, or split Manchu or
-  Mongolian names mechanically. One-character names must be recognized as name
-  occurrences in context, not tagged inside ordinary words or longer names.
-  Courtesy names, sobriquets, titles, and historically changed names are distinct
-  attested forms; do not relabel them as given-name or surname abbreviations.
-- Record the literal short form as a source-specific attestation with its witness,
-  passage/mention ID, and the source's publication/composition date where known.
-  Record the identifying antecedent and the resolution reason in its review
-  evidence. A source date is not the date of the event or proof of when a name
-  was adopted. Never export 國藩 or Tsêng as an unqualified global alias that
-  identifies all matching strings elsewhere in the corpus.
-- Before expanding an automatic recognizer, add regressions for Chinese given-name
-  continuations, English surname continuations, two same-surname relatives,
-  same-given-name collisions, subject switches, nested quotations, compound
-  surnames, single-character names, unsplittable names, and interface-language
-  independence. Markup changes must preserve all original text and formatting.
+## Contextual shortened names
 
-Emperor expressions such as 帝, 上, 太宗, or "the Emperor" require separate
-contextual resolution; they are not shortened personal names under this rule.
-Do not treat italic typography as evidence that any personal-name form is a work.
+After an identifying introduction, Chinese texts commonly use the given name
+(曾國藩 → 國藩); English prose commonly uses the surname (Tsêng Kuo-fan → Tsêng).
+Apply this by the source language, not the interface language. These are distinct
+mentions of the existing person, not new profiles or unrestricted global aliases.
+Context continues across paragraphs but must be reassessed at a subject change,
+subordinate biography or quotation. Use attested name components; do not mechanically
+drop a first Chinese character or split Manchu/Mongolian names. Resolve same-surname
+and same-given-name collisions by evidence, not nearest-name or subject defaults.
+Preserve literal forms and identifying antecedents in source-specific attestations.
+Emperor titles, sobriquets and offices require their own contextual resolution.
+
+## Place annotations and map names
+
+Use scripts/place_review.py for a reproducible conservative first pass, not a
+claim of exhaustive contextual review. Its separate lexical-candidate queue is
+not a collection of resolved places. Protect people, works, italics and Chinese
+title brackets. Never infer an itinerary or historical point from a native place,
+office or book title. English place aliases also need source and provincial context.
+County/prefecture map names come from the SAME dated CHGIS sources as the illustrated
+boundaries. Keep the crop, attribution, and original source checksums. Publish only
+map illustrations, not CHGIS vectors, full attribute tables, or font files.

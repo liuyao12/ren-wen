@@ -54,7 +54,7 @@ with sync_playwright() as p:
         page.screenshot(path=str(a.output/'reader.png'))
         page.locator('#reader a[data-person-link]').first.hover();page.wait_for_selector('#entity-card:not([hidden])');assert page.locator('#entity-card a').count()>=2;page.keyboard.press('Escape')
         report['hoverDestinations']=True
-        page.locator('#source-select').select_option('qsg');page.wait_for_selector('#qsg-02');assert page.locator('#reader p[id]').count()==4
+        page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'qsg');page.wait_for_selector('#qsg-02');assert page.locator('#reader p[id]').count()==4
         page.locator('[data-unit-occurrence="occ-qsg-yili-memorial"]').click();page.wait_for_selector('.unit-reading')
         original=page.locator('.unit-reading').inner_text();assert '伊犁一役' in original
         assert page.locator('.unit-breadcrumb a').count()==1

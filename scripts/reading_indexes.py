@@ -15,7 +15,7 @@ def build(root=ROOT):
                 out['name'].pop('registration',None)
                 keys={a.get('source') for a in p['accounts']} | {p['name'].get('source')} | {x.get('source') for x in p['life'].get('westernYears',[])} | {x.get('source') for x in p['life'].get('westernDates',[])} | {(p['life'].get(e) or {}).get('source') for e in ['birth','death']}
                 out['sources']={key:{'title':p['sources'][key]['title'],'url':p['sources'][key]['url']} for key in keys if key in p['sources']}
-            else:out={k:copy.deepcopy(p.get(k,[] if k in ['attestedTitles','creators'] else '')) for k in ['schemaVersion','id','type','title','attestedTitles','kind','creators','reviewStatus']}
+            else:out={k:copy.deepcopy(p.get(k,[] if k in ['attestedTitles','creators'] else '')) for k in ['schemaVersion','id','type','title','attestedTitles','kind','creators','reviewStatus','identificationStatus']}
             out['summaryOnly']=True;records.append(out)
         bundle={'schemaVersion':1,'derived':True,'records':records}
         (base/'bundle.json').write_text(encode(bundle),encoding='utf-8')

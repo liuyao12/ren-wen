@@ -1,3 +1,4 @@
+import {placeURL,linkPlaceMentions} from './place-model.js';
 import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 /** Accessible, non-modal navigation cards for annotated people and named works. */
@@ -24,17 +25,18 @@ export async function installHover() {
   const reader=document.getElementById('reader');if(!reader)return;
   const [ps,ws,r]=await Promise.all([loadProfiles(),loadWorks(),fetchData('data/catalog.json')]);
   if(!r.ok)throw Error('Hover navigation: catalogue unavailable.');
-  const catalog=await r.json(),people=new Map(ps.map(p=>[p.id,p])),works=new Map(ws.map(w=>[w.id,w]));
+  const catalog=await r.json(),people=new Map(ps.map(p=>[p.id,p])),works=new Map(ws.map(w=>[w.id,w])),places=new Map(catalog.entities.filter(e=>e.type==='place').map(e=>[e.id,e]));
   const card=document.createElement('div');card.id='entity-card';card.className='entity-card';card.hidden=true;
   card.setAttribute('role','dialog');card.setAttribute('data-i18n-aria-label','Profile and source navigation');card.setAttribute('aria-label',t('Profile and source navigation'));
   document.body.append(card);
   let active=null,showTimer=null,hideTimer=null,suppressFocus=false;
-  const selector='a[data-person-link],a[data-work-link]';
+  const selector='a[data-person-link],a[data-work-link],a[data-place-link]';
   const observer=new MutationObserver(enhance);
   function enhance(){
     observer.disconnect();
     if(active && !active.isConnected)hide();
     linkWorkMentions(reader,works);
+    linkPlaceMentions(reader,places);
     for(const a of reader.querySelectorAll(selector)) {
       a.removeAttribute('title');a.setAttribute('aria-haspopup','dialog');a.setAttribute('aria-controls',card.id);
       if(a!==active)a.setAttribute('aria-expanded','false');
@@ -60,7 +62,7 @@ export async function installHover() {
     if(active===a && !card.hidden)return;
     if(active)active.setAttribute('aria-expanded','false');
     active=a;const pid=a.dataset.personLink,wid=a.dataset.workLink,mention=a.querySelector('[data-entity]');
-    const p=people.get(pid),w=works.get(wid);if(!p && !w){hide();return;}
+    const p=people.get(pid),w=works.get(wid),place=places.get(a.dataset.placeLink);if(!p && !w && !place){hide();return;}
     const choices=[];let heading,detail;
     if(p){
       heading=canonicalName(p);
@@ -70,14 +72,19 @@ export async function installHover() {
       if(entry)choices.push(anchor(entry.url,entry.label,entry.external));
       else choices.push(`<span class="card-note">${ui("No separate ECCP entry identified.")}</span>`);
       if(entry?.relation==='mentioned-in')choices.push(`<span class="card-note">${ui("A discussion under another person, not a separate biography.")}</span>`);
+    }else if(place){
+      heading=place.label;detail=`<p>${h(place.display)}</p><p>${ui('Place reference; jurisdiction and travel are separate claims.')}</p>`;
+      choices.push(anchor(placeURL(place.id),'Place record'));
+      choices.push(`<button type="button" class="card-map">${ui('Show place on map')}</button>`);
     }else{
       heading=w.title;detail=`<p>${ui(w.kind || 'work')} · ${(w.creators||[]).map(c=>`${h(people.has(c.person)?canonicalName(people.get(c.person)):c.person)} (${ui(c.role)})`).join(' · ') || ui('Authorship not entered')}</p>`;
       choices.push(anchor(workURL(w.id),'Work profile · 文'));
       const m=catalog.mentions.find(m=>m.id===mention?.id) || catalog.mentions.find(m=>m.entity===w.id);
       if(m)choices.push(anchor(readerURL(m.witness,m.passage),'Read this ECCP passage'));
     }
-    card.innerHTML=`<button type="button" class="card-close" aria-label="${h(t("Close navigation"))}" data-i18n-aria-label="Close navigation">×</button><div class="card-kind">${ui(p?'PERSON · 人':'WORK · 文')}</div><h2>${h(heading)}</h2>${detail}<nav aria-label="${h(t("Entity destinations"))}" data-i18n-aria-label="Entity destinations">${choices.join('')}</nav>${mention?.id?`<button type="button" class="card-review">${ui("Review this occurrence")}</button>`:''}<small>${ui("Source-linked draft · awaiting review")}</small>`;
+    card.innerHTML=`<button type="button" class="card-close" aria-label="${h(t("Close navigation"))}" data-i18n-aria-label="Close navigation">×</button><div class="card-kind">${ui(p?'PERSON · 人':place?'PLACE · 地':'WORK · 文')}</div><h2>${h(heading)}</h2>${detail}<nav aria-label="${h(t("Entity destinations"))}" data-i18n-aria-label="Entity destinations">${choices.join('')}</nav>${mention?.id?`<button type="button" class="card-review">${ui("Review this occurrence")}</button>`:''}<small>${ui("Source-linked draft · awaiting review")}</small>`;
     card.querySelector('.card-close').onclick=()=>hide(true);
+    const mapButton=card.querySelector('.card-map');if(mapButton)mapButton.onclick=()=>{const id=place.id;hide();window.dispatchEvent(new CustomEvent('renwen:place-selected',{detail:{id}}));};
     const review=card.querySelector('.card-review');if(review)review.onclick=()=>{
       const target=mention;hide();target.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true,altKey:true}));
     };
@@ -104,10 +111,10 @@ export async function installHover() {
   reader.addEventListener('click',e=>{
     const a=e.target.closest(selector);if(!a)return;
     const reviewing=e.altKey || document.getElementById('review-names')?.checked;
-    if(reviewing){hide();if(a.dataset.workLink)e.preventDefault();return;}
+    if(reviewing){hide();if(a.dataset.workLink || a.dataset.placeLink)e.preventDefault();return;}
     const touch=e.pointerType==='touch' || (matchMedia('(hover: none)').matches && e.detail>0);
     if(touch && !e.ctrlKey && !e.metaKey){e.preventDefault();e.stopPropagation();show(a);return;}
-    if(a.dataset.workLink)e.stopPropagation();
+    if(a.dataset.workLink || a.dataset.placeLink)e.stopPropagation();
   },true);
   card.addEventListener('pointerenter',()=>clearTimeout(hideTimer));
   card.addEventListener('pointerleave',scheduleHide);

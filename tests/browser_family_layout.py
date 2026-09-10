@@ -30,7 +30,7 @@ def fixture(page):
 
 def settle(page):page.wait_for_timeout(330)
 def choose(page,witness):
-    page.locator('#source-select').select_option(witness);page.wait_for_selector('#'+witness+'-01');settle(page)
+    page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",witness);page.wait_for_selector('#'+witness+'-01');settle(page)
 def scroll_to(page,id):
     page.locator('#reader').evaluate('''(reader,id)=>{reader.style.scrollBehavior='auto';const p=document.getElementById(id);reader.scrollTop+=p.getBoundingClientRect().top-reader.getBoundingClientRect().top-75;}''',id)
     settle(page)

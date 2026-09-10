@@ -40,7 +40,7 @@ with sync_playwright() as pw:
  # Source links and hover menus retain their two destinations.
  page.locator('#reader a[data-person-link]').first.hover();page.wait_for_selector('#entity-card:not([hidden])');assert page.locator('#entity-card a').count()>=2;page.keyboard.press('Escape')
  page.screenshot(path='/mnt/data/ren-wen-zeng-full-map.png')
- page.locator('#source-select').select_option('qsg');page.wait_for_selector('#qsg-02');page.wait_for_selector('[data-unit-occurrence="occ-qsg-yili-memorial"]');assert page.locator('#reader p[id]').count()==4;assert '伊犁一役' in page.locator('#qsg-02').inner_text()
+ page.evaluate("w=>window.dispatchEvent(new CustomEvent('renwen:navigate',{detail:{witness:w}}))",'qsg');page.wait_for_selector('#qsg-02');page.wait_for_selector('[data-unit-occurrence="occ-qsg-yili-memorial"]');assert page.locator('#reader p[id]').count()==4;assert '伊犁一役' in page.locator('#qsg-02').inner_text()
  q=b.new_page(viewport={'width':1200,'height':900});q.on('pageerror',lambda e:errors.append(str(e)));load(q,'texts.html');q.wait_for_selector('#text-unit h1');q.select_option('#unit-select','text-zeng-jize-yili-memorial');q.wait_for_timeout(250);assert '伊犁一役' in q.locator('.unit-reading').inner_text();assert q.locator('.unit-breadcrumb a').count()==1
  q.screenshot(path='/mnt/data/ren-wen-quotation-layer.png',full_page=True)
  q.locator('[data-set-locale="en"]').click();assert 'Read in full context' in q.locator('#text-unit').inner_text();assert '伊犁一役' in q.locator('.unit-reading').inner_text()
