@@ -77,3 +77,11 @@ The compact identity has no parentheses; zi/hao/posthumous labels are separate.
 Run `python -m scripts.name_history validate` and `python -m scripts.round1_validate`.
 A release is not delivered until Pages publishes its exact commit and real
 HTTP browser tests pass. Never call candidate QSG matches verified biographies.
+
+## Bracketed life years
+
+Display Chinese civil-year labels as `[1839]–[1890]`, using only resolved
+`life.birth.chineseYear` / `life.death.chineseYear`. These denote Chinese-New-Year
+intervals, not Gregorian calendar years. Display 享年 without 虛歲 commentary.
+Keep source Gregorian dates separate and unbracketed; never infer a Chinese year
+or exact age from a Gregorian year alone. Source quotations remain unchanged.

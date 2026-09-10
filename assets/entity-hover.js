@@ -2,8 +2,8 @@ import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 /** Accessible, non-modal navigation cards for annotated people and named works. */
 import {escapeHTML as h} from './core.js';
-import {loadProfiles,canonicalName} from './profiles.js';
-import {westernYearText,chineseYearText,profileURL} from './person-display.js';
+import {loadProfiles,canonicalName,ageAtDeath} from './profiles.js';
+import {lifeYearsText,westernYearFallbackHTML,chineseYearText,profileURL} from './person-display.js';
 import {loadWorks,workURL,readerURL,eccpDestination} from './library.js';
 
 export function linkWorkMentions(reader,works) {
@@ -64,7 +64,7 @@ export async function installHover() {
     const choices=[];let heading,detail;
     if(p){
       heading=canonicalName(p);
-      detail=`<p>${h(westernYearText(p,'birth'))}–${h(westernYearText(p,'death'))} ${ui("AD")}</p><p class="card-calendar">${ui("Birth 生：")}${h(chineseYearText(p.life?.birth))}<br>${ui("Death 卒：")}${h(chineseYearText(p.life?.death))}</p>`;
+      detail=`<p>${h(lifeYearsText(p))}</p>${westernYearFallbackHTML(p)}<p class="card-calendar">${ui("Birth 生：")}${h(chineseYearText(p.life?.birth))}<br>${ui("Death 卒：")}${h(chineseYearText(p.life?.death))}</p>${ageAtDeath(p) === null ? '' : `<p class="person-sui">${ui("Age at death: {age}",{age:ageAtDeath(p)})}</p>`}`;
       choices.push(anchor(profileURL(p.id),'Person profile · 人'));
       const entry=eccpDestination(p,catalog);
       if(entry)choices.push(anchor(entry.url,entry.label,entry.external));
