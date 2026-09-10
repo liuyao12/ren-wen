@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {canonicalName,loadProfiles} from '../assets/profiles.js';
+import {readerURL,loadWorks} from '../assets/library.js';
+import {westernYearText} from '../assets/person-display.js';
+const example={schemaVersion:1,id:'person-test',name:{surname:null,given:'崇厚',bracket:{kind:'clan',label:'完顏'},parenthetical:{value:'地山'}},externalIds:{cbdb:{id:null},geni:{id:null}}};
+test('clan qualifier does not become a Han surname or geographical native place',()=>{assert.equal(canonicalName(example),'[完顏] 崇厚');assert.equal(example.name.jiguan,undefined);});
+test('an explicit unresolved bracket does not reuse a province-level label',()=>{const p={name:{given:'測試',bracket:null,jiguan:{label:'湖南'}}};assert.equal(canonicalName(p),'測試');});
+test('QSG volume routes retain selected person and passage',()=>{assert.equal(readerURL('qsg-volume-446','qsg-volume-446-014','person-chonghou'),'./?passage=qsg-volume-446-014&person=person-chonghou#qsg-volume-446');assert.equal(readerURL('qsg-volume-446','','../bad'),null);});
+test('profile bundles retain identifiers and avoid per-person requests',async()=>{const paths=[];const fake=async path=>{paths.push(path);return {ok:true,json:async()=>path.endsWith('index.json')?{schemaVersion:1,profiles:['person-test.json'],bundle:'bundle.json'}:{schemaVersion:1,derived:true,records:[example]}};};assert.equal((await loadProfiles(fake))[0].id,'person-test');assert.deepEqual(paths,['data/people/index.json','data/people/bundle.json']);});
+test('unsafe bundle paths are rejected',async()=>{const fake=async()=>({ok:true,json:async()=>({schemaVersion:1,profiles:['person-test.json'],bundle:'../hidden.json'})});await assert.rejects(loadProfiles(fake),/bundle path/);});
+test('question marks in source years remain visible',()=>{assert.equal(westernYearText({life:{westernYears:[{event:'birth',calendar:'gregorian',value:1700,uncertain:true,source:'s'}]},sources:{s:{}}},'birth'),'1700?');});

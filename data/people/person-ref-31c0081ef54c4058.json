@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-31c0081ef54c4058",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "管",
+    "given": "世銘",
+    "source": "eccp-3674927",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "緘若",
+        "source": "eccp-3674927"
+      }
+    ],
+    "hao": [
+      {
+        "value": "韞山",
+        "source": "eccp-3674927"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "緘若"
+    },
+    "romanizations": [
+      {
+        "value": "Kuan Shih-ming",
+        "system": "ECCP spelling",
+        "source": "eccp-3674927"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1738,
+        "source": "eccp-3674927",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1798,
+        "source": "eccp-3674927",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-356",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-356",
+      "passage": "qsg-volume-356-009",
+      "matchStatus": "proposed",
+      "evidence": "管世銘，字緘若，與亮吉同里。乾隆四十三年進士，授戶部主事。累遷郎中，充軍機章京。深通律令，凡讞牘多世銘主奏。屢從大臣赴浙江、湖北、吉林、山東按事，大學士阿桂尤善之，倚如左右手。時和珅用事，世銘憂憤，與同官論前代輔臣賢否，語譏切無所避。會遷御史，則大喜，夜起傍徨，草疏將劾之，詔仍留軍機處。故事，御史留直者，儀注仍視郎官，不得專達封事。世銘自言愧負此官，阿桂慰之曰：「報稱有日，何必急以言自見。」蓋留直阿桂所請，隱全之，使有待。嘉慶三年，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-356": {
+      "title": "清史稿/卷356",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611720",
+      "locator": "qsg-volume-356-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

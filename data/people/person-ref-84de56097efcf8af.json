@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-84de56097efcf8af",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惲",
+    "given": "鶴生",
+    "source": "eccp-3643633",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "惲鶴生，字皋聞，武進人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "皋聞",
+        "source": "eccp-3643633"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "皋聞"
+    },
+    "romanizations": [
+      {
+        "value": "Yün Ho-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3643633"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-177",
+      "matchStatus": "proposed",
+      "evidence": "惲鶴生，字皋聞，武進人。因交李塨得睹顏氏遺書，自稱私淑弟子。於經長毛詩，著詩說，以毛、鄭為宗。"
+    }
+  ],
+  "sources": {
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-177",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

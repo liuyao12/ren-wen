@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a2d089b741742717",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邱",
+    "given": "良功",
+    "source": "eccp-3642447",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "同安",
+      "source": "qsg-volume-350",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "邱良功，福建同安人。",
+          "source": "qsg-volume-350",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉韞",
+        "source": "eccp-3642447"
+      }
+    ],
+    "hao": [
+      {
+        "value": "琢齋",
+        "source": "eccp-3642447"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉韞"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'iu Liang-kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3642447"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1769,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-350",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-350",
+      "passage": "qsg-volume-350-018",
+      "matchStatus": "proposed",
+      "evidence": "邱良功，福建同安人。起行伍，屢以獲盜功，洊擢閩安協副將。嘉慶十年，偕許松年會剿蔡牽，追至小琉球，見台灣師船二為賊圍，赴援，松年舉旗招之，未至。以違調遣被劾，褫職逮訊。得白，復原官，署台灣副將。十一年春，從李長庚擊蔡牽，破洲仔尾賊巢，牽乘間逸，奪頂戴。五月，破牽於鹿耳門，賜花翎。十二年，硃濆犯淡水，偕王得祿追至雞籠洋，連敗之，擒殲甚眾，被優敘。十三年，擢浙江定海鎮總兵。十四年，擢浙江提督。偕王得祿合擊蔡牽於漁山外洋，乘上風逼之，夜半浪急，不得進。明日，复要截環攻，牽且戰且走，傍午逾黑水洋，見綠水。"
+    }
+  ],
+  "sources": {
+    "eccp-3642447": {
+      "title": "ECCP · 李長庚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-350": {
+      "title": "清史稿/卷350",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079385",
+      "locator": "qsg-volume-350-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

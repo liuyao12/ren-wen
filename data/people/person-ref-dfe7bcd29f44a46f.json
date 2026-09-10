@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-dfe7bcd29f44a46f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "錫緯",
+    "source": "eccp-3636419",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Chu Hsi-wei 朱錫緯, died about 1782 at the age of twenty-two sui, but left a son, Chu T'u 朱涂, who was made an honorary chü-jên in 1800. The daughter married Fêng Ping-ch'ien 馮秉騝 (T. 健一), a native of T'ung-chou, Chihli, a senior licentiate of 1777, and magistrate of Chang-yeh, Kansu (ca.",
+          "source": "eccp-3636419",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "健一",
+        "source": "eccp-3636419"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "健一"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Hsi-wei",
+        "system": "ECCP spelling",
+        "source": "eccp-3636419"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3636419": {
+      "title": "ECCP · 朱珪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272551",
+      "locator": "eccp-3636419-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

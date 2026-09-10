@@ -12,12 +12,13 @@
 <link rel="stylesheet" href="assets/person-navigation.css">
 <link rel="stylesheet" href="assets/context.css">
 <link rel="stylesheet" href="assets/i18n.css">
-<link rel="stylesheet" href="assets/reading-layout.css"></head>
+<link rel="stylesheet" href="assets/reading-layout.css"><link rel="stylesheet" href="assets/collection.css"><link rel="stylesheet" href="assets/dated-reader.css">
+</head>
 <body>
 <header class="masthead">
 <a aria-label="人文首頁" class="brand" data-i18n-aria-label="Ren-Wen home" href="./"><span lang="zh-Hant">人文</span><span>REN-WEN<small><span data-i18n="People through texts. Texts in context.">以文識人，因人讀文。</span></small></span></a>
-<nav aria-label="專案工具" data-i18n-aria-label="Project tools"><a href="profiles.html"><span data-i18n="People · 人">人物</span></a><a href="texts.html" data-i18n="Text structure">文本層次</a><a href="works.html"><span data-i18n="Works · 文">著作</span></a><button id="about-button"><span data-i18n="About the pilot">關於人文</span></button><button id="xml-button"><span data-i18n="Open XML">開啟 XML</span></button><button id="queue-button"><span data-i18n="Review queue">待審建議</span> <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" rel="noopener" target="_blank"><span data-i18n="Repository ↗">程式庫 ↗</span></a><div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button aria-pressed="true" data-set-locale="zh-Hant" lang="zh-Hant" type="button">中文</button><button aria-pressed="false" data-set-locale="en" lang="en" type="button">English</button></div></nav>
-</header>
+<nav aria-label="專案工具" data-i18n-aria-label="Project tools"><a href="profiles.html"><span data-i18n="People · 人">人物</span></a><a href="texts.html" data-i18n="Text structure">文本層次</a><a href="works.html"><span data-i18n="Works · 文">著作</span></a><button id="about-button"><span data-i18n="About the pilot">關於人文</span></button><button id="xml-button"><span data-i18n="Open XML">開啟 XML</span></button><button id="queue-button"><span data-i18n="Review queue">待審建議</span> <span id="queue-count">0</span></button><a href="https://github.com/liuyao12/ren-wen" rel="noopener" target="_blank"><span data-i18n="Repository ↗">程式庫 ↗</span></a><div aria-label="介面語言" class="language-switch" data-i18n-aria-label="Interface language" role="group"><button aria-pressed="true" data-set-locale="zh-Hant" lang="zh-Hant" type="button">中文</button><button aria-pressed="false" data-set-locale="en" lang="en" type="button">English</button></div><a href="library.html" data-i18n="Browse all biographies">傳記目錄</a></nav>
+<small data-release-info class="release-info">r2026.09.09</small></header>
 <div class="context-bar"><span class="pilot-badge"><span data-i18n="RESEARCH PREVIEW">研究試用版</span></span><span aria-live="polite" id="reading-context"><span data-i18n="Loading sources…">正在載入文獻…</span></span><label><input checked="" id="follow" type="checkbox"/> <span data-i18n="Follow reading">隨文聯動</span></label></div>
 <main class="workspace" id="workspace">
 <section aria-labelledby="text-heading" class="panel text-panel">
@@ -26,6 +27,7 @@
 <div aria-label="原文" data-i18n-aria-label="Source text" id="reader" tabindex="0"><p class="empty"><span data-i18n="Loading the annotated edition…">正在載入標註文本…</span></p></div>
 <div class="panel-footer"><span class="legend-person"><span data-i18n="People">人物</span></span><span class="legend-work"><span data-i18n="Works">著作</span></span><span class="legend-place"><span data-i18n="Places">地理</span></span><span class="legend-office"><span data-i18n="Offices / titles">官職／爵號</span></span><span><span data-i18n="Names open profiles; use Review names to inspect annotations.">點人名可開啟人物頁；勾選「審校標註」可檢查標註。</span></span></div>
 </section>
+<section class="panel biography-panel" aria-label="人物資料" data-i18n-aria-label="Biographical summary"><div id="reader-biography"></div></section>
 <section aria-labelledby="time-heading" class="panel time-panel">
 <div class="panel-heading"><h2 id="time-heading"><span>02</span> <span data-i18n="People &amp; time">人物與年代</span> <small lang="zh-Hant">人</small></h2></div>
 <div class="time-controls"><label for="year"><span data-i18n="Viewing year">當前年份</span> <output id="year-label">1878</output></label><input id="year" max="1900" min="1800" step="1" type="range" value="1878"/><small id="date-note"><span data-i18n="Viewing year is not a date assigned to the entire passage.">當前年份僅供瀏覽，不表示本段全部事件均發生於此年。</span></small></div>
@@ -51,5 +53,6 @@
 <script type="module" src="assets/reader-context.js"></script>
 <script type="module" src="assets/entity-hover.js"></script>
 <script type="module" src="assets/i18n.js"></script>  <script type="module" src="assets/text-unit-links.js"></script>
+<script type="module" src="assets/release-info.js"></script>
 </body>
 </html>

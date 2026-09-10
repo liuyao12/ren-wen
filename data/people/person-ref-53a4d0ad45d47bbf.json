@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-53a4d0ad45d47bbf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "崔",
+    "given": "維雅",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大名",
+      "source": "qsg-volume-279",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "崔維雅，字大醇，直隸大名人。",
+          "source": "qsg-volume-279",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "大醇",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [
+      {
+        "value": "默齋",
+        "source": "eccp-3658531"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "大醇"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ui Wei-ya",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-279",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-279",
+      "passage": "qsg-volume-279-016",
+      "matchStatus": "proposed",
+      "evidence": "崔維雅，字大醇，直隸大名人。順治三年舉人，授濬縣教諭，遷河南儀封知縣。儀封瀕河，歲苦氾濫，北岸三家莊當水沖，十四年，水勢北注，岸崩五里餘。維雅於上游故流疏使東行，北岸得安。復與塞封丘大王廟決口，之錫疏薦，擢開封南河同知。"
+    }
+  ],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-279": {
+      "title": "清史稿/卷279",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485011",
+      "locator": "qsg-volume-279-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

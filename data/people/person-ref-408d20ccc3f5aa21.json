@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-408d20ccc3f5aa21",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "萊亨",
+    "source": "eccp-3678064",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Wu Lai-hêng 吳萊亨, T. 于公 and 康侯, d. 1656), was a native of Liao-yang, Feng-t'ien, and a chin-shih of 1655. The father had held since 1649 the post of director of studies in P'u-chou and after his death the family, being poor, continued to live there.",
+          "source": "eccp-3678064",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "于公",
+        "source": "eccp-3678064"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "于公"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Lai-hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3678064"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678064": {
+      "title": "ECCP · 吳雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442383",
+      "locator": "eccp-3678064-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

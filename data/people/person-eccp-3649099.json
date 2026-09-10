@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649099",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "米",
+    "given": "萬鍾",
+    "source": "eccp-3649099",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MI Wan-chung 米萬鍾 (T. 仲詔, H. 友石), painter, a chin-shih of 1595, was a native of Wan-p'ing (Peking). His father, Mi Yü 米玉 (T. 崑泉, 1528–1597), held an hereditary post in the Imperial Bodyguard of the Ming Court.",
+          "source": "eccp-3649099",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲詔",
+        "source": "eccp-3649099"
+      }
+    ],
+    "hao": [
+      {
+        "value": "友石",
+        "source": "eccp-3649099"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲詔"
+    },
+    "romanizations": [
+      {
+        "value": "Mi Wan-chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3649099"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649099",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649099",
+      "passage": "eccp-3649099-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649099": {
+      "title": "ECCP · Mi Wan-chung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317651",
+      "locator": "eccp-3649099-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639231": {
+      "title": "ECCP · 韓霖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280240",
+      "locator": "eccp-3639231-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658550": {
+      "title": "ECCP · 董其昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370102",
+      "locator": "eccp-3658550-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672728": {
+      "title": "ECCP · 王崇簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

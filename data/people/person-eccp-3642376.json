@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642376",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "康果禮",
+    "source": "eccp-3642376",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "康果禮，先世居那木都魯，以地為氏。",
+          "source": "qsg-volume-227",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "K'ang-kuo-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3642376"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642376",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642376",
+      "passage": "eccp-3642376-001"
+    },
+    {
+      "source": "eccp-3642370",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642370",
+      "passage": "eccp-3642370-001"
+    },
+    {
+      "source": "qsg-volume-227",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-227",
+      "passage": "qsg-volume-227-019",
+      "matchStatus": "proposed",
+      "evidence": "康果禮，先世居那木都魯，以地為氏。歲庚戌，太祖命額亦都將千人，徇東海渥集部，降那木都魯、綏芬、寧古塔、尼馬察四路。康果禮時為綏芬路屯長，與其弟喀克都裡及他屯長明安圖巴顏、泰松阿、伊勒佔、蘇爾休，明安圖巴顏子哈哈納、綽和諾，泰松阿子葉克為六牛錄，以康果禮、？書等，凡十九輩，率丁壯千餘來歸。太祖為設宴，賚以金幣，分其喀克都裡、伊勒佔、蘇爾休、哈哈納、綽和諾世領牛錄額真。"
+    }
+  ],
+  "sources": {
+    "eccp-3642376": {
+      "title": "ECCP · K'ang-kuo-li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290415",
+      "locator": "eccp-3642376-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642370": {
+      "title": "ECCP · Kanggûri",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290408",
+      "locator": "eccp-3642370-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649113": {
+      "title": "ECCP · 明安圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317673",
+      "locator": "eccp-3649113-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678134": {
+      "title": "ECCP · 葉克舒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442934",
+      "locator": "eccp-3678134-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

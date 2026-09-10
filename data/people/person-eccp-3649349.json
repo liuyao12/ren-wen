@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649349",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "彭",
+    "given": "定求",
+    "source": "eccp-3649349",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'ÊNG Ting-ch'iu 彭定求 (T. 勤止, 訪濂, H. 止庵, 南畇), June 2, 1645–1719, May 27, philosopher, was a native of Ch'ang-chou, Kiangsu. His ancestors, engaged for the most part in military service, had come from Ch'in-chiang, Kiangsi, in the time of the first Ming emperor.",
+          "source": "eccp-3649349",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "彭定求，字勤止，又字南畇，長洲人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "勤止",
+        "source": "eccp-3649349"
+      },
+      {
+        "value": "訪濂",
+        "source": "eccp-3649349"
+      }
+    ],
+    "hao": [
+      {
+        "value": "止庵",
+        "source": "eccp-3649349"
+      },
+      {
+        "value": "南畇",
+        "source": "eccp-3649349"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "勤止"
+    },
+    "romanizations": [
+      {
+        "value": "P'êng Ting-ch'iu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649349"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3649349",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1719,
+        "source": "eccp-3649349",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649349",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649349",
+      "passage": "eccp-3649349-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-079",
+      "matchStatus": "proposed",
+      "evidence": "彭定求，字勤止，又字南畇，長洲人。父瓏授以梁谿高氏之學，又嘗師事湯斌。康熙二十五年一甲一名進士，授翰林院修撰。歷官國子監司業、翰林院侍講，充日講起居注官。前後在翰林才四年，即歸里不復出。作高望吟七章，以慕七賢。七賢者，白沙、陽明、東廓、念菴、梁谿、念台、漳浦也。又著陽明釋毀錄、儒門法語、南畇文集。嘗與門人林雲翥書云：「有原進於足下者有二：一曰無遽求高遠而略庸近。子臣弟友，君子之道。至聖以有餘不足為斤斤，孟子以堯、舜之道孝弟而已。然則舍倫常日用事親從兄之事不為，而鉤深索隱，以為聖人之道有出於人心同"
+    }
+  ],
+  "sources": {
+    "eccp-3649349": {
+      "title": "ECCP · P'êng Ting-ch'iu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318104",
+      "locator": "eccp-3649349-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649342": {
+      "title": "ECCP · 彭紹升",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318095",
+      "locator": "eccp-3649342-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649351": {
+      "title": "ECCP · 彭蘊章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654371": {
+      "title": "ECCP · 石韞玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358442",
+      "locator": "eccp-3654371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-079",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

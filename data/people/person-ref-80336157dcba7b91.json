@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-80336157dcba7b91",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "端棻",
+    "source": "eccp-3654396",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "貴筑",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李端棻，字苾園，貴州貴筑人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "信臣",
+        "source": "eccp-3654396"
+      }
+    ],
+    "hao": [
+      {
+        "value": "苾園",
+        "source": "eccp-3654396"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "信臣"
+    },
+    "romanizations": [
+      {
+        "value": "Li Tuan-fên",
+        "system": "ECCP spelling",
+        "source": "eccp-3654396"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1907,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-006",
+      "matchStatus": "proposed",
+      "evidence": "李端棻，字苾園，貴州貴筑人。同治二年進士，選庶吉士，授編修，為大學士倭仁、尚書羅敦衍所器。十年，出督雲南學政。值回寇亂後，荒服道亙，前使者試未遍，端棻始一一按臨，文化漸振。光緒五年，轉御史，以叔父朝儀官京尹，迴避，改故官。累擢內閣學士。十八年，遷刑部侍郎。越六年，調倉場。前後迭司文柄，四為鄉試考官，一為會試副總裁，喜獎拔士類。典試廣東，賞梁啟超才，以從妹妻之，自是頗納啟超議，娓娓道東西邦制度。"
+    }
+  ],
+  "sources": {
+    "eccp-3654396": {
+      "title": "ECCP · 孫家鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358512",
+      "locator": "eccp-3654396-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

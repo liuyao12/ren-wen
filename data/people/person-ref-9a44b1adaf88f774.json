@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9a44b1adaf88f774",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "林",
+    "given": "侗",
+    "source": "eccp-3645483",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "林侗，字同人，閩人也。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "同人",
+        "source": "eccp-3645483"
+      }
+    ],
+    "hao": [
+      {
+        "value": "來齋",
+        "source": "eccp-3645483"
+      },
+      {
+        "value": "于野",
+        "source": "eccp-3645483"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "同人"
+    },
+    "romanizations": [
+      {
+        "value": "Lin T'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3645483"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1627,
+        "source": "eccp-3645483",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1714,
+        "source": "eccp-3645483",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-255",
+      "matchStatus": "proposed",
+      "evidence": "林侗，字同人，閩人也。縣貢生。喜金石。卒，年八十八。弟佶，字吉人。康熙五十二年進士，官中書，工楷法。文師汪琬，詩師陳廷敬、王士禎。此三人集皆佶手繕付雕，精雅為世所重。家多藏書，徐乾學輯經解，朱彝尊選明詩，皆就傳鈔。有樸學齋集。"
+    }
+  ],
+  "sources": {
+    "eccp-3645483": {
+      "title": "ECCP · 林佶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299414",
+      "locator": "eccp-3645483-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-255",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

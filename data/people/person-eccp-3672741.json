@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672741",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "象晉",
+    "source": "eccp-3672741",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hsiang-chin 王象晉 (T. 子進, H. 盡臣, 康宇), 1561–1653, grandfather of Wang Shih-chên [q. v.], was a native of Hsin-ch'êng, Shantung. His elder brother, Wang Hsiang-ch'ien [q. v.], was one of the governor-generals in command of Ming troops who resisted the Manchus.",
+          "source": "eccp-3672741",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子進",
+        "source": "eccp-3672741"
+      }
+    ],
+    "hao": [
+      {
+        "value": "盡臣",
+        "source": "eccp-3672741"
+      },
+      {
+        "value": "康宇",
+        "source": "eccp-3672741"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子進"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsiang-chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3672741"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1561,
+        "source": "eccp-3672741",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1653,
+        "source": "eccp-3672741",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672741",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672741",
+      "passage": "eccp-3672741-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672741": {
+      "title": "ECCP · Wang Hsiang-chin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412308",
+      "locator": "eccp-3672741-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3672752": {
+      "title": "ECCP · 王士禛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412326",
+      "locator": "eccp-3672752-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

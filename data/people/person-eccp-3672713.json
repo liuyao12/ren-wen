@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672713",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "泰",
+    "source": "eccp-3672713",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN T'ai 萬泰 (T. 履安, H. 悔庵), Mar. 19, 1598–1657, Nov. 11, scholar, native of Yin-hsien, Chekiang, was the son of Wan Pang-fu 萬邦孚 (T. 汝永, H. 瑞巖, 1554–1628). When he was nineteen (sui), he and his friend, Lu Fu 陸符 (T. 文虎, d.",
+          "source": "eccp-3672713",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "履安",
+        "source": "eccp-3672713"
+      }
+    ],
+    "hao": [
+      {
+        "value": "悔庵",
+        "source": "eccp-3672713"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "履安"
+    },
+    "romanizations": [
+      {
+        "value": "Wan T'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3672713"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1598,
+        "source": "eccp-3672713",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1657,
+        "source": "eccp-3672713",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672713",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672713",
+      "passage": "eccp-3672713-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672713": {
+      "title": "ECCP · Wan T'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412257",
+      "locator": "eccp-3672713-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658575": {
+      "title": "ECCP · 萬經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370139",
+      "locator": "eccp-3658575-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672707": {
+      "title": "ECCP · 萬斯選",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412224",
+      "locator": "eccp-3672707-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672708": {
+      "title": "ECCP · 萬斯備",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412226",
+      "locator": "eccp-3672708-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672709": {
+      "title": "ECCP · 萬斯大",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412227",
+      "locator": "eccp-3672709-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672714": {
+      "title": "ECCP · 萬言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412259",
+      "locator": "eccp-3672714-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

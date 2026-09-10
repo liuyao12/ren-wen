@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643657",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "勵",
+    "given": "宗萬",
+    "source": "eccp-3643657",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Tsung-wan 勵宗萬 (T. 滋大, H. 衣園), 1705–1759, official, painter and calligrapher, was a native of Ching-hai, Chihli. He was a son of Li T'ing-i [q. v.], a grandson of Li Tu-no [q. v.] and a son-in-law of Huang Shu-lin [q. v.].",
+          "source": "eccp-3643657",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "滋大",
+        "source": "eccp-3643657"
+      }
+    ],
+    "hao": [
+      {
+        "value": "衣園",
+        "source": "eccp-3643657"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "滋大"
+    },
+    "romanizations": [
+      {
+        "value": "Li Tsung-wan",
+        "system": "ECCP spelling",
+        "source": "eccp-3643657"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1705,
+        "source": "eccp-3643657",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1759,
+        "source": "eccp-3643657",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643657",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643657",
+      "passage": "eccp-3643657-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643657": {
+      "title": "ECCP · Li Tsung-wan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496594",
+      "locator": "eccp-3643657-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643659": {
+      "title": "ECCP · 勵杜訥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11496599",
+      "locator": "eccp-3643659-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

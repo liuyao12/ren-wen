@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654364",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "施",
+    "given": "世綸",
+    "source": "eccp-3654364",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH Shih-lun 施世綸 (T. 文賢, H. 潯江), d. 1722, age 64 (sui), official, was a native of Chin-chiang, Fukien. The second son of Shih Lang [q. v.], he belonged to the Chinese Bordered Yellow Banner, to which his father had been assigned.",
+          "source": "eccp-3654364",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "施世綸，字文賢，漢軍鑲黃旗人，瑯仲子。",
+          "source": "qsg-volume-277",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文賢",
+        "source": "eccp-3654364"
+      }
+    ],
+    "hao": [
+      {
+        "value": "潯江",
+        "source": "eccp-3654364"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文賢"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Shih-lun",
+        "system": "ECCP spelling",
+        "source": "eccp-3654364"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654364",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654364",
+      "passage": "eccp-3654364-001"
+    },
+    {
+      "source": "qsg-volume-277",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-277",
+      "passage": "qsg-volume-277-032",
+      "matchStatus": "proposed",
+      "evidence": "施世綸，字文賢，漢軍鑲黃旗人，瑯仲子。康熙二十四年，以廕生授江南泰州知州。世綸廉惠勤民，州大治。二十七年，淮安被水，上遣使督堤工，從者數十輩，驛騷擾民，世綸白其不法者治之。湖北兵變，官兵赴援出州境，世綸具芻糧，而使吏人執梃列而待，兵有擾民，立捕治，兵皆斂手去。二十八年，以承修京口沙船遲誤，部議降調。總督傅臘塔疏陳世綸清廉公直，上允留任。擢揚州知府。揚州民好遊蕩，世綸力禁之，俗為變。三十年八月，海潮驟漲，泰州范公堤圮，世綸請捐修。三十二年，移江寧知府。三十五年，瑯卒，總督范成勳疏以世綸輿情愛戴，請"
+    }
+  ],
+  "sources": {
+    "eccp-3654364": {
+      "title": "ECCP · Shih Shih-lun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358429",
+      "locator": "eccp-3654364-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649340": {
+      "title": "ECCP · 彭鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318091",
+      "locator": "eccp-3649340-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654363": {
+      "title": "ECCP · 施琅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358427",
+      "locator": "eccp-3654363-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678430": {
+      "title": "ECCP · 于成龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443707",
+      "locator": "eccp-3678430-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

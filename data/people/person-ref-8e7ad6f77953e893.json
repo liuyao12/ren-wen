@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8e7ad6f77953e893",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "邦慶",
+    "source": "eccp-3678167",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "霸州",
+      "source": "qsg-volume-383",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳邦慶，字霽峰，順天霸州人。",
+          "source": "qsg-volume-383",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "霽峯",
+        "source": "eccp-3678167"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "霽峯"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Pang-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3678167"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1766,
+        "source": "eccp-3678167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1848,
+        "source": "eccp-3678167",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-383",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-383",
+      "passage": "qsg-volume-383-019",
+      "matchStatus": "proposed",
+      "evidence": "吳邦慶，字霽峰，順天霸州人。以拔貢官昌黎訓導。嘉慶元年，成進士，選庶吉士，授編修，遷御史。巡視東漕，奏請重浚運河，並復山東春兌春開舊制。數論河漕事，多被採用。十九年，擢鴻臚寺少卿，命偕內閣學士穆彰阿督濬北運河。累遷內閣侍讀學士。二十年，出為山西布政使，調河南，護理巡撫。二十三年，擢湖南巡撫，調福建，未之任，湘潭土客民群鬥，死傷甚眾。侍郎週系英面陳與邦慶疏奏有異，命總督慶保往按。邦慶亦發系英私書，系英獲譴；邦慶鐫級，以三品京堂用，補通政使。二十五年，擢兵部侍郎，調刑部，尋授安徽巡撫。"
+    }
+  ],
+  "sources": {
+    "eccp-3678167": {
+      "title": "ECCP · 胤祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443028",
+      "locator": "eccp-3678167-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

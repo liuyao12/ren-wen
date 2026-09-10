@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c5986de90ddc067e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黄",
+    "given": "叔璥",
+    "source": "eccp-3640017",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "玉圃",
+        "source": "eccp-3640017"
+      }
+    ],
+    "hao": [
+      {
+        "value": "篤齋",
+        "source": "eccp-3640017"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉圃"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Shu-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3640017"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3640017": {
+      "title": "ECCP · 黃叔琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282927",
+      "locator": "eccp-3640017-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

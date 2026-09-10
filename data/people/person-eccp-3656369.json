@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656369",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄧",
+    "given": "石如",
+    "source": "eccp-3656369",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "懷寧",
+      "source": "qsg-volume-503",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "鄧石如，初名避仁宗諱，遂以字行，改字頑伯，安徽懷寧人。",
+          "source": "qsg-volume-503",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "頑白",
+        "source": "eccp-3656369"
+      }
+    ],
+    "hao": [
+      {
+        "value": "完白山人",
+        "source": "eccp-3656369"
+      },
+      {
+        "value": "笈遊道人",
+        "source": "eccp-3656369"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "頑白"
+    },
+    "romanizations": [
+      {
+        "value": "Têng Shih-ju",
+        "system": "ECCP spelling",
+        "source": "eccp-3656369"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656369",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656369",
+      "passage": "eccp-3656369-001"
+    },
+    {
+      "source": "qsg-volume-503",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-503",
+      "passage": "qsg-volume-503-015",
+      "matchStatus": "proposed",
+      "evidence": "鄧石如，初名避仁宗諱，遂以字行，改字頑伯，安徽懷寧人。居皖公山下，又號完白山人。少產僻鄉，鮮聞見，獨好刻石，仿漢人印篆甚工。弱冠孤貧，遊壽州，梁巘見其篆書，驚為筆勢渾鷙，而未盡得古法。介謁江寧梅鏐，都御史成子也。家多 L3藏金石善本，盡出示之，為具衣食楮墨，使專肄習。"
+    }
+  ],
+  "sources": {
+    "eccp-3656369": {
+      "title": "ECCP · Têng Shih-ju",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633255": {
+      "title": "ECCP · 張琦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

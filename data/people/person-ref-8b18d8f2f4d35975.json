@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8b18d8f2f4d35975",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "英",
+    "source": "eccp-3642441",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'ang Ying 唐英 (T. 俊公, 叔子, H. 蝸寄老人). Especially celebrated were the latter's products, known as T'ang-yao. T'ang was a Chinese, a member of the Plain White Banner, who had served from boyhood as a page in the Court of Emperor Shêng-tsu.",
+          "source": "eccp-3642441",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "唐英，字俊公，漢軍旗人。",
+          "source": "qsg-volume-505",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "俊公",
+        "source": "eccp-3642441"
+      },
+      {
+        "value": "叔子",
+        "source": "eccp-3642441"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蝸寄老人",
+        "source": "eccp-3642441"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "俊公"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3642441"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-505",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-505",
+      "passage": "qsg-volume-505-020",
+      "matchStatus": "proposed",
+      "evidence": "唐英，字俊公，漢軍旗人。官內務府員外郎，直養心殿。雍正六年，命監江西景德鎮窯務，歷監粵海關、淮安關。乾隆初，調九江關，复監督窯務，先後在事十餘年。明以中官督造，後改巡道，督府佐司其事，清初因之。順治中，巡撫郎廷佐所督造，精美有名，世稱「郎窯」。其後御窯興工，每命工部或內務府司官往，專任其事。年希堯曾奉使造器甚夥，世稱「年窯」。"
+    }
+  ],
+  "sources": {
+    "eccp-3642441": {
+      "title": "ECCP · 郎廷極",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290563",
+      "locator": "eccp-3642441-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

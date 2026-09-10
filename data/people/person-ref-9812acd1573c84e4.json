@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9812acd1573c84e4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "勤",
+    "source": "eccp-3643633",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "愼修",
+        "source": "eccp-3643633"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "愼修"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Ch'in",
+        "system": "ECCP spelling",
+        "source": "eccp-3643633"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

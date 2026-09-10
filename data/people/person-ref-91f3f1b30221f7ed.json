@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-91f3f1b30221f7ed",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "廷璋",
+    "source": "eccp-3654373",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "楊廷璋，字奉峨，漢軍鑲黃旗人。",
+          "source": "qsg-volume-323",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "奉峨",
+        "source": "eccp-3654373"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "奉峨"
+    },
+    "romanizations": [
+      {
+        "value": "Yang T'ing-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3654373"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3654373",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3654373",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-323",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-323",
+      "passage": "qsg-volume-323-022",
+      "matchStatus": "proposed",
+      "evidence": "楊廷璋，字奉峨，漢軍鑲黃旗人。世襲佐領。雍正七年，自筆帖式授工部主事。再遷郎中。授廣西桂林知府。乾隆二年，擢左江道。十五年，擢按察使。二十年，遷湖南布政使。二十一年，授浙江巡撫。上南巡，諭曰：「西湖水民間藉以溉田。今聞沿湖多佔墾，湖身漸壅，田畝虞涸竭。已開墾成熟者，免其清出，不許再侵占。」廷璋因奏：「此類田地多礙水道，請概令開濬歸湖。沿岸栽柳，俾根株盤結，亦可固堤。」又請帑疏濬湖州七十二漊，洩水入太湖，免田地被淹。又奏：「仁和、錢塘、蕭山三縣江塘視海塘例，以二十丈為準，按段編號立石。仁、錢二縣江"
+    }
+  ],
+  "sources": {
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

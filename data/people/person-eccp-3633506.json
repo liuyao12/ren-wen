@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633506",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "趙",
+    "given": "良棟",
+    "source": "eccp-3633506",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "寧夏",
+      "source": "qsg-volume-255",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHAO Liang-tung 趙良棟 (T. 擎之, H. 西華), Nov.–Dec., 1621–1697, Mar. 26, general, was a native of Sui-tê, Shensi. In 1645 when the Manchu forces conquered Shensi he joined them, was enlisted under Mêng Ch'iao-fang [q. v.] and before long was made a captain with headquarters at Ninghsia (then in Kansu).",
+          "source": "eccp-3633506",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "趙良棟，字擎宇，甘肅寧夏人，先世居榆林。",
+          "source": "qsg-volume-255",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "擎之",
+        "source": "eccp-3633506"
+      }
+    ],
+    "hao": [
+      {
+        "value": "西華",
+        "source": "eccp-3633506"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "擎之"
+    },
+    "romanizations": [
+      {
+        "value": "Chao Liang-tung",
+        "system": "ECCP spelling",
+        "source": "eccp-3633506"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1621,
+        "source": "eccp-3633506",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1697,
+        "source": "eccp-3633506",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633506",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633506",
+      "passage": "eccp-3633506-001"
+    },
+    {
+      "source": "qsg-volume-255",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-255",
+      "passage": "qsg-volume-255-018",
+      "matchStatus": "proposed",
+      "evidence": "趙良棟，字擎宇，甘肅寧夏人，先世居榆林。順治二年，師定陝西，良棟應募，隸總督孟喬芳標下，檄署潼關守備。從征秦州、鞏昌，擊敗叛將賀珍、武大定。授寧夏水利屯田都司。五年，討河西回，擒丁國棟。良棟在行間，擢高台游擊。十三年，以經略洪承疇薦，從征雲、貴，授督標中軍副將。康熙元年，擢雲南廣羅總兵。先後剿平馬乃、隴納、水西諸苗。四年，移鎮貴州平遠，遭父喪，吳三桂以水西未大定，留勿遣。良棟辭，忤三桂，同官為排解，乃得歸終制。八年，起山西大同總兵。十一年，移鎮直隸天津。"
+    }
+  ],
+  "sources": {
+    "eccp-3633506": {
+      "title": "ECCP · Chao Liang-tung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271696",
+      "locator": "eccp-3633506-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633228": {
+      "title": "ECCP · 安岐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271372",
+      "locator": "eccp-3633228-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633492": {
+      "title": "ECCP · 張勇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271675",
+      "locator": "eccp-3633492-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640925": {
+      "title": "ECCP · 彰泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285944",
+      "locator": "eccp-3640925-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658545": {
+      "title": "ECCP · 圖海",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370093",
+      "locator": "eccp-3658545-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-251": {
+      "title": "清史稿/卷251",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021097",
+      "locator": "qsg-volume-251-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-253": {
+      "title": "清史稿/卷253",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026844",
+      "locator": "qsg-volume-253-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-255": {
+      "title": "清史稿/卷255",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1235555",
+      "locator": "qsg-volume-255-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-256": {
+      "title": "清史稿/卷256",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433520",
+      "locator": "qsg-volume-256-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-347": {
+      "title": "清史稿/卷347",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484993",
+      "locator": "qsg-volume-347-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

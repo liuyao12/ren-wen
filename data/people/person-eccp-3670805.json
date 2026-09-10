@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3670805",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "炳震",
+    "source": "eccp-3670805",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHÊN Ping-chên 沈炳震 (T. 寅馭, H. 東甫), Feb. 24, 1679–1738, Jan. 22, scholar and historian, was a native of Kuei-an, Chekiang. In 1736 he and his youngest brother, Shên Ping-ch'ien 沈炳謙 (T. 幼牧, H. 勞山, b.",
+          "source": "eccp-3670805",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "沈炳震，字東父，歸安人。",
+          "source": "qsg-volume-485",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "寅馭",
+        "source": "eccp-3670805"
+      }
+    ],
+    "hao": [
+      {
+        "value": "東甫",
+        "source": "eccp-3670805"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "寅馭"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Ping-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3670805"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1679,
+        "source": "eccp-3670805",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1738,
+        "source": "eccp-3670805",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3670805",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3670805",
+      "passage": "eccp-3670805-001"
+    },
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-063",
+      "matchStatus": "proposed",
+      "evidence": "沈炳震，字東父，歸安人。少喜博覽，讀史於年月世系，人所忽者，必默識之。嘗著新舊唐書合鈔，紀傳以舊書為綱，分注新書為目；舊志多舛略，則以新書為綱，分注舊書為目。又補列方鎮表，拜罷承襲諸節目，積數十寒暑乃成。又著二十四史四譜：一紀元，二封爵，三宰執，四諡法。其體出於表歷，而變其旁行斜上為標目。乾隆元年，與弟炳謙皆以貢生試鴻博，報罷。逾年，卒，年五十九。卒後六年，侍郎錢陳群奏進其唐書合鈔，詔付書局，採錄唐書考證中。"
+    }
+  ],
+  "sources": {
+    "eccp-3670805": {
+      "title": "ECCP · Shên Ping-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11405866",
+      "locator": "eccp-3670805-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637547": {
+      "title": "ECCP · 全祖望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275712",
+      "locator": "eccp-3637547-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-063",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

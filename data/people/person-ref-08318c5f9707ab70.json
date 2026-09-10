@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-08318c5f9707ab70",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "光琛",
+    "source": "eccp-3656338",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Fang Kuang-chên 方光琛 (T. 獻廷, H. 雲鶴, d. 1681) a native of Shê-hsien, Anhwei, who had served as a Grand Secretary in the rebellious Wu San-kuei regime. Emperor Shêng-tsu, however, mitigated the harsh verdict to some extent, with the result that only Tai Ming-shih was executed.",
+          "source": "eccp-3656338",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "獻廷",
+        "source": "eccp-3656338"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲鶴",
+        "source": "eccp-3656338"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "獻廷"
+    },
+    "romanizations": [
+      {
+        "value": "Fang Kuang-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3656338"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656338": {
+      "title": "ECCP · 戴名世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

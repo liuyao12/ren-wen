@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ee1af42d2bc48a21",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "澍",
+    "source": "eccp-3675201",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "張澍，字介侯，武威人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯淪",
+        "source": "eccp-3675201"
+      }
+    ],
+    "hao": [
+      {
+        "value": "介侯",
+        "source": "eccp-3675201"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯淪"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chu",
+        "system": "ECCP spelling",
+        "source": "eccp-3675201"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1781,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1847,
+        "source": "eccp-3675201",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-003",
+      "matchStatus": "proposed",
+      "evidence": "張澍，字介侯，武威人。父應舉，有孝行。嘉慶四年，澍年十八，成進士。是科得人最盛，澍選庶吉士，文詞博麗。散館改知縣，初令玉屏，以病歸。敘防河勞，選屏山，攝興文，丁父艱。再起，知永新。署臨江通判，坐徵解緩，罷官。開復，補瀘溪，復以憂去。"
+    }
+  ],
+  "sources": {
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

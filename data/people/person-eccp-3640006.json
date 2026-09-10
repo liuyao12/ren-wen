@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640006",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "淳耀",
+    "source": "eccp-3640006",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Ch'un-yüeh 黃淳耀 (T. 蘊生, H. 陶庵), July 13, 1605–1645, Aug. 24, Ming scholar and loyalist, was a native of Chia-ting, Kiangsu. A chin-shih of 1643, he deplored the artificial literary style of the day and attempted to return to the rigid simplicity of the Classics.",
+          "source": "eccp-3640006",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘊生",
+        "source": "eccp-3640006"
+      }
+    ],
+    "hao": [
+      {
+        "value": "陶庵",
+        "source": "eccp-3640006"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘊生"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Ch'un-yüeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3640006"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1605,
+        "source": "eccp-3640006",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3640006",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640006",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640006",
+      "passage": "eccp-3640006-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640006": {
+      "title": "ECCP · Huang Ch'un-yüeh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282888",
+      "locator": "eccp-3640006-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639258": {
+      "title": "ECCP · 侯峒曾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280286",
+      "locator": "eccp-3639258-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642455": {
+      "title": "ECCP · 李成棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290592",
+      "locator": "eccp-3642455-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

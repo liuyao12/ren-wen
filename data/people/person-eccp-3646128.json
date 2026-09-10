@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646128",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "錫熊",
+    "source": "eccp-3646128",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "上海",
+      "source": "qsg-volume-320",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LU Hsi-hsiung 陸錫熊 (T. 健男, H. 耳山), Dec. 26, 1734–1792, Mar. 17, scholar and official, was a native of Shanghai. His grandfather, Lu Ying-ling 陸瀛齡 (T. 景房, H. 仰山, 柳村) was for a time district director of schools of Shih-tai, Anhwei; and his father, Lu Ping-hu 陸秉笏 (T. 長卿, 葵霑, H. 淞南老人, 1706–1783), was a chü-jên of 1741.",
+          "source": "eccp-3646128",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陸錫熊，字健男，江蘇上海人。",
+          "source": "qsg-volume-320",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "江蘇松江府上海縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "健男",
+        "source": "eccp-3646128"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耳山",
+        "source": "eccp-3646128"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "健男"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Hsi-hsiung",
+        "system": "ECCP spelling",
+        "source": "eccp-3646128"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1734,
+        "source": "eccp-3646128",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1792,
+        "source": "eccp-3646128",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646128",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646128",
+      "passage": "eccp-3646128-001"
+    },
+    {
+      "source": "qsg-volume-320",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-320",
+      "passage": "qsg-volume-320-037",
+      "matchStatus": "proposed",
+      "evidence": "陸錫熊，字健男，江蘇上海人。乾隆二十六年進士。召試，授內閣中書。累遷刑部郎中。與昀同司總纂，旋並授翰林院侍讀。五遷左副都御史。旋以書有譌謬，令重為校正，寫官所費，責錫熊與昀分任。又令詣奉天校正文溯閣藏書，卒於奉天。"
+    }
+  ],
+  "sources": {
+    "eccp-3646128": {
+      "title": "ECCP · Lu Hsi-hsiung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300525",
+      "locator": "eccp-3646128-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645536": {
+      "title": "ECCP · 陸費墀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299518",
+      "locator": "eccp-3645536-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-320": {
+      "title": "清史稿/卷320",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2550999",
+      "locator": "qsg-volume-320-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷58 · 江蘇",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷58",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "松江府下上海"
+    }
+  },
+  "notes": []
+}

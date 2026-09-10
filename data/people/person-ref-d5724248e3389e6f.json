@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d5724248e3389e6f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "鴻",
+    "source": "eccp-3640795",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-377",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳鴻，字午橋，浙江錢塘人。",
+          "source": "qsg-volume-377",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chên Hung",
+        "system": "ECCP spelling",
+        "source": "eccp-3640795"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-377",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-377",
+      "passage": "qsg-volume-377-016",
+      "matchStatus": "proposed",
+      "evidence": "陳鴻，字午橋，浙江錢塘人。嘉慶十四年進士，選庶吉士，授編修。遷御史，剛直有聲。典試山西還，力陳驛站煩擾，請申定例，肅郵政。二十五年，疏陳浙江水利，略曰：「杭城地當省會，用上下兩塘之水，溉仁和、錢塘、海寧之田數万馀頃。源出西湖，近廢不治。水淤葑積，塘河津耗，夏旱少雨，上塘枯涸，菑害尤劇。海寧長安鎮號產米之鄉，許村黃灣場為產鹽之地，杭、嘉、湖、寧、紹諸郡賴是挽運。擬請仿江蘇浚吳淞例，歸民間按畝出貲，並飭疆臣躬履屬境，凡堤塘徬壩，悉復舊制，俾農田旱潦有備。」又請：「北省多闢水田，兼收秔稻之利，庶使畿輔"
+    }
+  ],
+  "sources": {
+    "eccp-3640795": {
+      "title": "ECCP · 洪昇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285341",
+      "locator": "eccp-3640795-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-377": {
+      "title": "清史稿/卷377",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1560014",
+      "locator": "qsg-volume-377-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

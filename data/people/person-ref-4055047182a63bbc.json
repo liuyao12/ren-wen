@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4055047182a63bbc",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "盛",
+    "given": "大士",
+    "source": "eccp-3633266",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "子履",
+        "source": "eccp-3633266"
+      }
+    ],
+    "hao": [
+      {
+        "value": "逸雲",
+        "source": "eccp-3633266"
+      },
+      {
+        "value": "蘭移外史",
+        "source": "eccp-3633266"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子履"
+    },
+    "romanizations": [
+      {
+        "value": "Shêng Ta-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3633266"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633266": {
+      "title": "ECCP · 張海鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271608",
+      "locator": "eccp-3633266-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

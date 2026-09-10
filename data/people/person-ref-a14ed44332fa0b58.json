@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a14ed44332fa0b58",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "端",
+    "source": "eccp-3649351",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "德清",
+      "source": "qsg-volume-360",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐端，字肇之，浙江德清人。",
+          "source": "qsg-volume-360",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "肇之",
+        "source": "eccp-3649351"
+      },
+      {
+        "value": "心如",
+        "source": "eccp-3649351"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "肇之"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Tuan",
+        "system": "ECCP spelling",
+        "source": "eccp-3649351"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-360",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-360",
+      "passage": "qsg-volume-360-021",
+      "matchStatus": "proposed",
+      "evidence": "徐端，字肇之，浙江德清人。父振甲，官江蘇清河知縣。端少隨任，習於河事。入貲為通判。乾隆中，河決青龍岡。振甲知涉縣，分挑引河，端佐役，大學士阿桂督工，見而器之，留東河任用，授蘭儀通判。尋升缺為同知，調睢寧，又調開封下南河。"
+    }
+  ],
+  "sources": {
+    "eccp-3649351": {
+      "title": "ECCP · 彭蘊章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-360": {
+      "title": "清史稿/卷360",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485024",
+      "locator": "qsg-volume-360-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

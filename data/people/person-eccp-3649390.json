@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649390",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "廷采",
+    "source": "eccp-3649390",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHAO T'ing-ts'ai 邵廷采 (original ming 行中 T. 念魯, 允斯), Jan. 29, 1648–1711, July 11, historian and philosopher, was a native of Yü-yao, Chekiang. His grandfather, Shao Tsêng-k'o 邵曾可 (T. 子唯, H. 魯公, d.",
+          "source": "eccp-3649390",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "念魯",
+        "source": "eccp-3649390"
+      },
+      {
+        "value": "允斯",
+        "source": "eccp-3649390"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "念魯"
+    },
+    "romanizations": [
+      {
+        "value": "Shao T'ing-ts'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3649390"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1648,
+        "source": "eccp-3649390",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1711,
+        "source": "eccp-3649390",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649390",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649390",
+      "passage": "eccp-3649390-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649390": {
+      "title": "ECCP · Shao T'ing-ts'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642455": {
+      "title": "ECCP · 李成棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290592",
+      "locator": "eccp-3642455-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646157": {
+      "title": "ECCP · 毛奇齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300580",
+      "locator": "eccp-3646157-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654400": {
+      "title": "ECCP · 孫可望",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358523",
+      "locator": "eccp-3654400-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

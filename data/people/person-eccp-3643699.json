@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643699",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "佩蘭",
+    "source": "eccp-3643699",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG P'ei-lan 梁佩蘭 (T. 芝五, H. 樂亭), 1632–1708, poet and calligrapher, was a native of Nan-hai, Kwangtung. Although he obtained the chü-jên degree with highest honors in 1657, he did not succeed in taking his chin-shih until 1688, thirty-one years later.",
+          "source": "eccp-3643699",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芝五",
+        "source": "eccp-3643699"
+      }
+    ],
+    "hao": [
+      {
+        "value": "樂亭",
+        "source": "eccp-3643699"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芝五"
+    },
+    "romanizations": [
+      {
+        "value": "Liang P'ei-lan",
+        "system": "ECCP spelling",
+        "source": "eccp-3643699"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1632,
+        "source": "eccp-3643699",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1708,
+        "source": "eccp-3643699",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643699",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643699",
+      "passage": "eccp-3643699-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643699": {
+      "title": "ECCP · Liang P'ei-lan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294988",
+      "locator": "eccp-3643699-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633524": {
+      "title": "ECCP · 陳恭尹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271461",
+      "locator": "eccp-3633524-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

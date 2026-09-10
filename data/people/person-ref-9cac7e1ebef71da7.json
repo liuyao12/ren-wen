@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9cac7e1ebef71da7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "凱泰",
+    "source": "eccp-3639953",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "寶應",
+      "source": "qsg-volume-426",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王凱泰，初名敦敏，字補帆，江蘇寶應人。",
+          "source": "qsg-volume-426",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "幼軒",
+        "source": "eccp-3639953"
+      }
+    ],
+    "hao": [
+      {
+        "value": "補帆",
+        "source": "eccp-3639953"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "幼軒"
+    },
+    "romanizations": [
+      {
+        "value": "Wang K'ai-t'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3639953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "eccp-3639953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1875,
+        "source": "eccp-3639953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-426",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-426",
+      "passage": "qsg-volume-426-040",
+      "matchStatus": "proposed",
+      "evidence": "王凱泰，初名敦敏，字補帆，江蘇寶應人。道光三十年進士，選庶吉士，授編修。咸豐十年，以母喪歸。粵匪分犯江北，上命大理寺卿晏端書治江北團練，大學士彭蘊章薦凱泰使佐理。敘勞，累加四品卿銜。同治二年，從巡撫李鴻章軍幕。四年，浙江巡撫馬新貽薦調，命以道員發浙江，署糧道。曾國籓、李鴻章、馬新貽交章薦舉，五年，擢浙江按察使。紹興三江閘洩山陰、會稽、蕭山三縣水入江，歲久沙積，三縣民請濬治。凱泰履勘濬治，復舊利。六年，遷廣東布政使，裁陋規，省差徭，覈釐捐，丈沙田，濬城中六脈渠，增建應元書院。七年，擢福建巡撫，課吏"
+    }
+  ],
+  "sources": {
+    "eccp-3639953": {
+      "title": "ECCP · 謝章鋌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282770",
+      "locator": "eccp-3639953-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-426": {
+      "title": "清史稿/卷426",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433550",
+      "locator": "qsg-volume-426-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

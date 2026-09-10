@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635447",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姜",
+    "given": "曰廣",
+    "source": "eccp-3635447",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIANG Yüeh-kuang 姜曰廣 (T. 居之, H. 燕及), d. Mar. 1, 1649, Ming statesman, was a native of Hsin-chien, Kiangsi. A chin-shih of 1619, he was appointed to the Hanlin Academy and became a compiler.",
+          "source": "eccp-3635447",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "居之",
+        "source": "eccp-3635447"
+      }
+    ],
+    "hao": [
+      {
+        "value": "燕及",
+        "source": "eccp-3635447"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "居之"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Yüeh-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3635447"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635447",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635447",
+      "passage": "eccp-3635447-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635447": {
+      "title": "ECCP · Chiang Yüeh-kuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271733",
+      "locator": "eccp-3635447-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635480": {
+      "title": "ECCP · 金聲桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271747",
+      "locator": "eccp-3635480-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645523": {
+      "title": "ECCP · 劉澤清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299498",
+      "locator": "eccp-3645523-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

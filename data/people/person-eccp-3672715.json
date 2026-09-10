@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672715",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "安國",
+    "source": "eccp-3672715",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG An-kuo 王安國 (T. 書城, H. 春圃), June 24, 1694–1757, Feb. 25, official and scholar, was a native of Kao-yu, Kiangsu. For many generations his forefathers were scholars and teachers. After obtaining his chin-shih degree with high honors in 1724 he was appointed a compiler in the Hanlin Academy, and in the following year participated in the compilation of the first edition of the Ta-Ch'ing i-tung chih (see under Hsü Ch'ien-hsüeh and Yung-yen).",
+          "source": "eccp-3672715",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王安國，字春圃，江南高郵人。",
+          "source": "qsg-volume-304",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "書城",
+        "source": "eccp-3672715"
+      }
+    ],
+    "hao": [
+      {
+        "value": "春圃",
+        "source": "eccp-3672715"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "書城"
+    },
+    "romanizations": [
+      {
+        "value": "Wang An-kuo",
+        "system": "ECCP spelling",
+        "source": "eccp-3672715"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1694,
+        "source": "eccp-3672715",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1757,
+        "source": "eccp-3672715",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672715",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672715",
+      "passage": "eccp-3672715-001"
+    },
+    {
+      "source": "qsg-volume-304",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-304",
+      "passage": "qsg-volume-304-021",
+      "matchStatus": "proposed",
+      "evidence": "王安國，字春圃，江南高郵人。雍正二年一甲二名進士，授編修，再遷侍講。提督廣東肇高學政，复再遷左僉都御史。乾隆二年，疏請禁官吏居喪詣省會謁大吏，下部議行。復三遷左都御史。五年，兩江總督馬爾泰論廣東巡撫王謩徇縱，命安國往按，即命以左都御史領廣東巡撫。安國曰：「吾奉命勘事而即得其位，古所譏蹊田奪牛者非歟？」疏力辭，上不許。廣東俗奢靡，安國事事整肅，倉有餘粟。故事，自總督以下皆有分，安國獨以非制，止之。九年正月，就遷兵部尚書，尋遭父喪。廣州將軍策楞疏言安國孤介廉潔，歸葬無貲，與護理巡撫託庸等具賻歸之，報"
+    }
+  ],
+  "sources": {
+    "eccp-3672715": {
+      "title": "ECCP · Wang An-kuo",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412262",
+      "locator": "eccp-3672715-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633207": {
+      "title": "ECCP · 阿克敦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271320",
+      "locator": "eccp-3633207-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635452": {
+      "title": "ECCP · 錢陳群",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271400",
+      "locator": "eccp-3635452-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633498": {
+      "title": "ECCP · 趙執信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271692",
+      "locator": "eccp-3633498-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635445": {
+      "title": "ECCP · 蔣廷錫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271732",
+      "locator": "eccp-3635445-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640016": {
+      "title": "ECCP · 黃紹箕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672750": {
+      "title": "ECCP · 王念孫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412324",
+      "locator": "eccp-3672750-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675189": {
+      "title": "ECCP · 吳正治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419945",
+      "locator": "eccp-3675189-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-238",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

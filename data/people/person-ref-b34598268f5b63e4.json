@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b34598268f5b63e4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "名時",
+    "source": "eccp-3649415",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "楊名時，字賓實，江南江陰人。",
+          "source": "qsg-volume-290",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "賓實",
+        "source": "eccp-3649415"
+      },
+      {
+        "value": "凝齋",
+        "source": "eccp-3649415"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "賓實"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Ming-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3649415"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1661,
+        "source": "eccp-3649415",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1736,
+        "source": "eccp-3649415",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-290",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-290",
+      "passage": "qsg-volume-290-007",
+      "matchStatus": "proposed",
+      "evidence": "楊名時，字賓實，江南江陰人。康熙三十年進士，改庶吉士。李光地為考官，深器之，從受經學。散館，授檢討。四十一年，督順天學政，用光地薦也。尋遷侍讀。四十二年，上西巡，肥鄉武生李正朝病狂，衝突儀仗。光地時為直隸巡撫，請罪正朝，因劾名時。上斥名時督學，有意棄富錄貧，不問學業文字，但不受賄囑，從寬恕宥。四十四年，任滿，命河工效力。旋連遭父母喪，以憂歸。五十一年，服除，候補。五十三年，命直南書房。名時不投牒吏部，因不得補官，上特命充陝西考官。五十六年，授直隸巡道。時沿明製，直隸不設兩司，以巡道任按察使事。政"
+    }
+  ],
+  "sources": {
+    "eccp-3649415": {
+      "title": "ECCP · 沈彤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318212",
+      "locator": "eccp-3649415-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ea084c248d367cce",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "曾植",
+    "source": "eccp-3640788",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈曾植，字子培，浙江嘉興人。",
+          "source": "qsg-volume-472",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子培",
+        "source": "eccp-3640788"
+      }
+    ],
+    "hao": [
+      {
+        "value": "乙盦",
+        "source": "eccp-3640788"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子培"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Tsêng-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3640788"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1922,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-472",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-472",
+      "passage": "qsg-volume-472-031",
+      "matchStatus": "proposed",
+      "evidence": "沈曾植，字子培，浙江嘉興人。光緒六年進士，用刑部主事。事親孝，母多疾，醫藥必親嘗，終歲未嘗解衣安臥，遂通醫。遷員外郎，擢郎中。居刑曹十八年，專研古今律令書，由大明律、宋律統、唐律上溯漢、魏，於是有漢律輯補、晉書刑法志補之作。曾植為學兼綜漢、宋，而尤深於史學掌故，後專治遼、金、元三史，及西北輿地，南洋貿遷沿革。尋充總理衙門章京。中日和議成，曾植請自借英款創辦東三省鐵路，時俄之韋特西比利亞鐵路尚未建議也，不果行。母憂歸，兩湖總督張之洞聘主兩湖書院講席。"
+    }
+  ],
+  "sources": {
+    "eccp-3640788": {
+      "title": "ECCP · 洪鈞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285326",
+      "locator": "eccp-3640788-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-472": {
+      "title": "清史稿/卷472",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433579",
+      "locator": "qsg-volume-472-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

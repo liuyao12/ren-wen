@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646146",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "驌",
+    "source": "eccp-3646146",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MA Su 馬驌 (T. 宛斯 and 驄御), Feb.1, 1621–1673, Aug. 15, scholar, a native of Tsou-p'ing, Shantung, was a chin-shih of 1659. After serving as police magistrate in Huai-an, Kiangsu, he became district magistrate of Ling-pi, Anhwei.",
+          "source": "eccp-3646146",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "宛斯",
+        "source": "eccp-3646146"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "宛斯"
+    },
+    "romanizations": [
+      {
+        "value": "Ma Su",
+        "system": "ECCP spelling",
+        "source": "eccp-3646146"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1621,
+        "source": "eccp-3646146",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3646146",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646146",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646146",
+      "passage": "eccp-3646146-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646146": {
+      "title": "ECCP · Ma Su",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300563",
+      "locator": "eccp-3646146-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

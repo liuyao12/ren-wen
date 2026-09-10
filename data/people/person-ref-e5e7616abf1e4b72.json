@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e5e7616abf1e4b72",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "臧",
+    "given": "琳",
+    "source": "eccp-3656402",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "臧琳，字玉林，武進人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玉林",
+        "source": "eccp-3656402"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉林"
+    },
+    "romanizations": [
+      {
+        "value": "Tsang Lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3656402"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1650,
+        "source": "eccp-3656402",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1713,
+        "source": "eccp-3656402",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-070",
+      "matchStatus": "proposed",
+      "evidence": "臧琳，字玉林，武進人。諸生。治經以漢注唐疏為主，教人先以爾雅、說文，曰：「不解字，何以讀書？不通訓詁，何以明經？」鍵戶著述，世無知者。有尚書集解百二十卷，經義雜記三十卷。閻若璩稱其深明兩漢之學，錢大昕校定其書，云：「實事求是，別白精審，而未嘗輕詆前哲，斯真務實而不近名者。」"
+    }
+  ],
+  "sources": {
+    "eccp-3656402": {
+      "title": "ECCP · 臧庸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365192",
+      "locator": "eccp-3656402-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

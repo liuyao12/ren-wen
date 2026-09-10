@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a2a757a8879e374a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "冒",
+    "given": "廣生",
+    "source": "eccp-3646159",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "鶴亭",
+        "source": "eccp-3646159"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鷗隱",
+        "source": "eccp-3646159"
+      },
+      {
+        "value": "疚齋",
+        "source": "eccp-3646159"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鶴亭"
+    },
+    "romanizations": [
+      {
+        "value": "Mao Kuang-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3646159"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

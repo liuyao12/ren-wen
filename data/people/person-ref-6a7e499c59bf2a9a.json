@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-6a7e499c59bf2a9a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "曾可",
+    "source": "eccp-3649390",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Shao Tsêng-k'o 邵曾可 (T. 子唯, H. 魯公, d. 1658, aged 51 sui), was a pupil of Shên Kuo-mo 沈國模 (or 謨 T. 叔則, 求如, 1575–1656), who founded in Yü-yao the Academy known as the Yao-chiang Shu-yüan 姚江書院 I to promote the teachings of Wang Shou-jên (see under Chang Li-hsiang)—Wang also having been a native of that place.",
+          "source": "eccp-3649390",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子唯",
+        "source": "eccp-3649390"
+      }
+    ],
+    "hao": [
+      {
+        "value": "魯公",
+        "source": "eccp-3649390"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子唯"
+    },
+    "romanizations": [
+      {
+        "value": "Shao Tsêng-k'o",
+        "system": "ECCP spelling",
+        "source": "eccp-3649390"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-049",
+      "matchStatus": "proposed",
+      "evidence": "邵曾可，字子唯。與韓當同時。性孝友愷悌。少愛書畫，一日讀孟子「伯夷聖之清者也」句，忽有悟，悉棄去，壹志於學。姚江書院初立時，人頗迂笑之。曾可厲色曰：「不如是，便虛度此生。」遂往學。其初以主敬為宗，自師孝咸之後，專守良知。嘗曰：「於今乃知知之不可以已。日月有明，容光必照。不爾，日用跬步，鮮不貿貿者矣。」孝咸病，晨走十餘里叩床下問疾，不食而返。如是月餘，亦病。同儕共推為篤行之士焉。卒，年五十有一。"
+    }
+  ],
+  "sources": {
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639263",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蕭",
+    "given": "啟江",
+    "source": "eccp-3639263",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "湘鄉",
+      "source": "qsg-volume-432",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIAO Ch'i-chiang 蕭啟江 (T. 濬川), d. June 16, 1860, was a native of Hsiang-hsiang, Hunan. In 1853 he joined the \"Hunan Braves\" (see under Tsêng Kuo-fan) against the Taiping rebels and participated in the campaign to recover Yochow and Wuchang (1854).",
+          "source": "eccp-3639263",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "蕭啟江，字濬川，湖南湘鄉人。",
+          "source": "qsg-volume-432",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "湖南長沙府湘鄉縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "濬川",
+        "source": "eccp-3639263"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "濬川"
+    },
+    "romanizations": [
+      {
+        "value": "Hsiao Ch'i-chiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639263"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639263",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639263",
+      "passage": "eccp-3639263-001"
+    },
+    {
+      "source": "qsg-volume-432",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-432",
+      "passage": "qsg-volume-432-006",
+      "matchStatus": "proposed",
+      "evidence": "蕭啟江，字濬川，湖南湘鄉人。少賈於蜀，後始折節讀書。咸豐三年，入塔齊布軍。四年，從平岳州，克武昌、漢陽、興國、大冶、蘄州，敘縣丞，晉秩州同。五年，廣東賊犯湖南，湘撫駱秉章檄啟江募兵協剿，曰果字營，自是獨將一軍。攻茶陵踞匪，率壯士數十人薄南門，賊自民廛躍出，攢矛環刺，啟江手擒數賊，賊莫敢逼。尋會克其城，賊走江西，陷弋陽、興安。啟江偕羅澤南复兩城，進收廣信，賜花翎，擢同知。"
+    }
+  ],
+  "sources": {
+    "eccp-3639263": {
+      "title": "ECCP · Hsiao Ch'i-chiang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280293",
+      "locator": "eccp-3639263-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654367": {
+      "title": "ECCP · 石達開",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358434",
+      "locator": "eccp-3654367-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-113",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-406": {
+      "title": "清史稿/卷406",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433578",
+      "locator": "qsg-volume-406-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-408": {
+      "title": "清史稿/卷408",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027044",
+      "locator": "qsg-volume-408-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-413": {
+      "title": "清史稿/卷413",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433597",
+      "locator": "qsg-volume-413-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-419": {
+      "title": "清史稿/卷419",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433585",
+      "locator": "qsg-volume-419-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-420": {
+      "title": "清史稿/卷420",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2272914",
+      "locator": "qsg-volume-420-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-427": {
+      "title": "清史稿/卷427",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2259934",
+      "locator": "qsg-volume-427-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-432": {
+      "title": "清史稿/卷432",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515895",
+      "locator": "qsg-volume-432-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-475": {
+      "title": "清史稿/卷475",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433539",
+      "locator": "qsg-volume-475-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "長沙府下湘鄉"
+    }
+  },
+  "notes": []
+}

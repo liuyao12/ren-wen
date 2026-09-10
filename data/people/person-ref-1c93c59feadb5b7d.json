@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1c93c59feadb5b7d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "維嵋",
+    "source": "eccp-3633515",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "半雪",
+        "source": "eccp-3633515"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "半雪"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Wei-mei",
+        "system": "ECCP spelling",
+        "source": "eccp-3633515"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633515": {
+      "title": "ECCP · 陳貞慧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

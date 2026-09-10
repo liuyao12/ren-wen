@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633265",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "爾岐",
+    "source": "eccp-3633265",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "張爾岐，字稷若，濟陽人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "稷若",
+        "source": "eccp-3633265"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒿庵",
+        "source": "eccp-3633265"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "稷若"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Êr-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3633265"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1612,
+        "source": "eccp-3633265",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1678,
+        "source": "eccp-3633265",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633265",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633265",
+      "passage": "eccp-3633265-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-011",
+      "matchStatus": "proposed",
+      "evidence": "張爾岐，字稷若，濟陽人。明諸生。父行素，官石首縣丞，罹兵難，爾岐欲身殉，以母老止。順治七年，貢成均，亦不出。遜志好學，篤守程、朱之說，著天道論、中庸論，為時所稱。又著學辨五篇：曰辨志，曰辨術，曰辨業，曰辨成，曰辨徵。又著立命說辨，斥袁氏功過格、立命說之非。年三十，覃思儀禮，以鄭康成注文古質，賈公彥釋義曼衍，學者不能尋其端緒；乃取經與注章分之，定其句讀，疏其節，錄其要，取其明注而止，有疑義則以意斷之，亦附於末：成儀禮鄭注句讀十七卷，附以監本正誤、石經正誤二卷。顧炎武游山東，讀而善之，曰：「炎武年過"
+    }
+  ],
+  "sources": {
+    "eccp-3633265": {
+      "title": "ECCP · Chang Êr-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271680",
+      "locator": "eccp-3633265-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634072": {
+      "title": "ECCP · 陳壽祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633275": {
+      "title": "ECCP · 張惠言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271613",
+      "locator": "eccp-3633275-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639245": {
+      "title": "ECCP · 賀長齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280262",
+      "locator": "eccp-3639245-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640033": {
+      "title": "ECCP · 惠士奇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282962",
+      "locator": "eccp-3640033-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649362": {
+      "title": "ECCP · 皮錫瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318127",
+      "locator": "eccp-3649362-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678142": {
+      "title": "ECCP · 閻若璩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442948",
+      "locator": "eccp-3678142-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-142",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

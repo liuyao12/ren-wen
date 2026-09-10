@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e8ff8e0663371ab4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "桂清",
+    "source": "eccp-3649351",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "昆明",
+      "source": "qsg-volume-397",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ho Kuei-ch'ing 何桂清 (T. 叢山, H. 根雲, 1816–1862), on whose account P'êng was forced to retire in 1860, became a chin-shih in 1835 and thus was P'êng's classmate. A native of Yunnan, he entered the Hanlin Academy and rose rapidly in rank.",
+          "source": "eccp-3649351",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "何桂清，字根雲，雲南昆明人。",
+          "source": "qsg-volume-397",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "叢山",
+        "source": "eccp-3649351"
+      }
+    ],
+    "hao": [
+      {
+        "value": "根雲",
+        "source": "eccp-3649351"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "叢山"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Kuei-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3649351"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1816,
+        "source": "eccp-3649351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1862,
+        "source": "eccp-3649351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-397",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-397",
+      "passage": "qsg-volume-397-023",
+      "matchStatus": "proposed",
+      "evidence": "何桂清，字根雲，雲南昆明人。道光十五年進士，選庶吉士，授編修。遷贊善，直南書房。五遷至內閣學士。二十八年，擢兵部侍郎，以憂去，服闋，補原官，調戶部。咸豐二年，督江蘇學政。粵匪擾江南，桂清疏陳兵事，劾疆吏巽耎僨事，侃侃無所避，文宗奇之。四年，調倉場侍郎，旋授浙江巡撫。"
+    }
+  ],
+  "sources": {
+    "eccp-3649351": {
+      "title": "ECCP · 彭蘊章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

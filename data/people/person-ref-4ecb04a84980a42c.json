@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4ecb04a84980a42c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "尹",
+    "given": "壯圖",
+    "source": "eccp-3635456",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "昆明",
+      "source": "qsg-volume-322",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "尹壯圖，字楚珍，雲南昆明人。",
+          "source": "qsg-volume-322",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "萬起",
+        "source": "eccp-3635456"
+      }
+    ],
+    "hao": [
+      {
+        "value": "楚珍",
+        "source": "eccp-3635456"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "萬起"
+    },
+    "romanizations": [
+      {
+        "value": "Yin Chuang-t'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3635456"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1738,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1808,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-322",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-322",
+      "passage": "qsg-volume-322-029",
+      "matchStatus": "proposed",
+      "evidence": "尹壯圖，字楚珍，雲南昆明人。乾隆三十一年進士，改庶吉士。散館，授禮部主事。再遷郎中。三十九年，考選江南道監察御史，轉京畿道。三遷至內閣學士，兼禮部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3635456": {
+      "title": "ECCP · 錢灃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271408",
+      "locator": "eccp-3635456-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

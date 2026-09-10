@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-52cc02753bc3c3ad",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "貞顯皇后",
+    "source": "eccp-3639264",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Empress Hsiao-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3639264"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3639264",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1881,
+        "source": "eccp-3639264",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-237",
+      "matchStatus": "proposed",
+      "evidence": "孝貞顯皇后，鈕祜祿氏，廣西右江道穆揚阿女。事文宗潛邸。咸豐二年，封貞嬪，進貞貴妃。立為皇后。十年，從幸熱河。十一年七月，文宗崩，穆宗即位，尊為皇太后。是時，孝欽、孝貞兩宮並尊，詔旨稱「母后皇太后」、「聖母皇太后」以別之。十一月乙酉朔，上奉兩太后御養心殿，垂簾聽政。同治八年，內監安得海出京，山東巡撫丁寶楨以聞，太后立命誅之。十二年，歸政於穆宗。十三年，穆宗崩，德宗即位，復聽政。光緒七年三月壬申，崩，年四十五，葬定陵東普祥峪，曰定東陵。初尊為皇太后，上徽號。國有慶，累加上，曰慈安端康裕慶昭和莊敬皇太"
+    }
+  ],
+  "sources": {
+    "eccp-3639264": {
+      "title": "ECCP · 孝欽顯皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-237",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

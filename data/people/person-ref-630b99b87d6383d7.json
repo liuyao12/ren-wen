@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-630b99b87d6383d7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "亶望",
+    "source": "eccp-3634076",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "臨汾",
+      "source": "qsg-volume-339",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "王亶望，山西臨汾人，江蘇巡撫師子。",
+          "source": "qsg-volume-339",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wang Tan-wang",
+        "system": "ECCP spelling",
+        "source": "eccp-3634076"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-339",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-339",
+      "passage": "qsg-volume-339-017",
+      "matchStatus": "proposed",
+      "evidence": "王亶望，山西臨汾人，江蘇巡撫師子。自舉人捐納知縣，發甘肅，知山丹、皋蘭諸縣。選授雲南武定知府，引見，命仍往甘肅待缺，除寧夏知府。累遷浙江布政使，暫署巡撫。乾隆三十八年，上幸天津，亶望貢方物，范金為如意，飾以珠，上拒弗納。三十九年，移甘肅布政使。甘肅舊例，令民輸豆麥，予國子監生，得應試入官，謂之「監糧」，上令罷之。既，復令肅州、安西收捐如舊例。亶望至，申總督勒爾謹，以內地倉儲未實為辭，為疏請諸州縣皆得收捐；既，又請於勒爾謹，令民改輸銀。歲虛報旱災，妄言以粟治賑，而私其銀，自總督以下皆有分，亶望多取"
+    }
+  ],
+  "sources": {
+    "eccp-3634076": {
+      "title": "ECCP · 陳大受",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271487",
+      "locator": "eccp-3634076-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

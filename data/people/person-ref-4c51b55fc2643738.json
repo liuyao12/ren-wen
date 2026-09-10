@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-4c51b55fc2643738",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "毓汶",
+    "source": "eccp-3656322",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濟寧州",
+      "source": "qsg-volume-436",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫毓汶，字萊山，山東濟寧州人，尚書瑞珍子。",
+          "source": "qsg-volume-436",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "滙溪",
+        "source": "eccp-3656322"
+      }
+    ],
+    "hao": [
+      {
+        "value": "萊山",
+        "source": "eccp-3656322"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "滙溪"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Yi-wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3656322"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-436",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-436",
+      "passage": "qsg-volume-436-024",
+      "matchStatus": "proposed",
+      "evidence": "孫毓汶，字萊山，山東濟寧州人，尚書瑞珍子。咸豐六年，以一甲二名進士授編修。八年，丁父憂。十年，以在籍辦團抗捐被劾，革職遣戍。恭親王以毓汶世受國恩，首抗捐餉，深惡之。同治元年，以輸餉復原官。五年，大考一等一名，擢侍講學士。先後典四川鄉試，督福建學政。光緒元年，丁母憂。服闋，起故官。尋遷詹事，視學安徽。擢內閣學士，授工部左侍郎。十年，命赴江南等省按事。時法越事起，毓汶以習於醇親王，漸與聞機要。適奉硃諭盡罷軍機王大臣，毓汶還，遂命入直軍機，兼總理各國事務大臣。時當國益厭言路紛囂，出張佩綸等會辦南北洋、"
+    }
+  ],
+  "sources": {
+    "eccp-3656322": {
+      "title": "ECCP · 孫玉庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365066",
+      "locator": "eccp-3656322-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

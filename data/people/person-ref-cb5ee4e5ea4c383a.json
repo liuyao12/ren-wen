@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cb5ee4e5ea4c383a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "于",
+    "given": "式枚",
+    "source": "eccp-3643627",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "于式枚，字晦若，賀縣人。",
+          "source": "qsg-volume-443",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "穗生",
+        "source": "eccp-3643627"
+      }
+    ],
+    "hao": [
+      {
+        "value": "晦若",
+        "source": "eccp-3643627"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "穗生"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Shih-mei",
+        "system": "ECCP spelling",
+        "source": "eccp-3643627"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1915,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-443",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-443",
+      "passage": "qsg-volume-443-019",
+      "matchStatus": "proposed",
+      "evidence": "于式枚，字晦若，賀縣人。博聞强記，善屬文。光緒六年進士，以庶吉士，散館用兵部主事。李鴻章疏調北洋差遣，歷十餘年，奏牘多出其手。性不樂爲外吏，又格於例不得保升京秩，久之不遷。二十二年，鴻章賀俄皇加冕，因歷聘德、法、英、美諸國，式枚充隨員。俄選授禮部主事，由員外郎授御史，遷給事中。贊辛丑和約，賞五品京堂。充政務處幫提調、大學堂總辦、譯學館監督。三十一年，以鴻臚寺少卿督廣東學政，改提學使，疏辭，命總理廣西鐵路。三十三年，擢郵傳部侍郎。"
+    }
+  ],
+  "sources": {
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-028",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-443": {
+      "title": "清史稿/卷443",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433508",
+      "locator": "qsg-volume-443-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

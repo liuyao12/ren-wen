@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658560",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "佟",
+    "given": "圖賴",
+    "source": "eccp-3658560",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'UNG T'u-lai 佟圖賴 (original name 佟盛年), d. 1658, age 53 (sui), general, was a native of Fu-shun, Liaotung. He inherited the minor hereditary rank of his father, T'ung Yang-chên [q. v.], who was killed in 1621.",
+          "source": "eccp-3658560",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "佟圖賴，漢軍鑲黃旗人。",
+          "source": "qsg-volume-235",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "T'ung T'u-lai",
+        "system": "ECCP spelling",
+        "source": "eccp-3658560"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658560",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658560",
+      "passage": "eccp-3658560-001"
+    },
+    {
+      "source": "qsg-volume-235",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-235",
+      "passage": "qsg-volume-235-043",
+      "matchStatus": "proposed",
+      "evidence": "佟圖賴，漢軍鑲黃旗人。父養真。太祖克撫順，養真以從弟養性已降，挈其族來歸。從攻遼陽，以功授世職游擊。命駐鎮江，守將陳良策以城叛，養真及長子豐年皆死。"
+    }
+  ],
+  "sources": {
+    "eccp-3658560": {
+      "title": "ECCP · T'ung T'u-lai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370117",
+      "locator": "eccp-3658560-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658557": {
+      "title": "ECCP · 佟國綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370113",
+      "locator": "eccp-3658557-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658559": {
+      "title": "ECCP · 佟國維",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370116",
+      "locator": "eccp-3658559-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658561": {
+      "title": "ECCP · 佟養眞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370118",
+      "locator": "eccp-3658561-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-235": {
+      "title": "清史稿/卷235",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433514",
+      "locator": "qsg-volume-235-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

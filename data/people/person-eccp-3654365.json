@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654365",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "施",
+    "given": "世驃",
+    "source": "eccp-3654365",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH Shih-p'iao 施世驃, d. 1721, age 55 (sui), admiral, was a native of Chin-chiang, Fukien, and a younger brother of Shih Shih-lun [q. v.]. When his father, Shih Lang [q. v.], effected the surrender of Chêng K'o-shuang (see under Chêng Ching) in Taiwan in 1683, Shih Shih-p'iao, though only a lad of seventeen (sui), demonstrated his prowess in battle.",
+          "source": "eccp-3654365",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Shih Shih-p'iao",
+        "system": "ECCP spelling",
+        "source": "eccp-3654365"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654365",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654365",
+      "passage": "eccp-3654365-001"
+    },
+    {
+      "source": "qsg-volume-284",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-284",
+      "passage": "qsg-volume-284-013",
+      "matchStatus": "proposed",
+      "evidence": "施世驃，字文秉，靖海侯瑯第六子。康熙二十二年，世驃年十五，從瑯下台灣，委署守備。台灣既定，以功加左都督銜，授山東濟南城守參將。三十五年，聖祖親征噶爾丹，天津總兵岳昇龍薦世驃從軍。召試騎射，命護糧運至奎素，從大將軍馬斯喀追賊至巴顏烏闌。師還，假歸葬。上褒世驃勤勞，命事畢仍還任。累遷浙江定海總兵。四十二年，上南巡，賜御書「彰信敦禮」榜。時海中多盜，世驃屢出洋巡緝，先遣裨將假商船餌盜，擒獲甚眾，斬盜渠江崙。四十六年，上南巡，詢及擒斬海盜事，溫諭嘉獎，賜孔雀翎。四十七年，擢廣東提督。五十一年，調福建水師"
+    }
+  ],
+  "sources": {
+    "eccp-3654365": {
+      "title": "ECCP · Shih Shih-p'iao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636414": {
+      "title": "ECCP · 朱一貴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272545",
+      "locator": "eccp-3636414-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642440": {
+      "title": "ECCP · 藍鼎元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290560",
+      "locator": "eccp-3642440-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654363": {
+      "title": "ECCP · 施琅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358427",
+      "locator": "eccp-3654363-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654364": {
+      "title": "ECCP · 施世綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358429",
+      "locator": "eccp-3654364-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-284": {
+      "title": "清史稿/卷284",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433499",
+      "locator": "qsg-volume-284-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

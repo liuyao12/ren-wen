@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654356",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "史",
+    "given": "貽直",
+    "source": "eccp-3654356",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "溧陽",
+      "source": "qsg-volume-303",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH I-chih 史貽直 (T. 儆弦, H. 鐵崖), Feb. 26, 1682–1763, June 23, official, was a native of Li-yang, Kiangsu. His grandfather and father were chin-shih and members of the Hanlin Academy.",
+          "source": "eccp-3654356",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "史貽直，字儆弦，江蘇溧陽人。",
+          "source": "qsg-volume-303",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "儆弦",
+        "source": "eccp-3654356"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鐵崖",
+        "source": "eccp-3654356"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "儆弦"
+    },
+    "romanizations": [
+      {
+        "value": "Shih I-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3654356"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1682,
+        "source": "eccp-3654356",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1763,
+        "source": "eccp-3654356",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654356",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654356",
+      "passage": "eccp-3654356-001"
+    },
+    {
+      "source": "qsg-volume-303",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-303",
+      "passage": "qsg-volume-303-014",
+      "matchStatus": "proposed",
+      "evidence": "史貽直，字儆弦，江蘇溧陽人。父夔，康熙二十一年進士，官至詹事。貽直少嫺掌故。三十九年，成進士，年十九。自檢討五遷侍讀學士。雍正初，命在南書房行走，再遷吏部侍郎，歷工部、戶部。命如河南按總督田文鏡劾信陽知州黃振國等，定讞入告。上蔡知縣張球，文鏡所嘗薦，貽直等發其諱盜。下吏議，文鏡疏自劾。復命如山西按前總督年羹堯領河東鹽政，私其子撓鹽法。七年，復命如福建按巡撫硃綱劾按察使喬學尹等，並論如律。上獎其公當，命署福建總督。福建水師巡海，挾巿易物蝕關稅，貽直為申禁。福州、興化、泉州、漳州四府以米少，倉穀不如"
+    }
+  ],
+  "sources": {
+    "eccp-3654356": {
+      "title": "ECCP · Shih I-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358409",
+      "locator": "eccp-3654356-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-018",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-295": {
+      "title": "清史稿/卷295",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4468582",
+      "locator": "qsg-volume-295-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-303": {
+      "title": "清史稿/卷303",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132223",
+      "locator": "qsg-volume-303-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-069",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-088",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

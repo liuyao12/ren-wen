@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635466",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "錢",
+    "given": "載",
+    "source": "eccp-3635466",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "秀水",
+      "source": "qsg-volume-305",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IEN Tsai 錢載 (T. 坤一, H. 蘀石, 根苑, 瓠尊, 萬松居士, 萬蒼翁), Oct. 21, 1708–1793, official, poet, and painter, was a native of Hsiu-shui, Chekiang, and a relative of Ch'ien Ch'ên-ch'ün [q. v.].",
+          "source": "eccp-3635466",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "錢載，字坤一，浙江秀水人。",
+          "source": "qsg-volume-305",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "坤一",
+        "source": "eccp-3635466"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘀石",
+        "source": "eccp-3635466"
+      },
+      {
+        "value": "根苑",
+        "source": "eccp-3635466"
+      },
+      {
+        "value": "瓠尊",
+        "source": "eccp-3635466"
+      },
+      {
+        "value": "萬松居士",
+        "source": "eccp-3635466"
+      },
+      {
+        "value": "萬蒼翁",
+        "source": "eccp-3635466"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "坤一"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ien Tsai",
+        "system": "ECCP spelling",
+        "source": "eccp-3635466"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1708,
+        "source": "eccp-3635466",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3635466",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635466",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635466",
+      "passage": "eccp-3635466-001"
+    },
+    {
+      "source": "qsg-volume-305",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-305",
+      "passage": "qsg-volume-305-025",
+      "matchStatus": "proposed",
+      "evidence": "錢載，字坤一，浙江秀水人。雍正十年，副榜貢生，舉博學鴻詞、舉經學，就試皆未入選。乾隆十七年，成進士，改庶吉士，授編修。七遷內閣學士，直上書房。四十一年，督山東學政。四十五年，命祭告陝西、四川岳瀆及帝王陵寢。尋擢禮部侍郎，充江南鄉試考官，舉顧問為第一，四書文純用排偶，上以乖文體，命議處。"
+    }
+  ],
+  "sources": {
+    "eccp-3635466": {
+      "title": "ECCP · Ch'ien Tsai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271415",
+      "locator": "eccp-3635466-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634073": {
+      "title": "ECCP · 陳書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271485",
+      "locator": "eccp-3634073-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-101",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-089",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

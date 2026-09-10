@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a1a7da984cca4565",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "彥威",
+    "source": "eccp-3640821",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "弢夫",
+        "source": "eccp-3640821"
+      }
+    ],
+    "hao": [
+      {
+        "value": "藜盦",
+        "source": "eccp-3640821"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "弢夫"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yen-wei",
+        "system": "ECCP spelling",
+        "source": "eccp-3640821"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3640821",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1904,
+        "source": "eccp-3640821",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3640821": {
+      "title": "ECCP · 奕訢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285401",
+      "locator": "eccp-3640821-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

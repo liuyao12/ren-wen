@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678157",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "尹繼善",
+    "source": "eccp-3678157",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YIN-chi-shan 尹繼善 (T. 元長, H. 望山), May 8, 1696–1771, June 4?, official, was a member of the Manchu Bordered Yellow Banner. He came from the Janggiya 章佳氏 Clan which had settled in Liaotung long before the rise of Nurhaci [q. v.].",
+          "source": "eccp-3678157",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "尹繼善，字元長，章佳氏，滿洲鑲黃旗人，大學士尹泰子。",
+          "source": "qsg-volume-307",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元長",
+        "source": "eccp-3678157"
+      }
+    ],
+    "hao": [
+      {
+        "value": "望山",
+        "source": "eccp-3678157"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元長"
+    },
+    "romanizations": [
+      {
+        "value": "Yin-chi-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3678157"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1696,
+        "source": "eccp-3678157",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3678157",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678157",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678157",
+      "passage": "eccp-3678157-001"
+    },
+    {
+      "source": "qsg-volume-307",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-307",
+      "passage": "qsg-volume-307-006",
+      "matchStatus": "proposed",
+      "evidence": "尹繼善，字元長，章佳氏，滿洲鑲黃旗人，大學士尹泰子。雍正元年進士，改庶吉士，授編修。五年，遷侍講，尋署戶部郎中。上遣通政使留保等如廣東按布政使官達、按察使方原瑛受賕狀，以尹繼善偕。鞫實，即以尹繼善署按察使。六年，授內閣侍讀學士，協理江南河務。是秋，署江蘇巡撫，七年，真除。疏禁收漕規費，定石米費六分，半給旗丁，半給州縣，使無不足，然後裁以法。平糶盈餘，非公家之利，應存縣庫，常平倉捐穀聽民樂輸，不得隨漕勒徵。命如議行。又疏請崇明增設巡道，兼轄太倉、通州。並釐定永興、牛羊、大安諸沙分防將吏。福山增隸沙"
+    }
+  ],
+  "sources": {
+    "eccp-3678157": {
+      "title": "ECCP · Yin-chi-shan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442977",
+      "locator": "eccp-3678157-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633522": {
+      "title": "ECCP · 陳宏謀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271454",
+      "locator": "eccp-3633522-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635476": {
+      "title": "ECCP · 靳輔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271743",
+      "locator": "eccp-3635476-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639189": {
+      "title": "ECCP · 傅恆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280183",
+      "locator": "eccp-3639189-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678487": {
+      "title": "ECCP · 永珹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443841",
+      "locator": "eccp-3678487-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678462": {
+      "title": "ECCP · 袁枚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443802",
+      "locator": "eccp-3678462-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-323": {
+      "title": "清史稿/卷323",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025482",
+      "locator": "qsg-volume-323-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-340": {
+      "title": "清史稿/卷340",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433581",
+      "locator": "qsg-volume-340-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-341": {
+      "title": "清史稿/卷341",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485033",
+      "locator": "qsg-volume-341-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a9c83d36431d1d50",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "金",
+    "given": "榜",
+    "source": "eccp-3656369",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "金榜，字輔之，歙縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘂中",
+        "source": "eccp-3656369"
+      },
+      {
+        "value": "輔之",
+        "source": "eccp-3656369"
+      }
+    ],
+    "hao": [
+      {
+        "value": "檠齋",
+        "source": "eccp-3656369"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘂中"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Pang",
+        "system": "ECCP spelling",
+        "source": "eccp-3656369"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1735,
+        "source": "eccp-3656369",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1801,
+        "source": "eccp-3656369",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-141",
+      "matchStatus": "proposed",
+      "evidence": "金榜，字輔之，歙縣人。乾隆二十九年召試舉人，授內閣中書，軍機處行走。三十七年一甲一名進士，授翰林院修撰。散館後，養疴讀書不復出，卒於家。師事江永，友戴震，著禮箋十卷，刺取其大者數十事為三卷，寄朱珪，珪序之，以為詞精義核。榜治禮最尊康成，然博稽而精思，慎求而能斷。嘗援鄭志答趙商云：「不信亦非，悉信亦非。」曰：「斯言也，敢以為治經之大法。故鄭義所未衷者必糾正之，於鄭氏家法不敢誣也。」"
+    }
+  ],
+  "sources": {
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-141",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

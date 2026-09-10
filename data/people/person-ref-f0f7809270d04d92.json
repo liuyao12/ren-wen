@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f0f7809270d04d92",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "湘煃",
+    "source": "eccp-3675192",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉湘煃，字允恭，江夏人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "允恭",
+        "source": "eccp-3675192"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "允恭"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Hsiang-k'uei",
+        "system": "ECCP spelling",
+        "source": "eccp-3675192"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-070",
+      "matchStatus": "proposed",
+      "evidence": "劉湘煃，字允恭，江夏人。聞梅文鼎以曆算名當世，鬻產走千餘裡，受業其門，湛思積悟，多所創獲。文鼎得之甚喜，曰：『劉生好學精進，啟予不逮！』其與人書曰：『金、水二星，歷指所說未徹，得劉生說，而後二星之有歲輪，其理確不可易。』因以所著歷學疑問囑之討論，湘煃為著訂補三卷。又謂曆法自漢、唐以來，五星最疏，故其遲、留、伏、逆皆入於佔，至元郭守敬出，而五星始有推步經度之法，而緯則猶未備。西法舊亦未有緯度，至地谷而後有五星緯度，已在守敬後矣。曆書有法原、法數，並為曆法統宗。法原者，七政與交食之歷指也；法數者，七"
+    }
+  ],
+  "sources": {
+    "eccp-3675192": {
+      "title": "ECCP · 吳敬梓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419949",
+      "locator": "eccp-3675192-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-070",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

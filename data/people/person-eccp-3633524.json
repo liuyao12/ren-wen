@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633524",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "恭尹",
+    "source": "eccp-3633524",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Kung-yin 陳恭尹 (T. 元孝, H. 半峯, 獨漉山人, 羅浮布衣), Oct. 20, 1631–1700, May 30, poet and calligrapher, was a native of Shun-tê, Kwangtung. His father, Ch'ên Pang-yen 陳邦彥 (T. 會份(斌), H. 巖野, 1603–1647), served under the Ming Prince of Kuei (see under Chu Yu-lang), and co-operated with Ch'ên Tzŭ-chuang [q. v.] in fighting the invading Manchu forces under Li Ch'êng-tung [q. v.], who had captured Canton early in 1647.",
+          "source": "eccp-3633524",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳恭尹，字元孝，順德人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元孝",
+        "source": "eccp-3633524"
+      }
+    ],
+    "hao": [
+      {
+        "value": "半峯",
+        "source": "eccp-3633524"
+      },
+      {
+        "value": "獨漉山人",
+        "source": "eccp-3633524"
+      },
+      {
+        "value": "羅浮布衣",
+        "source": "eccp-3633524"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元孝"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Kung-yin",
+        "system": "ECCP spelling",
+        "source": "eccp-3633524"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1631,
+        "source": "eccp-3633524",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1700,
+        "source": "eccp-3633524",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633524",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633524",
+      "passage": "eccp-3633524-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-102",
+      "matchStatus": "proposed",
+      "evidence": "陳恭尹，字元孝，順德人。父邦彥，明末殉國難，贈尚書。恭尹少孤，能為詩，習聞忠孝大節。棄家出遊，賦姑蘇懷古諸篇，傾動一時。留閩、浙者七年。一日，父友遇諸塗，責之曰：「子不歸葬，奈何徒欲一死塞責耶！」恭尹泣謝之，乃歸。既葬父增城，遂渡銅鼓洋訪故人於海外。久之歸，主何衡家。與陶窳、梁無技及衡弟絳相砥礪，世稱「北田五子」。已，复遊贛州，轉泛洞庭，再遊金陵，至汴梁，北渡黃河，徘徊大行之下。於是南歸，築室羊城之南以詩文自娛，自稱羅浮布衣。"
+    }
+  ],
+  "sources": {
+    "eccp-3633524": {
+      "title": "ECCP · Ch'ên Kung-yin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271461",
+      "locator": "eccp-3633524-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634080": {
+      "title": "ECCP · 陳子壯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271498",
+      "locator": "eccp-3634080-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643699": {
+      "title": "ECCP · 梁佩蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294988",
+      "locator": "eccp-3643699-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-102",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0e7de08ede975072",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "掄",
+    "source": "eccp-3639243",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [
+      {
+        "value": "桐庵",
+        "source": "eccp-3639243"
+      },
+      {
+        "value": "鶴漵",
+        "source": "eccp-3639243"
+      }
+    ],
+    "parenthetical": {
+      "kind": "hao",
+      "value": "桐庵"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Lun",
+        "system": "ECCP spelling",
+        "source": "eccp-3639243"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639243": {
+      "title": "ECCP · 和素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280258",
+      "locator": "eccp-3639243-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

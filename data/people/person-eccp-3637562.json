@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637562",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "國姓爺",
+    "source": "eccp-3637562",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Coxinga",
+        "system": "ECCP spelling",
+        "source": "eccp-3637562"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637562",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3637562",
+      "passage": "eccp-3637562-001"
+    },
+    {
+      "source": "eccp-3642406",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642406",
+      "passage": "eccp-3642406-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637562": {
+      "title": "ECCP · Coxinga",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275736",
+      "locator": "eccp-3637562-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642406": {
+      "title": "ECCP · Koxinga",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290478",
+      "locator": "eccp-3642406-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634094": {
+      "title": "ECCP · 鄭成功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271754",
+      "locator": "eccp-3634094-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

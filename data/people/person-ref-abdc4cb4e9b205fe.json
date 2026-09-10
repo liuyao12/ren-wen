@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-abdc4cb4e9b205fe",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "珍國",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Li Chên-kuo 李珍國 (T. 聘三, d. 1888), a native of Momein (born of a Burmese mother) who remembered that the British had conquered lower Burma in 1862, and that at the time of the Margary affair they were forcibly extending their influence northward.",
+          "source": "eccp-3656414",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聘三",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聘三"
+    },
+    "romanizations": [
+      {
+        "value": "Li Chên-kuo",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633266",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "海鵬",
+    "source": "eccp-3633266",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Hai-p'êng 張海鵬 (T. 若雲, H. 子瑜, 照曠主人), Mar. 28, 1755–1816, Aug. 3, bibliophile and editor, was a native of Ch'ang-shu, Kiangsu. His family is said to have been descended from a younger brother of Chang Chiu-ling 張九齡 (T. 子壽, 678–740), a learned scholar as well as an upright official of the T'ang dynasty.",
+          "source": "eccp-3633266",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "若雲",
+        "source": "eccp-3633266"
+      }
+    ],
+    "hao": [
+      {
+        "value": "子瑜",
+        "source": "eccp-3633266"
+      },
+      {
+        "value": "照曠主人",
+        "source": "eccp-3633266"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "若雲"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Hai-p'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3633266"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1755,
+        "source": "eccp-3633266",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1816,
+        "source": "eccp-3633266",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633266",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633266",
+      "passage": "eccp-3633266-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633266": {
+      "title": "ECCP · Chang Hai-p'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271608",
+      "locator": "eccp-3633266-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633262": {
+      "title": "ECCP · 張金吾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271589",
+      "locator": "eccp-3633262-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649387": {
+      "title": "ECCP · 邵晉涵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318168",
+      "locator": "eccp-3649387-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672717": {
+      "title": "ECCP · 王徵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412264",
+      "locator": "eccp-3672717-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675185": {
+      "title": "ECCP · 翁叔元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419939",
+      "locator": "eccp-3675185-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678131": {
+      "title": "ECCP · 葉映榴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442929",
+      "locator": "eccp-3678131-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

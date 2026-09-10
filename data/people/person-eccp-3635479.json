@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635479",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "金",
+    "given": "堡",
+    "source": "eccp-3635479",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIN Pao 金堡 (T. 衛公, 道隱, H. 澹歸, monastic names 性因, 今釋), 1614–1680, Sept. 1 (Jan. 17, 1681?), Ming official, writer, and Buddhist priest, was a native of Jên-ho (Hangchow). A chin-shih of 1640, he was made department magistrate of Lin-ch'ing, Shantung, but was dismissed in the same year for failure to collect his quota of taxes.",
+          "source": "eccp-3635479",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "衛公",
+        "source": "eccp-3635479"
+      },
+      {
+        "value": "道隱",
+        "source": "eccp-3635479"
+      }
+    ],
+    "hao": [
+      {
+        "value": "澹歸",
+        "source": "eccp-3635479"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "衛公"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3635479"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1614,
+        "source": "eccp-3635479",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3635479",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635479",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635479",
+      "passage": "eccp-3635479-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635479": {
+      "title": "ECCP · Chin Pao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271746",
+      "locator": "eccp-3635479-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637543": {
+      "title": "ECCP · 瞿式耜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293112",
+      "locator": "eccp-3637543-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633247": {
+      "title": "ECCP · 查繼佐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271541",
+      "locator": "eccp-3633247-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633508": {
+      "title": "ECCP · 趙申喬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271698",
+      "locator": "eccp-3633508-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635482": {
+      "title": "ECCP · 今釋",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271739",
+      "locator": "eccp-3635482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642455": {
+      "title": "ECCP · 李成棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290592",
+      "locator": "eccp-3642455-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-465c20729cbce0fd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "起",
+    "source": "eccp-3633247",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "仲方",
+        "source": "eccp-3633247"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲方"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3633247"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633247": {
+      "title": "ECCP · 查繼佐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271541",
+      "locator": "eccp-3633247-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

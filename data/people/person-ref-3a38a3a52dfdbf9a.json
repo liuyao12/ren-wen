@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3a38a3a52dfdbf9a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "茅",
+    "given": "瑞徵",
+    "source": "eccp-3649343",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Mao Jui-chêng 茅瑞徵 (T. 伯符, 五芝, H. 苕上愚公, 澹泊居士, 浣花主人), a chin-shih of 1601 and a native of Kuei-an, Chekiang. The Tung-i k'ao-lüeh is the older of the two works (the author's preface is dated 1621) and it seems probable that P'êng drew on it for his own compilation.",
+          "source": "eccp-3649343",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "伯符",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "五芝",
+        "source": "eccp-3649343"
+      }
+    ],
+    "hao": [
+      {
+        "value": "苕上愚公",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "澹泊居士",
+        "source": "eccp-3649343"
+      },
+      {
+        "value": "浣花主人",
+        "source": "eccp-3649343"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯符"
+    },
+    "romanizations": [
+      {
+        "value": "Mao Jui-chêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3649343"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649343": {
+      "title": "ECCP · 彭孫貽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318098",
+      "locator": "eccp-3649343-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

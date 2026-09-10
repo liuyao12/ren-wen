@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678132",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "葉赫那拉",
+    "source": "eccp-3678132",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yehonala",
+        "system": "ECCP spelling",
+        "source": "eccp-3678132"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678132",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3678132",
+      "passage": "eccp-3678132-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678132": {
+      "title": "ECCP · Yehonala",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442931",
+      "locator": "eccp-3678132-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639264": {
+      "title": "ECCP · 孝欽顯皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-189",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-439": {
+      "title": "清史稿/卷439",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433556",
+      "locator": "qsg-volume-439-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e8af8b14a7a86c46",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "國對",
+    "source": "eccp-3675192",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "玉隨",
+        "source": "eccp-3675192"
+      },
+      {
+        "value": "默巖",
+        "source": "eccp-3675192"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玉隨"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Kuo-tui",
+        "system": "ECCP spelling",
+        "source": "eccp-3675192"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3675192",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1680,
+        "source": "eccp-3675192",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3675192": {
+      "title": "ECCP · 吳敬梓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419949",
+      "locator": "eccp-3675192-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

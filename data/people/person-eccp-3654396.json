@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654396",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "家鼐",
+    "source": "eccp-3654396",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "壽州",
+      "source": "qsg-volume-443",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Chia-nai 孫家鼐 (T. 燮臣, H. 蟄生, 容卿, 澹靜老人), Apr. 7, 1827–1909, Nov. 29, official, was a native of Shou-chou, Anhwei. He became a chü-jên. in 1851 and eight years later a chin-shih with highest honors, including a first class compilership in the Hanlin Academy.",
+          "source": "eccp-3654396",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫家鼐，字燮臣，安徽壽州人。",
+          "source": "qsg-volume-443",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "燮臣",
+        "source": "eccp-3654396"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蟄生",
+        "source": "eccp-3654396"
+      },
+      {
+        "value": "容卿",
+        "source": "eccp-3654396"
+      },
+      {
+        "value": "澹靜老人",
+        "source": "eccp-3654396"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "燮臣"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Chia-nai",
+        "system": "ECCP spelling",
+        "source": "eccp-3654396"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1909,
+        "source": "eccp-3654396",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654396",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654396",
+      "passage": "eccp-3654396-001"
+    },
+    {
+      "source": "qsg-volume-443",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-443",
+      "passage": "qsg-volume-443-006",
+      "matchStatus": "proposed",
+      "evidence": "孫家鼐，字燮臣，安徽壽州人。咸豐九年一甲一名進士，授修撰。歷侍讀，入直上書房。光緒四年，命在毓慶宮行走，與尚書翁同龢授上讀。累遷內閣學士，擢工部侍郎。江西學政陳寶琛疏請以先儒黃宗羲、顧炎武從祀文廟，議者多以爲未可，家鼐與潘祖蔭、翁同龢、孫詒經等再請，始議准。十六年，授都察院左都御史、工部尚書，兼順天府尹。"
+    }
+  ],
+  "sources": {
+    "eccp-3654396": {
+      "title": "ECCP · Sun Chia-nai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358512",
+      "locator": "eccp-3654396-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639176": {
+      "title": "ECCP · 馮桂芬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11408026",
+      "locator": "eccp-3639176-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639264": {
+      "title": "ECCP · 孝欽顯皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640016": {
+      "title": "ECCP · 黃紹箕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282923",
+      "locator": "eccp-3640016-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649326": {
+      "title": "ECCP · 寶廷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318061",
+      "locator": "eccp-3649326-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675186": {
+      "title": "ECCP · 翁同龢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419941",
+      "locator": "eccp-3675186-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-125",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-198",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-437": {
+      "title": "清史稿/卷437",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2592002",
+      "locator": "qsg-volume-437-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-443": {
+      "title": "清史稿/卷443",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433508",
+      "locator": "qsg-volume-443-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-eb560187de732627",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "攸銛",
+    "source": "eccp-3656370",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔣攸銛，字礪堂，漢軍鑲紅旗人。",
+          "source": "qsg-volume-366",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "穎芳",
+        "source": "eccp-3656370"
+      }
+    ],
+    "hao": [
+      {
+        "value": "礪堂",
+        "source": "eccp-3656370"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "穎芳"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Yu-hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3656370"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1766,
+        "source": "eccp-3656370",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1830,
+        "source": "eccp-3656370",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-366",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-366",
+      "passage": "qsg-volume-366-013",
+      "matchStatus": "proposed",
+      "evidence": "蔣攸銛，字礪堂，漢軍鑲紅旗人。先世由浙江遷遼東，從入關，居寶坻。乾隆四十九年，成進士，年甫十九，選庶吉士，授編修。嘉慶初，遷御史，敢言有聲，受仁宗知。五年，出為江西吉南贛道，署按察使。八年，廣昌齋匪廖幹用作亂，攸銛率兵平之。疆臣上其功，會丁母憂去。十年，特起署廣東惠潮嘉道，歷江西按察使、雲南布政使。十四年，調江蘇，就擢巡撫。調浙江，擢江南河道總督，以不諳河務辭，詔回原任。"
+    }
+  ],
+  "sources": {
+    "eccp-3656370": {
+      "title": "ECCP · 鄧廷楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365148",
+      "locator": "eccp-3656370-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-366": {
+      "title": "清史稿/卷366",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542446",
+      "locator": "qsg-volume-366-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

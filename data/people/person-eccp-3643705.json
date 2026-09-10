@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643705",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "同書",
+    "source": "eccp-3643705",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "錢塘",
+      "source": "qsg-volume-503",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG T'ung-shu 梁同書 (T. 元頴, H. 山舟, 不翁, 新吾長翁), Oct. 26, 1723–1815, Aug. 19, scholar and calligrapher, was a native of Ch'ien-t'ang (Hangchow). He was the elder son of Liang Shih-chêng [q. v.] but was adopted by his uncle, Liang Ch'i-hsin 梁啟心 (T. 首存, H. 蔎林, 1695–1758, a chin-shih of 1739).",
+          "source": "eccp-3643705",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "梁同書，字元穎，晚號山舟，浙江錢塘人，大學士詩正子。",
+          "source": "qsg-volume-503",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元頴",
+        "source": "eccp-3643705"
+      }
+    ],
+    "hao": [
+      {
+        "value": "山舟",
+        "source": "eccp-3643705"
+      },
+      {
+        "value": "不翁",
+        "source": "eccp-3643705"
+      },
+      {
+        "value": "新吾長翁",
+        "source": "eccp-3643705"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元頴"
+    },
+    "romanizations": [
+      {
+        "value": "Liang T'ung-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3643705"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3643705",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1815,
+        "source": "eccp-3643705",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643705",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643705",
+      "passage": "eccp-3643705-001"
+    },
+    {
+      "source": "qsg-volume-503",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-503",
+      "passage": "qsg-volume-503-013",
+      "matchStatus": "proposed",
+      "evidence": "梁同書，字元穎，晚號山舟，浙江錢塘人，大學士詩正子。乾隆十七年，會試未第，高宗特賜與殿試，入翰林，大考，擢侍講。淡於榮利，未老，因疾不出。晚年重宴鹿鳴，加侍講學士銜。卒，年九十三。好書出天性，十二歲能為擘窠大字。初法顏、柳，中年用米法，七十後乃變化。名滿天下，求書者紙日數束，日本、琉球皆重之。"
+    }
+  ],
+  "sources": {
+    "eccp-3643705": {
+      "title": "ECCP · Liang T'ung-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294995",
+      "locator": "eccp-3643705-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643700": {
+      "title": "ECCP · 梁詩正",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294989",
+      "locator": "eccp-3643700-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645482": {
+      "title": "ECCP · 梁玉繩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299412",
+      "locator": "eccp-3645482-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674924": {
+      "title": "ECCP · 王文治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419128",
+      "locator": "eccp-3674924-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678431": {
+      "title": "ECCP · 余集",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443720",
+      "locator": "eccp-3678431-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

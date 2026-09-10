@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642420",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "光宗",
+    "source": "eccp-3642420",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Kuang-tsung",
+        "system": "ECCP spelling",
+        "source": "eccp-3642420"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642420",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642420",
+      "passage": "eccp-3642420-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642420": {
+      "title": "ECCP · Kuang-tsung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290521",
+      "locator": "eccp-3642420-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636400": {
+      "title": "ECCP · 朱常洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272520",
+      "locator": "eccp-3636400-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

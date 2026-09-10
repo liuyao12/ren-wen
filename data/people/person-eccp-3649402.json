@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649402",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "復",
+    "source": "eccp-3649402",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHÊN Fu 沈復 (T. 三白, H. 梅逸), Dec. 26, 1763–?, writer and painter, was a native of Yuanho (Soochow), Kiangsu. His father was by profession a secretary to magistrates, his duties relating primarily to judicial and financial matters.",
+          "source": "eccp-3649402",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "三白",
+        "source": "eccp-3649402"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梅逸",
+        "source": "eccp-3649402"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "三白"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649402"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649402",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649402",
+      "passage": "eccp-3649402-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649402": {
+      "title": "ECCP · Shên Fu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318194",
+      "locator": "eccp-3649402-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3654371": {
+      "title": "ECCP · 石韞玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358442",
+      "locator": "eccp-3654371-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

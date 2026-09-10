@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639250",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "國宗",
+    "source": "eccp-3639250",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大興",
+      "source": "qsg-volume-283",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HO Kuo-tsung 何國宗 (T. 翰如, 約齋), d. 1766, official and mathematician, was a native of Ta-hsing (Peking). After passing his chin-shih examination in 1712 he was appointed a bachelor of the Hanlin Academy and was ordered to study mathematics.",
+          "source": "eccp-3639250",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "何國宗，字翰如，順天大興人。",
+          "source": "qsg-volume-283",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "翰如",
+        "source": "eccp-3639250"
+      },
+      {
+        "value": "約齋",
+        "source": "eccp-3639250"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "翰如"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Kuo-tsung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639250"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639250",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639250",
+      "passage": "eccp-3639250-001"
+    },
+    {
+      "source": "qsg-volume-283",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-283",
+      "passage": "qsg-volume-283-027",
+      "matchStatus": "proposed",
+      "evidence": "何國宗，字翰如，順天大興人。康熙五十一年進士，改庶吉士，命直內廷學算法。五十二年，命編輯律曆淵源。未散館，授編修。三遷至庶子。雍正初，授侍讀學士，再遷至內閣學士。"
+    }
+  ],
+  "sources": {
+    "eccp-3639250": {
+      "title": "ECCP · Ho Kuo-tsung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280270",
+      "locator": "eccp-3639250-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639220": {
+      "title": "ECCP · 顧八代",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280224",
+      "locator": "eccp-3639220-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639994": {
+      "title": "ECCP · 胡林翼",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282866",
+      "locator": "eccp-3639994-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649093": {
+      "title": "ECCP · 梅瑴成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317643",
+      "locator": "eccp-3649093-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656367": {
+      "title": "ECCP · 德沛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365139",
+      "locator": "eccp-3656367-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678163": {
+      "title": "ECCP · 胤祉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443022",
+      "locator": "eccp-3678163-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678170": {
+      "title": "ECCP · 胤祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443034",
+      "locator": "eccp-3678170-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-115",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

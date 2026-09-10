@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646144",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "國翰",
+    "source": "eccp-3646144",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "MA Kuo-han 馬國翰 (T. 詞溪, H. 竹吾), 1794–1857, scholar, was a native of Li-ch'êng, Shantung. He grew up in Shansi where his father, Ma Ming-chin 馬名錦 (T. 文江), held the post of magistrate successively in several districts.",
+          "source": "eccp-3646144",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "詞溪",
+        "source": "eccp-3646144"
+      }
+    ],
+    "hao": [
+      {
+        "value": "竹吾",
+        "source": "eccp-3646144"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "詞溪"
+    },
+    "romanizations": [
+      {
+        "value": "Ma Kuo-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3646144"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1794,
+        "source": "eccp-3646144",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1857,
+        "source": "eccp-3646144",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646144",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3646144",
+      "passage": "eccp-3646144-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646144": {
+      "title": "ECCP · Ma Kuo-han",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300560",
+      "locator": "eccp-3646144-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633303": {
+      "title": "ECCP · 章宗源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271670",
+      "locator": "eccp-3633303-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645519": {
+      "title": "ECCP · 劉寶楠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299489",
+      "locator": "eccp-3645519-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

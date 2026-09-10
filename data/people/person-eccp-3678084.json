@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678084",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "素蘊",
+    "source": "eccp-3678084",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宜君",
+      "source": "qsg-volume-270",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG Su-yün 楊素蘊 (T. 筠湄, H. 退菴, 1630–1689), official, was a native of I-chün, Shensi. Made a chin-shih in 1652, he was appointed magistrate of Tung-ming, Chihli, in the following year.",
+          "source": "eccp-3678084",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "楊素蘊，字筠湄，陝西宜君人。",
+          "source": "qsg-volume-270",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "筠湄",
+        "source": "eccp-3678084"
+      }
+    ],
+    "hao": [
+      {
+        "value": "退菴",
+        "source": "eccp-3678084"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筠湄"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Su-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3678084"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1630,
+        "source": "eccp-3678084",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1689,
+        "source": "eccp-3678084",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678084",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678084",
+      "passage": "eccp-3678084-001"
+    },
+    {
+      "source": "qsg-volume-270",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-270",
+      "passage": "qsg-volume-270-015",
+      "matchStatus": "proposed",
+      "evidence": "楊素蘊，字筠湄，陝西宜君人。順治九年進士，授直隸東明知縣。東明當河決後，官舍城垣悉敗，民居殆盡，遺民依丘阜，僅數十家。素蘊至，為繕城郭，招集流亡，三年戶增至萬餘。山東群盜任鳳亭等剽掠旁郡，擾及畿南。素蘊設計降其渠，散其脅從。十七年，舉卓異，行取，授四川道御史。疏言：「臣言官也，宜以言為事。然今天下所患，正在議論多而成功少。國家建官分職，各有所事。誠使司舉劾，籌財用，任封疆，理刑獄，各舉其職，則平天下無餘事。更原皇上推誠御物，肅大閒，寬小眚，俾人人得展其才，尤端本澄源之要也。 」"
+    }
+  ],
+  "sources": {
+    "eccp-3678084": {
+      "title": "ECCP · Yang Su-yün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442476",
+      "locator": "eccp-3678084-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-252",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

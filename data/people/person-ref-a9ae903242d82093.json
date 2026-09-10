@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a9ae903242d82093",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "清鵬",
+    "source": "eccp-3675195",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "西穀",
+        "source": "eccp-3675195"
+      }
+    ],
+    "hao": [
+      {
+        "value": "笏庵",
+        "source": "eccp-3675195"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "西穀"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ch'ing-p'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3675195"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3675195": {
+      "title": "ECCP · 吴錫麒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419954",
+      "locator": "eccp-3675195-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

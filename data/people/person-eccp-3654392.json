@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654392",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "承澤",
+    "source": "eccp-3654392",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Ch'êng-tsê 孫承澤 (T. 耳伯, H. 北海 H. 退谷), Nov. 29, 1593–1675, scholar and official under two dynasties, was a native of Tahsing, which includes part of Peking, his ancestor in the sixth generation having moved to the neighborhood of Peking from I-tu, Shantung.",
+          "source": "eccp-3654392",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "耳伯",
+        "source": "eccp-3654392"
+      }
+    ],
+    "hao": [
+      {
+        "value": "北海",
+        "source": "eccp-3654392"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "耳伯"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Ch'êng-tsê",
+        "system": "ECCP spelling",
+        "source": "eccp-3654392"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1593,
+        "source": "eccp-3654392",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1675,
+        "source": "eccp-3654392",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654392",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654392",
+      "passage": "eccp-3654392-001"
+    }
+  ],
+  "sources": {
+    "eccp-3654392": {
+      "title": "ECCP · Sun Ch'êng-tsê",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358502",
+      "locator": "eccp-3654392-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634106": {
+      "title": "ECCP · 鄭鄤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293102",
+      "locator": "eccp-3634106-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649363": {
+      "title": "ECCP · 卞永譽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318128",
+      "locator": "eccp-3649363-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672728": {
+      "title": "ECCP · 王崇簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

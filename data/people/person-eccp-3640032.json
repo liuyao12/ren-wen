@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640032",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "虞稷",
+    "source": "eccp-3640032",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Yü-chi 黃虞稷 (T. 俞邰 and 楮園), 1629–1691, scholar and bibliophile, was a native of Shang-yüan (Nanking). His family came originally from Chin-chiang, Fukien, but moved to Kiangsu when his father, Huang Chü-chung 黃居中 (T. 明立, H. 海鶴, chü-jên of 1585), became proctor of the Imperial Academy at Nanking.",
+          "source": "eccp-3640032",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃虞稷，字俞邰，上元人，本籍晉江。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "俞邰",
+        "source": "eccp-3640032"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "俞邰"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Yü-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3640032"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1629,
+        "source": "eccp-3640032",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3640032",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640032",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640032",
+      "passage": "eccp-3640032-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-285",
+      "matchStatus": "proposed",
+      "evidence": "黃虞稷，字俞邰，上元人，本籍晉江。七歲能詩。以諸生舉鴻博，遭母喪，不與試。左都御史徐元文薦修明史，又修一統志，皆與宸英同。家富藏書。著千頃堂書目，為明史藝文志所本。"
+    }
+  ],
+  "sources": {
+    "eccp-3640032": {
+      "title": "ECCP · Huang Yü-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282960",
+      "locator": "eccp-3640032-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635449": {
+      "title": "ECCP · 焦竑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271735",
+      "locator": "eccp-3635449-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639964": {
+      "title": "ECCP · 徐乾學",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282787",
+      "locator": "eccp-3639964-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674927": {
+      "title": "ECCP · 王源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419135",
+      "locator": "eccp-3674927-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-285",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

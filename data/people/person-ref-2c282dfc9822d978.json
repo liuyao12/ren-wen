@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2c282dfc9822d978",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "翁",
+    "given": "是揆",
+    "source": "eccp-3675185",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "敍百",
+        "source": "eccp-3675185"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敍百"
+    },
+    "romanizations": [
+      {
+        "value": "Wêng Shih-k'uei",
+        "system": "ECCP spelling",
+        "source": "eccp-3675185"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3675185": {
+      "title": "ECCP · 翁叔元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419939",
+      "locator": "eccp-3675185-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -12,7 +12,8 @@
   "type": "work",
   "reviewStatus": "agent-proposed",
   "attestedTitles": [
-    "Histoire des relations de la Chine avec les puissances occidentales"
+    "Histoire des relations de la Chine avec les puissances occidentales",
+    "Histoire des Relations de la Chine avec les Puissances Occidentales"
   ],
   "sources": {
     "eccp": {
@@ -24,6 +25,13 @@
       "title": "ECCP · 崇厚",
       "url": "https://en.wikisource.org/w/index.php?oldid=11275732",
       "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "mentions": [
@@ -38,6 +46,12 @@
       "passage": "eccp-chonghou-24",
       "mention": "eccp-chonghou-24-n019",
       "quote": "Histoire des relations de la Chine avec les puissances occidentales"
+    },
+    {
+      "witness": "eccp-3639181",
+      "passage": "eccp-3639181-008",
+      "mention": "eccp-3639181-008-n029",
+      "quote": "Histoire des Relations de la Chine avec les Puissances Occidentales"
     }
   ],
   "note": "This record identifies the named work, not a particular physical edition. Publication statements are source reports, not independently verified bibliographical conclusions."

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633255",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "琦",
+    "source": "eccp-3633255",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "陽湖",
+      "source": "qsg-volume-478",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Ch'i 張琦 (T. 翰風, 宛鄰), Jan. 5, 1765–1833, May 1, scholar and official, was a native of Wu-chin, Kiangsu. His original name was Chang I 張翊 which he changed to Chang Yü-ch'üan 張與權 and finally to Chang Ch'i.",
+          "source": "eccp-3633255",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張琦，初名翊，字翰風，江蘇陽湖人。",
+          "source": "qsg-volume-478",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "翰風",
+        "source": "eccp-3633255"
+      },
+      {
+        "value": "宛鄰",
+        "source": "eccp-3633255"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "翰風"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3633255"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1765,
+        "source": "eccp-3633255",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3633255",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633255",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633255",
+      "passage": "eccp-3633255-001"
+    },
+    {
+      "source": "qsg-volume-478",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-478",
+      "passage": "qsg-volume-478-062",
+      "matchStatus": "proposed",
+      "evidence": "張琦，初名翊，字翰風，江蘇陽湖人。嘉慶十八年舉人，以謄錄議敘知縣。道光三年，發山東，署鄒平縣。抵任，歲且盡。閱四百七十村，麥無種者。即申牒報災，親謁上官陳狀。破成例請緩徵，因鄒平得緩者十六州縣。民失物，誤訟鄰邑長山，歸獄於琦。琦曰：「汝失物地，大樹北抑大樹南？」曰：「樹北。」琦曰：「若是，則我界也。」民愕然，曰：「誠鄒平耶？即不欲以數匹布煩父母官。」持牒去。後權章丘，鄒平民時赴訴，琦曰：「此於法不當受。」慰遣之。章丘民好訟，院、司、道、府五府吏皆籍章丘，走書請託，掎摭短長。琦任歲餘，無一私書至。"
+    }
+  ],
+  "sources": {
+    "eccp-3633255": {
+      "title": "ECCP · Chang Ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633275": {
+      "title": "ECCP · 張惠言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271613",
+      "locator": "eccp-3633275-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678070": {
+      "title": "ECCP · 楊芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442410",
+      "locator": "eccp-3678070-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-062",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-059",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

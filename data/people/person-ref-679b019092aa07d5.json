@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-679b019092aa07d5",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "致靖",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "宜興",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "徐致靖，字子靜，江蘇宜興人，寄籍宛平。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子靜",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子靜"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Chih-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-009",
+      "matchStatus": "proposed",
+      "evidence": "徐致靖，字子靜，江蘇宜興人，寄籍宛平。光緒二年進士，選庶吉士，授編修。累遷侍讀學士。父憂服闋，二十三年，起故官。致靖嘗憂外患日迫，思所以為獻納計。"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

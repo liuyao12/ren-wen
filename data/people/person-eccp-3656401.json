@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656401",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔡",
+    "given": "毓榮",
+    "source": "eccp-3656401",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TS'AI Yü-jung 蔡毓榮 (T. 仁庵, H. 顯齋), Apr. 15, 1633–1699, Feb. 21, official, was a native of Chin-chou, Liaotung. His father, Ts'ai Shih-ying 蔡士英 (T. 伯彥, H. 魁吾, posthumous name 襄敏, d. 1674), was a Ming official who surrendered to the Manchus in 1642 with Tsu Ta-shou [q. v.], and later rose to the post of director-general of Grain Transport (1655–57, 1659–61).",
+          "source": "eccp-3656401",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "蔡毓榮，字仁庵，漢軍正白旗人。",
+          "source": "qsg-volume-256",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仁庵",
+        "source": "eccp-3656401"
+      }
+    ],
+    "hao": [
+      {
+        "value": "顯齋",
+        "source": "eccp-3656401"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仁庵"
+    },
+    "romanizations": [
+      {
+        "value": "Ts'ai Yü-jung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656401"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3656401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3656401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656401",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656401",
+      "passage": "eccp-3656401-001"
+    },
+    {
+      "source": "qsg-volume-256",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-256",
+      "passage": "qsg-volume-256-006",
+      "matchStatus": "proposed",
+      "evidence": "蔡毓榮，字仁庵，漢軍正白旗人。父士英，初籍錦州。從祖大壽來降，授世職牛錄章京。從轉戰有功。順治間，累遷至右副都御使。出為江西巡撫，疏陳兵後荒蕪，請除荒田賦額十萬八千五百四十頃有奇；又以瑞、袁二府科糧偏重，疏請蠲瑞屬浮糧九萬九千餘石，定袁屬賦額自一斗六升七八合減至九升三合：皆得請。又疏論銅塘封禁山不宜開採，咸為民所頌。尋改漕運總督，加兵部尚書，以疾告歸。十三年，卒，諡襄敏。"
+    }
+  ],
+  "sources": {
+    "eccp-3656401": {
+      "title": "ECCP · Ts'ai Yü-jung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365190",
+      "locator": "eccp-3656401-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640925": {
+      "title": "ECCP · 彰泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285944",
+      "locator": "eccp-3640925-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · 薩布素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656377": {
+      "title": "ECCP · 田文鏡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365156",
+      "locator": "eccp-3656377-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678084": {
+      "title": "ECCP · 楊素蘊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442476",
+      "locator": "eccp-3678084-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678157": {
+      "title": "ECCP · 尹繼善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442977",
+      "locator": "eccp-3678157-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-251": {
+      "title": "清史稿/卷251",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021097",
+      "locator": "qsg-volume-251-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-255": {
+      "title": "清史稿/卷255",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1235555",
+      "locator": "qsg-volume-255-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-256": {
+      "title": "清史稿/卷256",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433520",
+      "locator": "qsg-volume-256-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

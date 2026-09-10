@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f2aacdf4f88de1c8",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郝",
+    "given": "玉麟",
+    "source": "eccp-3639239",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hao Yü-lin 郝玉麟 (T. 敬亭, d. 1745), a member of the Chinese Bordered White Banner, distinguished himself in military service in Yunnan and was given the minor hereditary rank of Ch'i-tu-yü 騎都尉.",
+          "source": "eccp-3639239",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "敬亭",
+        "source": "eccp-3639239"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敬亭"
+    },
+    "romanizations": [
+      {
+        "value": "Hao Yü-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3639239"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639239": {
+      "title": "ECCP · 郝碩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280254",
+      "locator": "eccp-3639239-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

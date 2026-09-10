@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637594",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "范",
+    "given": "文程",
+    "source": "eccp-3637594",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FAN Wên-ch'êng 范文程 (T. 憲斗, H. 煇嶽), 1597–1666, Aug. 31, one of the first four Grand Secretaries of the Ch'ing dynasty, a native of Fu-shun, near Shên-yang (Mukden), was a great-grandson of Fan Ts'ung 范鏓 (chin-shih of 1517) who was a president of the Board of War in the Ming period.",
+          "source": "eccp-3637594",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "范文程，字憲鬥，宋觀文殿大學士高平公純仁十七世孫也。",
+          "source": "qsg-volume-232",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "憲斗",
+        "source": "eccp-3637594"
+      }
+    ],
+    "hao": [
+      {
+        "value": "煇嶽",
+        "source": "eccp-3637594"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "憲斗"
+    },
+    "romanizations": [
+      {
+        "value": "Fan Wên-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3637594"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1597,
+        "source": "eccp-3637594",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1666,
+        "source": "eccp-3637594",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637594",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637594",
+      "passage": "eccp-3637594-001"
+    },
+    {
+      "source": "qsg-volume-232",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-232",
+      "passage": "qsg-volume-232-013",
+      "matchStatus": "proposed",
+      "evidence": "范文程，字憲鬥，宋觀文殿大學士高平公純仁十七世孫也。其先世，明初自江西謫瀋陽，遂為瀋陽人，居撫順所。曾祖鏓，正德間進士，官至兵部尚書，明史有傳。"
+    }
+  ],
+  "sources": {
+    "eccp-3637594": {
+      "title": "ECCP · Fan Wên-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275788",
+      "locator": "eccp-3637594-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637591": {
+      "title": "ECCP · 范承謨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275783",
+      "locator": "eccp-3637591-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640919": {
+      "title": "ECCP · 英俄爾岱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285928",
+      "locator": "eccp-3640919-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649160": {
+      "title": "ECCP · 寧完我",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317762",
+      "locator": "eccp-3649160-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

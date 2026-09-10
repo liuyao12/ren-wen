@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7b8d9f835b036caa",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "段",
+    "given": "玉成",
+    "source": "eccp-3658544",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "器之",
+        "source": "eccp-3658544"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "器之"
+    },
+    "romanizations": [
+      {
+        "value": "Tuan Yü-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3658544"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678161",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "尹",
+    "given": "嘉銓",
+    "source": "eccp-3678161",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YIN Chia-ch'üan 尹嘉銓 (了端, 隨五, 古稀老人), May 21, 1711–1781, official and writer, was a native of Po-yeh, Chihli, the eldest son of Yin Hui-i 尹會一 (元孚, 1691–1748), a scholar who shortly before his death was appointed vice-president of the Board of Civil Office.",
+          "source": "eccp-3678161",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yin Chia-ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3678161"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1711,
+        "source": "eccp-3678161",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1781,
+        "source": "eccp-3678161",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678161",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678161",
+      "passage": "eccp-3678161-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678161": {
+      "title": "ECCP · Yin Chia-ch'üan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656357": {
+      "title": "ECCP · 湯斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365125",
+      "locator": "eccp-3656357-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

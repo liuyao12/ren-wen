@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b4548a1e6a2afb5c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "可則",
+    "source": "eccp-3643699",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "周量",
+        "source": "eccp-3643699"
+      },
+      {
+        "value": "湟湊",
+        "source": "eccp-3643699"
+      }
+    ],
+    "hao": [
+      {
+        "value": "石臞",
+        "source": "eccp-3643699"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "周量"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng K'o-tsê",
+        "system": "ECCP spelling",
+        "source": "eccp-3643699"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3643699": {
+      "title": "ECCP · 梁佩蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294988",
+      "locator": "eccp-3643699-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

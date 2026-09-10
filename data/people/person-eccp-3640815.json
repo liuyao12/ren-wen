@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640815",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "奕誌",
+    "source": "eccp-3640815",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [
+      {
+        "value": "西園主人",
+        "source": "eccp-3640815"
+      }
+    ],
+    "parenthetical": {
+      "kind": "hao",
+      "value": "西園主人"
+    },
+    "romanizations": [
+      {
+        "value": "I-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3640815"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1826,
+        "source": "eccp-3640815",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1850,
+        "source": "eccp-3640815",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640815",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640815",
+      "passage": "eccp-3640815-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640815": {
+      "title": "ECCP · I-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285386",
+      "locator": "eccp-3640815-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640003": {
+      "title": "ECCP · 黃景仁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282883",
+      "locator": "eccp-3640003-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640823": {
+      "title": "ECCP · 奕譞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285404",
+      "locator": "eccp-3640823-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640916": {
+      "title": "ECCP · 奕誴",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285920",
+      "locator": "eccp-3640916-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649102": {
+      "title": "ECCP · 綿愷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317654",
+      "locator": "eccp-3649102-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

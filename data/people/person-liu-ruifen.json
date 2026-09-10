@@ -30,7 +30,33 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Jui-fên 劉瑞芬 (T. 芝田), 1827–1892, Apr. 6, official and diplomat, was a native of Kuei-ch'ih, Anhwei, who assisted in 1862 in the suppression of the Taiping Rebellion, first under Tsêng Kuo-fan [q. v.] and then under Li Hung-chang [q. v.].",
+          "source": "eccp-3645514",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉瑞芬，字芝田，安徽貴池人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "安徽貴池",
+          "source": "eccp-entry",
+          "kind": "previous-record"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "貴池",
+      "source": "eccp-entry"
+    }
   },
   "life": {
     "birth": null,
@@ -68,6 +94,69 @@
       "locator": "Opening paragraph; recorded revision 11299479",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645514": {
+      "title": "ECCP · Liu Jui-fên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299479",
+      "locator": "eccp-3645514-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643666": {
+      "title": "ECCP · 李文田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294913",
+      "locator": "eccp-3643666-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645482": {
+      "title": "ECCP · 梁玉繩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299412",
+      "locator": "eccp-3645482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656353": {
+      "title": "ECCP · 湯顯祖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365121",
+      "locator": "eccp-3656353-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-164",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -86,6 +175,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Liu_Jui-f%C3%AAn",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3645514",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645514",
+      "passage": "eccp-3645514-001"
+    },
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-039",
+      "matchStatus": "proposed",
+      "evidence": "劉瑞芬，字芝田，安徽貴池人。以諸生從李鴻章軍援上海，檄主水陸軍械轉運。時初用西式槍砲，皆購自外洋，瑞芬考驗精審，應時解濟，淮軍遂以善用西洋利器名。累保道員，督辦松滬釐捐。光緒二年，權兩淮鹽運使。淮北薦飢，流民就食揚州，瑞芬築圩城外，構棚分宿，計口授食，所全活六萬餘人。旋授蘇松太道。租界以黃浦南北分華洋船埠，洋人時侵南岸。瑞芬丈量南北，中分為界，設水利局委員董其事，洋人亦就範焉。擢江西按察使，遷布政使。"
     }
   ],
   "notes": [],

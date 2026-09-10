@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5768b90200048101",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "份",
+    "source": "eccp-3645513",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "梁份，字質人，南豐人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "質人",
+        "source": "eccp-3645513"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "質人"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Pin",
+        "system": "ECCP spelling",
+        "source": "eccp-3645513"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1642,
+        "source": "eccp-3645513",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1728,
+        "source": "eccp-3645513",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-026",
+      "matchStatus": "proposed",
+      "evidence": "梁份，字質人，南豐人。少從彭士望、魏禧遊，講經世之學。工古文辭。嘗隻身遊萬里，西盡武威、張掖，南極黔、滇，遍歷燕、趙、秦、晉、齊、魏之墟，覽山川形勢，訪古今成敗得失，遐荒軼事，一發之於文。方苞、王源皆重之。其論山海關，謂：「關自明洪武間始設，隋置臨榆於西，唐為榆關。東北古長城，燕、秦所築，距關遠，皆不足輕重。金之伐遼，自取遷民始。李自成席捲神京，敗石河而失之。天之廢興，人之成敗，而決於山海一隅。荒榛千百年之上，偏重於三百年間。天下定則山海安，山海困則天下舉困，其安危之重如此。」生平以未遊山海為憾"
+    }
+  ],
+  "sources": {
+    "eccp-3645513": {
+      "title": "ECCP · 劉獻廷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299473",
+      "locator": "eccp-3645513-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

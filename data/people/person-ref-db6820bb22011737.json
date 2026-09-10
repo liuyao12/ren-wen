@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-db6820bb22011737",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "元錫",
+    "source": "eccp-3633266",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ho Yüan-hsi 何元錫 (T. 夢華,敬祉, H. 蜨隱, 1766–1829), a native of Hangchow, who was famous as a collector of inscriptions from stones. To him Chang Hai-p'êng was indebted for transcriptions of rare items from the Wên-lan ko Library (see under Chi Yün).",
+          "source": "eccp-3633266",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "夢華",
+        "source": "eccp-3633266"
+      },
+      {
+        "value": "敬祉",
+        "source": "eccp-3633266"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蜨隱",
+        "source": "eccp-3633266"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "夢華"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Yüan-hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3633266"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1766,
+        "source": "eccp-3633266",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3633266",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633266": {
+      "title": "ECCP · 張海鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271608",
+      "locator": "eccp-3633266-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

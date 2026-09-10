@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640015",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "彭年",
+    "source": "eccp-3640015",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG P'êng-nien 黃彭年 (T. 子壽, H. 陶樓, 更生, also used ming 邦鎮), July 18, 1823–1891, Jan. 13, scholar and official, was a native of Kuei-chu, Kweichow, to which place his family migrated from Li-ling, Hunan.",
+          "source": "eccp-3640015",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子壽",
+        "source": "eccp-3640015"
+      }
+    ],
+    "hao": [
+      {
+        "value": "陶樓",
+        "source": "eccp-3640015"
+      },
+      {
+        "value": "更生",
+        "source": "eccp-3640015"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子壽"
+    },
+    "romanizations": [
+      {
+        "value": "Huang P'êng-nien",
+        "system": "ECCP spelling",
+        "source": "eccp-3640015"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1891,
+        "source": "eccp-3640015",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640015",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640015",
+      "passage": "eccp-3640015-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640015": {
+      "title": "ECCP · Huang P'êng-nien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282915",
+      "locator": "eccp-3640015-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635437": {
+      "title": "ECCP · 江忠源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271712",
+      "locator": "eccp-3635437-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635442": {
+      "title": "ECCP · 蔣良騏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271724",
+      "locator": "eccp-3635442-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639247": {
+      "title": "ECCP · 何秋濤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280264",
+      "locator": "eccp-3639247-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640817": {
+      "title": "ECCP · 奕經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285389",
+      "locator": "eccp-3640817-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643626": {
+      "title": "ECCP · 李續賓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294836",
+      "locator": "eccp-3643626-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-214",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-434": {
+      "title": "清史稿/卷434",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433516",
+      "locator": "qsg-volume-434-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

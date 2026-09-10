@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643688",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "章鉅",
+    "source": "eccp-3643688",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG Chang-chü 梁章鉅 (T. 閎中, 茝林, H. 退菴), Aug. 1, 1775–1849, Aug. 8, scholar and official, was a native of Ch'ang-lo, Fukien. Descended from a long line of scholars and officials, he began his classical training early.",
+          "source": "eccp-3643688",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "閎中",
+        "source": "eccp-3643688"
+      },
+      {
+        "value": "茝林",
+        "source": "eccp-3643688"
+      }
+    ],
+    "hao": [
+      {
+        "value": "退菴",
+        "source": "eccp-3643688"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "閎中"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Chang-chü",
+        "system": "ECCP spelling",
+        "source": "eccp-3643688"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3643688",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1849,
+        "source": "eccp-3643688",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643688",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643688",
+      "passage": "eccp-3643688-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643688": {
+      "title": "ECCP · Liang Chang-chü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294953",
+      "locator": "eccp-3643688-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645488": {
+      "title": "ECCP · 林則徐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299421",
+      "locator": "eccp-3645488-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649162": {
+      "title": "ECCP · 鈕樹玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317766",
+      "locator": "eccp-3649162-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-373": {
+      "title": "清史稿/卷373",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433498",
+      "locator": "qsg-volume-373-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

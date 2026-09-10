@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-32f77621f2bc02da",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蔣",
+    "given": "陳錫",
+    "source": "eccp-3635445",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "蔣陳錫，字雨亭，江南常熟人。",
+          "source": "qsg-volume-276",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文孫",
+        "source": "eccp-3635445"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雨亭",
+        "source": "eccp-3635445"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文孫"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Ch'ên-hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3635445"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1653,
+        "source": "eccp-3635445",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1721,
+        "source": "eccp-3635445",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-276",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-276",
+      "passage": "qsg-volume-276-026",
+      "matchStatus": "proposed",
+      "evidence": "蔣陳錫，字雨亭，江南常熟人。父伊，康熙十二年進士，選庶吉士，授御史。疏陳民間疾苦，繪十二圖以進。累官河南提學道副使，卒官。"
+    }
+  ],
+  "sources": {
+    "eccp-3635445": {
+      "title": "ECCP · 蔣廷錫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271732",
+      "locator": "eccp-3635445-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-276": {
+      "title": "清史稿/卷276",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469305",
+      "locator": "qsg-volume-276-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

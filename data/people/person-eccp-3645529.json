@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645529",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "墉",
+    "source": "eccp-3645529",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Yung 劉墉 (T. 崇如, H. 穆庵, 石庵), 1720–1805, Jan. 24, official and calligrapher, was a native of Chu-ch'êng, Shantung, and son of the Grand Secretary, Liu T'ung-hsün [q. v.]. A chin-shih of 1751, he was a year later appointed a compiler in the Hanlin Academy.",
+          "source": "eccp-3645529",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "崇如",
+        "source": "eccp-3645529"
+      }
+    ],
+    "hao": [
+      {
+        "value": "穆庵",
+        "source": "eccp-3645529"
+      },
+      {
+        "value": "石庵",
+        "source": "eccp-3645529"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "崇如"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Yung",
+        "system": "ECCP spelling",
+        "source": "eccp-3645529"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1720,
+        "source": "eccp-3645529",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1805,
+        "source": "eccp-3645529",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645529",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645529",
+      "passage": "eccp-3645529-001"
+    }
+  ],
+  "sources": {
+    "eccp-3645529": {
+      "title": "ECCP · Liu Yung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299508",
+      "locator": "eccp-3645529-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639253": {
+      "title": "ECCP · 和珅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280277",
+      "locator": "eccp-3639253-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639975": {
+      "title": "ECCP · 徐述夔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282822",
+      "locator": "eccp-3639975-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645526": {
+      "title": "ECCP · 劉統勳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299504",
+      "locator": "eccp-3645526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656371": {
+      "title": "ECCP · 鐵保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365150",
+      "locator": "eccp-3656371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674924": {
+      "title": "ECCP · 王文治",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419128",
+      "locator": "eccp-3674924-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-332": {
+      "title": "清史稿/卷332",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433576",
+      "locator": "qsg-volume-332-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-353": {
+      "title": "清史稿/卷353",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1502201",
+      "locator": "qsg-volume-353-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-340": {
+      "title": "清史稿/卷340",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433581",
+      "locator": "qsg-volume-340-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-359": {
+      "title": "清史稿/卷359",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162674",
+      "locator": "qsg-volume-359-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

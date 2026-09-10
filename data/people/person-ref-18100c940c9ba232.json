@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-18100c940c9ba232",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "顧",
+    "given": "柔謙",
+    "source": "eccp-3642413",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "顧柔謙，字剛中，無錫人，遷常熟。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "剛中",
+        "source": "eccp-3642413"
+      }
+    ],
+    "hao": [
+      {
+        "value": "耕石",
+        "source": "eccp-3642413"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "剛中"
+    },
+    "romanizations": [
+      {
+        "value": "Ku Jou-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3642413"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1605,
+        "source": "eccp-3642413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1666,
+        "source": "eccp-3642413",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-022",
+      "matchStatus": "proposed",
+      "evidence": "顧柔謙，字剛中，無錫人，遷常熟。幼遭家難，貲產皆盡。嘗同兄出門遊，有數人擁之行，行乃擠大澤中。母忽心動，急呼老僕往蹟之，得不死。補弟子員。甲申之變，柔謙哀憤，往往形諸詩歌，讀者悲之。不妄交遊，以父執師事馬士奇，而江陰黃毓祺、嘉定黃淳耀皆一見定交。諸人殉國難，柔謙皆設位以哭盡哀。子祖禹，見父嘗閉門嘿坐，或竟日不食，祖禹叩頭寬譬，柔謙乃曰：「汝能終身窮餓，不思富貴乎？」祖禹跪應曰：「能。」柔謙曰：「汝能以身為人機上肉，不思報復乎？」祖禹复應曰：「能。」柔謙喜曰：「吾與汝偕隱耳！」遂更名隱，署其室曰伐"
+    }
+  ],
+  "sources": {
+    "eccp-3642413": {
+      "title": "ECCP · 顧祖禹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290502",
+      "locator": "eccp-3642413-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

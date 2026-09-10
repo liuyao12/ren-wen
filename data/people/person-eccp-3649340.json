@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649340",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "彭",
+    "given": "鵬",
+    "source": "eccp-3649340",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "莆田",
+      "source": "qsg-volume-277",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'ÊNG P'êng 彭鵬 (T. 奮斯, H. 九峯, 無山), 1637–1704, official, was a native of P'u-t'ien, Fukien. His childhood was made miserable by the turmoil in his native province incident to the fall of the Ming dynasty.",
+          "source": "eccp-3649340",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "彭鵬，字奮斯，福建莆田人。",
+          "source": "qsg-volume-277",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "奮斯",
+        "source": "eccp-3649340"
+      }
+    ],
+    "hao": [
+      {
+        "value": "九峯",
+        "source": "eccp-3649340"
+      },
+      {
+        "value": "無山",
+        "source": "eccp-3649340"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "奮斯"
+    },
+    "romanizations": [
+      {
+        "value": "P'êng P'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3649340"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1637,
+        "source": "eccp-3649340",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3649340",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649340",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649340",
+      "passage": "eccp-3649340-001"
+    },
+    {
+      "source": "qsg-volume-277",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-277",
+      "passage": "qsg-volume-277-015",
+      "matchStatus": "proposed",
+      "evidence": "彭鵬，字奮斯，福建莆田人。幼慧，有與其父仇，欲殺鵬，走匿得免。順治十七年，舉鄉試。耿精忠叛，迫就偽職，鵬陽狂示疾，椎齒出血，堅拒不從。事平，謁選，康熙二十三年，授三河知縣。三河當衝要，旗、民雜居，號難治。鵬拊循懲勸，不畏強禦。有妄稱御前放鷹者，至縣索餼牽，鵬察其詐，縶而鞭之。治獄，摘發如神。鄰縣有疑獄，檄鵬往鞫，輒白其冤。二十七年，聖祖巡畿甸，召問鵬居官及拒精忠偽命狀，賜帑金三百，諭曰：「知爾清正不受民錢，以此養爾廉，勝民間數萬多矣！」尋順天府尹許三禮劾鵬匿報控案，命巡撫于成龍察之。成龍奏：「鵬"
+    }
+  ],
+  "sources": {
+    "eccp-3649340": {
+      "title": "ECCP · P'êng P'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318091",
+      "locator": "eccp-3649340-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639952": {
+      "title": "ECCP · 蕭永藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282765",
+      "locator": "eccp-3639952-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643650": {
+      "title": "ECCP · 李天馥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294889",
+      "locator": "eccp-3643650-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654364": {
+      "title": "ECCP · 施世綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358429",
+      "locator": "eccp-3654364-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678430": {
+      "title": "ECCP · 于成龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443707",
+      "locator": "eccp-3678430-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-276": {
+      "title": "清史稿/卷276",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469305",
+      "locator": "qsg-volume-276-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

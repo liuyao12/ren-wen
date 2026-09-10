@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1f0b2aa42dd1bb8e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "卓",
+    "given": "秉恬",
+    "source": "eccp-3635433",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "華陽",
+      "source": "qsg-volume-365",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "卓秉恬，字靜遠，四川華陽人。",
+          "source": "qsg-volume-365",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "靜遠",
+        "source": "eccp-3635433"
+      },
+      {
+        "value": "晴波",
+        "source": "eccp-3635433"
+      }
+    ],
+    "hao": [
+      {
+        "value": "海帆",
+        "source": "eccp-3635433"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "靜遠"
+    },
+    "romanizations": [
+      {
+        "value": "Cho Ping-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3635433"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1782,
+        "source": "eccp-3635433",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1855,
+        "source": "eccp-3635433",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-365",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-365",
+      "passage": "qsg-volume-365-025",
+      "matchStatus": "proposed",
+      "evidence": "卓秉恬，字靜遠，四川華陽人。嘉慶七年進士，選庶吉士，年甫逾冠，授檢討。典陝西鄉試。十八年，改御史，歷給事中，章疏凡數十上。論盜風未息，由捕役與盜賊因緣為奸，捕役藉盜賊以漁利，盜賊仗捕役為護符，民間控告，官不為理，盜賊結恨，又召荼毒；直隸之大名、滄州，河南之衛輝、陳州、山東之曹州、東昌、武定，江甦之徐州最甚，請飭實力禁懲。巡漕山東，履勘泰安、兗州各屬，探濬新泉四十三處，定名勒石。歷鴻臚寺少卿、順天府丞。"
+    }
+  ],
+  "sources": {
+    "eccp-3635433": {
+      "title": "ECCP · 耆英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271389",
+      "locator": "eccp-3635433-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-365": {
+      "title": "清史稿/卷365",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542368",
+      "locator": "qsg-volume-365-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

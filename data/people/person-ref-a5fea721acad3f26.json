@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a5fea721acad3f26",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "賡",
+    "source": "eccp-3639231",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Chang Kêng 張賡 (T. 明臯, H. a native of Chin-chiang, Fukien, who was baptized in 1621 under the name Matthew), a work entitled 聖教信證 Shêng-chiao hsin-chêng (\"Proofs of the Christian Religion\"), which has a preface dated 1647 and was printed in Peking in 1668 and 1674.",
+          "source": "eccp-3639231",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "明臯",
+        "source": "eccp-3639231"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "明臯"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Kêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3639231"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639231": {
+      "title": "ECCP · 韓霖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280240",
+      "locator": "eccp-3639231-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

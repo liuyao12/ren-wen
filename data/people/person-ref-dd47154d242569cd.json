@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-dd47154d242569cd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "季堂",
+    "source": "eccp-3639992",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "光山",
+      "source": "qsg-volume-324",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "胡季堂，河南光山人，侍郎煦子。",
+          "source": "qsg-volume-324",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "升夫",
+        "source": "eccp-3639992"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲坡",
+        "source": "eccp-3639992"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "升夫"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Chi-t'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639992"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1729,
+        "source": "eccp-3639992",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1800,
+        "source": "eccp-3639992",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-324",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-324",
+      "passage": "qsg-volume-324-067",
+      "matchStatus": "proposed",
+      "evidence": "胡季堂，河南光山人，侍郎煦子。初以廕生授順天府通判，改刑部員外郎，遷郎中。出為甘肅慶陽知府，再遷甘肅按察使，調江蘇。江蘇按察使移駐蘇州，而獄猶在江寧，季堂請更置，報可。乾隆三十九年，擢刑部侍郎，四十四年，遷尚書。季堂屢奉使諸省讞獄，直隸、吉林、江蘇皆一至，山東四至，河南再至。察得唆訟者嚴治之；有誣訴，論如律，不稍貸。初使河南按商丘獄，上諭之曰：「季堂河南人，按本省事尤當秉公持正。勿以事涉大吏，慮將來報復，稍為瞻顧。」商丘民湯秉五迫孀婦劉為妻，劉絕食死。其獄已題旌，劉父猶陳訴，並及順刀神拳會民事，"
+    }
+  ],
+  "sources": {
+    "eccp-3639992": {
+      "title": "ECCP · 胡煦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282862",
+      "locator": "eccp-3639992-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-067",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642457",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "清",
+    "source": "eccp-3642457",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Ch'ing 李清 (T. 心水, H. 映碧 and 天一居士), 1602–1683, historian, fifth generation descendant of Li Ch'un-fang 李春芳 (b. 1510, chin-shih of 1547), was a native of Hsing-hua, Kiangsu, and a chin-shih of 1631.",
+          "source": "eccp-3642457",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李清，字心水，號映碧，興化人。",
+          "source": "qsg-volume-500",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "心水",
+        "source": "eccp-3642457"
+      }
+    ],
+    "hao": [
+      {
+        "value": "映碧",
+        "source": "eccp-3642457"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "心水"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3642457"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1602,
+        "source": "eccp-3642457",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3642457",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642457",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642457",
+      "passage": "eccp-3642457-001"
+    },
+    {
+      "source": "qsg-volume-500",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-500",
+      "passage": "qsg-volume-500-006",
+      "matchStatus": "proposed",
+      "evidence": "李清，字心水，號映碧，興化人。天啟辛酉舉人，崇禎辛未進士，授寧波府推官。考最，擢刑科給事中，同日上兩疏：一言禦外敵當戰守兼治，不當輕言款；禦內寇當剿撫並用，不當專言撫。一言治獄不宜置失入，而獨罪失出，因論尚書劉之鳳不職狀。尋以天旱，复疏言此用刑鍛鍊刻深所致，語侵尚書甄淑，淑遂劾清把持，詔鐫級，調浙江布政司照磨。無何，淑敗，即家起吏科給事中。疾朝臣日競門戶，疏言：「國家門戶有二：北門之鎖鑰，以三協為門戶；陪京之扃鍵，以兩淮為門戶。置此不問，而閧堂斫穴，長此安底？」疏入，不報。"
+    }
+  ],
+  "sources": {
+    "eccp-3642457": {
+      "title": "ECCP · Li Ch'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290595",
+      "locator": "eccp-3642457-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633519": {
+      "title": "ECCP · 陳撰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280409",
+      "locator": "eccp-3633519-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636395": {
+      "title": "ECCP · 周亮工",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272503",
+      "locator": "eccp-3636395-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634106": {
+      "title": "ECCP · 鄭鄤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293102",
+      "locator": "eccp-3634106-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640012": {
+      "title": "ECCP · 黃丕烈",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282907",
+      "locator": "eccp-3640012-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643623": {
+      "title": "ECCP · 李富孫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294827",
+      "locator": "eccp-3643623-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645536": {
+      "title": "ECCP · 陸費墀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299518",
+      "locator": "eccp-3645536-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646128": {
+      "title": "ECCP · 陸錫熊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300525",
+      "locator": "eccp-3646128-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656338": {
+      "title": "ECCP · 戴名世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365098",
+      "locator": "eccp-3656338-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658525": {
+      "title": "ECCP · 左懋第",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370037",
+      "locator": "eccp-3658525-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-195",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-202",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633207",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "阿克敦",
+    "source": "eccp-3633207",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "章佳",
+      "source": "eccp-3633207"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "A-k'o-tun 阿克敦 (T. 立軒, 冲和, H. 恆巖), May 4, 1685–1756, Feb. 22, official, was a mem­ber of the Chang-chia 章佳 clan and of the Manchu Plain Blue Banner. He was the father of A-kuei [q. v.].",
+          "source": "eccp-3633207",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "阿克敦，字仲和，章佳氏，滿洲正藍旗人。",
+          "source": "qsg-volume-303",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "立軒",
+        "source": "eccp-3633207"
+      },
+      {
+        "value": "冲和",
+        "source": "eccp-3633207"
+      }
+    ],
+    "hao": [
+      {
+        "value": "恆巖",
+        "source": "eccp-3633207"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "立軒"
+    },
+    "romanizations": [
+      {
+        "value": "A-k'o-tun",
+        "system": "ECCP spelling",
+        "source": "eccp-3633207"
+      }
+    ],
+    "clan": {
+      "label": "章佳",
+      "source": "eccp-3633207"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1685,
+        "source": "eccp-3633207",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3633207",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633207",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633207",
+      "passage": "eccp-3633207-001"
+    },
+    {
+      "source": "qsg-volume-303",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-303",
+      "passage": "qsg-volume-303-021",
+      "matchStatus": "proposed",
+      "evidence": "阿克敦，字仲和，章佳氏，滿洲正藍旗人。康熙四十八年進士，改庶吉士，授編修。五十二年，充河南鄉試考官。五十三年，上以阿克敦學問優，典試有聲名，特擢侍講學士。五十五年，轉侍讀學士。五十六年，朝鮮國王李焞病目，使求空青，命阿克敦齎賜之。遷詹事。五十七年，擢內閣學士。六十一年，朝鮮國王李昀請立其弟昑為世弟，命阿克敦偕侍衛佛倫充使冊封。擢兵部侍郎。世宗即位，兼翰林院掌院學士，充聖祖實錄副總裁。雍正元年，命專管翰林院掌院學士，充國史、會典副總裁。复偕散秩大臣舒魯冊封朝鮮國王李昑。三年，授禮部侍郎，兼兵部。四"
+    }
+  ],
+  "sources": {
+    "eccp-3633207": {
+      "title": "ECCP · A-k'o-tun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271320",
+      "locator": "eccp-3633207-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633280": {
+      "title": "ECCP · 張廣泗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271615",
+      "locator": "eccp-3633280-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633300": {
+      "title": "ECCP · 張廷玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271942",
+      "locator": "eccp-3633300-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649115": {
+      "title": "ECCP · 明瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317676",
+      "locator": "eccp-3649115-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649415": {
+      "title": "ECCP · 沈彤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318212",
+      "locator": "eccp-3649415-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656409": {
+      "title": "ECCP · 曹寅",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365205",
+      "locator": "eccp-3656409-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656423": {
+      "title": "ECCP · 策棱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365235",
+      "locator": "eccp-3656423-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678153": {
+      "title": "ECCP · 胤禎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442972",
+      "locator": "eccp-3678153-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-288": {
+      "title": "清史稿/卷288",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433531",
+      "locator": "qsg-volume-288-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-296": {
+      "title": "清史稿/卷296",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162633",
+      "locator": "qsg-volume-296-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-303": {
+      "title": "清史稿/卷303",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132223",
+      "locator": "qsg-volume-303-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

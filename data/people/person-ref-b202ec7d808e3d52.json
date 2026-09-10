@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b202ec7d808e3d52",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "闓生",
+    "source": "eccp-3675200",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "辟疆",
+        "source": "eccp-3675200"
+      }
+    ],
+    "hao": [
+      {
+        "value": "北江",
+        "source": "eccp-3675200"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "辟疆"
+    },
+    "romanizations": [
+      {
+        "value": "Wu K'ai-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3675200"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

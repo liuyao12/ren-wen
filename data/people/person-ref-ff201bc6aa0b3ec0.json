@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ff201bc6aa0b3ec0",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "林",
+    "given": "旭",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "侯官",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Lin Hsü 林旭 (T. 暾谷, H. 晚翠, 1875–1898), a native of Hou-kuan, Fukien, a chü-jên of 1893, a student of K'ang Yu-wei, and chairman of the reform society of his province; and Liu Kuang-ti 劉光第 (T. 裴村, 1859–1898), a native of Fu-shun, Szechwan, a chin-shih of 1883, who had been secretary of the Board of Punishments for more than ten years.",
+          "source": "eccp-3656345",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "林旭，字暾谷，福建侯官人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "暾谷",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [
+      {
+        "value": "晚翠",
+        "source": "eccp-3656345"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "暾谷"
+    },
+    "romanizations": [
+      {
+        "value": "Lin Hsü",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1875,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1898,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-036",
+      "matchStatus": "proposed",
+      "evidence": "林旭，字暾谷，福建侯官人。年十九，舉本省鄉試第一。後試禮部，值中日構釁，糾同試者上書論時事，不報。入貲為內閣中書。時康有為倡言變法，先於京師立粵學會，以振厲士氣，而蜀學、浙學、陝學、閩學諸會繼之。旭為閩學會領袖，又充保國會會員。榮祿先為福州將軍，雅好閩士，及至天津，延旭入幕。俄以奏保人才召見，操土語，上不盡解。退繕摺，上稱善，遂命與譚嗣同等同參機務，詔諭多旭起草。及變起，同戮於市，年二十有四。著有晚翠軒詩集。妻沈葆楨孫女，聞變，仰藥不死，以毀卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

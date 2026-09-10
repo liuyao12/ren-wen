@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639978",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "大椿",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Ta-ch'un 徐大椿 (T. 靈胎, H. 洄溪老人, original ming 大業), 1693–1771, physician, was a native of Wu-chiang, Kiangsu. His grandfather, Hsü Ch'iu [q. v.], was a poet, a landscape painter, and a man of letters.",
+          "source": "eccp-3639978",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "靈胎",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "洄溪老人",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "靈胎"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Ta-ch'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1693,
+        "source": "eccp-3639978",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3639978",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639978",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639978",
+      "passage": "eccp-3639978-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · Hsü Ta-ch'un",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

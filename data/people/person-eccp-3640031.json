@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640031",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "梧",
+    "source": "eccp-3640031",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "平和",
+      "source": "qsg-volume-261",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Wu 黃梧 (T. 君宣), d. 1674, age 57 (sui), Ming-Ch'ing general, was a native of P'ing-ho, Fukien. He served under Chêng Ch'êng-kung [q. v.] as brigade-general and defended the strategic city of Hai-ch'êng on the southern coast of Fukien.",
+          "source": "eccp-3640031",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黃梧，字君宣，福建平和人。",
+          "source": "qsg-volume-261",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "君宣",
+        "source": "eccp-3640031"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "君宣"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Wu",
+        "system": "ECCP spelling",
+        "source": "eccp-3640031"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640031",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640031",
+      "passage": "eccp-3640031-001"
+    },
+    {
+      "source": "qsg-volume-261",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-261",
+      "passage": "qsg-volume-261-035",
+      "matchStatus": "proposed",
+      "evidence": "黃梧，字君宣，福建平和人。初為鄭成功總兵，守海澄。順治十三年，梧斬成功將華棟等，以海澄降。大將軍鄭親王世子濟度以聞，封海澄公。十四年，總督李率泰疏請益梧兵，合四千人，駐漳州。梧與李率泰及提督馬得功、都統郎賽水陸分道進，破七城，克閩安鎮。敘功，賜甲胄、貂裘，加太子太保。梧牒李率泰，薦委署都督施琅智勇忠誠，熟諳沿海事狀，假以事權，必能剪除海孽；又言成功全藉內地接濟，木植、絲綿、油麻、釘鐵、柴米，土宄陰為轉輸，齎糧養寇，請嚴禁；併條列滅賊五策，復請速誅成功父芝龍。率泰先後上聞，瑯得擢用，芝龍亦誅。尋命"
+    }
+  ],
+  "sources": {
+    "eccp-3640031": {
+      "title": "ECCP · Huang Wu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282958",
+      "locator": "eccp-3640031-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634094": {
+      "title": "ECCP · 鄭成功",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271754",
+      "locator": "eccp-3634094-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634095": {
+      "title": "ECCP · 鄭芝龍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271755",
+      "locator": "eccp-3634095-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640007": {
+      "title": "ECCP · 黃芳世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282893",
+      "locator": "eccp-3640007-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640008": {
+      "title": "ECCP · 黃芳泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282895",
+      "locator": "eccp-3640008-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640009": {
+      "title": "ECCP · 黃芳度",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282897",
+      "locator": "eccp-3640009-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642395": {
+      "title": "ECCP · 耿繼茂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290453",
+      "locator": "eccp-3642395-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658534": {
+      "title": "ECCP · 杜臻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370066",
+      "locator": "eccp-3658534-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-253": {
+      "title": "清史稿/卷253",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026844",
+      "locator": "qsg-volume-253-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

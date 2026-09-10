@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656381",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "丁",
+    "given": "魁楚",
+    "source": "eccp-3656381",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TING K'uei-ch'u 丁魁楚 (T. 光三), d. Mar. 3, 1647, Ming general, was a native of Yungch'êng, Honan. He passed the chin-shih examination in 1616. After several promotions he was appointed (1631) governor, stationed at Paoting, and three years later (1634) was made junior vice-president of the Board of War.",
+          "source": "eccp-3656381",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "光三",
+        "source": "eccp-3656381"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "光三"
+    },
+    "romanizations": [
+      {
+        "value": "Ting K'uei-ch'u",
+        "system": "ECCP spelling",
+        "source": "eccp-3656381"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656381",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656381",
+      "passage": "eccp-3656381-001"
+    }
+  ],
+  "sources": {
+    "eccp-3656381": {
+      "title": "ECCP · Ting K'uei-ch'u",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365163",
+      "locator": "eccp-3656381-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3646145": {
+      "title": "ECCP · 馬士英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300562",
+      "locator": "eccp-3646145-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-044",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

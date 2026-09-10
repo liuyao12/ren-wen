@@ -27,7 +27,24 @@
         "source": "eccp-zeng-guofan"
       }
     ],
-    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented."
+    "note": "Only attested components entered. Unresolved Chinese identity, native place, dates and external IDs are not invented.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Shu-ch'ang 黎庶昌 (T. 蒓齋), 1837–1897, diplomat, was a native of Tsun-i, Kweichow, a province to which his ancestors had moved from Kiangsi at the close of the Ming period. His grandfather, Li An-li 黎安理 (T. 履泰, H. 靜圃, 1751–1819), served late in life (1813–16) as district-magistrate of Chang-shan, Shantung, and his father, Li Kai 黎愷 (T. 雨畊, H. 石頭山人, 1788–1843), was sub-director of schools at K'aichou, Kweichow (1835–43).",
+          "source": "eccp-3643639",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "黎庶昌，字蓴齋，貴州遵義人。",
+          "source": "qsg-volume-446",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "bracket": null
   },
   "life": {
     "birth": null,
@@ -67,6 +84,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Li_Shu-ch%27ang",
       "passage": "ECCP cross-reference destination"
+    },
+    {
+      "source": "eccp-3643639",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643639",
+      "passage": "eccp-3643639-001"
+    },
+    {
+      "source": "qsg-volume-446",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-446",
+      "passage": "qsg-volume-446-027",
+      "matchStatus": "proposed",
+      "evidence": "黎庶昌，字蓴齋，貴州遵義人。少嗜讀，從鄭珍遊，講求經世學。同治初元，星變，應詔上書論時政，條舉利病甚悉，上嘉之。以廩貢生授知縣，交曾國藩差序。國藩素重鄭氏，接庶昌延入幕，歷署吳江、青浦諸邑；兩筦榷關，稅驟進。光緒二年，郭嵩燾出使英國，調充參贊。歷比、瑞、葡、奧諸邦，箸書以撮所聞見，成西洋雜誌。晉道員。"
     }
   ],
   "sources": {
@@ -90,6 +121,83 @@
       "locator": "Preserved source opening, revision 11294861",
       "access": "source-extracted-opening",
       "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · Li Shu-ch'ang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633311": {
+      "title": "ECCP · 張裕釗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271676",
+      "locator": "eccp-3633311-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633505": {
+      "title": "ECCP · 趙一清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271695",
+      "locator": "eccp-3633505-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654355": {
+      "title": "ECCP · 盛昱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358407",
+      "locator": "eccp-3654355-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658542": {
+      "title": "ECCP · 端方",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370089",
+      "locator": "eccp-3658542-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678061": {
+      "title": "ECCP · 吳大澂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442370",
+      "locator": "eccp-3678061-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-094",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "notes": [

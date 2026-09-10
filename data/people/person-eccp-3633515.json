@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633515",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "貞慧",
+    "source": "eccp-3633515",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳貞慧，字定生，宜興人，明都御史陳於廷子。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "定生",
+        "source": "eccp-3633515"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "定生"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Chên-hui",
+        "system": "ECCP spelling",
+        "source": "eccp-3633515"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1605,
+        "source": "eccp-3633515",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1656,
+        "source": "eccp-3633515",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633515",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633515",
+      "passage": "eccp-3633515-001"
+    },
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-026",
+      "matchStatus": "proposed",
+      "evidence": "陳貞慧，字定生，宜興人，明都御史陳於廷子。於廷，東林黨魁。貞慧與吳應箕草留都防亂檄，擯阮大鋮。黨禍起，逮貞慧至鎮撫司，事雖解，已瀕十死。國亡，埋身土室，不入城市者十餘年。遺民故老時時向陽羨山中一問生死，流連痛飲，驚離吊往，聞者悲之。順"
+    }
+  ],
+  "sources": {
+    "eccp-3633515": {
+      "title": "ECCP · Ch'ên Chên-hui",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634083": {
+      "title": "ECCP · 陳維崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280420",
+      "locator": "eccp-3634083-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637596": {
+      "title": "ECCP · 方以智",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11721965",
+      "locator": "eccp-3637596-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639257": {
+      "title": "ECCP · 侯方域",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280284",
+      "locator": "eccp-3639257-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640029": {
+      "title": "ECCP · 黃宗炎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282956",
+      "locator": "eccp-3640029-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646145": {
+      "title": "ECCP · 馬士英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300562",
+      "locator": "eccp-3646145-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678435": {
+      "title": "ECCP · 余懷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443729",
+      "locator": "eccp-3678435-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

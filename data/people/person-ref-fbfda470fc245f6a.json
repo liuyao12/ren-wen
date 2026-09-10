@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-fbfda470fc245f6a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "桂",
+    "given": "文燦",
+    "source": "eccp-3633526",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "桂文燦，字子白，文燿之弟。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子白",
+        "source": "eccp-3633526"
+      },
+      {
+        "value": "昊庭",
+        "source": "eccp-3633526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子白"
+    },
+    "romanizations": [
+      {
+        "value": "Kuei Wên-ts'an",
+        "system": "ECCP spelling",
+        "source": "eccp-3633526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1823,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1884,
+        "source": "eccp-3633526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-174",
+      "matchStatus": "proposed",
+      "evidence": "桂文燦，字子白，文燿之弟。道光二十九年舉人。同治二年正月，應詔陳言：曰嚴甄別以淸仕途，曰設幕職以重考成，曰分三途以勵科甲，曰裁孱弱以節糜費，曰鑄銀錢以資利用。若津貼京員，製造輪船，海運滇銅，先後允行。光緒九年，選湖北鄖縣知縣，善治獄，以積勞卒於任。文燦守阮元遺言，謂：「周公尚文，範之以禮；尼山論道，教之以孝。苟博文而不能約禮，明辨而不能篤行，非聖人之學也。鄭君、朱子皆大儒，其行同，其學亦同。」因著朱子述鄭録二巻。他著四書集注牋四巻，毛詩釋地六巻，周禮通釋六巻，經學博採録十二巻。"
+    }
+  ],
+  "sources": {
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-174",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

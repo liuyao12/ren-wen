@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-41ee326ea611b55c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "增祥",
+    "source": "eccp-3672716",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "陸增祥，字星農，太倉人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "魁仲",
+        "source": "eccp-3672716"
+      }
+    ],
+    "hao": [
+      {
+        "value": "星農",
+        "source": "eccp-3672716"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "魁仲"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Tsêng-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3672716"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1833,
+        "source": "eccp-3672716",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1889,
+        "source": "eccp-3672716",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-086",
+      "matchStatus": "proposed",
+      "evidence": "陸增祥，字星農，太倉人。道光三十年一甲一名進士，授修撰，至辰永沅靖道。踵王昶金石萃編成金石補正百二十卷，凡三千五百餘通。又著磚錄一卷。其訂正金石款識名物，何紹基服其精。"
+    }
+  ],
+  "sources": {
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-086",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

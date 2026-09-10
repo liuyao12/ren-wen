@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634076",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "大受",
+    "source": "eccp-3634076",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "祁陽",
+      "source": "qsg-volume-307",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Ta-shou 陳大受 (T. 占咸, H. 可齋), Aug. 15, 1702–1751, Oct. 9, official, was a native of Ch'i-yang, Hunan. In 1729 he took his chü-jên degree in Peking, and four years later became a chin-shih, with appointment as bachelor of the Hanlin Academy.",
+          "source": "eccp-3634076",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陳大受，字佔咸，湖南祁陽人。",
+          "source": "qsg-volume-307",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "占咸",
+        "source": "eccp-3634076"
+      }
+    ],
+    "hao": [
+      {
+        "value": "可齋",
+        "source": "eccp-3634076"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "占咸"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Ta-shou",
+        "system": "ECCP spelling",
+        "source": "eccp-3634076"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3634076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1751,
+        "source": "eccp-3634076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634076",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634076",
+      "passage": "eccp-3634076-001"
+    },
+    {
+      "source": "qsg-volume-307",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-307",
+      "passage": "qsg-volume-307-021",
+      "matchStatus": "proposed",
+      "evidence": "陳大受，字佔咸，湖南祁陽人。幼沉敏，初授內則，即退習其儀。既長，家貧，躬耕山麓。同舍漁者夜出捕魚，為候門，讀書不輟。雍正十一年，成進士，選庶吉士。乾隆元年，授編修。二年，大考翰詹諸臣，日午，上御座以待。大受卷先奏，列第一，超擢侍讀。五遷吏部侍郎。四年，授安徽巡撫。初視事，決疑獄，老吏駭其精敏。廬、鳳、潁諸府時多盜，有司多諱匿，大受定限嚴緝，月獲盜五十輩，得旨褒美。淮南、北洊飢，發倉穀賑之。穀且盡，繼以麥。又告糶江南、廣東，且發且儲。時頻歲饑民掠米麥以食，有司以盜論。哀其情，奏原六十餘人。麥熟，禁"
+    }
+  ],
+  "sources": {
+    "eccp-3634076": {
+      "title": "ECCP · Ch'ên Ta-shou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271487",
+      "locator": "eccp-3634076-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-296": {
+      "title": "清史稿/卷296",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162633",
+      "locator": "qsg-volume-296-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-307": {
+      "title": "清史稿/卷307",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607457",
+      "locator": "qsg-volume-307-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

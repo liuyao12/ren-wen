@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633298",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "廷樞",
+    "source": "eccp-3633298",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "韓城",
+      "source": "qsg-volume-264",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG T'ing-shu 張廷樞 (T. 景峰) d. 1729, official, was a native of Han-ch'êng, Shensi. His father, Chang Ku-hsing (張顧行, a chin-shih of 1667), was grain intendant of Nanking. Chang T'ing-shu became a chin-shih in 1682 and after a period of study in the Hanlin Academy received the rank of a compiler.",
+          "source": "eccp-3633298",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張廷樞，字景峰，陝西韓城人。",
+          "source": "qsg-volume-264",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "景峰",
+        "source": "eccp-3633298"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "景峰"
+    },
+    "romanizations": [
+      {
+        "value": "Chang T'ing-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3633298"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633298",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633298",
+      "passage": "eccp-3633298-001"
+    },
+    {
+      "source": "qsg-volume-264",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-264",
+      "passage": "qsg-volume-264-034",
+      "matchStatus": "proposed",
+      "evidence": "張廷樞，字景峰，陝西韓城人。父顧行，康熙六年進士，官江安督糧道。廷樞，二十一年進士，選庶吉士，授編修。三十八年，以侍讀主江南鄉試。四十一年，以內閣學士督江南學政。四十四年，聖祖南巡，賜御書、冠服。四十五年，遷吏部侍郎，充經筵講官。"
+    }
+  ],
+  "sources": {
+    "eccp-3633298": {
+      "title": "ECCP · Chang T'ing-shu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271940",
+      "locator": "eccp-3633298-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634059": {
+      "title": "ECCP · 陳夢雷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271466",
+      "locator": "eccp-3634059-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-278": {
+      "title": "清史稿/卷278",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162667",
+      "locator": "qsg-volume-278-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-289": {
+      "title": "清史稿/卷289",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1376051",
+      "locator": "qsg-volume-289-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

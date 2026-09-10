@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642441",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郎",
+    "given": "廷極",
+    "source": "eccp-3642441",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LANG T'ing-chi 郎廷極 (T. 紫衡 and 紫垣, H. 北軒), May 16, 1663–1715, Feb. 25, official and scholar, was the descendant of a native of Liaotung. A son of Lang Yung-ch'ing 郎永清 (T. 定庵, 1620–1687), governor of Shantung in 1686–87, he came of a family which had had some military reputation in the Ming dynasty, but which later served the early Manchu emperors and belonged to the Chinese Bordered Yellow Banner.",
+          "source": "eccp-3642441",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "紫衡",
+        "source": "eccp-3642441"
+      }
+    ],
+    "hao": [
+      {
+        "value": "北軒",
+        "source": "eccp-3642441"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "紫衡"
+    },
+    "romanizations": [
+      {
+        "value": "Lang T'ing-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3642441"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1663,
+        "source": "eccp-3642441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3642441",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642441",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642441",
+      "passage": "eccp-3642441-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642441": {
+      "title": "ECCP · Lang T'ing-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290563",
+      "locator": "eccp-3642441-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645529": {
+      "title": "ECCP · 劉墉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299508",
+      "locator": "eccp-3645529-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649114": {
+      "title": "ECCP · 明珠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317674",
+      "locator": "eccp-3649114-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672755": {
+      "title": "ECCP · 汪士鐸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412330",
+      "locator": "eccp-3672755-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

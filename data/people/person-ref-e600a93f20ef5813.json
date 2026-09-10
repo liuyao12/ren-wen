@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-e600a93f20ef5813",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "秉衡",
+    "source": "eccp-3640953",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海城",
+      "source": "qsg-volume-467",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李秉衡，字鑑堂，奉天海城人。",
+          "source": "qsg-volume-467",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鑑堂",
+        "source": "eccp-3640953"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鑑堂"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ping-hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3640953"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1830,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3640953",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-467",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-467",
+      "passage": "qsg-volume-467-007",
+      "matchStatus": "proposed",
+      "evidence": "李秉衡，字鑑堂，奉天海城人。初入貲為縣丞，遷知縣。光緒五年，除知冀州。歲饑，發倉粟，不給。州俗重紡織，布賤，為醵金求遠遷，易糧歸，而裁其價以招民，民獲甦。越二年，擢知永平府。部議追論劫案，貶秩。李鴻章上其理狀，請免議，不獲。時稱「北直廉吏第一」。以張之洞薦，超授浙江按察使，未到官，移廣西。十年，平峒寨亂，晉二品秩。"
+    }
+  ],
+  "sources": {
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-467": {
+      "title": "清史稿/卷467",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611503",
+      "locator": "qsg-volume-467-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

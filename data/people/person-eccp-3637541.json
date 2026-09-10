@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637541",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "褚英",
+    "source": "eccp-3637541",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ch'u-yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3637541"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1580,
+        "source": "eccp-3637564",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1615,
+        "source": "eccp-3637564",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637541",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3637541",
+      "passage": "eccp-3637541-001"
+    },
+    {
+      "source": "eccp-3637542",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3637542",
+      "passage": "eccp-3637542-001"
+    },
+    {
+      "source": "eccp-3637564",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637564",
+      "passage": "eccp-3637564-001"
+    }
+  ],
+  "sources": {
+    "eccp-3637541": {
+      "title": "ECCP · Ch'u-yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275702",
+      "locator": "eccp-3637541-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637542": {
+      "title": "ECCP · Ch'u-ying",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275703",
+      "locator": "eccp-3637542-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637564": {
+      "title": "ECCP · Cuyen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275740",
+      "locator": "eccp-3637564-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633217": {
+      "title": "ECCP · 阿敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271366",
+      "locator": "eccp-3633217-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637570": {
+      "title": "ECCP · 代善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275754",
+      "locator": "eccp-3637570-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640814": {
+      "title": "ECCP · 扈爾漢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285384",
+      "locator": "eccp-3640814-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646140": {
+      "title": "ECCP · 隆科多",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649149": {
+      "title": "ECCP · 尼堪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317735",
+      "locator": "eccp-3649149-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656331": {
+      "title": "ECCP · 蘇努",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365086",
+      "locator": "eccp-3656331-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

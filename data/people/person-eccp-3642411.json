@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642411",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "顧",
+    "given": "亭林",
+    "source": "eccp-3642411",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ku T'ing-lin",
+        "system": "ECCP spelling",
+        "source": "eccp-3642411"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642411",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642411",
+      "passage": "eccp-3642411-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642411": {
+      "title": "ECCP · Ku T'ing-lin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290495",
+      "locator": "eccp-3642411-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-214",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

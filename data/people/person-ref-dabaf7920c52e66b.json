@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-dabaf7920c52e66b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "尹",
+    "given": "會一",
+    "source": "eccp-3678161",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "博野",
+      "source": "qsg-volume-308",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "尹會一，字元孚，直隸博野人。",
+          "source": "qsg-volume-308",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Yin Hui-i",
+        "system": "ECCP spelling",
+        "source": "eccp-3678161"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3678161",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1748,
+        "source": "eccp-3678161",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-308",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-308",
+      "passage": "qsg-volume-308-025",
+      "matchStatus": "proposed",
+      "evidence": "尹會一，字元孚，直隸博野人。雍正二年進士，分工部學習，授主事，遷員外郎。五年，出為襄陽知府。漢水暴漲，壞護城石堤。會一督修建，分植巡功，民忘其勞。創八蜡廟，表諸葛亮所居山，復為茅廬其上。署荊州，石首饑民聚眾，揚言將劫倉穀。會一單騎往諭，係其強悍者，發倉穀次第散予之，眾悅服。九年，調江南揚州知府，濬新舊城巿河通舟楫，濬城西蜀岡下河灌田疇。十一年，遷兩淮鹽運使。新安定書院，士興於學。高宗即位，就加僉都御史銜，擢兩淮鹽政。"
+    }
+  ],
+  "sources": {
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

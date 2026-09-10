@@ -26,7 +26,11 @@
         "source": "batch-evidence"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    }
   },
   "life": {
     "birth": null,
@@ -50,6 +54,41 @@
       "locator": "eccp-chonghou-18 · Shao Yu-lien",
       "access": "full-text",
       "attribution": "Tu Lien-chê; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-021",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-290",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-442": {
+      "title": "清史稿/卷442",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433592",
+      "locator": "qsg-volume-442-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-463": {
+      "title": "清史稿/卷463",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021094",
+      "locator": "qsg-volume-463-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {

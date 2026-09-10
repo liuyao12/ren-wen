@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642421",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "歸",
+    "given": "莊",
+    "source": "eccp-3642421",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KUEI Chuang 歸莊 (T. 玄恭, 元公, 懸公, 園公, H. 恆軒, 普明頭陀, 歸妹, 歸乎來), Aug. 29, 1613–1673, Oct. 1, a native of K'un-shan, Kiangsu, was a great-grandson of the Ming teacher and prose writer, Kuei Yu-kuang 歸有光 (T. 熙甫, H. 震川, 1506–1571).",
+          "source": "eccp-3642421",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "玄恭",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "元公",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "懸公",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "園公",
+        "source": "eccp-3642421"
+      }
+    ],
+    "hao": [
+      {
+        "value": "恆軒",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "普明頭陀",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "歸妹",
+        "source": "eccp-3642421"
+      },
+      {
+        "value": "歸乎來",
+        "source": "eccp-3642421"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "玄恭"
+    },
+    "romanizations": [
+      {
+        "value": "Kuei Chuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3642421"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1613,
+        "source": "eccp-3642421",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3642421",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642421",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642421",
+      "passage": "eccp-3642421-001"
+    }
+  ],
+  "sources": {
+    "eccp-3642421": {
+      "title": "ECCP · Kuei Chuang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290522",
+      "locator": "eccp-3642421-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

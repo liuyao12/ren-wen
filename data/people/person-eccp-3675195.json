@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675195",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吴",
+    "given": "錫麒",
+    "source": "eccp-3675195",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Hsi-ch'i 吴錫麒 (T. 聖徵, H. 穀人), 1746–1818, man of letters, was a native of Ch'ien-t'ang (Hangchow). A chin-shih of 1775, he first was appointed a sub-reader in the Hanlin Academy. After having passed through several positions, including that of second-class compiler, he finally became a libationer.",
+          "source": "eccp-3675195",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聖徵",
+        "source": "eccp-3675195"
+      }
+    ],
+    "hao": [
+      {
+        "value": "穀人",
+        "source": "eccp-3675195"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聖徵"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Hsi-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3675195"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1746,
+        "source": "eccp-3675195",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3675195",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675195",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675195",
+      "passage": "eccp-3675195-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675195": {
+      "title": "ECCP · Wu Hsi-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419954",
+      "locator": "eccp-3675195-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634072": {
+      "title": "ECCP · 陳壽祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656323": {
+      "title": "ECCP · 孫原湘",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365071",
+      "locator": "eccp-3656323-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656371": {
+      "title": "ECCP · 鐵保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365150",
+      "locator": "eccp-3656371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675201": {
+      "title": "ECCP · 吳榮光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419964",
+      "locator": "eccp-3675201-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

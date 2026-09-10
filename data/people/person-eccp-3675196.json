@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675196",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "武",
+    "given": "皇帝",
+    "source": "eccp-3675196",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wu Huang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3675196"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675196",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3675196",
+      "passage": "eccp-3675196-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675196": {
+      "title": "ECCP · Wu Huang-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419955",
+      "locator": "eccp-3675196-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637584": {
+      "title": "ECCP · 恩格德爾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275775",
+      "locator": "eccp-3637584-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-250": {
+      "title": "清史稿/卷250",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630037",
+      "locator": "qsg-volume-250-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

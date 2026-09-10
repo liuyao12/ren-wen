@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678148",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "閻",
+    "given": "應元",
+    "source": "eccp-3678148",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEN Ying-yüan 閻應元 (T. 麗亨), d. Oct. 1645, Ming martyr, was a native of Tungchow, Chihli. At the close of the Ming period he was prison-warder at Chiang-yin, Kiangsu. For his activities against pirates he was promoted to the post of registrar of Ying-tê, Kwangtung, but as roads were obstructed he never went.",
+          "source": "eccp-3678148",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "麗亨",
+        "source": "eccp-3678148"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "麗亨"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Ying-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3678148"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678148",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678148",
+      "passage": "eccp-3678148-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678148": {
+      "title": "ECCP · Yen Ying-yüan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442960",
+      "locator": "eccp-3678148-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

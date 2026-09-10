@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-85a2d6fa23a8c766",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "鼎",
+    "source": "eccp-3674928",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "崇慶州",
+      "source": "qsg-volume-490",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "黃鼎，字彝封，四川崇慶州人。",
+          "source": "qsg-volume-490",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "尊",
+        "source": "eccp-3674928"
+      }
+    ],
+    "hao": [
+      {
+        "value": "曠亭",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "獨往客",
+        "source": "eccp-3674928"
+      },
+      {
+        "value": "淨垢老人",
+        "source": "eccp-3674928"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "尊"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3674928"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1660,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1730,
+        "source": "eccp-3674928",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-490",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-490",
+      "passage": "qsg-volume-490-077",
+      "matchStatus": "proposed",
+      "evidence": "黃鼎，字彝封，四川崇慶州人。以諸生倡辦團練。同治元年，粵匪犯敘永廳，鼎率所部，佐官軍擊破之，敘功授教諭。二年，復新寧。松潘番亂，總督駱秉章檄鼎募蜀中驍勇士，得五百人，為蜀軍彝字營。會四川布政使劉蓉巡撫陝西，檄鼎以所部從。時粵寇擾漢中，偽啟王梁成富據南鄭，分兵陷諸州縣，且東侵興安境。鼎會陝軍分道討擊，盡复諸城邑。"
+    }
+  ],
+  "sources": {
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-490": {
+      "title": "清史稿/卷490",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542389",
+      "locator": "qsg-volume-490-077",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

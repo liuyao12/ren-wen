@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675203",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "歷",
+    "source": "eccp-3675203",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Li 吳歷 (T. 漁山, H. 墨井道人), 1632–1718, Feb. 24, artist and Chinese Catholic priest, was a native of Ch'ang-shu, Kiangsu. An ancestor, ten generations back, named Wu No 吳訥 (T. 敏德, H. 思庵, 1372–1457, posthumous name 文恪), held the rank of a vice-president of the Censorate at Nanking.",
+          "source": "eccp-3675203",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漁山",
+        "source": "eccp-3675203"
+      }
+    ],
+    "hao": [
+      {
+        "value": "墨井道人",
+        "source": "eccp-3675203"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漁山"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3675203"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1632,
+        "source": "eccp-3675203",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1718,
+        "source": "eccp-3675203",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675203",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675203",
+      "passage": "eccp-3675203-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675203": {
+      "title": "ECCP · Wu Li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-504": {
+      "title": "清史稿/卷504",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1326313",
+      "locator": "qsg-volume-504-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

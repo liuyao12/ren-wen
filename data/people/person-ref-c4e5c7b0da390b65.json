@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c4e5c7b0da390b65",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "夏",
+    "given": "同善",
+    "source": "eccp-3675186",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "仁和",
+      "source": "qsg-volume-441",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "夏同善，字子鬆，浙江仁和人。",
+          "source": "qsg-volume-441",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "舜樂",
+        "source": "eccp-3675186"
+      }
+    ],
+    "hao": [
+      {
+        "value": "子松",
+        "source": "eccp-3675186"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "舜樂"
+    },
+    "romanizations": [
+      {
+        "value": "Hsia T'ung-shan",
+        "system": "ECCP spelling",
+        "source": "eccp-3675186"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1831,
+        "source": "eccp-3675186",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1880,
+        "source": "eccp-3675186",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-441",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-441",
+      "passage": "qsg-volume-441-016",
+      "matchStatus": "proposed",
+      "evidence": "夏同善，字子鬆，浙江仁和人。咸豐六年進士，選庶吉士，授編修。累遷右庶子，充日講起居注官。十年，粵寇陷江南，諸軍無所統，請屬之曾國籓；又以北塘之役，僧格林沁軍退頓通州，桂良再就議款，同善建言敵情叵測，宜專任僧格林沁備戰守：敕並依行。父憂歸，服闋，起故官。同治六年，遷少詹事。其時傳言車駕將幸惇親王府，召集梨園，同善聞之，與孫詒經合疏諫止。略言：「皇上沖齡，敬天未至南郊，遊幸先臨府第，未安者一。聖學端資養正，耳目玩好偶有所娛，恐疏而不密，未安者二。近頃軍事未寧，遊觀之事傳播四方，曷以慰臣民望？未安者三"
+    }
+  ],
+  "sources": {
+    "eccp-3675186": {
+      "title": "ECCP · 翁同龢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419941",
+      "locator": "eccp-3675186-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-441": {
+      "title": "清史稿/卷441",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611534",
+      "locator": "qsg-volume-441-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

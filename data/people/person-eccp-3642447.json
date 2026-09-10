@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642447",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "長庚",
+    "source": "eccp-3642447",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "同安",
+      "source": "qsg-volume-350",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Ch'ang-kêng 李長庚 (T. 超人, 西巖), May 1, 1750–1808, Jan. 12, naval commander and first Earl Chuang-lieh (壯烈伯), was a native of T'ung-an, Fukien. A military chin-shih of 1771, he was commissioned a junior Imperial Bodyguard.",
+          "source": "eccp-3642447",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李長庚，字西岩，福建同安人。",
+          "source": "qsg-volume-350",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "超人",
+        "source": "eccp-3642447"
+      },
+      {
+        "value": "西巖",
+        "source": "eccp-3642447"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "超人"
+    },
+    "romanizations": [
+      {
+        "value": "Li Ch'ang-kêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3642447"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1750,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1808,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642447",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642447",
+      "passage": "eccp-3642447-001"
+    },
+    {
+      "source": "qsg-volume-350",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-350",
+      "passage": "qsg-volume-350-004",
+      "matchStatus": "proposed",
+      "evidence": "李長庚，字西岩，福建同安人。乾隆三十六年武進士，授藍翎侍衛。出為浙江衢州營都司，累遷樂清協副將。五十二年，署福建海壇鎮總兵。鄰海有盜，誤指所轄界，坐褫職。罄家財募鄉勇，捕獲巨盜，起用，補海壇游擊，遷銅山參將。自乾隆季年，安南內亂，招瀕海亡命劫內洋，以濟餉為患，粵東土盜鳳尾、水澳兩幫附之，遂益肆擾。五十九年，夷艇始犯福建三澎，長庚擊走之。"
+    }
+  ],
+  "sources": {
+    "eccp-3642447": {
+      "title": "ECCP · Li Ch'ang-kêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642422": {
+      "title": "ECCP · 桂良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290523",
+      "locator": "eccp-3642422-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649142": {
+      "title": "ECCP · 那彥成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317718",
+      "locator": "eccp-3649142-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-153",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-350": {
+      "title": "清史稿/卷350",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079385",
+      "locator": "qsg-volume-350-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-359": {
+      "title": "清史稿/卷359",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162674",
+      "locator": "qsg-volume-359-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-364": {
+      "title": "清史稿/卷364",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162893",
+      "locator": "qsg-volume-364-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-107",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

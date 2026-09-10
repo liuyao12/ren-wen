@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0ba11e2cfb44b3da",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "才常",
+    "source": "eccp-3633258",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "伯平",
+        "source": "eccp-3633258"
+      }
+    ],
+    "hao": [
+      {
+        "value": "佛塵",
+        "source": "eccp-3633258"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯平"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Ts'ai-ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3633258"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1867,
+        "source": "eccp-3633258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3633258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-034",
+      "matchStatus": "proposed",
+      "evidence": "唐才常，字佛塵。少與嗣同齊名，稱「瀏陽二生」，兩湖學堂高材生也。聞嗣同死，憂憤，屢有所謀，每言及德宗，常泣下。二十六年，兩宮出狩，才常陰結富有會謀舉事，號勤王，將攻武、漢。被獲，慷慨言無所隱，請就死，遂殺之。"
+    }
+  ],
+  "sources": {
+    "eccp-3633258": {
+      "title": "ECCP · 張之洞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271567",
+      "locator": "eccp-3633258-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

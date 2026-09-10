@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5413e274a7baa99a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "涵",
+    "source": "eccp-3642440",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "度汪",
+        "source": "eccp-3642440"
+      }
+    ],
+    "hao": [
+      {
+        "value": "心齋",
+        "source": "eccp-3642440"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "度汪"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Han",
+        "system": "ECCP spelling",
+        "source": "eccp-3642440"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3642440": {
+      "title": "ECCP · 藍鼎元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290560",
+      "locator": "eccp-3642440-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

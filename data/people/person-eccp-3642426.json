@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642426",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "龔",
+    "given": "鼎孳",
+    "source": "eccp-3642426",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KUNG Ting-tzŭ 龔鼎孳 (T. 孝升, H. 芝麓), Jan. 6, 1616–1673, Oct. 21, poet, landscape painter and official under three régimes in Peking during the Ming-Ch'ing transition period, was a native of Ho-fei, Anhwei.",
+          "source": "eccp-3642426",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "龔鼎孳，字孝升，合肥人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孝升",
+        "source": "eccp-3642426"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芝麓",
+        "source": "eccp-3642426"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孝升"
+    },
+    "romanizations": [
+      {
+        "value": "Kung Ting-tzŭ",
+        "system": "ECCP spelling",
+        "source": "eccp-3642426"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1616,
+        "source": "eccp-3642426",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1673,
+        "source": "eccp-3642426",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642426",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642426",
+      "passage": "eccp-3642426-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-061",
+      "matchStatus": "proposed",
+      "evidence": "龔鼎孳，字孝升，合肥人。明崇禎七年進士，授兵科給事中。李自成陷都城，以鼎孳為直指使，巡視北城。及睿親王至，遂迎降，授吏科給事中。改禮科，遷太常寺少卿。順治三年，丁父憂，請賜卹典。給事中孫自齡疏言：「鼎孳辱身流賊，蒙朝廷擢用，曾不聞夙夜在公，惟飲酒醉歌，俳優角逐。聞訃仍復歌飲留連，冀邀非分之典，虧行滅倫，莫此為甚！」部議降二級。尋遇恩詔獲免，累遷左都御史。"
+    }
+  ],
+  "sources": {
+    "eccp-3642426": {
+      "title": "ECCP · Kung Ting-tzŭ",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290530",
+      "locator": "eccp-3642426-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656407": {
+      "title": "ECCP · 曹溶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365202",
+      "locator": "eccp-3656407-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-245": {
+      "title": "清史稿/卷245",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026843",
+      "locator": "qsg-volume-245-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-061",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640008",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "芳泰",
+    "source": "eccp-3640008",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Fang-t'ai 黃芳泰 (T. 和士), 1647–1690, soldier, native of P'ing-ho, Fukien, was a younger brother of Huang Fang-shih [q. v.]. When his cousin Huang Fang-tu [q. v.], was besieged in Chang-chou, he fought through the lines and raised a relief army in Kwangtung.",
+          "source": "eccp-3640008",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "和士",
+        "source": "eccp-3640008"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "和士"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Fang-t'ai",
+        "system": "ECCP spelling",
+        "source": "eccp-3640008"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1647,
+        "source": "eccp-3640008",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1690,
+        "source": "eccp-3640008",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640008",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640008",
+      "passage": "eccp-3640008-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640008": {
+      "title": "ECCP · Huang Fang-t'ai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282895",
+      "locator": "eccp-3640008-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640007": {
+      "title": "ECCP · 黃芳世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282893",
+      "locator": "eccp-3640007-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640009": {
+      "title": "ECCP · 黃芳度",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282897",
+      "locator": "eccp-3640009-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

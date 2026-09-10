@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672739",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "錫侯",
+    "source": "eccp-3672739",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hsi-hou 王錫侯 (T. 韓伯, H. 濱洲), 1713–1777, Dec. 27, scholar whose work drew the wrath of Emperor Kao-tsung, was a native of Hsin-ch'ang, Kiangsi. He graduated as chü-jên in 1750 but failed to qualify for the chin-shih degree.",
+          "source": "eccp-3672739",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "韓伯",
+        "source": "eccp-3672739"
+      }
+    ],
+    "hao": [
+      {
+        "value": "濱洲",
+        "source": "eccp-3672739"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "韓伯"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hsi-hou",
+        "system": "ECCP spelling",
+        "source": "eccp-3672739"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1713,
+        "source": "eccp-3672739",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1777,
+        "source": "eccp-3672739",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672739",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672739",
+      "passage": "eccp-3672739-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672739": {
+      "title": "ECCP · Wang Hsi-hou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412304",
+      "locator": "eccp-3672739-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639239": {
+      "title": "ECCP · 郝碩",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280254",
+      "locator": "eccp-3639239-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-076",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

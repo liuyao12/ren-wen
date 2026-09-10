@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636395",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "周",
+    "given": "亮工",
+    "source": "eccp-3636395",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "元亮",
+        "source": "eccp-3636395"
+      }
+    ],
+    "hao": [
+      {
+        "value": "減齋",
+        "source": "eccp-3636395"
+      },
+      {
+        "value": "櫟園",
+        "source": "eccp-3636395"
+      },
+      {
+        "value": "櫟下老人",
+        "source": "eccp-3636395"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元亮"
+    },
+    "romanizations": [
+      {
+        "value": "Chou Liang-kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3636395"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1612,
+        "source": "eccp-3636395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3636395",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636395",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636395",
+      "passage": "eccp-3636395-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636395": {
+      "title": "ECCP · Chou Liang-kung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272503",
+      "locator": "eccp-3636395-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633247": {
+      "title": "ECCP · 查繼佐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271541",
+      "locator": "eccp-3633247-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637588": {
+      "title": "ECCP · 法若真",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275780",
+      "locator": "eccp-3637588-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640787": {
+      "title": "ECCP · 洪承疇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285324",
+      "locator": "eccp-3640787-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646128": {
+      "title": "ECCP · 陸錫熊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300525",
+      "locator": "eccp-3646128-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

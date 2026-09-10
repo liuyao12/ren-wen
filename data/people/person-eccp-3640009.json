@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640009",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "芳度",
+    "source": "eccp-3640009",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Fang-tu 黃芳度 (T. 壽巖), d. Nov. 22, 1675 age 25 (sui), eldest son of Huang Wu [q. v.], Ch'ing general, was a native of Pring-ho, Fukien. When his father died (1674) Huang Fang-tu outwardly accepted Kêng Ching-chung's [q. v.] invitation to join in the rebellion but secretly recruited 6,000 volunteers to defend Chang-chou, and at the same time reported his decision to Peking.",
+          "source": "eccp-3640009",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "壽巖",
+        "source": "eccp-3640009"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "壽巖"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Fang-tu",
+        "system": "ECCP spelling",
+        "source": "eccp-3640009"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640009",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640009",
+      "passage": "eccp-3640009-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640009": {
+      "title": "ECCP · Huang Fang-tu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282897",
+      "locator": "eccp-3640009-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640007": {
+      "title": "ECCP · 黃芳世",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282893",
+      "locator": "eccp-3640007-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640008": {
+      "title": "ECCP · 黃芳泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282895",
+      "locator": "eccp-3640008-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

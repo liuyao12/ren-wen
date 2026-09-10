@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5e6432c55a7d3817",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "曰愈",
+    "source": "eccp-3678092",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "香山",
+      "source": "qsg-volume-479",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "何曰愈，字云亹，廣東香山人。",
+          "source": "qsg-volume-479",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子持",
+        "source": "eccp-3678092"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲垓",
+        "source": "eccp-3678092"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子持"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Yüeh-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3678092"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3678092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1872,
+        "source": "eccp-3678092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-479",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-479",
+      "passage": "qsg-volume-479-009",
+      "matchStatus": "proposed",
+      "evidence": "何曰愈，字云亹，廣東香山人。父文明，河南洧川知縣，有惠政。曰愈少隨父宦，讀書勵志，有幹材。道光初，授四川會理州吏目。土司某桀驁，所部夷人殺漢民，知州檄曰愈往驗，以賄乞免，卻之。乃率眾來劫，不為動，卒成驗而還。獄上，大吏廉得直，曰愈由是知名。捐升知縣，以習邊事，辦西藏糧台，三載，還補岳池縣。不畏強禦，豪右斂戢。練鄉團，繕城郭，庀器械。逾數年，滇匪犯岳池，後令賴所遺械以拒賊，時比張孟談之治晉陽雲。調署平山，以母憂去。"
+    }
+  ],
+  "sources": {
+    "eccp-3678092": {
+      "title": "ECCP · 楊遇春",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442539",
+      "locator": "eccp-3678092-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

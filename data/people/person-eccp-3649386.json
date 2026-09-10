@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649386",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邵",
+    "given": "長蘅",
+    "source": "eccp-3649386",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHAO Ch'ang-hêng 邵長蘅 (T. 子湘, H. 青門山人), Aug. 24, 1637–1704, Dec. 18, man of letters, was a native of Wu-chin, Kiangsu. He became a hsiu-ts'ai at the early age of ten (sui). Some fifteen years later (in 1662) he was debarred from taking further examinations because he failed to pay taxes which had fallen in arrears (see under Yeh Fang-ai).",
+          "source": "eccp-3649386",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "邵長蘅，字子湘，武進人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子湘",
+        "source": "eccp-3649386"
+      }
+    ],
+    "hao": [
+      {
+        "value": "青門山人",
+        "source": "eccp-3649386"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子湘"
+    },
+    "romanizations": [
+      {
+        "value": "Shao Ch'ang-hêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3649386"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1637,
+        "source": "eccp-3649386",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3649386",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649386",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649386",
+      "passage": "eccp-3649386-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-278",
+      "matchStatus": "proposed",
+      "evidence": "邵長蘅，字子湘，武進人。十歲補諸生，因事除名，旋入太學。工詩，尤致力古文辭，陶鍊雅正。與景同客犖幕，長蘅亦觥觥持古義，無所貶損，時論賢之。著有青門稿。"
+    }
+  ],
+  "sources": {
+    "eccp-3649386": {
+      "title": "ECCP · Shao Ch'ang-hêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318167",
+      "locator": "eccp-3649386-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633255": {
+      "title": "ECCP · 張琦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271553",
+      "locator": "eccp-3633255-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656327": {
+      "title": "ECCP · 宋犖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365077",
+      "locator": "eccp-3656327-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-278",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

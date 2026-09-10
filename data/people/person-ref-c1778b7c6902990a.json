@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c1778b7c6902990a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "中藻",
+    "source": "eccp-3649167",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hu Chung-tsao 胡中藻 (T. 翰千, H. 堅山, d. 1755). Hsü was a native of Hangchow and a son of Hsü Ch'ao 徐潮 (T. 雪崖, H. 浩軒, 青來, 1647–1715, posthumous name 文敬), one-time president of the Board of Civil Office (1708–10).",
+          "source": "eccp-3649167",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "翰千",
+        "source": "eccp-3649167"
+      }
+    ],
+    "hao": [
+      {
+        "value": "堅山",
+        "source": "eccp-3649167"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "翰千"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Chung-tsao",
+        "system": "ECCP spelling",
+        "source": "eccp-3649167"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

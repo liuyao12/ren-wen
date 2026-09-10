@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654394",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "奇逢",
+    "source": "eccp-3654394",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SUN Ch'i-fêng 孫奇逢 (T. 啓泰, H. 鍾元, 夏峯), Jan. 14, 1585–1675, May 15, scholar, was a native of Jung-ch'êng, Chihli. He became a chü-jên in 1600 at the early age of seventeen (sui), but was unsuccessful in the examinations for a higher degree.",
+          "source": "eccp-3654394",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孫奇逢，字啟泰，又字鍾元，容城人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "啓泰",
+        "source": "eccp-3654394"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鍾元",
+        "source": "eccp-3654394"
+      },
+      {
+        "value": "夏峯",
+        "source": "eccp-3654394"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "啓泰"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Ch'i-fêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3654394"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1585,
+        "source": "eccp-3654394",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1675,
+        "source": "eccp-3654394",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654394",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654394",
+      "passage": "eccp-3654394-001"
+    },
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-006",
+      "matchStatus": "proposed",
+      "evidence": "孫奇逢，字啟泰，又字鍾元，容城人。少倜儻，好奇節，而內行篤修。負經世之學，欲以功業自著。年十七，舉明萬曆二十八年順天鄉試。連丁父母憂，廬墓六年，旌表孝行。與定興鹿善繼講學，一室默對，以聖賢相期。"
+    }
+  ],
+  "sources": {
+    "eccp-3654394": {
+      "title": "ECCP · Sun Ch'i-fêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358505",
+      "locator": "eccp-3654394-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633281": {
+      "title": "ECCP · 張履祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271616",
+      "locator": "eccp-3633281-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633265": {
+      "title": "ECCP · 張爾岐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271680",
+      "locator": "eccp-3633265-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633509": {
+      "title": "ECCP · 趙士麟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271697",
+      "locator": "eccp-3633509-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637602": {
+      "title": "ECCP · 費密",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275797",
+      "locator": "eccp-3637602-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649349": {
+      "title": "ECCP · 彭定求",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318104",
+      "locator": "eccp-3649349-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649403": {
+      "title": "ECCP · 申涵光",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318195",
+      "locator": "eccp-3649403-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654393": {
+      "title": "ECCP · 孫承宗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358503",
+      "locator": "eccp-3654393-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656357": {
+      "title": "ECCP · 湯斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365125",
+      "locator": "eccp-3656357-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658537": {
+      "title": "ECCP · 杜越",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370075",
+      "locator": "eccp-3658537-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

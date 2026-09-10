@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635483",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "金台石",
+    "source": "eccp-3635483",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Chin-t'ai-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3635483"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635483",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3635483",
+      "passage": "eccp-3635483-001"
+    },
+    {
+      "source": "eccp-3639217",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639217",
+      "passage": "eccp-3639217-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635483": {
+      "title": "ECCP · Chin-t'ai-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271740",
+      "locator": "eccp-3635483-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639217": {
+      "title": "ECCP · Gintaisi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280221",
+      "locator": "eccp-3639217-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639182": {
+      "title": "ECCP · 費英東",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280166",
+      "locator": "eccp-3639182-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649114": {
+      "title": "ECCP · 明珠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317674",
+      "locator": "eccp-3649114-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649141": {
+      "title": "ECCP · 納林布祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317715",
+      "locator": "eccp-3649141-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649165": {
+      "title": "ECCP · 努爾哈赤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317770",
+      "locator": "eccp-3649165-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

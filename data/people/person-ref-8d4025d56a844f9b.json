@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8d4025d56a844f9b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "天保",
+    "source": "eccp-3678168",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "九如",
+        "source": "eccp-3678168"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鶴田",
+        "source": "eccp-3678168"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "九如"
+    },
+    "romanizations": [
+      {
+        "value": "Chu T'ien-pao",
+        "system": "ECCP spelling",
+        "source": "eccp-3678168"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3678168": {
+      "title": "ECCP · 胤礽",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443032",
+      "locator": "eccp-3678168-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

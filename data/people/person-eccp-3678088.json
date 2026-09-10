@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678088",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "廷筠",
+    "source": "eccp-3678088",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG T'ing-yün 楊廷筠 (T. 仲堅, H. 淇園, 鄭圃居士, 泌園居士), 1557–1627, official and scholar, was a native of Jên-ho (Hangchow). His grandfather, Yang Chou 楊周, obtained the chin-shih degree in 1541.",
+          "source": "eccp-3678088",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲堅",
+        "source": "eccp-3678088"
+      }
+    ],
+    "hao": [
+      {
+        "value": "淇園",
+        "source": "eccp-3678088"
+      },
+      {
+        "value": "鄭圃居士",
+        "source": "eccp-3678088"
+      },
+      {
+        "value": "泌園居士",
+        "source": "eccp-3678088"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲堅"
+    },
+    "romanizations": [
+      {
+        "value": "Yang T'ing-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3678088"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1557,
+        "source": "eccp-3678088",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1627,
+        "source": "eccp-3678088",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678088",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678088",
+      "passage": "eccp-3678088-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678088": {
+      "title": "ECCP · Yang T'ing-yün",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442510",
+      "locator": "eccp-3678088-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642456": {
+      "title": "ECCP · 李之藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290594",
+      "locator": "eccp-3642456-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

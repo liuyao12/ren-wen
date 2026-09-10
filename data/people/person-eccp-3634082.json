@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634082",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "子龍",
+    "source": "eccp-3634082",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Tzŭ-lung 陳子龍 (T. 卧子, 懋中, H. 軼符, after 1645 大撙; monastic name 信衷, T. 瓢栗 H. 潁川明逸), July 12, 1605–1647, June 15, Ming author and patriot, was a native of Hua-t'ing (present Sung-chiang), Kiangsu.",
+          "source": "eccp-3634082",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "卧子",
+        "source": "eccp-3634082"
+      },
+      {
+        "value": "懋中",
+        "source": "eccp-3634082"
+      }
+    ],
+    "hao": [
+      {
+        "value": "軼符",
+        "source": "eccp-3634082"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "卧子"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Tzŭ-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3634082"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1605,
+        "source": "eccp-3634082",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1647,
+        "source": "eccp-3634082",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634082",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634082",
+      "passage": "eccp-3634082-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634082": {
+      "title": "ECCP · Ch'ên Tzŭ-lung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271499",
+      "locator": "eccp-3634082-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637572": {
+      "title": "ECCP · 多爾袞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275757",
+      "locator": "eccp-3637572-014",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639245": {
+      "title": "ECCP · 賀長齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280262",
+      "locator": "eccp-3639245-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645520": {
+      "title": "ECCP · 柳是",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299491",
+      "locator": "eccp-3645520-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656329": {
+      "title": "ECCP · 宋應星",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365080",
+      "locator": "eccp-3656329-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-045",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

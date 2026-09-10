@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634092",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "元贇",
+    "source": "eccp-3634092",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊN Yüan-pin 陳元贇 (T. 義都, H. 既白山人, 菊秀軒, 升庵, 芝山) 1587–1671, was a native of Hangchow, Chekiang. In the spring of 1621 he accompanied Shan Fêng-hsiang 單鳳翔, an official of Chekiang, on a journey to Japan to lodge a protest against piratical activities along the China coast.",
+          "source": "eccp-3634092",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "義都",
+        "source": "eccp-3634092"
+      }
+    ],
+    "hao": [
+      {
+        "value": "既白山人",
+        "source": "eccp-3634092"
+      },
+      {
+        "value": "菊秀軒",
+        "source": "eccp-3634092"
+      },
+      {
+        "value": "升庵",
+        "source": "eccp-3634092"
+      },
+      {
+        "value": "芝山",
+        "source": "eccp-3634092"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "義都"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Yüan-pin",
+        "system": "ECCP spelling",
+        "source": "eccp-3634092"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1587,
+        "source": "eccp-3634092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1671,
+        "source": "eccp-3634092",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634092",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634092",
+      "passage": "eccp-3634092-001"
+    }
+  ],
+  "sources": {
+    "eccp-3634092": {
+      "title": "ECCP · Ch'ên Yüan-pin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=13306545",
+      "locator": "eccp-3634092-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

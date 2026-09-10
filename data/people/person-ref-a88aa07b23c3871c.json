@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a88aa07b23c3871c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "松年",
+    "source": "eccp-3642447",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "瑞安",
+      "source": "qsg-volume-350",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "許松年，字蓉俊，浙江瑞安人。",
+          "source": "qsg-volume-350",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蓉巂",
+        "source": "eccp-3642447"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蓉巂"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Sung-nien",
+        "system": "ECCP spelling",
+        "source": "eccp-3642447"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1767,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3642447",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-350",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-350",
+      "passage": "qsg-volume-350-020",
+      "matchStatus": "proposed",
+      "evidence": "許松年，字蓉俊，浙江瑞安人。以武舉效力水師，從李長庚積功至提標參將。嘉慶十年，護理金門鎮總兵。擊蔡牽於小琉球；又擊硃濆、烏石二於宮仔洋，從李長庚追敗之於閩、粵交界甲子洋。又迭擊牽於青龍港、斗米洋。十一年，偕王得祿敗牽於台灣洲仔尾，跐海水而登，焚溺無算。是年夏，李長庚攻牽於鹿耳門，松年扼張坑、返埕洋面，獲賊船一，沉船三，又於水澳擒蔡三來等。李長庚論水師將材，舉松年可獨當一面，總督阿林保以疏聞。十二年，從長庚擊蔡牽於大星嶼、浮鷹洋，松年躍入賊船獲之，被優敘。十三年，硃濆潛匿東涌外洋，命松年躡剿，遂移"
+    }
+  ],
+  "sources": {
+    "eccp-3642447": {
+      "title": "ECCP · 李長庚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290578",
+      "locator": "eccp-3642447-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-350": {
+      "title": "清史稿/卷350",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079385",
+      "locator": "qsg-volume-350-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

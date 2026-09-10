@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649378",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "薩布素",
+    "source": "eccp-3649378",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SABSU, 薩布素 d. ca. 1700, general, was a member of the Fuca clan and belonged to the Manchu Bordered Yellow Banner. In the days of his grandfather his family joined the forces of Nurhaci [q. v.] and settled in Ula 烏拉 (Kirin City).",
+          "source": "eccp-3649374",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "薩布素，富察氏，滿洲鑲黃旗人。",
+          "source": "qsg-volume-280",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Sa-pu-su",
+        "system": "ECCP spelling",
+        "source": "eccp-3649378"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649378",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649378",
+      "passage": "eccp-3649378-001"
+    },
+    {
+      "source": "eccp-3649374",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649374",
+      "passage": "eccp-3649374-001"
+    },
+    {
+      "source": "qsg-volume-280",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-280",
+      "passage": "qsg-volume-280-014",
+      "matchStatus": "proposed",
+      "evidence": "薩布素，富察氏，滿洲鑲黃旗人。四世祖充順巴本，以勇力聞，世為岳克通鄂城長。太祖時，其後人哈木都率所部來歸，屯吉林，遂家焉。薩布素自領催授驍騎校，遷協領。康熙十六年，聖祖遣內大臣覺羅武默訥等瞻禮長白山，至吉林，欲得識路者導引。寧古塔將軍巴海令薩布素率兵二百，攜三月糧以從。水陸行，至長白山麓，成禮而還，事具武默訥傳。"
+    }
+  ],
+  "sources": {
+    "eccp-3649378": {
+      "title": "ECCP · Sa-pu-su",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318152",
+      "locator": "eccp-3649378-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · Sabsu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639183": {
+      "title": "ECCP · 費揚古",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280168",
+      "locator": "eccp-3639183-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639214": {
+      "title": "ECCP · 噶爾丹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280218",
+      "locator": "eccp-3639214-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639216": {
+      "title": "ECCP · 根特木",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280220",
+      "locator": "eccp-3639216-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642443": {
+      "title": "ECCP · 郎坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290568",
+      "locator": "eccp-3642443-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646151": {
+      "title": "ECCP · 馬齊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300570",
+      "locator": "eccp-3646151-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649352": {
+      "title": "ECCP · 朋春",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318111",
+      "locator": "eccp-3649352-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654379": {
+      "title": "ECCP · 性德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358459",
+      "locator": "eccp-3654379-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · 圖理琛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674930": {
+      "title": "ECCP · 瓦三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419145",
+      "locator": "eccp-3674930-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649380": {
+      "title": "ECCP · 沙爾虎達",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318154",
+      "locator": "eccp-3649380-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

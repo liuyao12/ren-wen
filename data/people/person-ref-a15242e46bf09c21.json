@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a15242e46bf09c21",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嚴",
+    "given": "復",
+    "source": "eccp-3649405",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "嚴復，初名宗光，字又陵，一字幾道，侯官人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "又陵",
+        "source": "eccp-3649405"
+      },
+      {
+        "value": "幾道",
+        "source": "eccp-3649405"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "又陵"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649405"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1853,
+        "source": "eccp-3649405",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1921,
+        "source": "eccp-3649405",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-238",
+      "matchStatus": "proposed",
+      "evidence": "嚴復，初名宗光，字又陵，一字幾道，侯官人。早慧，嗜為文。閩督沈葆楨初創船政，招試英俊，儲海軍將才，得復文，奇之，用冠其曹，則年十四也。既卒業，從軍艦練習，周歷南洋、黃海。日本窺臺灣，葆楨奉命籌防，挈之東渡詗敵，勘測各海口。光緒二年，派赴英國海軍學校肄戰術及砲台建築諸學，每試輒最。侍郎郭嵩燾使英，賞其才，時引與論析中西學術同異。學成歸，北洋大臣李鴻章方大治海軍，以復總學堂。二十四年，詔求人才，復被薦，召對稱旨。諭繕所擬萬言書以進，未及用，而政局猝變。越二年，避拳亂南歸。"
+    }
+  ],
+  "sources": {
+    "eccp-3649405": {
+      "title": "ECCP · 沈葆楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11405829",
+      "locator": "eccp-3649405-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-238",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

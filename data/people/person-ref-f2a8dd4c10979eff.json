@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f2a8dd4c10979eff",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "振定",
+    "source": "eccp-3635456",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "湘鄉",
+      "source": "qsg-volume-322",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "謝振定，字一齋，一字薌泉，湖南湘鄉人。",
+          "source": "qsg-volume-322",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "湖南長沙府湘鄉縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "一齋",
+        "source": "eccp-3635456"
+      }
+    ],
+    "hao": [
+      {
+        "value": "薌泉",
+        "source": "eccp-3635456"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "一齋"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Chên-ting",
+        "system": "ECCP spelling",
+        "source": "eccp-3635456"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1753,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1809,
+        "source": "eccp-3635456",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-322",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-322",
+      "passage": "qsg-volume-322-021",
+      "matchStatus": "proposed",
+      "evidence": "謝振定，字一齋，一字薌泉，湖南湘鄉人。乾隆四十五年進士，改庶吉士，散館授編修。五十九年，考選江南道監察御史。巡視南漕，漕艘阻瓜洲，振定禱於神，風轉順漕艘，人稱「謝公風」。六十年，遷兵科給事中。巡視東城，有乘違制車騁於衢者，執而訊之，則和珅妾弟也，語不遜，振定命痛笞之，遂焚其車。曰：「此車豈堪宰相坐耶？」居數日，給事中王鍾健希和珅意，假他事劾振定，奪職。和珅敗，嘉慶五年，起授禮部主事。遷員外郎，充坐糧廳，監收漕糧，裁革陋規，兌運肅然。十四年，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3635456": {
+      "title": "ECCP · 錢灃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271408",
+      "locator": "eccp-3635456-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "長沙府下湘鄉"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -18,7 +18,16 @@
         "source": "eccp-entry"
       }
     ],
-    "hao": [],
+    "hao": [
+      {
+        "value": "繩齋",
+        "source": "eccp-3633288"
+      },
+      {
+        "value": "蕢齋",
+        "source": "eccp-3633288"
+      }
+    ],
     "parenthetical": {
       "kind": "zi",
       "value": "幼樵"
@@ -30,7 +39,33 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG P'ei-lun 張佩綸 (T. 幼樵, H. 繩齋,蕢齋), 1848–1903, Feb. 4, official, was a native of Fêng-jun, Chihli, but was brought up in Anhwei and Chekiang where his father, Chang Yin-t'ang 張印塘 (T. 雨樵, 1798–1854) held office.",
+          "source": "eccp-3633288",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張佩綸，字幼樵，直隸豐潤人。",
+          "source": "qsg-volume-444",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "直隸豐潤",
+          "source": "eccp-entry",
+          "kind": "previous-record"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "豐潤",
+      "source": "eccp-entry"
+    }
   },
   "life": {
     "birth": null,
@@ -68,6 +103,125 @@
       "locator": "Opening paragraph; recorded revision 11293088",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · Chang P'ei-lun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633258": {
+      "title": "ECCP · 張之洞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271567",
+      "locator": "eccp-3633258-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640022": {
+      "title": "ECCP · 黃體芳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282942",
+      "locator": "eccp-3640022-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643630": {
+      "title": "ECCP · 李鴻藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294851",
+      "locator": "eccp-3643630-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649326": {
+      "title": "ECCP · 寶廷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318061",
+      "locator": "eccp-3649326-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-013",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656421": {
+      "title": "ECCP · 曾國荃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365227",
+      "locator": "eccp-3656421-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675202": {
+      "title": "ECCP · 吳可讀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419965",
+      "locator": "eccp-3675202-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-138",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-437": {
+      "title": "清史稿/卷437",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2592002",
+      "locator": "qsg-volume-437-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-441": {
+      "title": "清史稿/卷441",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611534",
+      "locator": "qsg-volume-441-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-458": {
+      "title": "清史稿/卷458",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433596",
+      "locator": "qsg-volume-458-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -86,6 +240,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Chang_P%27ei-lun",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3633288",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633288",
+      "passage": "eccp-3633288-001"
+    },
+    {
+      "source": "qsg-volume-444",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-444",
+      "passage": "qsg-volume-444-022",
+      "matchStatus": "proposed",
+      "evidence": "張佩綸，字幼樵，直隸豐潤人。父印塘，官安徽按察使，卒於軍。佩綸，成同治十年進士，以編脩大考擢侍講，充日講起居注官。時外侮亟，累疏陳經國大政，請敕新疆、東三省、台灣嚴戒備，杜日、俄窺伺。晉、豫飢，畿輔旱，乃引祖宗成訓，請上下交儆，條四目以進：曰誠祈，曰集議，曰恤民，曰省刑。恭親王奕訢遭讒構，復請責王竭誠負重，上嘉納之。通政使黃體芳繼陳災狀，語稍激，絓吏議，佩綸力爭，被宥。尋丁憂，服竟，起故官。時琉球已亡，法圖越南亟，佩綸曰：「亡琉球則朝鮮可危，棄越南則緬甸必失。」因請建置南北海防，設水師四大鎮；又"
     }
   ],
   "notes": [],

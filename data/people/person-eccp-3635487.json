@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635487",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "秦",
+    "given": "蕙田",
+    "source": "eccp-3635487",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'IN Hui-t'ien 秦蕙田 (T. 樹峯, H. 味經), Dec. 7, 1702–1764, Oct. 4, official, and scholar, was a native of Chin-k'uei (Wu-hsi), Kiangsu, a descendant in the twenty-sixth generation of the noted Sung poet, Ch'in Kuan 秦觀 (T. 少游, 1049–1100).",
+          "source": "eccp-3635487",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "秦蕙田，字樹峰，江南金匱人。",
+          "source": "qsg-volume-304",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "樹峯",
+        "source": "eccp-3635487"
+      }
+    ],
+    "hao": [
+      {
+        "value": "味經",
+        "source": "eccp-3635487"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "樹峯"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'in Hui-t'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3635487"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1764,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635487",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635487",
+      "passage": "eccp-3635487-001"
+    },
+    {
+      "source": "qsg-volume-304",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-304",
+      "passage": "qsg-volume-304-032",
+      "matchStatus": "proposed",
+      "evidence": "秦蕙田，字樹峰，江南金匱人。祖松齡，順治十二年進士，官左春坊左諭德。本生父道然，康熙四十八年進士，官禮部給事中，與貝子允禟善，為其府總管。允禟得罪，逮下獄，蕙田往來省視。世宗貸道然死，而獄未解。乾隆元年一甲三名進士，授編修，南書房行走。乃上疏言：「臣本生父道然身罹重罪，蒙恩曲宥；以追銀未完，繫獄九年，年已八十，衰朽不堪。本年五六月間，浸染暑濕，瘧癘時作，奄奄一息，幾至瘐斃。情關骨肉，痛楚難忍。臣雖備官禁近，還顧臣父，老病拘幽，既無完解之期，更無生存之望，方寸昏迷，不能自主。誠不忍昧心竊祿，內慚名"
+    }
+  ],
+  "sources": {
+    "eccp-3635487": {
+      "title": "ECCP · Ch'in Hui-t'ien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271419",
+      "locator": "eccp-3635487-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635432": {
+      "title": "ECCP · 齊召南",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271393",
+      "locator": "eccp-3635432-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633262": {
+      "title": "ECCP · 張金吾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271589",
+      "locator": "eccp-3633262-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643650": {
+      "title": "ECCP · 李天馥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294889",
+      "locator": "eccp-3643650-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672716": {
+      "title": "ECCP · 王昶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412263",
+      "locator": "eccp-3672716-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-405": {
+      "title": "清史稿/卷405",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1530736",
+      "locator": "qsg-volume-405-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-132",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

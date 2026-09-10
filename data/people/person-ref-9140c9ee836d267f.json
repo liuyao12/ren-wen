@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9140c9ee836d267f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "殷",
+    "given": "化行",
+    "source": "eccp-3656319",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "咸陽",
+      "source": "qsg-volume-281",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "殷化行，字熙如，陝西咸陽人。",
+          "source": "qsg-volume-281",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "熙如",
+        "source": "eccp-3656319"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "熙如"
+    },
+    "romanizations": [
+      {
+        "value": "Yin Hua-hsing",
+        "system": "ECCP spelling",
+        "source": "eccp-3656319"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-281",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-281",
+      "passage": "qsg-volume-281-047",
+      "matchStatus": "proposed",
+      "evidence": "殷化行，字熙如，陝西咸陽人。初以王姓成康熙九年武進士。十三年，從經略莫洛討吳三桂，授守備。會王輔臣叛，莫洛遇害，化行被脅羈秦州，稱病不為賊用。逾年，自拔歸，總督哈佔奏復原職，補火器營守備。從振武將軍佛尼勒戰牛頭山，攻克上、下嶺。三桂將王屏籓據漢中，以二萬人犯寶雞。大將軍圖海檄化行赴援，破敵，解西山堡圍。復自大泥峪取兩河關，復興安州城。十九年，佛尼勒援永寧，化行為前鋒，敗敵托川，擊走三桂將胡國柱於安寧橋。調援敘州，與西寧總兵李芳述守城，賊分三路來攻，擊卻之。圖海、哈佔合疏陳化行奮戰狀，特擢漢中城守"
+    }
+  ],
+  "sources": {
+    "eccp-3656319": {
+      "title": "ECCP · 孫思克",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365062",
+      "locator": "eccp-3656319-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

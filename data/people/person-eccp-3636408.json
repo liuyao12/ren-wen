@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636408",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "之錫",
+    "source": "eccp-3636408",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Chih-hsi 朱之錫 (T. 孟九, H. 梅麓), Jan. 26, 1624–1666, river conservancy official, was a native of I-wu, Chekiang. Becoming a chin-shih in 1646, he was soon after made a second class Hanlin compiler.",
+          "source": "eccp-3636408",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孟九",
+        "source": "eccp-3636408"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梅麓",
+        "source": "eccp-3636408"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孟九"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Chih-hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3636408"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1624,
+        "source": "eccp-3636408",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1666,
+        "source": "eccp-3636408",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636408",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636408",
+      "passage": "eccp-3636408-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636408": {
+      "title": "ECCP · Chu Chih-hsi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272530",
+      "locator": "eccp-3636408-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

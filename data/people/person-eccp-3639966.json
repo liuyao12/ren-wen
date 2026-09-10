@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639966",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "釚",
+    "source": "eccp-3639966",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSÜ Ch'iu 徐釚 (T. 電發, H. 虹亭, 拙存, 楓江漁父), 1636–1708, poet, landscape painter and man of letters, was a native of Wu-chiang, Kiangsu. In 1679 he was summoned to Peking to take the special examination known as po-hsüeh hung-tz'ŭ (see under P'êng Sun-yü).",
+          "source": "eccp-3639966",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "徐釚，字電發，吳江人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "電發",
+        "source": "eccp-3639966"
+      }
+    ],
+    "hao": [
+      {
+        "value": "虹亭",
+        "source": "eccp-3639966"
+      },
+      {
+        "value": "拙存",
+        "source": "eccp-3639966"
+      },
+      {
+        "value": "楓江漁父",
+        "source": "eccp-3639966"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "電發"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Ch'iu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639966"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1636,
+        "source": "eccp-3639966",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1708,
+        "source": "eccp-3639966",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639966",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639966",
+      "passage": "eccp-3639966-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-177",
+      "matchStatus": "proposed",
+      "evidence": "徐釚，字電發，吳江人。應鴻博，授檢討。會當外轉，遽乞歸。後起原官，不就。卒，年七十三。著南州草堂集、本事詩。又嘗刻菊莊樂府。崑山葉方靄稱其綿麗幽深，耐人尋繹。朝鮮貢使以兼金購之。釚既工倚聲，因輯詞苑叢談，具有裁鑑。"
+    }
+  ],
+  "sources": {
+    "eccp-3639966": {
+      "title": "ECCP · Hsü Ch'iu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282792",
+      "locator": "eccp-3639966-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-177",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

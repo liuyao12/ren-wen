@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2a8a045772fafac1",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "懋竑",
+    "source": "eccp-3678151",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王懋竑，字子中，寶應人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "與",
+        "source": "eccp-3678151"
+      }
+    ],
+    "hao": [
+      {
+        "value": "白田",
+        "source": "eccp-3678151"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "與"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Mou-hung",
+        "system": "ECCP spelling",
+        "source": "eccp-3678151"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1668,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1741,
+        "source": "eccp-3678151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-206",
+      "matchStatus": "proposed",
+      "evidence": "王懋竑，字子中，寶應人。少從叔父式丹學，刻勵篤志，精研朱子之學，身體力行。康熙五十七年成進士，年已五十一。乞就教職，補安慶府學教授。雍正元年，以薦被召引見，授翰林院編修，在上書房行走。二年，以母憂去官，特賜內府白金為喪葬費。懋竑素善病，居喪毀瘠，服闋就職。旋以老病乞歸，越十六年卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-206",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

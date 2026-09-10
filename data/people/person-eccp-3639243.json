@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639243",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "和素",
+    "source": "eccp-3639243",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HESU 和素 (T. 存齋, 純德), 1652–1718, Manchu official and translator, was a member of the Wanyen clan and of the Bordered Yellow Banner. He was the second son of Asitan [q. v.] and was well versed in Manchu and Chinese.",
+          "source": "eccp-3639243",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "存齋",
+        "source": "eccp-3639243"
+      },
+      {
+        "value": "純德",
+        "source": "eccp-3639243"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "存齋"
+    },
+    "romanizations": [
+      {
+        "value": "Hesu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639243"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3639243",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1718,
+        "source": "eccp-3639243",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639243",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639243",
+      "passage": "eccp-3639243-001"
+    },
+    {
+      "source": "eccp-3639254",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3639254",
+      "passage": "eccp-3639254-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639243": {
+      "title": "ECCP · Hesu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280258",
+      "locator": "eccp-3639243-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639254": {
+      "title": "ECCP · Ho-su",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280279",
+      "locator": "eccp-3639254-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633237": {
+      "title": "ECCP · 阿什坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271375",
+      "locator": "eccp-3633237-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645484": {
+      "title": "ECCP · 麟慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299415",
+      "locator": "eccp-3645484-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

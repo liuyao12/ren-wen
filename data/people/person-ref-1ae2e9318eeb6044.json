@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1ae2e9318eeb6044",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "龔",
+    "given": "景瀚",
+    "source": "eccp-3642446",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "閩縣",
+      "source": "qsg-volume-478",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "龔景瀚，字海峰，福建閩縣人。",
+          "source": "qsg-volume-478",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "惟廣",
+        "source": "eccp-3642446"
+      }
+    ],
+    "hao": [
+      {
+        "value": "海峯",
+        "source": "eccp-3642446"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "惟廣"
+    },
+    "romanizations": [
+      {
+        "value": "Kung Ching-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3642446"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1747,
+        "source": "eccp-3642446",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1803,
+        "source": "eccp-3642446",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-478",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-478",
+      "passage": "qsg-volume-478-012",
+      "matchStatus": "proposed",
+      "evidence": "龔景瀚，字海峰，福建閩縣人。先世累葉為名宦。曾祖其裕，康熙初，以諸生從軍，授江西瑞州府通判。滇、閩變起，率鄉勇為大軍鄉導，擢吉安知府。時府城為逆將所據，大軍駐螺子山，其裕供餉無乏。城复，撫瘡痍，多惠政。後官河南懷慶知府，濬順利渠，引濟水入城便民，終於兩淮鹽運使。歿祀瑞州、吉安、懷慶名宦祠。祖嶸，初仕浙江餘杭知縣，治縣民殺僕疑獄，為時所稱。擢直隸趙州直隸州知州，濬河興水利。再擢江蘇松江知府，渡海賑崇明災黎，全活甚眾。官至江西廣饒九南道，單騎定萬年縣匪亂，歿祀饒州名宦祠。父一發，乾隆十五年舉人，官河"
+    }
+  ],
+  "sources": {
+    "eccp-3642446": {
+      "title": "ECCP · 勒保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11291104",
+      "locator": "eccp-3642446-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

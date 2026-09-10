@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5a3eb4cc9f116936",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "聖憲皇后",
+    "source": "eccp-3640793",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Empress Hsiao-shêng 孝聖憲皇后, (Jan. 1, 1693–1777), was a great-granddaughter of Eidu [q. v.] of the Niuhuru clan. As a child Hung-li is said to have won the good will of his grandfather, Emperor Shêng-tsu (see under Hsüan-yeh), who appointed the eminent scholar, Fumin 福敏 (T. 龍翰, posthumous name 文端, 1673–1756), as his tutor in language and literature.",
+          "source": "eccp-3640793",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Empress Hsiao-shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3640793"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1693,
+        "source": "eccp-3640793",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1777,
+        "source": "eccp-3640793",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-147",
+      "matchStatus": "proposed",
+      "evidence": "孝聖憲皇后，鈕祜祿氏，四品典儀凌柱女。后年十三，事世宗潛邸，號格格。康熙五十年八月庚午，高宗生。雍正中，封熹妃，進熹貴妃。高宗即位，以世宗遺命，尊為皇太后，居慈寧宮。高宗事太后孝，以天下養，惟亦兢兢守家法，重國體。太后偶言順天府東有廢寺當重修，上從之。即召宮監，諭：「汝等嘗侍聖祖，幾曾見昭聖太后當日令聖祖修蓋廟宇？嗣後當奏止！」宮監引悟真庵尼入內，導太后弟入蒼震門謝恩，上屢誡之。上每出巡幸，輒奉太后以行，南巡者三，東巡者三，幸五台山者三，幸中州者一。謁孝陵，獮木蘭，歲必至焉。遇萬壽，率王大臣奉觴"
+    }
+  ],
+  "sources": {
+    "eccp-3640793": {
+      "title": "ECCP · 弘歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285336",
+      "locator": "eccp-3640793-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-147",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

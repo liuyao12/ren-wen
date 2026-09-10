@@ -1,3 +1,4 @@
+import {fetchData} from './data-cache.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h,safeURL} from './core.js';
 import {loadProfiles,canonicalName} from './profiles.js';
@@ -8,7 +9,7 @@ const external=(url,label)=>safeURL(url)?`<a href="${h(safeURL(url))}" target="_
 
 (async()=>{
   try{
-    const [works,people,response]=await Promise.all([loadWorks(),loadProfiles(),fetch('data/catalog.json')]);
+    const [works,people,response]=await Promise.all([loadWorks(),loadProfiles(),fetchData('data/catalog.json')]);
     if(!response.ok)throw Error('Catalogue unavailable.');
     const catalog=await response.json(),byWork=new Map(works.map(w=>[w.id,w])),byPerson=new Map(people.map(p=>[p.id,p]));
     const select=$('work-select'),search=$('work-search');
@@ -19,11 +20,15 @@ const external=(url,label)=>safeURL(url)?`<a href="${h(safeURL(url))}" target="_
       const current=decodeURIComponent(location.hash.slice(1));if(matching.some(w=>w.id===current))select.value=current;
       bindText($('work-count'), '{count} / {total} works', {count:matching.length,total:works.length});
     }
-    function route(){
+    let routeSequence=0;
+    async function route(){
+      const sequence=++routeSequence;
       let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{id='invalid';}
       if(!id && works.length){id=works[0].id;history.replaceState(null,'',`#${id}`);}
-      const w=byWork.get(id);select.value=id;
+      let w=byWork.get(id);select.value=id;
       if(!w){$('work').innerHTML=`<h1>${ui("Work not found")}</h1><p role="alert">${ui("Select a work above.")}</p>`;return;}
+      if(w.summaryOnly){const r=await fetchData(`data/works/${w.id}.json`);if(!r.ok)throw Error('Work record unavailable.');const full=await r.json();if(full.id!==w.id)throw Error('Mismatched work record.');w=full;}
+      if(sequence!==routeSequence)return;
       const ms=occurrences(catalog,id);
       const related=[['translationOf','Translation of'],['commentsOn','Commentary on'],['possibleSameAs','Possible title correspondence; unresolved']].filter(([key])=>w[key]).map(([key,label])=>`<p><strong>${ui(label)}:</strong> <a href="${h(workURL(w[key]))}">${h(byWork.get(w[key])?.title || w[key])}</a></p>`).join('');
       $('work').innerHTML=`<div class="eyebrow">${ui("WORK PROFILE · 文")} · ${ui(w.reviewStatus)}</div><h1>${h(w.title)}</h1><p class="work-subtitle">${ui(w.kind || 'work')}</p><p class="coverage">${ui("A distinct work record, not a person or a particular physical copy. Source-reported details remain open to review.")}</p>
@@ -35,6 +40,6 @@ const external=(url,label)=>safeURL(url)?`<a href="${h(safeURL(url))}" target="_
         <p class="note"><a href="data/works/${h(w.id)}.json">${ui("Work JSON")}</a> · <code>${h(w.id)}</code></p>`;
       document.title=`${w.title} · 文 · Ren-Wen`;
     }
-    search.oninput=options;select.onchange=()=>{location.hash=select.value;};window.addEventListener('hashchange',route);options();route();
+    search.oninput=options;select.onchange=()=>{location.hash=select.value;};window.addEventListener('hashchange',()=>route().catch(error=>{$('work').textContent=error.message;}));options();await route();
   }catch(error){$('work').innerHTML=`<h1>${ui("Work records could not be loaded")}</h1><p role="alert">${h(error.message)}</p>`;}
 })();

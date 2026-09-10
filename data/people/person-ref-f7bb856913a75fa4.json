@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f7bb856913a75fa4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "謝",
+    "given": "啟昆",
+    "source": "eccp-3639975",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "南康",
+      "source": "qsg-volume-359",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "謝啟昆，字蘊山，江西南康人。",
+          "source": "qsg-volume-359",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "謝啟昆，字蘊山，南康人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘊山",
+        "source": "eccp-3639975"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘊山"
+    },
+    "romanizations": [
+      {
+        "value": "Hsieh Ch'i-k'un",
+        "system": "ECCP spelling",
+        "source": "eccp-3639975"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1737,
+        "source": "eccp-3639975",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1802,
+        "source": "eccp-3639975",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-359",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-359",
+      "passage": "qsg-volume-359-016",
+      "matchStatus": "proposed",
+      "evidence": "謝啟昆，字蘊山，江西南康人。乾隆二十六年進士，朝考第一，選庶吉士，授編修。典河南鄉試，分校禮闈，均得士。三十七年，出為江蘇鎮江知府，調揚州。明於吏事，所持堅正，上官異意不為奪。治東台徐述夔詩詞悖逆獄遲緩，褫職戍軍台。尋捐復原官，留江南。父憂，奪情署安徽寧國知府；复遭母憂，服闋，稱病久不出。五十五年，特擢江南河庫道，遷浙江按察使。六十年，遷山西布政使。州縣倉庫積虧八十餘萬，不一歲悉補完。高宗異其才，以浙江財賦地虧尤多，特調任。歷三歲，亦彌補十之五。"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-207",
+      "matchStatus": "proposed",
+      "evidence": "謝啟昆，字蘊山，南康人。乾隆二十五年進士。由編修簡鎮江知府，後至廣西巡撫，卒官。嘗築湘、漓二江之堤，詳見本傳。又修廣西通志，阬元言可為省志法。啟昆以魏書專主東魏，不載西魏四主，北史亦無糾正，乃作西魏書十二篇。"
+    }
+  ],
+  "sources": {
+    "eccp-3639975": {
+      "title": "ECCP · 徐述夔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282822",
+      "locator": "eccp-3639975-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-359": {
+      "title": "清史稿/卷359",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162674",
+      "locator": "qsg-volume-359-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-207",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

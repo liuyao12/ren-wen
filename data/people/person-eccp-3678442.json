@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678442",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "袁",
+    "given": "昶",
+    "source": "eccp-3678442",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜAN Ch'ang 袁昶 (T. 重黎, H. 爽秋, original ming 振蟾, T. 磢秋, 穉符, 穉巖), Sept. 27, 1846–1900, July 28, martyr in the Boxer Uprising of 1900, was a native of T'ung-lu, Chekiang. He came from a well-to-do family and among his ancestors were a.",
+          "source": "eccp-3678442",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "袁昶，字爽秋，桐廬人。",
+          "source": "qsg-volume-466",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "重黎",
+        "source": "eccp-3678442"
+      }
+    ],
+    "hao": [
+      {
+        "value": "爽秋",
+        "source": "eccp-3678442"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "重黎"
+    },
+    "romanizations": [
+      {
+        "value": "Yüan Ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3678442"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1846,
+        "source": "eccp-3678442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1900,
+        "source": "eccp-3678442",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678442",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678442",
+      "passage": "eccp-3678442-001"
+    },
+    {
+      "source": "qsg-volume-466",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-466",
+      "passage": "qsg-volume-466-015",
+      "matchStatus": "proposed",
+      "evidence": "袁昶，字爽秋，桐廬人。從劉熙載讀，博通掌故。光緒二年進士，授戶部主事，充總理各國事務衙門章京。十八年，以員外郎出任徽寧池太廣道。誡僚屬，抑胥吏，多所興革；擴中江書院齋舍，課以實學；建尊經閣，購書數萬卷；汰常關耗費歲萬八千金，悉還諸公；定專條，納新關穀米出口稅，歲羨數十萬；督修蕪湖西南濱江圩隄，自大關亭至魯港，延袤十二里；更穿築新縷隄三百七十丈，自是蓄洩有資，田廬完固，民歌誦之。"
+    }
+  ],
+  "sources": {
+    "eccp-3678442": {
+      "title": "ECCP · Yüan Ch'ang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443741",
+      "locator": "eccp-3678442-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640953": {
+      "title": "ECCP · 榮祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11286022",
+      "locator": "eccp-3640953-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643666": {
+      "title": "ECCP · 李文田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294913",
+      "locator": "eccp-3643666-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649142": {
+      "title": "ECCP · 那彥成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317718",
+      "locator": "eccp-3649142-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656380": {
+      "title": "ECCP · 丁日昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365162",
+      "locator": "eccp-3656380-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-466": {
+      "title": "清史稿/卷466",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433546",
+      "locator": "qsg-volume-466-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-465": {
+      "title": "清史稿/卷465",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1324569",
+      "locator": "qsg-volume-465-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-218",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

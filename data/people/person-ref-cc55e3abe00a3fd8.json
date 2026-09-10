@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cc55e3abe00a3fd8",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "甘",
+    "given": "汝來",
+    "source": "eccp-3643622",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "奉新",
+      "source": "qsg-volume-304",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "甘汝來，字耕道，江西奉新人。",
+          "source": "qsg-volume-304",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "耕道",
+        "source": "eccp-3643622"
+      }
+    ],
+    "hao": [
+      {
+        "value": "遜齋",
+        "source": "eccp-3643622"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "耕道"
+    },
+    "romanizations": [
+      {
+        "value": "Kan Ju-lai",
+        "system": "ECCP spelling",
+        "source": "eccp-3643622"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3643622",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1739,
+        "source": "eccp-3643622",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-304",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-304",
+      "passage": "qsg-volume-304-011",
+      "matchStatus": "proposed",
+      "evidence": "甘汝來，字耕道，江西奉新人。康熙五十二年進士，以教習授知縣，補直隸淶水知縣。淶水旗丁與民雜居，汝來至，請罷雜派，以火耗補之。禁莊田無故增租易佃。旗丁例不得行笞，汝來請以柳梃約束。三等侍衛畢里克調鷹至淶水，居民家，僕捶民幾斃，訴於汝來。畢里克率其僕閧於縣庭，汝來逮畢里克，械其僕於獄。事聞，下刑部議，奪汝來職，畢里克罰俸，聖祖命奪畢里克職，汝來無罪。汝來自是負循吏名。移知新安縣，鑿白楊淀堤，溉田數千頃。又移知雄縣，懲奸吏，復請罷雜派。雍正初，授吏部主事，擢廣西太平府知府，三遷至廣西巡撫。五年，遷都察"
+    }
+  ],
+  "sources": {
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-304": {
+      "title": "清史稿/卷304",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600908",
+      "locator": "qsg-volume-304-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

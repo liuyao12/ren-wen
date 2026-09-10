@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-15e72aeec2e87a52",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "盛",
+    "given": "宣懷",
+    "source": "eccp-3633258",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "武進",
+      "source": "qsg-volume-471",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "盛宣懷，字杏蓀，江蘇武進人。",
+          "source": "qsg-volume-471",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "杏蓀",
+        "source": "eccp-3633258"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "杏蓀"
+    },
+    "romanizations": [
+      {
+        "value": "Shêng Hsüan-huai",
+        "system": "ECCP spelling",
+        "source": "eccp-3633258"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1849,
+        "source": "eccp-3633258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1916,
+        "source": "eccp-3633258",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-471",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-471",
+      "passage": "qsg-volume-471-006",
+      "matchStatus": "proposed",
+      "evidence": "盛宣懷，字杏蓀，江蘇武進人。以諸生納貲爲主事，改官直隸州知州，累至道員。嘗贊置輪船招商局，開採湖北煤鐵礦，李鴻章頗信任之。英商擅築鐵軌，首滬逕寶山訖吳淞，上海道數阻，弗聽。宣懷與英官梅輝立折辯，償銀二十八萬有奇，始歸於我。光緒五年，署天津道。時鴻章督畿輔，方嚮新政，以鐵路、電報事專屬宣懷。宣懷以英、丹所設水陸綫漸侵內地，迺集貲設津滬陸綫，建電報學堂，並援萬國公例與爭，始克嚴定條款。會訂水綫相接合同，於是與輪船招商同爲商辦兩大局。八年，英、法、德、美議立萬國電報公司，增造自滬至香港水綫，壟利權。宣"
+    }
+  ],
+  "sources": {
+    "eccp-3633258": {
+      "title": "ECCP · 張之洞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271567",
+      "locator": "eccp-3633258-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-471": {
+      "title": "清史稿/卷471",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2386761",
+      "locator": "qsg-volume-471-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

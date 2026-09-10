@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c990e66165ea321d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "杜",
+    "given": "濬",
+    "source": "eccp-3646159",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "杜濬，字於皇，號茶村，黃岡人。",
+          "source": "qsg-volume-501",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "于皇",
+        "source": "eccp-3646159"
+      }
+    ],
+    "hao": [
+      {
+        "value": "茶村",
+        "source": "eccp-3646159"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "于皇"
+    },
+    "romanizations": [
+      {
+        "value": "Tu Chün",
+        "system": "ECCP spelling",
+        "source": "eccp-3646159"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3646159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1687,
+        "source": "eccp-3646159",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-501",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-501",
+      "passage": "qsg-volume-501-049",
+      "matchStatus": "proposed",
+      "evidence": "杜濬，字於皇，號茶村，黃岡人。明季為諸生，避亂居金陵。少倜儻，嘗欲著奇節，既不得試，遂刻意為詩，然不欲以詩人自名也。於並世人獨重宣城沈壽民、吳中徐枋，自媿不如。其在金陵，與方仲舒善，仲舒，苞父也。金陵冠蓋輻輳，諸公貴人求詩者踵至，多謝絕。錢謙益嘗造訪，至閉門不與通，惟故舊徒步到門，則偶接焉。門內為竹關，關外設坐，約客至，視鍵閉，則坐而待，不得叩關，雖大府至，亦然。及功令有挑門之役，有司按籍欲優免，濬曰：「是吾所服也！」躬雜廝輿夜巡綽，眾莫能止。嗜茗飲，嘗言吾有絕糧，無絕茶。既有花塚，因拾殘茗聚封"
+    }
+  ],
+  "sources": {
+    "eccp-3646159": {
+      "title": "ECCP · 冒襄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300582",
+      "locator": "eccp-3646159-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -48,7 +48,9 @@ with sync_playwright() as pw:
         reader_before=page.locator('#reader p[id]').all_text_contents()
         assert len(reader_before)==17
         text=page.locator('.text-panel').bounding_box();time=page.locator('.time-panel').bounding_box();mp=page.locator('.map-panel').bounding_box()
-        assert abs(text['width']-time['width'])<=2
+        assert abs(text['width']-2*time['width'])<=3
+        bio=page.locator('.biography-panel').bounding_box()
+        assert abs(bio['x']-time['x'])<=2 and bio['y']+bio['height']<=time['y']+2
         assert abs(time['x']-mp['x'])<=2 and abs(time['width']-mp['width'])<=2
         assert mp['y']>=time['y']+time['height']-2
         assert text['height']>=time['height']+mp['height']-2

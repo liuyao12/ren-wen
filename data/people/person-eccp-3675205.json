@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675205",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "伍",
+    "given": "秉鑑",
+    "source": "eccp-3675205",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Ping-chien (Woo Pingkien) 伍秉鑑 (T. 成之, H. 平湖), 1769–1843, Sept. 4, merchant, known to Westerners as Howqua, was a native of Canton where his ancestors had moved from Ch'uan-chou, Fukien, at the beginning of the Ch'ing period.",
+          "source": "eccp-3675205",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "成之",
+        "source": "eccp-3675205"
+      }
+    ],
+    "hao": [
+      {
+        "value": "平湖",
+        "source": "eccp-3675205"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "成之"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ping-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3675205"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1769,
+        "source": "eccp-3675205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3675205",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675205",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675205",
+      "passage": "eccp-3675205-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675205": {
+      "title": "ECCP · Wu Ping-chien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419971",
+      "locator": "eccp-3675205-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649312": {
+      "title": "ECCP · 潘振承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318029",
+      "locator": "eccp-3649312-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675193": {
+      "title": "ECCP · 伍崇曜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419951",
+      "locator": "eccp-3675193-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

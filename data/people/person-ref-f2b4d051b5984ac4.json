@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f2b4d051b5984ac4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "畢",
+    "given": "際有",
+    "source": "eccp-3649371",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "載績",
+        "source": "eccp-3649371"
+      }
+    ],
+    "hao": [
+      {
+        "value": "存吾",
+        "source": "eccp-3649371"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "載績"
+    },
+    "romanizations": [
+      {
+        "value": "Pi Chi-yu",
+        "system": "ECCP spelling",
+        "source": "eccp-3649371"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1623,
+        "source": "eccp-3649371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1693,
+        "source": "eccp-3649371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649371": {
+      "title": "ECCP · 蒲松齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318140",
+      "locator": "eccp-3649371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

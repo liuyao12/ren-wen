@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642428",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孔",
+    "given": "廣森",
+    "source": "eccp-3642428",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "K'UNG Kuang-sên 孔廣森 (T. 衆仲, 撝約, H. 顨[巽]軒), 1752–1786, scholar, a native of Ch'ü-fu, Shantung, was a descendant of Confucius in the seventieth generation. His grandfather, K'ung Ch'uan-to 孔傳鐸 (T. 振路, d.",
+          "source": "eccp-3642428",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "孔廣森，字眾仲，曲阜人，孔子六十八代孫，襲封衍聖公傳鐸之孫，戶部主事繼汾之子。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "衆仲",
+        "source": "eccp-3642428"
+      },
+      {
+        "value": "撝約",
+        "source": "eccp-3642428"
+      }
+    ],
+    "hao": [
+      {
+        "value": "顨",
+        "source": "eccp-3642428"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "衆仲"
+    },
+    "romanizations": [
+      {
+        "value": "K'ung Kuang-sên",
+        "system": "ECCP spelling",
+        "source": "eccp-3642428"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1752,
+        "source": "eccp-3642428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1786,
+        "source": "eccp-3642428",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642428",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642428",
+      "passage": "eccp-3642428-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-167",
+      "matchStatus": "proposed",
+      "evidence": "孔廣森，字眾仲，曲阜人，孔子六十八代孫，襲封衍聖公傳鐸之孫，戶部主事繼汾之子。乾隆三十六年進士，選翰林院庶吉士，散館授檢討。年少入官，性淡泊，躭著述，不與要人通謁。告養歸，不復出。及居大母與父喪，竟以哀卒，時乾隆五十一年，年三十五。"
+    }
+  ],
+  "sources": {
+    "eccp-3642428": {
+      "title": "ECCP · K'ung Kuang-sên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290536",
+      "locator": "eccp-3642428-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3645489": {
+      "title": "ECCP · 凌廷堪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299423",
+      "locator": "eccp-3645489-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645503": {
+      "title": "ECCP · 劉逢祿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-167",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-101",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-077",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

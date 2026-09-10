@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633291",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "伯行",
+    "source": "eccp-3633291",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "儀封",
+      "source": "qsg-volume-265",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Po-hsing 張伯行 (T. 孝先, H. 敬庵, 恕齋) Jan. 15, 1652-1725, Feb. 28, scholar and official, was a native of I-fêng, Honan. He took his chin-shih in 1685, and was made a secretary of the Grand Secretariat in 1692.",
+          "source": "eccp-3633291",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張伯行，字孝先，河南儀封人。",
+          "source": "qsg-volume-265",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "孝先",
+        "source": "eccp-3633291"
+      }
+    ],
+    "hao": [
+      {
+        "value": "敬庵",
+        "source": "eccp-3633291"
+      },
+      {
+        "value": "恕齋",
+        "source": "eccp-3633291"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "孝先"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Po-hsing",
+        "system": "ECCP spelling",
+        "source": "eccp-3633291"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1652,
+        "source": "eccp-3633291",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1725,
+        "source": "eccp-3633291",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633291",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633291",
+      "passage": "eccp-3633291-001"
+    },
+    {
+      "source": "qsg-volume-265",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-265",
+      "passage": "qsg-volume-265-029",
+      "matchStatus": "proposed",
+      "evidence": "張伯行，字孝先，河南儀封人。康熙二十四年進士，考授內閣中書，改中書科中書。丁父憂歸，建請見書院，講明正學。儀封城北舊有堤，三十八年六月，大雨，潰，伯行募民囊土塞之。河道總督張鵬翮行河，疏薦堪理河務，命以原銜赴河工，督修黃河南岸堤二百餘裡及馬家港、東壩、高家堰諸工。四十二年，授山東濟寧道。值歲饑，即家運錢米，並製棉衣，拯民飢寒。上命分道治賑，伯行賑汶上、陽穀二縣，發倉穀二萬二千六百石有奇。布政使責其專擅，即論劾，伯行曰：「有旨治賑，不得為專擅。上視民如傷，倉穀重乎？人命重乎？」乃得寢。四十五年，上"
+    }
+  ],
+  "sources": {
+    "eccp-3633291": {
+      "title": "ECCP · Chang Po-hsing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271665",
+      "locator": "eccp-3633291-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633290": {
+      "title": "ECCP · 張鵬翮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271663",
+      "locator": "eccp-3633290-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633298": {
+      "title": "ECCP · 張廷樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271940",
+      "locator": "eccp-3633298-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639215": {
+      "title": "ECCP · 噶禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280219",
+      "locator": "eccp-3639215-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642440": {
+      "title": "ECCP · 藍鼎元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290560",
+      "locator": "eccp-3642440-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643632": {
+      "title": "ECCP · 李光地",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294854",
+      "locator": "eccp-3643632-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646130": {
+      "title": "ECCP · 陸隴其",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300530",
+      "locator": "eccp-3646130-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646134": {
+      "title": "ECCP · 陸世儀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300535",
+      "locator": "eccp-3646134-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649415": {
+      "title": "ECCP · 沈彤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318212",
+      "locator": "eccp-3649415-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678191": {
+      "title": "ECCP · 應撝謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443105",
+      "locator": "eccp-3678191-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-278": {
+      "title": "清史稿/卷278",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162667",
+      "locator": "qsg-volume-278-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-279": {
+      "title": "清史稿/卷279",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485011",
+      "locator": "qsg-volume-279-057",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-059",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-300": {
+      "title": "清史稿/卷300",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433513",
+      "locator": "qsg-volume-300-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-105",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-319",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

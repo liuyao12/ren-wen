@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-579049acc7c83273",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "沈",
+    "given": "起元",
+    "source": "eccp-3636397",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "沈起元，字子大，江南太倉人。",
+          "source": "qsg-volume-300",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子大",
+        "source": "eccp-3636397"
+      }
+    ],
+    "hao": [
+      {
+        "value": "敬亭",
+        "source": "eccp-3636397"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子大"
+    },
+    "romanizations": [
+      {
+        "value": "Shên Ch'i-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3636397"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1685,
+        "source": "eccp-3636397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1763,
+        "source": "eccp-3636397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-300",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-300",
+      "passage": "qsg-volume-300-006",
+      "matchStatus": "proposed",
+      "evidence": "沈起元，字子大，江南太倉人。康熙六十年進士，選庶吉士，改吏部主事。擢員外郎，以知府發福建用。總督高其倬令權福州，調興化。時世宗聞福建倉穀虧空，遣廣東巡撫楊文乾等往按，被劾者半，受代者爭為煩苛，起元獨持平。莆田民因訟互鬥，其倬恐釀亂，令捕治。起元責兩人而釋其餘，報曰：「罪在主者，餘不足問也。」尋攝海關，裁陋規萬餘金。巡撫常安有奴在關，以索費困商舶。起元聞，立督收稅如額，令商舶行，白常安斥奴。自是人皆奉法。其倬奏開南洋，報可。已，復令商出洋者，必戚里具狀，限期返，逾者連坐。起元曰：「人之生死，貨之利"
+    }
+  ],
+  "sources": {
+    "eccp-3636397": {
+      "title": "ECCP · 周永年",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272509",
+      "locator": "eccp-3636397-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-300": {
+      "title": "清史稿/卷300",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433513",
+      "locator": "qsg-volume-300-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

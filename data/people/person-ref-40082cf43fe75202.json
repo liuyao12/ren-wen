@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-40082cf43fe75202",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "雍建",
+    "source": "eccp-3633250",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "海寧",
+      "source": "qsg-volume-274",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "楊雍建，字自西，浙江海寧人。",
+          "source": "qsg-volume-274",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "自西",
+        "source": "eccp-3633250"
+      }
+    ],
+    "hao": [
+      {
+        "value": "以齊",
+        "source": "eccp-3633250"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "自西"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Yung-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3633250"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1627,
+        "source": "eccp-3633250",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3633250",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-274",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-274",
+      "passage": "qsg-volume-274-003",
+      "matchStatus": "proposed",
+      "evidence": "楊雍建，字自西，浙江海寧人。順治十二年進士，授廣東高耍知縣。時方用兵，總督駐高耍。師行徵民夫，吏慮其逃，縶之官廨。當除夕，雍建命徙廊廡，撤餚饌畀之。師中索榕樹枝製繩以燃砲，軍吏檄徵，語不遜，雍建笞之。總督王國光以是稱雍建方剛，特疏薦。蒞官甫一年，擢兵科給事中。"
+    }
+  ],
+  "sources": {
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-274": {
+      "title": "清史稿/卷274",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542492",
+      "locator": "qsg-volume-274-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

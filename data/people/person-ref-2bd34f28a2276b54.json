@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2bd34f28a2276b54",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "胡",
+    "given": "燏棻",
+    "source": "eccp-3678459",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "泗州",
+      "source": "qsg-volume-442",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "胡燏棻，字芸楣，安徽泗州人，本籍浙江蕭山。",
+          "source": "qsg-volume-442",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芸楣",
+        "source": "eccp-3678459"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芸楣"
+    },
+    "romanizations": [
+      {
+        "value": "Hu Yü-fên",
+        "system": "ECCP spelling",
+        "source": "eccp-3678459"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-442",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-442",
+      "passage": "qsg-volume-442-028",
+      "matchStatus": "proposed",
+      "evidence": "胡燏棻，字芸楣，安徽泗州人，本籍浙江蕭山。同治十三年進士，選庶吉士。散館，改知廣西靈川縣，未上，納貲為道員，銓直隸。總督李鴻章俾筦北洋軍糈，補天津道。光緒十四年，鴻章將出閱海軍，有巨猾覬為變，流言胥動。各國領事詰鴻章，鴻章以其事屬燏棻，越三月捕治之，民乃定。海舟應徭自奉天運米豆輸天津，充戶長者，歲出金三萬，往往破家。燏棻廉得狀，上鴻章奏罷之。十六年，大水，民數万止城上。燏棻擴北倉、西沽粥廠徙居之。鴻章用其言，募集銀三百數十萬，复督塞南北運河諸溢流凡八十餘處，民猶及種麥。十七年，遷廣西按察使，賜頭"
+    }
+  ],
+  "sources": {
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-442": {
+      "title": "清史稿/卷442",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433592",
+      "locator": "qsg-volume-442-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

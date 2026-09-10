@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633277",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "然",
+    "source": "eccp-3633277",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Jan 張然 (T. 陶庵) 17th century, a native of Hsiu-shui, Chekiang, was the second son of Chang Lien [q. v.]. Adept at drawing and having learned landscape architecture from his father, he went to Peking and there constructed for Fêng P'u [q. v.] the garden known as Wan-liu-t'ang 萬柳堂, and for Wang Hsi [q. v.] the I-yüan 怡園, both famous private gardens much applauded by contemporary and later poets.",
+          "source": "eccp-3633277",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "陶庵",
+        "source": "eccp-3633277"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "陶庵"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Jan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633277"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633277",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633277",
+      "passage": "eccp-3633277-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633277": {
+      "title": "ECCP · Chang Jan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271614",
+      "locator": "eccp-3633277-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633283": {
+      "title": "ECCP · 張漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278371",
+      "locator": "eccp-3633283-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672728": {
+      "title": "ECCP · 王崇簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672753": {
+      "title": "ECCP · 王時敏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412328",
+      "locator": "eccp-3672753-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

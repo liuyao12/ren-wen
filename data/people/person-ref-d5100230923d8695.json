@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d5100230923d8695",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "田",
+    "given": "肇麗",
+    "source": "eccp-3656376",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "念始",
+        "source": "eccp-3656376"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒼厓",
+        "source": "eccp-3656376"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "念始"
+    },
+    "romanizations": [
+      {
+        "value": "T'ien Chao-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3656376"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3656376": {
+      "title": "ECCP · 田雯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365155",
+      "locator": "eccp-3656376-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

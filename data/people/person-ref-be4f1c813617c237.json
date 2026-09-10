@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-be4f1c813617c237",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馬",
+    "given": "如龍",
+    "source": "eccp-3656414",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "綏德州",
+      "source": "qsg-volume-275",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "馬如龍，字見五，陝西綏德州人。",
+          "source": "qsg-volume-275",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        },
+        {
+          "text": "馬如龍，雲南建水人，本名現，回中世族。",
+          "source": "qsg-volume-456",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "獻之",
+        "source": "eccp-3656414"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲峯",
+        "source": "eccp-3656414"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "獻之"
+    },
+    "romanizations": [
+      {
+        "value": "Ma Ju-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656414"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-275",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-275",
+      "passage": "qsg-volume-275-023",
+      "matchStatus": "proposed",
+      "evidence": "馬如龍，字見五，陝西綏德州人。康熙十一年舉人。十四年，陝西提督王輔臣據寧羌叛，其黨硃龍寇綏德，陷之。如龍糾鄉勇倚山立寨，寇至，屢擊卻之。輔臣誘以偽劄，斬其使。會平逆將軍畢力克圖兵至，如龍渡河迎，呈偽劄，並陳賊虛實，因率所部為前鋒，克綏德。畢力克圖以聞，即便宜令攝州事。總督哈佔亦疏言如龍倡義拒賊狀，請優敘。"
+    },
+    {
+      "source": "qsg-volume-456",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-456",
+      "passage": "qsg-volume-456-006",
+      "matchStatus": "proposed",
+      "evidence": "馬如龍，雲南建水人，本名現，回中世族。以勇聞。咸豐間，滇回俶擾，如龍以武生起澂江，自立為偽帥。時杜文秀僭號大理，如龍遣使與通，授以偽職，不受，始有郄。遂據有新興、昆陽、晉寧、呈貢、嵩明、羅次、易門、富民，入寇省城，勢駸盛。同治元年，巡撫徐之銘复主撫議，提督林自清臨陣宣播朝威，招之歸款，如龍自稱三世效忠，願反正。岑毓英單騎往諭，如龍益心折，與盟南門外，悉反侵地。朝旨破格授如龍總兵，楊振鵬等分署六營武職。"
+    }
+  ],
+  "sources": {
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-275": {
+      "title": "清史稿/卷275",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163015",
+      "locator": "qsg-volume-275-023",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-456": {
+      "title": "清史稿/卷456",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027082",
+      "locator": "qsg-volume-456-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

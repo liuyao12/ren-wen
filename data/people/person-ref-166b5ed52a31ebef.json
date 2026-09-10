@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-166b5ed52a31ebef",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "高",
+    "given": "其倬",
+    "source": "eccp-3656401",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "高其倬，字章之，漢軍鑲黃旗人。",
+          "source": "qsg-volume-292",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "章之",
+        "source": "eccp-3656401"
+      }
+    ],
+    "hao": [
+      {
+        "value": "芙沼",
+        "source": "eccp-3656401"
+      },
+      {
+        "value": "種筠",
+        "source": "eccp-3656401"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "章之"
+    },
+    "romanizations": [
+      {
+        "value": "Kao Ch'i-cho",
+        "system": "ECCP spelling",
+        "source": "eccp-3656401"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1676,
+        "source": "eccp-3656401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1738,
+        "source": "eccp-3656401",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-292",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-292",
+      "passage": "qsg-volume-292-008",
+      "matchStatus": "proposed",
+      "evidence": "高其倬，字章之，漢軍鑲黃旗人。父廕爵，官口北道。其倬，康熙三十三年進士，改庶吉士，散館授檢討。尋兼佐領。五遷內閣學士。五十八年，河南南陽鎮兵挾忿圍辱知府沈淵，命偕尚書張廷樞按治，誅首事者，總兵高成等論罪有差。"
+    }
+  ],
+  "sources": {
+    "eccp-3656401": {
+      "title": "ECCP · 蔡毓榮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365190",
+      "locator": "eccp-3656401-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

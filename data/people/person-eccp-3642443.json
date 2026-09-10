@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642443",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "郎坦",
+    "source": "eccp-3642443",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LANGTAN 郎坦, 1634–1695, general, was a member of the Gûwalgiya clan and belonged to the Manchu Plain White Banner. A son of Ubai [q. v.], he was appointed an Imperial Bodyguard at the age of fourteen (sui) and in 1649 served in the war against Chiang Hsiang [q. v.] at Tatung, Shansi.",
+          "source": "eccp-3642443",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "郎坦，瓜爾佳氏，滿洲正白旗人，內大臣吳拜子。",
+          "source": "qsg-volume-280",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Langtan",
+        "system": "ECCP spelling",
+        "source": "eccp-3642443"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1634,
+        "source": "eccp-3642443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1695,
+        "source": "eccp-3642443",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642443",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642443",
+      "passage": "eccp-3642443-001"
+    },
+    {
+      "source": "qsg-volume-280",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-280",
+      "passage": "qsg-volume-280-006",
+      "matchStatus": "proposed",
+      "evidence": "郎坦，瓜爾佳氏，滿洲正白旗人，內大臣吳拜子。年十四，授三等侍衛。順治六年，進二等。從端重親王博洛討叛將薑瓖，次渾源，圍城。賊渡濠來犯，郎坦射其酋，貫心，殪，遂敗賊。師還，進一等。八年，以吳拜附和內大臣洛什等獲罪，並奪郎坦官。尋復之。康熙二年，代吳拜管佐領，遷護軍參領。從定西將軍圖海討李自成餘黨李來亨等於茅麓山，深入賊巢，獲所置官十一。四年，襲一等精奇尼哈番。十二年，京師有陳三道者，設壇以邪教惑眾，命郎坦與諸侍衛捕治。十三年，命行邊，獲逋盜張飛腿等。擢正白旗蒙古副都統，調本旗滿洲。"
+    }
+  ],
+  "sources": {
+    "eccp-3642443": {
+      "title": "ECCP · Langtan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290568",
+      "locator": "eccp-3642443-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649352": {
+      "title": "ECCP · 朋春",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318111",
+      "locator": "eccp-3649352-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · 薩布素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654379": {
+      "title": "ECCP · 性德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358459",
+      "locator": "eccp-3654379-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658566": {
+      "title": "ECCP · 吳拜",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370125",
+      "locator": "eccp-3658566-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642380",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "高",
+    "given": "晉",
+    "source": "eccp-3642380",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "KAO Chin 高晉 (T. 昭德), 1707–1779, Feb. 25, specialist in river control, was a member of the Manchu Bordered Yellow Banner. He was the fourth son of Kao Pin's [q. v.] eldest brother, Kao Shu-ming 高述明 (T. 東瞻, d.",
+          "source": "eccp-3642380",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "昭德",
+        "source": "eccp-3642380"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "昭德"
+    },
+    "romanizations": [
+      {
+        "value": "Kao Chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3642380"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1707,
+        "source": "eccp-3642380",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1779,
+        "source": "eccp-3642380",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642380",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642380",
+      "passage": "eccp-3642380-001"
+    },
+    {
+      "source": "qsg-volume-310",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-310",
+      "passage": "qsg-volume-310-038",
+      "matchStatus": "proposed",
+      "evidence": "高晉，字昭德。父述明，涼州總兵。高晉初授山東泗水知縣，累遷安徽布政使，兼江寧織造。乾隆二十年，擢安徽巡撫。二十二年，上南巡視河，命高晉協辦徐州黃河兩岸堤工。高晉奏言：「鳳、潁災區諸工並舉，米價日昂，動工程銀三萬兩購米，尚慮不敷。上念淮徐海道諸工，截漕二十萬石平糶。請分五萬濟上江各工。」從之。工竟，加太子少傅。"
+    }
+  ],
+  "sources": {
+    "eccp-3642380": {
+      "title": "ECCP · Kao Chin",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290436",
+      "locator": "eccp-3642380-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642384": {
+      "title": "ECCP · 高斌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290431",
+      "locator": "eccp-3642384-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-321": {
+      "title": "清史稿/卷321",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433547",
+      "locator": "qsg-volume-321-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-339": {
+      "title": "清史稿/卷339",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2072967",
+      "locator": "qsg-volume-339-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-343": {
+      "title": "清史稿/卷343",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029607",
+      "locator": "qsg-volume-343-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-360": {
+      "title": "清史稿/卷360",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485024",
+      "locator": "qsg-volume-360-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

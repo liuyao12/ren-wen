@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635489",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "景",
+    "given": "皇帝",
+    "source": "eccp-3635489",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Ching Huang-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3635489"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635489",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3635489",
+      "passage": "eccp-3635489-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635489": {
+      "title": "ECCP · Ching Huang-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271749",
+      "locator": "eccp-3635489-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656399": {
+      "title": "ECCP · 載湉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365187",
+      "locator": "eccp-3656399-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-445": {
+      "title": "清史稿/卷445",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433533",
+      "locator": "qsg-volume-445-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-472": {
+      "title": "清史稿/卷472",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433579",
+      "locator": "qsg-volume-472-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-473": {
+      "title": "清史稿/卷473",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=5977208",
+      "locator": "qsg-volume-473-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

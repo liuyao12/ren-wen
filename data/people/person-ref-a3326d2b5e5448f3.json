@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a3326d2b5e5448f3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "永福",
+    "source": "eccp-3639181",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "上思",
+      "source": "qsg-volume-463",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉永福，字淵亭，廣西上思人，本名義。",
+          "source": "qsg-volume-463",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "淵亭",
+        "source": "eccp-3639181"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "淵亭"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Yung-fu",
+        "system": "ECCP spelling",
+        "source": "eccp-3639181"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3639181",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1917,
+        "source": "eccp-3639181",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-463",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-463",
+      "passage": "qsg-volume-463-013",
+      "matchStatus": "proposed",
+      "evidence": "劉永福，字淵亭，廣西上思人，本名義。幼無賴，率三百人出關，粵人何均昌據保勝，即取而代之。所部皆黑旗，號黑旗軍。"
+    }
+  ],
+  "sources": {
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-463": {
+      "title": "清史稿/卷463",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021094",
+      "locator": "qsg-volume-463-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

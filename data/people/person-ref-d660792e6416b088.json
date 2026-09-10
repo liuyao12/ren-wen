@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d660792e6416b088",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孫",
+    "given": "爾準",
+    "source": "eccp-3639180",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "金匱",
+      "source": "qsg-volume-380",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "孫爾準，字平叔，江蘇金匱人，廣西巡撫永清子。",
+          "source": "qsg-volume-380",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "萊甫",
+        "source": "eccp-3639180"
+      }
+    ],
+    "hao": [
+      {
+        "value": "平叔",
+        "source": "eccp-3639180"
+      },
+      {
+        "value": "戒庵",
+        "source": "eccp-3639180"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "萊甫"
+    },
+    "romanizations": [
+      {
+        "value": "Sun Êr-chun",
+        "system": "ECCP spelling",
+        "source": "eccp-3639180"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1770,
+        "source": "eccp-3639180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1832,
+        "source": "eccp-3639180",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-380",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-380",
+      "passage": "qsg-volume-380-011",
+      "matchStatus": "proposed",
+      "evidence": "孫爾準，字平叔，江蘇金匱人，廣西巡撫永清子。嘉慶十年進士，選庶吉士，授編修。十九年，出為福建汀州知府。寧化民斂錢集會，大吏將治以叛逆。爾準訊無他狀，論誅首要，鮮所株連。歷鹽法道、江西按察使，調福建，就遷布政使。道光元年，調廣東布政使，擢安徽巡撫。河南邪匪邢名章等糾眾竄潁州，檄按察使惠顯率兵馳剿，格殺名章，殲其餘黨。蠲緩被災各屬，災甚者賑恤之。先是有言賑務積弊，毋得以銀折錢，爾準疏其弗便，仍循舊章。"
+    }
+  ],
+  "sources": {
+    "eccp-3639180": {
+      "title": "ECCP · 馮登府",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280162",
+      "locator": "eccp-3639180-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-380": {
+      "title": "清史稿/卷380",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433559",
+      "locator": "qsg-volume-380-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

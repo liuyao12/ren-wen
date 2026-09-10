@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634093",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鄭",
+    "given": "珍",
+    "source": "eccp-3634093",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHÊNG Chên 鄭珍 (T. 子尹, H. 紫翁, 五尺道人), Apr. 28, 1806–1864, Oct. 17, poet and scholar, was a native of Tsun-i, Kweichow. His grandfather and his father were physicians. He studied under his uncle, Li Hsün 黎恂 (T. 雪樓, H. 拙叟, 1785–1863), whose daughter he later married.",
+          "source": "eccp-3634093",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "鄭珍，字子尹，遵義人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子尹",
+        "source": "eccp-3634093"
+      }
+    ],
+    "hao": [
+      {
+        "value": "紫翁",
+        "source": "eccp-3634093"
+      },
+      {
+        "value": "五尺道人",
+        "source": "eccp-3634093"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子尹"
+    },
+    "romanizations": [
+      {
+        "value": "Chêng Chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3634093"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1806,
+        "source": "eccp-3634093",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1864,
+        "source": "eccp-3634093",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634093",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634093",
+      "passage": "eccp-3634093-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-176",
+      "matchStatus": "proposed",
+      "evidence": "鄭珍，字子尹，遵義人。道光五年拔貢生。十七年舉人，以大挑二等選茘波縣訓導。咸豐五年，叛苗犯茘波，知縣蔣嘉穀病，珍率兵拒戰，卒完其城。苗退，告歸。同治二年，大學士祁俊藻薦於朝，特旨以知縣分發江蘇補用，卒不出。三年，卒，年五十九。"
+    }
+  ],
+  "sources": {
+    "eccp-3634093": {
+      "title": "ECCP · Chêng Chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271757",
+      "locator": "eccp-3634093-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649124": {
+      "title": "ECCP · Mo Yu-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317692",
+      "locator": "eccp-3649124-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654374": {
+      "title": "ECCP · 舒位",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358449",
+      "locator": "eccp-3654374-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-376": {
+      "title": "清史稿/卷376",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292897",
+      "locator": "qsg-volume-376-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-385": {
+      "title": "清史稿/卷385",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433589",
+      "locator": "qsg-volume-385-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-005",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-176",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

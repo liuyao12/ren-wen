@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8cbf1b5b8b64e9c3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "褚",
+    "given": "寅亮",
+    "source": "eccp-3635463",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "褚寅亮，字搢升，長洲人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "搢升",
+        "source": "eccp-3635463"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鶴侶",
+        "source": "eccp-3635463"
+      },
+      {
+        "value": "宗鄭",
+        "source": "eccp-3635463"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "搢升"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'u Yin-liang",
+        "system": "ECCP spelling",
+        "source": "eccp-3635463"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1715,
+        "source": "eccp-3635463",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1790,
+        "source": "eccp-3635463",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-102",
+      "matchStatus": "proposed",
+      "evidence": "褚寅亮，字搢升，長洲人。乾隆十六年召試舉人，授內閣中書，官至刑部員外郎。寅亮少以博雅名，心思精銳，於史書魯魚，一見便能訂其誤謬。中年覃精經術，一以注疏為歸。從事禮經幾三十年，墨守家法，專主鄭學。鄭氏周禮、禮記注，妄庸人群起嗤點之，獨儀禮為孤學，能發揮者固絕無，而謬加指摘者亦尚少。惟敖繼公集說，多巧竄經文，陰就己說。後儒苦經注難讀，喜其平易，無疵之者。萬斯大、沈彤於鄭注亦多所糾駮，至張爾岐、馬駉但粗為演繹，其於敖氏之似是而非，均未能正其失也。寅亮著儀禮管見三卷，於敖氏洞見其癥結，驅豁其雺霧。"
+    }
+  ],
+  "sources": {
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-102",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

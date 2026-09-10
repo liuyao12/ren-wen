@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-f34bae42c94e3142",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "世傑",
+    "source": "eccp-3645532",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Chu Shih-chieh 朱世傑 (T. 漢卿, H. 松庭), a native of Chihli and a teacher of mathematics at Yangchow about the year 1300. He left an elementary textbook entitled 算學啟蒙 Suan-hsüeh chi-mêng, 3 chüan, printed in 1299 (and later recovered from a Korean exemplar); and an algebra, entitled 四元玉鑑 Ssŭ-yüan yü-chien, 3 chüan, with a preface dated 1303.",
+          "source": "eccp-3645532",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漢卿",
+        "source": "eccp-3645532"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松庭",
+        "source": "eccp-3645532"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漢卿"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Shih-chieh",
+        "system": "ECCP spelling",
+        "source": "eccp-3645532"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3645532": {
+      "title": "ECCP · 羅士琳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299512",
+      "locator": "eccp-3645532-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

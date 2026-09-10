@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678458",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "袁",
+    "given": "繼咸",
+    "source": "eccp-3678458",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YÜAN Chi-hsien 袁繼咸 (T. 季通, H. 臨侯, 湛思, 袁山), 1598–1646, Aug. 7, Ming loyalist, was a native of I-ch'un, Kiangsi. After becoming a chin-shih in 1625, he served as an emissary (行人) in the Office for the Transmission of Imperial Messages.",
+          "source": "eccp-3678458",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季通",
+        "source": "eccp-3678458"
+      }
+    ],
+    "hao": [
+      {
+        "value": "臨侯",
+        "source": "eccp-3678458"
+      },
+      {
+        "value": "湛思",
+        "source": "eccp-3678458"
+      },
+      {
+        "value": "袁山",
+        "source": "eccp-3678458"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季通"
+    },
+    "romanizations": [
+      {
+        "value": "Yüan Chi-hsien",
+        "system": "ECCP spelling",
+        "source": "eccp-3678458"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1598,
+        "source": "eccp-3678458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1646,
+        "source": "eccp-3678458",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678458",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678458",
+      "passage": "eccp-3678458-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678458": {
+      "title": "ECCP · Yüan Chi-hsien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443794",
+      "locator": "eccp-3678458-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637602": {
+      "title": "ECCP · 費密",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275797",
+      "locator": "eccp-3637602-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639205": {
+      "title": "ECCP · 傅山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280204",
+      "locator": "eccp-3639205-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-248": {
+      "title": "清史稿/卷248",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433518",
+      "locator": "qsg-volume-248-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

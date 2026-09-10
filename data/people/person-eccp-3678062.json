@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678062",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "偉業",
+    "source": "eccp-3678062",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Wei-yeh 吳偉業 (T. 駿公, H. 梅村), June 21, 1609–1672, Jan. 23, scholar and landscape artist, was a native of T'ai-ts'ang, Kiangsu. Impressed with his talents as a youth, Chang P'u [q. v.], one of the founders of the party known as Fu-shê, voluntarily chose him as a pupil.",
+          "source": "eccp-3678062",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "吳偉業，字駿公，太倉人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "駿公",
+        "source": "eccp-3678062"
+      }
+    ],
+    "hao": [
+      {
+        "value": "梅村",
+        "source": "eccp-3678062"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "駿公"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Wei-yeh",
+        "system": "ECCP spelling",
+        "source": "eccp-3678062"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1609,
+        "source": "eccp-3678062",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3678062",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678062",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678062",
+      "passage": "eccp-3678062-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-065",
+      "matchStatus": "proposed",
+      "evidence": "吳偉業，字駿公，太倉人。明崇禎四年進士，授編修。充東宮講讀官，再遷左庶子。弘光時，授少詹事，乞假歸。順治九年，用兩江總督馬國柱薦，詔至京。侍郎孫承澤、大學士馮銓相繼論薦，授秘書院侍講，充修太祖、太宗聖訓纂修官。十三年，遷祭酒。丁母憂歸。康熙十年，卒。"
+    }
+  ],
+  "sources": {
+    "eccp-3678062": {
+      "title": "ECCP · Wu Wei-yeh",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442376",
+      "locator": "eccp-3678062-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633283": {
+      "title": "ECCP · 張漣",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278371",
+      "locator": "eccp-3633283-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633293": {
+      "title": "ECCP · 張溥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271662",
+      "locator": "eccp-3633293-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642426": {
+      "title": "ECCP · 龔鼎孳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290530",
+      "locator": "eccp-3642426-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654362": {
+      "title": "ECCP · 史可法",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358423",
+      "locator": "eccp-3654362-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658525": {
+      "title": "ECCP · 左懋第",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370037",
+      "locator": "eccp-3658525-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672722": {
+      "title": "ECCP · 王鑑",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412273",
+      "locator": "eccp-3672722-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674928": {
+      "title": "ECCP · 王原祁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419139",
+      "locator": "eccp-3674928-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678433": {
+      "title": "ECCP · 禹之鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443722",
+      "locator": "eccp-3678433-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-501": {
+      "title": "清史稿/卷501",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433593",
+      "locator": "qsg-volume-501-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

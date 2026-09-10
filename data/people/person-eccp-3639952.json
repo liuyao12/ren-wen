@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639952",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "蕭",
+    "given": "永藻",
+    "source": "eccp-3639952",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIAO Yung-tsao 蕭永藻, d. 1729 age 86 (sui), official, belonged to the Chinese Bordered White Banner, his father, Hsiao Yang-yüan 蕭養元, being a captain. Hsiao Yung-tsao was made a clerk at the Board of Punishments and in 1677 a secretary of the Grand Secretariat.",
+          "source": "eccp-3639952",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "蕭永藻，漢軍鑲白旗人。",
+          "source": "qsg-volume-267",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hsiao Yung-tsao",
+        "system": "ECCP spelling",
+        "source": "eccp-3639952"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639952",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639952",
+      "passage": "eccp-3639952-001"
+    },
+    {
+      "source": "qsg-volume-267",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-267",
+      "passage": "qsg-volume-267-049",
+      "matchStatus": "proposed",
+      "evidence": "蕭永藻，漢軍鑲白旗人。父養元，管佐領。永藻自廕生補刑部筆帖式。康熙十六年，授內閣中書，遷禮部員外郎，襲佐領。遷郎中，監湖口稅務。授御史，再遷順天府尹。三十五年，擢廣東巡撫。疏言：「錢多價賤，每千市價三錢二三分，兵領一兩之餉，不及數錢之用。民亦因錢賤，貨物難行。請暫停鼓鑄。」又疏言：「開山發礦，多人群聚，良莠淆雜，臣通飭嚴禁。近有長寧匪徒集眾私採，知縣尤鵬翔請飭部議處。」鵬翔坐奪官。"
+    }
+  ],
+  "sources": {
+    "eccp-3639952": {
+      "title": "ECCP · Hsiao Yung-tsao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282765",
+      "locator": "eccp-3639952-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633298": {
+      "title": "ECCP · 張廷樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271940",
+      "locator": "eccp-3633298-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639202": {
+      "title": "ECCP · 福隆安",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280201",
+      "locator": "eccp-3639202-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639267": {
+      "title": "ECCP · 孝莊文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280298",
+      "locator": "eccp-3639267-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640793": {
+      "title": "ECCP · 弘歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285336",
+      "locator": "eccp-3640793-012",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-263": {
+      "title": "清史稿/卷263",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433486",
+      "locator": "qsg-volume-263-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-277": {
+      "title": "清史稿/卷277",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542499",
+      "locator": "qsg-volume-277-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-476": {
+      "title": "清史稿/卷476",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027167",
+      "locator": "qsg-volume-476-100",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

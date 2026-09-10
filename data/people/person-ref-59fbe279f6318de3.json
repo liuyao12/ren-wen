@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-59fbe279f6318de3",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "裘",
+    "given": "行簡",
+    "source": "eccp-3636393",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新建",
+      "source": "qsg-volume-357",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "裘行簡，字敬之，江西新建人，尚書曰修子。",
+          "source": "qsg-volume-357",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "敬之",
+        "source": "eccp-3636393"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敬之"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'iu Hsing-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3636393"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-357",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-357",
+      "passage": "qsg-volume-357-035",
+      "matchStatus": "proposed",
+      "evidence": "裘行簡，字敬之，江西新建人，尚書曰修子。乾隆四十年，賜舉人，授內閣中書，充軍機章京，遷侍讀。四十九年，從大學士阿桂剿甘肅石峰堡回匪，復從察治河南睢州河工。五十年，出為山西寧武知府，調平陽，因親老，自請改京秩，補戶部員外郎，仍直軍機。累遷太僕寺少卿。"
+    }
+  ],
+  "sources": {
+    "eccp-3636393": {
+      "title": "ECCP · 裘曰修",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272499",
+      "locator": "eccp-3636393-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

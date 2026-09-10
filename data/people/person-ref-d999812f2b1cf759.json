@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d999812f2b1cf759",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "鶴齡",
+    "source": "eccp-3633518",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "朱鶴齡，字長孺，吳江人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "長孺",
+        "source": "eccp-3633518"
+      }
+    ],
+    "hao": [
+      {
+        "value": "愚菴",
+        "source": "eccp-3633518"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "長孺"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Ho-ling",
+        "system": "ECCP spelling",
+        "source": "eccp-3633518"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1606,
+        "source": "eccp-3633518",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3633518",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-126",
+      "matchStatus": "proposed",
+      "evidence": "朱鶴齡，字長孺，吳江人。明諸生。穎敏嗜學，嘗箋注杜甫、李商隱詩，盛行於世。鼎革後，屏居著述。晨夕一編，行不識途路，坐不知寒暑。人或謂之愚，遂自號愚菴。嘗自謂「疾惡如仇，嗜古若渴。不妄受人一錢，不虛誑人一語」云。著愚庵詩文集。初為文章之學，及與顧炎武友，炎武以本原相勗，乃湛思覃力於經註疏及儒先理學。以易理至宋儒已明，然左傳、國語所載佔法，皆言像也，本義精矣，而多未備，撰易廣義略四卷。以蔡氏釋書未精，斟酌於漢學、宋學之間，撰尚書埤傳十七卷。以朱子掊擊詩小序太過，與同縣陳啟源參考諸家說，兼用啟源說，疏"
+    }
+  ],
+  "sources": {
+    "eccp-3633518": {
+      "title": "ECCP · 陳啟源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271423",
+      "locator": "eccp-3633518-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-126",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

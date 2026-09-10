@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643697",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "國治",
+    "source": "eccp-3643697",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "會稽",
+      "source": "qsg-volume-320",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG Kuo-chih 梁國治 (T. 階平, H. 瑤峯, 豐山), Nov. 18, 1723–1787, Jan. 31, official and calligrapher, was a native of K'uai-chi, Chekiang. After taking his chü-jên degree in 1741 he passed a special examination which gave him the post of secretary of the Grand Secretariat.",
+          "source": "eccp-3643697",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "梁國治，字階平，浙江會稽人。",
+          "source": "qsg-volume-320",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "階平",
+        "source": "eccp-3643697"
+      }
+    ],
+    "hao": [
+      {
+        "value": "瑤峯",
+        "source": "eccp-3643697"
+      },
+      {
+        "value": "豐山",
+        "source": "eccp-3643697"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "階平"
+    },
+    "romanizations": [
+      {
+        "value": "Liang Kuo-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3643697"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3643697",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3643697",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643697",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643697",
+      "passage": "eccp-3643697-001"
+    },
+    {
+      "source": "qsg-volume-320",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-320",
+      "passage": "qsg-volume-320-021",
+      "matchStatus": "proposed",
+      "evidence": "梁國治，字階平，浙江會稽人。乾隆十三年一甲一名進士，授修撰。遷國子監司業。充廣東鄉試正考官。復命，奏對稱旨，命以道員發廣東待缺。旋除惠嘉潮道，移署糧驛道。卓異引見，擢署左副都御史。遷吏部侍郎。廣東總督楊廷璋等追論國治署糧驛道時失察家人舞弊，讞實，奪職。起授山西冀寧道。三遷湖北巡撫。三十四年，命署湖廣總督，兼荊州將軍。時湖北頻歲水旱，治賑，缺倉穀四十八萬馀石。國治議發司庫白金二十萬，俟秋穫易穀，來歲春夏間出糶，石溢銀一錢。行之數年，倉穀得無缺。三十六年，移湖南巡撫。師徵金川，治軍械，造藥彈，費不給"
+    }
+  ],
+  "sources": {
+    "eccp-3643697": {
+      "title": "ECCP · Liang Kuo-chih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294986",
+      "locator": "eccp-3643697-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635454": {
+      "title": "ECCP · 錢棨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271396",
+      "locator": "eccp-3635454-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633271": {
+      "title": "ECCP · 章學誠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293081",
+      "locator": "eccp-3633271-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635442": {
+      "title": "ECCP · 蔣良騏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271724",
+      "locator": "eccp-3635442-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643705": {
+      "title": "ECCP · 梁同書",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294995",
+      "locator": "eccp-3643705-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-320": {
+      "title": "清史稿/卷320",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2550999",
+      "locator": "qsg-volume-320-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

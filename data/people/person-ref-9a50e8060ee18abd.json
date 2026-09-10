@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9a50e8060ee18abd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "頌蔚",
+    "source": "eccp-3649389",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王頌蔚，字芾卿，長洲人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "芾卿",
+        "source": "eccp-3649389"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒿隱",
+        "source": "eccp-3649389"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "芾卿"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Sung-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3649389"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1848,
+        "source": "eccp-3649389",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1895,
+        "source": "eccp-3649389",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-191",
+      "matchStatus": "proposed",
+      "evidence": "王頌蔚，字芾卿，長洲人。光緒五年進士，選庶吉士。吳縣潘祖廕、常熟翁同龢皆稱頌蔚才。散館，改官戶部，補軍機章京。暇輒從事著述。嘗於方略館故紙堆中見殿板初印明史殘本，眉上黏有黃簽，審為乾隆朝擬撰考證未竟之本。因多方搜求，逐條釐訂，芟其繁冗，採其精要，成明史考證攟逸四十餘卷。光緒十八年，試御史第一，軍機處奏留。頌蔚思立言抒忠讜，轉鬱鬱不樂。嘗派充工程監督差，例有分饋，頌蔚獨卻之，曰：「我輩取與之間，貴自審慎，不可隨俗浮沉。昔陳稽亭先生官部曹時，印結公項，且猶不取。矧此實為廠商之賄賂乎？」"
+    }
+  ],
+  "sources": {
+    "eccp-3649389": {
+      "title": "ECCP · 邵懿辰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318171",
+      "locator": "eccp-3649389-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-191",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

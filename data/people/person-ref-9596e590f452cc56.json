@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9596e590f452cc56",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "三禮",
+    "source": "eccp-3643633",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "安陽",
+      "source": "qsg-volume-266",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "許三禮，字典三，河南安陽人。",
+          "source": "qsg-volume-266",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "典三",
+        "source": "eccp-3643633"
+      }
+    ],
+    "hao": [
+      {
+        "value": "酉山",
+        "source": "eccp-3643633"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "典三"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü San-li",
+        "system": "ECCP spelling",
+        "source": "eccp-3643633"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1625,
+        "source": "eccp-3643633",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3643633",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-266",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-266",
+      "passage": "qsg-volume-266-032",
+      "matchStatus": "proposed",
+      "evidence": "許三禮，字典三，河南安陽人。順治十八年進士，授浙江海寧知縣。海寧地瀕海，多盜，三禮練鄉勇，嚴保甲，擒盜首硃纘之等。益修城壕，築土城尖山、鳳凰山間，戍以土兵。築塘濬河，救災儲粟，教民以務本。立書院，延黃宗羲主講。在縣八年，聲譽甚美。"
+    }
+  ],
+  "sources": {
+    "eccp-3643633": {
+      "title": "ECCP · 李塨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294855",
+      "locator": "eccp-3643633-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-032",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

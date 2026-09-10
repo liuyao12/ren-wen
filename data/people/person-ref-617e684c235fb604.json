@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-617e684c235fb604",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "潤庠",
+    "source": "eccp-3640788",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "元和",
+      "source": "qsg-volume-472",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陸潤庠，字鳳石，江蘇元和人。",
+          "source": "qsg-volume-472",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鳳石",
+        "source": "eccp-3640788"
+      },
+      {
+        "value": "雲灑",
+        "source": "eccp-3640788"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鳳石"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Jun-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640788"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1841,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1915,
+        "source": "eccp-3640788",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-472",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-472",
+      "passage": "qsg-volume-472-006",
+      "matchStatus": "proposed",
+      "evidence": "陸潤庠，字鳳石，江蘇元和人。父懋修，精醫，見藝術傳。潤庠，同治十三年一甲一名進士，授修撰。光緒初，屢典試事，湖南、陝西皆再至。入直南書房，洊擢侍讀。出督山東學政。父憂服闋，再遷祭酒，典試江西。以母疾乞養歸。二十四年，起補祭酒，擢內閣學士，署工部侍郎。兩宮西巡，奔赴行在，授禮部侍郎，充經筵講官。擢左都御史，管理醫局，典順天鄉試，充會試副總裁，署工部尚書。"
+    }
+  ],
+  "sources": {
+    "eccp-3640788": {
+      "title": "ECCP · 洪鈞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285326",
+      "locator": "eccp-3640788-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-472": {
+      "title": "清史稿/卷472",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433579",
+      "locator": "qsg-volume-472-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

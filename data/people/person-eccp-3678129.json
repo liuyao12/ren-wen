@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678129",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "桂",
+    "source": "eccp-3678129",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "吳縣",
+      "source": "qsg-volume-502",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEH Kuei 葉桂 (T. 天士, H. 香巖 or 香嵒), 1666–1745, physician, a native of Wu-hsien, Kiangsu, came from a family of physicians, his grandfather, Yeh Shih 葉時 (T. 紫帆), being the first of the family to specialize in medicine.",
+          "source": "eccp-3678129",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "葉桂，字天士，江蘇吳縣人。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天士",
+        "source": "eccp-3678129"
+      }
+    ],
+    "hao": [
+      {
+        "value": "香巖",
+        "source": "eccp-3678129"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天士"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Kuei",
+        "system": "ECCP spelling",
+        "source": "eccp-3678129"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1666,
+        "source": "eccp-3678129",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1745,
+        "source": "eccp-3678129",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678129",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678129",
+      "passage": "eccp-3678129-001"
+    },
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-048",
+      "matchStatus": "proposed",
+      "evidence": "葉桂，字天士，江蘇吳縣人。先世自歙遷吳，祖時、父朝採，皆精醫。桂年十四喪父，從學於父之門人，聞言即解，見出師上，遂有聞於時。切脈望色，如見五藏。治方不出成見，嘗曰：「劑之寒溫視乎病，前人或偏寒涼，或偏溫養，習者茫無定識。假兼備以幸中，借和平以藏拙。朝用一方。晚易一劑，詎有當哉？病有見證，有變證，必胸有成竹，乃可施之以方。」"
+    }
+  ],
+  "sources": {
+    "eccp-3678129": {
+      "title": "ECCP · Yeh Kuei",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-048",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

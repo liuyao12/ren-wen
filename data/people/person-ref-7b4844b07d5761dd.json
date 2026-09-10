@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7b4844b07d5761dd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "許",
+    "given": "瀚",
+    "source": "eccp-3658544",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "許瀚，字印林，日照人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "印林",
+        "source": "eccp-3658544"
+      }
+    ],
+    "hao": [
+      {
+        "value": "箓友",
+        "source": "eccp-3658544"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "印林"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Han",
+        "system": "ECCP spelling",
+        "source": "eccp-3658544"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1784,
+        "source": "eccp-3658544",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1854,
+        "source": "eccp-3658544",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-265",
+      "matchStatus": "proposed",
+      "evidence": "許瀚，字印林，日照人。道光十五年舉人，官嶧縣教諭。博綜經史及金石文字，訓詁尤深。至校勘宋、元、明本書籍，精審不減黃丕烈、顧廣圻。晚年為靈石楊氏校刊桂馥說文義證於清河，甫成而板毀於捻寇，並所藏經籍金石俱盡，遂挹鬱而歿，年七十。他著有韓詩外傳勘誤，攀古小廬文。"
+    }
+  ],
+  "sources": {
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-265",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

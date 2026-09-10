@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5e77cb35cdd72aae",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "杕",
+    "source": "eccp-3639970",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "李杕，漢軍鑲藍旗人，李國翰四世孫。",
+          "source": "qsg-volume-297",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Li Ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3639970"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-297",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-297",
+      "passage": "qsg-volume-297-021",
+      "matchStatus": "proposed",
+      "evidence": "李杕，漢軍鑲藍旗人，李國翰四世孫。降襲三等伯，累擢至廣州將軍。坐駐防兵閧巡撫官廨，逮京師論斬，上貸之，复授都統，仍令襲爵。至是，責其一言僨事，罪與馬爾賽等，奪官爵，論斬。"
+    }
+  ],
+  "sources": {
+    "eccp-3639970": {
+      "title": "ECCP · 徐光啟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282801",
+      "locator": "eccp-3639970-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

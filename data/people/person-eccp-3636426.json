@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636426",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "理",
+    "source": "eccp-3636426",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHU Li 朱理 (T. 燮臣, H. 靜齋), July 13, 1761–1819, Apr. 22, official, was a native of Ching-hsien, Anhwei. He was a son of Chu An-hang 朱安沆 (T. 希靖), but was adopted by his uncle, Chu An-huai 朱安淮 (T. 維揚).",
+          "source": "eccp-3636426",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "燮臣",
+        "source": "eccp-3636426"
+      }
+    ],
+    "hao": [
+      {
+        "value": "靜齋",
+        "source": "eccp-3636426"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "燮臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Li",
+        "system": "ECCP spelling",
+        "source": "eccp-3636426"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1761,
+        "source": "eccp-3636426",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1819,
+        "source": "eccp-3636426",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636426",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636426",
+      "passage": "eccp-3636426-001"
+    }
+  ],
+  "sources": {
+    "eccp-3636426": {
+      "title": "ECCP · Chu Li",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272562",
+      "locator": "eccp-3636426-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636405": {
+      "title": "ECCP · 朱珔",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272525",
+      "locator": "eccp-3636405-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-0bc302cdc7591d26",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "成",
+    "given": "懷祖",
+    "source": "eccp-3658531",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Ch'êng Huai-tsu 成懷祖 (T. 蘭田, 1707–1771), a native of Wei-hsien who served as a second-class assistant department magistrate in Pin-chou, Shensi, in the years 1750-66. The Ch'êng family came originally from Hung-tung, Shansi, moved to Chihli in the Yung-lo reign-period (1403–25) and became one of the leading families of Ta-ming.",
+          "source": "eccp-3658531",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘭田",
+        "source": "eccp-3658531"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘭田"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng Huai-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3658531"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1707,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1771,
+        "source": "eccp-3658531",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

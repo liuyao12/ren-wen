@@ -7,10 +7,11 @@ permissions:
   contents: read
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: read
       pages: write
@@ -19,43 +20,79 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      # Do not silently skip deployment when hosting is disabled.
-      # A successful Pages run must include a successful deployment.
-      - name: Configure GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v5
-      - name: Explain Pages configuration failure
-        if: failure() && steps.pages.outcome == 'failure'
-        run: |
-          echo "::error::GitHub Pages configuration failed. Inspect the preceding error; this run did not publish a site."
-          {
-            echo '## Site not published'
-            echo 'GitHub Pages configuration failed. The preceding step contains the actual API error.'
-            echo "For an unconfigured site, open https://github.com/${GITHUB_REPOSITORY}/settings/pages and select **GitHub Actions** under **Build and deployment → Source**. Then re-run this workflow."
-            echo 'Adding or running a workflow does not by itself enable Pages. If Pages is already enabled, check the API error for permissions or service failures.'
-          } >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - run: python scripts/renwen.py validate
-      - run: python scripts/profiles.py validate
-      - run: python scripts/works.py validate
-      - run: python -m scripts.text_units validate
-      - name: Stage only public reader files
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate the complete corpus and dated-name records
         run: |
-          mkdir -p _site
-          cp index.html profiles.html works.html texts.html _site/
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m scripts.name_history validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+      - name: Install browser verification support
+        run: |
+          python -m pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Stage all public pages with an identifiable deployment
+        run: |
+          mkdir -p _site build
+          cp ./*.html _site/
           cp -R assets data _site/
           touch _site/.nojekyll
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime, timezone
+          import hashlib, json, os
+          root=Path('_site')
+          required=['index.html','library.html','profiles.html','works.html','texts.html']
+          for path in required:
+              assert (root/path).is_file(), 'Missing public page: '+path
+          files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))
+          hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
+          stamp={'commit':os.environ['GITHUB_SHA'],'release':'r2026.09.10','publishedAt':datetime.now(timezone.utc).isoformat(),'files':hashes}
+          (root/'deployment.json').write_text(json.dumps(stamp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources.')
+          PY
+      - name: Test the exact staged site before deployment
+        run: |
+          python -m http.server 8000 --directory _site > build/staged-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/staged-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/family
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - name: Deploy
+      - name: Deploy verified reader
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Record published URL
+      - name: Verify published commit, reader, family and historical map
         env:
+          EXPECTED_COMMIT: ${{ github.sha }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
-          printf '## Published\n\n%s\n' "$PAGE_URL" >> "$GITHUB_STEP_SUMMARY"
+          python tests/browser_release.py --url "$PAGE_URL" --output build/published-browser
+          python tests/browser_live.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/map
+          python tests/browser_family_layout.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/family
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pages-verification
+          path: |
+            build/staged-browser
+            build/published-browser
+            build/staged-server.log
+            _site/deployment.json
+          retention-days: 7

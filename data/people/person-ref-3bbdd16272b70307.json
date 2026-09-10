@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3bbdd16272b70307",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "朱",
+    "given": "熹",
+    "source": "eccp-3639995",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "元晦",
+        "source": "eccp-3639995"
+      },
+      {
+        "value": "仲晦",
+        "source": "eccp-3639995"
+      },
+      {
+        "value": "晦庵",
+        "source": "eccp-3639995"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雲谷老人",
+        "source": "eccp-3639995"
+      },
+      {
+        "value": "晦翁",
+        "source": "eccp-3639995"
+      },
+      {
+        "value": "滄洲病叟",
+        "source": "eccp-3639995"
+      },
+      {
+        "value": "遯翁",
+        "source": "eccp-3639995"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元晦"
+    },
+    "romanizations": [
+      {
+        "value": "Chu Hsi",
+        "system": "ECCP spelling",
+        "source": "eccp-3639995"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1130,
+        "source": "eccp-3639995",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1200,
+        "source": "eccp-3639995",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-fc672d8f7d8af5b6",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "韓",
+    "given": "重",
+    "source": "eccp-3639231",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "淳夫",
+        "source": "eccp-3639231"
+      }
+    ],
+    "hao": [
+      {
+        "value": "拙齋",
+        "source": "eccp-3639231"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "淳夫"
+    },
+    "romanizations": [
+      {
+        "value": "Han Chung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639231"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639231": {
+      "title": "ECCP · 韓霖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280240",
+      "locator": "eccp-3639231-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

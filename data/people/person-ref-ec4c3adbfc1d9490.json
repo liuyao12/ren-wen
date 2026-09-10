@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-ec4c3adbfc1d9490",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "凌漢",
+    "source": "eccp-3639252",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "道州",
+      "source": "qsg-volume-374",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "何凌漢，字仙槎，湖南道州人。",
+          "source": "qsg-volume-374",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雲門",
+        "source": "eccp-3639252"
+      }
+    ],
+    "hao": [
+      {
+        "value": "仙槎",
+        "source": "eccp-3639252"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雲門"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Ling-han",
+        "system": "ECCP spelling",
+        "source": "eccp-3639252"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1772,
+        "source": "eccp-3639252",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3639252",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-374",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-374",
+      "passage": "qsg-volume-374-021",
+      "matchStatus": "proposed",
+      "evidence": "何凌漢，字仙槎，湖南道州人。拔貢，考授吏部七品小京官。嘉慶十年一甲三名進士，授編修。大考二等，擢司業。累遷右庶子。典廣東、福建鄉試，留福建學政。令諸生自註誦習何經，據以考校，所取拔貢多樸學。道光六年，授順天府尹。京畿獄訟繁多，自立簿籍，每月按簿催結，無留獄。遷大理寺卿，仍署府尹。在任凡五年，歷左副都御史、工部侍郎。典浙江鄉試，留學政。命偕總督程祖洛按訊山陰、會稽紳幕書役句結舞弊，鞫實，請褫在籍按察使李澐職，餘犯軍流有差。任未滿，調吏部侍郎，召回京，兼管順天府尹事。調戶部，復調吏部，仍兼署戶部侍郎"
+    }
+  ],
+  "sources": {
+    "eccp-3639252": {
+      "title": "ECCP · 何紹基",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280273",
+      "locator": "eccp-3639252-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-374": {
+      "title": "清史稿/卷374",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292892",
+      "locator": "qsg-volume-374-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

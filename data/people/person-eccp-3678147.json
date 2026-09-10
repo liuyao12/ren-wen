@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678147",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "嚴",
+    "given": "衍",
+    "source": "eccp-3678147",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEN Yen 嚴衍 (T. 永思, H. 午庭, 拙道人), 1574–1645, historian, was a native of Chia-ting, Kiangsu. When he was forty-one sui he began a serious study of Ssŭ-ma Kuang's 資治通鑑 Tzŭ-chih t'ung-chien (\"Comprehensive Mirror to Aid in Government\"), a chronological history of China (completed in 1084) which treats the period from 403 B.",
+          "source": "eccp-3678147",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "永思",
+        "source": "eccp-3678147"
+      }
+    ],
+    "hao": [
+      {
+        "value": "午庭",
+        "source": "eccp-3678147"
+      },
+      {
+        "value": "拙道人",
+        "source": "eccp-3678147"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "永思"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Yen",
+        "system": "ECCP spelling",
+        "source": "eccp-3678147"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1574,
+        "source": "eccp-3678147",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3678147",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678147",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678147",
+      "passage": "eccp-3678147-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678147": {
+      "title": "ECCP · Yen Yen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442959",
+      "locator": "eccp-3678147-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635463": {
+      "title": "ECCP · 錢大昕",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271414",
+      "locator": "eccp-3635463-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672731": {
+      "title": "ECCP · 王夫之",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412288",
+      "locator": "eccp-3672731-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675203": {
+      "title": "ECCP · 吳歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419967",
+      "locator": "eccp-3675203-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678151": {
+      "title": "ECCP · 顏元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442965",
+      "locator": "eccp-3678151-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

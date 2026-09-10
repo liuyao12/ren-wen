@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645503",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "逢祿",
+    "source": "eccp-3645503",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIU Fêng-lu 劉逢祿 (T. 申受, 申甫, H. 思誤居士), July 26, 1776—1829, Sept. 13, scholar and official, was a native of Wu-chin, Chekiang, and a descendant of a distinguished family. His grandfather, Liu Lun [q. v.], and his two uncles, Liu T'u-nan and Liu Yüeh-yün (see under Liu Lun), achieved note in their political careers and for their writings in prose and verse.",
+          "source": "eccp-3645503",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉逢祿，字申受，武進人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "申受",
+        "source": "eccp-3645503"
+      },
+      {
+        "value": "申甫",
+        "source": "eccp-3645503"
+      }
+    ],
+    "hao": [
+      {
+        "value": "思誤居士",
+        "source": "eccp-3645503"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "申受"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Fêng-lu",
+        "system": "ECCP spelling",
+        "source": "eccp-3645503"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1776,
+        "source": "eccp-3645503",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3645503",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645503",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645503",
+      "passage": "eccp-3645503-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-100",
+      "matchStatus": "proposed",
+      "evidence": "劉逢祿，字申受，武進人。祖綸，大學士，諡文定，自有傳。外王父莊存與、舅莊述祖，並以經術名世，逢祿盡傳其學。嘉慶十九年進士，選翰林院庶吉士，散館改禮部主事。二十五年，仁宗大事，逢祿蒐集大禮，創爲長編，自始事至奉安山陵，典章具備。道光三年，通政司參議盧浙請以尚書湯斌從祀文廟，議者以斌康熙中在上書房獲譴，乾隆中嘗奉駮難之。逢祿攬筆書曰：「後夔典樂，猶有朱、均；呂望陳書，難匡管、蔡。」尚書汪廷珍善而用之，遂奉兪旨。四年，補儀制司主事。越南貢使陳請爲其國王母乞人葠，得旨賞給。而諭中有「外夷貢道」之語，其使"
+    }
+  ],
+  "sources": {
+    "eccp-3645503": {
+      "title": "ECCP · Liu Fêng-lu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299446",
+      "locator": "eccp-3645503-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637551": {
+      "title": "ECCP · 莊存與",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275724",
+      "locator": "eccp-3637551-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642408": {
+      "title": "ECCP · 顧廣圻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290483",
+      "locator": "eccp-3642408-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642427": {
+      "title": "ECCP · 龔自珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290533",
+      "locator": "eccp-3642427-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642450": {
+      "title": "ECCP · 李兆洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290583",
+      "locator": "eccp-3642450-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645517": {
+      "title": "ECCP · 劉綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299486",
+      "locator": "eccp-3645517-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645527": {
+      "title": "ECCP · 劉文淇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299505",
+      "locator": "eccp-3645527-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674958": {
+      "title": "ECCP · 魏源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419241",
+      "locator": "eccp-3674958-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-100",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-133",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

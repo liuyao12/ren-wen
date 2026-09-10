@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672719",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "楫",
+    "source": "eccp-3672719",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Chi 汪楫 (T. 舟次, 恥人, H. 悔齋), 1636–1699, Sept. 7, writer, official, and envoy, was a native of I-chêng, Kiangsu, whose father had migrated from Hsiu-ning, Anhwei. Wang Chi was recommended to take the special examination of 1679, known as po-hsüeh hung-tz'ŭ (see under P'êng Sun-yü), which he passed as fifteenth among the fifty successful candidates.",
+          "source": "eccp-3672719",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "汪楫，字舟次，江都人，原籍休寧。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "舟次",
+        "source": "eccp-3672719"
+      },
+      {
+        "value": "恥人",
+        "source": "eccp-3672719"
+      }
+    ],
+    "hao": [
+      {
+        "value": "悔齋",
+        "source": "eccp-3672719"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "舟次"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3672719"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1636,
+        "source": "eccp-3672719",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1699,
+        "source": "eccp-3672719",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672719",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672719",
+      "passage": "eccp-3672719-001"
+    },
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-216",
+      "matchStatus": "proposed",
+      "evidence": "汪楫，字舟次，江都人，原籍休寧。性伉直，意氣偉然。始以歲貢生署贛榆訓導。應鴻博，授檢討，入史館。言於總裁，先仿宋李燾長編，匯集詔諭、奏議、邸報之屬，由是史材皆備。二十一年，充冊封琉球正使，宣布威德。瀕行，不受例餽，國人建卻金亭誌之。歸撰使琉球錄，載禮儀暨山川景物。又因諭祭故王，入其廟，默識所立主，兼得琉球世纘圖，參之明代事實，詮次為中山沿革志。出知河南府，置學田，嵩陽書院聘詹事耿介主講席。治行為中州最。擢福建按察使，遷布政使。楫少工詩，與三原孫枝蔚、泰州吳嘉紀齊名。有悔齋集、觀海集。"
+    }
+  ],
+  "sources": {
+    "eccp-3672719": {
+      "title": "ECCP · Wang Chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412268",
+      "locator": "eccp-3672719-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639201": {
+      "title": "ECCP · 福臨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280198",
+      "locator": "eccp-3639201-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639248": {
+      "title": "ECCP · 何焯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280268",
+      "locator": "eccp-3639248-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645535": {
+      "title": "ECCP · 盧見曾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299516",
+      "locator": "eccp-3645535-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674951": {
+      "title": "ECCP · 魏禧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419227",
+      "locator": "eccp-3674951-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-216",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

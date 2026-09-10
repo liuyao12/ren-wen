@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-655af751eaa12ff4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "綰",
+    "source": "eccp-3634059",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "自崑",
+        "source": "eccp-3634059"
+      }
+    ],
+    "hao": [
+      {
+        "value": "栗齋",
+        "source": "eccp-3634059"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "自崑"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Kuan",
+        "system": "ECCP spelling",
+        "source": "eccp-3634059"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634059": {
+      "title": "ECCP · 陳夢雷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271466",
+      "locator": "eccp-3634059-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633243",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "班第",
+    "source": "eccp-3633243",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "BANDI 班第, d. Oct. 4, 1755, general, was a member of the Borjigit clan, and belonged to the Mongol Plain Yellow Banner. A student in the government school for bannermen, he was selected in 1717 to fill a post of secretary to the Grand Secretariat.",
+          "source": "eccp-3633243",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "班第，博爾濟吉特氏，蒙古鑲黃旗人。",
+          "source": "qsg-volume-312",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Bandi",
+        "system": "ECCP spelling",
+        "source": "eccp-3633243"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633243",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633243",
+      "passage": "eccp-3633243-001"
+    },
+    {
+      "source": "eccp-3649311",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3649311",
+      "passage": "eccp-3649311-001"
+    },
+    {
+      "source": "qsg-volume-312",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-312",
+      "passage": "qsg-volume-312-015",
+      "matchStatus": "proposed",
+      "evidence": "班第，博爾濟吉特氏，蒙古鑲黃旗人。康熙間，自官學生授內閣中書。五遷，雍正初至內閣學士。四川、雲南徼外與西藏定界，命偕副都統鄂齊如西藏宣諭。遷理籓院侍郎。坐事左遷，在內閣學士上行走。十一年，命在軍機處行走。乾隆三年，授兵部侍郎。外擢湖廣總督。剿鎮筸、永綏亂苗，兩閱月而畢，上嘉焉。五年，以憂還京師。六年，命仍在軍機處行走，授兵部尚書。"
+    }
+  ],
+  "sources": {
+    "eccp-3633243": {
+      "title": "ECCP · Bandi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271379",
+      "locator": "eccp-3633243-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649311": {
+      "title": "ECCP · Pan-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318026",
+      "locator": "eccp-3649311-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633212": {
+      "title": "ECCP · 阿桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271341",
+      "locator": "eccp-3633212-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633221": {
+      "title": "ECCP · 阿睦爾撒納",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271367",
+      "locator": "eccp-3633221-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633500": {
+      "title": "ECCP · 兆惠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271944",
+      "locator": "eccp-3633500-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639186": {
+      "title": "ECCP · 傅清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280178",
+      "locator": "eccp-3639186-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649167": {
+      "title": "ECCP · 鄂爾泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317772",
+      "locator": "eccp-3649167-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678432": {
+      "title": "ECCP · 裕謙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443721",
+      "locator": "eccp-3678432-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-2": {
+      "title": "清史稿/卷2",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2589313",
+      "locator": "qsg-volume-2-082",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-065",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-296": {
+      "title": "清史稿/卷296",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162633",
+      "locator": "qsg-volume-296-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-297": {
+      "title": "清史稿/卷297",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433501",
+      "locator": "qsg-volume-297-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-301": {
+      "title": "清史稿/卷301",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600903",
+      "locator": "qsg-volume-301-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-302": {
+      "title": "清史稿/卷302",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433558",
+      "locator": "qsg-volume-302-033",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-312": {
+      "title": "清史稿/卷312",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433521",
+      "locator": "qsg-volume-312-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-334": {
+      "title": "清史稿/卷334",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542466",
+      "locator": "qsg-volume-334-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-055",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

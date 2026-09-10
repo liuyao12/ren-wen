@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bd18dd1ffcec851e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "薛",
+    "given": "鳳祚",
+    "source": "eccp-3649094",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "薛鳳祚，字儀甫，淄川人。",
+          "source": "qsg-volume-506",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "儀甫",
+        "source": "eccp-3649094"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "儀甫"
+    },
+    "romanizations": [
+      {
+        "value": "Hsüeh Fêng-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3649094"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1611,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1656,
+        "source": "eccp-3649094",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-506",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-506",
+      "passage": "qsg-volume-506-003",
+      "matchStatus": "proposed",
+      "evidence": "薛鳳祚，字儀甫，淄川人。少習算，從魏文魁遊，主持舊法。順治中，與法人穆尼閣談算，始改從西學，盡傳其術，因著算學會通正集十二卷，考驗二十八卷，致用十六卷。其曰對數比例者，乃西算以假數求真數之便法也；曰中法四線，以西法六十分為度，不便以十進位，改從古法，以百分為度，所列止正弦、餘弦、正切、餘切，故曰四線。其推步諸書：曰太陽太陰諸行法原，曰木火土三星經行法原，曰交食法原，曰歷年甲子，曰求歲實，曰五星高行，曰交食表，曰經星中星，曰西域回回術，曰西域表，曰今西法選要，曰今法表，皆會中、西以立法。以順治十二"
+    }
+  ],
+  "sources": {
+    "eccp-3649094": {
+      "title": "ECCP · 梅文鼎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317644",
+      "locator": "eccp-3649094-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-506": {
+      "title": "清史稿/卷506",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626382",
+      "locator": "qsg-volume-506-003",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

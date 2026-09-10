@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3642442",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "郎",
+    "given": "廷佐",
+    "source": "eccp-3642442",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LANG T'ing-tso 郎廷佐 (T. 一柱), d. 1676, official, was a member of the Chinese Bordered Yellow Banner. Beginning as a pupil in the Banner school, he served for a time as a clerk. In 1645 he became a sub-reader in the Grand Secretariat and later a reader.",
+          "source": "eccp-3642442",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "郎廷佐，字一柱，漢軍鑲黃旗人，世籍廣寧。",
+          "source": "qsg-volume-273",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "一柱",
+        "source": "eccp-3642442"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "一柱"
+    },
+    "romanizations": [
+      {
+        "value": "Lang T'ing-tso",
+        "system": "ECCP spelling",
+        "source": "eccp-3642442"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3642442",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3642442",
+      "passage": "eccp-3642442-001"
+    },
+    {
+      "source": "qsg-volume-273",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-273",
+      "passage": "qsg-volume-273-027",
+      "matchStatus": "proposed",
+      "evidence": "郎廷佐，字一柱，漢軍鑲黃旗人，世籍廣寧。父熙載，明諸生。太祖克廣寧，熙載來歸，授防禦，以軍功予世職游擊。崇德元年卒，長子廷輔嗣。廷佐，其次子也。自官學生授內院筆帖式，擢國史院侍讀。順治三年，從肅親王豪格徇四川，平張獻忠。六年，從英親王阿濟格討叛將薑瓖。遷秘書院學士。"
+    }
+  ],
+  "sources": {
+    "eccp-3642442": {
+      "title": "ECCP · Lang T'ing-tso",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290565",
+      "locator": "eccp-3642442-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642441": {
+      "title": "ECCP · 郎廷極",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290563",
+      "locator": "eccp-3642441-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-047",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-243": {
+      "title": "清史稿/卷243",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433528",
+      "locator": "qsg-volume-243-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-256": {
+      "title": "清史稿/卷256",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433520",
+      "locator": "qsg-volume-256-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-266": {
+      "title": "清史稿/卷266",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433590",
+      "locator": "qsg-volume-266-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-273": {
+      "title": "清史稿/卷273",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2387373",
+      "locator": "qsg-volume-273-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-505": {
+      "title": "清史稿/卷505",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605998",
+      "locator": "qsg-volume-505-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

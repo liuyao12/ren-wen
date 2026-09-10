@@ -1,0 +1,20 @@
+export default {
+  'Find another biography':'搜尋傳記',
+  'QSG account':'清史稿相關本傳',
+  'QSG account (match proposed)':'清史稿傳記（配對待核）',
+  '完整籍貫／旗籍 · Registration':'完整籍貫／旗籍',
+  'Registration category unresolved':'戶籍類別待考',
+  'Civil registration and banner company are not inferred when the source does not specify them.':'原文未明載者，不補造民籍、旗籍或佐領。',
+  'First-round reference profile; identification and biographical details await review.':'第一輪來源索引；人物身分及生平資料待逐項覆核。',
+  'biographical-account-candidate':'傳記開頭配對候選',
+  'cross-reference-entry':'參見條目',
+  'work-title-candidate':'書名／著作候選',
+  'Source-scoped title candidate. A typographic title is not a fully resolved work/edition identification.':'依本篇原文建立的書名候選；排印形式並不等於著作或版本身分已核定。',
+  'Browse all biographies':'傳記目錄',
+  'Full text imported':'全文已匯入',
+  'Annotation review pending':'標註待覆核',
+  'biography':'敘事傳記',
+  'cross-reference':'參見條目',
+  'reference-material':'編輯／參考資料',
+  'QSG match pending':'清史稿配對待核'
+};

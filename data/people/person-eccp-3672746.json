@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672746",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "輝祖",
+    "source": "eccp-3672746",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "蕭山",
+      "source": "qsg-volume-477",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hui-tsu 汪輝祖 (T. 煥曾, H. 龍莊, 歸廬), Jan. 21, 1731–1807, May 1, historian and administrator, was a native of Hsiao-shan, Chekiang. His father, Wang K'ai 汪楷 (T. 南有, 皆木), was prison warden of Ch'i-hsien, Honan, for eight years, beginning in 1732.",
+          "source": "eccp-3672746",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "汪輝祖，字龍莊，浙江蕭山人。",
+          "source": "qsg-volume-477",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "煥曾",
+        "source": "eccp-3672746"
+      }
+    ],
+    "hao": [
+      {
+        "value": "龍莊",
+        "source": "eccp-3672746"
+      },
+      {
+        "value": "歸廬",
+        "source": "eccp-3672746"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "煥曾"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hui-tsu",
+        "system": "ECCP spelling",
+        "source": "eccp-3672746"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1731,
+        "source": "eccp-3672746",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1807,
+        "source": "eccp-3672746",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672746",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672746",
+      "passage": "eccp-3672746-001"
+    },
+    {
+      "source": "qsg-volume-477",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-477",
+      "passage": "qsg-volume-477-092",
+      "matchStatus": "proposed",
+      "evidence": "汪輝祖，字龍莊，浙江蕭山人。少孤，繼母王、生母徐教之成立。習法家言，佐州縣幕，持正不阿，為時所稱。乾隆二十一年成進士，授湖南寧遠知縣。縣雜瑤俗，積逋而多訟，前令被訐去，黠桀益肆挾持；又流丐多強橫。輝祖下車，即捕其尤，驅餘黨出境。民納賦不及期，手書諭之曰：「官民一體，聽訟責在官，完賦責在民。官不勤職，咎有難辭；民不奉公，法所不恕。今約每旬以七日聽訟，二日較賦，一日手辦詳。較賦之日亦兼聽訟。若民皆遵期完課，則少費較賦之精力，即多聽訟之功夫。」民感其誠，不踰月而賦額足。"
+    }
+  ],
+  "sources": {
+    "eccp-3672746": {
+      "title": "ECCP · Wang Hui-tsu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412317",
+      "locator": "eccp-3672746-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635429": {
+      "title": "ECCP · 祁彪佳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271392",
+      "locator": "eccp-3635429-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633271": {
+      "title": "ECCP · 章學誠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293081",
+      "locator": "eccp-3633271-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637540": {
+      "title": "ECCP · 朱筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275700",
+      "locator": "eccp-3637540-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649342": {
+      "title": "ECCP · 彭紹升",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318095",
+      "locator": "eccp-3649342-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649387": {
+      "title": "ECCP · 邵晉涵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318168",
+      "locator": "eccp-3649387-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-477": {
+      "title": "清史稿/卷477",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2614792",
+      "locator": "qsg-volume-477-092",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-074",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-479": {
+      "title": "清史稿/卷479",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027163",
+      "locator": "qsg-volume-479-074",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

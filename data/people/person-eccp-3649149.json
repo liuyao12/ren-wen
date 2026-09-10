@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649149",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "尼",
+    "given": "堪",
+    "source": "eccp-3649149",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "NIKAN 尼堪, d. 1660, was a member of the Nara clan in the Ula (Sungari River) district. He joined the service of Nurhaci [q. v.] sometime after the defeat of the Ula in 1613 (see Bujantai), and was attached to the Bordered White Banner.",
+          "source": "eccp-3649158",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Nikan (d. 1652)",
+        "system": "ECCP spelling",
+        "source": "eccp-3649149"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649149",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649149",
+      "passage": "eccp-3649149-001"
+    },
+    {
+      "source": "eccp-3649158",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649158",
+      "passage": "eccp-3649158-001"
+    },
+    {
+      "source": "qsg-volume-228",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-228",
+      "passage": "qsg-volume-228-027",
+      "matchStatus": "proposed",
+      "evidence": "尼堪，納喇氏，世居松阿里烏喇。太祖時來歸，賜號「巴克什」。旗制定，隸滿洲鑲博爾晉等率師伐虎爾哈部，收五？白旗。初以說降蒙古科爾沁部，授備禦。天命十年，偕侍百戶以還，上郊勞賜宴。"
+    }
+  ],
+  "sources": {
+    "eccp-3649149": {
+      "title": "ECCP · Nikan (d. 1652)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317735",
+      "locator": "eccp-3649149-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3649158": {
+      "title": "ECCP · Nikan (d. 1660)",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317758",
+      "locator": "eccp-3649158-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-052",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-225": {
+      "title": "清史稿/卷225",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2313630",
+      "locator": "qsg-volume-225-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-226": {
+      "title": "清史稿/卷226",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2414164",
+      "locator": "qsg-volume-226-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-228": {
+      "title": "清史稿/卷228",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027373",
+      "locator": "qsg-volume-228-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-102",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-234": {
+      "title": "清史稿/卷234",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2610991",
+      "locator": "qsg-volume-234-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-235": {
+      "title": "清史稿/卷235",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433514",
+      "locator": "qsg-volume-235-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-237": {
+      "title": "清史稿/卷237",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602498",
+      "locator": "qsg-volume-237-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-249": {
+      "title": "清史稿/卷249",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433530",
+      "locator": "qsg-volume-249-049",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-280": {
+      "title": "清史稿/卷280",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2079384",
+      "locator": "qsg-volume-280-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-002",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

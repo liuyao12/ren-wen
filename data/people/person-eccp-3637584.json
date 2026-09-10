@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3637584",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "恩格德爾",
+    "source": "eccp-3637584",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "ENGGEDER 恩格德爾, d. 1636, belonged to the clan of Borjigit which claimed descent from the emperors of the Mongol dynasty. His ancestors were chieftains in the Bayot tribe that formed a subdivision of the Khalkas and had its pastures on the Sira muren, the upper waters of the Liao River, in present Jehol.",
+          "source": "eccp-3637584",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Enggeder",
+        "system": "ECCP spelling",
+        "source": "eccp-3637584"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3637584",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3637584",
+      "passage": "eccp-3637584-001"
+    },
+    {
+      "source": "eccp-3637585",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3637585",
+      "passage": "eccp-3637585-001"
+    },
+    {
+      "source": "qsg-volume-229",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-229",
+      "passage": "qsg-volume-229-026",
+      "matchStatus": "proposed",
+      "evidence": "恩格德爾，博爾濟吉特氏。其先世元裔，為蒙古喀爾喀巴約特部長。當太祖初起兵時，喀爾喀裂為五部，巴約特其一也，恩格德爾父達爾漢巴圖魯，為其部貝勒，牧地曰西喇木倫。太祖起兵之十二年，歲甲午正月，喀爾喀部貝勒老薩、北科爾沁部貝勒明安始遣使來聘。又十一年，歲乙巳，恩格德爾來謁，獻馬二十，上優賚而遣之。明年，歲丙午冬十二月，恩格德爾率五部諸貝勒之使謁太祖，獻駝馬，奉表上尊號曰神武皇帝。自此蒙古諸部朝貢歲至。"
+    }
+  ],
+  "sources": {
+    "eccp-3637584": {
+      "title": "ECCP · Enggeder",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275775",
+      "locator": "eccp-3637584-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637585": {
+      "title": "ECCP · Ên-ko-tê-êr",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275777",
+      "locator": "eccp-3637585-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635431": {
+      "title": "ECCP · 琦善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271388",
+      "locator": "eccp-3635431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639217": {
+      "title": "ECCP · 金台石",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280221",
+      "locator": "eccp-3639217-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639267": {
+      "title": "ECCP · 孝莊文皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280298",
+      "locator": "eccp-3639267-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-229": {
+      "title": "清史稿/卷229",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601720",
+      "locator": "qsg-volume-229-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-298": {
+      "title": "清史稿/卷298",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433523",
+      "locator": "qsg-volume-298-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

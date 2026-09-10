@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-74958bc3e537d92e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "方",
+    "given": "履籛",
+    "source": "eccp-3656369",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "方履籛，字彥聞，大興人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Fang Li-ch'ien",
+        "system": "ECCP spelling",
+        "source": "eccp-3656369"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 538,
+        "source": "eccp-3656369",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 545,
+        "source": "eccp-3656369",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-093",
+      "matchStatus": "proposed",
+      "evidence": "方履籛，字彥聞，大興人。與祐誠同年舉人，為令閩中。初試吏署永定，裡豪胡鳳兆掘族人父棺，並殺其子，名捕不得。履籛至，為書諭之，鳳兆自首，遂論如法。調閩縣，會旱，禱兩烈日中，體豐碩，中暑卒。履籛亦以駢文著稱。尤嗜金石文字，所積幾萬種，有伊闕石刻錄、富蘅齋碑目、河內縣志、萬善花室集。"
+    }
+  ],
+  "sources": {
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-093",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-eeca814d07a1d957",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "喻",
+    "given": "昌",
+    "source": "eccp-3639978",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "新建",
+      "source": "qsg-volume-502",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "喻昌，字嘉言，江西新建人。",
+          "source": "qsg-volume-502",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "嘉言",
+        "source": "eccp-3639978"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研農",
+        "source": "eccp-3639978"
+      },
+      {
+        "value": "玉",
+        "source": "eccp-3639978"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "嘉言"
+    },
+    "romanizations": [
+      {
+        "value": "Yü Ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639978"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-502",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-502",
+      "passage": "qsg-volume-502-016",
+      "matchStatus": "proposed",
+      "evidence": "喻昌，字嘉言，江西新建人。幼能文，不羈，與陳際泰遊。明崇禎中，以副榜貢生入都上書言事，尋詔徵，不就，往來靖安間。披為僧，复蓄髮游江南。順治中，僑居常熟，以醫名，治療多奇中。才辯縱橫，不可一世。著傷寒尚論篇，謂林億、成無已過於尊信王叔和，惟方有執作條辨，削去叔和序例，得尊經之旨；而猶有未達者，重為編訂，其淵源雖出方氏，要多自抒所見。惟溫證論中，以溫藥治溫病，後尤怡、陸鋰修並著論非之。"
+    }
+  ],
+  "sources": {
+    "eccp-3639978": {
+      "title": "ECCP · 徐大椿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282826",
+      "locator": "eccp-3639978-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-a60db6db3b55de64",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "翁",
+    "given": "同書",
+    "source": "eccp-3675184",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "常熟",
+      "source": "qsg-volume-427",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "翁同書，字藥房，江蘇常熟人，大學士心存子。",
+          "source": "qsg-volume-427",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "祖庚",
+        "source": "eccp-3675184"
+      }
+    ],
+    "hao": [
+      {
+        "value": "藥房",
+        "source": "eccp-3675184"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "祖庚"
+    },
+    "romanizations": [
+      {
+        "value": "Wêng Tung-shu",
+        "system": "ECCP spelling",
+        "source": "eccp-3675184"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-427",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-427",
+      "passage": "qsg-volume-427-026",
+      "matchStatus": "proposed",
+      "evidence": "翁同書，字藥房，江蘇常熟人，大學士心存子。道光二十年進士，選庶吉士，授編修。大考屢列二等，擢中允。咸豐元年，應詔陳四事：請撫卹失業良民；察舉潔己愛民守令；興修江、浙、湖廣水利；訓練嶺海水師。三年，命赴江南佐欽差大臣琦善軍事。擢侍講學士，轉侍讀學士，遷少詹事。六年，自軍中奏言：「安民先足兵，足兵先理財。雲南運銅道梗，請於滇中設局鼓鑄，運錢至荊州充軍需及河工之用。沿江戒嚴，淮南鹽引不行，請以浙鹽行江西，而以蘇、常、鎮、太四府州改食淮鹽。江、浙漕米改由海運，數不及全漕之半，請分米僱民船仍由運河行轉搬之"
+    }
+  ],
+  "sources": {
+    "eccp-3675184": {
+      "title": "ECCP · 翁心存",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419938",
+      "locator": "eccp-3675184-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-427": {
+      "title": "清史稿/卷427",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2259934",
+      "locator": "qsg-volume-427-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

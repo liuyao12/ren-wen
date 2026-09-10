@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5380920b553b88b7",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "焦",
+    "given": "祐瀛",
+    "source": "eccp-3654385",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "天津",
+      "source": "qsg-volume-387",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "焦祐瀛，字桂樵，直隸天津人。",
+          "source": "qsg-volume-387",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "桂樵",
+        "source": "eccp-3654385"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "桂樵"
+    },
+    "romanizations": [
+      {
+        "value": "Chiao Yu-ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3654385"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-387",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-387",
+      "passage": "qsg-volume-387-018",
+      "matchStatus": "proposed",
+      "evidence": "焦祐瀛，字桂樵，直隸天津人。道光十九年舉人，考授內閣中書，充軍機章京。累遷光祿寺少卿。咸豐十年，命赴天津靜海諸縣治團練，召回從幸熱河，命在軍機大臣上學習行走，遷太僕寺卿。祐瀛尤諂事肅順等，諸詔旨多出其手，為時所指目，故同敗。"
+    }
+  ],
+  "sources": {
+    "eccp-3654385": {
+      "title": "ECCP · 肅順",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358472",
+      "locator": "eccp-3654385-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-387": {
+      "title": "清史稿/卷387",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2073533",
+      "locator": "qsg-volume-387-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2f30aa8364fd97ab",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "袁",
+    "given": "守侗",
+    "source": "eccp-3643646",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "長山",
+      "source": "qsg-volume-324",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "袁守侗，字執衝，山東長山人。",
+          "source": "qsg-volume-324",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "執沖",
+        "source": "eccp-3643646"
+      }
+    ],
+    "hao": [
+      {
+        "value": "愚谷",
+        "source": "eccp-3643646"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "執沖"
+    },
+    "romanizations": [
+      {
+        "value": "Yüan Shou-t'ung",
+        "system": "ECCP spelling",
+        "source": "eccp-3643646"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3643646",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1783,
+        "source": "eccp-3643646",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-324",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-324",
+      "passage": "qsg-volume-324-042",
+      "matchStatus": "proposed",
+      "evidence": "袁守侗，字執衝，山東長山人。乾隆九年舉人，入貲授內閣中書，充軍機處章京。遷侍讀。再遷吏部郎中。考選江西道御史，授浙江鹽驛道。二十八年，遷廣西按察使。奏言：「煙瘴充軍人皆凶悍，請分撥泗城、鎮安、寧明、東蘭諸地；解役疏脫斬絞重囚，短解問徒，長解問流；各署書役貼寫幫差，濫收滋弊，請量定多寡，分別汰留。」又言：「卓異官，籓、臬、道、府甫到任未三月，停止出結。」部議均從之。三十四年，丁父憂，服闋，命以三品京堂仍充軍機章京，補太僕寺卿。遷吏部侍郎，調刑部。命如雲南按布政使錢度貪婪狀，論如律。三十八年，兼署禮"
+    }
+  ],
+  "sources": {
+    "eccp-3643646": {
+      "title": "ECCP · 李調元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294883",
+      "locator": "eccp-3643646-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-324": {
+      "title": "清史稿/卷324",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2484967",
+      "locator": "qsg-volume-324-042",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-765039ac8733fdbb",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "呂",
+    "given": "賢基",
+    "source": "eccp-3678459",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "旌德",
+      "source": "qsg-volume-399",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "呂賢基，字鶴田，安徽旌德人。",
+          "source": "qsg-volume-399",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "羲音",
+        "source": "eccp-3678459"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鶴田",
+        "source": "eccp-3678459"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "羲音"
+    },
+    "romanizations": [
+      {
+        "value": "Lü Hsien-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3678459"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1803,
+        "source": "eccp-3678459",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1853,
+        "source": "eccp-3678459",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-399",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-399",
+      "passage": "qsg-volume-399-006",
+      "matchStatus": "proposed",
+      "evidence": "呂賢基，字鶴田，安徽旌德人。道光十五年進士，選庶吉士，授編修。遷御史、給事中，持正敢言，數論時政得失，多所採用。文宗即位，應詔上封事，請懋聖學，正人心，育人才，恤民隱，尤被嘉納。遷鴻臚寺卿。咸豐元年，超擢工部侍郎。二年，以時事可危，疏請下詔求言，略曰：「粵西會匪滋事，二年以來，命將出師，尚無成效，甚至圍攻省城，大肆猖獗。南河豐工未能合龍，重運阻滯，災民屯聚，在在堪虞。河工費五百萬，軍需費一千馀萬，部臣束手無措，必致掊克朘削，邦本愈搖。今日事勢，譬之於病，元氣血脈，枯竭已甚，外邪又熾，若再諱疾忌醫"
+    }
+  ],
+  "sources": {
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-399": {
+      "title": "清史稿/卷399",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029843",
+      "locator": "qsg-volume-399-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

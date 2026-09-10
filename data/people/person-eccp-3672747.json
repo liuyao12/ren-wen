@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672747",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "鴻緒",
+    "source": "eccp-3672747",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Hung-hsü 王鴻緒 (T. 季友, H. 儼齋, 橫雲山人, original ming 度心), Sept. 22, 1645–1723, Sept. 14, official and calligrapher, was a native of Hua-t'ing, Kiangsu. He was the youngest brother of Wang Hsü-ling [q. v.].",
+          "source": "eccp-3672747",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王鴻緒，初名度心，字季友，江南婁縣人。",
+          "source": "qsg-volume-271",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "季友",
+        "source": "eccp-3672747"
+      }
+    ],
+    "hao": [
+      {
+        "value": "儼齋",
+        "source": "eccp-3672747"
+      },
+      {
+        "value": "橫雲山人",
+        "source": "eccp-3672747"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "季友"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hung-hsü",
+        "system": "ECCP spelling",
+        "source": "eccp-3672747"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3672747",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3672747",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672747",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672747",
+      "passage": "eccp-3672747-001"
+    },
+    {
+      "source": "qsg-volume-271",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-271",
+      "passage": "qsg-volume-271-016",
+      "matchStatus": "proposed",
+      "evidence": "王鴻緒，初名度心，字季友，江南婁縣人。康熙十二年一甲二名進士，授編修。十四年，主順天鄕試。充日講起居注官。累遷翰林院侍講。十九年，聖祖諭獎講官勤勞，加鴻緒侍讀學士銜。時湖廣有硃方旦者，自號二眉山人。造中説補，聚徒橫議，常至數千人。自詡前知，與人決休咎。巡撫董國興劾其左道惑衆，逮至京，得旨寬釋。及呉三桂反，順承郡王勒爾錦駐師荊州，方旦以佔驗出入軍營，巡撫張朝珍亦稱爲異人。上密戒勒爾錦勿爲所惑。方旦乃避走江、浙，會鴻緒得其所刊中質秘書，遂以奏進，列其誣罔君上、悖逆聖道、搖惑人心三大罪。方旦坐誅。"
+    }
+  ],
+  "sources": {
+    "eccp-3672747": {
+      "title": "ECCP · Wang Hung-hsü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412319",
+      "locator": "eccp-3672747-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635445": {
+      "title": "ECCP · 蔣廷錫",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271732",
+      "locator": "eccp-3635445-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639215": {
+      "title": "ECCP · 噶禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280219",
+      "locator": "eccp-3639215-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642431": {
+      "title": "ECCP · 郭琇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290542",
+      "locator": "eccp-3642431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658559": {
+      "title": "ECCP · 佟國維",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370116",
+      "locator": "eccp-3658559-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672743": {
+      "title": "ECCP · 王頊齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412310",
+      "locator": "eccp-3672743-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672745": {
+      "title": "ECCP · 王翬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412314",
+      "locator": "eccp-3672745-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672764": {
+      "title": "ECCP · 汪琬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412345",
+      "locator": "eccp-3672764-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-265": {
+      "title": "清史稿/卷265",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761185",
+      "locator": "qsg-volume-265-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-267": {
+      "title": "清史稿/卷267",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4469357",
+      "locator": "qsg-volume-267-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-271": {
+      "title": "清史稿/卷271",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=8732181",
+      "locator": "qsg-volume-271-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-286": {
+      "title": "清史稿/卷286",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1534130",
+      "locator": "qsg-volume-286-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-287": {
+      "title": "清史稿/卷287",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433571",
+      "locator": "qsg-volume-287-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-191",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-004",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

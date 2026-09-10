@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675200",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "汝綸",
+    "source": "eccp-3675200",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "吳汝綸，字摯父，桐城人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "摯甫",
+        "source": "eccp-3675200"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "摯甫"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ju-lun",
+        "system": "ECCP spelling",
+        "source": "eccp-3675200"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1840,
+        "source": "eccp-3675200",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1903,
+        "source": "eccp-3675200",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675200",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675200",
+      "passage": "eccp-3675200-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-219",
+      "matchStatus": "proposed",
+      "evidence": "吳汝綸，字摯父，桐城人。少貧力學，嘗得雞卵一，易松脂以照讀。好文出天性，早著文名。同治四年進士，用內閣中書。曾國藩奇其文，留佐幕府，久乃益奇之，嘗以漢禰衡相儗。旋調直隸，參李鴻章幕。時中外大政常決於國藩、鴻章二人，其奏疏多出汝綸手。"
+    }
+  ],
+  "sources": {
+    "eccp-3675200": {
+      "title": "ECCP · Wu Ju-lun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636391": {
+      "title": "ECCP · 秋瑾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272491",
+      "locator": "eccp-3636391-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633311": {
+      "title": "ECCP · 張裕釗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271676",
+      "locator": "eccp-3633311-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643639": {
+      "title": "ECCP · 黎庶昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294861",
+      "locator": "eccp-3643639-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654396": {
+      "title": "ECCP · 孫家鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358512",
+      "locator": "eccp-3654396-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-443": {
+      "title": "清史稿/卷443",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433508",
+      "locator": "qsg-volume-443-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-219",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

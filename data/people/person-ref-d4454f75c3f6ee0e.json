@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d4454f75c3f6ee0e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "鍾",
+    "given": "令嘉",
+    "source": "eccp-3635444",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "守箴",
+        "source": "eccp-3635444"
+      }
+    ],
+    "hao": [
+      {
+        "value": "甘茶老人",
+        "source": "eccp-3635444"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "守箴"
+    },
+    "romanizations": [
+      {
+        "value": "Chung Ling-chia",
+        "system": "ECCP spelling",
+        "source": "eccp-3635444"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1706,
+        "source": "eccp-3635444",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1775,
+        "source": "eccp-3635444",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

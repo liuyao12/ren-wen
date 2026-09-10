@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678131",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "葉",
+    "given": "映榴",
+    "source": "eccp-3678131",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YEH Ying-liu 葉映榴 (T. 丙[炳]霞, H. 蒼巖), Dec. 3, 1638–1688, June 23, official, and martyr, was a native of Shanghai. He became a chin-shih in 1661 at the age of twenty-four (sui). After holding several posts in Peking he was appointed in 1676 superintendent of customs of Kiangsi.",
+          "source": "eccp-3678131",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "葉映榴，字炳霞，江南上海人。",
+          "source": "qsg-volume-253",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "丙",
+        "source": "eccp-3678131"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蒼巖",
+        "source": "eccp-3678131"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "丙"
+    },
+    "romanizations": [
+      {
+        "value": "Yeh Ying-liu",
+        "system": "ECCP spelling",
+        "source": "eccp-3678131"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1638,
+        "source": "eccp-3678131",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1688,
+        "source": "eccp-3678131",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678131",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678131",
+      "passage": "eccp-3678131-001"
+    },
+    {
+      "source": "qsg-volume-253",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-253",
+      "passage": "qsg-volume-253-038",
+      "matchStatus": "proposed",
+      "evidence": "葉映榴，字炳霞，江南上海人。順治十八年進士，選庶吉士。時方嚴治江南逋賦士紳，映榴在籍中，降國子監博士。累遷禮部郎中。出榷贛關，會吳三桂叛，贛南北路絕。映榴與同官守險要，撫流民，境獲寧。提學陝西巡撫鄂愷薦其才，康熙二十四年，授湖廣糧儲道。清積逋，減耗羨，事有不便於民者，輒與大吏力爭。"
+    }
+  ],
+  "sources": {
+    "eccp-3678131": {
+      "title": "ECCP · Yeh Ying-liu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442929",
+      "locator": "eccp-3678131-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3656327": {
+      "title": "ECCP · 宋犖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365077",
+      "locator": "eccp-3656327-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-253": {
+      "title": "清史稿/卷253",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2026844",
+      "locator": "qsg-volume-253-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-488": {
+      "title": "清史稿/卷488",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2626097",
+      "locator": "qsg-volume-488-060",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

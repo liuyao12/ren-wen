@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-3bd2c5f8c8ab1a2b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "石",
+    "given": "廷柱",
+    "source": "eccp-3658562",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Shih T'ing-chu 石廷柱 (1599–1661, posthumous name 忠勇) who had joined the Manchus in 1622. In 1639 these two wings were further divided into four Banners, and in 1642 the Eight Chinese Banners were organized after the Manchu pattern.",
+          "source": "eccp-3658562",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Shih T'ing-chu",
+        "system": "ECCP spelling",
+        "source": "eccp-3658562"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1599,
+        "source": "eccp-3658562",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1661,
+        "source": "eccp-3658562",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3658562": {
+      "title": "ECCP · 佟養性",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370119",
+      "locator": "eccp-3658562-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

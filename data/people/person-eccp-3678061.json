@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678061",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "大澂",
+    "source": "eccp-3678061",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "吳縣",
+      "source": "qsg-volume-450",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "WU Ta-ch'êng 吳大澂 (T. 止敬, 清卿, H. 恆軒, 愙齋, 白雲山樵, 白雲病叟, original ming 大淳), June 6, 1835–1902, Mar. 6, civil and military official, archaeologist and calligrapher, was a native of Soochow.",
+          "source": "eccp-3678061",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "吳大澂，字清卿，江蘇吳縣人。",
+          "source": "qsg-volume-450",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "止敬",
+        "source": "eccp-3678061"
+      },
+      {
+        "value": "清卿",
+        "source": "eccp-3678061"
+      }
+    ],
+    "hao": [
+      {
+        "value": "恆軒",
+        "source": "eccp-3678061"
+      },
+      {
+        "value": "愙齋",
+        "source": "eccp-3678061"
+      },
+      {
+        "value": "白雲山樵",
+        "source": "eccp-3678061"
+      },
+      {
+        "value": "白雲病叟",
+        "source": "eccp-3678061"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "止敬"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Ta-ch'êng",
+        "system": "ECCP spelling",
+        "source": "eccp-3678061"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3678061",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1902,
+        "source": "eccp-3678061",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678061",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678061",
+      "passage": "eccp-3678061-001"
+    },
+    {
+      "source": "qsg-volume-450",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-450",
+      "passage": "qsg-volume-450-024",
+      "matchStatus": "proposed",
+      "evidence": "吳大澂，字清卿，江蘇吳縣人。同治元年秋，彗星見西北，詔求直言。大澂方為諸生，入都應京兆試。上書言：「致治之本，在興儉舉廉，不言理財而財自裕。若專務掊克，罔恤民艱，其國必敝。」後六年成進士，授編修。穆宗大婚典禮隆縟，疏請裁減繁費，直聲震朝右。出為陝甘學政，奏以倉頡列祀典，允之。又薦諸生賀瑞麟、楊樹椿篤志正學，給瑞麟國子監學正銜，樹椿翰林院待詔銜，士風為之一變。時詔修頤和園，大澂復言時事艱難，請停止工作。疏入，留中。"
+    }
+  ],
+  "sources": {
+    "eccp-3678061": {
+      "title": "ECCP · Wu Ta-ch'êng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442370",
+      "locator": "eccp-3678061-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639965": {
+      "title": "ECCP · 許景澄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282789",
+      "locator": "eccp-3639965-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640823": {
+      "title": "ECCP · 奕譞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285404",
+      "locator": "eccp-3640823-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-016",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645502": {
+      "title": "ECCP · 劉鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299443",
+      "locator": "eccp-3645502-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649322": {
+      "title": "ECCP · 潘祖蔭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318050",
+      "locator": "eccp-3649322-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654399": {
+      "title": "ECCP · 孫詒讓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358521",
+      "locator": "eccp-3654399-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656325": {
+      "title": "ECCP · 宋慶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365074",
+      "locator": "eccp-3656325-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656380": {
+      "title": "ECCP · 丁日昌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365162",
+      "locator": "eccp-3656380-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656369": {
+      "title": "ECCP · 鄧石如",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365144",
+      "locator": "eccp-3656369-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678459": {
+      "title": "ECCP · 袁甲三",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443795",
+      "locator": "eccp-3678459-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-077",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-413": {
+      "title": "清史稿/卷413",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433597",
+      "locator": "qsg-volume-413-034",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-450": {
+      "title": "清史稿/卷450",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433591",
+      "locator": "qsg-volume-450-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-451": {
+      "title": "清史稿/卷451",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607436",
+      "locator": "qsg-volume-451-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-460": {
+      "title": "清史稿/卷460",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2024587",
+      "locator": "qsg-volume-460-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-461": {
+      "title": "清史稿/卷461",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021091",
+      "locator": "qsg-volume-461-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-496": {
+      "title": "清史稿/卷496",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542421",
+      "locator": "qsg-volume-496-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-503": {
+      "title": "清史稿/卷503",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605970",
+      "locator": "qsg-volume-503-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

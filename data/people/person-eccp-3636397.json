@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3636397",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "周",
+    "given": "永年",
+    "source": "eccp-3636397",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHOU Yung-nien 周永年 (T. 書昌(倉), H. 林汲山人), 1730–1791, Aug., scholar and bibliophile, was a native of Li-ch'êng, Shantung. From youth on his favorite pursuit was the collecting of books, and when he was a student in the Lo-yūan Academy 濼源書院 at Tsinan he already possessed a library of several thousand chüan.",
+          "source": "eccp-3636397",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "周永年，字書昌，歷城人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "書昌",
+        "source": "eccp-3636397"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "書昌"
+    },
+    "romanizations": [
+      {
+        "value": "Chou Yung-nien",
+        "system": "ECCP spelling",
+        "source": "eccp-3636397"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1730,
+        "source": "eccp-3636397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1791,
+        "source": "eccp-3636397",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3636397",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3636397",
+      "passage": "eccp-3636397-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-177",
+      "matchStatus": "proposed",
+      "evidence": "周永年，字書昌，歷城人。博學貫通，為時推許。乾隆三十六年進士，與晉涵同徵修四庫書，改翰林院庶吉士，授編修。四十四年，充貴州鄉試副考官。永年在書館好深沉之思，四部兵、農、天算、術數諸家，鉤稽精義，褒譏悉當，為同館所推重。見宋、元遺書湮沒者多見採於永樂大典中，於是抉摘編摩，自永新劉氏兄弟公是、公非集以下，凡得十餘家，皆前人所未見者，咸著於錄。又以為釋、道有藏，儒者獨無。乃開借書園，聚古今書籍十萬卷，供人閱覽傳鈔，以廣流傳。惜永年歿後，漸就散佚，則未定經久之法也。"
+    }
+  ],
+  "sources": {
+    "eccp-3636397": {
+      "title": "ECCP · Chou Yung-nien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272509",
+      "locator": "eccp-3636397-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640036": {
+      "title": "ECCP · 惠棟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282968",
+      "locator": "eccp-3640036-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646146": {
+      "title": "ECCP · 馬驌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300563",
+      "locator": "eccp-3646146-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649387": {
+      "title": "ECCP · 邵晉涵",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318168",
+      "locator": "eccp-3649387-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654398": {
+      "title": "ECCP · 孫星衍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358518",
+      "locator": "eccp-3654398-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656336": {
+      "title": "ECCP · 戴震",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365096",
+      "locator": "eccp-3656336-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658544": {
+      "title": "ECCP · 段玉裁",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370092",
+      "locator": "eccp-3658544-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678431": {
+      "title": "ECCP · 余集",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443720",
+      "locator": "eccp-3678431-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-177",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

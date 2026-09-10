@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639271",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "獻皇后",
+    "source": "eccp-3639271",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HSIAO-hsien Huang-hou 孝獻皇后, Empress Hsiao-hsien, 1639–1660, Sept. 23, favorite consort of Emperor Shih-tsu (i.e. Fu-lin, q.v.), was the daughter of Oši 鄂碩 (d. 1657) of the Donggo clan and the Plain White Banner.",
+          "source": "eccp-3639271",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hsiao-hsien Huang-hou",
+        "system": "ECCP spelling",
+        "source": "eccp-3639271"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1639,
+        "source": "eccp-3639271",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1660,
+        "source": "eccp-3639271",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639271",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639271",
+      "passage": "eccp-3639271-001"
+    },
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-083",
+      "matchStatus": "proposed",
+      "evidence": "孝獻皇后，董鄂氏，內大臣鄂碩女。年十八入侍，上眷之特厚，寵冠後宮。順治十三年八月，立為賢妃。十二月，進皇貴妃，行冊立禮，頒赦。上皇太后徽號，鄂碩本以軍功授一等精奇尼哈番，進三等伯。十七年八月，薨，上輟朝五日。追諡孝獻莊和至德宣仁溫惠端敬皇后。"
+    }
+  ],
+  "sources": {
+    "eccp-3639271": {
+      "title": "ECCP · Hsiao-hsien Huang-hou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280302",
+      "locator": "eccp-3639271-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-083",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

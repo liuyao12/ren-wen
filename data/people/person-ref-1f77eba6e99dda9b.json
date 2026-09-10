@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-1f77eba6e99dda9b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "育龍",
+    "source": "eccp-3656319",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "靖遠",
+      "source": "qsg-volume-281",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "潘育龍，字飛天，甘肅靖遠人。",
+          "source": "qsg-volume-281",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天飛",
+        "source": "eccp-3656319"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天飛"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Yü-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656319"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-281",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-281",
+      "passage": "qsg-volume-281-052",
+      "matchStatus": "proposed",
+      "evidence": "潘育龍，字飛天，甘肅靖遠人。初入伍，從征李來亨等於茅麓山，有功。康熙十四年，王輔臣叛，育龍從副將偏圖攻三水、淳化，復從揚威將軍阿密達戰涇州。寧夏道梗，大將軍董額使育龍赴提督陳福軍，自紅河川、白馬城諸要隘轉戰七晝夜，達寧夏。駐靈州，招撫散卒。總督哈佔調援山陽，敗賊於甘溝口。十五年，從撫遠大將軍圖海奪平涼城北虎山墩。累擢守備。十七年，吳三桂兵犯牛頭山、香泉，育龍從總兵王好問等出間道擊破之。十八年，克梁河關，斬三桂將李景才、景文略等；薄興安，三桂將謝泗、王永世以城降。敘功，擢都司僉書。叛將譚弘據川東，"
+    }
+  ],
+  "sources": {
+    "eccp-3656319": {
+      "title": "ECCP · 孫思克",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365062",
+      "locator": "eccp-3656319-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-281": {
+      "title": "清史稿/卷281",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162740",
+      "locator": "qsg-volume-281-052",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656342",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "泰昌",
+    "source": "eccp-3656342",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "T'ai-ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3656342"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656342",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3656342",
+      "passage": "eccp-3656342-001"
+    }
+  ],
+  "sources": {
+    "eccp-3656342": {
+      "title": "ECCP · T'ai-ch'ang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365103",
+      "locator": "eccp-3656342-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636400": {
+      "title": "ECCP · 朱常洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272520",
+      "locator": "eccp-3636400-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636431": {
+      "title": "ECCP · 朱由檢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272570",
+      "locator": "eccp-3636431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-232": {
+      "title": "清史稿/卷232",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630058",
+      "locator": "qsg-volume-232-050",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-286": {
+      "title": "清史稿/卷286",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1534130",
+      "locator": "qsg-volume-286-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

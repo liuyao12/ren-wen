@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3654371",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "石",
+    "given": "韞玉",
+    "source": "eccp-3654371",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "SHIH Yün-yü 石韞玉 (T. 執如, H. 琢堂, 獨學老人, 歸眞子), 1756–1837, June 7, official, scholar, and calligrapher, was a native of Wu-hsien (Soochow). Taking his chü-jên degree in 1779, he was employed during most of the ensuing eleven years as secretary to various magistrates or prefects.",
+          "source": "eccp-3654371",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "執如",
+        "source": "eccp-3654371"
+      }
+    ],
+    "hao": [
+      {
+        "value": "琢堂",
+        "source": "eccp-3654371"
+      },
+      {
+        "value": "獨學老人",
+        "source": "eccp-3654371"
+      },
+      {
+        "value": "歸眞子",
+        "source": "eccp-3654371"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "執如"
+    },
+    "romanizations": [
+      {
+        "value": "Shih Yün-yü",
+        "system": "ECCP spelling",
+        "source": "eccp-3654371"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3654371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1837,
+        "source": "eccp-3654371",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3654371",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3654371",
+      "passage": "eccp-3654371-001"
+    }
+  ],
+  "sources": {
+    "eccp-3654371": {
+      "title": "ECCP · Shih Yün-yü",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358442",
+      "locator": "eccp-3654371-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635454": {
+      "title": "ECCP · 錢棨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271396",
+      "locator": "eccp-3635454-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640012": {
+      "title": "ECCP · 黃丕烈",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282907",
+      "locator": "eccp-3640012-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649351": {
+      "title": "ECCP · 彭蘊章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318108",
+      "locator": "eccp-3649351-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654374": {
+      "title": "ECCP · 舒位",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358449",
+      "locator": "eccp-3654374-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649402": {
+      "title": "ECCP · 沈復",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318194",
+      "locator": "eccp-3649402-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656371": {
+      "title": "ECCP · 鐵保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365150",
+      "locator": "eccp-3656371-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675183": {
+      "title": "ECCP · 翁方綱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419937",
+      "locator": "eccp-3675183-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678099": {
+      "title": "ECCP · 姚鼐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442593",
+      "locator": "eccp-3678099-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

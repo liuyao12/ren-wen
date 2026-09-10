@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672725",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "景祺",
+    "source": "eccp-3672725",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Ching-ch'i 汪景祺 (T. 無己, H. 星堂), 1672–1726, Jan. 15, victim of a literary inquisition, was a native of Ch'ien-t'ang (Hangchow), Chekiang. His personal name was originally Jih-ch'i 日祺.",
+          "source": "eccp-3672725",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "無己",
+        "source": "eccp-3672725"
+      }
+    ],
+    "hao": [
+      {
+        "value": "星堂",
+        "source": "eccp-3672725"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "無己"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ching-ch'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3672725"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1672,
+        "source": "eccp-3672725",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1726,
+        "source": "eccp-3672725",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672725",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672725",
+      "passage": "eccp-3672725-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672725": {
+      "title": "ECCP · Wang Ching-ch'i",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412280",
+      "locator": "eccp-3672725-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633251": {
+      "title": "ECCP · 查嗣庭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271544",
+      "locator": "eccp-3633251-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639962": {
+      "title": "ECCP · 熊賜履",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282783",
+      "locator": "eccp-3639962-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642387": {
+      "title": "ECCP · 高士奇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290437",
+      "locator": "eccp-3642387-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643622": {
+      "title": "ECCP · 李紱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294826",
+      "locator": "eccp-3643622-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649146": {
+      "title": "ECCP · 年羹堯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317726",
+      "locator": "eccp-3649146-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649393": {
+      "title": "ECCP · 沈近思",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318178",
+      "locator": "eccp-3649393-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654381": {
+      "title": "ECCP · 索額圖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358462",
+      "locator": "eccp-3654381-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678467": {
+      "title": "ECCP · 岳鍾琪",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443808",
+      "locator": "eccp-3678467-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-290": {
+      "title": "清史稿/卷290",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433552",
+      "locator": "qsg-volume-290-024",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-291": {
+      "title": "清史稿/卷291",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1515511",
+      "locator": "qsg-volume-291-037",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-293": {
+      "title": "清史稿/卷293",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433496",
+      "locator": "qsg-volume-293-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-294": {
+      "title": "清史稿/卷294",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1378227",
+      "locator": "qsg-volume-294-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-295": {
+      "title": "清史稿/卷295",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=4468582",
+      "locator": "qsg-volume-295-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

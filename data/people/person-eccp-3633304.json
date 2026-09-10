@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633304",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "維屏",
+    "source": "eccp-3633304",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Wei-p'ing 張維屏 (T. 子樹, H. 南山, 松心子, 珠海老漁), Oct. 27, 1780–1859, Oct. 13, official and poet, was a native of P'an-yü (Canton). For his early education he was indebted to his father, Chang Ping-wên 張炳文 (T. 虎臣, H. 綉山, 1753–1826), who was a teacher and a chü-jên of 1801.",
+          "source": "eccp-3633304",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "張維屏，字子樹，番禺人。",
+          "source": "qsg-volume-486",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子樹",
+        "source": "eccp-3633304"
+      }
+    ],
+    "hao": [
+      {
+        "value": "南山",
+        "source": "eccp-3633304"
+      },
+      {
+        "value": "松心子",
+        "source": "eccp-3633304"
+      },
+      {
+        "value": "珠海老漁",
+        "source": "eccp-3633304"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子樹"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Wei-p'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3633304"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1780,
+        "source": "eccp-3633304",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1859,
+        "source": "eccp-3633304",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633304",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633304",
+      "passage": "eccp-3633304-001"
+    },
+    {
+      "source": "qsg-volume-486",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-486",
+      "passage": "qsg-volume-486-111",
+      "matchStatus": "proposed",
+      "evidence": "張維屏，字子樹，番禺人。工詩，計偕入都，翁方綱賞異之。與黃培芳、譚敬昭稱「粵東三子」。道光二年進士，改官知縣，署黃梅。江水潰堤，乘小舟勘災，水急舟衝溜，掛樹免。民為謠曰：「犯急湍，官救民，神救官。」調補廣濟，公費一資漕折，民苦之，勢不可革，引疾去。汪廷珍語人曰：「縣官不原收漕，世罕見也！」丁艱服闋，原就閒，援例改郡丞，權南康。建太白、東坡祠廬山，暇則集諸生談藝，以風雅寓規勸焉。未一載，复罷歸。築聽松園，頹然不與世事，癖愛松，又號松心子。見松形奇古，輒下拜。精書法，朝鮮、小呂宋得其書，咸寶愛之。卒"
+    }
+  ],
+  "sources": {
+    "eccp-3633304": {
+      "title": "ECCP · Chang Wei-p'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271671",
+      "locator": "eccp-3633304-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633526": {
+      "title": "ECCP · 陳澧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271464",
+      "locator": "eccp-3633526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643702": {
+      "title": "ECCP · 梁廷枏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649312": {
+      "title": "ECCP · 潘振承",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318029",
+      "locator": "eccp-3649312-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-019",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678129": {
+      "title": "ECCP · 葉桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442926",
+      "locator": "eccp-3678129-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-111",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

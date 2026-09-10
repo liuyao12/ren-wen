@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643623",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "富孫",
+    "source": "eccp-3643623",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LI Fu-sun 李富孫 (T. 既汸, H. 薌沚, 畗盦), 1764–1843, scholar, was a native of Kashing (Chia-hsing), Chekiang, whose family was well-known for several generations for its literary achievements.",
+          "source": "eccp-3643623",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "李富孫，字既汸，嘉興人。",
+          "source": "qsg-volume-482",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "既汸",
+        "source": "eccp-3643623"
+      }
+    ],
+    "hao": [
+      {
+        "value": "薌沚",
+        "source": "eccp-3643623"
+      },
+      {
+        "value": "畗盦",
+        "source": "eccp-3643623"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "既汸"
+    },
+    "romanizations": [
+      {
+        "value": "Li Fu-sun",
+        "system": "ECCP spelling",
+        "source": "eccp-3643623"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1764,
+        "source": "eccp-3643623",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1843,
+        "source": "eccp-3643623",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643623",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643623",
+      "passage": "eccp-3643623-001"
+    },
+    {
+      "source": "qsg-volume-482",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-482",
+      "passage": "qsg-volume-482-078",
+      "matchStatus": "proposed",
+      "evidence": "李富孫，字既汸，嘉興人。嘉慶六年拔貢生。良年來孫，良年自有傳。從祖集。字敬堂，乾隆二十八年進士，官鄖縣知縣。精研經學，以漢、唐爲宗，嘗爲學規論以課窮經、課經濟，著有原學齋文鈔。"
+    }
+  ],
+  "sources": {
+    "eccp-3643623": {
+      "title": "ECCP · Li Fu-sun",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294827",
+      "locator": "eccp-3643623-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3636416": {
+      "title": "ECCP · 朱彝尊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272547",
+      "locator": "eccp-3636416-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639180": {
+      "title": "ECCP · 馮登府",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280162",
+      "locator": "eccp-3639180-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646129": {
+      "title": "ECCP · 陸心源",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300529",
+      "locator": "eccp-3646129-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3677759": {
+      "title": "ECCP · Thirty-three Collections of Ch'ing Dynasty Biographies",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11440506",
+      "locator": "eccp-3677759-062",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-078",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

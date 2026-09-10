@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bb7e3bad3d74d64c",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "錦棠",
+    "source": "eccp-3658526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "湘鄉",
+      "source": "qsg-volume-454",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "劉錦棠，字毅齋，湖南湘鄉人，松山從子也。",
+          "source": "qsg-volume-454",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ],
+      "administrativeLabel": "湖南長沙府湘鄉縣",
+      "administrativeSource": "registry-geography",
+      "kind": "administrative-hierarchy",
+      "registrationCategory": null,
+      "company": null,
+      "note": "Administrative path assembled from the cited geography and native-place record. 民籍 and other registration categories are not stated."
+    },
+    "zi": [
+      {
+        "value": "毅齋",
+        "source": "eccp-3658526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "毅齋"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Chin-t'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3658526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1844,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1894,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-454",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-454",
+      "passage": "qsg-volume-454-008",
+      "matchStatus": "proposed",
+      "evidence": "劉錦棠，字毅齋，湖南湘鄉人，松山從子也。從松山討捻，積勳至同知直隸州。從入陝，復同州、朝邑，釋省城圍，擢巡守道。同治七年，左宗棠西征，從克懷遠、鎮邊，還定綏德，賜號法福凌阿巴圖魯。進軍甘肅，攻金積堡，夷旁近七寨，破靈州。九年，擊馬五寨，松山戰死，詔加三品卿銜，接統其軍。軍新敗，偏裨自恃為宿將，滋驕，錦棠禮詘之。喪懸吳忠堡，或請徙它處，錦棠不可，曰：「櫬在軍，可係將士心。」宗棠貽書，為列堅守、退頓二策。錦棠謂：「不力戰，則靈州不保，必效力致死，而後軍可全。」於是一戰擒馬五，再戰破河、狄，軍復振。"
+    }
+  ],
+  "sources": {
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-454": {
+      "title": "清史稿/卷454",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2612997",
+      "locator": "qsg-volume-454-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "registry-geography": {
+      "title": "清史稿 · 卷68 · 湖南",
+      "url": "https://zh.wikisource.org/wiki/清史稿/卷68",
+      "access": "full-text",
+      "attribution": "清史稿編纂者；Wikisource contributors",
+      "rights": "Public-domain historical text; separately applicable Wikisource transcription terms retained.",
+      "locator": "長沙府下湘鄉"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5d323fd9d1230c5d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "劉",
+    "given": "清",
+    "source": "eccp-3642446",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "廣順",
+      "source": "qsg-volume-361",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Liu Ch'ing 劉清 (T. 天一, H. 松齋, 1742–1827), a native of Kuang-shun, Kweichow, began his career as a civil official and served as magistrate in Szechwan when the war started in 1796. He commanded a group of volunteers and rose to be provincial judge of Szechwan in 1802.",
+          "source": "eccp-3642446",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "劉清，字天一，貴州廣順人。",
+          "source": "qsg-volume-361",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "天一",
+        "source": "eccp-3642446"
+      }
+    ],
+    "hao": [
+      {
+        "value": "松齋",
+        "source": "eccp-3642446"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "天一"
+    },
+    "romanizations": [
+      {
+        "value": "Liu Ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3642446"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1742,
+        "source": "eccp-3642446",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1827,
+        "source": "eccp-3642446",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-361",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-361",
+      "passage": "qsg-volume-361-006",
+      "matchStatus": "proposed",
+      "evidence": "劉清，字天一，貴州廣順人。由拔貢議敘，授四川冕寧縣丞，擢南充知縣，政聲為一省之冠。"
+    }
+  ],
+  "sources": {
+    "eccp-3642446": {
+      "title": "ECCP · 勒保",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11291104",
+      "locator": "eccp-3642446-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-361": {
+      "title": "清史稿/卷361",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433537",
+      "locator": "qsg-volume-361-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

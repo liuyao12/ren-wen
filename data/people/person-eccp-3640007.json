@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640007",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "黃",
+    "given": "芳世",
+    "source": "eccp-3640007",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUANG Fang-shih 黃芳世 (T. 周士), d. 1678, general, was a native of P'ing-ho, Fukien. When his uncle, Huang Wu [q. v.], was in command of the troops at Chang-chou, Huang Fang-shih represented him at Court, received preferment, and for twelve years enjoyed the life of Peking.",
+          "source": "eccp-3640007",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "周士",
+        "source": "eccp-3640007"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "周士"
+    },
+    "romanizations": [
+      {
+        "value": "Huang Fang-shih",
+        "system": "ECCP spelling",
+        "source": "eccp-3640007"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640007",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640007",
+      "passage": "eccp-3640007-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640007": {
+      "title": "ECCP · Huang Fang-shih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282893",
+      "locator": "eccp-3640007-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640008": {
+      "title": "ECCP · 黃芳泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282895",
+      "locator": "eccp-3640008-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-224": {
+      "title": "清史稿/卷224",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433586",
+      "locator": "qsg-volume-224-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-260": {
+      "title": "清史稿/卷260",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433573",
+      "locator": "qsg-volume-260-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-261": {
+      "title": "清史稿/卷261",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025526",
+      "locator": "qsg-volume-261-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

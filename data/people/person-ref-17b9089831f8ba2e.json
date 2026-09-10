@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-17b9089831f8ba2e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "心敬",
+    "source": "eccp-3643672",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "王心敬，字爾緝，鄠縣人。",
+          "source": "qsg-volume-480",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Wang Hsin-ching",
+        "system": "ECCP spelling",
+        "source": "eccp-3643672"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1656,
+        "source": "eccp-3643672",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1738,
+        "source": "eccp-3643672",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-480",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-480",
+      "passage": "qsg-volume-480-041",
+      "matchStatus": "proposed",
+      "evidence": "王心敬，字爾緝，鄠縣人。乾隆元年，舉孝廉方正。心敬論學，以明、新、止至善為歸。謹嚴不逮其師，注經好為異論，而易說為篤實。其言曰：「學易可以無大過矣，是孔子論易，切於人身，即可知四聖之本旨。」著有豐川集、關學編、豐川易說。"
+    }
+  ],
+  "sources": {
+    "eccp-3643672": {
+      "title": "ECCP · 李顒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294922",
+      "locator": "eccp-3643672-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-041",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

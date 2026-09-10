@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-d3d6d6acb022c2d9",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "左",
+    "given": "觀瀾",
+    "source": "eccp-3658526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "永新",
+      "source": "qsg-volume-489",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "左觀瀾，字繡川，江西永新人。",
+          "source": "qsg-volume-489",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "晏臣",
+        "source": "eccp-3658526"
+      },
+      {
+        "value": "春航",
+        "source": "eccp-3658526"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "晏臣"
+    },
+    "romanizations": [
+      {
+        "value": "Tso Kuan-lan",
+        "system": "ECCP spelling",
+        "source": "eccp-3658526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1778,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1830,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-489",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-489",
+      "passage": "qsg-volume-489-080",
+      "matchStatus": "proposed",
+      "evidence": "左觀瀾，字繡川，江西永新人。由舉人大挑知縣，發陝西，權五郎廳通判。五郎扼要川、陝，無城。觀瀾蒞任，既募鄕勇訓練，即牒大府，捐廉僱役，築土城，躬自督之。半月工竣，三日而教匪至，悉精鋭啓城追剿，斬獲甚衆。數日，賊突出別道，薄城，衆寡不敵，請援又不至，觀瀾乃召子承廕等勵之，皆泣對曰：「原從死。」即分兵乘城，夜多燃炬束，老弱大呼譟。賊不知虚實，引去。將軍德楞泰、明亮至，詢狀驚嘆，遣守備率兵駐城中，聽觀瀾節制，城守益堅，民樂爲用。"
+    }
+  ],
+  "sources": {
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-489": {
+      "title": "清史稿/卷489",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485119",
+      "locator": "qsg-volume-489-080",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

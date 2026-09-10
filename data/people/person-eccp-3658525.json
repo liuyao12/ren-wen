@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658525",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "左",
+    "given": "懋第",
+    "source": "eccp-3658525",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TSO Mou-ti 左懋第 (T. 仲及, H. 蘿石), 1601–1645, Aug., Ming official and martyr, was a native of Laiyang, Shantung. He became a chin-shih in 1631, was made a prefect of Han-ch'êng, Shensi, and later supervising censor of the Board of Revenue in which capacity he pleaded earnestly for relief of the people from burdensome taxes and military levies.",
+          "source": "eccp-3658525",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲及",
+        "source": "eccp-3658525"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蘿石",
+        "source": "eccp-3658525"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲及"
+    },
+    "romanizations": [
+      {
+        "value": "Tso Mou-ti",
+        "system": "ECCP spelling",
+        "source": "eccp-3658525"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1601,
+        "source": "eccp-3658525",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3658525",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658525",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658525",
+      "passage": "eccp-3658525-001"
+    }
+  ],
+  "sources": {
+    "eccp-3658525": {
+      "title": "ECCP · Tso Mou-ti",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370037",
+      "locator": "eccp-3658525-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633268": {
+      "title": "ECCP · 張獻忠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271609",
+      "locator": "eccp-3633268-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-474": {
+      "title": "清史稿/卷474",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162953",
+      "locator": "qsg-volume-474-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

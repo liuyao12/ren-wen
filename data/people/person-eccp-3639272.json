@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639272",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "孝恭仁皇后",
+    "source": "eccp-3639272",
+    "jiguan": null,
+    "bracket": {
+      "kind": "clan",
+      "label": "烏雅",
+      "source": "eccp-3639272"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Hsiao-kung Jên Huang-hou 孝恭仁皇后, 1660–1723, June 25, secondary consort of Emperor Shêng-tsu, and mother of his fourth son and successor (see under Yin-chên), was the daughter of Wei-wu 威武 (also written 衛武) of the Uya 烏雅 clan, a lieutenant-colonel belonging to the Manchu Plain Yellow Banner.",
+          "source": "eccp-3639272",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "Jên Huang-hou 孝恭仁皇后, 1660–1723, June 25, secondary consort of Emperor Shêng-tsu, and mother of his fourth son and successor (see under Yin-chên), was the daughter of Wei-wu 威武 (also written 衛武) of the Uya 烏雅 clan, a lieutenant-colonel belonging to the Manchu Plain Yellow Banner.",
+          "source": "eccp-3639272",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hsiao-kung Jên Huang-hou",
+        "system": "ECCP spelling",
+        "source": "eccp-3639272"
+      }
+    ],
+    "clan": {
+      "label": "烏雅",
+      "source": "eccp-3639272"
+    }
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1660,
+        "source": "eccp-3639272",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1723,
+        "source": "eccp-3639272",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639272",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639272",
+      "passage": "eccp-3639272-001"
+    },
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-109",
+      "matchStatus": "proposed",
+      "evidence": "孝恭仁皇后，烏雅氏，護軍參領威武女。後事聖祖。康熙十七年十月丁酉，世宗生。十八年，為德嬪。二十年，進德妃。世宗即位，尊為皇太后，擬上徽號曰仁壽皇太后，未上冊。雍正元年五月辛丑，崩，年六十四。葬景陵。上諡，曰孝恭宣惠溫肅定裕慈純欽穆贊天承聖仁皇后。子三：世宗，允禵，允祚。允祚六歲殤。女三：其二殤，一下嫁舜安顏。"
+    }
+  ],
+  "sources": {
+    "eccp-3639272": {
+      "title": "ECCP · Hsiao-kung Jên Huang-hou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280305",
+      "locator": "eccp-3639272-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-109",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-313": {
+      "title": "清史稿/卷313",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1162746",
+      "locator": "qsg-volume-313-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

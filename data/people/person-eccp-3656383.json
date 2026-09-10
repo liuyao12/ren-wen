@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656383",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "丁",
+    "given": "寶楨",
+    "source": "eccp-3656383",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "平遠",
+      "source": "qsg-volume-447",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TING Pao-chên 丁寶楨 (T. 稚黃), June 8, 1820–1886, May 24, official, was a native of Niu-ch'ang 牛廠, a village in the department P'ing-yüan-chou, in Kweichow. His grandfather was a magistrate in Szechwan and his father was a sub-director of schools.",
+          "source": "eccp-3656383",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "丁寶楨，字稚璜，貴州平遠人。",
+          "source": "qsg-volume-447",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "稚黃",
+        "source": "eccp-3656383"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "稚黃"
+    },
+    "romanizations": [
+      {
+        "value": "Ting Pao-chên",
+        "system": "ECCP spelling",
+        "source": "eccp-3656383"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1820,
+        "source": "eccp-3656383",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1886,
+        "source": "eccp-3656383",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656383",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656383",
+      "passage": "eccp-3656383-001"
+    },
+    {
+      "source": "qsg-volume-447",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-447",
+      "passage": "qsg-volume-447-007",
+      "matchStatus": "proposed",
+      "evidence": "丁寶楨，字稚璜，貴州平遠人。咸豐三年進士，選庶吉士。母喪里居，遵義楊隆喜反，斥家財募壯士八百捍鄉里，戰始不利，繼獲大勝。服闋，會苗、教蜂起，巡撫蔣霨遠奏留軍，特旨授編修，增募至四千人，復平越、獨山諸城。十年，除知岳州府，始罷遣所募兵。虧餉巨萬，乃陳五百金案上，語眾曰：「與諸君共事久，今庫饋詘，徒手歸，奈何？」眾泣曰：「公毀家紓難，我等敢他求乎？」遂去。越歲，調長沙。有客軍數千，以無主將譁變，立請大府貸發三萬，斬五人，事遂定。"
+    }
+  ],
+  "sources": {
+    "eccp-3656383": {
+      "title": "ECCP · Ting Pao-chên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365165",
+      "locator": "eccp-3656383-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633308": {
+      "title": "ECCP · 張蔭桓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271673",
+      "locator": "eccp-3633308-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639264": {
+      "title": "ECCP · 孝欽顯皇后",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639990": {
+      "title": "ECCP · 薛福成",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282856",
+      "locator": "eccp-3639990-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645519": {
+      "title": "ECCP · 劉寶楠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299489",
+      "locator": "eccp-3645519-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646144": {
+      "title": "ECCP · 馬國翰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300560",
+      "locator": "eccp-3646144-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656351": {
+      "title": "ECCP · 唐炯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365117",
+      "locator": "eccp-3656351-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672727": {
+      "title": "ECCP · 汪中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412283",
+      "locator": "eccp-3672727-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678075": {
+      "title": "ECCP · 楊秀清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442419",
+      "locator": "eccp-3678075-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-237",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-035",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-436": {
+      "title": "清史稿/卷436",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1760907",
+      "locator": "qsg-volume-436-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-438": {
+      "title": "清史稿/卷438",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433554",
+      "locator": "qsg-volume-438-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-442": {
+      "title": "清史稿/卷442",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433592",
+      "locator": "qsg-volume-442-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-448": {
+      "title": "清史稿/卷448",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2613364",
+      "locator": "qsg-volume-448-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-450": {
+      "title": "清史稿/卷450",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433591",
+      "locator": "qsg-volume-450-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-458": {
+      "title": "清史稿/卷458",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433596",
+      "locator": "qsg-volume-458-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-460": {
+      "title": "清史稿/卷460",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2024587",
+      "locator": "qsg-volume-460-020",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-470": {
+      "title": "清史稿/卷470",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621222",
+      "locator": "qsg-volume-470-017",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-227",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

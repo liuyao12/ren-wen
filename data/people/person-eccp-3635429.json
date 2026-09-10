@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635429",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "祁",
+    "given": "彪佳",
+    "source": "eccp-3635429",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'I Piao-chia 祁彪佳 (T. 幼文, 宏吉, H. 世培, 虎子), 1602–1645, July 26, Ming official, was a native of Shan-yin (Shaohsing), Chekiang. His father, Ch'i Ch'êng-yeh 祁承㸁 (T. 爾光, H. 曠翁, chin-shih of 1604), was a well-known bibliophile, who possessed a large collection housed in his library, Tan-shêng t'ang 澹生堂 (see also under Chao I-ch'ing).",
+          "source": "eccp-3635429",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "幼文",
+        "source": "eccp-3635429"
+      },
+      {
+        "value": "宏吉",
+        "source": "eccp-3635429"
+      }
+    ],
+    "hao": [
+      {
+        "value": "世培",
+        "source": "eccp-3635429"
+      },
+      {
+        "value": "虎子",
+        "source": "eccp-3635429"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "幼文"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Piao-chia",
+        "system": "ECCP spelling",
+        "source": "eccp-3635429"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1602,
+        "source": "eccp-3635429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3635429",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635429",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635429",
+      "passage": "eccp-3635429-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635429": {
+      "title": "ECCP · Ch'i Piao-chia",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271392",
+      "locator": "eccp-3635429-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637546": {
+      "title": "ECCP · 屈大均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11722225",
+      "locator": "eccp-3637546-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633505": {
+      "title": "ECCP · 趙一清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271695",
+      "locator": "eccp-3633505-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646157": {
+      "title": "ECCP · 毛奇齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300580",
+      "locator": "eccp-3646157-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-480": {
+      "title": "清史稿/卷480",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1489329",
+      "locator": "qsg-volume-480-043",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-499": {
+      "title": "清史稿/卷499",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611843",
+      "locator": "qsg-volume-499-025",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-500": {
+      "title": "清史稿/卷500",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485090",
+      "locator": "qsg-volume-500-040",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

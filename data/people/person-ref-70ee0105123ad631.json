@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-70ee0105123ad631",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "惠",
+    "given": "周惕",
+    "source": "eccp-3640033",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "惠周惕，字元龍，原名恕，吳縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "元龍",
+        "source": "eccp-3640033"
+      }
+    ],
+    "hao": [
+      {
+        "value": "研",
+        "source": "eccp-3640033"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "元龍"
+    },
+    "romanizations": [
+      {
+        "value": "Hui Chou-t'i",
+        "system": "ECCP spelling",
+        "source": "eccp-3640033"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-054",
+      "matchStatus": "proposed",
+      "evidence": "惠周惕，字元龍，原名恕，吳縣人。父有聲，以九經教授鄉里，與徐枋善。周惕少從枋遊，又曾受業於汪琬。康熙十八年，舉博學鴻儒科，丁憂，不與試。三十年，成進士，選翰林院庶吉士。散館，改密雲縣知縣，有善政，卒於官。"
+    }
+  ],
+  "sources": {
+    "eccp-3640033": {
+      "title": "ECCP · 惠士奇",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282962",
+      "locator": "eccp-3640033-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-054",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

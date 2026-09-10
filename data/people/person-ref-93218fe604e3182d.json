@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-93218fe604e3182d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "勞",
+    "given": "崇光",
+    "source": "eccp-3643698",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "善化",
+      "source": "qsg-volume-393",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "勞崇光，字辛陔，湖南善化人。",
+          "source": "qsg-volume-393",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "辛階",
+        "source": "eccp-3643698"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "辛階"
+    },
+    "romanizations": [
+      {
+        "value": "Lao Ch'ung-kuang",
+        "system": "ECCP spelling",
+        "source": "eccp-3643698"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1802,
+        "source": "eccp-3643698",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1867,
+        "source": "eccp-3643698",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-393",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-393",
+      "passage": "qsg-volume-393-022",
+      "matchStatus": "proposed",
+      "evidence": "勞崇光，字辛陔，湖南善化人。道光十二年進士，選庶吉士，授編修。二十一年，出為山西平陽知府。調太原，擢冀寧道，遷廣西按察使。"
+    }
+  ],
+  "sources": {
+    "eccp-3643698": {
+      "title": "ECCP · 梁綸樞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294987",
+      "locator": "eccp-3643698-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-393": {
+      "title": "清史稿/卷393",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433495",
+      "locator": "qsg-volume-393-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

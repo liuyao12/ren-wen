@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3646131",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潞",
+    "given": "王",
+    "source": "eccp-3646131",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Lu (潞), Prince of",
+        "system": "ECCP spelling",
+        "source": "eccp-3646131"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3646131",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3646131",
+      "passage": "eccp-3646131-001"
+    }
+  ],
+  "sources": {
+    "eccp-3646131": {
+      "title": "ECCP · Lu (潞), Prince of",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300532",
+      "locator": "eccp-3646131-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637538": {
+      "title": "ECCP · 朱由崧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275698",
+      "locator": "eccp-3637538-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-227": {
+      "title": "清史稿/卷227",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027570",
+      "locator": "qsg-volume-227-104",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-4": {
+      "title": "清史稿/卷4",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2267892",
+      "locator": "qsg-volume-4-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-058",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

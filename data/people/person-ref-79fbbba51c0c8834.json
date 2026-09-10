@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-79fbbba51c0c8834",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "瀚章",
+    "source": "eccp-3643627",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "合肥",
+      "source": "qsg-volume-447",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李瀚章，字筱泉，安徽合肥人，大學士鴻章兄也。",
+          "source": "qsg-volume-447",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "筱荃",
+        "source": "eccp-3643627"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "筱荃"
+    },
+    "romanizations": [
+      {
+        "value": "Li Han-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3643627"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1821,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1899,
+        "source": "eccp-3643627",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-447",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-447",
+      "passage": "qsg-volume-447-012",
+      "matchStatus": "proposed",
+      "evidence": "李瀚章，字筱泉，安徽合肥人，大學士鴻章兄也。瀚章以拔貢生為知縣，銓湖南，署永定，調益陽，改善化。曾國籓出治軍，檄主餉運，累至江西吉南贛寧道，調廣東督糧道，就遷按察使、布政使。同治四年，擢湖南巡撫。時粵逆李世賢等聚福建，分犯贛南，窺兩楚，貴州苗匪、教匪又闌入楚界，而霆軍潰卒复竄湖、湘，三路告警。瀚章至，則遣前江蘇按察使陳士杰壁郴州防閩賊，前雲南按察使趙煥聯壁岳州防叛卒，閩賊旋引去。叛卒犯江西不得逞，則折入湘，犯攸縣，陷安仁、興寧、副將張義貴擊走之；士傑率軍會剿，遁入粵，卒就殲焉。先是瀚章遣總兵周洪"
+    }
+  ],
+  "sources": {
+    "eccp-3643627": {
+      "title": "ECCP · 李鴻章",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294839",
+      "locator": "eccp-3643627-027",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-447": {
+      "title": "清史稿/卷447",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2602347",
+      "locator": "qsg-volume-447-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

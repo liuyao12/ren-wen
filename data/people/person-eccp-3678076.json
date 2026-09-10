@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678076",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "以增",
+    "source": "eccp-3678076",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG I-tsêng 楊以增 (T. 益之, 至堂, 冬樵), Oct. 26, 1787–1856, Jan. 25, official and bibliophile, Was a native of Liao-ch'êng, Shantung. His father, Yang Chao-yü 楊兆煜 (T. 炳南, H. 熙崖, 1768–1838), was a chü-jên of 1798 who served as director of schools at Chi-mo, Shantung (1808–12).",
+          "source": "eccp-3678076",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "益之",
+        "source": "eccp-3678076"
+      },
+      {
+        "value": "至堂",
+        "source": "eccp-3678076"
+      },
+      {
+        "value": "冬樵",
+        "source": "eccp-3678076"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "益之"
+    },
+    "romanizations": [
+      {
+        "value": "Yang I-tsêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3678076"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3678076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1856,
+        "source": "eccp-3678076",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678076",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678076",
+      "passage": "eccp-3678076-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678076": {
+      "title": "ECCP · Yang I-tsêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442424",
+      "locator": "eccp-3678076-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640012": {
+      "title": "ECCP · 黃丕烈",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282907",
+      "locator": "eccp-3640012-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656386": {
+      "title": "ECCP · 丁晏",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365169",
+      "locator": "eccp-3656386-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678167": {
+      "title": "ECCP · 胤祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443028",
+      "locator": "eccp-3678167-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-20": {
+      "title": "清史稿/卷20",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433519",
+      "locator": "qsg-volume-20-082",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-422": {
+      "title": "清史稿/卷422",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433564",
+      "locator": "qsg-volume-422-053",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-425": {
+      "title": "清史稿/卷425",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607179",
+      "locator": "qsg-volume-425-010",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-486": {
+      "title": "清史稿/卷486",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2601845",
+      "locator": "qsg-volume-486-117",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

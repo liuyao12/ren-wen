@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-8deded74de0c0651",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "衛",
+    "given": "哲治",
+    "source": "eccp-3639983",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "濟源",
+      "source": "qsg-volume-309",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "衛哲治，字我愚，河南濟源人。",
+          "source": "qsg-volume-309",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "我愚",
+        "source": "eccp-3639983"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鑑泉",
+        "source": "eccp-3639983"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "我愚"
+    },
+    "romanizations": [
+      {
+        "value": "Wei Chê-chih",
+        "system": "ECCP spelling",
+        "source": "eccp-3639983"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1702,
+        "source": "eccp-3639983",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1756,
+        "source": "eccp-3639983",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-309",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-309",
+      "passage": "qsg-volume-309-038",
+      "matchStatus": "proposed",
+      "evidence": "衛哲治，字我愚，河南濟源人。雍正七年，以拔貢生廷試優等，發江南委用。初署贛榆知縣，調鹽城。值蝗災，設六條拊循：優禮德望，饋餉高年，旌獎孝義，經理煢獨，譏警遊惰，約束過犯。縣北有司河，匯上游七縣水入海。夏旱水弱，海潮至，咸苦不可食，甚乃浸溢民田；秋水盛，又患河寬流緩，入海不速。哲治建閘立斗門，蓄洩有備。斥鹵化膏腴，歲有涸出地，給無業民承耕。田沉沒而糧未除者，悉請豁免。循海築土墩九十餘，潮大，漁者得就墩逃溺，號「救命墩」。乾隆二年，補長洲，兼攝吳縣。請豁坍荒逋賦十餘萬。八年，遷海州知州。歲歉治賑，全"
+    }
+  ],
+  "sources": {
+    "eccp-3639983": {
+      "title": "ECCP · 徐文靖",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282842",
+      "locator": "eccp-3639983-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-309": {
+      "title": "清史稿/卷309",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2621943",
+      "locator": "qsg-volume-309-038",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

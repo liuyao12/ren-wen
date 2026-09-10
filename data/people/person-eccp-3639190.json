@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639190",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "傅",
+    "given": "扆",
+    "source": "eccp-3639190",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FU I 傅扆 (T. 蘭生 and 彤臣, H. 麗農 and 荔農), June 30, 1614–1684, Nov. 3, official and poet, was a native of Hsin-ch'êng, Shantung. He became a chin-shih in 1655 and in the following year entered official life as police magistrate at Ho-chien, Chihli.",
+          "source": "eccp-3639190",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蘭生",
+        "source": "eccp-3639190"
+      }
+    ],
+    "hao": [
+      {
+        "value": "麗農",
+        "source": "eccp-3639190"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蘭生"
+    },
+    "romanizations": [
+      {
+        "value": "Fu I",
+        "system": "ECCP spelling",
+        "source": "eccp-3639190"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1614,
+        "source": "eccp-3639190",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1684,
+        "source": "eccp-3639190",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639190",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639190",
+      "passage": "eccp-3639190-001"
+    }
+  ],
+  "sources": {
+    "eccp-3639190": {
+      "title": "ECCP · Fu I",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280184",
+      "locator": "eccp-3639190-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    }
+  },
+  "notes": []
+}

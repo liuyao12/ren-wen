@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658540",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "圖理琛",
+    "source": "eccp-3658540",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "TULIŠEN 圖理琛 (T. 瑤圃), 1667–1741, official and diplomat, was a member of the Manchu Plain Yellow Banner. His family belonged to the Ayan Gioro clan and lived in the Yehe nation (see under Yangginu) until his great-grandfather joined the forces of Abahai [q. v.] in the decade 1625–35.",
+          "source": "eccp-3658547",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "圖理琛，阿顏覺羅氏，滿洲正黃旗人。",
+          "source": "qsg-volume-283",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "瑤圃",
+        "source": "eccp-3658547"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "瑤圃"
+    },
+    "romanizations": [
+      {
+        "value": "T'u-li-ch'ên",
+        "system": "ECCP spelling",
+        "source": "eccp-3658540"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1667,
+        "source": "eccp-3658547",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1741,
+        "source": "eccp-3658547",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658540",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3658540",
+      "passage": "eccp-3658540-001"
+    },
+    {
+      "source": "eccp-3658547",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658547",
+      "passage": "eccp-3658547-001"
+    },
+    {
+      "source": "qsg-volume-283",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-283",
+      "passage": "qsg-volume-283-021",
+      "matchStatus": "proposed",
+      "evidence": "圖理琛，阿顏覺羅氏，滿洲正黃旗人。以國子生考授內閣中書，遷侍讀。坐事，奪職。康熙五十一年，特命復職，出使土爾扈特。"
+    }
+  ],
+  "sources": {
+    "eccp-3658540": {
+      "title": "ECCP · T'u-li-ch'ên",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370085",
+      "locator": "eccp-3658540-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658547": {
+      "title": "ECCP · Tulišen",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370097",
+      "locator": "eccp-3658547-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633221": {
+      "title": "ECCP · 阿睦爾撒納",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271367",
+      "locator": "eccp-3633221-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639212": {
+      "title": "ECCP · 傅爾丹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280215",
+      "locator": "eccp-3639212-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639214": {
+      "title": "ECCP · 噶爾丹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280218",
+      "locator": "eccp-3639214-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640793": {
+      "title": "ECCP · 弘歷",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285336",
+      "locator": "eccp-3640793-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640911": {
+      "title": "ECCP · 奕山",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285908",
+      "locator": "eccp-3640911-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646140": {
+      "title": "ECCP · 隆科多",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300553",
+      "locator": "eccp-3646140-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3646151": {
+      "title": "ECCP · 馬齊",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300570",
+      "locator": "eccp-3646151-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649146": {
+      "title": "ECCP · 年羹堯",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317726",
+      "locator": "eccp-3649146-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649374": {
+      "title": "ECCP · 薩布素",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318147",
+      "locator": "eccp-3649374-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656330": {
+      "title": "ECCP · 松筠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365085",
+      "locator": "eccp-3656330-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656423": {
+      "title": "ECCP · 策棱",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365235",
+      "locator": "eccp-3656423-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656425": {
+      "title": "ECCP · 策旺阿拉布坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365239",
+      "locator": "eccp-3656425-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678153": {
+      "title": "ECCP · 胤禎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442972",
+      "locator": "eccp-3678153-009",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-283": {
+      "title": "清史稿/卷283",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433506",
+      "locator": "qsg-volume-283-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

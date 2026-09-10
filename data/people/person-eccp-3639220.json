@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639220",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "顧八代",
+    "source": "eccp-3639220",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "GUBADAI 顧八代 (T. 文起), d. Jan. 1709, was a Manchu of the Bordered Yellow Banner with the clan-name Irgen Gioro (伊爾根覺羅). In 1659 as a private of the Guards Division (護軍) he followed the army into Yunnan in an expedition against a supporter of the last Ming claimant to the throne.",
+          "source": "eccp-3639220",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "顧八代，字文起，伊爾根覺羅氏，滿洲鑲黃旗人。",
+          "source": "qsg-volume-268",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文起",
+        "source": "eccp-3639220"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文起"
+    },
+    "romanizations": [
+      {
+        "value": "Gubadai",
+        "system": "ECCP spelling",
+        "source": "eccp-3639220"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639220",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639220",
+      "passage": "eccp-3639220-001"
+    },
+    {
+      "source": "eccp-3642410",
+      "relation": "cross-reference-entry",
+      "readerWitness": "eccp-3642410",
+      "passage": "eccp-3642410-001"
+    },
+    {
+      "source": "qsg-volume-268",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-268",
+      "passage": "qsg-volume-268-012",
+      "matchStatus": "proposed",
+      "evidence": "顧八代，字文起，伊爾根覺羅氏，滿洲鑲黃旗人。父顧納禪，事太宗，從伐明，次大同，攻小石城，先登，賜號「巴圖魯」，予世職牛錄章京。旋授甲喇額真。順治初，從入關，定陝西、湖南、江南、浙江，皆在行間，進三等阿達哈哈番。子顧蘇，襲，進二等。"
+    }
+  ],
+  "sources": {
+    "eccp-3639220": {
+      "title": "ECCP · Gubadai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280224",
+      "locator": "eccp-3639220-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642410": {
+      "title": "ECCP · Ku-pa-tai",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290493",
+      "locator": "eccp-3642410-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637598": {
+      "title": "ECCP · 方苞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275793",
+      "locator": "eccp-3637598-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639250": {
+      "title": "ECCP · 何國宗",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280270",
+      "locator": "eccp-3639250-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640925": {
+      "title": "ECCP · 彰泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285944",
+      "locator": "eccp-3640925-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642370": {
+      "title": "ECCP · 康果禮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290408",
+      "locator": "eccp-3642370-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678060": {
+      "title": "ECCP · 吳三桂",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442361",
+      "locator": "eccp-3678060-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678161": {
+      "title": "ECCP · 尹嘉銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442997",
+      "locator": "eccp-3678161-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-268": {
+      "title": "清史稿/卷268",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433535",
+      "locator": "qsg-volume-268-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-269": {
+      "title": "清史稿/卷269",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=511902",
+      "locator": "qsg-volume-269-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-308": {
+      "title": "清史稿/卷308",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2485034",
+      "locator": "qsg-volume-308-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-310": {
+      "title": "清史稿/卷310",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542432",
+      "locator": "qsg-volume-310-046",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

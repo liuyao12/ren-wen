@@ -4,7 +4,7 @@
   "collection": "ECCP",
   "reviewStatus": "agent-proposed",
   "name": {
-    "surname": "完顏",
+    "surname": null,
     "given": "麟慶",
     "source": "eccp-entry",
     "jiguan": null,
@@ -14,7 +14,12 @@
         "source": "eccp-entry"
       }
     ],
-    "hao": [],
+    "hao": [
+      {
+        "value": "見亭",
+        "source": "eccp-3645484"
+      }
+    ],
     "parenthetical": {
       "kind": "zi",
       "value": "振祥"
@@ -26,7 +31,32 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "clan": {
+      "label": "完顏",
+      "source": "eccp-3645484"
+    },
+    "bracket": {
+      "kind": "clan",
+      "label": "完顏",
+      "source": "eccp-3645484"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIN-ch'ing 麟慶 (T. 振祥, 伯餘, H. 見亭), Apr. 20, 1791–1846, Sept. 15, official and writer, was a member of the Wanyen or Wanggiyan 完顏 clan and a descendent in the twenty-fourth generation of Chin Shih-tsung 金世宗 (personal name Yung 雍, 1123–1189), fifth Emperor of the Chin dynasty (1115–1234).",
+          "source": "eccp-3645484",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "麟慶，字見亭，完顏氏，滿洲鑲黃旗人。",
+          "source": "qsg-volume-383",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    }
   },
   "life": {
     "birth": null,
@@ -64,6 +94,132 @@
       "locator": "Opening paragraph; recorded revision 11299415",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645484": {
+      "title": "ECCP · Lin-ch'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299415",
+      "locator": "eccp-3645484-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633228": {
+      "title": "ECCP · 安岐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271372",
+      "locator": "eccp-3633228-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633237": {
+      "title": "ECCP · 阿什坦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271375",
+      "locator": "eccp-3633237-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635431": {
+      "title": "ECCP · 琦善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271388",
+      "locator": "eccp-3635431-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637559": {
+      "title": "ECCP · 崇實",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275733",
+      "locator": "eccp-3637559-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635479": {
+      "title": "ECCP · 金堡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271746",
+      "locator": "eccp-3635479-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639209": {
+      "title": "ECCP · 傅維麟",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280212",
+      "locator": "eccp-3639209-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645485": {
+      "title": "ECCP · 林鳳祥",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299416",
+      "locator": "eccp-3645485-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645523": {
+      "title": "ECCP · 劉澤清",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299498",
+      "locator": "eccp-3645523-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654365": {
+      "title": "ECCP · 施世驃",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358431",
+      "locator": "eccp-3654365-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654373": {
+      "title": "ECCP · 舒赫德",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358447",
+      "locator": "eccp-3654373-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658524": {
+      "title": "ECCP · 左良玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370034",
+      "locator": "eccp-3658524-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678482": {
+      "title": "ECCP · 惲壽平",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443833",
+      "locator": "eccp-3678482-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-365": {
+      "title": "清史稿/卷365",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542368",
+      "locator": "qsg-volume-365-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-375": {
+      "title": "清史稿/卷375",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2292895",
+      "locator": "qsg-volume-375-022",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-383": {
+      "title": "清史稿/卷383",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433569",
+      "locator": "qsg-volume-383-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-434": {
+      "title": "清史稿/卷434",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433516",
+      "locator": "qsg-volume-434-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-446": {
+      "title": "清史稿/卷446",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2640966",
+      "locator": "qsg-volume-446-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
     }
   },
   "externalIds": {
@@ -82,6 +238,20 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Lin-ch%27ing",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3645484",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645484",
+      "passage": "eccp-3645484-001"
+    },
+    {
+      "source": "qsg-volume-383",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-383",
+      "passage": "qsg-volume-383-030",
+      "matchStatus": "proposed",
+      "evidence": "麟慶，字見亭，完顏氏，滿洲鑲黃旗人。嘉慶十四年進士，授內閣中書，遷兵部主事，改中允。道光三年，出為安徽徽州知府，調潁州，擢河南開歸陳許道。歷河南按察使、貴州布政使，護理巡撫。十三年，擢湖北巡撫。尋授江南河道總督，丁母憂，改署理，服闋，乃實授。疏陳籌辦南河情形，略曰：「近年河湖交敝，欲復舊制，不外蓄清刷黃。古人引導清水，三分濟運，七分刷黃，得力在磨盤埽。自廢棄後，河務漸壞，擬規复磨盤埽舊制。洪澤湖水甚寬，高家堰工絕險，各壩多封柴土蓄水，盛漲啟放，輒壞壩底，糜費不貲。應仿滾水壩成法，抬高石底，至蓄水"
     }
   ],
   "notes": [],

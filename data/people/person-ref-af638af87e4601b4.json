@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-af638af87e4601b4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "李",
+    "given": "賡芸",
+    "source": "eccp-3633306",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "嘉定",
+      "source": "qsg-volume-478",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "李賡芸，字鄦齋，江蘇嘉定人。",
+          "source": "qsg-volume-478",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "生甫",
+        "source": "eccp-3633306"
+      }
+    ],
+    "hao": [
+      {
+        "value": "書田",
+        "source": "eccp-3633306"
+      },
+      {
+        "value": "許齋",
+        "source": "eccp-3633306"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "生甫"
+    },
+    "romanizations": [
+      {
+        "value": "Li Kêng-yün",
+        "system": "ECCP spelling",
+        "source": "eccp-3633306"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1754,
+        "source": "eccp-3633306",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3633306",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-478",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-478",
+      "passage": "qsg-volume-478-030",
+      "matchStatus": "proposed",
+      "evidence": "李賡芸，字鄦齋，江蘇嘉定人。少受學於同縣錢大昕，通六書，蒼、雅，三禮。乾隆五十五年進士，授浙江孝豐知縣。調德清，再調平湖。下車謁陸隴其祠，以隴其曾宰嘉定，而己以嘉定人宰平湖，奉隴其為法，盡心撫字，訓士除奸，邑中稱神明。嘉慶三年，九卿中有密薦之者，詔詢巡撫阮元，元奏：「賡芸守潔才優，久協輿論，為浙中第一良吏。」引見，以同知升用。五年，金華、處州兩郡水災，金華苦無錢，處州苦無米。賡芸奉檄，於恩賑外領銀二萬，便宜為之。以銀之半易錢，運金華加賑，人百錢而錢價平。又以銀之半運米至處州，減價糶，轆轤轉運，而"
+    }
+  ],
+  "sources": {
+    "eccp-3633306": {
+      "title": "ECCP · 張問陶",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271672",
+      "locator": "eccp-3633306-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-478": {
+      "title": "清史稿/卷478",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2605621",
+      "locator": "qsg-volume-478-030",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

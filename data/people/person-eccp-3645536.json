@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3645536",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "費墀",
+    "source": "eccp-3645536",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "桐鄉",
+      "source": "qsg-volume-320",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "LU-FEI Ch'ih 陸費墀 (T. 丹叔, H. 頤齋), d. 1790, age 60 (sui), scholar and official, was a native of T'ung-hsiang, Chekiang. An ancestor whose surname was Fei 費 was adopted by a family named Lu 陸, hence the double surname, Lu-fei.",
+          "source": "eccp-3645536",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "陸費墀，字丹叔，浙江桐鄉人。",
+          "source": "qsg-volume-320",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "丹叔",
+        "source": "eccp-3645536"
+      }
+    ],
+    "hao": [
+      {
+        "value": "頤齋",
+        "source": "eccp-3645536"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "丹叔"
+    },
+    "romanizations": [
+      {
+        "value": "Lu-fei Ch'ih",
+        "system": "ECCP spelling",
+        "source": "eccp-3645536"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3645536",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3645536",
+      "passage": "eccp-3645536-001"
+    },
+    {
+      "source": "qsg-volume-320",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-320",
+      "passage": "qsg-volume-320-039",
+      "matchStatus": "proposed",
+      "evidence": "陸費墀，字丹叔，浙江桐鄉人。陸費為複姓。墀，乾隆三十一年進士，改庶吉士，授編修。充四庫全書館總校，用昀、錫熊例，擢侍讀。累遷禮部侍郎。書有譌謬，上謂昀、錫熊、墀專司其事，而墀咎尤重。文瀾、文匯、文宗三閣書面葉木匣，責墀出資裝治。仍下吏議，奪職。旋卒。上命籍墀家，留千金贍其孥，馀充三閣裝治之用。"
+    }
+  ],
+  "sources": {
+    "eccp-3645536": {
+      "title": "ECCP · Lu-fei Ch'ih",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299518",
+      "locator": "eccp-3645536-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634171": {
+      "title": "ECCP · 紀昀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271704",
+      "locator": "eccp-3634171-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643637": {
+      "title": "ECCP · 李善蘭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294859",
+      "locator": "eccp-3643637-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672727": {
+      "title": "ECCP · 汪中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412283",
+      "locator": "eccp-3672727-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678438": {
+      "title": "ECCP · 于敏中",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443733",
+      "locator": "eccp-3678438-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-320": {
+      "title": "清史稿/卷320",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2550999",
+      "locator": "qsg-volume-320-039",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-370c88178ee92486",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "亮基",
+    "source": "eccp-3658526",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "銅山",
+      "source": "qsg-volume-424",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "張亮基，字石卿，江蘇銅山人。",
+          "source": "qsg-volume-424",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "采臣",
+        "source": "eccp-3658526"
+      }
+    ],
+    "hao": [
+      {
+        "value": "石卿",
+        "source": "eccp-3658526"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "采臣"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Liang-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3658526"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1807,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1871,
+        "source": "eccp-3658526",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-424",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-424",
+      "passage": "qsg-volume-424-011",
+      "matchStatus": "proposed",
+      "evidence": "張亮基，字石卿，江蘇銅山人。道光十四年舉人，入貲為內閣中書。從大學士王鼎赴河南治河，督築西壩。工竣，賜花翎，擢侍讀。二十六年，出為雲南臨安知府，總督林則徐曾與共事河工，知其才，密薦可大用，調署永昌。邊夷滋擾，亮基用土弁左大雄擒匪首，事乃定。超擢雲南按察使，就遷布政使。三十年，擢雲南巡撫，兼署雲貴總督。粵匪漸熾，嘗密疏論軍事，文宗韙之。"
+    }
+  ],
+  "sources": {
+    "eccp-3658526": {
+      "title": "ECCP · 左宗棠",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370041",
+      "locator": "eccp-3658526-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-424": {
+      "title": "清史稿/卷424",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027084",
+      "locator": "qsg-volume-424-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

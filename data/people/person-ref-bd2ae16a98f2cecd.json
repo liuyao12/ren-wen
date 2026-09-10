@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bd2ae16a98f2cecd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孔",
+    "given": "毓珣",
+    "source": "eccp-3633207",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "曲阜",
+      "source": "qsg-volume-292",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "孔毓珣，字東美，山東曲阜人，孔子六十六世孫。",
+          "source": "qsg-volume-292",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "東美",
+        "source": "eccp-3633207"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "東美"
+    },
+    "romanizations": [
+      {
+        "value": "K'ung Yü-hsün",
+        "system": "ECCP spelling",
+        "source": "eccp-3633207"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-292",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-292",
+      "passage": "qsg-volume-292-028",
+      "matchStatus": "proposed",
+      "evidence": "孔毓珣，字東美，山東曲阜人，孔子六十六世孫。父恩洪，福建按察使。康熙二十三年，上幸曲阜釋奠，毓珣以諸生陪祀，賜恩貢生。二十九年，授湖廣武昌通判。舉卓異，遷江南徐州知州。徐州民敝於丁賦，毓珣在官七年，拊循多惠政。三十九年，河道總督張鵬翮以毓珣熟於河務，薦授邳睢同知。四十三年，遷山西平陽知府，未上，改雲南順寧。四十六年，調開化，以母憂去官。五十年，服終，除四川龍安。毓珣歷守邊郡，皆因俗為治，弊去其太甚，邊民安之。再舉卓異。五十五年，遷湖廣上荊南道。築堤捍江，民號曰孔公堤。"
+    }
+  ],
+  "sources": {
+    "eccp-3633207": {
+      "title": "ECCP · 阿克敦",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271320",
+      "locator": "eccp-3633207-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-292": {
+      "title": "清史稿/卷292",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1542464",
+      "locator": "qsg-volume-292-028",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

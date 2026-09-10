@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635432",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "齊",
+    "given": "召南",
+    "source": "eccp-3635432",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "天台",
+      "source": "qsg-volume-305",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'I Shao-nan 齊召南 (T. 次風, H. 一乾, 瓊臺, 息園), Feb. 23, 1706–1768, July 7, scholar and official, was a native of T'ien-t'ai, Chekiang. He ranked high in the examinations held in his native district and studied in the Fu-wên Academy 敷文書院 at Hangchow about 1720–21.",
+          "source": "eccp-3635432",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "齊召南，字次風，浙江天台人。",
+          "source": "qsg-volume-305",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "次風",
+        "source": "eccp-3635432"
+      }
+    ],
+    "hao": [
+      {
+        "value": "一乾",
+        "source": "eccp-3635432"
+      },
+      {
+        "value": "瓊臺",
+        "source": "eccp-3635432"
+      },
+      {
+        "value": "息園",
+        "source": "eccp-3635432"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "次風"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'i Shao-nan",
+        "system": "ECCP spelling",
+        "source": "eccp-3635432"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1706,
+        "source": "eccp-3635432",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1768,
+        "source": "eccp-3635432",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635432",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635432",
+      "passage": "eccp-3635432-001"
+    },
+    {
+      "source": "qsg-volume-305",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-305",
+      "passage": "qsg-volume-305-031",
+      "matchStatus": "proposed",
+      "evidence": "齊召南，字次風，浙江天台人。幼而穎敏，鄉里稱神童。雍正十一年，命舉博學鴻詞，召南以副榜貢生被薦。乾隆元年，廷試二等，改庶吉士，散館授檢討。八年，禦試翰詹各官，擢中允，遷侍讀。九年，以父喪去官。時方校刻經史，召南分撰禮記、漢書考證，命即家撰進。服除，起原官。十二年，遷侍讀學士。十三年，復試翰詹各官，以召南列首，擢內閣學士，命上書房行走。遷禮部侍郎。上於寧古塔得古鏡，問召南，召南辨其款識，具陳原委。上顧左右曰：「是不愧博學鴻詞矣！」上西苑射，發十九矢皆中的，顧尚書蔣溥及召南曰：「不可無詩！」召南進詩"
+    }
+  ],
+  "sources": {
+    "eccp-3635432": {
+      "title": "ECCP · Ch'i Shao-nan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271393",
+      "locator": "eccp-3635432-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634186": {
+      "title": "ECCP · 齊周華",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271390",
+      "locator": "eccp-3634186-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633513": {
+      "title": "ECCP · 陳兆崙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271425",
+      "locator": "eccp-3633513-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634072": {
+      "title": "ECCP · 陳壽祺",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271471",
+      "locator": "eccp-3634072-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635444": {
+      "title": "ECCP · 蔣士銓",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271728",
+      "locator": "eccp-3635444-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639245": {
+      "title": "ECCP · 賀長齡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280262",
+      "locator": "eccp-3639245-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645517": {
+      "title": "ECCP · 劉綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299486",
+      "locator": "eccp-3645517-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645536": {
+      "title": "ECCP · 陸費墀",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299518",
+      "locator": "eccp-3645536-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-305": {
+      "title": "清史稿/卷305",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433551",
+      "locator": "qsg-volume-305-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-217",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-502": {
+      "title": "清史稿/卷502",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027908",
+      "locator": "qsg-volume-502-073",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

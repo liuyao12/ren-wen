@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b90132111e572195",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陸",
+    "given": "建瀛",
+    "source": "eccp-3640818",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "沔陽",
+      "source": "qsg-volume-397",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "陸建瀛，字立夫，湖北沔陽人。",
+          "source": "qsg-volume-397",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "仲白",
+        "source": "eccp-3640818"
+      }
+    ],
+    "hao": [
+      {
+        "value": "立夫",
+        "source": "eccp-3640818"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "仲白"
+    },
+    "romanizations": [
+      {
+        "value": "Lu Chien-ying",
+        "system": "ECCP spelling",
+        "source": "eccp-3640818"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-397",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-397",
+      "passage": "qsg-volume-397-006",
+      "matchStatus": "proposed",
+      "evidence": "陸建瀛，字立夫，湖北沔陽人。道光二年進士，選庶吉士，授編修，直上書房，洊遷中允。大考擢侍講，轉侍讀。二十年，出為直隸天津道，累擢布政使。時英吉利擾浙江，沿海戒嚴，徵西北兵聚畿輔，建瀛供防軍，處善後，皆應機宜。所歷有名績。"
+    }
+  ],
+  "sources": {
+    "eccp-3640818": {
+      "title": "ECCP · 奕詝",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285393",
+      "locator": "eccp-3640818-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-397": {
+      "title": "清史稿/卷397",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2027047",
+      "locator": "qsg-volume-397-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

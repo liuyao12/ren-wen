@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3656351",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "炯",
+    "source": "eccp-3656351",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "T'ANG Chiung 唐炯 (T. 鄂生, H. 成山老人), Apr. 24, 1829–1909, Jan. 20, official, was a native of Tsun-i, Kweichow. His father, T'ang Shu-i 唐樹義 (T. 方山, 子方, 1793–1854), was a chü-jên of 1816 who rose from a magistrate to the post of financial commissioner of Hupeh (1847–49).",
+          "source": "eccp-3656351",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "唐炯，字鄂生，貴州遵義人。",
+          "source": "qsg-volume-458",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鄂生",
+        "source": "eccp-3656351"
+      }
+    ],
+    "hao": [
+      {
+        "value": "成山老人",
+        "source": "eccp-3656351"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鄂生"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Chiung",
+        "system": "ECCP spelling",
+        "source": "eccp-3656351"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3656351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1909,
+        "source": "eccp-3656351",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3656351",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3656351",
+      "passage": "eccp-3656351-001"
+    },
+    {
+      "source": "qsg-volume-458",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-458",
+      "passage": "qsg-volume-458-013",
+      "matchStatus": "proposed",
+      "evidence": "唐炯，字鄂生，貴州遵義人。道光二十九年舉人，訓方子。訓方督師金口，炯馳數千里省視。越夕難作，倉皇奉遺疏謁曾國籓，得代奏。武昌复，求遺骸歸葬。桐梓亂民起，治鄉團御之。服闋，入貲為知縣，銓四川。"
+    }
+  ],
+  "sources": {
+    "eccp-3656351": {
+      "title": "ECCP · T'ang Chiung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365117",
+      "locator": "eccp-3656351-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637559": {
+      "title": "ECCP · 崇實",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275733",
+      "locator": "eccp-3637559-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634093": {
+      "title": "ECCP · 鄭珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271757",
+      "locator": "eccp-3634093-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656383": {
+      "title": "ECCP · 丁寶楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365165",
+      "locator": "eccp-3656383-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656414": {
+      "title": "ECCP · 岑毓英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365213",
+      "locator": "eccp-3656414-011",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-23": {
+      "title": "清史稿/卷23",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2132469",
+      "locator": "qsg-volume-23-116",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-425": {
+      "title": "清史稿/卷425",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2607179",
+      "locator": "qsg-volume-425-014",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-437": {
+      "title": "清史稿/卷437",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2592002",
+      "locator": "qsg-volume-437-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-019",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-458": {
+      "title": "清史稿/卷458",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433596",
+      "locator": "qsg-volume-458-013",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

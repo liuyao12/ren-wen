@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-9f069d6b04fc99fd",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "牛",
+    "given": "鑑",
+    "source": "eccp-3635433",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "武威",
+      "source": "qsg-volume-371",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "牛鑑，字鏡堂，甘肅武威人。",
+          "source": "qsg-volume-371",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "鏡唐",
+        "source": "eccp-3635433"
+      }
+    ],
+    "hao": [
+      {
+        "value": "雪樵",
+        "source": "eccp-3635433"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "鏡唐"
+    },
+    "romanizations": [
+      {
+        "value": "Niu Chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3635433"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-371",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-371",
+      "passage": "qsg-volume-371-031",
+      "matchStatus": "proposed",
+      "evidence": "牛鑑，字鏡堂，甘肅武威人。嘉慶十九年進士，選庶吉士，授編修。遷御史、給事中。道光十一年，出為雲南糧儲道。歷山東按察使、順天府尹、陝西布政使，與巡撫不合，乞病歸。十八年，起授江蘇布政使，署巡撫。"
+    }
+  ],
+  "sources": {
+    "eccp-3635433": {
+      "title": "ECCP · 耆英",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271389",
+      "locator": "eccp-3635433-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-371": {
+      "title": "清史稿/卷371",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2641717",
+      "locator": "qsg-volume-371-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

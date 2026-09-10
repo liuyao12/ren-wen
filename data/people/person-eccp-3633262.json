@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3633262",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "張",
+    "given": "金吾",
+    "source": "eccp-3633262",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHANG Chin-wu 張金吾 (T. 慎旃, H. 月霄), Sept. 18, 1787–1829, bibliophile and scholar, was a native of Ch'ang-shu, Kiangsu, home of many celebrated bibliophiles since the late Ming period.",
+          "source": "eccp-3633262",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "慎旃",
+        "source": "eccp-3633262"
+      }
+    ],
+    "hao": [
+      {
+        "value": "月霄",
+        "source": "eccp-3633262"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "慎旃"
+    },
+    "romanizations": [
+      {
+        "value": "Chang Chin-wu",
+        "system": "ECCP spelling",
+        "source": "eccp-3633262"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1787,
+        "source": "eccp-3633262",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1829,
+        "source": "eccp-3633262",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3633262",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3633262",
+      "passage": "eccp-3633262-001"
+    }
+  ],
+  "sources": {
+    "eccp-3633262": {
+      "title": "ECCP · Chang Chin-wu",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271589",
+      "locator": "eccp-3633262-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633266": {
+      "title": "ECCP · 張海鵬",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271608",
+      "locator": "eccp-3633266-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640012": {
+      "title": "ECCP · 黃丕烈",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282907",
+      "locator": "eccp-3640012-006",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678076": {
+      "title": "ECCP · 楊以增",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442424",
+      "locator": "eccp-3678076-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

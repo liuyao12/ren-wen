@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-c52685b54de3ce7b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "金",
+    "given": "昌",
+    "source": "eccp-3635478",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "長文",
+        "source": "eccp-3635478"
+      }
+    ],
+    "hao": [
+      {
+        "value": "矍齋",
+        "source": "eccp-3635478"
+      },
+      {
+        "value": "聖瑗",
+        "source": "eccp-3635478"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "長文"
+    },
+    "romanizations": [
+      {
+        "value": "Chin Ch'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3635478"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3635478": {
+      "title": "ECCP · 金人瑞",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271745",
+      "locator": "eccp-3635478-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

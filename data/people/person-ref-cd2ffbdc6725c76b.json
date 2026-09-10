@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-cd2ffbdc6725c76b",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "程",
+    "given": "顥",
+    "source": "eccp-3639995",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "伯淳",
+        "source": "eccp-3639995"
+      }
+    ],
+    "hao": [
+      {
+        "value": "明道先生",
+        "source": "eccp-3639995"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "伯淳"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng Hao",
+        "system": "ECCP spelling",
+        "source": "eccp-3639995"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1032,
+        "source": "eccp-3639995",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1085,
+        "source": "eccp-3639995",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3639995": {
+      "title": "ECCP · 胡渭",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282869",
+      "locator": "eccp-3639995-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

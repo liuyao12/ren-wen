@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "workDates": {
+    "work-eccp": {
+      "label": "1943（刊行年／imprint）",
+      "year": 1943,
+      "kind": "edition-imprint",
+      "basis": "Recorded in the preserved ECCP source manifests; not an article composition date or a date of historical name use."
+    }
+  },
+  "people": {
+    "person-zeng-guofan": {
+      "aliases": {
+        "posthumous": [
+          {
+            "value": "文正",
+            "status": "proposed",
+            "evidence": [
+              {
+                "witness": "eccp-zeng-guofan",
+                "passage": "eccp-zeng-guofan-11",
+                "quote": "was canonized as Wên-chêng 文正"
+              }
+            ]
+          }
+        ]
+      },
+      "names": [
+        {
+          "id": "zeng-initial-name",
+          "surname": "曾",
+          "given": "子城",
+          "kind": "personal-name",
+          "from": null,
+          "to": null,
+          "precision": "unresolved",
+          "status": "proposed",
+          "evidence": [
+            {
+              "witness": "qsg-volume-405",
+              "passage": "qsg-volume-405-003",
+              "quote": "曾國籓，初名子城，字滌生，湖南湘鄉人。"
+            }
+          ],
+          "note": "QSG records the initial personal name, but this passage does not date its replacement. It is not automatically selected for a year."
+        }
+      ],
+      "titles": [
+        {
+          "id": "zeng-liangjiang-1860",
+          "label": "兩江總督",
+          "shortLabel": "兩江總督",
+          "kind": "office",
+          "from": 1860,
+          "to": 1868,
+          "precision": "year",
+          "priority": 20,
+          "status": "proposed",
+          "defaultDisplay": false,
+          "evidence": [
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-06",
+              "quote": "In 1860 he was appointed governor-general of Kiangnan and Kiangsi"
+            },
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-11",
+              "quote": "In 1867 he was appointed a Grand Secretary, and in September 1868 was made governor-general of Chihli province."
+            }
+          ],
+          "note": "Year-scale account following ECCP. This records the source interpretation; it does not establish exact appointment/assumption-of-office dates. Endpoint is exclusive; the death year is included."
+        },
+        {
+          "id": "zeng-grand-secretary",
+          "label": "大學士",
+          "shortLabel": "大學士",
+          "kind": "office",
+          "from": 1867,
+          "to": 1873,
+          "precision": "year",
+          "priority": 10,
+          "status": "proposed",
+          "defaultDisplay": true,
+          "evidence": [
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-11",
+              "quote": "In 1867 he was appointed a Grand Secretary, and in September 1868 was made governor-general of Chihli province."
+            }
+          ],
+          "note": "Year-scale account following ECCP. This records the source interpretation; it does not establish exact appointment/assumption-of-office dates. Endpoint is exclusive; the death year is included."
+        },
+        {
+          "id": "zeng-zhili",
+          "label": "直隸總督",
+          "shortLabel": "直隸總督",
+          "kind": "office",
+          "from": 1868,
+          "to": 1871,
+          "precision": "year",
+          "priority": 20,
+          "status": "proposed",
+          "defaultDisplay": false,
+          "evidence": [
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-11",
+              "quote": "In 1867 he was appointed a Grand Secretary, and in September 1868 was made governor-general of Chihli province."
+            },
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-11",
+              "quote": "he was transferred (1871) to his old post at Nanking"
+            }
+          ],
+          "note": "Year-scale account following ECCP. This records the source interpretation; it does not establish exact appointment/assumption-of-office dates. Endpoint is exclusive; the death year is included."
+        },
+        {
+          "id": "zeng-liangjiang-return",
+          "label": "兩江總督",
+          "shortLabel": "兩江總督",
+          "kind": "office",
+          "from": 1871,
+          "to": 1873,
+          "precision": "year",
+          "priority": 20,
+          "status": "proposed",
+          "defaultDisplay": false,
+          "evidence": [
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-11",
+              "quote": "he was transferred (1871) to his old post at Nanking"
+            }
+          ],
+          "note": "Year-scale account following ECCP. This records the source interpretation; it does not establish exact appointment/assumption-of-office dates. Endpoint is exclusive; the death year is included."
+        },
+        {
+          "id": "zeng-marquis",
+          "label": "毅勇侯",
+          "shortLabel": "毅勇侯",
+          "kind": "noble",
+          "from": 1864,
+          "to": 1873,
+          "precision": "year",
+          "priority": 5,
+          "status": "proposed",
+          "defaultDisplay": false,
+          "evidence": [
+            {
+              "witness": "eccp-zeng-guofan",
+              "passage": "eccp-zeng-guofan-07",
+              "quote": "Tsêng Kuo-fan who was made a Marquis of the first class with the designation I-yung"
+            }
+          ],
+          "note": "Year-scale account following ECCP. This records the source interpretation; it does not establish exact appointment/assumption-of-office dates. Endpoint is exclusive; the death year is included."
+        }
+      ],
+      "attestations": [
+        {
+          "kind": "zi",
+          "value": "滌生",
+          "witness": "qsg-volume-405",
+          "passage": "qsg-volume-405-003",
+          "quote": "曾國籓，初名子城，字滌生，湖南湘鄉人。",
+          "status": "proposed"
+        },
+        {
+          "kind": "hao",
+          "value": "滌生",
+          "witness": "eccp-zeng-guofan",
+          "passage": "eccp-zeng-guofan-01",
+          "quote": "H. 滌生",
+          "status": "proposed"
+        }
+      ]
+    }
+  },
+  "paragraphAnchors": [
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-02",
+      "year": 1850,
+      "quote": "From 1850 onward",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-04",
+      "year": 1853,
+      "quote": "After the conquest of Nanking in 1853",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-06",
+      "year": 1856,
+      "quote": "Though at this time (1856)",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-09",
+      "year": 1865,
+      "quote": "In June 1865",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-10",
+      "year": 1863,
+      "quote": "In 1863",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    },
+    {
+      "witness": "eccp-zeng-guofan",
+      "passage": "eccp-zeng-guofan-11",
+      "year": 1867,
+      "quote": "In 1867",
+      "status": "proposed",
+      "basis": "Explicit opening date selected as the reading focus, not a date for every statement in the paragraph."
+    }
+  ],
+  "notes": [
+    "Dated title/name coverage is a pilot, not a completed chronology for all profiles.",
+    "QSG witness edition dates remain unresolved rather than using the digital access date.",
+    "Original source text, typed alias disagreements, and historical names are retained unchanged."
+  ]
+}

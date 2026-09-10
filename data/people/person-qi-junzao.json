@@ -18,7 +18,16 @@
         "source": "eccp-entry"
       }
     ],
-    "hao": [],
+    "hao": [
+      {
+        "value": "春圃",
+        "source": "eccp-3635427"
+      },
+      {
+        "value": "觀齋",
+        "source": "eccp-3635427"
+      }
+    ],
     "parenthetical": {
       "kind": "zi",
       "value": "叔穎"
@@ -30,7 +39,27 @@
         "source": "eccp-entry"
       }
     ],
-    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved."
+    "note": "Only sourced name components are entered. Missing native places, Chinese civil years and external IDs are unresolved.",
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'I Chün-tsao 祁寯藻 (T. 叔穎, 淳[實]甫, H. 春圃, 觀齋), 1793–1866, Oct. 20, official and poet, native of Shou-yang, Shansi, was the fifth son of Ch'i Yün-shih [q. v.]. Ch'i Chün-tsao was brought up in Peking, but when his father was exiled to Chinese Turkestan in 1805 he and his mother went back to his native place.",
+          "source": "eccp-3635427",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "山西壽陽",
+          "source": "eccp-entry",
+          "kind": "previous-record"
+        }
+      ]
+    },
+    "bracket": {
+      "kind": "county",
+      "label": "壽陽",
+      "source": "eccp-entry"
+    }
   },
   "life": {
     "birth": null,
@@ -68,6 +97,62 @@
       "locator": "Opening paragraph; recorded revision 11271391",
       "access": "source-extracted-opening",
       "attribution": "ECCP authors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3635427": {
+      "title": "ECCP · Ch'i Chün-tsao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271391",
+      "locator": "eccp-3635427-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635434": {
+      "title": "ECCP · 祁韻士",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271394",
+      "locator": "eccp-3635434-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634093": {
+      "title": "ECCP · 鄭珍",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271757",
+      "locator": "eccp-3634093-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643630": {
+      "title": "ECCP · 李鴻藻",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294851",
+      "locator": "eccp-3643630-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656397": {
+      "title": "ECCP · 載淳",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365182",
+      "locator": "eccp-3656397-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672726": {
+      "title": "ECCP · 王慶雲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412281",
+      "locator": "eccp-3672726-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678428": {
+      "title": "ECCP · 俞正燮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443702",
+      "locator": "eccp-3678428-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
     }
   },
   "externalIds": {
@@ -86,6 +171,12 @@
       "relation": "principal-biography",
       "url": "https://en.wikisource.org/wiki/Eminent_Chinese_of_the_Ch%27ing_Period/Ch%27i_Ch%C3%BCn-tsao",
       "passage": "Opening paragraph"
+    },
+    {
+      "source": "eccp-3635427",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635427",
+      "passage": "eccp-3635427-001"
     }
   ],
   "notes": [],

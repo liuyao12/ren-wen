@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639264",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "欽顯皇后",
+    "source": "eccp-3639264",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "孝欽顯皇后，葉赫那拉氏，安徽徽寧池廣太道惠徵女。",
+          "source": "qsg-volume-214",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Hsiao-ch'in Hsien Huang-hou",
+        "system": "ECCP spelling",
+        "source": "eccp-3639264"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1835,
+        "source": "eccp-3639264",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1908,
+        "source": "eccp-3639264",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639264",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639264",
+      "passage": "eccp-3639264-001"
+    },
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-239",
+      "matchStatus": "proposed",
+      "evidence": "孝欽顯皇后，葉赫那拉氏，安徽徽寧池廣太道惠徵女。咸豐元年，后被選入宮，號懿貴人。四年，封懿嬪。六年三月庚辰，穆宗生，進懿妃。七年，進懿貴妃。十年，從幸熱河。"
+    }
+  ],
+  "sources": {
+    "eccp-3639264": {
+      "title": "ECCP · Hsiao-ch'in Hsien Huang-hou",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280296",
+      "locator": "eccp-3639264-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-21": {
+      "title": "清史稿/卷21",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1814546",
+      "locator": "qsg-volume-21-001",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-239",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-450": {
+      "title": "清史稿/卷450",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433591",
+      "locator": "qsg-volume-450-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

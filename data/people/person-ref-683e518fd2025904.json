@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-683e518fd2025904",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "沆",
+    "source": "eccp-3642458",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "師李",
+        "source": "eccp-3642458"
+      },
+      {
+        "value": "西灝",
+        "source": "eccp-3642458"
+      },
+      {
+        "value": "槐塘",
+        "source": "eccp-3642458"
+      }
+    ],
+    "hao": [
+      {
+        "value": "恆齋",
+        "source": "eccp-3642458"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "師李"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Hang",
+        "system": "ECCP spelling",
+        "source": "eccp-3642458"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-485",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-485",
+      "passage": "qsg-volume-485-016",
+      "matchStatus": "proposed",
+      "evidence": "汪沆，字師李。少從鶚受詩，亦試鴻博報罷。其後大學士史貽直將以經學薦，以母老辭。"
+    }
+  ],
+  "sources": {
+    "eccp-3642458": {
+      "title": "ECCP · 厲鶚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290599",
+      "locator": "eccp-3642458-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

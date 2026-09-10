@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3675191",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "吳",
+    "given": "健章",
+    "source": "eccp-3675191",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "道普",
+        "source": "eccp-3675191"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "道普"
+    },
+    "romanizations": [
+      {
+        "value": "Wu Chien-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3675191"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3675191",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3675191",
+      "passage": "eccp-3675191-001"
+    }
+  ],
+  "sources": {
+    "eccp-3675191": {
+      "title": "ECCP · Wu Chien-chang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419947",
+      "locator": "eccp-3675191-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3640831": {
+      "title": "ECCP · 怡良",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285422",
+      "locator": "eccp-3640831-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

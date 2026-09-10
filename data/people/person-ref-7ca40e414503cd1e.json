@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7ca40e414503cd1e",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "徐",
+    "given": "燦",
+    "source": "eccp-3634070",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "明霞",
+        "source": "eccp-3634070"
+      }
+    ],
+    "hao": [
+      {
+        "value": "湘蘋",
+        "source": "eccp-3634070"
+      },
+      {
+        "value": "紫䇾",
+        "source": "eccp-3634070"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "明霞"
+    },
+    "romanizations": [
+      {
+        "value": "Hsü Ts'an",
+        "system": "ECCP spelling",
+        "source": "eccp-3634070"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3634070": {
+      "title": "ECCP · 陳世倌",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271469",
+      "locator": "eccp-3634070-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

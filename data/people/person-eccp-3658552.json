@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3658552",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "董",
+    "given": "誥",
+    "source": "eccp-3658552",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "富陽",
+      "source": "qsg-volume-340",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "TUNG Kao 董誥 (T. 雅倫, 西京, H. 蔗林, 柘林), Apr. 23, 1740–1818, Nov. 8, official, painter, and calligrapher, a native of Fu-yang, Chekiang, was a son of Tung Pang-ta [q. v.]. He took his chin-shih degree in 1763, and became a bachelor in the Hanlin Academy with assignment as proof-reader in the Wu-ying tien 武英殿.",
+          "source": "eccp-3658552",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "董誥，字蔗林，浙江富陽人，尚書邦達子。",
+          "source": "qsg-volume-340",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "雅倫",
+        "source": "eccp-3658552"
+      },
+      {
+        "value": "西京",
+        "source": "eccp-3658552"
+      }
+    ],
+    "hao": [
+      {
+        "value": "蔗林",
+        "source": "eccp-3658552"
+      },
+      {
+        "value": "柘林",
+        "source": "eccp-3658552"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "雅倫"
+    },
+    "romanizations": [
+      {
+        "value": "Tung Kao",
+        "system": "ECCP spelling",
+        "source": "eccp-3658552"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1740,
+        "source": "eccp-3658552",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1818,
+        "source": "eccp-3658552",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3658552",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3658552",
+      "passage": "eccp-3658552-001"
+    },
+    {
+      "source": "qsg-volume-340",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-340",
+      "passage": "qsg-volume-340-016",
+      "matchStatus": "proposed",
+      "evidence": "董誥，字蔗林，浙江富陽人，尚書邦達子。乾隆二十八年進士，殿試進呈卷列第三，高宗因大臣子，改二甲第一。選庶吉士，即預修國史、三通、皇朝禮器圖。散館，授編修。三十二年，命入懋勤殿寫金字經為皇太后祝嘏。次年，大考翰詹，因寫經未與試，特加一級。尋擢中允，丁父憂。三十六年，服闋，入直南書房。初，邦達善畫，受高宗知。誥承家學，繼為侍從，書畫亦被宸賞，尤以奉職恪勤為上所眷注。累遷內閣學士。四十年，擢工部侍郎，調戶部，歷署吏、刑兩部侍郎，兼管樂部。充四庫館副總裁，接辦全書薈要，命輯滿洲源流考。四十四年，命為軍機"
+    }
+  ],
+  "sources": {
+    "eccp-3658552": {
+      "title": "ECCP · Tung Kao",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370107",
+      "locator": "eccp-3658552-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635474": {
+      "title": "ECCP · 金簡",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271741",
+      "locator": "eccp-3635474-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637590": {
+      "title": "ECCP · 法式善",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275782",
+      "locator": "eccp-3637590-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3639976": {
+      "title": "ECCP · 徐松",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282823",
+      "locator": "eccp-3639976-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654371": {
+      "title": "ECCP · 石韞玉",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358442",
+      "locator": "eccp-3654371-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3656385": {
+      "title": "ECCP · 丁丙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365168",
+      "locator": "eccp-3656385-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658554": {
+      "title": "ECCP · 董邦達",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370110",
+      "locator": "eccp-3658554-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3675195": {
+      "title": "ECCP · 吴錫麒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419954",
+      "locator": "eccp-3675195-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678144": {
+      "title": "ECCP · 嚴可均",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442954",
+      "locator": "eccp-3678144-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678497": {
+      "title": "ECCP · 顒琰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11443861",
+      "locator": "eccp-3678497-010",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-16": {
+      "title": "清史稿/卷16",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1811978",
+      "locator": "qsg-volume-16-012",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-318": {
+      "title": "清史稿/卷318",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025487",
+      "locator": "qsg-volume-318-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-319": {
+      "title": "清史稿/卷319",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1761183",
+      "locator": "qsg-volume-319-018",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-322": {
+      "title": "清史稿/卷322",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025483",
+      "locator": "qsg-volume-322-026",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-340": {
+      "title": "清史稿/卷340",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433581",
+      "locator": "qsg-volume-340-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-357": {
+      "title": "清史稿/卷357",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2600979",
+      "locator": "qsg-volume-357-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-485": {
+      "title": "清史稿/卷485",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630039",
+      "locator": "qsg-volume-485-230",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

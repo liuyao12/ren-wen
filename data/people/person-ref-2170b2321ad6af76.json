@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-2170b2321ad6af76",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "深秀",
+    "source": "eccp-3656345",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "聞喜",
+      "source": "qsg-volume-464",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "Yang Shên-hsiu 楊深秀 (original ming 毓秀 T. 漪村, 儀村, 漪春, 1849–1898), a native of Wên-hsi, Shansi, chin-shih of 1889, a censor, who made many proposals for reform, and submitted to the throne a large number of memorials, prepared by others, which could scarcely have been presented otherwise.",
+          "source": "eccp-3656345",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "楊深秀，字儀村，本名毓秀，山西聞喜人。",
+          "source": "qsg-volume-464",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漪村",
+        "source": "eccp-3656345"
+      },
+      {
+        "value": "儀村",
+        "source": "eccp-3656345"
+      },
+      {
+        "value": "漪春",
+        "source": "eccp-3656345"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漪村"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Shên-hsiu",
+        "system": "ECCP spelling",
+        "source": "eccp-3656345"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1849,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1898,
+        "source": "eccp-3656345",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-464",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-464",
+      "passage": "qsg-volume-464-021",
+      "matchStatus": "proposed",
+      "evidence": "楊深秀，字儀村，本名毓秀，山西聞喜人。少穎敏，諳中西算術。同治初，以舉人入貲為刑部員外郎。假歸，值晉大饑，閻敬銘銜命籌賑，深秀條上改革差徭法，困少蘇。光緒十五年，成進士，就本官遷郎中，轉御史。嘗言：「時勢危迫，不革舊無以圖新，不變法無以圖存。」"
+    }
+  ],
+  "sources": {
+    "eccp-3656345": {
+      "title": "ECCP · 譚嗣同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365106",
+      "locator": "eccp-3656345-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-464": {
+      "title": "清史稿/卷464",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433595",
+      "locator": "qsg-volume-464-021",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

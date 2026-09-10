@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-37b66b35bb13f04d",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "馮",
+    "given": "夢龍",
+    "source": "eccp-3633516",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "猶龍",
+        "source": "eccp-3633516"
+      },
+      {
+        "value": "耳猶",
+        "source": "eccp-3633516"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "猶龍"
+    },
+    "romanizations": [
+      {
+        "value": "Fêng Mêng-lung",
+        "system": "ECCP spelling",
+        "source": "eccp-3633516"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1574,
+        "source": "eccp-3633516",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1645,
+        "source": "eccp-3633516",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633516": {
+      "title": "ECCP · 陳繼儒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280406",
+      "locator": "eccp-3633516-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

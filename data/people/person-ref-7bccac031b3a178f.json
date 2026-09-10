@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-7bccac031b3a178f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "孝",
+    "given": "康章皇后",
+    "source": "eccp-3639989",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Empress Hsiao-k'ang",
+        "system": "ECCP spelling",
+        "source": "eccp-3639989"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1640,
+        "source": "eccp-3639989",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1663,
+        "source": "eccp-3639989",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-214",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-214",
+      "passage": "qsg-volume-214-081",
+      "matchStatus": "proposed",
+      "evidence": "孝康章皇后，佟佳氏，少保、固山額真佟圖賴女。后初入宮，為世祖妃。順治十一年春，妃詣太后宮問安，將出，衣裾有光若龍繞，太后問之，知有姙，謂近侍曰：「朕姙皇帝實有斯祥，今妃亦有是，生子必膺大福。」三月戊申，聖祖生。聖祖即位，尊為皇太后。康熙二年二月庚戌，崩，年二十四。初上徽號曰慈和皇太后。及崩，葬孝陵，上諡。雍正、乾隆累加諡，曰孝康慈和莊懿恭惠溫穆端靖崇天育聖章皇后。后家佟氏，本漢軍，上命改佟佳氏，入滿洲。后族擡旗自此始。子一，聖祖。"
+    }
+  ],
+  "sources": {
+    "eccp-3639989": {
+      "title": "ECCP · 玄曄",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282854",
+      "locator": "eccp-3639989-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-214": {
+      "title": "清史稿/卷214",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2549848",
+      "locator": "qsg-volume-214-081",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

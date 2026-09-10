@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-bda151f29d4db47a",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "陳",
+    "given": "錦",
+    "source": "eccp-3646144",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "陳錦，字天章，漢軍正藍旗人，初籍錦州。",
+          "source": "qsg-volume-240",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "畫卿",
+        "source": "eccp-3646144"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "畫卿"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'ên Chin",
+        "system": "ECCP spelling",
+        "source": "eccp-3646144"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-240",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-240",
+      "passage": "qsg-volume-240-064",
+      "matchStatus": "proposed",
+      "evidence": "陳錦，字天章，漢軍正藍旗人，初籍錦州。仕明官大凌河都司，崇德間來降，予世職牛錄章京，加半個前程。漢軍旗制定，授牛錄額真。"
+    }
+  ],
+  "sources": {
+    "eccp-3646144": {
+      "title": "ECCP · 馬國翰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11300560",
+      "locator": "eccp-3646144-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-240": {
+      "title": "清史稿/卷240",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630032",
+      "locator": "qsg-volume-240-064",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

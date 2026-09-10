@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3643702",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "梁",
+    "given": "廷枏",
+    "source": "eccp-3643702",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "LIANG T'ing-nan 梁廷枏 (T. 章冉, H. 藤花亭主人), 1796–1861, scholar, was a native of Shun-tê, Kwangtung. He lost his father at an early age, but was left with independent means. During the first half of his life he devoted himself to academic studies and to the writing of plays.",
+          "source": "eccp-3643702",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "章冉",
+        "source": "eccp-3643702"
+      }
+    ],
+    "hao": [
+      {
+        "value": "藤花亭主人",
+        "source": "eccp-3643702"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "章冉"
+    },
+    "romanizations": [
+      {
+        "value": "Liang T'ing-nan",
+        "system": "ECCP spelling",
+        "source": "eccp-3643702"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1796,
+        "source": "eccp-3643702",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1861,
+        "source": "eccp-3643702",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3643702",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3643702",
+      "passage": "eccp-3643702-001"
+    }
+  ],
+  "sources": {
+    "eccp-3643702": {
+      "title": "ECCP · Liang T'ing-nan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294992",
+      "locator": "eccp-3643702-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637601": {
+      "title": "ECCP · 方東樹",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275796",
+      "locator": "eccp-3637601-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640939": {
+      "title": "ECCP · 阮元",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285980",
+      "locator": "eccp-3640939-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3645486": {
+      "title": "ECCP · 林伯桐",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11299418",
+      "locator": "eccp-3645486-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

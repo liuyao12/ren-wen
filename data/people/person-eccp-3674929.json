@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3674929",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "永吉",
+    "source": "eccp-3674929",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Yung-chi 王永吉 (T. 修之, H. 鐵山), d. 1659, Ming-Ch'ing official, was a native of Kao-yu, Kiangsu. He became a chin-shih in 1625, and served as district magistrate at Tat'ien, Fukien and at Jên-ho (Hangchow).",
+          "source": "eccp-3674929",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "王永吉，字修之，江南高郵人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "修之",
+        "source": "eccp-3674929"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鐵山",
+        "source": "eccp-3674929"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "修之"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Yung-chi",
+        "system": "ECCP spelling",
+        "source": "eccp-3674929"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3674929",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3674929",
+      "passage": "eccp-3674929-001"
+    },
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-051",
+      "matchStatus": "proposed",
+      "evidence": "王永吉，字修之，江南高郵人。明天啟間進士，官至薊遼總督。順治二年，以順天巡撫宋權薦，授大理寺卿。四年，擢工部侍郎。永吉疏辭，上責其博虛名，特允之，並諭永不錄用。居數年，有詔起用廢員，复詣京師，吏部疏薦，八年，授戶部侍郎。條奏各衛所屯地分上、中、下三等，請撥上田給運丁；各項折色銀請仍令官收官解，本色物料動支折價採買；洲田丈量累民，請以蘆課併入州縣考成，五年一次丈量：皆見採擇。"
+    }
+  ],
+  "sources": {
+    "eccp-3674929": {
+      "title": "ECCP · Wang Yung-chi",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419144",
+      "locator": "eccp-3674929-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-051",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-244": {
+      "title": "清史稿/卷244",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2025940",
+      "locator": "qsg-volume-244-016",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

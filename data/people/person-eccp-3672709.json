@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672709",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "萬",
+    "given": "斯大",
+    "source": "eccp-3672709",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WAN Ssŭ-ta 萬斯大 (T. 充宗, H. 跛翁, 褐夫先生), July 11, 1633–1683, Sept. 16, scholar, native of Yin-hsien, Chekiang, was the sixth son of Wan T'ai [q. v.] and father of Wan Ching [q. v.]. Like his brothers, he was a pupil of Huang Tsung-hsi [q. v.].",
+          "source": "eccp-3672709",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "萬斯大，字充宗，鄞縣人。",
+          "source": "qsg-volume-481",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "充宗",
+        "source": "eccp-3672709"
+      }
+    ],
+    "hao": [
+      {
+        "value": "跛翁",
+        "source": "eccp-3672709"
+      },
+      {
+        "value": "褐夫先生",
+        "source": "eccp-3672709"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "充宗"
+    },
+    "romanizations": [
+      {
+        "value": "Wan Ssŭ-ta",
+        "system": "ECCP spelling",
+        "source": "eccp-3672709"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1633,
+        "source": "eccp-3672709",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1683,
+        "source": "eccp-3672709",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672709",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672709",
+      "passage": "eccp-3672709-001"
+    },
+    {
+      "source": "qsg-volume-481",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-481",
+      "passage": "qsg-volume-481-015",
+      "matchStatus": "proposed",
+      "evidence": "萬斯大，字充宗，鄞縣人。父泰，明崇禎丙子舉人，與陸符齊名。寧波文學風氣，泰實開之。以經、史分授諸子，使從黃宗羲遊，各名一家。"
+    }
+  ],
+  "sources": {
+    "eccp-3672709": {
+      "title": "ECCP · Wan Ssŭ-ta",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412227",
+      "locator": "eccp-3672709-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633274": {
+      "title": "ECCP · 張煌言",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271612",
+      "locator": "eccp-3633274-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658575": {
+      "title": "ECCP · 萬經",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370139",
+      "locator": "eccp-3658575-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672713": {
+      "title": "ECCP · 萬泰",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412257",
+      "locator": "eccp-3672713-008",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-481": {
+      "title": "清史稿/卷481",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2630072",
+      "locator": "qsg-volume-481-015",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-482": {
+      "title": "清史稿/卷482",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2611033",
+      "locator": "qsg-volume-482-067",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

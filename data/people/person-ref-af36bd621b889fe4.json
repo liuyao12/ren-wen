@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-af36bd621b889fe4",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "何",
+    "given": "如璋",
+    "source": "eccp-3640025",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": []
+    },
+    "zi": [
+      {
+        "value": "子峨",
+        "source": "eccp-3640025"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子峨"
+    },
+    "romanizations": [
+      {
+        "value": "Ho Ju-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3640025"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1838,
+        "source": "eccp-3640025",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1891,
+        "source": "eccp-3640025",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-444",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-444",
+      "passage": "qsg-volume-444-027",
+      "matchStatus": "proposed",
+      "evidence": "何如璋，字子瓘，籍廣東大埔。同治七年進士，選庶吉士，授編修。以侍讀出使日本。歸，授少詹事，出督船政。承鴻章旨，狃和議，敵至，猶嚴諭各艦毋妄動。及敗，藉口押銀出奔，所如勿納，不得已，往就佩綸彭田鄉。佩綸慮敵踪跡及之，紿如璋出。士論謂閩事之壞，佩綸為罪魁，如璋次之。如璋亦遣戍。後卒於家。"
+    }
+  ],
+  "sources": {
+    "eccp-3640025": {
+      "title": "ECCP · 黃遵憲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282948",
+      "locator": "eccp-3640025-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-444": {
+      "title": "清史稿/卷444",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433599",
+      "locator": "qsg-volume-444-027",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

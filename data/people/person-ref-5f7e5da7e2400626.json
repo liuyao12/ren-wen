@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-5f7e5da7e2400626",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "士驤",
+    "source": "eccp-3675200",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "泗州",
+      "source": "qsg-volume-449",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "楊士驤，字蓮府，安徽泗州人。",
+          "source": "qsg-volume-449",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "蓮府",
+        "source": "eccp-3675200"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "蓮府"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Shih-hsiang",
+        "system": "ECCP spelling",
+        "source": "eccp-3675200"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1860,
+        "source": "eccp-3675200",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1909,
+        "source": "eccp-3675200",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-449",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-449",
+      "passage": "qsg-volume-449-031",
+      "matchStatus": "proposed",
+      "evidence": "楊士驤，字蓮府，安徽泗州人。光緒十二年進士，選庶吉士，授編修。保道員，補直隸通永道，擢按察使，遷江西布政使，復調直隸。三十一年，署山東巡撫。河貫東省千馀裡，淤高而堤薄，歲漫決為巨害。士驤以為河所以歲決者，河工員吏利興修，又因以遷擢也。乃定章程：歲安瀾，官奏敘，弁兵支款如例；河決，官嚴參，不得留工效力，弁兵依律論斬。身巡河堤，厲賞罰，自是數年，山東無河患。曹州多盜，行清鄉法，嚴督捕。德兵違約，屯膠、高，久不撤。數月盜少戢，會各國撤京、津兵，士驤與德官議，遂盡撤駐路德兵。"
+    }
+  ],
+  "sources": {
+    "eccp-3675200": {
+      "title": "ECCP · 吳汝綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419963",
+      "locator": "eccp-3675200-004",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-449": {
+      "title": "清史稿/卷449",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2005162",
+      "locator": "qsg-volume-449-031",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

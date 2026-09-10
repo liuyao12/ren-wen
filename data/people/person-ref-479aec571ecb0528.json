@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-479aec571ecb0528",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "唐",
+    "given": "景崧",
+    "source": "eccp-3639181",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "灌陽",
+      "source": "qsg-volume-463",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "唐景崧，字維卿，廣西灌陽人。",
+          "source": "qsg-volume-463",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "維卿",
+        "source": "eccp-3639181"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "維卿"
+    },
+    "romanizations": [
+      {
+        "value": "T'ang Ching-sung",
+        "system": "ECCP spelling",
+        "source": "eccp-3639181"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-463",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-463",
+      "passage": "qsg-volume-463-007",
+      "matchStatus": "proposed",
+      "evidence": "唐景崧，字維卿，廣西灌陽人。同治四年進士，選庶吉士，改吏部主事。光緒八年，法越事起，自請出關招致劉永福，廷旨交岑毓英差序。景崧先至粵，謁曾國荃，韙其議，資之入越。明年，抵保勝，見永福，為陳三策，謂：「據保勝十州，傳檄而定諸省，請命中國，假以名號，事成則王，此上策也；次則提全師擊河內，中國必助之餉；若坐守保勝，事敗而投中國，策之下也。」永福從中策。戰紙橋，敵潰，為作檄文佈告內外，檄出，遠近爭響應。越嗣君為法脅，莫能自振，景崧乘間勸內附。永福意猶豫，景崧曰：「子能存亡繼絕，即所以報故主也。且阮福時已"
+    }
+  ],
+  "sources": {
+    "eccp-3639181": {
+      "title": "ECCP · 馮子材",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280164",
+      "locator": "eccp-3639181-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-463": {
+      "title": "清史稿/卷463",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2021094",
+      "locator": "qsg-volume-463-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

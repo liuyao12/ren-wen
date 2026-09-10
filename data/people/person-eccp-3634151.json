@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3634151",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "成",
+    "given": "克鞏",
+    "source": "eccp-3634151",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "大名",
+      "source": "qsg-volume-238",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "CH'ÊNG K'o-kung 成克鞏 (T. 子固, H. 青壇), 1608–1691, official and scholar, was a native of Ta-ming, Chihli, third son of Ch'êng Chi-ming 成基命 (T. 靖之, H. 毖予, posthumous name 文穆, d. 1635) a chin-shih of 1607 and Grand Secretary under the Ming dynasty.",
+          "source": "eccp-3634151",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "成克鞏，字子固，直隸大名人。",
+          "source": "qsg-volume-238",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "子固",
+        "source": "eccp-3634151"
+      }
+    ],
+    "hao": [
+      {
+        "value": "青壇",
+        "source": "eccp-3634151"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "子固"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'êng K'o-kung",
+        "system": "ECCP spelling",
+        "source": "eccp-3634151"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1608,
+        "source": "eccp-3634151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1691,
+        "source": "eccp-3634151",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3634151",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3634151",
+      "passage": "eccp-3634151-001"
+    },
+    {
+      "source": "qsg-volume-238",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-238",
+      "passage": "qsg-volume-238-036",
+      "matchStatus": "proposed",
+      "evidence": "成克鞏，字子固，直隸大名人。父基命，明大學士。克鞏崇禎十六年進士，改庶吉士。避亂里居。"
+    }
+  ],
+  "sources": {
+    "eccp-3634151": {
+      "title": "ECCP · Ch'êng K'o-kung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271535",
+      "locator": "eccp-3634151-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3658531": {
+      "title": "ECCP · 崔述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370052",
+      "locator": "eccp-3658531-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674954": {
+      "title": "ECCP · 魏裔介",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419236",
+      "locator": "eccp-3674954-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-238": {
+      "title": "清史稿/卷238",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2603998",
+      "locator": "qsg-volume-238-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-262": {
+      "title": "清史稿/卷262",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433567",
+      "locator": "qsg-volume-262-011",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-264": {
+      "title": "清史稿/卷264",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2029839",
+      "locator": "qsg-volume-264-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-270": {
+      "title": "清史稿/卷270",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1163032",
+      "locator": "qsg-volume-270-009",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

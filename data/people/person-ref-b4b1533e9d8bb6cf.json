@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-b4b1533e9d8bb6cf",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "尚文",
+    "source": "eccp-3633286",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Yang Shang-wên 楊尚文 (T. 墨林), likewise a native of Shansi, Chang Mu edited the 連筠簃叢書 Lien-yün i ts'ung-shu which was printed in the years 1847–48. This collectanea contains 12 works, including the first reprint of the important source on the early history of the Mongols, entitled Yüan-ch'ao pi-shih (see under Ku Kuang-ch'i).",
+          "source": "eccp-3633286",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "墨林",
+        "source": "eccp-3633286"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "墨林"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Shang-wên",
+        "system": "ECCP spelling",
+        "source": "eccp-3633286"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3633286": {
+      "title": "ECCP · 張穆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11278373",
+      "locator": "eccp-3633286-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

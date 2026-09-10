@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3639186",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": null,
+    "given": "傅清",
+    "source": "eccp-3639186",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "FU-ch'ing 傅清, d. Nov. 11, 1750, general, came of the Fuca Clan and was a member of the Manchu Bordered Yellow Banner. He was the second son of Li-jung-pao (see under Misḥan) and was the elder brother of Fu-hêng [q. v.].",
+          "source": "eccp-3639186",
+          "kind": "source-wording",
+          "status": "imported"
+        },
+        {
+          "text": "傅清，富察氏，滿洲鑲黃旗人，李榮保次子，傅恆弟也。",
+          "source": "qsg-volume-312",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [],
+    "hao": [],
+    "parenthetical": null,
+    "romanizations": [
+      {
+        "value": "Fu-ch'ing",
+        "system": "ECCP spelling",
+        "source": "eccp-3639186"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3639186",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3639186",
+      "passage": "eccp-3639186-001"
+    },
+    {
+      "source": "qsg-volume-312",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-312",
+      "passage": "qsg-volume-312-006",
+      "matchStatus": "proposed",
+      "evidence": "傅清，富察氏，滿洲鑲黃旗人，李榮保次子，傅恆弟也。雍正間，授侍衛。乾隆初，累遷至直隸天津鎮總兵。康熙中定西藏，留兵鎮撫，以大臣駐藏辦事，為員二，嗣省其一。是時駐藏副都統索拜當代，命傅清以副都統往。十一年，疏言：「西藏處徼外，西北界準噶爾，北通青海，為四川西南外郛。自雍正十二年設塘汛，不特傳送官文書，且以聯絡聲氣。上年索拜以節費議撤汛，使藏人任郵遞，謂之番塘。未幾輒被盜。今準噶爾當入藏熬茶，番塘恐滋誤。請自打箭爐至藏復置塘汛，酌衝僻遠近，當得兵千人以內。」議如所請。"
+    }
+  ],
+  "sources": {
+    "eccp-3639186": {
+      "title": "ECCP · Fu-ch'ing",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11280178",
+      "locator": "eccp-3639186-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633243": {
+      "title": "ECCP · 班第",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271379",
+      "locator": "eccp-3633243-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3637575": {
+      "title": "ECCP · 遏必隆",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275761",
+      "locator": "eccp-3637575-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640920": {
+      "title": "ECCP · 查郎阿",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285933",
+      "locator": "eccp-3640920-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678139": {
+      "title": "ECCP · 延信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442942",
+      "locator": "eccp-3678139-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-312": {
+      "title": "清史稿/卷312",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433521",
+      "locator": "qsg-volume-312-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    },
+    "qsg-volume-314": {
+      "title": "清史稿/卷314",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1380018",
+      "locator": "qsg-volume-314-008",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

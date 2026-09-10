@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-27238bff35ed5d9f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "邊",
+    "given": "寶泉",
+    "source": "eccp-3633288",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "邊寶泉，字潤民，漢軍鑲紅旗人。",
+          "source": "qsg-volume-448",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "潤民",
+        "source": "eccp-3633288"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "潤民"
+    },
+    "romanizations": [
+      {
+        "value": "Pien Pao-ch'üan",
+        "system": "ECCP spelling",
+        "source": "eccp-3633288"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-448",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-448",
+      "passage": "qsg-volume-448-029",
+      "matchStatus": "proposed",
+      "evidence": "邊寶泉，字潤民，漢軍鑲紅旗人。同治二年進士，授編修。十一年，補浙江道監察御史。大學士李鴻章總督直隸，奏清苑麥秀兩歧。寶泉疏論之曰：「祥瑞之說，盛世不言。臣來自田間，麥有兩歧，常所親見。地氣偏厚，偶然致此，何足為異？漢章之時，以嘉穀芝草，改元章和，何敞猶據經義面折宋由、袁安。至馬端臨文獻通考，乃舉歷代祥瑞，統曰'物異'。夫祥且為異，今以無異之物而謂之祥，可乎？上年畿輔水災甚鉅，迄今沒水田廬猶未盡出；永定河甫經蕆工，北岸又潰；邊軍未撤，民困未蘇。鴻章身膺重寄，威望素隆，當效何敞之公忠，懲宋由、袁安之"
+    }
+  ],
+  "sources": {
+    "eccp-3633288": {
+      "title": "ECCP · 張佩綸",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293088",
+      "locator": "eccp-3633288-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-448": {
+      "title": "清史稿/卷448",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2613364",
+      "locator": "qsg-volume-448-029",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

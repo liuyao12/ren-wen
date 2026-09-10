@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672763",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "汪",
+    "given": "端",
+    "source": "eccp-3672763",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Tuan 汪端 (T. 允莊, H. 小韞), Feb. 28, 1793–1839, Feb. 1, poetess, a native of Ch'ien-t'ang (Hangchow), was the wife of Ch'ên P'ei-chih 陳裴之 (T. 孟楷, H. 小雪, 朗玉仙人, 1794–1826), official and poet.",
+          "source": "eccp-3672763",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "允莊",
+        "source": "eccp-3672763"
+      }
+    ],
+    "hao": [
+      {
+        "value": "小韞",
+        "source": "eccp-3672763"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "允莊"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Tuan",
+        "system": "ECCP spelling",
+        "source": "eccp-3672763"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1793,
+        "source": "eccp-3672763",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1839,
+        "source": "eccp-3672763",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672763",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672763",
+      "passage": "eccp-3672763-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672763": {
+      "title": "ECCP · Wang Tuan",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412343",
+      "locator": "eccp-3672763-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3634085": {
+      "title": "ECCP · 陳文述",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271502",
+      "locator": "eccp-3634085-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

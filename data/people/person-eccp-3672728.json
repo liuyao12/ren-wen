@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3672728",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "王",
+    "given": "崇簡",
+    "source": "eccp-3672728",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "WANG Ch'ung-chien 王崇簡 (T. 敬哉), Dec. 10, 1602–1678, Dec. 30, official, was a native of Wan-p'ing (Peking). He became a chin-shih in 1643 at the last of the civil service examinations held under the Ming dynasty.",
+          "source": "eccp-3672728",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "敬哉",
+        "source": "eccp-3672728"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "敬哉"
+    },
+    "romanizations": [
+      {
+        "value": "Wang Ch'ung-chien",
+        "system": "ECCP spelling",
+        "source": "eccp-3672728"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1602,
+        "source": "eccp-3672728",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1678,
+        "source": "eccp-3672728",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3672728",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3672728",
+      "passage": "eccp-3672728-001"
+    }
+  ],
+  "sources": {
+    "eccp-3672728": {
+      "title": "ECCP · Wang Ch'ung-chien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412284",
+      "locator": "eccp-3672728-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637592": {
+      "title": "ECCP · 范景文",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275784",
+      "locator": "eccp-3637592-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3643665": {
+      "title": "ECCP · 李蔚",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11294912",
+      "locator": "eccp-3643665-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649099": {
+      "title": "ECCP · 米萬鍾",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11317651",
+      "locator": "eccp-3649099-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654392": {
+      "title": "ECCP · 孫承澤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358502",
+      "locator": "eccp-3654392-005",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3672737": {
+      "title": "ECCP · 王熙",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412300",
+      "locator": "eccp-3672737-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678080": {
+      "title": "ECCP · 楊光先",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442429",
+      "locator": "eccp-3678080-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-068",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

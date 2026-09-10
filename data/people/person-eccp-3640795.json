@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3640795",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "洪",
+    "given": "昇",
+    "source": "eccp-3640795",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "HUNG Shêng 洪昇 (T. 昉思, H. 稗畦), 1646?–1704, dramatist and poet, was a native of Jên-ho (Hangchow), Chekiang. He married a granddaughter of the Grand Secretary, Huang Chi [q. v.], and was a disciple of Wang Shih-chên [q. v.] who dedicated a number of poems to him.",
+          "source": "eccp-3640795",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "昉思",
+        "source": "eccp-3640795"
+      }
+    ],
+    "hao": [
+      {
+        "value": "稗畦",
+        "source": "eccp-3640795"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "昉思"
+    },
+    "romanizations": [
+      {
+        "value": "Hung Shêng",
+        "system": "ECCP spelling",
+        "source": "eccp-3640795"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1646,
+        "source": "eccp-3640795",
+        "status": "source-reported",
+        "uncertain": true,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1704,
+        "source": "eccp-3640795",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3640795",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3640795",
+      "passage": "eccp-3640795-001"
+    }
+  ],
+  "sources": {
+    "eccp-3640795": {
+      "title": "ECCP · Hung Shêng",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285341",
+      "locator": "eccp-3640795-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3633250": {
+      "title": "ECCP · 查慎行",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271543",
+      "locator": "eccp-3633250-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633498": {
+      "title": "ECCP · 趙執信",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271692",
+      "locator": "eccp-3633498-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3642429": {
+      "title": "ECCP · 孔尚任",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290537",
+      "locator": "eccp-3642429-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658559": {
+      "title": "ECCP · 佟國維",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370116",
+      "locator": "eccp-3658559-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}

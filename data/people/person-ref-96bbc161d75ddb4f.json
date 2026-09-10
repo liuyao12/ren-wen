@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-96bbc161d75ddb4f",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "秦",
+    "given": "松齡",
+    "source": "eccp-3635487",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "秦松齡，字留仙，無錫人。",
+          "source": "qsg-volume-484",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "漢石",
+        "source": "eccp-3635487"
+      },
+      {
+        "value": "留仙",
+        "source": "eccp-3635487"
+      }
+    ],
+    "hao": [
+      {
+        "value": "對巖",
+        "source": "eccp-3635487"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "漢石"
+    },
+    "romanizations": [
+      {
+        "value": "Ch'in Sungling",
+        "system": "ECCP spelling",
+        "source": "eccp-3635487"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1637,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1714,
+        "source": "eccp-3635487",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-484",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-484",
+      "passage": "qsg-volume-484-166",
+      "matchStatus": "proposed",
+      "evidence": "秦松齡，字留仙，無錫人。順治十二年進士，官檢討，罷歸。後舉鴻博，复授檢討。典江西鄉試，歷左贊善，以諭德終。松齡為庶常，召試詠鶴詩，有句云：「高鳴常向月，善舞不迎人。」世祖拔置第一，示閣臣曰：「是人必有品！」及告歸，里居二十餘年，專治毛詩。仿黃氏日鈔之例，著毛詩日箋六卷。自為詩文曰蒼峴山人集。"
+    }
+  ],
+  "sources": {
+    "eccp-3635487": {
+      "title": "ECCP · 秦蕙田",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271419",
+      "locator": "eccp-3635487-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-166",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

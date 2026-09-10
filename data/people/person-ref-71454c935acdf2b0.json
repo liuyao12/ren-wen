@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-71454c935acdf2b0",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姜",
+    "given": "希轍",
+    "source": "eccp-3672711",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "會稽",
+      "source": "qsg-volume-282",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "姜希轍，字二濱，浙江會稽人。",
+          "source": "qsg-volume-282",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "二濱",
+        "source": "eccp-3672711"
+      }
+    ],
+    "hao": [
+      {
+        "value": "定庵",
+        "source": "eccp-3672711"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "二濱"
+    },
+    "romanizations": [
+      {
+        "value": "Chiang Hsi-chê",
+        "system": "ECCP spelling",
+        "source": "eccp-3672711"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-282",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-282",
+      "passage": "qsg-volume-282-007",
+      "matchStatus": "proposed",
+      "evidence": "姜希轍，字二濱，浙江會稽人。明崇禎間舉人。順治初，除溫州教授。五年，以瑞安知縣缺員，令暫攝。鄭成功兵來犯，攻城，希轍督民守，遇事立應。援至，破成功兵齊云江上。九年，遷直隸元城知縣。畿北飢，流民至者日以萬計。逃人令方嚴，民慮溷入為累，輒拒不予食。希轍令察非逃人，使墾縣中荒田，田闢，饑民以活。善決獄，民稱之。"
+    }
+  ],
+  "sources": {
+    "eccp-3672711": {
+      "title": "ECCP · 萬斯同",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11412233",
+      "locator": "eccp-3672711-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-282": {
+      "title": "清史稿/卷282",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433577",
+      "locator": "qsg-volume-282-007",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

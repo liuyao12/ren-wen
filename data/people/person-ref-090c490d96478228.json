@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-090c490d96478228",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "姚",
+    "given": "江書院",
+    "source": "eccp-3649390",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "Yao-chiang Shu-yüan 姚江書院 I to promote the teachings of Wang Shou-jên (see under Chang Li-hsiang)—Wang also having been a native of that place. His father, Shao Chên-hsien 邵貞顯 (T. 立夫, H. 鶴閒, d.",
+          "source": "eccp-3649390",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "立夫",
+        "source": "eccp-3649390"
+      }
+    ],
+    "hao": [
+      {
+        "value": "鶴閒",
+        "source": "eccp-3649390"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "立夫"
+    },
+    "romanizations": [
+      {
+        "value": "Yao-chiang Shu-yüan",
+        "system": "ECCP spelling",
+        "source": "eccp-3649390"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [],
+  "sources": {
+    "eccp-3649390": {
+      "title": "ECCP · 邵廷采",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318173",
+      "locator": "eccp-3649390-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

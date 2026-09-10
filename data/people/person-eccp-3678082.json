@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3678082",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "楊",
+    "given": "漣",
+    "source": "eccp-3678082",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "YANG Lien 楊漣 (T. 文孺, H. 大洪), Aug. 5, 1571–1625, Aug. 26, Ming official, was a native of Ying-shan, Hupeh. After becoming a chin-shih in 1607, he was given the post of magistrate at Ch'ang-shu, Kiangsu.",
+          "source": "eccp-3678082",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "文孺",
+        "source": "eccp-3678082"
+      }
+    ],
+    "hao": [
+      {
+        "value": "大洪",
+        "source": "eccp-3678082"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "文孺"
+    },
+    "romanizations": [
+      {
+        "value": "Yang Lien",
+        "system": "ECCP spelling",
+        "source": "eccp-3678082"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1571,
+        "source": "eccp-3678082",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1625,
+        "source": "eccp-3678082",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3678082",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3678082",
+      "passage": "eccp-3678082-001"
+    }
+  ],
+  "sources": {
+    "eccp-3678082": {
+      "title": "ECCP · Yang Lien",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442431",
+      "locator": "eccp-3678082-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3635455": {
+      "title": "ECCP · 錢謙益",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271399",
+      "locator": "eccp-3635455-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3633515": {
+      "title": "ECCP · 陳貞慧",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271437",
+      "locator": "eccp-3633515-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636400": {
+      "title": "ECCP · 朱常洛",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272520",
+      "locator": "eccp-3636400-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636424": {
+      "title": "ECCP · 朱國楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272559",
+      "locator": "eccp-3636424-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3636430": {
+      "title": "ECCP · 朱由校",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11272567",
+      "locator": "eccp-3636430-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3634106": {
+      "title": "ECCP · 鄭鄤",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11293102",
+      "locator": "eccp-3634106-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640028": {
+      "title": "ECCP · 黃宗羲",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11282955",
+      "locator": "eccp-3640028-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3640938": {
+      "title": "ECCP · 阮大鋮",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11285975",
+      "locator": "eccp-3640938-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3654394": {
+      "title": "ECCP · 孫奇逢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11358505",
+      "locator": "eccp-3654394-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658556": {
+      "title": "ECCP · 佟國器",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370112",
+      "locator": "eccp-3658556-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3658537": {
+      "title": "ECCP · 杜越",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11370075",
+      "locator": "eccp-3658537-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3674949": {
+      "title": "ECCP · 魏忠賢",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11419223",
+      "locator": "eccp-3674949-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-036",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

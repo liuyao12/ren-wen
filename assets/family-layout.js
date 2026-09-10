@@ -38,9 +38,9 @@ export function familyFocusLayout({subject, relations, availableIds, sourceIds, 
     const inactive = members.filter(m => !active.has(m.id));
     const collapse = focus && !expanded && inactive.length > 0;
     for (const m of members) if (!collapse || active.has(m.id)) {
-      rows.push({key:m.id, ids:[m.id], kind:'person', role, active:active.has(m.id), height:32});
+      rows.push({key:m.id, ids:[m.id], kind:'person', role, active:active.has(m.id), height:42});
     }
-    if (collapse) rows.push({key:`family-${role}`, ids:inactive.map(m => m.id), kind:'summary', role, active:false, height:22});
+    if (collapse) rows.push({key:`family-${role}`, ids:inactive.map(m => m.id), kind:'summary', role, active:false, height:18});
   }
   let y = 38;
   for (const row of rows) { row.y = y; y += row.height; }
@@ -49,7 +49,7 @@ export function familyFocusLayout({subject, relations, availableIds, sourceIds, 
   const dividerY = others.length ? y + 3 : null;
   if (others.length) y += 22;
   for (const id of others) {
-    const row = {key:id, ids:[id], kind:'person', role:'other', active:active.has(id), height:32, y};
+    const row = {key:id, ids:[id], kind:'person', role:'other', active:active.has(id), height:42, y};
     rows.push(row); y += row.height;
   }
   return {rows, family, familyEnd, dividerY, height:Math.max(100, y + 8),

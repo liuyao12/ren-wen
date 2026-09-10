@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3635449",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "焦",
+    "given": "竑",
+    "source": "eccp-3635449",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "CHIAO Hung 焦竑 (T. 弱侯, H. 澹園 and 漪園), 1541–1620, Ming scholar and bibliophile was a native of Chiang-ning (Nanking). His father migrated to Nanking as a military officer of low rank from Jih-chao, Shantung.",
+          "source": "eccp-3635449",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "弱侯",
+        "source": "eccp-3635449"
+      }
+    ],
+    "hao": [
+      {
+        "value": "澹園",
+        "source": "eccp-3635449"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "弱侯"
+    },
+    "romanizations": [
+      {
+        "value": "Chiao Hung",
+        "system": "ECCP spelling",
+        "source": "eccp-3635449"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1541,
+        "source": "eccp-3635449",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1620,
+        "source": "eccp-3635449",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3635449",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3635449",
+      "passage": "eccp-3635449-001"
+    }
+  ],
+  "sources": {
+    "eccp-3635449": {
+      "title": "ECCP · Chiao Hung",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11271735",
+      "locator": "eccp-3635449-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3642416": {
+      "title": "ECCP · 顧炎武",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11290514",
+      "locator": "eccp-3642416-007",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-484": {
+      "title": "清史稿/卷484",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433602",
+      "locator": "qsg-volume-484-087",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": []
+}

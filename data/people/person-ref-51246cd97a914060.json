@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "person-ref-51246cd97a914060",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "閻",
+    "given": "敬銘",
+    "source": "eccp-3656383",
+    "jiguan": null,
+    "bracket": {
+      "kind": "county",
+      "label": "朝邑",
+      "source": "qsg-volume-438",
+      "status": "proposed"
+    },
+    "registration": {
+      "attestations": [
+        {
+          "text": "閻敬銘，字丹初，陝西朝邑人。",
+          "source": "qsg-volume-438",
+          "kind": "biographical-opening",
+          "status": "proposed"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "丹初",
+        "source": "eccp-3656383"
+      }
+    ],
+    "hao": [],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "丹初"
+    },
+    "romanizations": [
+      {
+        "value": "Yen Ching-ming",
+        "system": "ECCP spelling",
+        "source": "eccp-3656383"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [
+      {
+        "event": "birth",
+        "calendar": "gregorian",
+        "value": 1817,
+        "source": "eccp-3656383",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      },
+      {
+        "event": "death",
+        "calendar": "gregorian",
+        "value": 1892,
+        "source": "eccp-3656383",
+        "status": "source-reported",
+        "uncertain": false,
+        "note": "Western year as printed; not a resolved Chinese civil year."
+      }
+    ],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "qsg-volume-438",
+      "relation": "biographical-account-candidate",
+      "readerWitness": "qsg-volume-438",
+      "passage": "qsg-volume-438-006",
+      "matchStatus": "proposed",
+      "evidence": "閻敬銘，字丹初，陝西朝邑人。道光二十五年進士，選庶吉士，散館改戶部主事。咸豐九年，湖北巡撫胡林翼奏調赴鄂，總司糧台營務。累遷郎中，擢四品京堂。林翼請病，复疏薦敬銘才，授湖北按察使。同治元年，嚴樹森繼為巡撫，亦推敬銘湖北賢能第一，署布政使。以丁本生父憂歸，命治喪畢赴軍，未行，詔署山東鹽運使，擢署巡撫，疏乞終制，不許。時山東教匪入新泰，捻、幅各匪犯鄒、曲阜，降眾竄陽穀、聊城。敬銘既受任，檄總兵保德等進剿，而自督軍規淄川，克之。已革參將宋景詩引降眾屯東昌，复叛，飭按察使丁寶楨討之。景詩竄莘，敬銘檄軍防"
+    }
+  ],
+  "sources": {
+    "eccp-3656383": {
+      "title": "ECCP · 丁寶楨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11365165",
+      "locator": "eccp-3656383-002",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "qsg-volume-438": {
+      "title": "清史稿/卷438",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2433554",
+      "locator": "qsg-volume-438-006",
+      "access": "full-text",
+      "attribution": "Wikisource contributors; 清史稿編纂者"
+    }
+  },
+  "notes": [
+    "Source-scoped reference. No identity with a similarly named person elsewhere is asserted."
+  ]
+}

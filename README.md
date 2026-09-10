@@ -10,21 +10,34 @@ Ren-Wen connects historical texts and people through source-linked biographies, 
 
 [Open the reader](https://liuyao12.github.io/ren-wen/) · [People](https://liuyao12.github.io/ren-wen/profiles.html) · [Works](https://liuyao12.github.io/ren-wen/works.html)
 
-## Current ECCP library
+## ECCP 全書第一輪
 
-Four complete entries from *Eminent Chinese of the Ch'ing Period* are included: **曾紀澤 / Tsêng Chi-tsê, 郭嵩燾 / Kuo Sung-tao, 董恂 / Tung Hsün, and 崇厚 / Ch'ung-hou**. Bibliographies and contributor bylines are retained. The separate 《清史稿》 account of 曾紀澤 remains a selected excerpt, not a complete import.
+開啟 **[傳記目錄](https://liuyao12.github.io/ren-wen/library.html)**，依中文名、原書英文拼寫或縣名搜尋。
 
-The first expanded batch contains **71 person profiles, 48 named-work profiles, and 354 indexed occurrences** across the five texts. These are source-linked, agent-proposed records, not independently reviewed scholarship. Unsearched CBDB/Geni IDs and unresolved dates remain empty; place and event extraction is still partial.
+本次發布：**r2026.09.09**。字、號、諡以小字另列，不加括號；姓名置於生卒條內。
+有明確段落年份時顯示垂直游標。歷年姓名／官爵為可逐步補充的來源化記錄，
+目前曾國藩為有年限的試點；不能把缺少稱號資料理解為當年無官職。
+詳見 [姓名與稱號年代](docs/dated-names.md)。
+已保存來源清單中全部 **1,008 頁：809 篇敘事傳記、193 篇參見條目及 6 篇編輯／參考資料**。
+正文、引文、書目和署名均保留；文字完整性與身分標註覆核分開記錄。
 
-- Hover or keyboard-focus a person to choose **Person profile** or **Read ECCP entry**. Imported entries open in the reader; external entries are identified as Wikisource links. A discussion under somebody else is labelled as a discussion, not the person's own biography.
-- Work titles have separate profiles with attested forms, contributors and roles, bibliographical notes, related works and links back to their occurrences. Person profiles list work contributions.
-- On touch screens, tap a name to open the choices. Arrow Down enters a focused card; Escape dismisses it. Ordinary desktop clicks still open the profile. **Review names**, Alt-click, or the card's review button opens the annotation inspector.
-- Scroll or select a paragraph to update the timeline and map. Active people move together, with source-linked parent–child connectors. The interactive map shows evidenced journey sequences and a partial historical administrative hierarchy; arcs are not reconstructed travel routes.
-- Canonical person names use **[籍貫] 姓名（字或號）**. AD years and Chinese civil/regnal years remain separate; ganzhi and sui use resolved Chinese years only.
+目前有 **6,879 筆人物記錄、9,036 筆著作／書名候選記錄、63,716 處標註**。
+這些數字不是已人工消歧的不同人物或著作總數。未知人物也有來源限定的簡略檔案；
+未配對的 CBDB/Geni ID、中曆生卒年、民籍或佐領資訊不補造。
 
-No historical boundary polygons are bundled. The map backdrop and coordinates are modern references, distinct from historical jurisdictions. A local-only dated GeoJSON layer can be loaded where appropriate. No restricted ctext, CBDB or CHGIS bulk dataset is redistributed.
+《清史稿》共 **789 個開頭定位候選**，所在 **235 卷完整文字** 已保存。
+開頭配對仍待逐項核查；本紀另以「諱」字下的本人姓名建立配對候選。
+未匹配不表示此人沒有本傳，且本紀、附傳、其他人物本傳中的記載不可混稱。
 
-See [ECCP library, annotation scope and provenance](docs/eccp-library.md) and [timeline / map interaction](docs/reader-context.md). Earlier pilot notes describe the initial excerpt collection; the preserved parse responses and batch manifest now document the four complete ECCP imports.
+- 人名滑出選單可前往人物頁或 ECCP 本傳，原文異名與參見標記不改寫。
+- 姓名採 **[縣名或氏族] 姓名**，例如 **[湘鄉] 曾紀澤**、**[完顏] 崇厚**。
+  完整籍貫、旗籍和佐領原文另列來源。氏族不是地理位置。
+- 原文在左側約三分之二；右側依次為人物資料、家屬年表及互動地圖。政區圖為有明確參考年份和區域範圍的歷史插圖，
+  不是任意敘事年份的精確行政區界。行跡線不冒充實際道路或航線。
+- 引文有自己的文本記錄和出現位置，但完整保留於包含文本中。
+
+詳見 **[第一輪範圍、來源及覆核規則](docs/eccp-round1.md)**、[文本層次](docs/text-layers.md)、
+[歷史參考地圖](docs/reference-maps.md)和[家族閱讀布局](docs/family-reader.md)。
 
 ## Run locally
 
@@ -105,8 +118,7 @@ Original software is MIT-licensed. Source texts, transcriptions, annotations and
 ## Complete entry and layered texts
 
 The current landing entry is **曾國藩 / Tsêng Kuo-fan**: all 17 ECCP paragraphs,
-including the bibliography and Têng Ssŭ-yü's byline. Five complete ECCP entries
-are now available. The existing 《清史稿》曾紀澤 account has also been restored
+including the bibliography and Têng Ssŭ-yü's byline. The complete first-round ECCP inventory is now included. The existing 《清史稿》曾紀澤 account has also been restored
 without the formerly omitted memorial. [Text units](texts.html) retain quoted
 readings inside their original context while giving them reusable identities.
 See [text layers](docs/text-layers.md).
@@ -116,3 +128,5 @@ map images** of the middle/lower Yangtze corridor. Province, prefecture, and
 (for 1911) county outlines appear with zoom. These are explicitly dated snapshots,
 not boundaries for every reading year, and not nationwide coverage. No CHGIS
 source vector files are redistributed. See [map scope and terms](docs/reference-maps.md).
+
+For bulk imports also run `python -m scripts.round1_validate`. Rebuild derived reading bundles with `python -m scripts.reading_indexes`.

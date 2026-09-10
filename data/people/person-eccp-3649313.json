@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "person-eccp-3649313",
+  "collection": "ECCP",
+  "reviewStatus": "agent-proposed",
+  "coverage": "First-round reference profile; identification and biographical details await review.",
+  "name": {
+    "surname": "潘",
+    "given": "檉章",
+    "source": "eccp-3649313",
+    "jiguan": null,
+    "bracket": null,
+    "registration": {
+      "attestations": [
+        {
+          "text": "P'AN Ch'êng-chang 潘檉章 (T. 聖木, H. 力田), d. July 1, 1663, age 38 (sui), historian, was a native of Wu-chiang, Kiangsu. Refraining from taking the examinations under the newly established Manchu regime, he and Wu Yen [q. v.] determined in 1652 to collaborate on a history of the Ming dynasty and on an historical account of the same period in poetical form.",
+          "source": "eccp-3649313",
+          "kind": "source-wording",
+          "status": "imported"
+        }
+      ]
+    },
+    "zi": [
+      {
+        "value": "聖木",
+        "source": "eccp-3649313"
+      }
+    ],
+    "hao": [
+      {
+        "value": "力田",
+        "source": "eccp-3649313"
+      }
+    ],
+    "parenthetical": {
+      "kind": "zi",
+      "value": "聖木"
+    },
+    "romanizations": [
+      {
+        "value": "P'an Ch'êng-chang",
+        "system": "ECCP spelling",
+        "source": "eccp-3649313"
+      }
+    ]
+  },
+  "life": {
+    "birth": null,
+    "death": null,
+    "westernDates": [],
+    "westernYears": [],
+    "reportedAges": []
+  },
+  "externalIds": {
+    "cbdb": {
+      "id": null,
+      "status": "not-searched"
+    },
+    "geni": {
+      "id": null,
+      "status": "not-searched"
+    }
+  },
+  "accounts": [
+    {
+      "source": "eccp-3649313",
+      "relation": "principal-biography",
+      "readerWitness": "eccp-3649313",
+      "passage": "eccp-3649313-001"
+    }
+  ],
+  "sources": {
+    "eccp-3649313": {
+      "title": "ECCP · P'an Ch'êng-chang",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318032",
+      "locator": "eccp-3649313-001",
+      "access": "full-text",
+      "attribution": "ECCP authors and Wikisource contributors"
+    },
+    "eccp-3637550": {
+      "title": "ECCP · 莊廷鑨",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11275720",
+      "locator": "eccp-3637550-003",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3649315": {
+      "title": "ECCP · 潘耒",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11318036",
+      "locator": "eccp-3649315-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    },
+    "eccp-3678066": {
+      "title": "ECCP · 吳炎",
+      "url": "https://en.wikisource.org/w/index.php?oldid=11442392",
+      "locator": "eccp-3678066-001",
+      "access": "full-text",
+      "attribution": "ECCP contributors; Arthur W. Hummel, editor; Wikisource contributors"
+    }
+  },
+  "notes": []
+}
