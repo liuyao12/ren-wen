@@ -1,0 +1,107 @@
+name: Verify recovered full reader
+on:
+  push:
+    branches: [release-verified-sept10]
+    paths: ['.github/workflows/release-verify-sept10.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: cebb0e7145cde14c629ca694e6870f9e5689bf94
+          path: _candidate
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser verification support
+        run: |
+          python -m pip install PyYAML playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Restore pinned implementation and repair fragment-navigation assertion
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, yaml
+          root=Path('_candidate')
+          plan=yaml.safe_load((root/'.github/workflows/release-reader-check.yml').read_text())
+          step=next(s for s in plan['jobs']['validate']['steps'] if s.get('name')=='Apply exact reviewed changes with old and new checksums')
+          subprocess.run(['bash','-e','-c',step['run']],cwd=root,check=True)
+          path=root/'tests/browser_release.py';text=path.read_text()
+          changes=[
+              ('from urllib.parse import urljoin','from urllib.parse import urljoin, urldefrag'),
+              ("        response=page.goto(urljoin(base,path),wait_until='networkidle',timeout=120000)\n        assert response and response.status==200,(path,response.status if response else None)",
+               "        target=urljoin(base,path)\n        same_document=urldefrag(page.url)[0]==urldefrag(target)[0]\n        response=page.goto(target,wait_until='networkidle',timeout=120000)\n        # Fragment navigation has no document response. Do not hide a failed full navigation.\n        if response is None:\n            assert same_document,('Missing document response',path)\n        else:\n            assert response.status==200,(path,response.status)\n        expect(page).to_have_url(target)"),
+              ("        assert '[完顏] 崇厚'==page.locator('#profile h1').inner_text().strip()",
+               "        expect(page.locator('#profile h1')).to_have_text('[完顏] 崇厚')")
+          ]
+          for old,new in changes:
+              assert text.count(old)==1,old
+              text=text.replace(old,new)
+          path.write_text(text)
+          PY
+      - name: Validate corpus, evidence, dated names and all tests
+        working-directory: _candidate
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m scripts.name_history validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+          python scripts/renwen.py build-db
+          python scripts/profiles.py index-db
+          python scripts/works.py index-db
+          python -m scripts.text_units index-db
+          python -m scripts.name_history index-db
+      - name: Verify real HTTP reader, profiles, family and map
+        working-directory: _candidate
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/release-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/family
+      - name: Preserve tested source on this feature branch only
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          test "$(git branch --show-current)" = release-verified-sept10
+          git fetch origin release-verified-sept10
+          test "$(git rev-parse origin/release-verified-sept10)" = "$EXPECTED_HEAD"
+          rsync -a --delete --exclude='.git/' --exclude='.github/' --exclude='.transport/' --exclude='.release/' --exclude='_candidate/' --exclude='_site/' --exclude='build/' --exclude='node_modules/' --exclude='__pycache__/' _candidate/ ./
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':!.github' ':!_candidate' ':!_site' ':!build' ':!.transport' ':!.release' ':!node_modules'
+          git commit -m 'Complete full ECCP reader integration and verify dated names, source attestations and map'
+          git push origin HEAD:release-verified-sept10
+          mkdir -p build
+          git rev-parse HEAD > build/tested-commit.txt
+          git rev-parse HEAD^{tree} > build/tested-tree.txt
+          git archive --format=tar.gz -o build/tested-reader.tar.gz HEAD
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verified-full-reader
+          path: |
+            build/tested-commit.txt
+            build/tested-tree.txt
+            build/tested-reader.tar.gz
+            _candidate/build/release-browser
+            _candidate/build/server.log
+          retention-days: 7
