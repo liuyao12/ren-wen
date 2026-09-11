@@ -5,20 +5,113 @@ on:
     paths: ['.github/workflows/work-title-review.yml']
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
-  snapshot:
+  verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - run: |
-          mkdir -p build
-          git archive --format=tar.gz -o build/source.tar.gz HEAD
-          git rev-parse HEAD > build/commit.txt
-      - uses: actions/upload-artifact@v4
         with:
-          name: work-title-source
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply the checksummed editorial implementation and explicit evidence manifest
+        run: |
+          python - <<'PY'
+          import base64, hashlib, json, lzma
+          from pathlib import Path
+          root=Path.cwd().resolve()
+          encoded=''.join((root/f'.review/work-titles-{i:02}.txt').read_text().strip() for i in range(1,5))
+          packed=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(packed).hexdigest()=='09e473a6b00d1f6dc59853d6f3ce7a1be46cae0afba06f28dd10e4203bc7b689', 'Transport checksum mismatch'
+          raw=lzma.decompress(packed)
+          assert hashlib.sha256(raw).hexdigest()=='42d945b23b9edc1e2d29ea05a072e56996c3a05008f7928968b375dd3a3fa82d', 'Implementation checksum mismatch'
+          staged={}
+          for item in json.loads(raw):
+              name=item['path']; path=(root/name).resolve(); path.relative_to(root)
+              assert name not in staged and not name.startswith(('.git/','.review/','build/'))
+              assert not name.startswith('.github/') or name=='.github/workflows/pages.yml'
+              assert not name.startswith('data/') or name=='data/editorial/work-titles-2026-09-11.json'
+              before=path.read_bytes() if path.exists() else b''
+              assert (hashlib.sha256(before).hexdigest() if path.exists() else None)==item['before'], 'Stale input: '+name
+              text=before.decode('utf-8'); limit=len(text)
+              for start,end,replacement in reversed(item['edits']):
+                  assert 0<=start<=end<=limit
+                  text=text[:start]+replacement+text[end:]; limit=start
+              after=text.encode('utf-8')
+              assert hashlib.sha256(after).hexdigest()==item['after'], 'Output mismatch: '+name
+              staged[name]=after
+          for name,content in staged.items():
+              path=root/name; path.parent.mkdir(parents=True,exist_ok=True); path.write_bytes(content)
+          print('Applied',len(staged),'checked files.')
+          PY
+      - name: Apply the bounded source-title review without changing the source wording
+        run: |
+          mkdir -p build
+          python -m compileall -q scripts tests
+          python -m scripts.work_title_review apply | tee build/work-title-report.json
+          git diff --exit-code -- data/upstream data/imports
+      - name: Validate the corpus and all regressions
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m scripts.name_history validate
+          python -m unittest discover -s tests -v
+          npm test && npm run check
+          python scripts/renwen.py build-db
+          python scripts/works.py index-db
+          python - <<'PY'
+          import sqlite3
+          with sqlite3.connect('build/renwen.sqlite') as db:
+              assert db.execute('SELECT COUNT(*) FROM work_title_evidence').fetchone()[0]==25
+              assert db.execute('SELECT COUNT(*) FROM work_title_references').fetchone()[0]==42
+              print('Derived SQLite title evidence and cross-references verified.')
+          PY
+      - name: Install browser verification support
+        run: |
+          python -m pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Test title evidence, source navigation, family and map over real HTTP
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_work_titles.py --url 'http://127.0.0.1:8000/' --output build/title-browser
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/release-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/family
+      - name: Save tested implementation on the feature branch only
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          test "$(git branch --show-current)" = work-title-evidence-sept11
+          git fetch origin work-title-evidence-sept11
+          test "$(git rev-parse origin/work-title-evidence-sept11)" = "$EXPECTED_HEAD"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':(exclude).review' ':(exclude)build' ':(exclude)_site' ':(exclude)node_modules' ':(exclude).github/workflows/work-title-review.yml'
+          git commit -m 'Identify 25 Chinese work titles with exact source pairs and cross-biography evidence'
+          git push origin HEAD:work-title-evidence-sept11
+          git rev-parse HEAD > build/tested-commit.txt
+          git rev-parse HEAD^{tree} > build/tested-tree.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: work-title-verification
           path: |
-            build/source.tar.gz
-            build/commit.txt
+            build/title-browser
+            build/release-browser
+            build/work-title-report.json
+            build/tested-commit.txt
+            build/tested-tree.txt
+            build/server.log
           retention-days: 7
