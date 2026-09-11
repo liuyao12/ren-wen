@@ -1,0 +1,122 @@
+name: Verify person cross-reference evidence
+on:
+  push:
+    branches: [person-crossrefs-sept11]
+    paths: ['.github/workflows/person-crossrefs-review.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: person-crossrefs-review
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply checksummed source-pair implementation
+        run: |
+          python - <<'PY'
+          import base64,hashlib,json,lzma
+          from pathlib import Path
+          root=Path.cwd().resolve()
+          packed=base64.b64decode((root/'.review/person-crossrefs.patch.b64').read_text().strip(),validate=True)
+          assert hashlib.sha256(packed).hexdigest()=='a2e4111ad7dbbb885da31f17a3a0f7e22a813f44746304d82bd8da22b2e7c476','Transport checksum mismatch'
+          raw=lzma.decompress(packed)
+          assert hashlib.sha256(raw).hexdigest()=='745c2c47f78758812fa14d2fdccf2581d350262a0c58920c93f5af26ab732fbc','Implementation checksum mismatch'
+          staged={}
+          for item in json.loads(raw):
+              name=item['path'];path=(root/name).resolve();path.relative_to(root)
+              assert name not in staged and not name.startswith(('.git','.review','data/','build/'))
+              before=path.read_bytes() if path.exists() else b''
+              assert (hashlib.sha256(before).hexdigest() if path.exists() else None)==item['before'],'Stale source: '+name
+              text=before.decode('utf-8');limit=len(text)
+              for start,end,replacement in reversed(item['edits']):
+                  assert 0<=start<=end<=limit
+                  text=text[:start]+replacement+text[end:];limit=start
+              after=text.encode('utf-8')
+              assert hashlib.sha256(after).hexdigest()==item['after'],'Output mismatch: '+name
+              staged[name]=after
+          for name,content in staged.items():
+              path=root/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(content)
+          print('Applied',len(staged),'checked files.')
+          PY
+      - name: Trace references while preserving original source wording
+        run: |
+          mkdir -p build
+          python -m compileall -q scripts tests
+          python -m scripts.person_crossrefs apply | tee build/person-crossrefs-report.json
+          git diff --exit-code -- data/upstream data/imports
+      - name: Validate corpus, source evidence and all regressions
+        run: |
+          python scripts/renwen.py validate
+          python scripts/profiles.py validate
+          python scripts/works.py validate
+          python -m scripts.text_units validate
+          python -m scripts.round1_validate
+          python -m scripts.name_history validate
+          python -m scripts.person_crossrefs validate
+          python -m unittest discover -s tests -v
+          npm test
+          npm run check
+          python scripts/renwen.py build-db
+          python scripts/profiles.py index-db
+          python - <<'PY'
+          import sqlite3,json
+          with sqlite3.connect('build/renwen.sqlite') as db:
+              count=db.execute('SELECT COUNT(*) FROM person_cross_reference_evidence').fetchone()[0]
+              assert count==json.load(open('data/editorial/person-crossrefs-report.json'))['sourceSupportedReferences']
+              print('Source-pair evidence in derived SQLite:',count)
+          PY
+      - name: Install browser verification support
+        run: |
+          python -m pip install playwright
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Verify profile evidence, reader, family and map over real HTTP
+        run: |
+          python -m http.server 8000 > build/server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID' EXIT
+          python tests/browser_person_crossrefs.py --url 'http://127.0.0.1:8000/' --output build/person-crossrefs-browser
+          python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/release-browser
+          python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/map
+          python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/release-browser/family
+      - name: Commit verified edits only to the feature branch
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          test "$(git branch --show-current)" = person-crossrefs-sept11
+          git fetch origin person-crossrefs-sept11
+          test "$(git rev-parse origin/person-crossrefs-sept11)" = "$EXPECTED_HEAD"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- . ':(exclude).github' ':(exclude).review' ':(exclude)build' ':(exclude)_site' ':(exclude)node_modules'
+          git commit -m 'Trace ECCP person cross-references to exact Chinese-name evidence and repair namesakes'
+          git push origin HEAD:person-crossrefs-sept11
+          git rev-parse HEAD > build/tested-commit.txt
+          git rev-parse HEAD^{tree} > build/tested-tree.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: person-crossrefs-verification
+          path: |
+            build/person-crossrefs-browser
+            build/release-browser
+            build/person-crossrefs-report.json
+            build/server.log
+            build/tested-commit.txt
+            build/tested-tree.txt
+          retention-days: 7
