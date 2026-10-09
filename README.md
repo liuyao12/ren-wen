@@ -1,3 +1,5 @@
+> 本專案的資料與程式已整合至 [Chinese Biographical Repository（CBR）](https://github.com/liuyao12/chinese-biographical-repository)。後續資料及閱讀器修改請在 CBR 提交。本庫保留原有 Git 歷史及既有 [人文閱讀器網址](https://liuyao12.github.io/ren-wen/)；Pages 從固定 CBR 提交驗證、發布並記錄其真實來源版本。
+
 # 人文 · Ren-Wen
 
 **以文識人，因人讀文。**
