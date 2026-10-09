@@ -3,6 +3,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      source_ref:
+        description: CBR branch or exact commit to validate and publish
+        required: true
+        default: main
+        type: string
 permissions:
   contents: read
 concurrency:
@@ -20,7 +26,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out the authoritative CBR reader and data
+        uses: actions/checkout@v4
+        with:
+          repository: liuyao12/chinese-biographical-repository
+          ref: ${{ inputs.source_ref || 'main' }}
+      - name: Record the exact CBR source revision
+        id: source
+        run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -29,6 +42,8 @@ jobs:
           node-version: '22'
       - name: Validate the complete corpus and dated-name records
         run: |
+          python scripts/validate.py
+          python scripts/validate_corpus.py
           python scripts/renwen.py validate
           python scripts/profiles.py validate
           python scripts/works.py validate
@@ -51,14 +66,14 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from datetime import datetime, timezone
-          import hashlib, json, os
+          import hashlib, json, os, subprocess
           root=Path('_site')
           required=['index.html','library.html','profiles.html','works.html','texts.html']
           for path in required:
               assert (root/path).is_file(), 'Missing public page: '+path
           files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))
           hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
-          stamp={'commit':os.environ['GITHUB_SHA'],'release':'r2026.09.10','publishedAt':datetime.now(timezone.utc).isoformat(),'files':hashes}
+          stamp={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'sourceRepository':'liuyao12/chinese-biographical-repository','deploymentRepository':'liuyao12/ren-wen','release':'cbr-integration-2026.10.09','publishedAt':datetime.now(timezone.utc).isoformat(),'files':hashes}
           (root/'deployment.json').write_text(json.dumps(stamp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources.')
           PY
@@ -80,7 +95,7 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Verify published commit, reader, family and historical map
         env:
-          EXPECTED_COMMIT: ${{ github.sha }}
+          EXPECTED_COMMIT: ${{ steps.source.outputs.sha }}
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           python tests/browser_release.py --url "$PAGE_URL" --output build/published-browser

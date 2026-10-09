@@ -1,3 +1,9 @@
+# 整合後的工作位置
+
+資料與閱讀器的共同來源為 `liuyao12/chinese-biographical-repository`。後續人物、稱號、文本與程式修改請在 CBR 提交；本庫保留原有歷史與 Pages 部署入口。Pages 工作流程從 CBR 的指定提交取得程式與資料，不再將本庫的歷史快照當作目前可編輯來源。禁止把部署庫的 `GITHUB_SHA` 冒充 CBR 來源提交。
+
+下列為整合前的人文指引，於 CBR 仍保留其證據、來源與測試要求。
+
 # Working on 人文 · Ren-Wen
 
 People and texts are equal pillars. Build useful, inspectable research tools, not an unsourced historical narrative.
