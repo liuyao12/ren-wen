@@ -1,0 +1,11 @@
+# CBR 固定版本發布與部署核對
+
+本次固定來源：`bc4d18c7b525bca7de9ec4bc345afd66861730f7`（CBR PR #315），含此前逐篇身份接合。481項Python及183項JavaScript測試、資料驗證及本地桌面／手機人物卡驗收通過；main合併與實際發布驗收尚待完成。
+
+Pages的push發布及workflow_dispatch預設都採此固定提交；人工指定source_ref仍使用指定值。CBR來源版本在deployment.json的commit保存真實checkout結果；另記部署庫工作流程提交與run ID，兩者不冒充史料庫提交。
+
+2026-10-13，第309批次完整提交發布的成品內為d49acfd6de313d9b27dce02bcca5be0ad0faa756，但正式網址及重新驗證請求仍為第308批次。工作流程反覆使用2a32c8046e8a961ed84d07971871b8b5f6b7b760作Pages build version；官方action問題#383記載相同版本可能仍提供舊成品。因此本次以有固定來源變更的新部署庫提交發布；這是待線上驗收的修正，尚不宣稱已解決平台問題。
+
+參考：https://github.com/actions/deploy-pages/issues/383
+
+後續發布須更新此庫固定來源形成新的工作流程版本，或改用經驗證可區分每次成品的官方發布方式。手動從同一工作流程提交連續發布不同CBR版本時，必須核對線上commit，不以deploy步驟成功代表交付。環境保護、main限制及既有網址均保留。
