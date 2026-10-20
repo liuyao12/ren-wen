@@ -7,7 +7,7 @@ on:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: d977515a72bd057484472c4756a2c2a39a14ab75
+        default: 8a6530da4157c4c64ccee5f6f3f1e6cdf2506fad
         type: string
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: liuyao12/chinese-biographical-repository
-          ref: ${{ inputs.source_ref || 'd977515a72bd057484472c4756a2c2a39a14ab75' }}
+          ref: ${{ inputs.source_ref || '8a6530da4157c4c64ccee5f6f3f1e6cdf2506fad' }}
       - name: Record the exact CBR source revision
         id: source
         run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
