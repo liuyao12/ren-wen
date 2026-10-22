@@ -7,7 +7,7 @@ on:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: 30fa7e118a239ebeb26e24657015c722d044e1ba
+        default: 4c1b411cd116929bd84ac34d619ae461e47d1492
         type: string
 permissions:
   contents: read
@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: liuyao12/chinese-biographical-repository
-          ref: ${{ inputs.source_ref || '30fa7e118a239ebeb26e24657015c722d044e1ba' }}
+          ref: ${{ inputs.source_ref || '4c1b411cd116929bd84ac34d619ae461e47d1492' }}
       - name: Record the exact CBR source revision
         id: source
         run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -55,8 +55,16 @@ jobs:
       - name: Install browser verification support
         run: |
           python -m pip install playwright
-          sudo apt-get update -qq
-          sudo apt-get install -y fonts-noto-cjk
+          UBUNTU_APT_SOURCES=/etc/apt/sources.list.d/ubuntu.sources
+          test -r "$UBUNTU_APT_SOURCES"
+          sudo apt-get update -qq \
+            -o Dir::Etc::sourcelist="$UBUNTU_APT_SOURCES" \
+            -o Dir::Etc::sourceparts="-" \
+            -o APT::Get::List-Cleanup="0"
+          sudo apt-get install -y \
+            -o Dir::Etc::sourcelist="$UBUNTU_APT_SOURCES" \
+            -o Dir::Etc::sourceparts="-" \
+            fonts-noto-cjk
       - name: Stage all public pages with an identifiable deployment
         run: |
           mkdir -p _site build
