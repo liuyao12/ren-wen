@@ -85,11 +85,20 @@ export function profileURL(id) {
 
 /** A shared compact header for both the reader and the person's own page. */
 export function personHeading(profile, {linked = false, history} = {}) {
-  const name = h(canonicalName(profile));
+  const n=profile?.name||{};
+  const name = h(`${n.surname||''}${n.given||''}` || canonicalName(profile));
   const parenthetical = parentheticalNameHTML(profile, history);
+  const bracket=n.bracket||{};
+  const place=n.jiguan?.label || (bracket.kind!=='clan' ? bracket.label : null);
+  const clan=n.clan?.label || (bracket.kind==='clan' ? bracket.label : null);
+  const xingValue=typeof n.xing==='string' ? n.xing : n.xing?.label;
+  const xing=xingValue ? (/姓$/.test(xingValue)?xingValue:`${xingValue}姓`) : null;
+  const meta=[...new Set([place,clan,xing].filter(Boolean))];
+  const metaHTML=meta.length ? `<div class="person-heading-meta" lang="zh-Hant">${meta.map((value,i)=>`<span class="${i===meta.length-1&&value===xing?'historical-xing':''}">${h(value)}</span>`).join('')}</div>` : '';
   const url = profileURL(profile.id);
   const age = ageAtDeath(profile);
   return `<div class="person-heading" data-profile-heading="${h(profile.id)}">
+    ${metaHTML}
     <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}${parenthetical}</h1>
     <p class="person-name-details">${nameDetailsHTML(profile,history,{excludeParenthetical:true})}</p>
     <p class="person-ad">${h(lifeYearsText(profile))}</p>
