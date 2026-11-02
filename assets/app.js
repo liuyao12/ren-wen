@@ -7,6 +7,15 @@ import {escapeHTML as h, safeURL, contextFor, validateProposal, PUNCTUATION, yea
 const $ = id => document.getElementById(id);
 const state = {catalog:null, source:null, passage:null, year:1878, selected:null, queue:[], timer:null};
 const STORE = 'ren-wen:proposals:v1';
+const CHAPTER_TITLE_STYLE = 'ren-wen:chapter-title-style:v1';
+function setChapterTitleStyle(value) {
+  const style=value==='brackets'?'brackets':'wavy';
+  document.body.classList.toggle('chapter-title-brackets',style==='brackets');
+  document.body.classList.toggle('chapter-title-wavy',style==='wavy');
+  const control=$('chapter-title-style');if(control)control.value=style;
+  try{localStorage.setItem(CHAPTER_TITLE_STYLE,style);}catch{}
+}
+try{setChapterTitleStyle(localStorage.getItem(CHAPTER_TITLE_STYLE)||'wavy');}catch{setChapterTitleStyle('wavy');}
 function proposalID() { return 'proposal-' + [...crypto.getRandomValues(new Uint8Array(16))].map(b=>b.toString(16).padStart(2,'0')).join(''); }
 const svgNS = 'http://www.w3.org/2000/svg';
 const entity = id => state.catalog.entities.find(e => e.id === id);
@@ -141,6 +150,7 @@ $('places').addEventListener('click',e=>{const id=e.target.closest('[data-place]
 $('inspector-body').addEventListener('click',e=>{const source=e.target.closest('[data-source]')?.dataset.source;const passage=e.target.closest('[data-passage]')?.dataset.passage;if(source){$('inspector').hidden=true;loadSource(source).catch(x=>toast(x.message));}if(passage){$('inspector').hidden=true;jump(passage);}});
 $('dialog-body').addEventListener('click',e=>{const id=e.target.closest('[data-remove]')?.dataset.remove;if(id){state.queue=state.queue.filter(p=>p.id!==id);saveQueue();showQueue();}});
 $('map-reset').onclick=()=>$('map').setAttribute('viewBox','0 0 170 80');
+$('chapter-title-style').onchange=e=>setChapterTitleStyle(e.target.value);
 $('map-fit').onclick=()=>{const ids=contextFor(state.catalog,state.source.id,state.passage).entityIds;const pts=state.catalog.entities.filter(e=>e.point&&ids.includes(e.id)).map(e=>e.point.coordinates);if(!pts.length){toast('No located place in this passage.');return;}const xs=pts.map(p=>p[0]+20),ys=pts.map(p=>75-p[1]);const cx=(Math.min(...xs)+Math.max(...xs))/2,cy=(Math.min(...ys)+Math.max(...ys))/2;const w=Math.max(25,Math.max(...xs)-Math.min(...xs)+15),height=Math.max(18,Math.max(...ys)-Math.min(...ys)+12);$('map').setAttribute('viewBox',`${cx-w/2} ${cy-height/2} ${w} ${height}`);};
 $('about-button').onclick=()=>modal('人文 · Ren-Wen',`<p>${ui("People through texts. Texts in context.")}</p><p>${ui("The first-round collection preserves 809 biographical entries, 193 cross-reference notices and 6 reference texts from ECCP. Source text, bibliography, quotations and contributor names remain intact.")}</p><h3>${ui("What is deliberately not claimed")}</h3><p>${ui("Person and work identifications and QSG opening matches are first-pass proposals, not independently reviewed facts. QSG links may lead to a complete containing volume rather than an isolated biography. Dated name and title periods are a limited pilot. Map boundaries are dated regional reference images, not reconstructions for every narrative year.")}</p><h3>${ui("Original text and versions")}</h3><p>${ui("Imported wording is stored separately from our annotated working copy. Historical witnesses coexist; they are never automatically merged into one “correct” text. Chinese punctuation can be hidden for reading without changing the stored text.")}</p><p>${link('https://github.com/liuyao12/ren-wen','Project, documentation, and Python tools')}</p>`);
 $('xml-button').onclick=()=>$('xml-file').click();
