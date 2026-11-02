@@ -2,7 +2,7 @@ import {t, ui, bindText, getLocale} from './i18n.js';
 /** Display projections. Stored source wording and calendar assertions are never rewritten. */
 import {canonicalName, ageAtDeath} from './profiles.js';
 import {escapeHTML as h} from './core.js';
-import {nameDetailsHTML} from './name-history.js';
+import {nameDetailsHTML, parentheticalNameHTML} from './name-history.js';
 
 const STEMS = [...'甲乙丙丁戊己庚辛壬癸'];
 const BRANCHES = [...'子丑寅卯辰巳午未申酉戌亥'];
@@ -85,12 +85,22 @@ export function profileURL(id) {
 
 /** A shared compact header for both the reader and the person's own page. */
 export function personHeading(profile, {linked = false, history} = {}) {
-  const name = h(canonicalName(profile));
+  const n=profile?.name||{};
+  const name = h(`${n.surname||''}${n.given||''}` || canonicalName(profile));
+  const parenthetical = parentheticalNameHTML(profile, history);
+  const bracket=n.bracket||{};
+  const place=n.jiguan?.label || (bracket.kind!=='clan' ? bracket.label : null);
+  const clan=n.clan?.label || (bracket.kind==='clan' ? bracket.label : null);
+  const xingValue=typeof n.xing==='string' ? n.xing : n.xing?.label;
+  const xing=xingValue ? (/姓$/.test(xingValue)?xingValue:`${xingValue}姓`) : null;
+  const meta=[...new Set([place,clan,xing].filter(Boolean))];
+  const metaHTML=meta.length ? `<div class="person-heading-meta" lang="zh-Hant">${meta.map((value,i)=>`<span class="${i===meta.length-1&&value===xing?'historical-xing':''}">${h(value)}</span>`).join('')}</div>` : '';
   const url = profileURL(profile.id);
   const age = ageAtDeath(profile);
   return `<div class="person-heading" data-profile-heading="${h(profile.id)}">
-    <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}</h1>
-    <p class="person-name-details">${nameDetailsHTML(profile,history)}</p>
+    ${metaHTML}
+    <h1 lang="zh-Hant">${linked && url ? `<a href="${h(url)}">${name}</a>` : name}${parenthetical}</h1>
+    <p class="person-name-details">${nameDetailsHTML(profile,history,{excludeParenthetical:true})}</p>
     <p class="person-ad">${h(lifeYearsText(profile))}</p>
     ${westernYearFallbackHTML(profile)}
     <p class="person-chinese" lang="zh-Hant"><span>${ui("Birth 生：")}${h(chineseYearText(profile.life?.birth))}</span><span>${ui("Death 卒：")}${h(chineseYearText(profile.life?.death))}</span>${age === null ? '' : `<span class="person-sui">${ui("Age at death: {age}",{age})}</span>`}</p>

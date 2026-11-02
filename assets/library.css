@@ -1,5 +1,9 @@
 /* Work annotations and navigation cards use the same reading surface as person links. */
 #reader a[data-work-link]{color:#526957;text-decoration:none;border-bottom:1px dotted #809581}
+#reader a[data-work-link]::before,#reader a[data-work-link]::after{display:none}
+body.chapter-title-brackets #reader a[data-work-link]::before{content:"《";display:inline}
+body.chapter-title-brackets #reader a[data-work-link]::after{content:"》";display:inline}
+body.chapter-title-wavy #reader a[data-work-link]{text-decoration-line:underline;text-decoration-style:wavy;text-decoration-color:#809581;text-decoration-thickness:1px;text-underline-offset:3px;border-bottom:0}
 #reader [data-type="work"],#reader [data-entity^="work-"]{background:#eaf0e8;border-radius:2px;padding:0 1px}
 #reader a[data-work-link]:hover,#reader a[data-work-link]:focus-visible{background:#dce9d9;outline-offset:3px}
 .entity-card{position:fixed;z-index:1000;max-width:calc(100vw - 20px);width:340px;max-height:calc(100vh - 20px);overflow:auto;padding:19px 21px 16px;background:#fffdf8;color:#2c302d;border:1px solid #cbc8bd;border-radius:7px;box-shadow:0 10px 36px #0003;font:14px/1.5 system-ui,-apple-system,sans-serif}

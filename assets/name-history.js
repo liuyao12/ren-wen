@@ -19,8 +19,13 @@ export function nameDetails(profile, history=loadedHistory) {
     return [...new Set(values.map(x=>x.value).filter(Boolean))].map(value=>({kind,prefix,value}));
   });
 }
-export function nameDetailsHTML(profile, history=loadedHistory) {
-  return nameDetails(profile,history).map(x=>`<span class="name-detail" lang="zh-Hant"><span class="name-kind">${x.prefix}</span>${h(x.value)}</span>`).join('');
+export function nameDetailsHTML(profile, history=loadedHistory, {excludeParenthetical=false}={}) {
+  return nameDetails(profile,history).filter(x=>!excludeParenthetical||!['zi','hao'].includes(x.kind)).map(x=>`<span class="name-detail" lang="zh-Hant"><span class="name-kind">${x.prefix}</span>${h(x.value)}</span>`).join('');
+}
+/** Compact courtesy/studio names for the parenthetical in a person heading. */
+export function parentheticalNameHTML(profile, history=loadedHistory) {
+  const names=nameDetails(profile,history).filter(x=>['zi','hao'].includes(x.kind));
+  return names.length ? `<span class="name-parenthetical" lang="zh-Hant">（${names.map(x=>`${x.prefix}${h(x.value)}`).join('、')}）</span>` : '';
 }
 const validYear = n=>Number.isSafeInteger(n) && n>=1 && n<=9999;
 /** Bounds are inclusive start, exclusive end. Unknown onset is NOT an open start. */
