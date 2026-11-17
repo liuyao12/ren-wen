@@ -7,7 +7,7 @@ on:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: 139b60e9859691d277fe9279c1d839010cd3adf6
+        default: 183b81ca5f2804d55a0e6f45f9474ddfbf4f08ed
         type: string
 permissions:
   contents: read
