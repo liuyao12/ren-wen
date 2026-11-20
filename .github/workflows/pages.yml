@@ -7,7 +7,7 @@ on:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: 139b60e9859691d277fe9279c1d839010cd3adf6
+        default: 9843255614fb545f36936a16da9820f71a547337
         type: string
 permissions:
   contents: read
@@ -30,10 +30,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: liuyao12/chinese-biographical-repository
-          ref: ${{ inputs.source_ref || '139b60e9859691d277fe9279c1d839010cd3adf6' }}
+          ref: ${{ inputs.source_ref || '9843255614fb545f36936a16da9820f71a547337' }}
       - name: Record the exact CBR source revision
         id: source
         run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Check out the Ren-Wen editorial source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: .renwen
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -70,6 +75,7 @@ jobs:
           mkdir -p _site build
           cp ./*.html _site/
           cp -R assets data _site/
+          python .renwen/scripts/stage_jinshu065.py _site
           touch _site/.nojekyll
           python - <<'PY'
           from pathlib import Path
@@ -79,7 +85,7 @@ jobs:
           required=['index.html','library.html','profiles.html','works.html','texts.html']
           for path in required:
               assert (root/path).is_file(), 'Missing public page: '+path
-          files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))
+          files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))+[root/'data/corpus/jinshu/065.json']
           hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
           stamp={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'sourceRepository':'liuyao12/chinese-biographical-repository','deploymentRepository':'liuyao12/ren-wen','deploymentWorkflowCommit':os.environ['GITHUB_SHA'],'deploymentRunId':os.environ['GITHUB_RUN_ID'],'release':'cbr-integration-2026.10.09','publishedAt':datetime.now(timezone.utc).isoformat(),'files':hashes}
           (root/'deployment.json').write_text(json.dumps(stamp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -90,6 +96,7 @@ jobs:
           python -m http.server 8000 --directory _site > build/staged-server.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
+          python .renwen/scripts/check_jinshu065.py 'http://127.0.0.1:8000/'
           python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/staged-browser
           python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/map
           python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/family
@@ -107,6 +114,7 @@ jobs:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
           python tests/browser_release.py --url "$PAGE_URL" --output build/published-browser
+          python .renwen/scripts/check_jinshu065.py "$PAGE_URL"
           python tests/browser_live.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/map
           python tests/browser_family_layout.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/family
       - uses: actions/upload-artifact@v4
