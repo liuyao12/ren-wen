@@ -8,6 +8,7 @@ on:
       - scripts/deploy_pages.py
       - scripts/stage_jinshu065.py
       - scripts/check_jinshu065.py
+      - scripts/check_staged_evidence.mjs
       - tests/test_stage_jinshu065.py
       - tests/test_recover_pages_artifact.py
   workflow_dispatch:
@@ -109,6 +110,7 @@ jobs:
       - name: Test the exact staged site before deployment
         if: ${{ !inputs.validated_run_id }}
         run: |
+          node .renwen/scripts/check_staged_evidence.mjs _site
           python -m http.server 8000 --directory _site > build/staged-server.log 2>&1 &
           SERVER_PID=$!
           trap 'kill $SERVER_PID' EXIT
