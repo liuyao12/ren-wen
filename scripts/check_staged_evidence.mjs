@@ -38,6 +38,23 @@ function* evidenceIn(node) {
     }
 }
 
+function* profileCitations(profile) {
+    yield* evidenceIn(profile);
+    yield* (profile.occurrences || []);
+    yield* (profile.person_references || []);
+    for (const ref of profile.table_occurrences || []) {
+        yield {...ref, kind: 'table_cell', table_cell_id: ref.cell_id};
+    }
+    const personIDs = new Set([profile.id, ...(profile.person_ids || [])]);
+    for (const item of profile.source_reading_cases || []) {
+        if (!['witness_collation', 'primary_source_comparison'].includes(item.kind)
+                || !personIDs.has(item.person_id) || !item.paragraph_id
+                || ![item.source_quote, item.reading, item.reference].every(s => typeof s === 'string' && s.trim())) continue;
+        const source = (profile.sources || []).find(s => s.source_id === item.source_id && s.chapter_id === item.chapter_id);
+        if (source) yield {...source, paragraph_id: item.paragraph_id, quote: item.source_quote};
+    }
+}
+
 function checkParagraph(ref) {
     const path = chapterPaths.get(ref.chapter_id);
     assert(path, 'Chapter absent from staged reader catalog');
@@ -65,6 +82,7 @@ function checkParagraph(ref) {
         assert.equal(route.get('work'), chapter.work_id);
         assert.equal(route.get('chapter'), ref.chapter_id);
         if (route.has('book')) assert.equal(route.get('book'), chapter.book_id);
+        if (ref.mention_id) assert.equal(route.get('mention'), ref.mention_id);
     }
     if (ref.paragraph_id) {
         assert.equal(route.get('passage'), ref.paragraph_id);
@@ -79,12 +97,14 @@ function checkParagraph(ref) {
 }
 
 function checkTable(ref) {
-    const cell = ref.table_cell_id;
-    const href = nativeTableURL({...ref, cell_id: cell});
-    assert(href, 'No link generated for table evidence');
-    const route = new URLSearchParams(href.split('#')[1]);
-    assert.equal(route.get('cell'), cell);
-    assert(tables.get(ref.table_id)?.has(cell), 'Cell absent from staged table');
+    const locations = ref.subject_table_cell_id ? [ref.table_cell_id, ref.subject_table_cell_id] : [ref.table_cell_id];
+    for (const cell of locations) {
+        const href = nativeTableURL({...ref, cell_id: cell});
+        assert(href, 'No link generated for table evidence');
+        const route = new URLSearchParams(href.split('#')[1]);
+        assert.equal(route.get('cell'), cell);
+        assert(tables.get(ref.table_id)?.has(cell), 'Cell absent from staged table');
+    }
 }
 
 const profiles = 'data/corpus/profiles';
@@ -95,7 +115,7 @@ for (const file of readdirSync(join(root, profiles))) {
     if (!file.endsWith('.json') || file === 'index.json') continue;
     people++;
     const profile = json(join(profiles, file));
-    for (const ref of evidenceIn(profile)) {
+    for (const ref of profileCitations(profile)) {
         references++;
         try {
             if (ref.kind === 'table_cell') checkTable(ref);
