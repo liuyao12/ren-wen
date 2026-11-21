@@ -57,6 +57,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Check that historical source images remain external
+        run: |
+          python - <<'PY'
+          from pathlib import PurePosixPath
+          import subprocess
+          import sys
+
+          media = {'.jpg', '.jpeg', '.png', '.gif', '.webp', '.tif', '.tiff', '.jp2', '.pdf'}
+          paths = subprocess.check_output([
+              'git', 'ls-files', '-z', '--', 'source-evidence', 'sources', 'corpus', 'data/corpus'
+          ]).decode().split('\0')
+          embedded = [path for path in paths if PurePosixPath(path).suffix.lower() in media]
+          if embedded:
+              for path in embedded:
+                  print(path, file=sys.stderr)
+              sys.exit('史料書影請保留外部逐頁連結。')
+          PY
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
