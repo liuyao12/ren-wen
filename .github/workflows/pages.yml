@@ -1,4 +1,5 @@
 name: Pages
+run-name: "Pages · ${{ inputs.source_ref && format('CBR {0}', inputs.source_ref) || format('Ren-Wen {0}', github.sha) }}"
 on:
   push:
     branches: [main]
