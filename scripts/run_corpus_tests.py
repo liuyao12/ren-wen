@@ -1,8 +1,11 @@
 """Run the complete CBR unittest suite with one worker for expensive corpus cases."""
 
+import os
 from pathlib import Path
+import shutil
 import subprocess
 import sys
+import tempfile
 import unittest
 
 
@@ -42,9 +45,17 @@ def main():
         return int(not runner.run(primary).wasSuccessful())
 
     command = [sys.executable, str(Path(__file__).resolve()), "--worker", *worker]
-    with subprocess.Popen(command) as child:
+    # unittest writes case names and outcomes separately. Keep the two streams
+    # apart so an interleaved "FAIL" cannot be attributed to the wrong case.
+    worker_env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    with tempfile.TemporaryFile(mode="w+", encoding="utf-8") as log, subprocess.Popen(
+        command, stdout=log, stderr=subprocess.STDOUT, env=worker_env
+    ) as child:
         primary_passed = runner.run(primary).wasSuccessful()
         worker_status = child.wait()
+        log.seek(0)
+        print("CBR corpus worker results:", file=sys.stderr)
+        shutil.copyfileobj(log, sys.stderr)
     return int(not primary_passed or worker_status != 0)
 
 
