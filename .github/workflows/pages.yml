@@ -135,6 +135,9 @@ jobs:
           python tests/browser_release.py --url 'http://127.0.0.1:8000/' --output build/staged-browser
           python tests/browser_live.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/map
           python tests/browser_family_layout.py --url 'http://127.0.0.1:8000/#eccp-zeng-guofan' --output build/staged-browser/family
+          if [ -f tests/browser_cbr_disclosure.py ]; then
+            python tests/browser_cbr_disclosure.py --url 'http://127.0.0.1:8000/'
+          fi
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
@@ -175,6 +178,9 @@ jobs:
           python .renwen/scripts/check_jinshu065.py "$PAGE_URL"
           python tests/browser_live.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/map
           python tests/browser_family_layout.py --url "${PAGE_URL}#eccp-zeng-guofan" --output build/published-browser/family
+          if [ -f tests/browser_cbr_disclosure.py ]; then
+            python tests/browser_cbr_disclosure.py --url "$PAGE_URL"
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
