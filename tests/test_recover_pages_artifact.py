@@ -49,3 +49,44 @@ class PagesRecoveryTest(unittest.TestCase):
                 verify_archive(path, "3" * 40, self.verified_run, self.repository)
             with self.assertRaises(SystemExit):
                 verify_archive(path, self.revision, dict(self.verified_run, id=124), self.repository)
+
+
+class PagesDeployTest(unittest.TestCase):
+    def test_deploys_artifact_id_and_waits_for_success(self):
+        from unittest.mock import patch
+        from scripts import deploy_pages
+
+        with tempfile.TemporaryDirectory() as folder:
+            output = Path(folder) / "output"
+            env = {
+                "GH_TOKEN": "github-fixture",
+                "GITHUB_REPOSITORY": "liuyao12/ren-wen",
+                "GITHUB_API_URL": "https://api.github.com",
+                "GITHUB_RUN_ID": "123",
+                "GITHUB_SHA": "a" * 40,
+                "PAGES_ARTIFACT_ID": "456",
+                "PAGES_ARTIFACT_NAME": "github-pages-1",
+                "ACTIONS_ID_TOKEN_REQUEST_URL": "https://example.test/oidc",
+                "ACTIONS_ID_TOKEN_REQUEST_TOKEN": "oidc-fixture",
+                "GITHUB_OUTPUT": str(output),
+            }
+            responses = [
+                {"expired": False, "workflow_run": {"id": 123}, "name": "github-pages-1"},
+                {"value": "oidc-value"},
+                {"id": "deployment-id", "page_url": "https://liuyao12.github.io/ren-wen/"},
+                {"status": "succeed"},
+            ]
+            with patch.dict(deploy_pages.os.environ, env), patch.object(deploy_pages.time, "sleep"):
+                with patch.object(deploy_pages, "request_json", side_effect=responses) as request:
+                    deploy_pages.main()
+                    request.assert_any_call(
+                        "https://api.github.com/repos/liuyao12/ren-wen/pages/deployments",
+                        "github-fixture",
+                        {"artifact_id": 456, "pages_build_version": "a" * 40, "oidc_token": "oidc-value"},
+                    )
+                self.assertEqual(output.read_text(), "page_url=https://liuyao12.github.io/ren-wen/\n")
+                responses[0]["workflow_run"]["id"] = 999
+                with patch.object(deploy_pages, "request_json", return_value=responses[0]) as request:
+                    with self.assertRaises(SystemExit):
+                        deploy_pages.main()
+                    self.assertEqual(request.call_count, 1)
