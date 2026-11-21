@@ -70,17 +70,18 @@ with sync_playwright() as playwright:
 
         epitaphs = (
             ("ih5_w5y_2s0", "c-epitaph-cuihun-excerpts:p001", "元象元年二月五日奄至物故",
-             "https://guji.10huan.com/Article/7147_7165.html"),
+             ("https://guji.10huan.com/Article/7147_7165.html",)),
             ("30f_353_0e8", "c-epitaph-cuihong-excerpts:p001", "廿九日庚午薨",
-             "https://www.sohu.com/a/260163234_770283"),
+             ("https://www.sohu.com/a/259439652_258370", "https://www.sohu.com/a/260163234_770283")),
         )
-        for person, anchor, text, source in epitaphs:
+        for person, anchor, text, sources in epitaphs:
             page.goto(urljoin(base, "person.html#" + person))
             evidence = page.locator(".person-life-summary details").filter(
                 has=page.locator("blockquote").filter(has_text=text)
             ).first
             follow_citation(page, evidence, anchor, text)
-            expect(page.locator(f'a[href="{source}"]').first).to_be_visible()
+            source_links = ", ".join(f'a[href="{source}"]' for source in sources)
+            expect(page.locator(source_links).first).to_be_visible()
         print(f"六朝人物引文驗證通過，視窗寬度 {width}px。", flush=True)
         page.close()
     browser.close()
