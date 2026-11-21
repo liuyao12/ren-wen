@@ -9,6 +9,8 @@ on:
       - scripts/stage_jinshu065.py
       - scripts/check_jinshu065.py
       - tests/test_stage_jinshu065.py
+      - scripts/run_corpus_tests.py
+      - tests/test_run_corpus_tests.py
       - tests/test_recover_pages_artifact.py
   workflow_dispatch:
     inputs:
@@ -69,7 +71,7 @@ jobs:
           python -m scripts.text_units validate
           python -m scripts.round1_validate
           python -m scripts.name_history validate
-          python -m unittest discover -s tests -v
+          python .renwen/scripts/run_corpus_tests.py
           npm test && npm run check
       - name: Install browser verification support
         run: |
