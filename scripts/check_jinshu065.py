@@ -1,16 +1,28 @@
-"""Verify the Ren-Wen pilot in the actual staged or published reader."""
+"""Verify Six Dynasties reader navigation and person citations over HTTP."""
 
 import os
 import re
 import shutil
 import sys
-from urllib.parse import urlencode, urljoin
+from urllib.parse import parse_qs, quote, urlencode, urljoin, urlsplit
 
 from playwright.sync_api import expect, sync_playwright
 
 
 base = sys.argv[1]
 chapter = "c-jinshu-065-wangdao-family"
+
+
+def follow_citation(page, evidence, anchor, text):
+    expect(evidence).to_have_count(1, timeout=45000)
+    evidence.locator("summary").first.click()
+    link = evidence.locator(f'a[href*="passage={quote(anchor, safe="")}"]')
+    expect(link).to_have_count(1)
+    link.click()
+    expect(page.locator(f'[id="{anchor}"]')).to_contain_text(text, timeout=45000)
+    assert parse_qs(urlsplit(page.url).fragment).get("passage") == [anchor], page.url
+
+
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(
         executable_path=os.environ.get("BROWSER_EXECUTABLE") or shutil.which("chromium") or shutil.which("google-chrome"),
@@ -50,13 +62,25 @@ with sync_playwright() as playwright:
         expect(page.get_by_text("正在載入家族關係…", exact=True)).to_have_count(0, timeout=45000)
         quotation = page.locator("blockquote").filter(has_text="東亭侯王珣卒")
         evidence = life.locator("details").filter(has=quotation)
-        expect(evidence).to_have_count(1)
-        evidence.locator("summary").first.click()
-        evidence.locator('a[href*="c-jinshu-010-wangxun-longan4"]').click()
-        passage = page.locator('[id="c-jinshu-010-wangxun-longan4:p001"]')
-        expect(passage).to_contain_text("東亭侯王珣卒", timeout=45000)
+        follow_citation(page, evidence, "c-jinshu-010-wangxun-longan4:p001", "東亭侯王珣卒")
         page.goto(urljoin(base, "person.html#e43_8c2_c4d"))
         family = page.locator("details").filter(has=page.locator("blockquote").filter(has_text="謐從弟諶"))
-        expect(family.filter(has=page.locator("summary").filter(has_text="來源與關係原詞"))).to_have_count(1, timeout=45000)
+        evidence = family.filter(has=page.locator("summary").filter(has_text="來源與關係原詞"))
+        follow_citation(page, evidence, f"{chapter}:line102", "謐從弟諶")
+
+        epitaphs = (
+            ("ih5_w5y_2s0", "c-epitaph-cuihun-excerpts:p001", "元象元年二月五日奄至物故",
+             "https://guji.10huan.com/Article/7147_7165.html"),
+            ("30f_353_0e8", "c-epitaph-cuihong-excerpts:p001", "廿九日庚午薨",
+             "https://www.sohu.com/a/260163234_770283"),
+        )
+        for person, anchor, text, source in epitaphs:
+            page.goto(urljoin(base, "person.html#" + person))
+            evidence = page.locator(".person-life-summary details").filter(
+                has=page.locator("blockquote").filter(has_text=text)
+            ).first
+            follow_citation(page, evidence, anchor, text)
+            expect(page.locator(f'a[href="{source}"]').first).to_be_visible()
+        print(f"六朝人物引文驗證通過，視窗寬度 {width}px。", flush=True)
         page.close()
     browser.close()
