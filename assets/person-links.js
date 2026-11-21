@@ -101,7 +101,7 @@ async function install() {
         summary.innerHTML = personHeading(p, {linked:true});
         displayedPerson=p.id;
         summary.dataset.person=p.id;
-        fetchData(`data/people/${p.id}.json`).then(r=>r.ok?r.json():p).then(full=>{if(displayedPerson===full.id)summary.querySelector('.person-name-details').innerHTML=nameDetailsHTML(full);}).catch(console.warn);
+        fetchData(`data/people/${p.id}.json`).then(r=>r.ok?r.json():p).then(full=>{if(displayedPerson===full.id)summary.querySelector('.person-name-details').innerHTML=nameDetailsHTML(full,undefined,{excludeParenthetical:true});}).catch(console.warn);
         const qsg=(p.accounts||[]).filter(a=>a.readerWitness && catalog.sources.find(s=>s.id===a.readerWitness)?.work==='work-qingshigao');
         const preferred=qsg.find(a=>a.relation==='principal-biography') || qsg[0];
         if(preferred) {

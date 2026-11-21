@@ -22,7 +22,7 @@ test('regnal years use Chinese numerals', () => {
 });
 test('header contains canonical name, AD dates and Chinese dates', () => {
   const html = personHeading(sample);
-  assert.match(html, /\[湘鄉\] 曾紀澤/);
+  assert.match(html, /person-heading-meta[^]*湖南湘鄉/); assert.match(html, /<h1[^>]*>曾紀澤<span class="name-parenthetical"[^>]*>（字劼剛）/);
   assert.match(html, /\[1839\]–\[1890\]/); assert.match(html, /道光十九年己亥/);
   assert.match(html, /光緒十六年庚寅/); assert.match(html, /52 歲/);
 });

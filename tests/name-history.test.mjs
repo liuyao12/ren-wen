@@ -5,7 +5,7 @@ import {identityName,nameDetails,periodContains,nameAtYear,paragraphAnchor,sourc
 import {personHeading} from '../assets/person-display.js';
 const person={id:'person-test',name:{surname:'測',given:'試',bracket:{kind:'county',label:'甲縣'},zi:[{value:'甲字'}],hao:[{value:'乙號'}]},life:{}};
 const history={people:{'person-test':{names:[{id:'earlier',surname:'另',given:'名',from:1800,to:1820}],titles:[{id:'t1',label:'某總督',from:1820,to:1830,kind:'office',priority:1},{id:'t2',label:'某大學士',from:1830,to:1841,kind:'office',defaultDisplay:true,priority:1}]}}};
-test('headings have a principal name plus smaller separately typed aliases, no parentheses',()=>{const s=personHeading(person);assert.match(s,/>\[甲縣\] 測試<\/h1>/);assert.match(s,/person-name-details/);assert.match(s,/字<\/span>甲字/);assert.match(s,/號<\/span>乙號/);assert(!s.includes('（'));});
+test('headings place county above the full name and show aliases in smaller parentheses',()=>{const s=personHeading(person);assert.match(s,/person-heading-meta[^]*甲縣/);assert.match(s,/>測試<span class="name-parenthetical"[^>]*>（字甲字、號乙號）<\/span><\/h1>/);assert.match(s,/person-name-details/);assert(!s.includes('字</span>甲字'));assert(!s.includes('號</span>乙號'));});
 test('clan is only a display qualifier',()=>{assert.equal(identityName({...person,name:{given:'某人',bracket:{kind:'clan',label:'完顏'}}}),'[完顏] 某人');});
 test('title changes at the documented exclusive boundary',()=>{assert.equal(nameAtYear(person,1829,history).label,'某總督 測試');assert.equal(nameAtYear(person,1830,history).label,'某大學士 測試');});
 test('earlier personal names are selected independently of titles',()=>assert.equal(nameAtYear(person,1810,history).label,'另名'));
