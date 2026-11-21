@@ -2,12 +2,20 @@ name: Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - .github/workflows/pages.yml
+      - scripts/recover_pages_artifact.py
+      - tests/test_recover_pages_artifact.py
   workflow_dispatch:
     inputs:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: 9843255614fb545f36936a16da9820f71a547337
+        default: 8a3874c92de8ca741f9a89f1f4507ed418aaf5f9
+        type: string
+      validated_run_id:
+        description: Optional previous main Pages run with a verified artifact for this exact CBR commit
+        required: false
         type: string
 permissions:
   contents: read
@@ -19,6 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     permissions:
+      actions: read
       contents: read
       pages: write
       id-token: write
@@ -30,7 +39,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: liuyao12/chinese-biographical-repository
-          ref: ${{ inputs.source_ref || '9843255614fb545f36936a16da9820f71a547337' }}
+          ref: ${{ inputs.source_ref || '8a3874c92de8ca741f9a89f1f4507ed418aaf5f9' }}
       - name: Record the exact CBR source revision
         id: source
         run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -46,6 +55,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate the complete corpus and dated-name records
+        if: ${{ !inputs.validated_run_id }}
         run: |
           python scripts/validate.py
           python scripts/validate_corpus.py
@@ -71,6 +81,7 @@ jobs:
             -o Dir::Etc::sourceparts="-" \
             fonts-noto-cjk
       - name: Stage all public pages with an identifiable deployment
+        if: ${{ !inputs.validated_run_id }}
         run: |
           mkdir -p _site build
           cp ./*.html _site/
@@ -92,6 +103,7 @@ jobs:
           print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources.')
           PY
       - name: Test the exact staged site before deployment
+        if: ${{ !inputs.validated_run_id }}
         run: |
           python -m http.server 8000 --directory _site > build/staged-server.log 2>&1 &
           SERVER_PID=$!
@@ -103,11 +115,49 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ !inputs.validated_run_id }}
         with:
           path: _site
+          name: github-pages-${{ github.run_attempt }}
+      - name: Recover a previously verified Pages artifact
+        if: ${{ inputs.validated_run_id }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VALIDATED_RUN_ID: ${{ inputs.validated_run_id }}
+          REQUESTED_SOURCE: ${{ inputs.source_ref }}
+          EXPECTED_COMMIT: ${{ steps.source.outputs.sha }}
+        run: python .renwen/scripts/recover_pages_artifact.py
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.validated_run_id }}
+        with:
+          name: github-pages-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/verified-pages/artifact.tar
+          if-no-files-found: error
+          retention-days: 1
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
+        run: |
+          for attempt in {1..24}; do
+            if count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
+                --method GET -f name="$PAGES_ARTIFACT_NAME" \
+                --jq '[.artifacts[] | select(.expired == false)] | length'); then
+              if [[ "$count" == 1 ]]; then exit 0; fi
+              if [[ "$count" -gt 1 ]]; then
+                echo 'Multiple Pages artifacts were returned for this attempt.' >&2
+                exit 1
+              fi
+            fi
+            sleep 5
+          done
+          echo 'Pages artifact failed to become visible within two minutes.' >&2
+          exit 1
       - name: Deploy verified reader
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
       - name: Verify published commit, reader, family and historical map
         env:
           EXPECTED_COMMIT: ${{ steps.source.outputs.sha }}
