@@ -121,11 +121,19 @@ jobs:
           required=['index.html','library.html','profiles.html','works.html','texts.html']
           for path in required:
               assert (root/path).is_file(), 'Missing public page: '+path
+          profile_bytes_saved=0
+          for path in (root/'data/corpus/profiles').glob('*.json'):
+              original=path.read_bytes()
+              profile=json.loads(original)
+              serialized = json.dumps(profile, ensure_ascii=False, separators=(',', ':'), allow_nan=False)
+              compact = (serialized + '\n').encode('utf-8')
+              path.write_bytes(compact)
+              profile_bytes_saved+=len(original)-len(compact)
           files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))+[root/'data/corpus/jinshu/065.json']
           hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
-          stamp={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'sourceRepository':'liuyao12/chinese-biographical-repository','deploymentRepository':'liuyao12/ren-wen','deploymentWorkflowCommit':os.environ['GITHUB_SHA'],'deploymentRunId':os.environ['GITHUB_RUN_ID'],'release':'cbr-integration-2026.10.09','publishedAt':datetime.now(timezone.utc).isoformat(),'files':hashes}
+          stamp={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'sourceRepository':'liuyao12/chinese-biographical-repository','deploymentRepository':'liuyao12/ren-wen','deploymentWorkflowCommit':os.environ['GITHUB_SHA'],'deploymentRunId':os.environ['GITHUB_RUN_ID'],'release':'cbr-integration-2026.10.09','publishedAt':datetime.now(timezone.utc).isoformat(),'profileJsonFormat':'compact','files':hashes}
           (root/'deployment.json').write_text(json.dumps(stamp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources.')
+          print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources; saved',profile_bytes_saved,'profile JSON bytes.')
           PY
       - name: Test the exact staged site before deployment
         if: ${{ !inputs.validated_run_id }}
