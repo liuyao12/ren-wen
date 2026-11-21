@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - .github/workflows/pages.yml
       - scripts/recover_pages_artifact.py
+      - scripts/deploy_pages.py
       - tests/test_recover_pages_artifact.py
   workflow_dispatch:
     inputs:
@@ -115,6 +116,7 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
+        id: staged_upload
         if: ${{ !inputs.validated_run_id }}
         with:
           path: _site
@@ -128,36 +130,20 @@ jobs:
           EXPECTED_COMMIT: ${{ steps.source.outputs.sha }}
         run: python .renwen/scripts/recover_pages_artifact.py
       - uses: actions/upload-artifact@v4
+        id: recovered_upload
         if: ${{ inputs.validated_run_id }}
         with:
           name: github-pages-${{ github.run_attempt }}
           path: ${{ runner.temp }}/verified-pages/artifact.tar
           if-no-files-found: error
           retention-days: 1
-      - name: Wait for Pages artifact metadata
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
-        run: |
-          for attempt in {1..24}; do
-            if count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" \
-                --method GET -f name="$PAGES_ARTIFACT_NAME" \
-                --jq '[.artifacts[] | select(.expired == false)] | length'); then
-              if [[ "$count" == 1 ]]; then exit 0; fi
-              if [[ "$count" -gt 1 ]]; then
-                echo 'Multiple Pages artifacts were returned for this attempt.' >&2
-                exit 1
-              fi
-            fi
-            sleep 5
-          done
-          echo 'Pages artifact failed to become visible within two minutes.' >&2
-          exit 1
       - name: Deploy verified reader
         id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: github-pages-${{ github.run_attempt }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT_ID: ${{ steps.staged_upload.outputs.artifact_id || steps.recovered_upload.outputs.artifact-id }}
+          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
+        run: python .renwen/scripts/deploy_pages.py
       - name: Verify published commit, reader, family and historical map
         env:
           EXPECTED_COMMIT: ${{ steps.source.outputs.sha }}
