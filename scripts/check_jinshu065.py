@@ -81,6 +81,11 @@ with sync_playwright() as playwright:
             ).first
             follow_citation(page, evidence, anchor, text)
             source_links = ", ".join(f'a[href="{source}"]' for source in sources)
+            source_details = page.locator("details.corpus-sources").filter(
+                has=page.locator(source_links)
+            )
+            if source_details.count() and source_details.get_attribute("open") is None:
+                source_details.locator("summary").click()
             expect(page.locator(source_links).first).to_be_visible()
         print(f"六朝人物引文驗證通過，視窗寬度 {width}px。", flush=True)
         page.close()
