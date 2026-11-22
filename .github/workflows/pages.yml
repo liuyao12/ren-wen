@@ -19,7 +19,6 @@ on:
       source_ref:
         description: CBR branch or exact commit to validate and publish
         required: true
-        default: 071740c8aa0986162fc8d9848aedae7257c6a27c
         type: string
       validated_run_id:
         description: Optional previous main Pages run with a verified artifact for this exact CBR commit
@@ -43,11 +42,29 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Resolve the CBR source for this deployment
+        id: source_ref
+        env:
+          REQUESTED_CBR_REF: ${{ inputs.source_ref }}
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            ref="$REQUESTED_CBR_REF"
+            git check-ref-format --allow-onelevel "$ref"
+          else
+            ref=$(curl --fail --silent --show-error --max-time 20 --retry 2 \
+              "https://liuyao12.github.io/ren-wen/deployment.json?run=$GITHUB_RUN_ID" | \
+              jq -er --arg repository "$GITHUB_REPOSITORY" '
+                select(.sourceRepository == "liuyao12/chinese-biographical-repository"
+                  and .deploymentRepository == $repository)
+                | .commit | select(type == "string" and test("^[0-9a-f]{40}$"))')
+          fi
+          printf 'ref=%s\n' "$ref" >> "$GITHUB_OUTPUT"
       - name: Check out the authoritative CBR reader and data
         uses: actions/checkout@v4
         with:
           repository: liuyao12/chinese-biographical-repository
-          ref: ${{ inputs.source_ref || '071740c8aa0986162fc8d9848aedae7257c6a27c' }}
+          ref: ${{ steps.source_ref.outputs.ref }}
       - name: Record the exact CBR source revision
         id: source
         run: printf 'sha=%s\n' "$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
