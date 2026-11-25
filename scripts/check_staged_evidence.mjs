@@ -1,12 +1,19 @@
 /** Verify that evidence links resolve in the files that will be published. */
 import assert from 'node:assert/strict';
-import {readFileSync, readdirSync, statSync} from 'node:fs';
+import {existsSync, readFileSync, readdirSync, statSync} from 'node:fs';
 import {join, resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 
 assert(process.argv[2], 'Usage: node check_staged_evidence.mjs <staged site>');
 const root = resolve(process.argv[2]);
 const json = path => JSON.parse(readFileSync(join(root, path), 'utf8'));
+const referencesModule = join(root, 'assets/passage-refs.js');
+const resolver = existsSync(referencesModule) ? await import(pathToFileURL(referencesModule)) : null;
+const passageDocuments = new Map();
+function loadPassages(path) {
+    if (!passageDocuments.has(path)) passageDocuments.set(path, resolver.indexPassageDocument(json(path)));
+    return passageDocuments.get(path);
+}
 const {sourcePassageURL} = await import(pathToFileURL(join(root, 'assets/corpus-reader.js')));
 const {nativeTableURL} = await import(pathToFileURL(join(root, 'assets/native-table-links.js')));
 const chapterPaths = new Map();
@@ -114,7 +121,8 @@ let problems = 0;
 for (const file of readdirSync(join(root, profiles))) {
     if (!file.endsWith('.json') || file === 'index.json') continue;
     people++;
-    const profile = json(join(profiles, file));
+    const stored = json(join(profiles, file));
+    const profile = resolver ? resolver.expandProfile(stored, loadPassages) : stored;
     for (const ref of profileCitations(profile)) {
         references++;
         try {
