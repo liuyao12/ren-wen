@@ -4,10 +4,12 @@ on:
   push:
     branches: [main]
     paths-ignore:
+      - AGENTS.md
       - .github/workflows/pages.yml
       - scripts/recover_pages_artifact.py
       - scripts/deploy_pages.py
       - scripts/stage_jinshu065.py
+      - scripts/stage_profile_passages.py
       - scripts/check_jinshu065.py
       - scripts/check_staged_evidence.mjs
       - tests/test_stage_jinshu065.py
@@ -56,6 +58,25 @@ jobs:
         with:
           ref: ${{ github.sha }}
           path: .renwen
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/
+            /corpus/jinshu/065.json
+            /corpus/jinshu/065-biographies.json
+      - name: Check out the pinned passage resolver for historical releases
+        if: ${{ !inputs.validated_run_id }}
+        uses: actions/checkout@v4
+        with:
+          repository: liuyao12/chinese-biographical-repository
+          ref: 16de3179636f0f0a1b4a925b67eb821d3e2838b6
+          path: .passage-tools
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/profile_passages.py
+            /scripts/quotation_refs.py
+            /scripts/table_passage_refs.py
+            /scripts/table_evidence.py
+            /assets/passage-refs.js
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -111,7 +132,9 @@ jobs:
           mkdir -p _site build
           cp ./*.html _site/
           cp -R assets data _site/
+          if test -f scripts/stage_chapter_links.py; then python scripts/stage_chapter_links.py _site; fi
           python .renwen/scripts/stage_jinshu065.py _site
+          python .renwen/scripts/stage_profile_passages.py _site .passage-tools
           touch _site/.nojekyll
           python - <<'PY'
           from pathlib import Path
@@ -132,6 +155,7 @@ jobs:
           files=list(root.glob('*.html'))+list((root/'assets').rglob('*'))+list((root/'data').glob('*.json'))+[root/'data/corpus/jinshu/065.json']
           hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
           stamp={'commit':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'sourceRepository':'liuyao12/chinese-biographical-repository','deploymentRepository':'liuyao12/ren-wen','deploymentWorkflowCommit':os.environ['GITHUB_SHA'],'deploymentRunId':os.environ['GITHUB_RUN_ID'],'release':'cbr-integration-2026.10.09','publishedAt':datetime.now(timezone.utc).isoformat(),'profileJsonFormat':'compact','files':hashes}
+          stamp['passageReferenceFormat'] = 1
           (root/'deployment.json').write_text(json.dumps(stamp,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           print('Staged', len(list(root.rglob('*'))), 'paths; checked',len(hashes),'entry resources; saved',profile_bytes_saved,'profile JSON bytes.')
           PY
